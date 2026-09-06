@@ -25,9 +25,11 @@ Les blocs suivants sont maintenant disponibles :
 4. `04-applying-the-adm/` — tailoring, iteration, security, Agile, large enterprise ;
 5. `05-architecture-governance/` — Board, Contract, Compliance, exceptions ;
 6. `06-architecture-content/` — deliverables, artifacts, building blocks, ABB/SBB, views ;
-7. `07-practitioner/` — raisonnement OGEA-102, scénarios, scoring 5/3/1/0 et open-book strategy.
+7. `07-practitioner/` — raisonnement OGEA-102, scénarios, scoring 5/3/1/0 et open-book strategy ;
+8. `08-mayabank-case-study/` — cas fil rouge complet Context → Preliminary → A → H + Requirements + Roadmap ;
+9. `09-foundation-question-bank/` — **300 questions originales OGEA-101** réparties selon la pondération officielle.
 
-Les prochaines itérations ajouteront le cas MayaBank complet, les banques de questions/scénarios, les examens blancs, les cheat sheets, l’anglais et les sources officielles consolidées.
+Les prochaines itérations ajouteront la banque de scénarios Practitioner, les examens blancs Combined, les cheat sheets, l’anglais et les sources officielles consolidées.
 
 ## Méthode pédagogique
 
