@@ -29,9 +29,10 @@ Les blocs suivants sont maintenant disponibles :
 8. `08-mayabank-case-study/` — cas fil rouge complet Context → Preliminary → A → H + Requirements + Roadmap ;
 9. `09-foundation-question-bank/` — **300 questions originales OGEA-101** réparties selon la pondération officielle ;
 10. `10-practitioner-scenarios/` — **60 scénarios originaux OGEA-102** avec quatre réponses plausibles et scoring pédagogique 5/3/1/0 ;
-11. `11-mock-exams/` — **6 examens blancs OGEA-103 Combined complets**, chacun avec 40 QCM Foundation + 8 scénarios Practitioner et corrections séparées.
+11. `11-mock-exams/` — **6 examens blancs OGEA-103 Combined complets**, chacun avec 40 QCM Foundation + 8 scénarios Practitioner et corrections séparées ;
+12. `12-cheat-sheets/` — **13 fiches de révision rapide** : ADM, comparaisons, confusions, techniques, gouvernance et Last Day Foundation/Practitioner/English.
 
-Les prochaines itérations ajouteront les cheat sheets, l’anglais pour architectes et les sources officielles consolidées avec l’audit final.
+Les prochaines itérations ajouteront le bloc complet **English for Architects** puis les sources officielles consolidées avec l’audit final du dépôt.
 
 ## Méthode pédagogique
 
