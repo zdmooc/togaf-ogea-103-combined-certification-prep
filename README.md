@@ -1,58 +1,52 @@
-# TOGAF® Enterprise Architecture — OGEA-103 Combined Preparation
+# TOGAF OGEA-103 Combined Certification Prep
 
-Dépôt d’apprentissage approfondi consacré à **TOGAF® Enterprise Architecture** et à la préparation de l’examen **OGEA-103 — TOGAF Enterprise Architecture Combined Part 1 and Part 2**.
+Préparation structurée à la certification **TOGAF Enterprise Architecture — OGEA-103 Combined**, basée sur le TOGAF Standard, 10th Edition.
 
-L’objectif n’est pas d’apprendre une liste de termes par cœur. Le dépôt est construit pour comprendre la logique de TOGAF, savoir appliquer l’ADM dans un vrai contexte d’architecture, réussir les questions Foundation et raisonner correctement sur les scénarios Practitioner.
+## Objectif
 
-## Certification target
+Construire une préparation complète et professionnelle couvrant :
 
-- **Part 1 — TOGAF Enterprise Architecture Foundation** : connaissance et compréhension des concepts, de l’ADM, des techniques, de la gouvernance et du contenu d’architecture.
-- **Part 2 — TOGAF Enterprise Architecture Practitioner** : application et analyse dans des scénarios, avec recherche rapide dans la référence fournie pendant l’examen.
-- **Combined — OGEA-103** : préparation des deux parties dans un parcours unique.
+- Foundation / OGEA-101 ;
+- Practitioner / OGEA-102 ;
+- OGEA-103 Combined ;
+- compréhension profonde de l’ADM ;
+- Architecture Governance ;
+- Architecture Content ;
+- application pratique à un cas fil rouge MayaBank ;
+- préparation aux entretiens d’architecte en anglais.
 
-Le syllabus de référence est celui défini par The Open Group pour les certifications basées sur le TOGAF Standard, 10th Edition. Voir [`AUDIT.md`](AUDIT.md) pour la baseline d’examen vérifiée et la stratégie de reconstruction.
+## État actuel du dépôt
 
-## Organisation du cours
+Les blocs suivants sont maintenant disponibles :
 
-Le dépôt progresse dans l’ordre suivant :
+1. `01-togaf-foundations/` — concepts fondamentaux ;
+2. `02-adm/` — ADM complet Preliminary → H + Requirements Management ;
+3. `03-adm-techniques/` — techniques principales ;
+4. `04-applying-the-adm/` — tailoring, iteration, security, Agile, large enterprise ;
+5. `05-architecture-governance/` — Board, Contract, Compliance, exceptions ;
+6. `06-architecture-content/` — deliverables, artifacts, building blocks, ABB/SBB, views ;
+7. `07-practitioner/` — raisonnement OGEA-102, scénarios, scoring 5/3/1/0 et open-book strategy.
 
-1. **Foundations** — vocabulaire, structure et concepts essentiels.
-2. **ADM** — le cœur de TOGAF, phase par phase et comme système complet.
-3. **ADM Techniques** — techniques utilisées pour conduire le travail d’architecture.
-4. **Applying the ADM** — adaptation au contexte réel.
-5. **Architecture Governance** — gouverner l’architecture et l’implémentation.
-6. **Architecture Content** — Deliverables, Artifacts, Building Blocks, views, viewpoints, catalogs, matrices et diagrams.
-7. **Practitioner** — raisonnement Part 2 et stratégie 5/3/1/0.
-8. **MayaBank Case Study** — transformation d’une entreprise financière fictive de bout en bout.
-9. **Question banks and mock exams** — entraînement original Foundation et Practitioner.
-10. **English for Architects** — anglais simple et réutilisable en entretien et en mission.
+Les prochaines itérations ajouteront le cas MayaBank complet, les banques de questions/scénarios, les examens blancs, les cheat sheets, l’anglais et les sources officielles consolidées.
 
-## Recommended reading order
+## Méthode pédagogique
 
-Commence par :
+Chaque chapitre cherche à répondre à :
 
-- [`01-togaf-foundations/01-enterprise-architecture.md`](01-togaf-foundations/01-enterprise-architecture.md)
-- puis lis le dossier `01-togaf-foundations/` dans l’ordre ;
-- continue avec [`02-adm/00-adm-big-picture.md`](02-adm/00-adm-big-picture.md) ;
-- étudie ensuite chaque phase ADM dans l’ordre.
+**WHY → WHAT → WHEN → WHO → HOW → INPUTS → STEPS → OUTPUTS → RELATIONSHIPS → EXAM TRAPS → REAL EXAMPLE → MAYABANK → QUESTIONS → ENGLISH**
 
-Ne commence pas par les cheat sheets. Elles serviront à la révision finale après l’apprentissage profond.
+Les exemples et questions du dépôt sont originaux. Ils ne reproduisent pas les questions officielles d’examen ni des brain dumps.
 
-## Quick links
+## Cas fil rouge
 
-- [Foundations](01-togaf-foundations/)
-- [ADM](02-adm/)
-- Practitioner — ajouté dans une itération ultérieure
-- MayaBank Case Study — ajouté dans une itération ultérieure
-- Foundation Question Bank — ajouté dans une itération ultérieure
-- Practitioner Scenarios — ajouté dans une itération ultérieure
-- Mock Exams — ajouté dans une itération ultérieure
-- Cheat Sheets — ajouté dans une itération ultérieure
+**MayaBank** est une banque fictive utilisée pour relier les concepts TOGAF à des transformations réalistes : paiements, données, applications, plateformes, sécurité, migration et gouvernance.
 
-## Sources and copyright
+## Langue
 
-Les explications et questions de ce dépôt sont originales. Le dépôt ne contient ni dumps d’examen, ni questions officielles copiées, ni reproduction substantielle des publications de The Open Group ou de cours commerciaux.
+Le cours est principalement rédigé en français, avec conservation des termes TOGAF officiels en anglais et des sections courtes **English for Architects** pour préparer les entretiens.
 
-La terminologie officielle est conservée en anglais. Les explications pédagogiques sont principalement en français afin de faciliter l’apprentissage tout en développant progressivement l’anglais professionnel d’architecture.
+## Sources
 
-**TOGAF®** et **The Open Group®** sont des marques déposées de The Open Group. Ce dépôt personnel n’est ni officiel, ni affilié à, ni approuvé par The Open Group.
+Le contenu est aligné sur le TOGAF Standard, 10th Edition et les informations officielles publiées par The Open Group. Les sources officielles consolidées seront regroupées dans `14-official-sources/` lors de l’itération finale.
+
+Voir aussi `AUDIT.md` pour l’audit initial et l’architecture cible du dépôt.
