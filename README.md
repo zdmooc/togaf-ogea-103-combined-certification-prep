@@ -30,9 +30,10 @@ Les blocs suivants sont maintenant disponibles :
 9. `09-foundation-question-bank/` — **300 questions originales OGEA-101** réparties selon la pondération officielle ;
 10. `10-practitioner-scenarios/` — **60 scénarios originaux OGEA-102** avec quatre réponses plausibles et scoring pédagogique 5/3/1/0 ;
 11. `11-mock-exams/` — **6 examens blancs OGEA-103 Combined complets**, chacun avec 40 QCM Foundation + 8 scénarios Practitioner et corrections séparées ;
-12. `12-cheat-sheets/` — **13 fiches de révision rapide** : ADM, comparaisons, confusions, techniques, gouvernance et Last Day Foundation/Practitioner/English.
+12. `12-cheat-sheets/` — **13 fiches de révision rapide** : ADM, comparaisons, confusions, techniques, gouvernance et Last Day Foundation/Practitioner/English ;
+13. `13-english-for-architects/` — **anglais professionnel pour architectes** : vocabulaire, présentation d’architecture, ADM, migration, governance, questions d’entretien, speaking/listening drills et mock interview.
 
-Les prochaines itérations ajouteront le bloc complet **English for Architects** puis les sources officielles consolidées avec l’audit final du dépôt.
+Il reste une dernière itération : consolidation des sources officielles, mapping X2202, audit de cohérence final et finalisation du dépôt.
 
 ## Méthode pédagogique
 
@@ -48,7 +49,7 @@ Les exemples, questions, scénarios et examens blancs du dépôt sont originaux.
 
 ## Langue
 
-Le cours est principalement rédigé en français, avec conservation des termes TOGAF officiels en anglais et des sections courtes **English for Architects** pour préparer les entretiens.
+Le cours est principalement rédigé en français, avec conservation des termes TOGAF officiels en anglais et un bloc complet **English for Architects** pour préparer les entretiens et l’expression orale.
 
 ## Sources
 
