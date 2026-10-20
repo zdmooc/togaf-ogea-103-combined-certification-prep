@@ -1,0 +1,43 @@
+id,theme,question,answer_short,why_it_matters
+C01,Concepts,Quelle est l’idée centrale de l’architecture d’entreprise ?,"Créer de la cohérence entre stratégie, métier, SI et technologie.",C’est la base de presque tout le reste.
+C02,Concepts,Pourquoi une architecture doit-elle prendre en compte les stakeholders ?,Parce qu’elle doit répondre à des attentes concrètes et arbitrer des intérêts réels.,"Sans cela, elle reste théorique."
+C03,Concepts,Qu’est-ce qu’une baseline architecture ?,L’état actuel de l’architecture.,Point de départ de toute comparaison.
+C04,Concepts,Qu’est-ce qu’une target architecture ?,L’état cible visé.,Donne la direction.
+C05,Concepts,Pourquoi une transition architecture est-elle utile ?,Parce qu’on passe rarement directement de l’existant à la cible.,Rend la trajectoire réaliste.
+C06,Concepts,Quel est le rôle d’un principle ?,Guider les décisions de façon stable.,Évite l’arbitraire.
+C07,Concepts,Quelle est la différence entre requirement et principle ?,La requirement exprime un besoin ; le principle guide la décision.,Confusion fréquente.
+C08,Concepts,Pourquoi la valeur de l’architecture ne se réduit-elle pas aux documents ?,"Parce qu’elle aide à décider, aligner et transformer.",Rappelle la finalité réelle.
+C09,Concepts,Qu’est-ce qu’un building block ?,Une brique réutilisable ou structurante.,Très fréquemment testé.
+C10,Concepts,Quelle est la différence simple entre artifact et deliverable ?,Un artifact décrit ; un deliverable est remis formellement.,Confusion classique.
+A01,ADM,Quel est le rôle global de l’ADM ?,Structurer la démarche d’architecture.,Cœur du standard.
+A02,ADM,Pourquoi l’ADM doit-il être adapté ?,"Parce que les contextes diffèrent en taille, maturité, contraintes et périmètre.",Évite l’apprentissage mécanique.
+A03,ADM,Pourquoi Requirements Management traverse-t-il tout l’ADM ?,Parce que les exigences évoluent et doivent rester suivies.,Point central de compréhension.
+A04,ADM,Quel est le but de la phase Preliminary ?,Préparer la capacité d’architecture et le cadre de travail.,Aide à situer le cycle.
+A05,ADM,Que cherche surtout la phase A ?,Construire une vision partagée et obtenir l’adhésion initiale.,Souvent demandé.
+A06,ADM,"Pourquoi les phases B, C et D sont-elles distinctes ?",Parce qu’elles adressent des dimensions d’architecture différentes.,Clarifie la progression.
+A07,ADM,Quel est le rôle des phases E et F ?,"Préparer opportunités, solutions et migration.",Relie architecture et transformation.
+A08,ADM,Pourquoi la phase G est-elle importante ?,Elle gouverne la mise en œuvre et la conformité.,Pont vers le delivery.
+A09,ADM,Quel est l’objectif de la phase H ?,Gérer le changement après mise en œuvre.,Montre que l’architecture continue.
+A10,ADM,Pourquoi l’itération est-elle normale dans l’ADM ?,Parce qu’une architecture mûrit par raffinements successifs.,Aide à éviter une lecture rigide.
+T01,Techniques,À quoi sert un business scenario ?,À rendre un besoin concret et exploitable.,Aide à relier théorie et terrain.
+T02,Techniques,À quoi sert une gap analysis ?,À comparer existant et cible pour identifier les écarts.,Base de la trajectoire.
+T03,Techniques,Pourquoi le risk management compte-t-il en architecture ?,Parce qu’une cible sans lecture des risques est fragile.,Dimension très concrète.
+T04,Techniques,Pourquoi l’interopérabilité est-elle un sujet d’architecture ?,Parce que les systèmes dépendent les uns des autres.,Évite une vision isolée.
+T05,Techniques,Quand utiliser les principles ?,Quand il faut orienter des décisions répétées ou arbitrer des options.,Aide à la cohérence.
+P01,Applying ADM,Que signifie appliquer l’ADM ?,Le calibrer et l’utiliser intelligemment dans un contexte réel.,Sujet clé Part 1.
+P02,Applying ADM,Pourquoi partitionner l’architecture ?,Pour maîtriser le périmètre et travailler par domaines ou niveaux.,Pratique réaliste.
+P03,Applying ADM,Pourquoi tous les travaux d’architecture n’ont-ils pas le même niveau de détail ?,Parce qu’ils ne répondent pas au même besoin ni au même moment.,Évite les surproductions.
+P04,Applying ADM,Pourquoi intégrer sécurité et gouvernance dès l’application de l’ADM ?,Parce que ce sont des contraintes structurantes et non des ajouts tardifs.,Très utile en pratique.
+G01,Governance,Quelle différence entre architecture governance et project management ?,"La première pilote cohérence et conformité ; le second gère exécution, coût et délai.",Confusion très fréquente.
+G02,Governance,Pourquoi tracer les décisions d’architecture ?,Pour garder la mémoire des arbitrages et gérer les écarts.,Base d’une gouvernance mature.
+G03,Governance,Une exception d’architecture est-elle forcément un échec ?,"Non, si elle est justifiée, tracée et gouvernée.",Nuance importante.
+G04,Governance,Que risque-t-on sans gouvernance d’architecture ?,Des dérogations implicites et une cible non respectée.,Effet terrain direct.
+CT01,Content,Qu’est-ce qu’un deliverable ?,Un livrable formel remis à une partie prenante.,Définition essentielle.
+CT02,Content,Qu’est-ce qu’un artifact ?,Un élément de description architectural comme un diagramme ou une matrice.,Définition essentielle.
+CT03,Content,Qu’est-ce qu’un building block ?,Une brique réutilisable ou structurante.,Définition essentielle.
+CT04,Content,"Comment relier deliverable, artifact et building block ?",Le deliverable contient des artifacts qui peuvent décrire des building blocks.,Relation clé.
+CT05,Content,Pourquoi le cadre de contenu aide-t-il ?,"Il évite de mélanger contenant, contenu et réutilisable.",Clarifie le travail.
+X01,Cross,"Dans une migration VM vers Kubernetes, quel peut être un building block ?",Le cluster standard ou le socle IAM.,Permet de concretiser.
+X02,Cross,"Dans une trajectoire SSO, quel artifact peut être utile ?",Une matrice applications/flux/identités.,Exemple réaliste.
+X03,Cross,"Dans une trajectoire cloud, quel deliverable formel peut être produit ?",Un dossier de vision ou une roadmap de migration.,Exemple réaliste.
+X04,Cross,Quelle erreur fréquente apparaît quand on apprend trop vite TOGAF ?,Réciter des mots sans comprendre le niveau de la notion.,Très fréquent en révision.
