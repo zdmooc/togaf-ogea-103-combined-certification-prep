@@ -1,0 +1,656 @@
+{
+  "schema": 1,
+  "date": "2026-10-20",
+  "destination_repository": "zdmooc/togaf-ogea-103-combined-certification-prep",
+  "source_history_copied": false,
+  "runtime_verified": false,
+  "sources": [
+    {
+      "repository": "zdmooc/togaf10-pt1-companion-repo-v3",
+      "commit": "52ceed328e5e402611bd2f7472a749e452ec3541",
+      "branch": "main",
+      "count": 91,
+      "files": [
+        {
+          "source": "LEGAL_AND_SCOPE.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/LEGAL_AND_SCOPE.md",
+          "sha": "e4dda2d2d5ceb4cbc4c49f098eecec48d4bfbb7f",
+          "mode": "100644",
+          "bytes": 675
+        },
+        {
+          "source": "README.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/README.md",
+          "sha": "ae747b1f3c7747c3a20c9c402d9ef40cb68ef12d",
+          "mode": "100644",
+          "bytes": 2982
+        },
+        {
+          "source": "cases/case-01-modernisation-plateforme.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/cases/case-01-modernisation-plateforme.md",
+          "sha": "55d736a22c722a524f66f081b9464bca181cae9a",
+          "mode": "100644",
+          "bytes": 897
+        },
+        {
+          "source": "cases/case-02-delegation-securite.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/cases/case-02-delegation-securite.md",
+          "sha": "210ec6ab74f7aa650dcf839443422ad565560375",
+          "mode": "100644",
+          "bytes": 570
+        },
+        {
+          "source": "cases/case-03-iam-sso.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/cases/case-03-iam-sso.md",
+          "sha": "e29c42ee2d8a5b8e8ae0de0bca986981163f6338",
+          "mode": "100644",
+          "bytes": 589
+        },
+        {
+          "source": "chapter-notes/chapter-01-introduction-detaillee.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/chapter-notes/chapter-01-introduction-detaillee.md",
+          "sha": "505e9a71c49e7628b78ba76971ece83f8186b816",
+          "mode": "100644",
+          "bytes": 980
+        },
+        {
+          "source": "chapter-notes/chapter-02-concepts-cles-detaillee.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/chapter-notes/chapter-02-concepts-cles-detaillee.md",
+          "sha": "444c1109f67aa41f8f958af9e3e496b9061f4435",
+          "mode": "100644",
+          "bytes": 985
+        },
+        {
+          "source": "chapter-notes/chapter-03-adm-detaillee.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/chapter-notes/chapter-03-adm-detaillee.md",
+          "sha": "22cb1e19fe984092cdf342c9c7a30d1eca468c4b",
+          "mode": "100644",
+          "bytes": 807
+        },
+        {
+          "source": "chapter-notes/chapter-04-techniques-detaillee.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/chapter-notes/chapter-04-techniques-detaillee.md",
+          "sha": "02ae9494923dbee228464464e6ea3d6e5a369749",
+          "mode": "100644",
+          "bytes": 827
+        },
+        {
+          "source": "chapter-notes/chapter-05-applying-adm-detaillee.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/chapter-notes/chapter-05-applying-adm-detaillee.md",
+          "sha": "b0f0707a73c753baa9fc9a480a4a02debc463e6b",
+          "mode": "100644",
+          "bytes": 609
+        },
+        {
+          "source": "chapter-notes/chapter-06-governance-detaillee.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/chapter-notes/chapter-06-governance-detaillee.md",
+          "sha": "c0d630875170bc1d3c92a04c9d78a1d4461203c7",
+          "mode": "100644",
+          "bytes": 723
+        },
+        {
+          "source": "chapter-notes/chapter-07-content-framework-detaillee.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/chapter-notes/chapter-07-content-framework-detaillee.md",
+          "sha": "19a267b83ed287caae9d4ace8d027f79b4293c98",
+          "mode": "100644",
+          "bytes": 714
+        },
+        {
+          "source": "chapter-notes/worksheets/worksheet-01-concepts.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/chapter-notes/worksheets/worksheet-01-concepts.md",
+          "sha": "ddb691018a5c6eca5dfc8846ff68992e065e0185",
+          "mode": "100644",
+          "bytes": 390
+        },
+        {
+          "source": "chapter-notes/worksheets/worksheet-02-adm.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/chapter-notes/worksheets/worksheet-02-adm.md",
+          "sha": "94fd8f38f32a20b269a6168c954b12bf9e412009",
+          "mode": "100644",
+          "bytes": 212
+        },
+        {
+          "source": "chapter-notes/worksheets/worksheet-03-governance-content.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/chapter-notes/worksheets/worksheet-03-governance-content.md",
+          "sha": "0126fd882b6df854b9fd67a64e377912bd4f9f40",
+          "mode": "100644",
+          "bytes": 287
+        },
+        {
+          "source": "daily-plan/day-01.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-01.md",
+          "sha": "fd42a4a4295ff7f704100e3d632e3be9b328695d",
+          "mode": "100644",
+          "bytes": 233
+        },
+        {
+          "source": "daily-plan/day-02.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-02.md",
+          "sha": "4add5fc92b7c9677db01fd5ea50b9da6225e98a8",
+          "mode": "100644",
+          "bytes": 233
+        },
+        {
+          "source": "daily-plan/day-03.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-03.md",
+          "sha": "de4a42257a17cd934b995171585bd7d9e56a886e",
+          "mode": "100644",
+          "bytes": 233
+        },
+        {
+          "source": "daily-plan/day-04.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-04.md",
+          "sha": "28beeeb69f7970328513d2b424709bc4d1763d6a",
+          "mode": "100644",
+          "bytes": 204
+        },
+        {
+          "source": "daily-plan/day-05.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-05.md",
+          "sha": "2ac60d099efcad500324ccc969ed989a249860f7",
+          "mode": "100644",
+          "bytes": 204
+        },
+        {
+          "source": "daily-plan/day-06.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-06.md",
+          "sha": "aafedc56b9cf42e5268ae52bc0de537d5ce920b0",
+          "mode": "100644",
+          "bytes": 204
+        },
+        {
+          "source": "daily-plan/day-07.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-07.md",
+          "sha": "19ca49b698a5dbc74a1c4d0f0dd0053801f61e47",
+          "mode": "100644",
+          "bytes": 211
+        },
+        {
+          "source": "daily-plan/day-08.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-08.md",
+          "sha": "9bdb88632ced1698bcf352bdd471ad3434766eaa",
+          "mode": "100644",
+          "bytes": 211
+        },
+        {
+          "source": "daily-plan/day-09.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-09.md",
+          "sha": "a29bac1dd0b314112a5a5e34081ca331abebdbe7",
+          "mode": "100644",
+          "bytes": 211
+        },
+        {
+          "source": "daily-plan/day-10.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-10.md",
+          "sha": "929755a3e340fbf19276f78332be025a73d978cc",
+          "mode": "100644",
+          "bytes": 217
+        },
+        {
+          "source": "daily-plan/day-11.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-11.md",
+          "sha": "3b55e34b89e4683b2d71ebdeadbfc2aca4bcc1f2",
+          "mode": "100644",
+          "bytes": 217
+        },
+        {
+          "source": "daily-plan/day-12.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-12.md",
+          "sha": "2d23612779c151aa6c53fa9ab7d66c42f8ea5d5b",
+          "mode": "100644",
+          "bytes": 217
+        },
+        {
+          "source": "daily-plan/day-13.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-13.md",
+          "sha": "90e8150bb71e43bc5ae70c89867151818ac1fe46",
+          "mode": "100644",
+          "bytes": 219
+        },
+        {
+          "source": "daily-plan/day-14.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-14.md",
+          "sha": "8ec064d19d266eb80f812530b5c2daa8fbf7354c",
+          "mode": "100644",
+          "bytes": 219
+        },
+        {
+          "source": "daily-plan/day-15.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-15.md",
+          "sha": "5aa99931a8db8c6e029b551b8d99b04f2b01fd68",
+          "mode": "100644",
+          "bytes": 219
+        },
+        {
+          "source": "daily-plan/day-16.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-16.md",
+          "sha": "b66773bff93f4a9205fe7163e7e229d029c4022f",
+          "mode": "100644",
+          "bytes": 242
+        },
+        {
+          "source": "daily-plan/day-17.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-17.md",
+          "sha": "33e80b42e230ebf1ca6c742ff29f1153c8e5521b",
+          "mode": "100644",
+          "bytes": 242
+        },
+        {
+          "source": "daily-plan/day-18.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-18.md",
+          "sha": "a551a3c1e592d0515b5c05a5da0574f5b81f66e3",
+          "mode": "100644",
+          "bytes": 242
+        },
+        {
+          "source": "daily-plan/day-19.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-19.md",
+          "sha": "9ef0d98dce420e012c5ef5e1a6d2d7fc3e6af82e",
+          "mode": "100644",
+          "bytes": 192
+        },
+        {
+          "source": "daily-plan/day-20.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-20.md",
+          "sha": "7874adacccc9fe45adf3339977f0dacd74ade1f0",
+          "mode": "100644",
+          "bytes": 192
+        },
+        {
+          "source": "daily-plan/day-21.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/daily-plan/day-21.md",
+          "sha": "ad0e6428990b4d78fbb45f82354fda7ad906dc2c",
+          "mode": "100644",
+          "bytes": 221
+        },
+        {
+          "source": "docs/00-course-map.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/00-course-map.md",
+          "sha": "183432774416776b6c60fe353dbd4e2af976a629",
+          "mode": "100644",
+          "bytes": 1426
+        },
+        {
+          "source": "docs/01-presentation-du-cours.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/01-presentation-du-cours.md",
+          "sha": "fefb53e4c8768877a70f48b16c7955492b5b0c23",
+          "mode": "100644",
+          "bytes": 995
+        },
+        {
+          "source": "docs/02-introduction.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/02-introduction.md",
+          "sha": "7f0c7a608d5a8214f3dace2751bd6063d4cc8b58",
+          "mode": "100644",
+          "bytes": 1160
+        },
+        {
+          "source": "docs/03-concepts-cles.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/03-concepts-cles.md",
+          "sha": "3577698d7c4d5581c6caeb23f89858b47dc52ee0",
+          "mode": "100644",
+          "bytes": 2513
+        },
+        {
+          "source": "docs/04-adm-introduction.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/04-adm-introduction.md",
+          "sha": "d237004f7b497c1af17085fd08bd49fd869d2834",
+          "mode": "100644",
+          "bytes": 1564
+        },
+        {
+          "source": "docs/05-adm-techniques-recommandations.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/05-adm-techniques-recommandations.md",
+          "sha": "95a69095617f9dfa45be9699f338ca6a48e411ae",
+          "mode": "100644",
+          "bytes": 1974
+        },
+        {
+          "source": "docs/06-appliquer-adm.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/06-appliquer-adm.md",
+          "sha": "19dba99f2f07afc6d721e0306b7c01534e26d67d",
+          "mode": "100644",
+          "bytes": 1648
+        },
+        {
+          "source": "docs/07-gouvernance-architecture.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/07-gouvernance-architecture.md",
+          "sha": "0838f26cf1d23072e53c69421b4c7a5a2a19b317",
+          "mode": "100644",
+          "bytes": 1442
+        },
+        {
+          "source": "docs/08-cadre-contenu-architecture.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/08-cadre-contenu-architecture.md",
+          "sha": "849be2fff6b25de7e3ca544fced7e9b717a7f464",
+          "mode": "100644",
+          "bytes": 1784
+        },
+        {
+          "source": "docs/09-synthese-express.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/09-synthese-express.md",
+          "sha": "b0d598c6b11a2264083a4e7c35de17f4f2225b7c",
+          "mode": "100644",
+          "bytes": 1168
+        },
+        {
+          "source": "docs/10-glossaire.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/10-glossaire.md",
+          "sha": "3bd0af9a725afa6fa7f539a6a496c90c8dac34c9",
+          "mode": "100644",
+          "bytes": 965
+        },
+        {
+          "source": "docs/11-tableaux-comparatifs.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/11-tableaux-comparatifs.md",
+          "sha": "e5ff3e79240268885ea908876ce393d5f8358dd3",
+          "mode": "100644",
+          "bytes": 1066
+        },
+        {
+          "source": "docs/12-plan-revision-4-semaines.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/docs/12-plan-revision-4-semaines.md",
+          "sha": "099da6da7ef4d2e2dd62cab991630d8cefd6a64a",
+          "mode": "100644",
+          "bytes": 451
+        },
+        {
+          "source": "flashcards/adm.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/flashcards/adm.md",
+          "sha": "50c0edeb490c407cd413282188423eebfa61f2f8",
+          "mode": "100644",
+          "bytes": 705
+        },
+        {
+          "source": "flashcards/concepts-cles.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/flashcards/concepts-cles.md",
+          "sha": "1405ebf2a32bb1f46884a1b9ebf56ef4dba49ac2",
+          "mode": "100644",
+          "bytes": 838
+        },
+        {
+          "source": "interview-mission/mini-cas-architecture-entreprise.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/interview-mission/mini-cas-architecture-entreprise.md",
+          "sha": "5507d2191ada688310b52742390cd703770b75f9",
+          "mode": "100644",
+          "bytes": 406
+        },
+        {
+          "source": "interview-mission/reponses-courtes.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/interview-mission/reponses-courtes.md",
+          "sha": "9d862263ce1c84899e5ef02b2992cdda3b10797b",
+          "mode": "100644",
+          "bytes": 377
+        },
+        {
+          "source": "interview-mission/togaf-part1-pour-entretien.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/interview-mission/togaf-part1-pour-entretien.md",
+          "sha": "4107486203e35745fa2adf48fd8a75b86353a0d8",
+          "mode": "100644",
+          "bytes": 533
+        },
+        {
+          "source": "mcq/corrections/mcq-mock-exam-01-correction.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mcq/corrections/mcq-mock-exam-01-correction.md",
+          "sha": "8299743737a3a78a8e8a1edf540fa11f5257844a",
+          "mode": "100644",
+          "bytes": 4186
+        },
+        {
+          "source": "mcq/corrections/mcq-mock-exam-02-correction.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mcq/corrections/mcq-mock-exam-02-correction.md",
+          "sha": "8daaa122b3803cc2a90ea4811c95981c7c2ac8cd",
+          "mode": "100644",
+          "bytes": 4167
+        },
+        {
+          "source": "mcq/corrections/mcq-mock-exam-03-correction.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mcq/corrections/mcq-mock-exam-03-correction.md",
+          "sha": "aeb93035029bd3fda0d051a015b742f8e7594224",
+          "mode": "100644",
+          "bytes": 4103
+        },
+        {
+          "source": "mcq/mcq-mock-exam-01.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mcq/mcq-mock-exam-01.md",
+          "sha": "0339b3751d4cb91655b2f462847371b31eb4c603",
+          "mode": "100644",
+          "bytes": 8767
+        },
+        {
+          "source": "mcq/mcq-mock-exam-02.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mcq/mcq-mock-exam-02.md",
+          "sha": "fddd40d1843be14097ff071d9b4bdf470db25f48",
+          "mode": "100644",
+          "bytes": 8424
+        },
+        {
+          "source": "mcq/mcq-mock-exam-03.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mcq/mcq-mock-exam-03.md",
+          "sha": "7400f256fb65f240eba2b64f9f6e87858727f53a",
+          "mode": "100644",
+          "bytes": 8397
+        },
+        {
+          "source": "mcq/question-bank-mcq.csv",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mcq/question-bank-mcq.csv",
+          "sha": "516e891060955fb3540640b047fc49635690c54b",
+          "mode": "100644",
+          "bytes": 29716
+        },
+        {
+          "source": "mcq/question-bank-mcq.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mcq/question-bank-mcq.md",
+          "sha": "28554d1fb19d6cecfda2b1e2bf3d145e901ad968",
+          "mode": "100644",
+          "bytes": 28176
+        },
+        {
+          "source": "memory-aids/mnemonics.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/memory-aids/mnemonics.md",
+          "sha": "d2e9dad31e99c27a88e81427381f5a4b7478351f",
+          "mode": "100644",
+          "bytes": 426
+        },
+        {
+          "source": "memory-aids/one-page-recap.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/memory-aids/one-page-recap.md",
+          "sha": "57453d83a3a2818a0725c452702eceef59bbd353",
+          "mode": "100644",
+          "bytes": 397
+        },
+        {
+          "source": "mock-exams/mock-exam-01-correction.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mock-exams/mock-exam-01-correction.md",
+          "sha": "c0e67ab807c9559f4ff5cc3fd32d98f2b73c8217",
+          "mode": "100644",
+          "bytes": 13261
+        },
+        {
+          "source": "mock-exams/mock-exam-01.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mock-exams/mock-exam-01.md",
+          "sha": "98fd7f93ab9fc785abc3bc1182696ab059d1e5c6",
+          "mode": "100644",
+          "bytes": 4785
+        },
+        {
+          "source": "mock-exams/mock-exam-02-correction.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mock-exams/mock-exam-02-correction.md",
+          "sha": "c5b94a922f5abdfe9a9fbcd94065dea82b508688",
+          "mode": "100644",
+          "bytes": 13343
+        },
+        {
+          "source": "mock-exams/mock-exam-02.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mock-exams/mock-exam-02.md",
+          "sha": "251159d35641b75687383b8e3d91b87351b12f08",
+          "mode": "100644",
+          "bytes": 4915
+        },
+        {
+          "source": "mock-exams/mock-exam-03-correction.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mock-exams/mock-exam-03-correction.md",
+          "sha": "10c4af748077b2e0911fe31f9b0a70c0ce3684bc",
+          "mode": "100644",
+          "bytes": 13590
+        },
+        {
+          "source": "mock-exams/mock-exam-03.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mock-exams/mock-exam-03.md",
+          "sha": "76a30cbbc4bf5fbcfa0f08a376cfcfd098e0de23",
+          "mode": "100644",
+          "bytes": 4916
+        },
+        {
+          "source": "mock-exams/mock-exam-04-correction.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mock-exams/mock-exam-04-correction.md",
+          "sha": "e869dac1c4bf4b53366e8e979c2977eb24a23a14",
+          "mode": "100644",
+          "bytes": 13215
+        },
+        {
+          "source": "mock-exams/mock-exam-04.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/mock-exams/mock-exam-04.md",
+          "sha": "539fed7b5fda8c9ff32f1752cc75d9e03826a82d",
+          "mode": "100644",
+          "bytes": 4843
+        },
+        {
+          "source": "practice/answer-explanations/common-traps.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/answer-explanations/common-traps.md",
+          "sha": "04ebefc74038f3f8d38614a61430be7d13d4758a",
+          "mode": "100644",
+          "bytes": 350
+        },
+        {
+          "source": "practice/answer-explanations/how-to-read-a-question.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/answer-explanations/how-to-read-a-question.md",
+          "sha": "847912ffbe4fedb5c94bb9188fe431ff925dadac",
+          "mode": "100644",
+          "bytes": 408
+        },
+        {
+          "source": "practice/deep-drills/drill-01-deliverable-artifact-building-block.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/deep-drills/drill-01-deliverable-artifact-building-block.md",
+          "sha": "c20aae77d4a1d23ace87aea6db07a95b1f027713",
+          "mode": "100644",
+          "bytes": 595
+        },
+        {
+          "source": "practice/deep-drills/drill-02-adm-phases.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/deep-drills/drill-02-adm-phases.md",
+          "sha": "9fc04d3375b4f0abb404a685fd324778d75c0f9d",
+          "mode": "100644",
+          "bytes": 475
+        },
+        {
+          "source": "practice/deep-drills/drill-03-governance.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/deep-drills/drill-03-governance.md",
+          "sha": "4fa0815bcbca45a6f3528748ec2d04b8f1c65573",
+          "mode": "100644",
+          "bytes": 390
+        },
+        {
+          "source": "practice/deep-drills/drill-04-transition.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/deep-drills/drill-04-transition.md",
+          "sha": "8ba985121c9de3222751a4a37b1766b2852e4bc2",
+          "mode": "100644",
+          "bytes": 273
+        },
+        {
+          "source": "practice/question-bank-v2.csv",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/question-bank-v2.csv",
+          "sha": "94df28889203ef01c0e62000a770681d0c9e7f72",
+          "mode": "100644",
+          "bytes": 56622
+        },
+        {
+          "source": "practice/question-bank-v2.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/question-bank-v2.md",
+          "sha": "897895b52f173d7434a6fb2ad2c095fc7199e7de",
+          "mode": "100644",
+          "bytes": 63454
+        },
+        {
+          "source": "practice/question-bank.csv",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/question-bank.csv",
+          "sha": "d14df726e556ce847178542e9a4726a5db1a96ac",
+          "mode": "100644",
+          "bytes": 6384
+        },
+        {
+          "source": "practice/question-bank.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/question-bank.md",
+          "sha": "f303c04832521b8ca6a0e98b13b23dacf70bba8f",
+          "mode": "100644",
+          "bytes": 9834
+        },
+        {
+          "source": "practice/quiz-01-concepts.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/quiz-01-concepts.md",
+          "sha": "e84b12ef316e083fe643337084d54bcf2399b992",
+          "mode": "100644",
+          "bytes": 1237
+        },
+        {
+          "source": "practice/quiz-02-adm.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/quiz-02-adm.md",
+          "sha": "4352e043c623c98cb0e86e64431d3738bdc6ef87",
+          "mode": "100644",
+          "bytes": 1191
+        },
+        {
+          "source": "practice/quiz-03-governance-content.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/practice/quiz-03-governance-content.md",
+          "sha": "1803f00b36f6f56baecfa66f0f23426beb2575cb",
+          "mode": "100644",
+          "bytes": 1058
+        },
+        {
+          "source": "scripts/init-study-week.sh",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/scripts/init-study-week.sh",
+          "sha": "6c2198d6618b90db30cc64b9fb65ddbc3b8b8b95",
+          "mode": "100644",
+          "bytes": 348
+        },
+        {
+          "source": "sources/SOURCES.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/sources/SOURCES.md",
+          "sha": "7844d1362ed89c2fc652baf863928c4e47bd869f",
+          "mode": "100644",
+          "bytes": 417
+        },
+        {
+          "source": "trackers/error-log.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/trackers/error-log.md",
+          "sha": "8f7c76be63a5ff746c51db3b20e8e8d11db65a2e",
+          "mode": "100644",
+          "bytes": 353
+        },
+        {
+          "source": "trackers/mock-exam-log.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/trackers/mock-exam-log.md",
+          "sha": "f803d1e75b82dde950cede2eee92e3f1c646912d",
+          "mode": "100644",
+          "bytes": 232
+        },
+        {
+          "source": "trackers/study-log.csv",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/trackers/study-log.csv",
+          "sha": "846b6da0711925d508ea9202bff22b7ce44cf278",
+          "mode": "100644",
+          "bytes": 83
+        },
+        {
+          "source": "trackers/weekly-reviews/README.md",
+          "destination": "legacy/togaf-part1/togaf10-pt1-companion-repo-v3/trackers/weekly-reviews/README.md",
+          "sha": "68f52d2bc7e181e2ee667dacdf29357c97df744a",
+          "mode": "100644",
+          "bytes": 180
+        }
+      ]
+    }
+  ],
+  "status": "CONTENT_TRANSFER_PENDING_PR_MERGE",
+  "total": 91
+}

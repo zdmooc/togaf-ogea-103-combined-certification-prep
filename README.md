@@ -93,3 +93,7 @@ Le cours est principalement en français, avec conservation des termes TOGAF off
 Les faits d'examen et le mapping final sont consolidés dans `14-official-sources/` à partir de The Open Group Help Center, X2202 et du Body of Knowledge applicable.
 
 Avant de réserver l'examen, re-vérifier les règles actuelles de timing, ESL, retake et open-book auprès de The Open Group/Pearson.
+
+## Historical preservation — togaf-part1 (20 Oct 2026)
+
+Original archived source reference(s) are preserved without modifications under [legacy/togaf-part1/](legacy/togaf-part1/MIGRATION.md), with 91 SHA-verified files, including any binary files and original license documents. This is not a claim of runtime validation.
