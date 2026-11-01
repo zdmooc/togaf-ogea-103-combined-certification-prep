@@ -1,6 +1,6 @@
-# Traçabilité X2202 — 131 learning outcomes et références de questions précises (candidates)
+# Traçabilité X2202 — 131 learning outcomes et références de questions candidates
 
-**Statut : 131 objectifs X2202 recensés, avec **125 associations vers des numéros précis de questions candidates** et **6 lacunes ou cas sans test dédié**. Aucune association n'est réputée validée tant que la justesse, le niveau Bloom et le lien avec le texte officiel n'ont pas été relus. Les formulations sont des résumés pédagogiques ; L1 = Foundation, L2 = Practitioner.
+**Statut : 131 objectifs recensés. 130 objectifs disposent désormais d'une référence explicite à un ou plusieurs exercices candidats ; L1.8.1 n'impose pas de question distincte (Bloom = None). Une référence candidate n'est jamais une validation de fond ou du niveau Bloom.** Les formulations de cette table restent des résumés pédagogiques, et les 131 objectifs doivent être relus contre le texte officiel.
 
 **Syllabus de référence :** [TOGAF Certification Program Conformance Requirements X2202](https://www.opengroup.org/library/x2202), sections 3.1 et 3.2. La formulation et le niveau de Bloom exacts doivent toujours être confrontés à l'original avant de marquer un objectif vérifié.
 
@@ -8,7 +8,7 @@
 
 | Objectif | Notion à démontrer | Cours candidat | Références d'exercices précises | Statut de revue |
 |---|---|---|---|---|
-| L1.1.1 | Définition d'une entreprise | [Cours](../01-togaf-foundations/01-enterprise-architecture.md) | — | **Lacune / non testé** |
+| L1.1.1 | Définition d'une entreprise | [Cours](../01-togaf-foundations/01-enterprise-architecture.md) | XF01 | Candidat précis — non relu |
 | L1.1.2 | Finalité de l'architecture d'entreprise | [Cours](../01-togaf-foundations/01-enterprise-architecture.md) | Q001, Q002 | Candidat précis — non relu |
 | L1.1.3 | Bénéfices de l'architecture | [Cours](../01-togaf-foundations/01-enterprise-architecture.md) | Q002, Q059 | Candidat précis — non relu |
 | L1.1.4 | TOGAF comme cadre d'EA | [Cours](../01-togaf-foundations/02-what-is-togaf.md) | Q003 | Candidat précis — non relu |
@@ -64,7 +64,7 @@
 |---|---|---|---|---|
 | L1.4.1 | Relations ADM et techniques | [Cours](../03-adm-techniques/09-technique-selection-guide.md) | Q201–Q210 | Candidat précis — non relu |
 | L1.4.2 | Finalité des Architecture Principles | [Cours](../01-togaf-foundations/06-architecture-principles.md) | Q015, Q258 | Candidat précis — non relu |
-| L1.4.3 | Structure Name/Statement/Rationale/Implications | [Cours](../01-togaf-foundations/06-architecture-principles.md) | — | **Lacune / non testé** |
+| L1.4.3 | Structure Name/Statement/Rationale/Implications | [Cours](../01-togaf-foundations/06-architecture-principles.md) | XF02 | Candidat précis — non relu |
 | L1.4.4 | Qualités de principes robustes | [Cours](../01-togaf-foundations/10-x2202-foundation-deepening.md) | F07 | Candidat précis — non relu |
 | L1.4.5 | Business Scenarios | [Cours](../03-adm-techniques/02-business-scenarios.md) | Q170–Q173 | Candidat précis — non relu |
 | L1.4.6 | Gap Analysis | [Cours](../03-adm-techniques/03-gap-analysis.md) | Q174–Q178 | Candidat précis — non relu |
@@ -121,7 +121,7 @@
 | L2.1.8 | Enterprise Security Architecture | [Cours](../04-applying-the-adm/05-security.md) | S006 | Candidat précis — non relu |
 | L2.1.9 | Sécurité comme sujet transversal | [Cours](../04-applying-the-adm/05-security.md) | S006 | Candidat précis — non relu |
 | L2.1.10 | Gestion de l'incertitude, valeur et pertes | [Cours](../03-adm-techniques/06-risk-management.md) | S007, A08 | Candidat précis — non relu |
-| L2.1.11 | Quatre contextes DPBoK | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | — | **Lacune / non testé** |
+| L2.1.11 | Quatre contextes DPBoK | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP01 | Candidat précis — non relu |
 
 ## L2 U2 — Stakeholder Management (4 objectifs)
 
@@ -199,7 +199,7 @@
 | L2.8.2 | Business Scenario Technique | [Cours](../03-adm-techniques/02-business-scenarios.md) | S053 | Candidat précis — non relu |
 | L2.8.3 | Compliance Assessment : usages | [Cours](../05-architecture-governance/04-architecture-compliance.md) | S038, A01 | Candidat précis — non relu |
 | L2.8.4 | Migration Planning et consolidation des gaps | [Cours](../03-adm-techniques/08-migration-planning-techniques.md) | S054, A05 | Candidat précis — non relu |
-| L2.8.5 | Organisation logique du Repository | [Cours](../01-togaf-foundations/08-architecture-repository.md) | — | **Lacune / non testé** |
+| L2.8.5 | Organisation logique du Repository | [Cours](../01-togaf-foundations/08-architecture-repository.md) | XP02 | Candidat précis — non relu |
 | L2.8.6 | Ce que contient un Repository bien maintenu | [Cours](../07-practitioner/09-supporting-adm-work.md) | S043 | Candidat précis — non relu |
 | L2.8.7 | Architecture Levels et Landscape | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | S057 | Candidat précis — non relu |
 | L2.8.8 | Niveaux d'architecture dans l'entreprise | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | S057 | Candidat précis — non relu |
@@ -208,11 +208,11 @@
 | L2.8.11 | Capabilities, Value Streams, Organization/Information Mapping | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S057, S058 | Candidat précis — non relu |
 | L2.8.12 | Gap Analysis et applications | [Cours](../03-adm-techniques/03-gap-analysis.md) | S054 | Candidat précis — non relu |
 | L2.8.13 | Itérations de pratiques architecturales | [Cours](../04-applying-the-adm/02-iteration.md) | S028, S060 | Candidat précis — non relu |
-| L2.8.14 | Implementation Factor Catalog, Matrix et Increments | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | — | **Lacune / non testé** |
+| L2.8.14 | Implementation Factor Catalog, Matrix et Increments | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP03 | Candidat précis — non relu |
 | L2.8.15 | Utilité de l'Enterprise Metamodel | [Cours](../06-architecture-content/02-content-metamodel.md) | S059 | Candidat précis — non relu |
 | L2.8.16 | Quand alimenter l'Architecture Content Framework | [Cours](../06-architecture-content/01-content-framework.md) | S059 | Candidat précis — non relu |
 | L2.8.17 | Utiliser l'Enterprise Metamodel | [Cours](../06-architecture-content/02-content-metamodel.md) | S059 | Candidat précis — non relu |
-| L2.8.18 | Taxonomie : classement des objets | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | — | **Lacune / non testé** |
+| L2.8.18 | Taxonomie : classement des objets | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP04 | Candidat précis — non relu |
 | L2.8.19 | Risk Assessment : usages | [Cours](../03-adm-techniques/06-risk-management.md) | S056 | Candidat précis — non relu |
 
 ## Méthode de clôture (obligatoire)
@@ -224,10 +224,14 @@ Cette matrice permet de **détecter les manques**, et non de prétendre que le d
 ## Conventions de numérotation
 
 - `Q001` à `Q300` : banque Foundation principale (`09-foundation-question-bank/01` à `08`).
+- `XF01` et `XF02` : exercices ciblés Foundation (`09-foundation-question-bank/10-x2202-targeted-drills.md`).
+- `XP01` à `XP04` : cas ciblés Practitioner (`10-practitioner-scenarios/10-x2202-targeted-cases.md`).
 - `F01` à `F24` : exercices Foundation avancés (`09-foundation-question-bank/09-advanced-drills.md`).
 - `S001` à `S060` : banque Practitioner (`10-practitioner-scenarios/01` à `08`).
 - `A01` à `A08` : scénarios Practitioner avancés (`10-practitioner-scenarios/09-advanced-multi-constraint-scenarios.md`).
 - Une plage telle que `Q074–Q078` renvoie à des **numéros de questions spécifiques**, et non à la totalité d'un chapitre ; chaque question reste à examiner.
 - `—` signifie absence d'épreuve dédiée identifiée : priorité à la création et à la validation d'un item approprié.
+
+**Note sur L1.8.1 :** l'objectif concerne la compréhension du programme de certification et possède un niveau Bloom `None` dans X2202. Son absence de question dédiée est volontaire ; consulter les informations officielles pour les modalités d'examen actualisées.
 
 **Ce que cette matrice ne démontre pas :** que chaque question est correcte, unique ou du niveau cognitif requis, ni que le cours enseigne intégralement le learning outcome. La certification nécessite toujours le contenu de référence officiel et une validation de fond.
