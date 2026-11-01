@@ -124,9 +124,9 @@ D. Une matrix est un building block
 
 ## Q276 — Viewpoint
 Un viewpoint définit :
-A. La représentation concrète elle-même
-B. Un SBB
-C. Un work package
+A. Les composants représentés dans une architecture view approuvée à un jalon du projet
+B. Les décisions et exceptions de l'Architecture Board enregistrées dans le Governance Log
+C. Les instances de capabilities et services métiers définies dans un Architecture Metamodel
 D. Les conventions pour construire une view répondant à certains concerns
 **Réponse : D.** Viewpoint = manière/convention ; View = représentation produite.
 **Mapping : Architecture Content — Views/Viewpoints.**
@@ -161,9 +161,9 @@ D. Il n'a aucun rapport avec les stakeholders
 
 ## Q280 — ABB
 Un Architecture Building Block décrit principalement :
-A. Un produit installé exact
-B. Une exception
-C. Un diagramme
+A. Un produit concret configuré pour réaliser un service défini dans l'architecture cible
+B. Un diagramme qui représente graphiquement plusieurs composants applicatifs déployés
+C. Un Architecture Contract fixant les engagements entre propriétaires et fournisseurs
 D. Une capacité architecturale nécessaire sans imposer une solution produit précise
 **Réponse : D.** ABB = besoin/capacité logique de l'architecture.
 **Mapping : Architecture Content — ABB.**
@@ -171,9 +171,9 @@ D. Une capacité architecturale nécessaire sans imposer une solution produit pr
 ## Q281 — SBB
 Un Solution Building Block décrit principalement :
 A. Une réalisation plus concrète permettant de satisfaire un ou plusieurs ABB
-B. Une business goal
-C. Un stakeholder
-D. Une phase ADM
+B. Une description logique de la capacité requise sans préjuger des produits réalisant le service
+C. Un principe de conception durable destiné à orienter les choix des différentes solutions
+D. Un artifact de type matrix représentant les liens entre applications et entités de données
 **Réponse : A.** Le SBB se rapproche de l'implémentation réelle.
 **Mapping : Architecture Content — SBB.**
 
@@ -252,27 +252,27 @@ D. Parce qu'il remplace l'Architecture Board
 
 ## Q290 — Architecture Definition Document
 L'Architecture Definition Document est principalement :
-A. Un SBB
+A. Un Architecture Contract exposant les obligations de conformité et les parties engagées
 B. Un deliverable consolidant des descriptions d'architecture Baseline/Target
-C. Un stakeholder
-D. Une exception
+C. Une Architecture Requirements Specification décrivant les conditions vérifiables de la cible
+D. Un Implementation and Migration Plan définissant les tâches de réalisation et leurs échéances
 **Réponse : B.** Il rassemble des éléments architecturaux formels produits pendant l'ADM.
 **Mapping : Architecture Content — Deliverables.**
 
 ## Q291 — Architecture Requirements Specification
 L'Architecture Requirements Specification est :
-A. Un diagramme réseau
-B. Un building block
+A. Un deliverable décrivant les états Baseline/Target et les vues d'architecture par domaine
+B. Un Architecture Contract formalisant les engagements de conformité des équipes de réalisation
 C. Un deliverable consolidant les requirements architecturales
-D. Un viewpoint
+D. Un Architecture Roadmap décrivant les transitions et work packages de la transformation
 **Réponse : C.** Elle formalise ce que l'architecture/solution doit satisfaire.
 **Mapping : Architecture Content — Deliverables.**
 
 ## Q292 — Architecture Roadmap
 L'Architecture Roadmap est le mieux classée comme :
-A. Un SBB
-B. Un stakeholder
-C. Un principle
+A. Un Architecture Contract documentant les engagements des parties à la réalisation
+B. Un Architecture Definition Document consolidant les descriptions de Baseline et Target
+C. Une Architecture Requirements Specification consignant les exigences de la cible
 D. Un deliverable décrivant la trajectoire de transformation
 **Réponse : D.** Elle formalise la transition vers la cible et les work packages/plateaux.
 **Mapping : Architecture Content — Deliverables.**
@@ -324,10 +324,10 @@ D. Le Content Framework est une phase
 
 ## Q298 — Roadmap vs Migration Plan
 Quelle distinction de contenu est correcte ?
-A. Ils sont toujours le même fichier et même but
+A. Roadmap = plan détaillé des tâches de release ; Migration Plan = liste de capabilities métier
 B. Roadmap = trajectoire d'architecture ; Implementation and Migration Plan = planification plus détaillée d'exécution
-C. Roadmap = viewpoint
-D. Migration Plan = ABB
+C. Roadmap = inventaire technique de la Baseline ; Migration Plan = registre des standards approuvés
+D. Roadmap = contrat de conformité du fournisseur ; Migration Plan = matrice de stakeholders
 **Réponse : B.** Ils sont liés mais répondent à des niveaux de planification différents.
 **Mapping : Architecture Content — Common Confusions.**
 
