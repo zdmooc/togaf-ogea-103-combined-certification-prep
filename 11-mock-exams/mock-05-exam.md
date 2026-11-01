@@ -6,135 +6,125 @@
 
 ## Concepts
 
-**Q1.** Qui est un Stakeholder ?
-A. Toute partie intéressée par ou affectée par l'architecture  B. Seulement le sponsor  C. Seulement l'architecte  D. Un artifact
+**Q1.** Dans une banque corporate, le comité examine les acteurs, états et référentiels pour orienter la transformation. Qui est un Stakeholder ?
+A. Toute partie intéressée par ou affectée par l'architecture  B. Rôles, compétences, gouvernance, processus et moyens permettant de pratiquer l'architecture  C. L'état actuel pertinent  D. Standards, reference architectures, decisions et assets
 
-**Q2.** Quel terme exprime ce qui importe à un stakeholder ?
-A. SBB  B. Plateau  C. Concern  D. Work Package
+**Q2.** Dans une banque corporate, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quel terme exprime ce qui importe à un stakeholder ?
+A. Un état intermédiaire cohérent  B. Une règle directrice durable pour les décisions  C. Concern  D. Positionner et classifier les assets du générique vers le spécifique
 
 **Q3.** La direction veut comparer l'impact de plusieurs options de transformation numérique. Quelle action illustre le mieux l'Enterprise Architecture au niveau Portfolio ?
 A. Définir les interfaces techniques exactes de chaque composant pour tous les projets avant d'arbitrer l'investissement.  B. Approuver la conformité de chaque version logicielle sans mesurer la contribution des initiatives aux objectifs.  C. Mettre à jour uniquement l'Architecture Landscape des applications existantes sans analyser les options futures.  D. Mettre en relation capabilities, interdépendances et valeur des initiatives afin de sélectionner une trajectoire cohérente.
 
-**Q4.** Un Principle est :
-A. Un planning  B. Une règle directrice générale pour les décisions  C. Une requirement détaillée  D. Un projet
+**Q4.** Dans une banque corporate, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quel rôle doit jouer un Architecture Principle durable ?
+A. Baseline → Target → Gap  B. Une règle directrice générale pour les décisions  C. Mettre en relation capabilities, interdépendances et valeur des initiatives afin de sélectionner une trajectoire cohérente.  D. Architecture Repository
 
-**Q5.** La Target Architecture correspond :
-A. À l'état futur souhaité  B. À l'état actuel  C. Au contrat  D. Au Repository
+**Q5.** Dans une banque corporate, le comité examine les acteurs, états et référentiels pour orienter la transformation. La Target Architecture correspond :
+A. À l'état futur souhaité  B. Enterprise Continuum  C. Relier drivers métier, capabilities, contraintes et alternatives d'évolution pour appuyer un arbitrage de transformation.  D. La règle de réutilisation est un Principle ; l'obligation TLS vérifiable est une Requirement ou un standard dérivé.
 
 **Q6.** Une équipe présente un diagramme d'applications en l'appelant « Architecture Contract ». Quelle distinction est la plus juste ?
 A. Le diagramme est nécessairement un SBB dès qu'il représente une solution candidate.  B. L'Architecture Contract est un viewpoint construit uniquement pour répondre aux concerns métier.  C. Le diagramme est un artifact ; le Contract formalise des engagements de réalisation et de conformité.  D. Un diagramme ne peut jamais figurer dans un Architecture Definition Document approuvé.
 
-**Q7.** Où organise-t-on les standards, reference architectures et autres assets ?
-A. Enterprise Continuum uniquement  B. Architecture Repository  C. Phase H  D. Work Package
+**Q7.** Dans une banque corporate, le comité examine les acteurs, états et référentiels pour orienter la transformation. Où organise-t-on les standards, reference architectures et autres assets ?
+A. Rôles, compétences, gouvernance, processus et moyens permettant de pratiquer l'architecture  B. Architecture Repository  C. Une business capability, définie indépendamment d'un produit ou d'une implémentation.  D. L'Enterprise Metamodel, qui encadre les entités d'architecture et leurs relations.
 
-**Q8.** Quel concept aide à classer les assets du générique vers l'organisation-spécifique ?
-A. Architecture Contract  B. Compliance Review  C. Requirements Management  D. Enterprise Continuum
+**Q8.** Dans une banque corporate, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quel concept aide à classer les assets du générique vers l'organisation-spécifique ?
+A. Standards, reference architectures, decisions et assets  B. Elle guide des changements cohérents et relie les décisions techniques à la stratégie et aux capacités métier.  C. Dans l'Architecture Requirements Repository, plutôt que dans le seul Governance Log ou la Reference Library.  D. Enterprise Continuum
 
-## Introduction to the ADM
+**Q9.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. La mise en place de l'Architecture Board et du processus d'exception relève d'abord de :
+A. Définir la Business Architecture de Phase B sans réduire la capability à un composant existant.  B. Preliminary  C. Phase D  D. G
 
-**Q9.** La mise en place de l'Architecture Board et du processus d'exception relève d'abord de :
-A. Phase G  B. Preliminary  C. Phase E  D. Phase F
-
-**Q10.** L'Architecture Vision est principalement élaborée en :
-A. Phase A  B. Phase D  C. Phase G  D. Phase H
+**Q10.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. L'Architecture Vision est principalement élaborée en :
+A. Phase A  B. Phase H, pour évaluer les nouveaux drivers et déterminer le besoin de changement architectural.  C. Les changements à traiter et futurs work packages  D. Il permet de définir les capacités et processus métier avant de déterminer quelles applications et solutions les réalisent.
 
 **Q11.** Un programme doit définir les services métier et processus d'assurance futurs ; les applications legacy sont connues. Quel travail ADM doit structurer ce besoin ?
 A. Finaliser la Target Technology Architecture à partir des serveurs supportant les applications actuelles.  B. Décider d'abord des work packages de migration puis adapter les services métier à leur séquencement.  C. Développer la Target Business Architecture avant de dériver Data/Application/Technology et leurs gaps.  D. Réaliser la Compliance Review des applications existantes comme substitut de l'analyse de Target Business.
 
-**Q12.** Une stratégie de data ownership appartient principalement à :
-A. Phase G  B. Phase B  C. Phase E  D. Phase C Data
+**Q12.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une stratégie de data ownership appartient principalement à :
+A. Soutenir et tracer les requirements pendant tout l'ADM  B. Transition Architecture  C. Phase B, Business Architecture, pour définir les capacités métier, processus et gaps pertinents.  D. Phase C Data
 
-**Q13.** Les interactions et services applicatifs cibles sont développés principalement en :
-A. Phase H  B. Phase C Application  C. Preliminary  D. Phase F
+**Q13.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Les interactions et services applicatifs cibles sont développés principalement en :
+A. C Data  B. Phase C Application  C. F  D. Interagit avec toutes les phases ADM
 
-**Q14.** La plateforme technique cible est développée principalement en :
-A. Phase A  B. Phase E  C. Phase D  D. Phase G
+**Q14.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. La plateforme technique cible est développée principalement en :
+A. Elle permet de revisiter phases/domaines lorsque l'apprentissage ou le changement l'exige  B. Preliminary  C. Phase D  D. Phase C Data
 
-**Q15.** Les work packages et Transition Architectures commencent à être consolidés surtout en :
-A. Phase E  B. Phase B  C. Phase H  D. Preliminary
+**Q15.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Les work packages et Transition Architectures commencent à être consolidés surtout en :
+A. Phase E  B. Phase C Application  C. Phase G  D. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.
 
-**Q16.** Le séquencement détaillé de la migration est principalement consolidé en :
-A. Phase C  B. Phase E  C. Phase G  D. Phase F
+**Q16.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Le séquencement détaillé de la migration est principalement consolidé en :
+A. Les différences pertinentes entre Baseline et Target  B. Cadrer l'engagement et établir l'Architecture Vision  C. Phase C Application  D. Phase F
 
-**Q17.** L'Architecture Contract et la Compliance Review soutiennent surtout :
-A. Phase B  B. Phase G  C. Phase A  D. Phase C
+**Q17.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. L'Architecture Contract et la Compliance Review soutiennent surtout :
+A. Phase D  B. Phase G  C. Évaluer et classifier le changement, puis déterminer les activités ADM à rouvrir selon les impacts et la gouvernance.  D. Il est itératif et tailorable
 
 **Q18.** Une architecture en service est concernée par une réglementation qui peut nécessiter une nouvelle capacité métier. Quelle décision de Phase H est correcte ?
 A. Réaliser uniquement une Compliance Assessment après la mise en production du changement.  B. Faire modifier directement la Technology Architecture sans analyser les besoins métier et data.  C. Évaluer le changement, les impacts et la magnitude avant de sélectionner les activités ADM à rouvrir.  D. Classer systématiquement la demande comme simplification car elle provient d'une autorité réglementaire.
 
 **Q19.** Une exigence de conformité change en cours de migration et affecte les phases précédentes. Quel rôle joue Requirements Management ?
-A. Il intervient de manière transversale, avec analyse et traçabilité des impacts sur les phases pertinentes.  B. Il s'arrête dès qu'une Architecture Vision a été approuvée.  C. Il remplace entièrement la Phase H après mise en production.  D. Il ne concerne que la Target Technology Architecture et pas les work packages.
+A. Il intervient de manière transversale, avec analyse et traçabilité des impacts sur les phases pertinentes.  B. Transformer les gaps en options de solution, work packages et Transition Architectures  C. Phase H classe les impacts et détermine une ré-entrée ADM proportionnée.  D. Présente la trajectoire de transformation à haut niveau
 
 **Q20.** Le projet découvre un besoin nouveau en Phase C après validation initiale de la Vision. Quelle affirmation sur l'ADM est correcte ?
-A. Il est toujours figé après la première review de Phase A.  B. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.  C. Il impose d'interdire les itérations entre Data et Application.  D. Il se limite à la Technology Architecture lorsque le projet utilise Agile.
+A. Preliminary  B. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.  C. Phase C Data  D. Work packages et Transition Architectures candidats
 
-**Q21.** Une Gap Analysis identifie :
-A. Les sponsors  B. Les fournisseurs  C. Les views  D. Les différences pertinentes entre Baseline et Target
+**Q21.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une Gap Analysis identifie :
+A. Phase F  B. Être intégrées au processus transversal Requirements Management  C. Preliminary  D. Les différences pertinentes entre Baseline et Target
 
-**Q22.** Une Architecture Roadmap sert principalement à :
-A. Décrire un incident  B. Remplacer le Migration Plan  C. Montrer la trajectoire et les principaux changements vers la cible  D. Définir un Viewpoint
-
-## ADM Techniques
+**Q22.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une Architecture Roadmap sert principalement à :
+A. Phase A  B. Phase C Application  C. Montrer la trajectoire et les principaux changements vers la cible  D. Phase F
 
 **Q23.** Un projet envisage une Target cloud-native, mais les équipes ne maîtrisent ni l'exploitation ni les contraintes de financement. Quelle technique fournit l'analyse la plus adaptée ?
 A. Gap Analysis exclusivement technique sur les versions de conteneurs.  B. Compliance Review de la Target comme substitut de l'évaluation des compétences.  C. Business Transformation Readiness Assessment, avec facteurs et actions de remédiation intégrables à la roadmap.  D. Information Mapping, qui démontre automatiquement l'existence des ressources humaines nécessaires.
 
-**Q24.** Quelle technique aide à formuler des requirements à partir d'un problème métier concret ?
-A. Business Scenarios  B. Partitioning  C. Architecture Contract  D. Compliance Review
+**Q24.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique aide à formuler des requirements à partir d'un problème métier concret ?
+A. Business Scenarios  B. Risk Management  C. Gap Analysis  D. Migration Planning Techniques
 
-**Q25.** Quelle technique aide à déterminer si deux environnements peuvent fonctionner ensemble ?
-A. Readiness Assessment  B. Interoperability Analysis  C. Capability Planning  D. Stakeholder Mapping
+**Q25.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique aide à déterminer si deux environnements peuvent fonctionner ensemble ?
+A. Information interoperability, car la signification et les modèles des données échangées divergent.  B. Interoperability Analysis  C. Capability-Based Planning  D. Business Scenarios
 
-**Q26.** Quelle technique évalue les barrières à l'adoption de la transformation ?
-A. Business Scenario  B. Gap Analysis  C. Migration Planning  D. Business Transformation Readiness
+**Q26.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique évalue les barrières à l'adoption de la transformation ?
+A. Gap Analysis  B. Risk Management  C. Business Scenarios  D. Business Transformation Readiness
 
-**Q27.** Quelle technique structure l'analyse des événements incertains susceptibles d'affecter les objectifs ?
-A. Organization Mapping  B. Value Streams  C. Risk Management  D. Catalog Analysis
+**Q27.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique structure l'analyse des événements incertains susceptibles d'affecter les objectifs ?
+A. Capability-Based Planning  B. Gap Analysis  C. Risk Management  D. Business Scenario, articulant problème, acteurs, contexte et outcomes mesurables.
 
-**Q28.** Quelle technique aligne les investissements sur les capabilities nécessaires ?
-A. Capability-Based Planning  B. Compliance Review  C. Viewpoint Selection  D. Contract Management
+**Q28.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique aligne les investissements sur les capabilities nécessaires ?
+A. Capability-Based Planning  B. Business Scenarios  C. Risk Management  D. Gap Analysis
 
-## Applying the ADM
-
-**Q29.** Adapter les étapes, artifacts et gouvernance à la réalité de l'organisation est :
-A. Federation  B. Tailoring  C. Gap Analysis  D. Compliance
+**Q29.** Dans une banque corporate, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Adapter les étapes, artifacts et gouvernance à la réalité de l'organisation est :
+A. Architecture Landscape à différents niveaux et périodes, articulant visions stratégiques et architectures de segments/capacités.  B. Tailoring  C. Un cycle itératif avec réconciliation des domains, requirements et décisions selon les impacts.  D. Breadth, depth, architecture domains et time period, avec justification par les décisions attendues.
 
 **Q30.** Pour accélérer des releases agiles, une organisation veut utiliser TOGAF sans imposer un waterfall complet. Quelle approche est conforme au standard ?
 A. Écarter tous les principes transverses dès lors qu'un produit emploie Scrum.  B. Geler les domaines B/C/D après une unique approbation, même si des requirements apparaissent.  C. Remplacer le Content Framework par un backlog sans traçabilité et sans gouvernance.  D. Tailorer l'ADM, autoriser l'itération et maintenir des contrôles proportionnés aux risques et décisions.
 
-**Q31.** Organiser plusieurs espaces d'architecture avec interfaces explicites relève de :
-A. Partitioning  B. Risk Management  C. Phase H  D. Requirements Management
+**Q31.** Dans une banque corporate, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Organiser plusieurs espaces d'architecture avec interfaces explicites relève de :
+A. Partitioning  B. Elle est intégrée transversalement aux requirements, risques, architectures et gouvernance  C. L'ADM peut être adapté et itéré pour soutenir un delivery incrémental  D. Partitioning et gouvernance fédérée
 
-**Q32.** Quelle affirmation sur security est correcte ?
-A. Elle ne concerne que Phase D  B. Elle commence après le go-live  C. Elle est intégrée transversalement aux requirements, risques, architectures et gouvernance  D. Elle remplace Stakeholder Management
+**Q32.** Dans une banque corporate, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Quelle affirmation sur security est correcte ?
+A. Tailoring  B. Une adaptation consciente de l'ADM aux besoins et contraintes de l'organisation  C. Elle est intégrée transversalement aux requirements, risques, architectures et gouvernance  D. Adapter méthode, profondeur, gouvernance et artifacts au contexte
 
-## Architecture Governance
-
-**Q33.** L'Architecture Board :
-A. Exécute les déploiements  B. Gouverne et arbitre les décisions d'architecture  C. Remplace le sponsor  D. Est un artifact
+**Q33.** Dans une banque corporate, le Board doit différencier arbitrage, conformité et exceptions. L'Architecture Board :
+A. Architecture Contract précisant engagements, responsabilités et critères de conformité convenus.  B. Gouverne et arbitre les décisions d'architecture  C. Être analysée, documentée, approuvée par l'autorité appropriée et suivie  D. Arbitrer et tracer conformité, exceptions et responsabilités selon un cadre approuvé.
 
 **Q34.** Une équipe livraison propose un changement de protocole à un standard approuvé. Quelle pratique caractérise une réponse de gouvernance correcte ?
 A. Changer directement le standard commun pour qu'il reflète la décision locale du fournisseur.  B. Autoriser l'alternative si le même produit figure dans la liste de technologies approuvées.  C. Enregistrer l'écart, mesurer ses impacts et soumettre la dérogation ou correction à l'autorité compétente.  D. Supprimer l'exigence non satisfaite du dossier d'architecture afin d'éviter une non-conformité.
 
-**Q35.** Une exception à un standard doit idéalement :
-A. Être analysée, documentée, approuvée par l'autorité appropriée et suivie  B. Être toujours cachée  C. Être toujours acceptée  D. Être traitée uniquement après H
+**Q35.** Dans une banque corporate, le Board doit différencier arbitrage, conformité et exceptions. Une exception à un standard doit idéalement :
+A. Être analysée, documentée, approuvée par l'autorité appropriée et suivie  B. Gouverne et arbitre les décisions d'architecture  C. Architecture Contract, convenant responsabilités, obligations et conformité entre acteurs.  D. Architecture Board
 
-## Architecture Content
+**Q36.** Dans une banque corporate, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Quel élément est un produit de travail formel soumis à revue ?
+A. Définir les types d'entités architecturales et leurs relations  B. Correspond généralement à une réalisation plus spécifique d'un besoin architectural  C. Une représentation architecturale telle qu'un catalog, matrix ou diagram  D. Deliverable
 
-**Q36.** Quel élément est un produit de travail formel soumis à revue ?
-A. Stakeholder  B. Building Block  C. Viewpoint  D. Deliverable
-
-**Q37.** Une Matrix montrant les relations entre applications et fonctions est :
-A. Un Artifact  B. Une phase  C. Un SBB  D. Un Principle
+**Q37.** Dans une banque corporate, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Une Matrix montrant les relations entre applications et fonctions est :
+A. Un Artifact  B. L'ABB décrit la capacité architecturale, et le SBB une solution spécifique candidate ou choisie.  C. Un ABB représente le besoin/capacité architectural et un SBB le moyen de solution envisagé.  D. Un produit de travail formel soumis à revue/approbation
 
 **Q38.** Dans une Architecture Definition Document, une matrice Application/Data décrit des interactions entre services et entités. Quel statut a-t-elle dans le Content Framework ?
 A. C'est obligatoirement un SBB, puisque les lignes sont des systèmes informatiques.  B. C'est un artifact de type Matrix intégré au deliverable ADD.  C. C'est une Transition Architecture définissant un état architectural complet.  D. C'est un Architecture Contract car elle décrit des interactions entre équipes.
 
 **Q39.** Une capacité de messagerie abstraite peut être réalisée par une plateforme particulière. Quelle distinction ABB / SBB est correcte ?
-A. L'ABB est le produit commercial retenu et le SBB le besoin indépendant de technologie.  B. Les deux désignent toujours les matrices de relations entre services.  C. L'ABB décrit la capacité architecturale, et le SBB une solution spécifique candidate ou choisie.  D. Le SBB représente nécessairement une capability métier non technique.
+A. Artifacts  B. Définir les types d'entités architecturales et leurs relations  C. L'ABB décrit la capacité architecturale, et le SBB une solution spécifique candidate ou choisie.  D. Catalog = liste structurée, Matrix = relations, Diagram = représentation visuelle
 
-**Q40.** Dans un dossier comprenant inventaire, relations et flux, quelle association d'artifacts est correcte ?
-A. Catalog = SBB, Matrix = Architecture Contract, Diagram = Transition Architecture.  B. Catalog = plan de migration, Matrix = objectif métier, Diagram = compliance evidence.  C. Les trois objets sont synonymes dès lors qu'ils figurent dans l'Architecture Definition Document.  D. Catalog = liste, Matrix = relations, Diagram = représentation visuelle.
+**Q40.** Dans une banque corporate, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Dans un dossier comprenant inventaire, relations et flux, quelle association d'artifacts est correcte ?
+A. Correspond généralement à une réalisation plus spécifique d'un besoin architectural  B. C'est un artifact de type Matrix intégré au deliverable ADD.  C. Une représentation architecturale telle qu'un catalog, matrix ou diagram  D. Catalog = liste, Matrix = relations, Diagram = représentation visuelle.
 
 # Part 2 — Practitioner : huit cas multi-contraintes
 
