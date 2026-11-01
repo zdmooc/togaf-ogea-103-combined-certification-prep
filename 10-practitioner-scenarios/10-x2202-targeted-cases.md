@@ -11,7 +11,7 @@ Une plateforme bancaire d'IA est née d'une expérimentation menée par une seul
 A. Employer les quatre domaines d'architecture comme contextes DPBoK et attribuer un domaine à chaque étape de croissance.
 B. Classer les livraisons selon Preliminary, Phase A, Phase C et Phase G : les quatre contextes DPBoK correspondent à ces phases.
 C. Distinguer Individual/Founder, Team, Team of Teams et Enterprise ; augmenter progressivement la coordination, les standards et la gouvernance selon les interdépendances réelles.
-D. Séparer seulement les activités individuelles et l'entreprise entière ; la coordination des équipes doit être traitée exclusivement par la gestion des projets.
+D. Distinguer Individual/Founder, Team et Enterprise, et traiter la coordination multiéquipes comme une extension de Team sans identifier le contexte spécifique Team of Teams.
 
 ## XP02 — L2.8.5 : les sept rubriques du Repository
 
@@ -22,7 +22,7 @@ Un architecte arrive dans une banque où les décisions d'exception sont conserv
 A. Séparer Architecture Landscape, Reference Library, Standards Library, Governance Repository, Architecture Requirements Repository, Solutions Landscape et Enterprise Repository.
 B. Utiliser Architecture Metamodel, Architecture Capability, Architecture Landscape, Standards Information Base, Reference Library, Governance Log et Architecture Requirements Repository comme la liste canonique exacte du LO 8.5.
 C. Conserver Architecture Landscape et Standards Library, puis gérer toutes les exigences, exceptions et solutions dans une seule Reference Library.
-D. Réunir Architecture Metamodel et Enterprise Repository sous une catégorie unique et classer les autres éléments par projet de livraison.
+D. Séparer Architecture Landscape, Reference Library, Standards Library, Governance Repository, Architecture Requirements Repository et Enterprise Repository, mais ranger les solutions en service dans ce dernier au lieu de distinguer Solutions Landscape.
 
 ## XP03 — L2.8.14 : Implementation Factor Catalog et consolidation
 
@@ -31,7 +31,7 @@ Le programme de modernisation de MayaBank doit traiter trois gaps : absence d'é
 **Quelle démarche est la plus appropriée ?**
 
 A. Mettre les gaps directement dans un Architecture Contract et demander aux équipes de les prioriser pendant Phase G.
-B. Produire uniquement un Architecture Roadmap Diagram ; les facteurs d'implémentation et dépendances seront implicites dans les dates.
+B. Utiliser l'Implementation Factor Catalog et un Architecture Roadmap Diagram pour préparer la migration, mais reporter la Consolidated Gaps, Solutions, and Dependencies Matrix et l'Architecture Definition Increments Table.
 C. Valider une Technology Architecture et ne pas représenter la dépendance Fraud → Event Platform avant la mise en production.
 D. Utiliser l'Implementation Factor Catalog pour les contraintes et readiness, la Consolidated Gaps, Solutions, and Dependencies Matrix pour relier les gaps et solutions, et l'Architecture Definition Increments Table pour suivre le développement de l'architecture par incréments.
 
@@ -44,4 +44,4 @@ Trois filiales classent leurs assets d'architecture différemment. Dans l'une, �
 A. Choisir un unique diagramme technique, qui rend inutile l'alignement des catégories et des définitions.
 B. Définir une taxonomie cohérente pour classer les éléments, puis aligner les types, attributs et relations du métamodèle ; gouverner les synonymes et classifications afin de soutenir les usages du Repository.
 C. Remplacer toutes les exigences d'architecture par la taxonomie, car une classification suffit à exprimer les relations de conformité.
-D. Conserver les taxonomies locales avec une simple liste de synonymes, sans vérifier les contradictions des modèles ni les usages interfiliales.
+D. Définir une taxonomie partagée avec synonymes et principaux types d'éléments du métamodèle, puis repousser la normalisation des attributs et relations entre filiales.
