@@ -136,48 +136,135 @@ A. Est toujours métier  B. Est une phase  C. Correspond généralement à une r
 **Q40.** Quel élément décrit les types d'objets architecturaux, attributs et relations pouvant être utilisés dans le contenu ?
 A. Architecture Vision  B. Architecture Board  C. Implementation Plan  D. Content Metamodel
 
-# Part 2 — Practitioner
+# Part 2 — Practitioner : huit cas multi-contraintes
 
 ## P1 — Context
+
 Une organisation possède une Architecture Capability faible mais lance simultanément dix transformations stratégiques.
 
-A. Augmenter uniquement le nombre de diagrammes.  B. Renforcer en priorité capacité, gouvernance, compétences, repository et tailoring afin de soutenir les transformations.  C. Lancer Phase F pour tous les programmes.  D. Laisser les fournisseurs définir l'architecture.
+Une entreprise engage dix programmes simultanés mais n'a qu'un architecte référent et aucune instance de gestion des exceptions. Les équipes utilisent des standards différents, les décisions ne sont pas réutilisées et les risques transverses deviennent invisibles. Le sponsor hésite entre recruter immédiatement une équipe centrale et autoriser les produits à continuer sans cadre. Les échéances des programmes imposent de renforcer la capacité de décision avant que les architectures deviennent irréversibles.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Désigner temporairement des architectes responsables par domaine et enregistrer les décisions critiques, puis structurer la capacité formelle.
+
+B. Renforcer en priorité capacité, gouvernance, compétences, repository et tailoring afin de soutenir les transformations, avec une approche de gouvernance par priorités, des rôles nommés et une trajectoire de montée en capacité.
+
+C. Confier la cohérence globale au fournisseur principal, puis internaliser les décisions d'architecture après la première mise en production.
+
+D. Mettre en place une bibliothèque de patterns communs avant de clarifier les personnes autorisées à valider les exceptions.
 
 ## P2 — Stakeholder Management
+
 Le responsable conformité n'est pas inclus dans les décisions alors que le projet manipule des données fortement réglementées.
 
-A. Continuer car le sponsor est suffisant.  B. L'intégrer comme stakeholder, clarifier concerns et requirements de conformité, puis adapter les views et décisions.  C. Demander au delivery de traiter le sujet après go-live.  D. Créer uniquement un nouveau diagramme réseau.
+Un projet d'échanges interbancaires traite des informations sensibles et le responsable conformité ne figure ni dans la stakeholder map ni dans le plan de revue. La Target Data Architecture est presque approuvée et le sponsor souhaite maintenir la date. Un contrôle de résidence des données pourrait nécessiter des services régionaux ; Operations signale que l'application actuelle n'offre pas ce découpage. Le comité doit établir une décision éclairée et documenter les impacts.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Reporter la consultation de conformité à la revue de migration lorsque le design technique sera stabilisé.
+
+B. L'intégrer comme stakeholder, clarifier concerns et requirements de conformité, puis adapter les views et décisions, avec identification des concerns, consultation des owners et adaptation des views avant approbation.
+
+C. Faire accepter provisoirement les risques de transfert par le sponsor et ajouter la conformité comme contrôle de Phase G.
+
+D. Demander un avis ciblé sur la résidence des données et préparer une analyse des implications, puis élargir les autres vues dans une seconde revue.
 
 ## P3 — Phase A
+
 Un programme dispose de 40 requirements mais personne ne sait quels business drivers ils servent ni quelle valeur la cible doit créer.
 
-A. Revenir au cadrage Phase A pour clarifier drivers, outcomes, stakeholders et Vision tout en conservant les requirements utiles.  B. Passer directement en G.  C. Supprimer les requirements.  D. Choisir un fournisseur.
+Le programme possède de nombreuses requirements sur la plateforme, la supervision et l'identité, mais les directions métier ne savent pas quelle valeur elles produiront. La direction informatique a déjà identifié un fournisseur et le sponsor souhaite réserver les licences. La cible doit soutenir une croissance de paiements transfrontaliers, mais l'impact sur les équipes et les coûts opérationnels n'a pas été analysé. Le comité demande un cadrage réconciliant résultats, acteurs et contraintes avant de figer l'investissement.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Revenir au cadrage Phase A pour clarifier drivers, outcomes, stakeholders et Vision tout en conservant les requirements utiles, en reliant drivers, outcomes, stakeholders et scope à une Architecture Vision défendable.
+
+B. Proposer une Roadmap préliminaire de plateforme pour susciter la discussion métier, sans faire encore approuver les bénéfices.
+
+C. Réserver le fournisseur et répartir les exigences entre les équipes d'implémentation, puis mesurer les outcomes après livraison.
+
+D. Rattacher les requirements existantes à quelques drivers majeurs et valider un premier jeu d'indicateurs, puis finaliser la Vision.
 
 ## P4 — B/C/D
+
 La Business Architecture exige une capability temps réel. Les Data et Application Architectures la supportent, mais la Technology Architecture repose encore sur une plateforme batch incapable de tenir les SLA.
 
-A. Revoir la Technology Architecture et ses gaps en cohérence avec les requirements avant Phase E.  B. Modifier la Business Architecture pour accepter le batch.  C. Ignorer jusqu'à Phase G.  D. Passer en Phase F.
+Une nouvelle capacité métier exige la confirmation de transactions en quelques secondes. Les services applicatifs et données ont été conçus pour ce délai, mais l'infrastructure cible repose sur un ordonnanceur batch de nuit. Le sponsor veut réutiliser l'environnement actuel pour limiter les coûts ; Operations indique qu'une transformation de l'exploitation est nécessaire. Le comité doit arbitrer entre adaptation technique et révision du besoin métier après une analyse d'impact.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Revoir la Technology Architecture et ses gaps en cohérence avec les requirements avant Phase E, en revisitant les contraintes de latence, les options technologiques et les dépendances B/C/D.
+
+B. Évaluer une plateforme événementielle comme candidate et réaliser des tests de performance avant de confirmer l'architecture de domaine.
+
+C. Introduire un traitement prioritaire dans le batch existant pour un sous-ensemble de flux, puis mesurer si le SLA est atteint.
+
+D. Considérer que l'équipe applicative doit ralentir le processus métier pour se conformer à la plateforme déjà approuvée.
 
 ## P5 — E/F/G
+
 Une Transition Architecture a été choisie, mais les work packages nécessaires n'ont pas de dépendances explicites ni de priorités.
 
-A. Passer directement en G.  B. Utiliser Phase F pour évaluer dépendances, valeur, risques et séquencer le plan.  C. Revenir en Preliminary.  D. Attendre Phase H.
+Une architecture de transition prévoit la coexistence de deux plateformes et une passerelle de conversion. Les work packages existent, mais personne n'a confirmé l'ordre des dépendances, les coûts de fonctionnement ni les critères de bascule. La date d'arrêt de l'ancien système est contractuelle. Finance demande des engagements réalistes et le CISO une preuve que les flux transitoires restent contrôlés. Le comité doit transformer la trajectoire préparée en plan de migration exécutable.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Établir un ordre provisoire des prérequis techniques et vérifier la période de coexistence, puis obtenir un arbitrage de valeur et de financement.
+
+B. Utiliser Phase F pour évaluer dépendances, valeur, risques et séquencer le plan, en classant lots, risques, valeur, coûts et dépendances dans le plan final.
+
+C. Démarrer un pilote de la passerelle afin de réduire l'incertitude technique, sans décider encore des vagues de migration.
+
+D. Autoriser les projets à sélectionner eux-mêmes l'ordre de livraison, puis regrouper les calendriers en Phase G.
 
 ## P6 — Phase H
+
 Les KPI montrent que l'architecture en production ne délivre plus la valeur attendue après un changement majeur du marché.
 
-A. Évaluer les drivers et la performance de l'architecture, puis décider de l'évolution ou d'un nouveau cycle.  B. Modifier uniquement les KPI.  C. Ignorer jusqu'à la prochaine panne.  D. Faire seulement une Compliance Review.
+Les KPI métier indiquent que la plateforme déployée n'a pas réduit les rejets comme prévu. Les concurrents proposent de nouvelles modalités de paiement et les exigences des clients ont évolué. Les équipes Operations ont modifié localement certaines interfaces sans mettre à jour l'Architecture Landscape. Le sponsor demande une décision : simple correction de services ou révision stratégique de la Target ? Le Board attend une analyse du changement fondée sur la valeur et les risques.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Évaluer les drivers et la performance de l'architecture, puis décider de l'évolution ou d'un nouveau cycle, en comparant la valeur réellement délivrée aux business drivers actuels et en classant l'impact de changement.
+
+B. Modifier uniquement la chaîne de rejet qui affiche le plus mauvais indicateur, sans réévaluer l'objectif métier global.
+
+C. Reprendre immédiatement tout l'ADM depuis Preliminary, même si l'analyse pourrait limiter le travail à quelques domaines.
+
+D. Mettre à jour les principaux KPI et préparer une analyse d'impact de la nouvelle demande avant de choisir le périmètre de réarchitecture.
 
 ## P7 — Requirements Management
+
 Une requirement a été modifiée mais son impact sur plusieurs ABB et work packages n'est pas connu.
 
-A. Mettre à jour la requirement, utiliser la traceability pour identifier les impacts et déclencher les itérations nécessaires.  B. Attendre la fin du programme.  C. Supprimer les ABB.  D. Modifier uniquement le document de Vision.
+Une obligation de traçabilité des données change pendant la réalisation et affecte trois services ainsi que plusieurs work packages approuvés. L'équipe de développement a modifié son API locale mais les modèles B/C/D restent anciens. Finance craint un coût supplémentaire et la sécurité veut prouver que la modification couvre tous les flux. Un Change Request existe sans analyse d'impact ; le Board doit arbitrer le calendrier et le traitement du risque.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Mettre à jour la requirement, utiliser la traceability pour identifier les impacts et déclencher les itérations nécessaires, en établissant un Requirements Impact Assessment traçant les building blocks, décisions et migrations concernés.
+
+B. Appliquer la modification aux ABB du service principal et demander aux autres équipes de réévaluer leurs contrats pendant la migration.
+
+C. Conserver les work packages approuvés et considérer que le changement se limite au code déjà modifié.
+
+D. Réaliser une première analyse sur les services les plus exposés et chiffrer les travaux urgents, puis vérifier les autres impacts.
 
 ## P8 — Supporting ADM Work
+
 Le programme hésite entre plusieurs options de migration aux bénéfices proches mais aux risques et dépendances très différents.
 
-A. Choisir l'option la moins chère uniquement.  B. Utiliser les techniques de migration planning et risk management pour comparer valeur, dépendances, readiness et risque.  C. Décider par vote sans critères.  D. Passer directement en Phase G.
+Deux trajectoires proposent une valeur métier similaire : l'une migre par étapes avec double exploitation, l'autre impose une bascule rapide et un retour arrière limité. Le sponsor juge la première trop coûteuse, le responsable Risk juge la seconde trop exposée. Les équipes dépendent d'un service d'identité pas encore prêt et le budget de formation Operations est insuffisant. Le comité doit comparer opportunité, viabilité et prérequis opérationnels.
 
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Établir une comparaison des coûts et risques des deux trajectoires, puis vérifier la capacité de support avant le choix final.
+
+B. Utiliser les techniques de migration planning et risk management pour comparer valeur, dépendances, readiness et risque, en utilisant readiness, facteurs d'implémentation, matrice de dépendances et arbitrage valeur-risque.
+
+C. Réduire le coût de la coexistence avec un pilote limité, sans résoudre la dépendance d'identité sur toutes les waves.
+
+D. Sélectionner la trajectoire économiquement la moins chère et traiter les autres contraintes pendant l'implémentation.
 ---
 
-Fin du sujet.
+Fin de l'examen blanc.
