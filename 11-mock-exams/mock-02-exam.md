@@ -33,7 +33,7 @@ A. Rôles, compétences, gouvernance, processus et moyens permettant de pratique
 **Q9.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle distinction Preliminary / Phase A est correcte ?
 A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Phase E — définir options, work packages et transitions candidates  C. Preliminary prépare la capacité d'architecture ; A cadre l'engagement et la Vision  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
-**Q10.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Identifier les stakeholders clés et établir une Architecture Vision relève principalement de :
+**Q10.** Avant de développer les architectures de domaines d'une mutuelle, le sponsor demande un mandat, une Vision et un scope clairs. Quelle phase ADM pilote ce cadrage ?
 A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase A — cadrage du scope, des stakeholders et des drivers ; création de l'Architecture Vision  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** Une équipe produit veut fixer l'ensemble des choix applicatifs de la Target sans connaître encore les capabilities et processus métier visés. Quel résultat ADM manque en premier ?
@@ -60,16 +60,16 @@ A. Phase F — prioriser les vagues de l'Implementation and Migration Plan  B. P
 **Q18.** Un changement réglementaire découvert après le déploiement pourrait nécessiter des ajustements limités ou une refonte plus large. Quel principe ADM doit guider la décision ?
 A. Phase G applique une Compliance Review et ne peut jamais rouvrir les architectures cibles.  B. Phase H classe les impacts et détermine une ré-entrée ADM proportionnée.  C. Un cycle Preliminary-to-H complet est obligatoire pour chaque nouvelle requirement.  D. Requirements Management traite seul la modification sans évaluation de l'architecture en service.
 
-**Q19.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Requirements Management :
+**Q19.** Une nouvelle requirement sur la durée de conservation apparaît alors que Data, Application et Technology Architecture sont déjà engagées. Quelle propriété de Requirements Management permet de traiter cette évolution ?
 A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Phase G uniquement — vérifier seulement les exigences à la réception  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Maintient, analyse et trace les exigences tout au long de l'ADM
 
 **Q20.** Une nouvelle contrainte de résidence de données oblige à revoir plusieurs décisions de phases déjà parcourues. Quelle affirmation sur l'ADM est correcte ?
 A. Les phases peuvent être revisitées pour réconcilier les modèles et exigences avec la nouvelle contrainte.  B. L'ADM est linéaire et ne permet pas de revenir sur les domaines  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
-**Q21.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une Gap Analysis sert à :
+**Q21.** Une banque cible un service de paiements résilient, mais son SI actuel ne dispose pas de la capacité de reprise requise. Quelle analyse formalise cette différence avant de retenir une solution ?
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Gap Analysis — identification des écarts pertinents entre architectures Baseline et Target  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
-**Q22.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une Architecture Roadmap :
+**Q22.** Le comité veut connaître les grands états intermédiaires et les work packages menant à la cible à trois ans, sans entrer encore dans le planning quotidien des équipes. Quel livrable convient ?
 A. Architecture Requirements Specification — conditions vérifiables de cible  B. Présente la trajectoire de transformation à haut niveau  C. Architecture Contract — engagements entre acteurs de réalisation  D. Implementation and Migration Plan — tâches et dates détaillées des waves
 
 **Q23.** La direction parle de « banque plus rapide », mais aucun acteur ni résultat opérationnel attendu n'est défini. Quelle technique clarifie le problème afin d'en tirer des requirements ?
@@ -111,7 +111,7 @@ A. Arbitrer et tracer conformité, exceptions et responsabilités selon un cadre
 **Q35.** Dans une mutuelle d'assurance, le Board doit différencier arbitrage, conformité et exceptions. Une déviation par rapport à l'architecture approuvée doit idéalement être :
 A. Accepter implicitement l'écart dès que le sponsor confirme la date  B. Modifier automatiquement la Target pour correspondre au déploiement  C. Supprimer la requirement non satisfaite de l'Architecture Requirements Specification  D. Analysée, documentée et gouvernée via un processus d'exception approprié
 
-**Q36.** Dans une mutuelle d'assurance, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Lequel est un Deliverable ?
+**Q36.** Une revue d'architecture attend un produit de travail formel rassemblant plusieurs diagrammes et matrices approuvables. Comment qualifier ce produit ?
 A. Artifact — représentation individuelle de type catalogue ou diagramme  B. Un produit de travail formel soumis à revue/approbation  C. SBB — composant de solution réalisant une capacité définie  D. Viewpoint — convention de représentation d'une view
 
 **Q37.** Dans une mutuelle d'assurance, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Lequel décrit le mieux un Artifact ?
