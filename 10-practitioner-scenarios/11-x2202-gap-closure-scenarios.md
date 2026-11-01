@@ -1,4 +1,4 @@
-# Consolidation X2202 — 22 cas de couverture ciblée XP05–XP26
+# Consolidation X2202 — 28 cas de couverture ciblée XP05–XP32
 
 Exercices originaux : choisir la meilleure action. Les scores gradués 5/3/1/0 sont pédagogiques ; corrigés séparés. Ces cas complètent la banque historique S001–S060 et les cas XP01–XP04.
 
@@ -318,4 +318,94 @@ B. Documenter une seule user story et la considérer comme une architecture cibl
 C. Mettre à jour les exigences et leurs liens, produire un Requirements Impact Assessment pour les modèles, décisions et work packages affectés, et soumettre les changements gouvernés.
 
 D. Versionner la requirement et notifier les propriétaires techniques, puis compléter l'analyse des impacts sur la roadmap à la prochaine revue.
+
+
+## XP27 — L2.8.4 : Techniques de Migration Planning
+
+Une banque prévoit une migration WAS vers OpenShift avec trois applications utilisant des contrats MQ différents. Le programme a identifié les gaps de résilience, les solutions potentielles et un problème de disponibilité des compétences d'exploitation. Finance souhaite une trajectoire limitant les coûts de coexistence, tandis que Risk exige une continuité de service. Le sponsor veut que l'architecte utilise les techniques de planification appropriées pour rendre explicites les facteurs, dépendances et lots réalisables avant la priorisation de Phase F.
+
+**Quelle décision est la plus adaptée ?**
+
+A. Produire uniquement un diagramme de la Target Technology Architecture ; les dépendances de migration seront déduites des composants.
+
+B. Utiliser l'Implementation Factor Catalog, consolider gaps/solutions/dépendances, analyser readiness et work packages, puis comparer les transitions et priorités de migration.
+
+C. Établir d'abord un Architecture Contract avec le fournisseur pour l'ensemble de la migration, puis déterminer les gaps au moment de Phase G.
+
+D. Répertorier les principales dépendances MQ et un lot de support pour la première wave, puis compléter l'évaluation des facteurs d'implémentation après le pilote.
+
+
+## XP28 — L2.8.10 : Quand utiliser des Architecture Building Blocks ?
+
+Une compagnie d'assurance veut mettre en place une capacité de tarification commune. L'équipe métier a identifié une capability stable et les requirements de traçabilité. Plusieurs équipes proposent immédiatement un moteur de règles spécifique. L'architecte doit décrire les blocs architecturaux nécessaires et la manière dont ils sont reliés aux services Data et Application avant de comparer des solutions IBM ODM et alternatives. Le Board ne souhaite pas que des produits historiques deviennent des prescriptions implicites.
+
+**Quelle décision est la plus adaptée ?**
+
+A. Définir les ABB logiques à partir des capacités et exigences, clarifier leurs interfaces et relations, puis évaluer les SBB candidats qui peuvent les réaliser.
+
+B. Traiter le moteur déjà en place comme ABB officiel et obliger tous les projets à adopter son produit avant de vérifier les requirements.
+
+C. Inventorier les capacités et décrire un premier ABB de décision, puis sélectionner la solution et compléter la traçabilité inter-domaines à la revue suivante.
+
+D. Éliminer les ABB car seules les applications livrées doivent figurer dans une architecture cible moderne.
+
+
+## XP29 — L2.1.2 : À quoi ressemble une architecture d'entreprise ?
+
+Un groupe bancaire présente au comité un simple diagramme réseau pour un programme qui doit modifier les services métiers de paiement, les responsabilités de données, les applications et le modèle d'exploitation. Les dirigeants ne peuvent ni identifier les capabilities concernées, ni comprendre les dépendances inter-domaines, ni comparer les states Baseline/Target. L'architecte doit expliquer à quoi ressemble une Enterprise Architecture exploitable et non un seul schéma technique.
+
+**Quelle décision est la plus adaptée ?**
+
+A. Un diagramme détaillé du réseau suffit dès lors qu'il inclut tous les composants de l'infrastructure actuelle.
+
+B. Une Architecture Vision seule couvre nécessairement toutes les informations utiles au delivery et à l'exploitation.
+
+C. Un ensemble cohérent de descriptions, modèles et vues liés aux capabilities, données, applications et technologies, montrant motivations, états, dépendances et décisions à plusieurs niveaux.
+
+D. Ajouter au schéma réseau un inventaire des applications et les principaux owners, puis produire les autres vues au fil des arbitrages.
+
+
+## XP30 — L2.3.4 : Livrables et acteurs de Phase A
+
+Le sponsor d'un programme de modernisation des virements a confirmé les business drivers, mais les filiales n'ont pas encore accepté le périmètre de l'architecture. Le CISO et Operations demandent des préoccupations explicites, le métier souhaite un business case de haut niveau et Finance réclame un engagement sur le coût de conception. L'Architecture Board attend la sortie de Phase A pour autoriser B/C/D et organiser la communication aux stakeholders.
+
+**Quelle décision est la plus adaptée ?**
+
+A. Finaliser directement les modèles Data et Application avant de documenter l'engagement des acteurs.
+
+B. Produire Architecture Vision et Statement of Architecture Work, identifier scope et stakeholders, et organiser le Communications Plan avec les approbations appropriées.
+
+C. Documenter la Vision et un premier mandat, puis distribuer les décisions au comité sans formaliser encore la stratégie de communication.
+
+D. Établir un Migration Plan définitif et un Architecture Contract fournisseur avant l'approbation de la Vision.
+
+
+## XP31 — L2.5.3 : Comparer trois approches de mise en œuvre
+
+Une banque prépare trois transformations distinctes : un nouveau service digital sans base legacy, une migration réglementaire imposant la désactivation simultanée de l'ancien protocole et une modernisation de l'orchestrateur qui peut coexister avec l'ancien pendant plusieurs vagues. Le sponsor préfère la même stratégie de déploiement partout, mais la disponibilité et les dépendances varient fortement. L'architecte doit classer les options de Phase E et comparer leurs risques et prérequis.
+
+**Quelle décision est la plus adaptée ?**
+
+A. Révolutionnaire pour les trois, car elle minimise toujours les risques de dépendance.
+
+B. Évolutive pour les trois, car toute entreprise existante doit conserver indéfiniment des solutions en parallèle.
+
+C. Distinguer greenfield pour le service neuf, revolutionary pour la bascule radicale, evolutionary pour la migration progressive ; justifier chaque choix par valeur, dépendances, risque et readiness.
+
+D. Classifier les trois transformations, mais choisir la stratégie finale d'après la technologie préférée du fournisseur et non la disponibilité des équipes.
+
+
+## XP32 — L2.7.1 : Identifier les sources des requirements
+
+Pendant le cadrage d'une plateforme de paiement, les équipes ne disposent que d'un backlog technique de l'application historique. Pourtant la nouvelle architecture est soumise à des objectifs métier de délai, à des contraintes légales de résidence des données, à des exigences de sécurité et à des politiques de groupe. Operations formule également des concerns sur le support 24/7. Le sponsor veut connaître les sources légitimes des requirements avant de réviser Architecture Requirements Specification.
+
+**Quelle décision est la plus adaptée ?**
+
+A. Utiliser uniquement les exigences techniques de l'application actuelle parce qu'elles ont déjà été implémentées.
+
+B. Collecter business goals et drivers, constraints, principes, stakeholders/concerns, régulations, risques et exigences de domaines, puis les qualifier et les tracer transversalement.
+
+C. Recueillir les requirements réglementaires et de sécurité les plus urgentes, puis compléter les besoins métier et opérationnels avant de figer la Target.
+
+D. Dériver toutes les requirements de la liste de services du fournisseur retenu et faire approuver les exceptions après la migration.
 
