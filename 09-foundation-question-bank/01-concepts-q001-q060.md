@@ -114,9 +114,9 @@ D. La convention permettant de construire une view répondant à des concerns
 ## Q013 — View
 Une view est :
 A. Une représentation d'architecture construite selon un viewpoint
-B. Une règle absolue de gouvernance
-C. Un repository
-D. Une solution fournisseur
+B. Une spécification de la notation et des conventions servant à créer des vues, et non une vue concrète
+C. Un produit de travail contractuel pouvant contenir plusieurs matrices ou diagrammes de domaines
+D. Un building block physique dont les propriétés techniques ont été validées par l'exploitation
 **Réponse : A.** La view est la représentation produite pour répondre à des concerns. B/C/D sont d'autres notions.
 **Mapping : Concepts — View/Viewpoint.**
 
@@ -226,9 +226,9 @@ D. La capacité de l'organisation à pratiquer et gouverner l'architecture
 ## Q025 — Architecture Board
 Un Architecture Board est principalement :
 A. Un mécanisme de gouvernance et d'arbitrage de l'architecture
-B. Une équipe de développement
-C. Une base de données
-D. Une migration wave
+B. Une équipe d'exploitation assurant seulement le support des composants de la plateforme cible
+C. Une instance projet approuvant exclusivement les charges, délais et allocations de budget
+D. Une bibliothèque de référence réunissant des standards et patterns sans pouvoir d'arbitrage
 **Réponse : A.** Il soutient décisions, conformité et exceptions. B/C/D ne correspondent pas.
 **Mapping : Concepts — Architecture Capability/Governance.**
 
@@ -292,9 +292,9 @@ D. La description des activités prévues dans un lot de migration
 
 ## Q032 — SBB
 Un Solution Building Block (SBB) est généralement :
-A. Plus abstrait qu'un ABB
-B. Un stakeholder
-C. Une phase ADM
+A. Un principe de conception stable qui oriente les décisions sans prescrire de produit concret
+B. Une représentation telle qu'un diagram ou matrix décrivant les relations entre services
+C. Une requirement détaillée que le programme doit vérifier dans ses tests de conformité
 D. Plus proche de la réalisation concrète d'un ABB
 **Réponse : D.** Le SBB réalise ou contribue à réaliser les capacités décrites par les ABB. A inverse la relation ; B/C sont faux.
 **Mapping : Concepts — SBB.**
@@ -396,18 +396,18 @@ D. Remplacer TOGAF par un outil
 
 ## Q043 — Iteration
 Pourquoi l'ADM peut-il être itératif ?
-A. Parce qu'aucune phase n'a de but
-B. Pour éviter la gouvernance
+A. Parce que l'ADM impose un enchaînement figé des phases et interdit de réviser les modèles approuvés
+B. Parce que les phases B à F peuvent être remplacées définitivement par des sprints de delivery produit
 C. Parce que compréhension, requirements et décisions peuvent être affinées progressivement
-D. Pour empêcher la réutilisation
+D. Parce que Requirements Management se déclenche uniquement après la mise en production de la cible
 **Réponse : C.** L'itération permet adaptation et convergence. A/B/D sont faux.
 **Mapping : Concepts — Iteration.**
 
 ## Q044 — Architecture vs Solution
 Quelle phrase est la plus juste ?
-A. Une architecture décrit uniquement un produit
-B. Architecture et solution sont synonymes
-C. Une architecture ne contient aucune contrainte
+A. L'architecture est entièrement déterminée par la liste des composants installés en production
+B. La solution choisie remplace les requirements et les principes dès que le fournisseur est sélectionné
+C. L'architecture correspond seulement aux diagrammes de réseau et aux plateformes de la cible
 D. Une solution réalise des éléments de l'architecture, mais l'architecture couvre aussi exigences, structure et décisions
 **Réponse : D.** L'architecture est plus large que l'implémentation. A/B/C sont réducteurs.
 **Mapping : Concepts — Architecture vs Solution.**
