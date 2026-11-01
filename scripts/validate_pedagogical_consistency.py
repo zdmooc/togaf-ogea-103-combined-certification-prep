@@ -104,7 +104,26 @@ for name in ("XF01","XF02"):
     check(bool(re.search(rf"^## {name}\b",exercise,re.M)), f"{name}: exercise missing")
     check(bool(re.search(rf"^## {name}\s+—\s+[ABCD]\b",answers,re.M)), f"{name}: correction missing")
 
-print(f"Reviewed structurally: {count} S-cases, 48 mock cases, 32 XP targeted, 2 XF")
+# Foundation 7.3: sixteen distinct deliverables with one answer key per question.
+drills=read("09-foundation-question-bank/11-x2202-deliverables-drills.md")
+answers=read("09-foundation-question-bank/11-x2202-deliverables-drills-corrections.md")
+exercise_sections=blocks(drills,r"## D\d\d\b")
+answer_sections=blocks(answers,r"## D\d\d\b")
+check(len(exercise_sections)==16 and len(answer_sections)==16,
+      f"Deliverable exercises must total 16: {len(exercise_sections)} / {len(answer_sections)}")
+for i, exercise_section in enumerate(exercise_sections, 1):
+    ident=f"D{i:02d}"
+    check(bool(re.match(rf"^## {ident}\b",exercise_section)),f"{ident}: incorrect exercise sequence")
+    opts=options(exercise_section, ident)
+    if i<=len(answer_sections):
+        correction=answer_sections[i-1]
+        match=re.match(rf"^## {ident} — ([ABCD])", correction)
+        check(bool(match), f"{ident}: missing or incorrect correction header")
+        if match:
+            check(match[1] in opts, f"{ident}: correction has no corresponding answer")
+            check("**Réponse :" in correction, f"{ident}: missing rationale")
+
+print(f"Reviewed structurally: {count} S-cases, 48 mock cases, 32 XP targeted, 2 XF, 16 deliverable questions")
 if failures:
     for failure in failures:
         print("FAIL", failure, file=sys.stderr)
