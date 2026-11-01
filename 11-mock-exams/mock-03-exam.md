@@ -27,13 +27,13 @@ A. L'Enterprise Metamodel, qui encadre les entités d'architecture et leurs rela
 **Q7.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quel élément appartient typiquement à l'Architecture Repository ?
 A. Le Continuum stocke les artifacts, tandis que le Repository les classe seulement  B. Standards, reference architectures, decisions et assets  C. Le Repository n'héberge que des solutions déployées et jamais les requirements  D. Repository et Continuum sont deux noms d'un unique stockage de solutions
 
-**Q8.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Une Transition Architecture représente :
+**Q8.** Une plateforme de virements doit conserver l'ancien système pendant six mois, puis faire converger ses services vers la cible. Quelle représentation décrit cet état intermédiaire cohérent ?
 A. Implementation and Migration Plan — travaux, dépendances et échéances  B. Baseline Architecture — état actuel observé dans le périmètre  C. Transition Architecture — état architectural intermédiaire cohérent avant la Target  D. Standards Information Base — standards techniques autorisés
 
 **Q9.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Définir ou ajuster le modèle de gouvernance de l'architecture relève surtout de :
 A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Phase E — définir options, work packages et transitions candidates  C. Preliminary — mise en place de l'Architecture Capability  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
-**Q10.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Le Statement of Architecture Work est particulièrement associé à :
+**Q10.** Un programme anti-fraude dispose de business drivers, mais aucune Architecture Vision ni Statement of Architecture Work validés. Quelle phase définit cette direction initiale ?
 A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase B — définir capabilities et processus métier de la Target  C. Phase F — planifier les vagues et priorités de migration  D. Phase A — cadrage des business drivers, concerns et scope, puis Architecture Vision
 
 **Q11.** Le métier demande de nouvelles possibilités d'indemnisation ; la DSI connaît déjà des microservices capables de les implémenter. Quelle activité de l'ADM doit d'abord sécuriser les objectifs et les processus cibles ?
@@ -108,7 +108,7 @@ A. Architecture Board — autorité de gouvernance et d'arbitrage  B. Project St
 **Q34.** Une équipe de réalisation utilise un standard approuvé mais ne satisfait pas les requirements de résilience de la Target. Quel mécanisme révèle correctement l'écart ?
 A. Validation d'un seul Technology Standard comme preuve suffisante.  B. Nouvelle Architecture Vision produite automatiquement à la place d'une analyse d'implémentation.  C. Registre de projet recensant le budget sans vérification des exigences techniques.  D. Compliance Review fondée sur les exigences, décisions et preuves de mise en œuvre.
 
-**Q35.** Dans une plateforme de paiements instantanés, le Board doit différencier arbitrage, conformité et exceptions. Une Compliance Review :
+**Q35.** Le fournisseur a déployé les composants prévus, mais les tests de résilience ne prouvent pas le respect des requirements approuvées. Quelle revue faut-il conduire ?
 A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Architecture Roadmap — preuve indirecte via le seul suivi du planning  C. Évalue la conformité à l'architecture et aux exigences approuvées  D. Standards Information Base — validation automatique des solutions utilisant un produit autorisé
 
 **Q36.** Dans une plateforme de paiements instantanés, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Lequel décrit un Deliverable ?
