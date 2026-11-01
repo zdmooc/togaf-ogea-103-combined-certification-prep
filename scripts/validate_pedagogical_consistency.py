@@ -200,7 +200,7 @@ for ident, expected in (
     ("Q100", "La phase D développe la Technology Architecture"),
     ("Q108", "A désigne Business Architecture (phase B)"),
 ):
-    section = next((b for b in re.split(r"(?=^## Q\\d+ — )", bank, flags=re.M)
+    section = next((b for b in re.split(r"(?=^## Q\d+ — )", bank, flags=re.M)
                     if b.startswith(f"## {ident} —")), "")
     check(expected in section, f"{ident}: verified explanation has regressed")
 check("AB Bs" not in bank, "Q284: malformed ABB label has regressed")
