@@ -7,124 +7,124 @@
 ## Concepts — Q1 à Q8
 
 **Q1.** Dans une mutuelle d'assurance, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quels sont les quatre domaines d'architecture de base ?
-A. Mettre en relation capabilities, interdépendances et valeur des initiatives afin de sélectionner une trajectoire cohérente.  B. Le diagramme est un artifact ; le Contract formalise des engagements de réalisation et de conformité.  C. Business, Data, Application, Technology  D. Une personne, un groupe ou une organisation ayant un intérêt dans ou étant affecté par l'architecture
+A. Strategy, Portfolio, Project et Solution Delivery comme domaines d'architecture  B. Strategic, Segment, Capability et Transition comme domaines de l'architecture  C. Business, Data, Application, Technology  D. Preliminary, Vision, Migration et Governance comme quatre domaines
 
 **Q2.** Dans une mutuelle d'assurance, le comité examine les acteurs, états et référentiels pour orienter la transformation. Un stakeholder est :
-A. Il aide à classifier et contextualiser des assets génériques ou spécifiques sans se confondre avec leur stockage.  B. Governance Log, au sein des éléments logiques de l'Architecture Repository.  C. Business, Data, Application, Technology  D. Toute partie ayant un intérêt dans ou étant affectée par l'architecture
+A. Sponsor — autorité budgétaire exclusivement, sans autre partie concernée  B. Architecte — seul acteur participant à la production des vues de Target  C. Requirement — condition vérifiable consignée dans la spécification  D. Toute partie ayant un intérêt dans ou étant affectée par l'architecture
 
 **Q3.** Dans un programme de transformation, le comité cherche à choisir entre trois architectures alternatives dont les risques et coûts diffèrent. Quel bénéfice EA est le plus directement observable ?
 A. Une application uniforme des standards techniques sans confrontation des options métier.  B. Un arbitrage cohérent reliant objectifs d'entreprise, choix d'architecture et impacts.  C. La remise systématique d'un diagramme de chaque couche avant de parler aux métiers.  D. Le remplacement du programme management par le seul Architecture Board.
 
 **Q4.** Dans une mutuelle d'assurance, le comité examine les acteurs, états et référentiels pour orienter la transformation. Comment distinguer une Baseline Architecture de la Target Architecture ?
-A. Baseline = état actuel pertinent ; Target = état futur souhaité  B. Une View est construite selon une Viewpoint  C. Le premier est un ABB, le second peut être un SBB.  D. Une préoccupation d'un stakeholder
+A. Baseline = état actuel pertinent ; Target = état futur souhaité  B. Target Architecture — architecture future envisagée après les changements  C. Transition Architecture — état intermédiaire cohérent avant la cible  D. Architecture Roadmap — trajectoire des lots et états successifs
 
 **Q5.** Dans une mutuelle d'assurance, le comité examine les acteurs, états et référentiels pour orienter la transformation. L'Enterprise Continuum aide surtout à :
-A. Stakeholder → Concern → Viewpoint → View  B. L'Enterprise Metamodel, qui encadre les entités d'architecture et leurs relations.  C. Classifier et contextualiser les assets d'architecture  D. Relier stratégie, capacités, décisions et évolution de l'entreprise
+A. Architecture Repository — stockage et organisation des éléments produits  B. Architecture Roadmap — trajectoire des architectures et work packages  C. Classifier et contextualiser les assets d'architecture  D. Governance Log — décisions de conformité et exceptions d'architecture
 
 **Q6.** Une banque possède une Architecture Vision et une Technology Architecture détaillée, mais aucune représentation des composants réutilisables au niveau de leurs capacités. Quel concept manque pour séparer besoin architectural et solution ?
 A. Solution Building Block, qui doit être sélectionné avant que la capability puisse être définie.  B. Architecture Building Block, dont la description ne présuppose pas une technologie retenue.  C. Architecture Contract, qui remplace la représentation des composants.  D. Compliance Assessment, qui décrit la capacité métier indépendamment des réalisations.
 
 **Q7.** Dans une mutuelle d'assurance, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quels sont les trois types génériques d'Artifacts ?
-A. Concern  B. À l'état futur souhaité  C. Une discipline permettant d'aligner structure, capacités et transformation de l'entreprise  D. Catalog, Matrix, Diagram
+A. Catalog = relations croisées, Matrix = liste simple, Diagram = texte narratif  B. Catalog = Architecture Contract, Matrix = SBB, Diagram = livrable  C. Catalog, Matrix et Diagram sont des phases successives de l'ADM  D. Catalog = liste ; Matrix = relations ; Diagram = représentation graphique
 
 **Q8.** Dans une mutuelle d'assurance, le comité examine les acteurs, états et référentiels pour orienter la transformation. Architecture Capability correspond à :
-A. Rôles, compétences, gouvernance, processus et moyens permettant de pratiquer l'architecture  B. Une personne, un groupe ou une organisation ayant un intérêt dans ou étant affecté par l'architecture  C. Guider les décisions d'une manière cohérente et durable  D. Business, Data, Application, Technology
+A. Rôles, compétences, gouvernance, processus et moyens permettant de pratiquer l'architecture  B. Architecture Vision — direction approuvée d'un programme spécifique  C. Technology Standards — liste des plateformes et produits autorisés  D. Architecture Requirements Specification — exigences d'une seule cible
 
 **Q9.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle distinction Preliminary / Phase A est correcte ?
-A. Gouverner l'implémentation et la conformité  B. Les phases peuvent être revisitées pour réconcilier les modèles et exigences avec la nouvelle contrainte.  C. Preliminary prépare la capacité d'architecture ; A cadre l'engagement et la Vision  D. Cadrer l'engagement et établir l'Architecture Vision
+A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Phase E — définir options, work packages et transitions candidates  C. Preliminary prépare la capacité d'architecture ; A cadre l'engagement et la Vision  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
 **Q10.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Identifier les stakeholders clés et établir une Architecture Vision relève principalement de :
-A. Une Target Business Architecture distinguant capacités, processus et services métier de l'application actuelle.  B. Phase A  C. Phase D  D. Phase G
+A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase A — cadrage et Architecture Vision  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** Une équipe produit veut fixer l'ensemble des choix applicatifs de la Target sans connaître encore les capabilities et processus métier visés. Quel résultat ADM manque en premier ?
 A. L'Implementation Governance Model destiné à contrôler les fournisseurs déjà en delivery.  B. Le Governance Log de la Phase H, pour enregistrer les changements futurs.  C. La sélection anticipée des SBB d'infrastructure à partir du Repository.  D. La Target Business Architecture de Phase B, alimentant ensuite Data/Application/Technology.
 
 **Q12.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Définir ownership, structure, qualité et lifecycle de l'information relève principalement de :
-A. Phase C Data  B. Définir la Business Architecture de Phase B sans réduire la capability à un composant existant.  C. Work packages et Transition Architectures candidats  D. Phase H, pour évaluer les nouveaux drivers et déterminer le besoin de changement architectural.
+A. Phase C Data — modèles, propriété et gouvernance des données  B. Phase B — structurer capabilities et processus métiers de la cible  C. Phase C Application — décrire services applicatifs et leurs interactions  D. Phase D — définir plateformes et services technologiques nécessaires
 
 **Q13.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Décrire les services applicatifs requis par le métier relève principalement de :
-A. Être intégrées au processus transversal Requirements Management  B. Une vue structurée de la trajectoire et des principaux changements  C. Phase C Application  D. Il permet de définir les capacités et processus métier avant de déterminer quelles applications et solutions les réalisent.
+A. Phase B — définir services et processus métier indépendants des applications  B. Phase C Data — préciser propriété et cycle de vie de l'information  C. Phase C Application — services et interactions applicatifs  D. Phase D — détailler le socle et les services technologiques
 
 **Q14.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Plateformes, middleware, infrastructure et services technologiques relèvent surtout de :
-A. Phase C Data  B. Phase D  C. Phase F  D. Soutenir et tracer les requirements pendant tout l'ADM
+A. Phase C Data — gouverner les entités et les flux d'information  B. Phase D — plateformes, services technologiques et infrastructure  C. Phase C Application — modéliser services et contrats applicatifs  D. Phase E — agréger les gaps en work packages et transitions
 
 **Q15.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quel est le rôle principal de Phase E ?
-A. Transformer les gaps en options de solution, work packages et Transition Architectures  B. L'ADM permet tailoring, itérations et travail concurrent sous gouvernance appropriée.  C. Preliminary  D. Phase C Data
+A. Transformer les gaps en options de solution, work packages et Transition Architectures  B. Phase F — confirmer l'ordre et le plan détaillé de la migration  C. Phase G — vérifier la conformité des éléments déjà implémentés  D. Phase C Application — définir les interactions applicatives de cible
 
 **Q16.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quel est le rôle principal de Phase F ?
-A. Phase C Application  B. Phase G  C. Prioriser et séquencer la migration  D. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.
+A. Phase E — élaborer les options de solution et premiers lots  B. Phase G — suivre les écarts de conformité pendant le delivery  C. Prioriser et séquencer la migration  D. Phase H — évaluer les changements de l'architecture en service
 
 **Q17.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quel est le rôle principal de Phase G ?
-A. Les différences pertinentes entre Baseline et Target  B. A  C. C Application  D. Gouverner l'implémentation et la conformité
+A. Phase F — prioriser les vagues de l'Implementation and Migration Plan  B. Phase H — évaluer l'impact des demandes après mise en service  C. Preliminary — définir principes et capacité de gouvernance  D. Gouverner l'implémentation et la conformité
 
 **Q18.** Un changement réglementaire découvert après le déploiement pourrait nécessiter des ajustements limités ou une refonte plus large. Quel principe ADM doit guider la décision ?
 A. Phase G applique une Compliance Review et ne peut jamais rouvrir les architectures cibles.  B. Phase H classe les impacts et détermine une ré-entrée ADM proportionnée.  C. Un cycle Preliminary-to-H complet est obligatoire pour chaque nouvelle requirement.  D. Requirements Management traite seul la modification sans évaluation de l'architecture en service.
 
 **Q19.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Requirements Management :
-A. Architecture Roadmap  B. La Target Business Architecture de Phase B, alimentant ensuite Data/Application/Technology.  C. Phase D  D. Maintient, analyse et trace les exigences tout au long de l'ADM
+A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Phase G uniquement — vérifier seulement les exigences à la réception  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Maintient, analyse et trace les exigences tout au long de l'ADM
 
 **Q20.** Une nouvelle contrainte de résidence de données oblige à revoir plusieurs décisions de phases déjà parcourues. Quelle affirmation sur l'ADM est correcte ?
-A. Les phases peuvent être revisitées pour réconcilier les modèles et exigences avec la nouvelle contrainte.  B. Transformer les gaps en options de solution, work packages et Transition Architectures  C. Phase H classe les impacts et détermine une ré-entrée ADM proportionnée.  D. Présente la trajectoire de transformation à haut niveau
+A. Les phases peuvent être revisitées pour réconcilier les modèles et exigences avec la nouvelle contrainte.  B. L'ADM est linéaire et ne permet pas de revenir sur les domaines  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
 **Q21.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une Gap Analysis sert à :
-A. Préparer Architecture Capability, gouvernance, principes et tailoring  B. Phase C Data  C. Identifier les écarts entre Baseline et Target  D. Phase E
+A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Identifier les écarts entre Baseline et Target  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q22.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une Architecture Roadmap :
-A. Phase F  B. Présente la trajectoire de transformation à haut niveau  C. Transversal à l'ADM  D. Preliminary
+A. Architecture Requirements Specification — conditions vérifiables de cible  B. Présente la trajectoire de transformation à haut niveau  C. Architecture Contract — engagements entre acteurs de réalisation  D. Implementation and Migration Plan — tâches et dates détaillées des waves
 
 **Q23.** La direction parle de « banque plus rapide », mais aucun acteur ni résultat opérationnel attendu n'est défini. Quelle technique clarifie le problème afin d'en tirer des requirements ?
 A. Gap Analysis, en choisissant immédiatement la solution technique cible.  B. Compliance Review, pour évaluer un programme qui n'a pas encore de Target.  C. Migration Planning, pour établir le séquencement avant la validation du besoin.  D. Business Scenario, articulant problème, acteurs, contexte et outcomes mesurables.
 
 **Q24.** Dans une mutuelle d'assurance, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique relie une situation métier réaliste à des requirements ?
-A. Business Transformation Readiness Assessment, reliée aux actions préparatoires de la roadmap.  B. Business Scenarios  C. Capability-Based Planning  D. Migration Planning Techniques
+A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B. Business Scenarios — besoin métier contextualisé et requirements  C. Compliance Review — vérification des solutions construites  D. Migration Planning — hiérarchisation de lots et de dépendances
 
 **Q25.** Dans une mutuelle d'assurance, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer la capacité de systèmes ou organisations à travailler ensemble relève de :
-A. Risk Management  B. Business Transformation Readiness Assessment, avec facteurs et actions de remédiation intégrables à la roadmap.  C. Interoperability Analysis  D. Business Scenarios
+A. Technology Architecture — mêmes produits, sans vérifier la sémantique  B. Standards Information Base — liste de standards techniques approuvés  C. Interoperability — capacité de collaboration métier, information et technique  D. Compliance Review — contrôle d'un composant isolé après réalisation
 
 **Q26.** Dans une mutuelle d'assurance, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Identifier les barrières humaines, organisationnelles et opérationnelles à la transformation relève de :
-A. Business Transformation Readiness Assessment  B. Capability-Based Planning  C. Gap Analysis  D. Business Scenario, articulant problème, acteurs, contexte et outcomes mesurables.
+A. Business Transformation Readiness Assessment  B. Compliance Review — preuve de conformité des composants déployés  C. Gap Analysis — seules différences entre plateformes existantes et cibles  D. Content Metamodel — types d'entités et relations du référentiel
 
 **Q27.** Dans une mutuelle d'assurance, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique s'intéresse explicitement aux menaces, probabilités, impacts et traitements ?
-A. Business Scenarios  B. Migration Planning Techniques  C. Gap Analysis  D. Risk Management
+A. Gap Analysis — différences entre les états existant et cible  B. Readiness Assessment — facteurs de compétences et capacité d'adoption  C. Compliance Review — vérification des exigences d'une solution réalisée  D. Risk Management — identification, analyse et traitement des risques
 
 **Q28.** Dans une mutuelle d'assurance, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Priorisation, dépendances, valeur et faisabilité de la trajectoire relèvent fortement de :
-A. Business Transformation Readiness Assessment  B. Migration Planning Techniques  C. Business Scenarios  D. Capability-Based Planning
+A. Business Scenarios — formulation des besoins et outcomes métier  B. Migration Planning Techniques — priorisation et dépendances  C. Gap Analysis — identification des différences entre existant et cible  D. Architecture Principles — règles de décision durables, non séquencement
 
 **Q29.** Dans une mutuelle d'assurance, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Tailoring signifie :
-A. Adapter méthode, profondeur, gouvernance et artifacts au contexte  B. Breadth, depth, architecture domains et time period, avec justification par les décisions attendues.  C. Tailorer l'ADM, autoriser l'itération et maintenir des contrôles proportionnés aux risques et décisions.  D. Conserver des principes et une Vision cohérents tout en itérant sur les domaines et exigences selon les retours des produits.
+A. Adapter méthode, profondeur, gouvernance et artifacts au contexte  B. Partitioning — délimiter des espaces d'architecture et interfaces  C. Scoping — choisir breadth, depth, domains et horizon d'un travail  D. Compliance Assessment — vérifier le respect de la Target livrée
 
 **Q30.** Plusieurs filiales ont un socle commun, mais leurs architectures de segment portent des besoins locaux. Quel mécanisme permet de conserver la cohérence sans supposer un niveau unique de détail ?
 A. Architecture Contract, qui exige que toutes les filiales partagent exactement les mêmes diagrams.  B. Architecture Compliance, qui remplace la modélisation de segments par une liste de normes.  C. Architecture Landscape à différents niveaux et périodes, articulant visions stratégiques et architectures de segments/capacités.  D. Enterprise Continuum, utilisé uniquement comme planning de releases d'un projet.
 
 **Q31.** Dans une mutuelle d'assurance, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Dans une Digital Enterprise, l'ADM :
-A. L'ADM peut être adapté et itéré pour soutenir un delivery incrémental  B. Définir partitions, responsabilités, interfaces et règles de cohérence  C. On peut itérer et tailorer l'ADM tout en conservant cohérence et gouvernance  D. Peut être adapté pour soutenir décisions rapides, plateformes et produits numériques
+A. Supprimer les principes transversaux dès qu'une équipe produit est autonome  B. Exiger un ADM waterfall complet avant chaque itération du produit  C. Limiter le travail d'architecture aux revues techniques de Phase G  D. Peut être adapté pour soutenir décisions rapides, plateformes et produits numériques
 
 **Q32.** Dans une mutuelle d'assurance, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Dans une très grande entreprise, quelle approche aide à gérer plusieurs domaines et responsabilités ?
-A. Tailoring  B. Partitioning et gouvernance fédérée  C. Une adaptation consciente de l'ADM aux besoins et contraintes de l'organisation  D. Adapter méthode, profondeur, gouvernance et artifacts au contexte
+A. Scoping — limiter le périmètre et la profondeur d'un seul travail  B. Partitioning et gouvernance fédérée  C. Tailoring — adapter les activités ADM sans définir les espaces de responsabilité  D. Architecture Roadmap — ordonner les changements sans créer les partitions
 
 **Q33.** Dans une mutuelle d'assurance, le Board doit différencier arbitrage, conformité et exceptions. Quel mécanisme arbitre typiquement les décisions et exceptions majeures ?
-A. Analysée, documentée et gouvernée via un processus d'exception approprié  B. Compliance Review fondée sur les exigences, décisions et preuves de mise en œuvre.  C. Architecture Board  D. Architecture Compliance Review
+A. Project Steering Committee — pilotage coûts et délais uniquement  B. Requirements Manager — traçabilité mais pas acceptation des exceptions  C. Architecture Board — autorité de gouvernance et d'arbitrage  D. Fournisseur — approbation autonome de ses propres non-conformités
 
 **Q34.** La réalisation d'une cible de paiements doit être acceptée sous réserve de mesures compensatoires pour une dérogation. Quelle fonction du Board soutient le mieux la gouvernance ?
 A. Arbitrer et tracer conformité, exceptions et responsabilités selon un cadre approuvé.  B. Sélectionner directement tous les building blocks au lieu des équipes de conception.  C. Se limiter à valider le budget des lots sans examiner les exigences d'architecture.  D. Transformer toute dérogation en nouvelle norme permanente sans analyse des risques.
 
 **Q35.** Dans une mutuelle d'assurance, le Board doit différencier arbitrage, conformité et exceptions. Une déviation par rapport à l'architecture approuvée doit idéalement être :
-A. Architecture Contract, convenant responsabilités, obligations et conformité entre acteurs.  B. Architecture Board  C. Enregistrer l'écart, mesurer ses impacts et soumettre la dérogation ou correction à l'autorité compétente.  D. Analysée, documentée et gouvernée via un processus d'exception approprié
+A. Accepter implicitement l'écart dès que le sponsor confirme la date  B. Modifier automatiquement la Target pour correspondre au déploiement  C. Supprimer la requirement non satisfaite de l'Architecture Requirements Specification  D. Analysée, documentée et gouvernée via un processus d'exception approprié
 
 **Q36.** Dans une mutuelle d'assurance, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Lequel est un Deliverable ?
-A. ABB est architectural ; SBB est plus orienté réalisation/solution  B. Un produit de travail formel soumis à revue/approbation  C. Catalog pour inventaire, Matrix pour relations, Diagram pour représentation graphique.  D. Un Artifact
+A. Artifact — représentation individuelle de type catalogue ou diagramme  B. Un produit de travail formel soumis à revue/approbation  C. SBB — composant de solution réalisant une capacité définie  D. Viewpoint — convention de représentation d'une view
 
 **Q37.** Dans une mutuelle d'assurance, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Lequel décrit le mieux un Artifact ?
-A. C'est un artifact de type Matrix intégré au deliverable ADD.  B. Content Metamodel  C. Une représentation du contenu architectural  D. ABB exprime le besoin architectural, SBB une réalisation plus spécifique
+A. Deliverable — produit de travail formel agrégant des représentations  B. SBB — composant concret réalisant des fonctionnalités d'architecture  C. Une représentation du contenu architectural  D. Architecture Contract — obligations de mise en œuvre entre parties
 
 **Q38.** Une revue a besoin d'une représentation de la relation entre des services applicatifs et leurs entités de données. Quel type d'artifact du Content Framework est le plus directement adapté ?
 A. Une matrice montrant les relations entre éléments de deux catégories.  B. Un Architecture Contract car toute relation entre services et données doit être contractualisée.  C. Un catalogue listant seulement les noms de services sans dépendances.  D. Une Transition Architecture considérée comme un type de diagramme obligatoire.
 
 **Q39.** Dans une mutuelle d'assurance, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Quelle distinction ABB/SBB est correcte ?
-A. Catalog = liste structurée, Matrix = relations, Diagram = représentation visuelle  B. Le dossier approuvable est un deliverable pouvant contenir plusieurs artifacts.  C. Représente un élément architectural ou de solution réutilisable  D. ABB exprime le besoin architectural, SBB une réalisation plus spécifique
+A. L'ABB est le produit précis et le SBB le besoin indépendant de toute solution  B. ABB et SBB sont synonymes dès qu'une solution est approuvée  C. Le SBB est toujours une capability métier, tandis que l'ABB est une technologie  D. ABB exprime le besoin architectural, SBB une réalisation plus spécifique
 
 **Q40.** Pour documenter un portefeuille applicatif, ses relations aux données et ses flux, quelle association Catalog / Matrix / Diagram est correcte ?
-A. Catalog pour inventaire, Matrix pour relations, Diagram pour représentation graphique.  B. Catalog pour liste structurée, Matrix pour relations entre éléments, Diagram pour représentation graphique.  C. Un Artifact  D. Deliverable
+A. Catalog = relations croisées, Matrix = liste simple, Diagram = texte narratif  B. Catalog pour liste structurée, Matrix pour relations entre éléments, Diagram pour représentation graphique.  C. Catalog = Architecture Contract, Matrix = SBB, Diagram = livrable  D. Catalog, Matrix et Diagram sont des phases successives de l'ADM
 
 # Part 2 — Practitioner : huit scénarios multi-contraintes
 
