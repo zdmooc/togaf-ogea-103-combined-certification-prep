@@ -86,9 +86,9 @@ D. Un document contractuel
 
 ## Q010 — Stakeholder
 Un stakeholder est :
-A. Seulement le sponsor
+A. Le seul décideur autorisé à approuver formellement toutes les vues de la Target
 B. Toute partie ayant un intérêt dans ou étant affectée par l'architecture
-C. Uniquement l'architecte
+C. Le rôle technique chargé exclusivement de produire les diagrammes d'architecture
 D. Un artifact
 **Réponse : B.** Le terme couvre sponsor, métier, sécurité, opérations, etc. A et C sont trop restrictifs ; D est une catégorie de contenu.
 **Mapping : Concepts — Stakeholders.**
@@ -143,7 +143,7 @@ D. Définir un planning détaillé
 Quelle distinction est correcte ?
 A. Un principe est plus spécifique qu'une requirement
 B. Une requirement est toujours éternelle
-C. Ils sont synonymes
+C. Principle et Requirement ont le même statut ; seule leur formulation diffère
 D. Un principe guide les décisions ; une requirement exprime quelque chose à satisfaire
 **Réponse : D.** Le principe est durable et directeur ; la requirement est contextuelle et testable. A/B/C sont faux.
 **Mapping : Concepts — Principle vs Requirement.**
@@ -189,7 +189,7 @@ D. Une différence pertinente entre Baseline et Target
 L'Enterprise Continuum sert principalement à :
 A. Classifier et contextualiser des assets d'architecture d'un générique vers le spécifique
 B. Stocker physiquement tous les fichiers
-C. Exécuter des workloads
+C. Ordonner les vagues d'implémentation dans un planning opérationnel détaillé
 D. Définir l'organisation des données d'un référentiel de standards
 **Réponse : A.** C'est un mécanisme de classification/contexte. B décrit plutôt le rôle du Repository ; C/D sont hors sujet.
 **Distracteur D :** Le Continuum classifie les assets selon leur degré de généralité ; il ne se réduit pas au stockage.
@@ -200,13 +200,13 @@ L'Architecture Repository sert principalement à :
 A. Remplacer l'ADM
 B. Organiser et conserver des assets d'architecture
 C. Classifier conceptuellement du Foundation au Organization-Specific uniquement
-D. Exécuter les applications
+D. Assurer l'exécution des contrôles de conformité des applications en production
 **Réponse : B.** Le Repository stocke et organise les assets. C décrit le Continuum de façon simplifiée ; A/D sont faux.
 **Mapping : Concepts — Architecture Repository.**
 
 ## Q023 — Repository vs Continuum
 Quelle phrase est correcte ?
-A. Ils sont synonymes
+A. Continuum et Repository classifient de la même manière les solutions sans rôle distinct
 B. Le Continuum est une base de données technique
 C. Le Repository est un mécanisme de stockage/organisation ; le Continuum aide à classifier et contextualiser
 D. Le Repository est une phase ADM
@@ -252,7 +252,7 @@ D. Un nom de produit obligatoire sans justification
 
 ## Q028 — Deliverable
 Un deliverable est :
-A. Uniquement un diagramme
+A. Une représentation graphique élémentaire ne nécessitant ni revue ni acceptation
 B. Un composant exécutable
 C. Un viewpoint
 D. Un produit de travail formel remis/revu par des stakeholders
@@ -262,7 +262,7 @@ D. Un produit de travail formel remis/revu par des stakeholders
 ## Q029 — Artifact
 Un artifact est :
 A. Une représentation architecturale telle qu'un catalog, matrix ou diagram
-B. Toujours un contrat juridique
+B. Un engagement formel entre l'Architecture Board et les équipes de réalisation
 C. Une phase
 D. Une équipe
 **Réponse : A.** Un artifact représente du contenu architectural. B/C/D sont faux.
@@ -313,7 +313,7 @@ D. ABB « concern » ; SBB « view »
 Dans le Repository, l'Architecture Landscape aide surtout à :
 A. Stocker seulement les contrats fournisseurs
 B. Donner une vue des architectures existantes à différents niveaux
-C. Exécuter les tests
+C. Exécuter les vérifications automatiques des produits approuvés par le Board
 D. Remplacer les views
 **Réponse : B.** Le Landscape fournit une compréhension des architectures. A/C/D sont faux.
 **Mapping : Concepts — Architecture Repository.**
@@ -343,7 +343,7 @@ D. Des décisions, compliance reviews, exceptions et éléments de gouvernance
 Une Reference Library sert principalement à :
 A. Mettre à disposition des références, patterns et matériels réutilisables
 B. Définir la paie
-C. Exécuter la production
+C. Conserver exclusivement l'inventaire des services mis en production et leurs SLA
 D. Remplacer tous les standards
 **Réponse : A.** Elle facilite réutilisation et apprentissage. B/C/D sont faux.
 **Mapping : Concepts — Architecture Repository.**
@@ -380,7 +380,7 @@ D. Pour limiter et clarifier ce qui est inclus, exclu et au bon niveau de détai
 Quel principe de travail est cohérent avec TOGAF ?
 A. Réutiliser les assets pertinents plutôt que recréer systématiquement
 B. Tout concevoir de zéro
-C. Ignorer le Repository
+C. Réutiliser les patterns existants sans examiner leurs hypothèses dans le nouveau contexte
 D. Refuser tout tailoring
 **Réponse : A.** TOGAF valorise la réutilisation et le Repository. B/C/D créent de la rigidité ou du gaspillage.
 **Mapping : Concepts — Reuse.**
@@ -433,8 +433,8 @@ D. Un diagramme
 
 ## Q047 — Constraint
 Une constraint est :
-A. Toujours un principe
-B. Toujours un stakeholder
+A. Un principe de gouvernance général sans portée sur les options de conception
+B. Un concern exprimé par une partie prenante, même sans limitation imposée
 C. Une limitation qui restreint les choix possibles
 D. Une Transition Architecture
 **Réponse : C.** Une contrainte limite l'espace de solution. A/B/D sont d'autres catégories.
@@ -442,7 +442,7 @@ D. Une Transition Architecture
 
 ## Q048 — Concern vers requirement
 Un stakeholder dit : « je crains une interruption des paiements ». Quelle action est la plus cohérente ?
-A. Ignorer le concern
+A. Consigner l'inquiétude dans la stakeholder map et la considérer déjà vérifiable
 B. Choisir un produit sans analyse
 C. Le convertir en phase ADM
 D. Transformer ce concern en exigences mesurables de disponibilité/continuité
@@ -519,7 +519,7 @@ D. Parce que TOGAF interdit les dépendances
 Une grande entreprise peut-elle travailler à plusieurs niveaux d'architecture ?
 A. Non, un seul niveau est autorisé
 B. Oui mais sans gouvernance
-C. Seulement pour Technology
+C. Conserver uniquement des architectures de solution sans coordination supérieure
 D. Oui, par exemple enterprise, segment/capability et solution, avec cohérence entre niveaux
 **Réponse : D.** Les niveaux permettent de gérer la complexité et le bon niveau de détail. A/B/C sont trop restrictifs.
 **Mapping : Concepts — Levels of Architecture.**
@@ -535,10 +535,10 @@ D. Suppression des domain architects
 
 ## Q058 — Security
 Comment la sécurité doit-elle être considérée dans l'architecture ?
-A. Uniquement après la mise en production
+A. Contrôler la sécurité uniquement lors de l'acceptation des livrables en Phase G
 B. Comme une préoccupation transverse intégrée au cycle
-C. Seulement en Phase D
-D. Jamais dans les requirements
+C. Réaliser une revue de sécurité seulement lorsque la Target Technology est terminée
+D. Maintenir la sécurité hors de l'Architecture Requirements Specification
 **Réponse : B.** Security/risk sont cross-cutting concerns. A/C/D arrivent trop tard ou sont faux.
 **Mapping : Concepts — Cross-cutting Concerns.**
 
