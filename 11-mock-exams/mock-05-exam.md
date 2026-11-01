@@ -12,8 +12,8 @@ A. Toute partie intéressée par ou affectée par l'architecture  B. Seulement l
 **Q2.** Quel terme exprime ce qui importe à un stakeholder ?
 A. SBB  B. Plateau  C. Concern  D. Work Package
 
-**Q3.** Une Business Capability est :
-A. Une application imposée  B. Un serveur  C. Un diagramme  D. Une aptitude que l'entreprise doit posséder
+**Q3.** La direction veut comparer l'impact de plusieurs options de transformation numérique. Quelle action illustre le mieux l'Enterprise Architecture au niveau Portfolio ?
+A. Définir les interfaces techniques exactes de chaque composant pour tous les projets avant d'arbitrer l'investissement.  B. Approuver la conformité de chaque version logicielle sans mesurer la contribution des initiatives aux objectifs.  C. Mettre à jour uniquement l'Architecture Landscape des applications existantes sans analyser les options futures.  D. Mettre en relation capabilities, interdépendances et valeur des initiatives afin de sélectionner une trajectoire cohérente.
 
 **Q4.** Un Principle est :
 A. Un planning  B. Une règle directrice générale pour les décisions  C. Une requirement détaillée  D. Un projet
@@ -21,8 +21,8 @@ A. Un planning  B. Une règle directrice générale pour les décisions  C. Une 
 **Q5.** La Target Architecture correspond :
 A. À l'état futur souhaité  B. À l'état actuel  C. Au contrat  D. Au Repository
 
-**Q6.** Un état architectural intermédiaire est appelé :
-A. Baseline  B. Roadmap  C. Transition Architecture  D. Architecture Vision
+**Q6.** Une équipe présente un diagramme d'applications en l'appelant « Architecture Contract ». Quelle distinction est la plus juste ?
+A. Le diagramme est nécessairement un SBB dès qu'il représente une solution candidate.  B. L'Architecture Contract est un viewpoint construit uniquement pour répondre aux concerns métier.  C. Le diagramme est un artifact ; le Contract formalise des engagements de réalisation et de conformité.  D. Un diagramme ne peut jamais figurer dans un Architecture Definition Document approuvé.
 
 **Q7.** Où organise-t-on les standards, reference architectures et autres assets ?
 A. Enterprise Continuum uniquement  B. Architecture Repository  C. Phase H  D. Work Package
@@ -38,8 +38,8 @@ A. Phase G  B. Preliminary  C. Phase E  D. Phase F
 **Q10.** L'Architecture Vision est principalement élaborée en :
 A. Phase A  B. Phase D  C. Phase G  D. Phase H
 
-**Q11.** Les business processes, capabilities et services métier sont principalement détaillés en :
-A. Phase F  B. Phase D  C. Phase B  D. Phase E
+**Q11.** Un programme doit définir les services métier et processus d'assurance futurs ; les applications legacy sont connues. Quel travail ADM doit structurer ce besoin ?
+A. Finaliser la Target Technology Architecture à partir des serveurs supportant les applications actuelles.  B. Décider d'abord des work packages de migration puis adapter les services métier à leur séquencement.  C. Développer la Target Business Architecture avant de dériver Data/Application/Technology et leurs gaps.  D. Réaliser la Compliance Review des applications existantes comme substitut de l'analyse de Target Business.
 
 **Q12.** Une stratégie de data ownership appartient principalement à :
 A. Phase G  B. Phase B  C. Phase E  D. Phase C Data
@@ -59,8 +59,8 @@ A. Phase C  B. Phase E  C. Phase G  D. Phase F
 **Q17.** L'Architecture Contract et la Compliance Review soutiennent surtout :
 A. Phase B  B. Phase G  C. Phase A  D. Phase C
 
-**Q18.** La surveillance des changements post-implémentation appartient surtout à :
-A. Phase E  B. Phase F  C. Phase H  D. Preliminary
+**Q18.** Une architecture en service est concernée par une réglementation qui peut nécessiter une nouvelle capacité métier. Quelle décision de Phase H est correcte ?
+A. Réaliser uniquement une Compliance Assessment après la mise en production du changement.  B. Faire modifier directement la Technology Architecture sans analyser les besoins métier et data.  C. Évaluer le changement, les impacts et la magnitude avant de sélectionner les activités ADM à rouvrir.  D. Classer systématiquement la demande comme simplification car elle provient d'une autorité réglementaire.
 
 **Q19.** Requirements Management est :
 A. Une activité continue autour de l'ADM  B. Une étape uniquement après D  C. Une technique de migration  D. Un domaine d'architecture
@@ -76,8 +76,8 @@ A. Décrire un incident  B. Remplacer le Migration Plan  C. Montrer la trajectoi
 
 ## ADM Techniques
 
-**Q23.** Quelle technique répond le mieux à « qui influence la décision et quels sont ses concerns ? »
-A. Gap Analysis  B. Risk Management  C. Stakeholder Management  D. Interoperability
+**Q23.** Un projet envisage une Target cloud-native, mais les équipes ne maîtrisent ni l'exploitation ni les contraintes de financement. Quelle technique fournit l'analyse la plus adaptée ?
+A. Gap Analysis exclusivement technique sur les versions de conteneurs.  B. Compliance Review de la Target comme substitut de l'évaluation des compétences.  C. Business Transformation Readiness Assessment, avec facteurs et actions de remédiation intégrables à la roadmap.  D. Information Mapping, qui démontre automatiquement l'existence des ressources humaines nécessaires.
 
 **Q24.** Quelle technique aide à formuler des requirements à partir d'un problème métier concret ?
 A. Business Scenarios  B. Partitioning  C. Architecture Contract  D. Compliance Review
@@ -99,8 +99,8 @@ A. Capability-Based Planning  B. Compliance Review  C. Viewpoint Selection  D. C
 **Q29.** Adapter les étapes, artifacts et gouvernance à la réalité de l'organisation est :
 A. Federation  B. Tailoring  C. Gap Analysis  D. Compliance
 
-**Q30.** Quel concept distingue notamment Enterprise, Segment et Capability scopes ?
-A. Catalogs  B. Business Scenarios  C. Work Packages  D. Levels of Architecture
+**Q30.** Pour accélérer des releases agiles, une organisation veut utiliser TOGAF sans imposer un waterfall complet. Quelle approche est conforme au standard ?
+A. Écarter tous les principes transverses dès lors qu'un produit emploie Scrum.  B. Geler les domaines B/C/D après une unique approbation, même si des requirements apparaissent.  C. Remplacer le Content Framework par un backlog sans traçabilité et sans gouvernance.  D. Tailorer l'ADM, autoriser l'itération et maintenir des contrôles proportionnés aux risques et décisions.
 
 **Q31.** Organiser plusieurs espaces d'architecture avec interfaces explicites relève de :
 A. Partitioning  B. Risk Management  C. Phase H  D. Requirements Management
@@ -113,8 +113,8 @@ A. Elle ne concerne que Phase D  B. Elle commence après le go-live  C. Elle est
 **Q33.** L'Architecture Board :
 A. Exécute les déploiements  B. Gouverne et arbitre les décisions d'architecture  C. Remplace le sponsor  D. Est un artifact
 
-**Q34.** Un Architecture Contract :
-A. Est une View  B. Est un Repository  C. Formalise engagements, responsabilités et critères entre parties  D. Est une phase
+**Q34.** Une équipe livraison propose un changement de protocole à un standard approuvé. Quelle pratique caractérise une réponse de gouvernance correcte ?
+A. Changer directement le standard commun pour qu'il reflète la décision locale du fournisseur.  B. Autoriser l'alternative si le même produit figure dans la liste de technologies approuvées.  C. Enregistrer l'écart, mesurer ses impacts et soumettre la dérogation ou correction à l'autorité compétente.  D. Supprimer l'exigence non satisfaite du dossier d'architecture afin d'éviter une non-conformité.
 
 **Q35.** Une exception à un standard doit idéalement :
 A. Être analysée, documentée, approuvée par l'autorité appropriée et suivie  B. Être toujours cachée  C. Être toujours acceptée  D. Être traitée uniquement après H
@@ -127,8 +127,8 @@ A. Stakeholder  B. Building Block  C. Viewpoint  D. Deliverable
 **Q37.** Une Matrix montrant les relations entre applications et fonctions est :
 A. Un Artifact  B. Une phase  C. Un SBB  D. Un Principle
 
-**Q38.** Un Building Block est :
-A. Une règle de scoring  B. Un élément architectural réutilisable  C. Une réunion  D. Un planning
+**Q38.** Dans une Architecture Definition Document, une matrice Application/Data décrit des interactions entre services et entités. Quel statut a-t-elle dans le Content Framework ?
+A. C'est obligatoirement un SBB, puisque les lignes sont des systèmes informatiques.  B. C'est un artifact de type Matrix intégré au deliverable ADD.  C. C'est une Transition Architecture définissant un état architectural complet.  D. C'est un Architecture Contract car elle décrit des interactions entre équipes.
 
 **Q39.** Quelle distinction ABB/SBB est correcte ?
 A. ABB est toujours un produit précis  B. SBB est toujours abstrait  C. ABB exprime une capacité architecturale, SBB une solution plus concrète  D. Ils sont synonymes
