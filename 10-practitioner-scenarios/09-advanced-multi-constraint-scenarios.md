@@ -52,7 +52,7 @@ Le programme de modernisation d'une banque prévoit la migration de l'orchestrat
 
 **Quelle action est la plus adaptée maintenant ?**
 
-A. Approuver immédiatement la bascule révolutionnaire proposée par le sponsor, et intégrer les écarts éventuels dans les Compliance Reviews de Phase G.
+A. Faire évaluer une bascule révolutionnaire avec un plan de retour arrière et une étape pilote, mais sans réconcilier l'ensemble des dépendances entre les événements et la fraude.
 B. Définir le modèle d'Architecture Contract de Phase G pour régler ensuite la question des dépendances entre les projets.
 C. Ajouter une nouvelle technologie d'événementiel dans la Target sans rouvrir les work packages, car le défaut est surtout technique.
 D. Consolider gaps, solutions et dépendances, comparer les stratégies de migration et les Transition Architectures, puis faire arbitrer en Phase F le séquencement selon valeur, readiness et risque avant de gouverner l'exécution en G.
