@@ -109,13 +109,15 @@ for row in re.findall(r'^\| L[12]\.\d+\.\d+ \|[^\n]+$', trace, re.M):
         continue
     check('Candidat précis' in review, f'{objective}: not associated with a precise candidate')
     check('Bloom officiel :' in review, f'{objective}: missing official Bloom level annotation')
-    refs = re.findall(r'\b(XF\d\d|XP\d\d|[QSFA]\d{2,3})\b', exercises)
+    refs = re.findall(r'\b(XF\d\d|XP\d\d|[QSFAD]\d{2,3})\b', exercises)
     check(len(refs) > 0, f'{objective}: no specific question or scenario')
     for reference in refs:
         if reference.startswith('XF'):
             check(reference in foundation_targeted, f'{objective}: missing targeted item {reference}')
         elif reference.startswith('XP'):
             check(reference in practitioner_targeted, f'{objective}: missing targeted item {reference}')
+        elif reference.startswith('D'):
+            check(1 <= int(reference[1:]) <= 16, f'{objective}: invalid deliverable QCM ID {reference}')
         elif reference.startswith('Q'):
             check(1 <= int(reference[1:]) <= 300, f'{objective}: invalid Foundation ID {reference}')
         elif reference.startswith('S'):
