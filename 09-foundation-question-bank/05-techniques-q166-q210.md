@@ -161,10 +161,10 @@ D. Applicative : les deux partenaires utilisent des frameworks différents malgr
 
 ## Q183 — Transformation Readiness
 Business Transformation Readiness sert à :
-A. Définir le modèle de données
-B. Choisir un vendor
+A. Vérifier uniquement que les composants livrés utilisent les standards de plateforme
+B. Identifier les gaps entre Baseline et Target sans analyse des capacités organisationnelles
 C. Évaluer si l'organisation est prête à absorber et soutenir la transformation
-D. Mesurer exclusivement la conformité technique des services livrés
+D. Comparer les performances des produits d'infrastructure sans évaluer les équipes d'exploitation
 **Réponse : C.** La technique évalue capacité organisationnelle, culture, compétences, leadership, etc.
 **Distracteur D :** La readiness porte sur la capacité de transformation de l'organisation, plus large que la conformité technique.
 **Mapping : ADM Techniques — Business Transformation Readiness.**
@@ -182,9 +182,9 @@ D. Leadership, compétences et capacité au changement
 ## Q185 — Low readiness
 La cible est correcte mais les équipes n'ont pas les compétences nécessaires. Quelle technique aide à caractériser ce risque ?
 A. Transformation Readiness Assessment
-B. Viewpoint catalog
-C. Compliance Review uniquement
-D. ABB/SBB
+B. Architecture Compliance Review des composants déjà déployés par l'équipe de réalisation
+C. Gap Analysis centrée sur les différences entre plateformes matérielles
+D. Architecture Contract fixant les engagements des seuls fournisseurs techniques
 **Réponse : A.** Le manque de compétences est un frein de readiness.
 **Mapping : ADM Techniques — Business Transformation Readiness.**
 
@@ -282,9 +282,9 @@ D. En remplaçant tous les work packages par une même Architecture Vision globa
 
 ## Q196 — Migration Planning Techniques
 Quel est le but des techniques de Migration Planning ?
-A. Définir le scope de Phase A
-B. Décrire les views
-C. Établir les principles
+A. Produire directement les composants techniques d'une solution avant le cadrage du besoin
+B. Évaluer uniquement la conformité de la solution achevée aux exigences approuvées
+C. Définir les capabilities métier en substituant les work packages à la Business Architecture
 D. Aider à prioriser et séquencer les changements
 **Réponse : D.** Elles soutiennent surtout Phase F et la construction d'un plan réaliste.
 **Mapping : ADM Techniques — Migration Planning.**
