@@ -37,6 +37,10 @@ La répartition est proportionnelle au plan officiel OGEA-101 de 40 questions :
 - `07-governance-q241-q262.md`
 - `08-content-q263-q300.md`
 
+## Audit 2026-11-01
+
+La répartition des réponses a été corrigée (75 A, 75 B, 75 C, 75 D). Cinquante-trois distracteurs très faibles ont été remplacés par des concepts TOGAF plus proches. Ce correctif ne suffit pas à établir une difficulté réaliste : une revue humaine demeure requise. Les 24 exercices avancés et leurs corrections séparées figurent dans `09-advanced-drills.md`.
+
 ## Méthode d'utilisation
 
 1. Répondre sans regarder la correction.

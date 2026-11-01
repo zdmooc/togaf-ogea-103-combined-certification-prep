@@ -1,3 +1,9 @@
+# AVERTISSEMENT — AUDIT HISTORIQUE REMPLACÉ (01/11/2026)
+
+Le verdict READY ci-dessous date du 6 septembre 2026 et **n'est plus le verdict courant**. Un nouvel audit a confirmé des questions trop simples, un biais massif des lettres, des scénarios Practitioner insuffisamment profonds et des lacunes X2202. Des corrections sont engagées ; **aucune couverture parfaite ou difficulté identique à l'examen ne peut actuellement être garantie**. Consulter `14-official-sources/05-x2202-remediation-register.md`.
+
+---
+
 # FINAL AUDIT — TOGAF OGEA-103 Combined Certification Prep
 
 Audit date: **2026-09-06**

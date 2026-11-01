@@ -4,8 +4,8 @@ Préparation complète et structurée à la certification **TOGAF Enterprise Arc
 
 ## Status
 
-**Repository build: COMPLETE**  
-**Final audit: READY FOR SERIOUS OGEA-103 SELF-STUDY AND EXAM PREPARATION**
+**Repository build: UNDER REMEDIATION (2026-11-01)**  
+**Current audit: detailed X2202 gaps and question-quality weaknesses remain under remediation.**
 
 Ce dépôt est un support d'autoformation original. Il n'est pas un cours accrédité The Open Group et ne garantit pas la réussite à l'examen.
 
@@ -22,6 +22,13 @@ Couvrir ensemble :
 - application pratique sur un cas fil rouge MayaBank ;
 - entraînement intensif QCM/scénarios/mocks ;
 - préparation aux entretiens d'architecte en anglais.
+
+## Compléments issus de l'audit du 1er novembre 2026
+
+- Banque Foundation : 300 bonnes réponses rééquilibrées (75 A/B/C/D), 53 distracteurs renforcés, plus 24 QCM complémentaires dans `09-foundation-question-bank/09-advanced-drills.md`.
+- Banque Practitioner : 60 alternatives à 3 points reformulées et 15 meilleures réponses par lettre, plus 8 cas longs avec corrections dans `10-practitioner-scenarios/09-advanced-multi-constraint-scenarios.md`.
+- Leçons complémentaires : `01-togaf-foundations/10-x2202-foundation-deepening.md` et `07-practitioner/13-x2202-practitioner-deepening.md`.
+- Portes de sortie : `14-official-sources/05-x2202-remediation-register.md`. **Aucune équivalence avec la difficulté officielle n'est démontrée.**
 
 ## Structure du dépôt
 

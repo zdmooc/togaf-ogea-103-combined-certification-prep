@@ -42,12 +42,16 @@ Pour simuler correctement OGEA-103, traite les deux parties séparément et exig
 
 1. Chronométrer 60 minutes pour Part 1.
 2. Fermer le cours et les notes pendant Part 1.
-3. Faire une pause courte.
+3. Simuler les conditions du Combined sans pause programmée entre les deux parties, sous réserve des règles actuelles indiquées à la réservation.
 4. Chronométrer 90 minutes pour Part 2.
 5. Utiliser les références TOGAF seulement pendant Part 2.
 6. Corriger séparément chaque section.
 7. Noter les erreurs par domaine.
 8. Revenir aux chapitres et banques de questions correspondants.
+
+## Audit qualité 2026-11-01
+
+Les examens blancs existants sont des exercices pédagogiques non étalonnés ; leur difficulté et les distracteurs restent à renforcer. Les 24 QCM Foundation difficiles et les 8 scénarios Practitioner avancés complètent cette série.
 
 ## Important
 
