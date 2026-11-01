@@ -136,55 +136,121 @@ A. Une View répond à des concerns selon une Viewpoint  B. Une Viewpoint est pr
 **Q40.** Quelle association est correcte ?
 A. Catalog = relations croisées, Matrix = liste, Diagram = texte  B. Catalog = code, Matrix = projet, Diagram = contrat  C. Les trois sont synonymes  D. Catalog = liste structurée, Matrix = relations, Diagram = représentation visuelle
 
-# Part 2 — Practitioner (8 scénarios)
+# Part 2 — Practitioner (8 scénarios multi-contraintes)
 
-## P1 — Context for Enterprise Architecture
-Une entreprise possède une cible technique détaillée, mais aucune gouvernance commune, des principes contradictoires et aucun processus d'exception. Le sponsor demande de poursuivre directement en Phase E.
+**Simulation pédagogique non étalonnée** : lire chaque situation dans son ensemble. Plusieurs actions peuvent être partiellement défendables ; choisir celle qui répond le mieux au contexte et au moment de décision.
 
-Quelle est la meilleure action ?
-A. Lancer Phase E et documenter les problèmes plus tard.  B. Revenir sur Architecture Capability, gouvernance, principes et tailoring avant de poursuivre.  C. Demander au fournisseur de choisir les standards.  D. Passer directement en Phase F.
+## P1 — Context for Enterprise Architecture — gouvernance fédérée
 
-## P2 — Stakeholder Management
-Le sponsor approuve une cible, mais Operations indique qu'aucun run model ni mécanisme de bascule n'a été défini.
+MayaBank prépare la mutualisation de ses services de paiement entre deux filiales. La Target Technology Architecture a été décrite et certaines équipes ont commencé des preuves de concept. Toutefois, la filiale A utilise un modèle de gouvernance centralisé, tandis que B délègue les exceptions aux squads. Les deux modèles possèdent une historique d'approbation mais leurs principes se contredisent sur l'ownership des API. Le sponsor veut lancer la structuration des work packages en Phase E pour respecter une date réglementaire. L'Architecture Board du groupe est disponible dans une semaine ; aucune autorité de dérogation commune n'a été désignée. Le coût d'une révision complète de tous les diagrammes serait significatif. Quel travail doit être engagé maintenant pour maintenir le programme sans rendre la Target ingouvernable ?
 
-Quelle est la meilleure action ?
-A. Maintenir la décision car le sponsor a déjà approuvé.  B. Demander à Operations de documenter seul le run après déploiement.  C. Reconnaître Operations comme stakeholder critique, analyser ses concerns et intégrer les requirements opérationnels.  D. Ajouter uniquement une réunion d'information.
+**Quelle réponse choisir ?**
 
-## P3 — Phase A
-Une transformation est lancée avec une liste de technologies, mais le scope, les business drivers et les stakeholders ne sont pas stabilisés.
+A. Démarrer une Phase E limitée aux work packages techniques et différer la définition de la gouvernance commune jusqu'à la première livraison.
 
-Quelle est la meilleure action ?
-A. Clarifier scope, drivers, stakeholders, value et Architecture Vision avant de détailler la solution.  B. Continuer Phase D puisque les technologies sont connues.  C. Passer en Phase F pour gagner du temps.  D. Demander au delivery de fixer le scope.
+B. Évaluer les capacités d'architecture existantes, harmoniser principes, responsabilités et processus d'exception avec le Board, puis ajuster le tailoring et relier ce cadre au travail de transformation.
 
-## P4 — Architecture Development B/C/D
-Le métier veut réduire les exceptions manuelles, mais l'équipe propose directement Kafka et une nouvelle base de données.
+C. Utiliser le cadre de gouvernance du fournisseur retenu comme procédure provisoire, puis demander son adoption par les deux filiales.
 
-Quelle est la meilleure action ?
-A. Sélectionner les produits puis définir le besoin.  B. Développer d'abord la Business Architecture, puis dériver besoins Data/Application/Technology et gaps.  C. Traiter uniquement la Data Architecture.  D. Aller directement en Phase E.
+D. Annuler la Target en cours et relancer systématiquement un Preliminary complet pour toutes les entités, avant toute autre activité d'architecture.
 
-## P5 — Implementing E/F/G
-Les gaps sont connus et plusieurs work packages ont été identifiés, mais ils ne sont ni priorisés ni séquencés.
+## P2 — Stakeholder Management — conflit entre valeur et exploitabilité
 
-Quelle est la meilleure action ?
-A. Faire une Compliance Review.  B. Revenir en Preliminary.  C. Passer en Phase H.  D. Utiliser Phase F pour prioriser, séquencer et consolider l'Implementation and Migration Plan.
+La nouvelle plateforme de paiement instantané doit réduire les délais de traitement. La Vision a été acceptée par la direction métier. Lors d'une revue tardive, Operations révèle que la Target ne prévoit ni gestion de la continuité pendant le basculement ni modèle de responsabilité pour les incidents hors heures ouvrées. Le CISO considère que le plan d'accès d'urgence doit également être redéfini. La première release est à six semaines ; le sponsor veut éviter de remettre en cause l'approbation initiale. Une décision de comité est prévue vendredi sur la réalisation de la vague pilote. Les architectes disposent d'une stakeholder map, mais Operations et CISO ne figurent pas dans la liste des acteurs validant les vues. Quelle démarche permet de défendre la décision du comité ?
 
-## P6 — Phase H
-Après mise en production, une nouvelle réglementation impose une modification majeure de la traçabilité.
+**Quelle réponse choisir ?**
 
-Quelle est la meilleure action ?
-A. Évaluer le changement via Architecture Change Management, déterminer son impact et décider du travail d'architecture nécessaire.  B. Corriger uniquement la documentation.  C. Demander au delivery de modifier sans analyse d'architecture.  D. Ignorer jusqu'au prochain programme.
+A. Conserver l'approbation du sponsor comme unique validation de la Vision, puis prévoir les adaptations du run model après la vague pilote.
 
-## P7 — Requirements Management
-Deux équipes interprètent différemment une exigence de disponibilité, et aucune trace ne relie cette exigence aux décisions de conception.
+B. Confier l'ensemble du run model à Operations et garder l'architecture cible inchangée, en lui laissant le choix des moyens.
 
-Quelle est la meilleure action ?
-A. Choisir l'interprétation la moins coûteuse.  B. Clarifier, versionner et tracer la requirement vers les éléments d'architecture et décisions concernées.  C. Reporter la question en Phase G uniquement.  D. Supprimer la requirement.
+C. Mettre à jour l'analyse des stakeholders et concerns, intégrer les exigences de continuité, de support et de sécurité dans des vues appropriées, puis faire arbitrer les impacts avant de confirmer la vague pilote.
 
-## P8 — Supporting the ADM Work
-Le Repository contient une architecture de référence validée qui répond à une grande partie du besoin actuel.
+D. Organiser un atelier Operations/CISO et intégrer leurs exigences les plus urgentes dans les conditions du pilote, sans encore revoir toutes les vues ni l'acceptation des stakeholders.
 
-Quelle est la meilleure action ?
-A. L'ignorer pour garantir l'indépendance de l'équipe.  B. La copier intégralement sans analyse.  C. L'évaluer, la réutiliser et l'adapter au contexte avant de créer de nouveaux éléments.  D. Attendre Phase H avant de la consulter.
+## P3 — Phase A — vision fondée sur des drivers vérifiables
+
+Le directeur d'un groupe veut déployer une plateforme IA en moins de huit mois. Une équipe a déjà choisi deux technologies cloud et dispose d'une estimation de coût. Pourtant les métiers ne s'accordent ni sur la valeur à produire ni sur les données que le programme est autorisé à traiter. Les responsables sécurité demandent si un usage en production peut coexister avec un bac à sable de prototypage ; le sponsor évoque simultanément réduction des coûts et innovation, sans indicateur partagé. Une Architecture Capability fonctionnelle existe déjà et plusieurs patterns IA sont dans le Repository. Le comité doit décider d'autoriser ou non le travail détaillé. Quelle démarche doit précéder la fixation de la solution cible ?
+
+**Quelle réponse choisir ?**
+
+A. Cadrer les business drivers, stakeholders, concerns, scope, valeur et contraintes ; comparer des options de Vision, réutiliser les principes pertinents et obtenir le Statement of Architecture Work approuvé.
+
+B. Maintenir les deux technologies choisies comme hypothèse et demander aux principaux métiers de confirmer les critères de valeur et le périmètre avant tout engagement de delivery, sans comparer encore plusieurs visions.
+
+C. Demander à chaque équipe produit de définir son architecture cible séparément ; la Vision de groupe émergera des implémentations.
+
+D. Définir immédiatement les work packages de migration et le plan de financement en Phase F afin d'imposer une date crédible aux métiers.
+
+## P4 — Architecture Development B/C/D — exigence contradictoire
+
+MayaBank veut réduire de 40 % les corrections manuelles des transactions. Le métier a identifié des doubles saisies lors de la validation de bénéficiaire. La Data Architecture mentionne un référentiel commun mais n'a pas clarifié la résidence de certaines données sensibles ; l'équipe applicative propose un moteur d'événements standard et la Technology Architecture anticipe une plateforme OpenShift multisite. Les équipes conformité indiquent que l'une des filiales ne peut pas exporter ses identifiants clients ; les équipes Operations exigent une stratégie de reprise. Le sponsor veut que le comité choisisse Kafka et PostgreSQL parce qu'ils sont déjà utilisés ailleurs. Quelle réponse mène à une Target cohérente et défendable ?
+
+**Quelle réponse choisir ?**
+
+A. Retenir Kafka/PostgreSQL, puis adapter les activités métier à leurs capacités et traiter la résidence des données dans le contrat fournisseur.
+
+B. Confirmer les capabilities et parcours métier, développer et itérer les architectures Data/Application/Technology avec leurs gaps et requirements, comparer les modèles de traitement fédéré et centralisé, puis soumettre les arbitrages.
+
+C. Réexaminer la Data Architecture et les contraintes de résidence en priorité, puis compléter les vues applicatives et techniques après une première validation du métier.
+
+D. Lancer une Gap Analysis Technology isolée pour prouver que la plateforme cible peut répondre à la volumétrie.
+
+## P5 — Implementing E/F/G — dépendances, valeur et transition
+
+La Target Architecture d'une banque prévoit trois work packages : standardisation des événements, moteur anti-fraude et migration du traitement des rejets. Les gaps B/C/D sont documentés, et une Transition Architecture est envisagée pour faire coexister deux modèles de messages pendant quatre mois. Le sponsor réclame une mise en production du moteur anti-fraude en première vague parce que son business case présente le meilleur gain unitaire. Or ce moteur dépend d'un flux d'événements qui n'existe qu'après la standardisation. Operations redoute le coût de la coexistence et veut une preuve de retour arrière. Les travaux d'implémentation n'ont pas commencé. Quelle décision de planification doit précéder la gouvernance de la réalisation ?
+
+**Quelle réponse choisir ?**
+
+A. Faire vérifier les risques et les exceptions dans une Compliance Review anticipée, puis conserver l'ordre des lots déjà souhaité par le sponsor.
+
+B. Publier immédiatement une roadmap provisoire qui place la standardisation des événements en première vague, puis arbitrer les coûts et bénéfices des autres lots au comité suivant.
+
+C. Réexaminer la Vision et relancer la totalité des domaines B/C/D pour éviter tout risque d'erreur de priorisation.
+
+D. En Phase F, évaluer valeur, dépendances, readiness et coûts des transitions, puis confirmer les priorités, séquencement, critères de bascule et Implementation and Migration Plan avant la Phase G.
+
+## P6 — Phase H — adaptation réglementaire après déploiement
+
+Un service de paiement est en production depuis dix-huit mois. Une réglementation impose à présent une preuve supplémentaire de vérification du destinataire. Certaines filiales possèdent déjà ce contrôle, mais l'Architecture Landscape ne reflète pas les dernières versions des services. La modification pourrait être limitée à une nouvelle interface, ou nécessiter la révision du parcours métier et des échanges interbancaires selon les pays. Le sponsor la considère « mineure », tandis que le responsable conformité veut relancer entièrement l'ADM. Aucune étude d'impact n'a encore été réalisée et la date d'application approche. Quelle recommandation permet un changement proportionné ?
+
+**Quelle réponse choisir ?**
+
+A. Appliquer l'Architecture Change Management de Phase H : mettre à jour l'état réel, analyser exigences et impacts, classer le changement et déterminer l'ampleur du travail ADM avec gouvernance adaptée.
+
+B. Documenter la nouvelle requirement et les composants manifestement touchés, puis planifier une revue ciblée des vues applicatives et data, sans conclure encore sur la catégorie définitive de changement.
+
+C. Déployer l'interface proposée par une filiale puisqu'elle est déjà utilisée en production ; son existence constitue une validation suffisante.
+
+D. Reporter le changement au cycle annuel de roadmap afin de limiter le nombre d'exceptions.
+
+## P7 — Requirements Management — disponibilité contradictoire
+
+Pour une architecture de paiement, le métier a approuvé « une disponibilité de 99,95 % », Operations considère que ce seuil exclut les maintenances planifiées, tandis que le CISO exige que certains services de contrôle restent actifs pendant les bascules. Les architectes ont construit une Technology Architecture multisite sur une interprétation non documentée de cette requirement. Le comité doit arbitrer une modification coûteuse des mécanismes de failover. Une Architecture Requirements Specification existe mais n'indique ni période de mesure ni propriétaire de cette exigence. Quelle action fournit la base la plus solide à l'arbitrage ?
+
+**Quelle réponse choisir ?**
+
+A. Retenir l'interprétation la moins coûteuse, puis faire accepter le risque résiduel par le métier au moment du déploiement.
+
+B. Clarifier avec les propriétaires les critères de mesure, périmètres et exceptions ; versionner l'exigence, tracer ses impacts sur les décisions et modèles, puis faire arbitrer les options et risques documentés.
+
+C. Convoquer le métier et Operations pour convenir d'un seuil opérationnel provisoire, en consignant le désaccord mais sans réévaluer immédiatement tous les impacts de la Technology Architecture.
+
+D. Reporter l'interprétation détaillée à la Phase G, lorsque les mécanismes techniques de failover seront implémentés.
+
+## P8 — Supporting ADM Work — réutilisation conditionnelle
+
+La nouvelle plateforme de conformité d'une filiale doit traiter des volumes doubles de ceux d'une architecture de référence disponible dans l'Architecture Repository. Celle-ci a reçu l'approbation du Board il y a trois ans et possède un modèle d'API, des standards de sécurité et un plan d'exploitation. Depuis, la législation locale a changé et un nouveau fournisseur a rejoint l'écosystème. Le sponsor veut réutiliser les patterns pour réduire le coût, tandis que Operations indique que l'équipe locale n'a pas les compétences nécessaires pour le modèle de reprise préconisé. Le comité doit décider dans deux semaines si la Target peut partir de cette architecture. Quelle démarche est la plus adaptée ?
+
+**Quelle réponse choisir ?**
+
+A. Redéfinir toute l'architecture à partir de zéro, car un pattern de référence ancien ne peut plus être compatible avec les contraintes actuelles.
+
+B. Adopter le modèle existant sans analyse puisque le Board l'a déjà approuvé ; mettre à jour uniquement les versions de produits.
+
+C. Évaluer le pattern comme candidat, vérifier ses hypothèses face aux besoins et standards actuels, analyser readiness et risques puis adapter les building blocks, requirements et trajectoire avant approbation.
+
+D. Réutiliser les principaux modèles et effectuer d'abord des tests de charge et de sécurité, puis traiter les contraintes réglementaires et la capacité d'exploitation dans une seconde revue.
 
 ---
 
