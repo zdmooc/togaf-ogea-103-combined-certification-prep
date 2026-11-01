@@ -7,10 +7,10 @@
 ## Concepts
 
 **Q1.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quel élément décrit le mieux un Concern ?
-A. Requirement — une condition formelle mesurable que la cible doit respecter  B. Viewpoint — une convention permettant de construire et interpréter une vue  C. Business Driver — une force qui motive une transformation de l'entreprise  D. Une préoccupation d'un stakeholder
+A. Requirement — une condition formelle mesurable que la cible doit respecter  B. Viewpoint — une convention permettant de construire et interpréter une vue  C. Business Driver — une force qui motive une transformation de l'entreprise  D. Concern — préoccupation d'un stakeholder concernant les résultats ou impacts de l'architecture
 
 **Q2.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quelle chaîne est la plus cohérente ?
-A. Stakeholder → Concern → Viewpoint → View  B. La Viewpoint est l'instance représentée et la View en spécifie la notation  C. Une View peut ignorer les concerns si elle est conforme au métamodèle  D. La View est un building block physique et la Viewpoint une transition
+A. Stakeholder → Concern → Viewpoint → View — chaîne reliant préoccupations et représentations  B. La Viewpoint est l'instance représentée et la View en spécifie la notation  C. Une View peut ignorer les concerns si elle est conforme au métamodèle  D. La View est un building block physique et la Viewpoint une transition
 
 **Q3.** Un architecte prépare une décision sur la mutualisation de services entre filiales. Quel objet permet de distinguer une aptitude durable de l'entreprise de l'application Java qui la supporte aujourd'hui ?
 A. Un SBB, dont le nom peut être identique à celui du produit historique.  B. Une business capability, définie indépendamment d'un produit ou d'une implémentation.  C. Une Transition Architecture correspondant au déploiement de la prochaine version.  D. Un Technology Standard définissant la version du runtime applicatif.
@@ -28,13 +28,13 @@ A. L'Enterprise Metamodel, qui encadre les entités d'architecture et leurs rela
 A. Le Continuum stocke les artifacts, tandis que le Repository les classe seulement  B. Standards, reference architectures, decisions et assets  C. Le Repository n'héberge que des solutions déployées et jamais les requirements  D. Repository et Continuum sont deux noms d'un unique stockage de solutions
 
 **Q8.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Une Transition Architecture représente :
-A. Implementation and Migration Plan — travaux, dépendances et échéances  B. Baseline Architecture — état actuel observé dans le périmètre  C. Un état intermédiaire cohérent  D. Standards Information Base — standards techniques autorisés
+A. Implementation and Migration Plan — travaux, dépendances et échéances  B. Baseline Architecture — état actuel observé dans le périmètre  C. Transition Architecture — état architectural intermédiaire cohérent avant la Target  D. Standards Information Base — standards techniques autorisés
 
 **Q9.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Définir ou ajuster le modèle de gouvernance de l'architecture relève surtout de :
 A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Phase E — définir options, work packages et transitions candidates  C. Preliminary — mise en place de l'Architecture Capability  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
 **Q10.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Le Statement of Architecture Work est particulièrement associé à :
-A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase B — définir capabilities et processus métier de la Target  C. Phase F — planifier les vagues et priorités de migration  D. Phase A — cadrage et Architecture Vision
+A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase B — définir capabilities et processus métier de la Target  C. Phase F — planifier les vagues et priorités de migration  D. Phase A — cadrage des business drivers, concerns et scope, puis Architecture Vision
 
 **Q11.** Le métier demande de nouvelles possibilités d'indemnisation ; la DSI connaît déjà des microservices capables de les implémenter. Quelle activité de l'ADM doit d'abord sécuriser les objectifs et les processus cibles ?
 A. Finaliser l'Architecture Requirements Specification uniquement avec les contraintes techniques déjà disponibles.  B. Définir la Business Architecture de Phase B sans réduire la capability à un composant existant.  C. Démarrer Phase F pour prioriser les migrations des applications historiques.  D. Formaliser un Architecture Contract fournisseur pour les microservices candidats.
