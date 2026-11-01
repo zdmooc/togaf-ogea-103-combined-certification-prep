@@ -41,10 +41,10 @@ D. Un livrable approuvé par le comité d'architecture
 
 ## Q267 — Building Block
 Un building block est :
-A. Une vue de l'architecture construite selon un viewpoint
-B. Un concern
+A. Un document formel soumis à l'approbation de l'Architecture Board pendant un jalon ADM
+B. Une représentation graphique dont la convention de construction est définie par un viewpoint
 C. Un élément potentiellement réutilisable qui décrit ou réalise une capacité architecturale
-D. Une migration wave
+D. Une requirement vérifiable indiquant la contrainte à satisfaire par une solution donnée
 **Réponse : C.** Les building blocks structurent les architectures et solutions.
 **Distracteur A :** La vue est une représentation des building blocks, pas nécessairement un block elle-même.
 **Mapping : Architecture Content — Building Blocks.**
@@ -78,10 +78,10 @@ D. Artifact → est toujours un projet
 
 ## Q271 — Catalog
 Un catalog est principalement :
-A. Une vue uniquement graphique
-B. Un contrat
+A. Une matrice décrivant les correspondances entre plusieurs types d'éléments d'architecture
+B. Un diagramme représentant graphiquement les interfaces et relations entre services
 C. Une liste structurée d'éléments d'architecture
-D. Une phase
+D. Un deliverable approuvé décrivant formellement un ensemble de vues et exigences
 **Réponse : C.** Un catalog inventorie/classifie des éléments.
 **Mapping : Architecture Content — Catalogs.**
 
@@ -115,10 +115,10 @@ D. Catalog = Architecture Contract
 
 ## Q275 — Matrix vs Diagram
 Quelle phrase est la plus juste ?
-A. Ils sont toujours interchangeables
-B. Un diagram n'est jamais un artifact
+A. Un diagram est un deliverable approuvé ; la matrix est toujours un SBB déployé en production
+B. Une matrix est exclusivement un calendrier de migration ; un diagram est nécessairement un Architecture Contract
 C. Une matrix formalise des correspondances ; un diagram met en scène visuellement des éléments/relations
-D. Une matrix est un building block
+D. Une matrix spécifie la convention du viewpoint ; le diagram ne peut représenter que le niveau technique
 **Réponse : C.** Les deux sont des artifacts mais répondent à des besoins de représentation différents.
 **Mapping : Architecture Content — Matrix vs Diagram.**
 
@@ -207,9 +207,9 @@ D. Pour montrer comment la solution concrète satisfait l'intention architectura
 ## Q285 — Content Metamodel
 Le Content Metamodel définit :
 A. Les types d'entités architecturales et relations autorisées/pertinentes
-B. Le planning projet
-C. La stratégie de migration choisie par le comité
-D. Les incidents
+B. Une liste de standards de technologies servant à définir les versions autorisées en production
+C. Un document de migration décrivant l'ordre des solutions et les transitions vers la cible
+D. Un produit de travail formel composé de plusieurs artifacts soumis aux stakeholders
 **Réponse : A.** Le metamodel donne une structure sémantique au contenu.
 **Distracteur C :** Une stratégie de migration ne définit pas les types et relations du métamodèle.
 **Mapping : Architecture Content — Content Metamodel.**
@@ -333,10 +333,10 @@ D. Roadmap = contrat de conformité du fournisseur ; Migration Plan = matrice de
 
 ## Q299 — Transition Architecture vs Plan
 Une Transition Architecture est :
-A. La liste séquencée des work packages d'un plan de migration
-B. Une stakeholder map
+A. Une roadmap de work packages avec propriétaires, dates et priorités de financement
+B. Un diagramme de la plateforme actuelle conservé sans état futur de transformation
 C. Un état intermédiaire de l'architecture, pas le plan qui décrit les tâches pour l'atteindre
-D. Un principle
+D. Une Architecture Requirements Specification détaillant les contraintes à vérifier
 **Réponse : C.** Il faut distinguer l'état architectural intermédiaire du plan de migration.
 **Distracteur A :** La liste de travaux décrit un plan ; la Transition Architecture est un état cohérent.
 **Mapping : Architecture Content — Common Confusions.**
