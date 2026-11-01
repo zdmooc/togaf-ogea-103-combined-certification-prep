@@ -117,7 +117,7 @@ A. Artifact — représentation individuelle de type catalogue ou diagramme  B. 
 **Q37.** Dans une fédération bancaire, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Quel terme désigne une représentation telle qu'un Catalog, Matrix ou Diagram ?
 A. Artifact — représentation telle que Catalog, Matrix ou Diagram  B. Deliverable — produit de travail formel agrégant des représentations  C. SBB — composant concret réalisant des fonctionnalités d'architecture  D. Architecture Contract — obligations de mise en œuvre entre parties
 
-**Q38.** Une équipe doit représenter les services, les capacités métier et leurs relations, puis faire approuver un dossier formel. Quelle distinction est correcte ?
+**Q38.** Une équipe doit soumettre un dossier formel exposant les capacités métier et leurs building blocks au moyen de plusieurs représentations. Comment qualifier ce dossier ?
 A. Chaque building block devient un deliverable distinct dès que son diagramme est approuvé.  B. Un deliverable formel peut contenir plusieurs artifacts représentant des building blocks et leurs liens.  C. Un viewpoint représente l'application physique tandis qu'un SBB décrit toujours un process métier.  D. Un Architecture Contract est un type de diagramme et remplace les artifacts de la Target.
 
 **Q39.** Dans une fédération bancaire, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Un SBB :
