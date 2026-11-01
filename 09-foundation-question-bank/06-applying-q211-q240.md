@@ -22,7 +22,7 @@ D. Processus, terminologie, artifacts, gouvernance et niveau de détail
 Quel tailoring est le plus sain ?
 A. Supprimer un artifact si aucune décision ni concern ne le justifie, en documentant l'adaptation
 B. Supprimer Phase G pour éviter les reviews
-C. Ignorer Requirements Management
+C. Supprimer les mécanismes de gestion des requirements pour réduire le nombre d'artifacts
 D. Sauter les stakeholders pour gagner du temps
 **Réponse : A.** L'adaptation doit être intentionnelle et gouvernée. B/C/D suppriment des mécanismes essentiels.
 **Mapping : Applying ADM — Tailoring.**
@@ -47,7 +47,7 @@ D. Il faut toujours recommencer depuis Preliminary
 
 ## Q216 — Iteration between domains
 Un choix Application révèle une contrainte Data majeure. Que peut-on faire ?
-A. Ignorer la contrainte
+A. Valider l'Application Architecture sans analyser son impact sur les entités Data concernées
 B. Attendre H
 C. Refaire toujours Phase F
 D. Itérer entre les travaux Data et Application
@@ -85,7 +85,7 @@ D. Une configuration de pod uniquement
 ## Q220 — Segment/Capability level
 Un niveau segment/capability est utile pour :
 A. Remplacer toute architecture entreprise
-B. Ignorer les standards
+B. Définir un segment sans respecter les interfaces ni les standards de l'entreprise
 C. Supprimer les dépendances
 D. Détailler une partie cohérente de l'entreprise tout en restant aligné au niveau supérieur
 **Réponse : D.** Il fournit un niveau intermédiaire de décision.
@@ -94,7 +94,7 @@ D. Détailler une partie cohérente de l'entreprise tout en restant aligné au n
 ## Q221 — Solution level
 Une Solution Architecture doit idéalement :
 A. Réaliser les intentions d'architecture supérieures tout en répondant au contexte de solution
-B. Ignorer les ABB
+B. Écarter les ABB approuvés même lorsqu'ils expriment des capacités requises par la solution
 C. Redéfinir seule la stratégie d'entreprise
 D. Échapper à la governance
 **Réponse : A.** Les niveaux doivent rester cohérents, sans nier les contraintes locales.
@@ -131,17 +131,17 @@ D. Un équilibre entre autonomie locale et cohérence globale
 Quel mécanisme aide une fédération d'équipes ?
 A. Des principles, standards, interfaces et forums de gouvernance communs
 B. Aucun contrat d'interface
-C. Aucun stakeholder transversal
+C. Laisser chaque équipe décider ses standards sans mécanisme de cohérence transverse
 D. Des décisions secrètes
 **Réponse : A.** Des règles partagées rendent l'autonomie compatible avec la cohérence.
 **Mapping : Applying ADM — Federation.**
 
 ## Q226 — Security cross-cutting
 Comment appliquer la sécurité avec l'ADM ?
-A. Seulement après G
+A. Ne traiter les risques de sécurité qu'après la dernière revue de conformité
 B. Comme concern transverse intégré aux phases et requirements
-C. Seulement en D
-D. Seulement si le CISO le demande à la fin
+C. Concentrer les exigences de sécurité exclusivement dans la Technology Architecture
+D. Inscrire les contrôles de sécurité seulement après le choix de toutes les solutions
 **Réponse : B.** Security/risk doivent influencer architecture, requirements et governance dès le début.
 **Mapping : Applying ADM — Security.**
 
@@ -157,7 +157,7 @@ D. Être hors scope par défaut
 ## Q228 — Security in B/C/D
 En B/C/D, une approche correcte est :
 A. Traiter sécurité uniquement en D
-B. Ignorer Business Architecture
+B. Déduire les exigences de sécurité exclusivement de la plateforme technique retenue
 C. Éviter toute traçabilité
 D. Raffiner les requirements et controls de sécurité dans chaque domaine pertinent
 **Réponse : D.** La sécurité traverse Business, Data, Application et Technology.
