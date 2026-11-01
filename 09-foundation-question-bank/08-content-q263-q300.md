@@ -61,9 +61,9 @@ D. Un deliverable peut contenir plusieurs artifacts
 ## Q269 — Artifact represents Building Blocks
 Quel énoncé est le plus juste ?
 A. Un artifact peut représenter des building blocks et leurs relations
-B. Un building block est toujours un diagramme
-C. Un deliverable est un SBB
-D. Un viewpoint est un work package
+B. Un building block physique remplace automatiquement tout artifact de sa description
+C. Chaque artifact est nécessairement un Architecture Contract signé avant sa mise en œuvre
+D. Une view est toujours un deliverable distinct et ne peut contenir aucun building block
 **Réponse : A.** Les artifacts représentent le contenu architectural, dont les building blocks.
 **Mapping : Architecture Content — Artifact/Building Block.**
 
@@ -87,9 +87,9 @@ D. Un deliverable approuvé décrivant formellement un ensemble de vues et exige
 
 ## Q272 — Matrix
 Une matrix sert surtout à :
-A. Afficher uniquement une chronologie
-B. Remplacer le Repository
-C. Définir la Vision
+A. Lister les éléments d'un domaine sans établir leurs liens avec d'autres éléments
+B. Documenter les engagements des implementers dans le contrat d'architecture
+C. Représenter un état complet de l'Architecture Landscape à un jalon cible
 D. Montrer des relations entre deux ensembles d'éléments
 **Réponse : D.** La matrix met en évidence des correspondances et dépendances.
 **Mapping : Architecture Content — Matrices.**
@@ -188,10 +188,10 @@ D. ABB « matrix » ; SBB « catalog »
 
 ## Q283 — ABB independence
 Pourquoi éviter de nommer trop tôt un produit dans un ABB ?
-A. Parce que les produits sont interdits
-B. Parce que les SBB n'existent pas
+A. Pour transformer une capability métier abstraite en un contrat fournisseur définitif
+B. Pour éviter que l'Architecture Definition Document contienne des besoins techniques
 C. Pour préserver la séparation entre besoin architectural et choix de solution
-D. Pour éviter toute implementation
+D. Pour permettre au Board de supprimer les étapes de revue des SBB après sélection
 **Réponse : C.** L'ABB doit décrire le besoin/capacité avant la réalisation concrète.
 **Mapping : Architecture Content — ABB.**
 
@@ -244,9 +244,9 @@ D. Selon la question, les concerns et la relation à montrer
 ## Q289 — Deliverable formal nature
 Pourquoi un deliverable est-il plus formel qu'un artifact isolé ?
 A. Il est généralement soumis à review/approval et regroupe du contenu attendu
-B. Parce qu'il est toujours plus long
-C. Parce qu'il contient du code
-D. Parce qu'il remplace l'Architecture Board
+B. Il correspond à un produit logiciel forcément déjà déployé avant toute approbation
+C. Il précise exclusivement la convention de création d'un diagram ou matrix
+D. Il constitue uniquement une liste d'éléments sans circuit formel de validation
 **Réponse : A.** La formalité vient du rôle dans la gouvernance, pas de la taille.
 **Mapping : Architecture Content — Deliverables.**
 
@@ -280,9 +280,9 @@ D. Un deliverable décrivant la trajectoire de transformation
 ## Q293 — Artifact example
 Lequel est un artifact ?
 A. Application Portfolio Catalog
-B. Architecture Board
-C. Phase F
-D. Business sponsor
+B. Technology Building Block déployé
+C. Architecture Contract fournisseur
+D. Requirements Management process
 **Réponse : A.** Un catalog est un artifact. B/C/D sont organisation, phase et stakeholder.
 **Mapping : Architecture Content — Artifacts.**
 
