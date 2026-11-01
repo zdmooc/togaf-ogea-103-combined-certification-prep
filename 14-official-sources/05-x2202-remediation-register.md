@@ -31,14 +31,28 @@ Chaque *learning outcome* doit obtenir (1) une référence du cours avec explica
 - Banque Practitioner : ancien état 43 A / 14 B / 3 C / 0 D. **Correctif de premier niveau** : les 60 scénarios ont été développés avec enjeux métier, contraintes et alternatives révisées, et les meilleures réponses réparties sur A/B/C/D. Une revue de qualité **indépendante** des options et de chaque gradient reste obligatoire.
 - Six examens blancs : les 48 scénarios Practitioner ont été développés et les 240 QCM Foundation ont été retravaillés (48 réécrits en profondeur, 192 avec distracteurs liés aux notions TOGAF et contextualisation). La vérification pédagogique indépendante reste nécessaire. L'indépendance psychométrique et la difficulté restent **non validées**.
 
+## Indicateurs de qualité mesurés le 1er novembre 2026
+
+| Contrôle | Avant corrections | Après corrections | Ce que cela prouve |
+|---|---:|---:|---|
+| Foundation : bonne réponse la plus longue | 70 % des 300 | **34 %** | Réduction du biais de longueur, pas validation du contenu |
+| Foundation : longueur moyenne bonne réponse / distracteur | 2,08 | **1,12** | Options plus comparables |
+| Foundation : bonne réponse au moins 2× la longueur moyenne des distracteurs | 133 questions | **0** avec ratio strictement supérieur à 2 | Le test de non-régression bloque le retour des cas extrêmes |
+| Mocks Foundation : bonne réponse la plus courte | 48 % des 240 | **38 %** | Réduction d'un biais inverse |
+| Mocks Foundation : longueur relative moyenne de la bonne réponse | 0,95 | **1,03** | Comparabilité améliorée |
+| Objectifs syllabus X2202 individuellement inventoriés | Non | **131** | Inventaire des objectifs et de leurs niveaux Bloom |
+| Objectifs avec références d'exercices candidates | Partiel | **130 évaluables** | Traçabilité candidate, pas preuve d'adéquation cognitive |
+
+La sélection des distracteurs reste une revue **qualitative** : une longueur comparable ne garantit ni unicité de la bonne réponse, ni distracteur plausible. Les corrections ont réduit une anomalie détectable, pas étalonné l'examen. Les 22 scénarios XP05–XP26 ciblent des objectifs insuffisamment évalués par la banque d'origine. L'examen en français : OGEA-F101 / OGEA-F102 ; aucun Combined français listé dans la table publique consultée au 1er novembre 2026. Sources dans `02-exam-format-and-policies.md`.
+
 ## Critères de sortie bloquants
 
-- [ ] Chacun des learning outcomes détaillés dispose de liens précis cours → exercice → corrigé → référence TOGAF.
+- [x] 130 objectifs évaluables disposent de références candidates exactes vers un cours et des exercices ; les dossiers comportent des corrigés. **À vérifier encore : adéquation au wording officiel, au niveau Bloom et à la référence TOGAF exacte pour chaque association.**
 - [ ] Analyse humaine indépendante de l'exactitude des 300 QCM, de tous les distracteurs et des explications.
 - [ ] 60 scénarios validés comme décisions réellement nuancées, avec score 5/3/1/0 justifié.
 - [ ] Six examens blancs sans réponses triviales, sans reprises sémantiques évidentes et évalués avec lecteurs indépendants. Le contrôle technique a éliminé des intitulés identiques, mais les ressemblances sémantiques doivent être revues.
 - [ ] Pratique chronométrée et usage du corpus Open Book intégré.
-- [ ] Vérification finale des langues/code examens sur les pages officielles.
+- [x] Codes, langues, Open Book et modalités Combined vérifiés sur les pages publiques officielles au 1er novembre 2026 (réservation effective à confirmer chez Pearson).
 
 ## Contrôles réalisés (1er novembre 2026)
 
@@ -48,11 +62,14 @@ Chaque *learning outcome* doit obtenir (1) une référence du cours avec explica
 - [x] 48 scénarios des mocks repris avec des contextes plus développés.
 - [x] 240 QCM des mocks retravaillés (48 réécrits en profondeur, 192 révisés par concept) et 14 intitulés répétés contextualisés.
 - [x] **131 objectifs X2202** inventoriés ; **130** disposent d'un numéro précis d'exercice candidat et **L1.8.1** n'exige pas de question dédiée (Bloom None). Les associations restent à relire pédagogiquement.
-- [x] **6 exercices ciblés** ajoutés (XF01–XF02, XP01–XP04) pour combler les associations manquantes dans les deux niveaux.
+- [x] **28 exercices ciblés** ajoutés : XF01–XF02 et XP01–XP26, avec corrections séparées et objectifs précis.
 - [x] Correction du cours : **7 rubriques officielles du Repository** à L2 8.5, et non 8 ; termes Standards Library et Governance Repository distingués des variantes historiques.
-- [x] 133 distracteurs faibles de la banque Foundation remplacés par des alternatives conceptuellement plus proches (53 + 80).
+- [x] 133 distracteurs faibles corrigés dans le premier audit (53 + 80), puis **133 ensembles supplémentaires de trois distracteurs** retravaillés durant l'audit du biais de longueur (31 + 35 + 40 + 27).
+- [x] Biais de longueur Foundation ramené à **34 %** de bonnes réponses les plus longues, ratio moyen 1,12, aucun cas >2× ; seuils automatisés en CI.
+- [x] Biais inverse des mocks Foundation réduit : bonne réponse la plus courte de 48 % à 38 % et ratio de 0,95 à 1,03 ; énoncés répétés contextualisés.
 - [x] GitHub Actions : contrôles structurels des banques, six mocks, 131 objectifs et liens vers les cours.
-- [ ] Examiner la pertinence et le niveau **Bloom** de chacune des 130 associations candidates (les identifiants sont maintenant indiqués, mais pas encore certifiés).
+- [x] Renseigner les **131 niveaux Bloom** tels qu'indiqués dans X2202, y compris l'étiquette atypique `2_Remembering` de L1 7.3.
+- [ ] Examiner la pertinence **cognitive** des 130 associations candidates pour le niveau Bloom indiqué ; les références ne sont pas certifiées.
 - [ ] Validation sémantique indépendante et approfondie de l'ensemble du corpus par relecteur qualifié.
 
 ## Distinction importante
