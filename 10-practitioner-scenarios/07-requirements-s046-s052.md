@@ -15,10 +15,10 @@ D. Proposer des seuils provisoires de reprise et de perte de données, puis orga
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Décomposer et clarifier la requirement en critères vérifiables — disponibilité, RTO/RPO, modes de défaillance, failover, tests — tout en conservant la traçabilité vers le concern initial. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **C — 3 points :** Définir un premier seuil quantifié de disponibilité puis compléter les conditions de mesure et la validation par Operations. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **D — 1 point :** Proposer des seuils provisoires de reprise et de perte de données, puis organiser un atelier de validation des hypothèses avec les SRE et le Business Owner. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **A — 0 point :** Sélectionner le design haute disponibilité recommandé par l'intégrateur, puis déduire la requirement du niveau de service qu'il garantit. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **B — 5 points :** Décomposer et clarifier la requirement en critères vérifiables — disponibilité, RTO/RPO, modes de défaillance, failover, tests — tout en conservant la traçabilité vers le concern initial. Une requirement vérifiable établit un critère d'acceptation clair.
+- **C — 3 points :** Définir un premier seuil quantifié de disponibilité puis compléter les conditions de mesure et la validation par Operations. Un objectif qualitatif doit encore devenir une condition testable.
+- **D — 1 point :** Proposer des seuils provisoires de reprise et de perte de données, puis organiser un atelier de validation des hypothèses avec les SRE et le Business Owner. Une intention de projet ne remplace pas un seuil mesurable.
+- **A — 0 point :** Sélectionner le design haute disponibilité recommandé par l'intégrateur, puis déduire la requirement du niveau de service qu'il garantit. Une exigence ambiguë rend impossible la Compliance Assessment.
 
 **Mapping : Requirements Management — Quality of Requirements.**
 
@@ -40,10 +40,10 @@ D. Faire expliciter et documenter les impacts des deux exigences, puis préparer
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Rendre le conflit explicite, analyser trade-offs et impacts, impliquer les stakeholders concernés et obtenir un arbitrage gouverné avec requirements mises à jour. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **D — 3 points :** Faire expliciter et documenter les impacts des deux exigences, puis préparer une proposition de compromis pour l'autorité de décision. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **A — 1 point :** Préparer deux architectures alternatives chiffrées et faire expliciter les risques avant de demander un arbitrage métier, sans conclure encore sur leur traçabilité. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **B — 0 point :** Adopter une redondance limitée uniquement aux composants critiques et considérer les deux requirements satisfaites, sans accord formel des owners. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **C — 5 points :** Rendre le conflit explicite, analyser trade-offs et impacts, impliquer les stakeholders concernés et obtenir un arbitrage gouverné avec requirements mises à jour. Le conflit doit être explicité puis arbitré par les owners appropriés.
+- **D — 3 points :** Faire expliciter et documenter les impacts des deux exigences, puis préparer une proposition de compromis pour l'autorité de décision. Une priorité provisoire aide sans trancher le désaccord.
+- **A — 1 point :** Préparer deux architectures alternatives chiffrées et faire expliciter les risques avant de demander un arbitrage métier, sans conclure encore sur leur traçabilité. Supprimer une demande sans consultation détruit la trace métier.
+- **B — 0 point :** Adopter une redondance limitée uniquement aux composants critiques et considérer les deux requirements satisfaites, sans accord formel des owners. Ignorer les exigences incompatibles reporte le conflit à la livraison.
 
 **Mapping : Requirements Management — Conflicting Requirements.**
 
@@ -65,10 +65,10 @@ D. Restaurer la traçabilité vers source/concern, analyser où la requirement s
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Restaurer la traçabilité vers source/concern, analyser où la requirement s’applique et relier les artifacts et building blocks concernés. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **A — 3 points :** Rattacher l'exigence au composant principal et à un critère de vérification, puis étendre ensuite la traçabilité aux autres dépendances. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **B — 1 point :** Rattacher l'exigence à une obligation ou un stakeholder identifiable et demander une revue rapide de ses périmètres, puis compléter la traçabilité technique. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **C — 0 point :** Retenir l'interprétation la plus large et imposer le même contrôle à tous les flux, en laissant les exceptions se négocier pendant l'implémentation. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **D — 5 points :** Restaurer la traçabilité vers source/concern, analyser où la requirement s’applique et relier les artifacts et building blocks concernés. La relation requirement→building blocks permet de calculer les impacts.
+- **A — 3 points :** Rattacher l'exigence au composant principal et à un critère de vérification, puis étendre ensuite la traçabilité aux autres dépendances. Une liaison à l'application est utile, mais laisse les données hors traçabilité.
+- **B — 1 point :** Rattacher l'exigence à une obligation ou un stakeholder identifiable et demander une revue rapide de ses périmètres, puis compléter la traçabilité technique. Un identifiant de ticket ne prouve pas que la requirement est satisfaite.
+- **C — 0 point :** Retenir l'interprétation la plus large et imposer le même contrôle à tous les flux, en laissant les exceptions se négocier pendant l'implémentation. Une requirement sans lien reste impossible à vérifier après évolution.
 
 **Mapping : Requirements Management — Traceability.**
 
@@ -90,10 +90,10 @@ D. Conserver le plan approuvé et demander à l'équipe technique de satisfaire 
 
 **Justification des quatre niveaux :**
 
-- **A — 5 points :** Enregistrer et analyser la nouvelle requirement, itérer sur les architectures impactées si nécessaire, puis mettre à jour gaps, work packages et Migration Plan. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **B — 3 points :** Ouvrir une évaluation d'impact de la nouvelle requirement sur le planning de migration avant de décider des ajustements du plan approuvé. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **C — 1 point :** Évaluer prioritairement le gap Data et ses conséquences sur le lot immédiat, puis inscrire les impacts des autres work packages à une revue suivante. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **D — 0 point :** Conserver le plan approuvé et demander à l'équipe technique de satisfaire la règle réglementaire par configuration locale, sans revoir les dépendances. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **A — 5 points :** Enregistrer et analyser la nouvelle requirement, itérer sur les architectures impactées si nécessaire, puis mettre à jour gaps, work packages et Migration Plan. L'analyse d'impact en F doit réconcilier plan et architecture.
+- **B — 3 points :** Ouvrir une évaluation d'impact de la nouvelle requirement sur le planning de migration avant de décider des ajustements du plan approuvé. Notifier le projet est un début, sans mise à jour de la Roadmap.
+- **C — 1 point :** Évaluer prioritairement le gap Data et ses conséquences sur le lot immédiat, puis inscrire les impacts des autres work packages à une revue suivante. Le ticket de livraison ne couvre pas toutes les dépendances de domaines.
+- **D — 0 point :** Conserver le plan approuvé et demander à l'équipe technique de satisfaire la règle réglementaire par configuration locale, sans revoir les dépendances. Ignorer la demande fige un plan potentiellement non conforme.
 
 **Mapping : Requirements Management — Change during ADM / Iteration.**
 
@@ -115,10 +115,10 @@ D. Enregistrer une demande de modification avec justification de politique et la
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Réévaluer la requirement, sa source et sa validité ; la modifier ou la retirer de manière gouvernée et tracer la décision. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **C — 3 points :** Soumettre la requirement à une nouvelle validation avec son sponsor et conserver l'historique des versions avant de la retirer ou de la modifier. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **D — 1 point :** Enregistrer une demande de modification avec justification de politique et lancer une revue ciblée de conformité avant de modifier toutes les views. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **A — 0 point :** Supprimer sans analyse toutes les contraintes liées au cloud, car le document de politique précédent a été abrogé. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **B — 5 points :** Réévaluer la requirement, sa source et sa validité ; la modifier ou la retirer de manière gouvernée et tracer la décision. Les exigences obsolètes demandent une décision et un historique gouvernés.
+- **C — 3 points :** Soumettre la requirement à une nouvelle validation avec son sponsor et conserver l'historique des versions avant de la retirer ou de la modifier. Un statut local aide mais n'actualise pas les autres livrables.
+- **D — 1 point :** Enregistrer une demande de modification avec justification de politique et lancer une revue ciblée de conformité avant de modifier toutes les views. Conserver toutes les exigences actives crée des contradictions.
+- **A — 0 point :** Supprimer sans analyse toutes les contraintes liées au cloud, car le document de politique précédent a été abrogé. Une suppression sans traçabilité détruit la justification antérieure.
 
 **Mapping : Requirements Management — Requirement Lifecycle.**
 
@@ -140,10 +140,10 @@ D. Conserver le principe comme règle de décision et rédiger une exigence mesu
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Le principe guide durablement les décisions ; la règle précise de gestion des secrets est une requirement/standard applicable au contexte et doit être tracée comme telle. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **D — 3 points :** Conserver le principe comme règle de décision et rédiger une exigence mesurable dérivée, sans encore expliciter toutes les implications. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **A — 1 point :** Rédiger une requirement mesurable pour le renouvellement des secrets tout en réservant la formalisation des implications du principe à la revue suivante. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **B — 0 point :** Créer un nouveau principe d'architecture reprenant mot pour mot le choix du service de secrets et le traiter comme standard permanent de l'entreprise. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **C — 5 points :** Le principe guide durablement les décisions ; la règle précise de gestion des secrets est une requirement/standard applicable au contexte et doit être tracée comme telle. Principe durable et requirement testable restent deux catégories distinctes.
+- **D — 3 points :** Conserver le principe comme règle de décision et rédiger une exigence mesurable dérivée, sans encore expliciter toutes les implications. Dériver une requirement est utile mais les implications restent à tracer.
+- **A — 1 point :** Rédiger une requirement mesurable pour le renouvellement des secrets tout en réservant la formalisation des implications du principe à la revue suivante. Un standard local ne remplace pas le principe transversal.
+- **B — 0 point :** Créer un nouveau principe d'architecture reprenant mot pour mot le choix du service de secrets et le traiter comme standard permanent de l'entreprise. Confondre les deux niveaux fausse les exigences applicables.
 
 **Mapping : Requirements Management — Principle vs Requirement.**
 
@@ -165,10 +165,10 @@ D. Revoir la qualité, source, priorité, dépendances et critères d’acceptat
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Revoir la qualité, source, priorité, dépendances et critères d’acceptation des requirements avec les stakeholders, puis maintenir une gouvernance de changement. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **A — 3 points :** Prioriser d'abord les exigences réglementaires et de sécurité, puis compléter l'arbitrage avec valeur, risques et dépendances. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **B — 1 point :** Commencer par hiérarchiser les exigences imposées par la réglementation et la sécurité, puis compléter ensuite la comparaison des bénéfices et interdépendances. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **C — 0 point :** Distribuer le budget également entre les squads afin qu'aucune requirement qualifiée critique ne soit exclue de la première vague. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **D — 5 points :** Revoir la qualité, source, priorité, dépendances et critères d’acceptation des requirements avec les stakeholders, puis maintenir une gouvernance de changement. La valeur, les risques et les dépendances permettent une priorisation légitime.
+- **A — 3 points :** Prioriser d'abord les exigences réglementaires et de sécurité, puis compléter l'arbitrage avec valeur, risques et dépendances. La priorité métier provisoire ignore certains impacts d'architecture.
+- **B — 1 point :** Commencer par hiérarchiser les exigences imposées par la réglementation et la sécurité, puis compléter ensuite la comparaison des bénéfices et interdépendances. L'ordre des demandes ne mesure pas leur valeur ou leur urgence.
+- **C — 0 point :** Distribuer le budget également entre les squads afin qu'aucune requirement qualifiée critique ne soit exclue de la première vague. Une absence totale de priorité empêche l'arbitrage du périmètre.
 
 **Mapping : Requirements Management — Prioritization / Governance.**
 
