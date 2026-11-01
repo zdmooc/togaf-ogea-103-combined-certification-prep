@@ -51,7 +51,7 @@ Pour simuler correctement OGEA-103, traite les deux parties séparément et exig
 
 ## Audit qualité 2026-11-01
 
-Les examens blancs existants sont des exercices pédagogiques non étalonnés ; leur difficulté et les distracteurs restent à renforcer. Les 24 QCM Foundation difficiles et les 8 scénarios Practitioner avancés complètent cette série.
+Les **48 scénarios Practitioner** des six examens ont été remplacés par des cas plus étoffés, accompagnés de justifications 5/3/1/0. **48 QCM Foundation** supplémentaires (8 par examen) ont été réécrits avec des distracteurs plus proches des notions TOGAF. Les 24 exercices Foundation difficiles et les 8 cas Practitioner avancés sont des compléments indépendants. **L'ensemble reste non étalonné** : il reste à vérifier sémantiquement les 240 QCM et les 48 scénarios, y compris les 192 QCM Foundation qui n'ont pas été profondément réécrits.
 
 ## Important
 
