@@ -3,10 +3,11 @@
 ## Q001 — Enterprise Architecture
 Quel énoncé décrit le mieux l'Enterprise Architecture ?
 A. Une discipline reliant stratégie, métier et évolution du SI
-B. Un inventaire de serveurs
+B. Une méthode de contrôle du seul portefeuille technologique
 C. Un outil de modélisation
 D. Un plan projet
 **Réponse : A.** L'EA organise la cohérence et la transformation de l'entreprise. B est trop technique, C n'est qu'un moyen, D relève du delivery.
+**Distracteur B :** Le portefeuille technologique ne couvre qu'une partie de la discipline d'Enterprise Architecture.
 **Mapping : Concepts — Enterprise Architecture.**
 
 ## Q002 — Valeur de l'architecture
@@ -57,10 +58,11 @@ D. Contrat avec un fournisseur
 ## Q007 — Application Architecture
 Quel énoncé correspond le mieux à l'Application Architecture ?
 A. Définir la stratégie commerciale
-B. Gérer les salaires
+B. Décrire les processus métier indépendamment de leurs services numériques
 C. Décrire les services applicatifs et leurs interactions
 D. Définir uniquement le réseau
 **Réponse : C.** L'Application Architecture traite le paysage applicatif et les services. A est métier ; B hors sujet ; D est technologique.
+**Distracteur B :** Les processus métier concernent principalement la Business Architecture.
 **Mapping : Concepts — Application Architecture.**
 
 ## Q008 — Technology Architecture
@@ -76,9 +78,10 @@ D. Plateforme d'exécution et infrastructure
 Une business capability représente :
 A. Ce que l'entreprise doit être capable de faire
 B. Une application précise
-C. Un serveur
+C. Une application qui réalise actuellement une fonction métier
 D. Un document contractuel
 **Réponse : A.** Une capability décrit une aptitude métier indépendante d'une solution particulière. B/C sont des moyens possibles ; D est différent.
+**Distracteur C :** L'application est un moyen contingent de réaliser la capability et peut être remplacée.
 **Mapping : Concepts — Capability.**
 
 ## Q010 — Stakeholder
@@ -128,11 +131,12 @@ D. Artifact → Concern → Sponsor → ADM
 
 ## Q015 — Architecture Principle
 Un Architecture Principle sert principalement à :
-A. Décrire un ticket d'incident
+A. Formaliser une condition mesurable que la Target doit satisfaire
 B. Remplacer une requirement
 C. Guider de manière durable les décisions d'architecture
 D. Définir un planning détaillé
 **Réponse : C.** Un principe guide les décisions. A/D sont opérationnels ; B est faux car principe et requirement sont distincts.
+**Distracteur A :** Une condition vérifiable est une requirement, pas un principe directeur durable.
 **Mapping : Concepts — Architecture Principles.**
 
 ## Q016 — Principe vs Requirement
@@ -149,8 +153,9 @@ La Baseline Architecture représente :
 A. L'état actuel pertinent
 B. La cible finale
 C. Un état intermédiaire
-D. Le budget
+D. Le programme de migration vers l'architecture cible
 **Réponse : A.** Baseline = current state. B = Target ; C = Transition ; D n'est pas une architecture.
+**Distracteur D :** Le programme de migration est une trajectoire de changement, non l'état actuel de l'architecture.
 **Mapping : Concepts — Baseline/Target/Transition.**
 
 ## Q018 — Target
@@ -185,8 +190,9 @@ L'Enterprise Continuum sert principalement à :
 A. Classifier et contextualiser des assets d'architecture d'un générique vers le spécifique
 B. Stocker physiquement tous les fichiers
 C. Exécuter des workloads
-D. Gérer le budget
+D. Définir l'organisation des données d'un référentiel de standards
 **Réponse : A.** C'est un mécanisme de classification/contexte. B décrit plutôt le rôle du Repository ; C/D sont hors sujet.
+**Distracteur D :** Le Continuum classifie les assets selon leur degré de généralité ; il ne se réduit pas au stockage.
 **Mapping : Concepts — Enterprise Continuum.**
 
 ## Q022 — Architecture Repository
@@ -211,9 +217,10 @@ D. Le Repository est une phase ADM
 Architecture Capability désigne :
 A. Une application métier
 B. Une seule compétence individuelle
-C. Un serveur
+C. Le niveau de maturité d'une seule équipe de développement
 D. La capacité de l'organisation à pratiquer et gouverner l'architecture
 **Réponse : D.** Elle couvre rôles, gouvernance, processus, compétences et repository. A/B/C sont trop limités.
+**Distracteur C :** L'Architecture Capability est organisationnelle et inclut gouvernance, méthodes et responsabilités.
 **Mapping : Concepts — Architecture Capability.**
 
 ## Q025 — Architecture Board
@@ -263,20 +270,24 @@ D. Une équipe
 
 ## Q030 — Building Block
 Un building block est :
-A. Une réunion
+A. Un artifact servant à visualiser une relation entre capacités
 B. Un élément architectural réutilisable décrivant une capacité ou composant
 C. Un stakeholder
-D. Un score d'examen
+D. Une architecture de transition complète approuvée
 **Réponse : B.** Les building blocks structurent l'architecture. A/C/D ne sont pas des building blocks.
+**Distracteur A :** Un artifact représente l'architecture ; il n'est pas, par définition, le building block représenté.
+**Distracteur D :** Une Transition Architecture est un état, tandis qu'un building block en est un élément potentiel.
 **Mapping : Concepts — Building Blocks.**
 
 ## Q031 — ABB
 Un Architecture Building Block (ABB) exprime surtout :
 A. Le produit exact choisi
-B. Un incident
+B. Un composant de solution déjà sélectionné pour réaliser une capacité
 C. Le besoin/capacité architectural de manière indépendante d'une implémentation précise
-D. Une facture
+D. La description des activités prévues dans un lot de migration
 **Réponse : C.** L'ABB reste logique/architectural. A correspond plutôt à un SBB ; B/D sont hors sujet.
+**Distracteur B :** Une solution sélectionnée correspond davantage au SBB qu'à l'ABB.
+**Distracteur D :** Un work package décrit un ensemble de travaux, non l'ABB abstrait.
 **Mapping : Concepts — ABB.**
 
 ## Q032 — SBB
@@ -291,10 +302,11 @@ D. Plus proche de la réalisation concrète d'un ABB
 ## Q033 — ABB vs SBB
 Quel exemple est le plus cohérent ?
 A. ABB « messaging capability » ; SBB « plateforme de messaging choisie »
-B. ABB « budget » ; SBB « sponsor »
+B. ABB « serveur SQL choisi » ; SBB « besoin de persistance des données »
 C. ABB « Phase A » ; SBB « Phase B »
 D. ABB « concern » ; SBB « view »
 **Réponse : A.** L'ABB exprime la capacité, le SBB une réalisation plus concrète. B/C/D mélangent des catégories.
+**Distracteur B :** Cet ordre inverse l'abstraction attendue entre ABB et SBB.
 **Mapping : Concepts — ABB vs SBB.**
 
 ## Q034 — Architecture Landscape
@@ -308,20 +320,23 @@ D. Remplacer les views
 
 ## Q035 — Standards Information Base
 La Standards Information Base contient principalement :
-A. Les salaires
+A. La description Baseline et Target validée de chaque application
 B. Les incidents
 C. Des standards et technologies approuvés/pertinents
 D. Les stakeholders uniquement
 **Réponse : C.** Elle soutient la standardisation. A/B/D ne correspondent pas à sa finalité.
+**Distracteur A :** Ces descriptions appartiennent au paysage et aux documents d'architecture, pas au catalogue des standards.
 **Mapping : Concepts — Architecture Repository.**
 
 ## Q036 — Governance Log
 Le Governance Log sert surtout à conserver :
 A. Le code source métier
-B. Les factures clients
-C. Les mots de passe
+B. Les versions successives de l'Architecture Definition Document
+C. Les états de migration et leurs dépendances détaillées
 D. Des décisions, compliance reviews, exceptions et éléments de gouvernance
 **Réponse : D.** Il trace la gouvernance. A/B/C sont hors périmètre.
+**Distracteur B :** Le Governance Log documente décisions et conformité, pas simplement le contenu des architectures.
+**Distracteur C :** La planification de migration peut être tracée dans une roadmap/plan, sans être le rôle du Governance Log.
 **Mapping : Concepts — Architecture Repository.**
 
 ## Q037 — Reference Library
@@ -347,8 +362,9 @@ L'Architecture Vision est principalement :
 A. Le design technique final
 B. Le contrat d'exploitation
 C. Une vue de haut niveau de la cible et de la valeur permettant l'alignement initial
-D. La liste de tous les serveurs
+D. Un portefeuille exhaustif des états de la Technology Architecture
 **Réponse : C.** La Vision cadre et aligne ; A/D sont trop détaillés ; B est autre chose.
+**Distracteur D :** Une vision initiale doit communiquer valeur, objectif et orientation, non un inventaire exhaustif.
 **Mapping : Concepts — Architecture Vision.**
 
 ## Q040 — Scope
@@ -401,8 +417,9 @@ Un business driver est :
 A. Une force ou condition qui motive un changement
 B. Une application
 C. Un artifact
-D. Un serveur
+D. Une requirement de conception déjà validée
 **Réponse : A.** Les drivers expliquent pourquoi la transformation est nécessaire. B/C/D sont des objets différents.
+**Distracteur D :** Une requirement exprime une condition à satisfaire ; un driver motive le changement.
 **Mapping : Concepts — Drivers/Goals.**
 
 ## Q046 — Goal
@@ -445,9 +462,11 @@ D. Target = planning
 L'Architecture Roadmap donne surtout :
 A. Le code source
 B. Une vue de la trajectoire et des work packages/plateaux vers la cible
-C. La liste des congés
-D. Les mots de passe
+C. Un Architecture Contract encadrant les engagements d'implémentation
+D. Une Architecture Requirements Specification détaillant les contraintes de la cible
 **Réponse : B.** Elle exprime la trajectoire d'architecture. A/C/D sont hors sujet.
+**Distracteur C :** Le Contract formalise des engagements, tandis que la Roadmap décrit la trajectoire et les packages.
+**Distracteur D :** La spécification d'exigences formalise les conditions, pas le chemin de transition vers la cible.
 **Mapping : Concepts — Roadmap.**
 
 ## Q051 — Work Package
@@ -462,10 +481,11 @@ D. Un concern
 ## Q052 — Plateau
 Dans une trajectoire d'architecture, un plateau correspond le mieux à :
 A. Un stakeholder
-B. Un incident
+B. Une phase de validation isolée avant passage en production
 C. Une option de réponse
 D. Un état relativement stable de l'architecture
 **Réponse : D.** Un plateau peut représenter un état intermédiaire stable. A/B/C sont faux.
+**Distracteur B :** Un plateau est un état architectural relativement stable, pas une activité ponctuelle.
 **Mapping : Concepts — Transition/Roadmap.**
 
 ## Q053 — Architecture decision
@@ -525,19 +545,21 @@ D. Jamais dans les requirements
 ## Q059 — Architecture effectiveness
 Quel signal indique le mieux une architecture efficace ?
 A. Le document est très long
-B. Le diagramme contient beaucoup de couleurs
+B. Le nombre de représentations produites par l'équipe
 C. Les décisions sont comprises, traçables et soutiennent les objectifs
 D. Tous les produits sont récents
 **Réponse : C.** L'efficacité se mesure par l'alignement et la qualité des décisions, pas par le volume ou l'esthétique.
+**Distracteur B :** Le volume des vues ne prouve ni l'alignement ni l'utilité des décisions.
 **Mapping : Concepts — Value of Architecture.**
 
 ## Q060 — Synthèse concepts
 Quel raisonnement est le plus TOGAF ?
 A. Produit → diagramme → justification
-B. Serveur → budget → stakeholder
+B. Solution → Technical Architecture → Business Case → Requirements → Governance
 C. Projet → outil → phase
 D. Driver → stakeholder/concern → requirement → architecture → gap → roadmap → governance
 **Réponse : D.** Il relie motivation, parties prenantes, exigences, architecture, transformation et gouvernance. Les autres commencent par la solution ou mélangent les concepts.
+**Distracteur B :** Commencer par la solution renverse la logique des motivations et des exigences.
 **Mapping : Concepts — Synthesis.**
 
 ---

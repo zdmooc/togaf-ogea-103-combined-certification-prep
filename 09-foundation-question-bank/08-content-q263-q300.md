@@ -5,17 +5,19 @@ L'Architecture Content Framework sert principalement à :
 A. Exécuter les applications
 B. Remplacer l'ADM
 C. Structurer les types de contenu produits par le travail d'architecture
-D. Définir le budget
+D. Définir les critères de conformité des implémentations
 **Réponse : C.** Il organise deliverables, artifacts et building blocks. A/B/D sont hors sujet.
+**Distracteur D :** La conformité est nécessaire, mais le Content Framework structure avant tout les contenus et relations architecturales.
 **Mapping : Architecture Content — Content Framework.**
 
 ## Q264 — Content categories
 Quelles catégories sont centrales dans l'Architecture Content Framework ?
-A. Budgets, Tickets, Incidents
+A. Architecture Vision, Architecture Roadmap et Architecture Contract
 B. Sprints, Stories, Epics uniquement
 C. CPU, RAM, Disk uniquement
 D. Deliverables, Artifacts, Building Blocks
 **Réponse : D.** B'est la triade fondamentale du contenu TOGAF.
+**Distracteur A :** Ce sont des exemples de deliverables, pas les trois catégories générales.
 **Mapping : Architecture Content — Content Framework.**
 
 ## Q265 — Deliverable
@@ -32,17 +34,19 @@ Un artifact est :
 A. Une phase ADM
 B. Une représentation architecturale d'un aspect de l'architecture
 C. Une équipe
-D. Une facture
+D. Un livrable approuvé par le comité d'architecture
 **Réponse : B.** Catalogs, matrices et diagrams sont des artifacts.
+**Distracteur D :** Un deliverable peut rassembler plusieurs artifacts ; les deux notions ne sont pas synonymes.
 **Mapping : Architecture Content — Artifacts.**
 
 ## Q267 — Building Block
 Un building block est :
-A. Une réunion
+A. Une vue de l'architecture construite selon un viewpoint
 B. Un concern
 C. Un élément potentiellement réutilisable qui décrit ou réalise une capacité architecturale
 D. Une migration wave
 **Réponse : C.** Les building blocks structurent les architectures et solutions.
+**Distracteur A :** La vue est une représentation des building blocks, pas nécessairement un block elle-même.
 **Mapping : Architecture Content — Building Blocks.**
 
 ## Q268 — Deliverable contains Artifact
@@ -95,8 +99,9 @@ Un diagram sert principalement à :
 A. Visualiser des éléments et relations dans une représentation graphique
 B. Stocker tous les standards
 C. Remplacer les requirements
-D. Définir les budgets
+D. Spécifier l'ensemble des exigences d'une architecture
 **Réponse : A.** Le diagram est un artifact visuel.
+**Distracteur D :** Cette fonction concerne une Architecture Requirements Specification ; le diagramme représente graphiquement un aspect.
 **Mapping : Architecture Content — Diagrams.**
 
 ## Q274 — Catalog vs Matrix
@@ -140,8 +145,9 @@ Pourquoi choisir une view ?
 A. Pour produire un maximum de documentation
 B. Pour répondre à des concerns de stakeholders
 C. Pour supprimer les requirements
-D. Pour choisir le budget
+D. Pour approuver une exception sans passer par le Board
 **Réponse : B.** Views et viewpoints sont orientés stakeholders/concerns.
+**Distracteur D :** La sélection d'une view vise les concerns, et n'attribue pas automatiquement une autorité de gouvernance.
 **Mapping : Architecture Content — Views/Viewpoints.**
 
 ## Q279 — Viewpoint reusable
@@ -202,9 +208,10 @@ D. Pour montrer comment la solution concrète satisfait l'intention architectura
 Le Content Metamodel définit :
 A. Les types d'entités architecturales et relations autorisées/pertinentes
 B. Le planning projet
-C. Les salaires
+C. La stratégie de migration choisie par le comité
 D. Les incidents
 **Réponse : A.** Le metamodel donne une structure sémantique au contenu.
+**Distracteur C :** Une stratégie de migration ne définit pas les types et relations du métamodèle.
 **Mapping : Architecture Content — Content Metamodel.**
 
 ## Q286 — Metamodel purpose
@@ -326,20 +333,22 @@ D. Migration Plan = ABB
 
 ## Q299 — Transition Architecture vs Plan
 Une Transition Architecture est :
-A. Un calendrier
+A. La liste séquencée des work packages d'un plan de migration
 B. Une stakeholder map
 C. Un état intermédiaire de l'architecture, pas le plan qui décrit les tâches pour l'atteindre
 D. Un principle
 **Réponse : C.** Il faut distinguer l'état architectural intermédiaire du plan de migration.
+**Distracteur A :** La liste de travaux décrit un plan ; la Transition Architecture est un état cohérent.
 **Mapping : Architecture Content — Common Confusions.**
 
 ## Q300 — Content synthesis
 Quel raisonnement est le plus correct ?
-A. SBB → Stakeholder → Phase → Budget
+A. Stakeholder → Requirement → Architecture Contract → Compliance Review, sans représenter les views
 B. Deliverable → remplace les requirements
 C. Diagram → définit toujours la Target
 D. Stakeholder → Concern → Viewpoint → View/Artifacts → Building Blocks, assemblés dans des deliverables gouvernés
 **Réponse : D.** Il relie correctement parties prenantes, représentations, contenu architectural et livrables. A/B/C mélangent les catégories.
+**Distracteur A :** Cette chaîne omet la relation explicite entre concern, viewpoint et view, essentielle au Content Framework.
 **Mapping : Architecture Content — Synthesis.**
 
 ---

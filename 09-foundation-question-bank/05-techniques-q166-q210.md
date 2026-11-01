@@ -2,11 +2,12 @@
 
 ## Q166 — Stakeholder Management
 La première finalité du Stakeholder Management est de :
-A. Choisir un serveur
+A. Construire la matrice de traçabilité entre exigences et building blocks
 B. Identifier les parties prenantes, leurs concerns et la stratégie d'engagement
 C. Prioriser les work packages
 D. Remplacer Requirements Management
 **Réponse : B.** La technique organise l'engagement des parties prenantes. A/C relèvent d'autres sujets ; D est faux.
+**Distracteur A :** La traçabilité fait partie de la gestion des exigences ; la première étape du Stakeholder Management est l'identification et l'engagement des parties.
 **Mapping : ADM Techniques — Stakeholder Management.**
 
 ## Q167 — Power/Interest
@@ -14,8 +15,9 @@ Une matrice power/interest aide principalement à :
 A. Définir la Target Data Architecture
 B. Choisir un SBB
 C. Adapter le niveau d'engagement selon influence et intérêt
-D. Calculer le budget
+D. Vérifier la conformité des services aux exigences d'architecture
 **Réponse : C.** Elle aide à segmenter l'approche d'engagement. A/B/D ne sont pas son rôle.
+**Distracteur D :** Power/Interest concerne les acteurs et le plan d'engagement, non une Compliance Review.
 **Mapping : ADM Techniques — Stakeholder Management.**
 
 ## Q168 — Stakeholder concern
@@ -50,8 +52,9 @@ Quel élément est typiquement utile dans un Business Scenario ?
 A. Uniquement le nom d'un produit
 B. Uniquement un diagramme réseau
 C. Acteurs, environnement, problème, résultat attendu et requirements
-D. Une liste de congés
+D. Une matrice de comparaison des standards technologiques de la cible
 **Réponse : C.** Le scénario décrit suffisamment le contexte pour dériver les requirements. A/B/D sont insuffisants.
+**Distracteur D :** Une telle matrice peut être utile plus tard, mais ne définit pas le contexte d'un Business Scenario.
 **Mapping : ADM Techniques — Business Scenarios.**
 
 ## Q172 — Vague objective
@@ -76,9 +79,10 @@ D. Pour choisir automatiquement la technologie
 La Gap Analysis compare principalement :
 A. Sponsor et architecte
 B. Baseline et Target
-C. Budget et calendrier uniquement
+C. Les Transition Architectures et les work packages proposés
 D. View et viewpoint
 **Réponse : B.** Elle identifie ce qui doit être créé, modifié, supprimé ou conservé. A/C/D ne sont pas son objet.
+**Distracteur C :** Ils découlent de l'analyse des gaps et ne sont pas les deux états comparés.
 **Mapping : ADM Techniques — Gap Analysis.**
 
 ## Q175 — Gap categories
@@ -86,8 +90,9 @@ Quel résultat peut provenir d'une Gap Analysis ?
 A. Un stakeholder map
 B. Un examen de certification
 C. Élément manquant dans la Baseline mais requis dans la Target
-D. Une facture
+D. Une exception de gouvernance formellement approuvée
 **Réponse : C.** Un manque entre actuel et cible est un gap. A est autre technique ; B/D hors sujet.
+**Distracteur D :** Une exception relève d'une décision de conformité ; une Gap Analysis révèle d'abord des différences.
 **Mapping : ADM Techniques — Gap Analysis.**
 
 ## Q176 — Remove gap
@@ -103,9 +108,10 @@ D. Comme un gap de suppression/retrait à traiter
 Pourquoi Gap Analysis n'est-elle pas Migration Planning ?
 A. Elle identifie les différences ; Migration Planning priorise et séquence les changements
 B. Elles sont identiques
-C. Gap Analysis choisit toujours le budget
+C. Elle doit nécessairement sélectionner une solution technologique pour chaque gap
 D. Migration Planning décrit la Baseline
 **Réponse : A.** Gap = quoi changer ; migration planning = comment/ordre de mise en œuvre.
+**Distracteur C :** L'identification des gaps doit rester distincte de la sélection et du séquencement des solutions.
 **Mapping : ADM Techniques — Gap Analysis.**
 
 ## Q178 — Cross-domain gap
@@ -158,17 +164,19 @@ Business Transformation Readiness sert à :
 A. Définir le modèle de données
 B. Choisir un vendor
 C. Évaluer si l'organisation est prête à absorber et soutenir la transformation
-D. Calculer le score d'examen
+D. Mesurer exclusivement la conformité technique des services livrés
 **Réponse : C.** La technique évalue capacité organisationnelle, culture, compétences, leadership, etc.
+**Distracteur D :** La readiness porte sur la capacité de transformation de l'organisation, plus large que la conformité technique.
 **Mapping : ADM Techniques — Business Transformation Readiness.**
 
 ## Q184 — Readiness factors
 Quel facteur est pertinent pour Transformation Readiness ?
 A. Couleur du diagramme
-B. Nombre de serveurs uniquement
+B. La conformité technique des seuls composants applicatifs
 C. Nombre de pages du document
 D. Leadership, compétences et capacité au changement
 **Réponse : D.** La readiness est organisationnelle et humaine autant que technique.
+**Distracteur B :** Elle est utile mais ne remplace pas sponsor, capacités humaines et exploitation.
 **Mapping : ADM Techniques — Business Transformation Readiness.**
 
 ## Q185 — Low readiness
@@ -228,10 +236,11 @@ D. Une phase
 ## Q191 — Risk owner
 Pourquoi attribuer un risk owner ?
 A. Pour supprimer le risk register
-B. Pour choisir un serveur
+B. Pour choisir l'option technologique la moins coûteuse
 C. Pour clarifier responsabilité de suivi et décision
 D. Pour remplacer les stakeholders
 **Réponse : C.** L'ownership rend le traitement gouvernable.
+**Distracteur B :** Le risk owner n'est pas l'acheteur d'une solution ; il porte la responsabilité du traitement et du suivi du risque.
 **Mapping : ADM Techniques — Risk Management.**
 
 ## Q192 — Capability-Based Planning
@@ -247,9 +256,10 @@ D. Les capacités que l'entreprise doit posséder pour atteindre ses objectifs
 Pourquoi une capability n'est-elle pas un projet ?
 A. Une capability est une aptitude durable ; un projet est un moyen temporaire de changement
 B. Ils sont synonymes
-C. Une capability est toujours un serveur
+C. Une capability correspond à une version logicielle précise
 D. Un projet est un viewpoint
 **Réponse : A.** La distinction évite de confondre résultat durable et véhicule de transformation.
+**Distracteur C :** L'aptitude métier perdure au-delà des versions et des projets qui la rendent possible.
 **Mapping : ADM Techniques — Capability-Based Planning.**
 
 ## Q194 — Capability increment

@@ -75,10 +75,11 @@ D. Pour éviter l'Enterprise Architecture
 ## Q219 — Enterprise level
 Au niveau Enterprise, l'architecture se concentre surtout sur :
 A. Le code d'une seule classe
-B. Un incident isolé
+B. Les détails de conception d'une API propre à une squad
 C. Les orientations et cohérences transverses de l'entreprise
 D. Une configuration de pod uniquement
 **Réponse : C.** Le niveau Enterprise est large et stratégique.
+**Distracteur B :** Ces décisions relèvent d'un niveau plus proche de la solution.
 **Mapping : Applying ADM — Levels.**
 
 ## Q220 — Segment/Capability level
@@ -245,11 +246,12 @@ D. Pas de review inter-domaines
 
 ## Q238 — Large enterprise reuse
 Pourquoi le Repository est-il particulièrement utile à grande échelle ?
-A. Pour stocker uniquement les mots de passe
+A. Pour remplacer les principes d'architecture par des décisions locales
 B. Pour favoriser visibilité, réutilisation et cohérence entre nombreux travaux
 C. Pour remplacer les architects
 D. Pour éviter les standards
 **Réponse : B.** Sans repository commun, la duplication et les divergences augmentent.
+**Distracteur A :** Le Repository aide à appliquer principes et réutilisation, non à les remplacer.
 **Mapping : Applying ADM — Large Enterprise.**
 
 ## Q239 — Context over rigidity

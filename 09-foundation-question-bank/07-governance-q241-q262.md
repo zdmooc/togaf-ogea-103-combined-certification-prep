@@ -13,18 +13,20 @@ D. Supprimer les stakeholders
 Quelle distinction est correcte ?
 A. Elles sont synonymes
 B. Architecture Governance veille à la conformité et aux décisions d'architecture ; Project Governance pilote notamment coûts/délais/risques projet
-C. Architecture Governance gère uniquement le budget
+C. Architecture Governance pilote uniquement les coûts et délais du portefeuille
 D. Project Governance définit seule la Target Architecture
 **Réponse : B.** Les deux se coordonnent mais ont des objets différents.
+**Distracteur C :** Coûts et délais sont des dimensions de pilotage de projet, pas la finalité propre de la gouvernance d'architecture.
 **Mapping : Architecture Governance — Governance boundaries.**
 
 ## Q243 — Architecture Board
 Le rôle principal d'un Architecture Board est :
 A. Développer tout le code
-B. Exploiter les serveurs
+B. Prioriser les activités quotidiennes de développement des squads
 C. Arbitrer et gouverner les décisions d'architecture significatives
 D. Remplacer toutes les équipes projet
 **Réponse : C.** Le Board fournit un forum de décision et de conformité. A/B/D sont opérationnels ou excessifs.
+**Distracteur B :** Le Board porte sur les grandes décisions et la conformité, non le management quotidien des équipes.
 **Mapping : Architecture Governance — Architecture Board.**
 
 ## Q244 — Board decision
@@ -85,9 +87,10 @@ D. Remplacer Phase E
 Quel élément est utile lors d'une Compliance Review ?
 A. Uniquement le nom du projet
 B. Requirements, decisions, architecture contracts et preuves d'implémentation
-C. Uniquement le budget
+C. Un simple état d'avancement du planning projet
 D. Uniquement les impressions du sponsor
 **Réponse : B.** Une review doit être factuelle et traçable.
+**Distracteur C :** Le respect du calendrier ne démontre pas la conformité architecturale.
 **Mapping : Architecture Governance — Compliance.**
 
 ## Q251 — Non-compliance
