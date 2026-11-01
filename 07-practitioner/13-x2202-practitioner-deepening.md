@@ -98,7 +98,20 @@ Le **TOGAF Fundamental Content** définit le cadre central ; les **TOGAF Series 
 
 La préparation ne doit pas supposer que chaque Series Guide est intégralement exigé : **lier chaque approfondissement à un learning outcome X2202**.
 
-## 10. Atelier Open Book pratique (90 minutes)
+## 10. Quatre contextes d'application du Digital Practitioner Body of Knowledge (DPBoK)
+
+Le DPBoK décrit quatre contextes de pratique — **Individual/Founder, Team, Team of Teams, Enterprise** — à mobiliser pour comprendre le niveau d'organisation et de coordination du travail numérique. Ils ne se substituent ni aux quatre domaines Business/Data/Application/Technology ni aux niveaux d'Architecture Landscape.
+
+| Contexte | Préoccupation architecturale fréquente |
+|---|---|
+| Individual / Founder | Expérimentation, proposition de valeur initiale, décisions techniques à portée immédiate |
+| Team | Collaboration d'une équipe produit, qualité, exploitation locale, boucle de retour |
+| Team of Teams | Dépendances entre produits et plateformes, coordination, interfaces, gouvernance fédérée |
+| Enterprise | Cohérence inter-domaines, portefeuille, gouvernance, risque et transformation à grande échelle |
+
+**Exemple :** MayaBank peut expérimenter un modèle de détection de fraude au niveau Team, puis devoir arbitrer ses données communes et ses contraintes de sécurité au niveau Team of Teams et Enterprise. Le niveau d'organisation conditionne la granularité de gouvernance et les choix de coordination.
+
+## 11. Atelier Open Book pratique (90 minutes)
 
 1. Lire le scénario sans ouvrir la référence et annoter **drivers, concerns, état ADM, rôle décisionnaire, contraintes, deadline**.
 2. Éliminer les décisions sans séquence logique, puis identifier **deux options crédibles**.
@@ -109,7 +122,7 @@ La préparation ne doit pas supposer que chaque Series Guide est intégralement 
 
 Un entraînement sérieux doit vérifier les **références mobilisées**, la qualité de l'arbitrage et le délai, et non seulement attribuer des scores.
 
-## 11. Modèle de corrigé Practitioner
+## 12. Modèle de corrigé Practitioner
 
 Pour chaque question, fournir : `X2202 LO`, hypothèses importantes, indices de l'énoncé, 5 points (meilleure action), 3 points (partiellement valide), 1 point (très limitée), 0 point (non adaptée), source pertinente, points d'attention. **Un 3 points ne peut jamais correspondre à une proposition que le corrigé reconnaît fausse sur son principe central.**
 
