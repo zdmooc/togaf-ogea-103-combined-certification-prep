@@ -7,7 +7,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 **Barème pédagogique :** A=0, B=1, C=5, D=3.
 
 - **C, 5 points :** Maintenir candidate, current, transition et target avec horizon, approbation, domaine et relations de traçabilité explicites. C distingue les états et leurs autorités .
-- **D, 3 points :** Ajouter un tableau des applications en production et reporter les modèles futurs à la revue du portefeuille suivant. Documente l'existant sans identifier les candidats et transitions.
+- **D, 3 points :** Distinguer les architectures current, candidate et target dans le Landscape, puis mentionner les états de transition dans la Roadmap sans préciser leur horizon, approbation ni liens de traçabilité. Cette option distingue plusieurs états et annonce des transitions, mais ne caractérise ni ne gouverne suffisamment les architectures intermédiaires.
 - **B, 1 point :** Conserver seulement l'état courant et ajouter les futurs changements dans le plan de projet, sans architecture transitoire. Le plan projet ignore les architectures intermédiaires gouvernées.
 - **A, 0 points :** Fusionner tous les états dans la Target en conservant les versions comme métadonnées mineures. La fusion des états rend impossible de distinguer approuvé, courant et cible.
 
@@ -62,7 +62,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 **Barème pédagogique :** A=1, B=3, C=5, D=0.
 
 - **C, 5 points :** Articuler Strategic, Segment et Capability Architecture dans l'Architecture Landscape, avec niveaux de détail et interfaces adaptés aux enjeux. C respecte les niveaux et horizons du Landscape .
-- **B, 3 points :** Classer les décisions uniquement par phase ADM sans référencer le niveau organisationnel des modèles. Les phases ADM apportent un classement de processus, pas les niveaux du Landscape.
+- **B, 3 points :** Distinguer Strategic, Segment et Capability Architecture avec des vues adaptées à leur horizon, mais laisser les dépendances et interfaces entre niveaux à documenter ultérieurement. L'option identifie les trois niveaux et leur granularité, sans assurer la traçabilité et les dépendances entre eux.
 - **A, 1 point :** Construire une seule Architecture de solution, avec une même profondeur de détail pour les trois horizons. Une architecture de solution ne suffit pas à l'horizon stratégique.
 - **D, 0 points :** Créer trois Repositories indépendants, sans standard ni relation entre les vues, pour préserver l'autonomie. Trois référentiels isolés suppriment la cohérence inter-domaines.
 
@@ -73,7 +73,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 **Barème pédagogique :** A=3, B=0, C=1, D=5.
 
 - **D, 5 points :** Produire des représentations liées au niveau stratégique et à celui de la capability/projet, chacune avec la profondeur nécessaire aux décisions et aux stakeholders. D distingue le niveau et le détail requis .
-- **A, 3 points :** Garder les mêmes modèles techniques détaillés pour les deux décisions, en ajoutant un résumé financier en introduction. Le résumé financier aide, mais la même granularité technique ne convient pas au comité stratégique.
+- **A, 3 points :** Préparer une vue stratégique des capacités et une vue détaillée de solution pour les équipes, mais sans établir explicitement les liens de traçabilité ni les décisions entre ces niveaux. La profondeur des vues est adaptée aux publics, mais la cohérence entre niveaux n'est pas établie.
 - **C, 1 point :** Décrire uniquement la Technology Architecture et présumer les capacités communes déjà définies. La Technology Architecture ne décrit pas la valeur métier.
 - **B, 0 points :** Limiter les deux décisions à une Business Architecture car le domaine technique importe seulement en Phase G. Écarter la technologie avant G masque les contraintes de migration.
 
@@ -95,7 +95,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 **Barème pédagogique :** A=1, B=3, C=5, D=0.
 
 - **C, 5 points :** Définir concepts, propriétés et relations dans un Enterprise Metamodel cohérent avec le Content Framework, puis l'utiliser pour structurer artifacts, deliverables et traçabilité. C clarifie le rôle du Metamodel et du Content Framework .
-- **B, 3 points :** Créer une nomenclature commune sans définir de types ni relations ; la cohérence peut être vérifiée manuellement à chaque comité. Une nomenclature aide, mais ne fournit pas les types ni relations du métamodèle.
+- **B, 3 points :** Définir des types d'éléments et quelques relations partagées dans un métamodèle minimal, mais reporter la gouvernance de ses extensions et de ses versions. Un vocabulaire avec relations est proposé, mais la cohérence durable des extensions et versions n'est pas gouvernée.
 - **A, 1 point :** Le Content Framework définit les relations de données en production, tandis que le Metamodel définit uniquement les méthodes de migration. Il confond Content Framework et schémas physiques de données.
 - **D, 0 points :** Remplacer toutes les matrices par des diagrams, qui garantissent automatiquement la conformité des relations. Les diagrammes ne garantissent pas la cohérence des modèles.
 
@@ -117,7 +117,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 **Barème pédagogique :** A=1, B=0, C=3, D=5.
 
 - **D, 5 points :** Définir les types d'entités, leurs propriétés et relations autorisées selon le TOGAF Enterprise Metamodel, puis adapter et versionner les extensions spécifiques. D applique les types/relations du métamodèle .
-- **C, 3 points :** Laisser chaque application définir son propre modèle et vérifier seulement les contrats d'API lors de la migration. Les modèles locaux aident chaque équipe, mais ne permettent pas une comparaison transverse.
+- **C, 3 points :** Définir les principaux types d'entités et les relations transverses dans un modèle commun, puis laisser les extensions locales aux applications sans les versionner ni les gouverner. Un socle de types et de relations existe, mais les extensions non gouvernées peuvent recréer des divergences.
 - **A, 1 point :** Créer directement des SBB correspondant à toutes les entités, sans distinguer les types abstraits du Metamodel. Une entité métier n'est pas automatiquement un SBB.
 - **B, 0 points :** Remplacer les objets métier par les noms des produits existants pour garantir la convergence. Remplacer les concepts métiers par des produits élimine le modèle logique.
 
@@ -128,7 +128,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 **Barème pédagogique :** A=1, B=0, C=5, D=3.
 
 - **C, 5 points :** Réviser la stakeholder map et les concerns, analyser les exigences et options avec leurs owners, puis classer le changement et préparer les décisions gouvernées. C rétablit l'engagement des stakeholders dans l'analyse de changement .
-- **D, 3 points :** Réaliser une réunion technique entre équipes de réalisation puis reporter la consultation des responsables métier après déploiement. Une réunion technique collecte des impacts, mais laisse DPO et métier hors arbitrage.
+- **D, 3 points :** Consulter les principaux stakeholders métier, qualifier les concerns urgents et les impacts visibles, puis reporter la consolidation des requirements et l'arbitrage de la portée du changement. Les acteurs clés sont réengagés, mais l'analyse complète des exigences et la classification gouvernée du changement sont différées.
 - **A, 1 point :** Accepter la classification du sponsor et adapter seulement les composants techniques déjà identifiés. Le sponsor ne peut classer seul les impacts réglementaires.
 - **B, 0 points :** Recommencer toutes les phases ADM sans réaliser d'analyse de concerns ou d'impacts. Relancer toutes les phases sans analyse d'impact est disproportionné.
 
@@ -163,7 +163,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 **Barème :** A=1, B=3, C=0, D=5.
 
 - **D, 5 points :** Pour chaque domaine : sélectionner reference models/viewpoints, établir Baseline et Target proportionnées, identifier gaps et requirements, résoudre les impacts entre domaines, mener les revues et actualiser Roadmap et contenus. D décrit les étapes réutilisées dans les phases ; B permet une organisation parallèle, mais ignore le cadrage commun et reporte les dépendances.
-- **B, 3 points :** Laisser chaque domaine produire son propre diagramme Target, puis rechercher leurs incompatibilités lors de la migration. Le travail parallèle est possible, mais demande des points de convergence B/C/D.
+- **B, 3 points :** Développer les Baseline, Target et Gap Analyses de chaque domaine, puis organiser une revue transverse de cohérence avant Phase E, sans itérer encore sur les écarts révélés. Les architectures de domaine et une revue transverse sont prévues, mais les impacts ne sont pas réconciliés par itération.
 - **A, 1 point :** Fixer d'abord les standards technologiques puis dessiner les domaines métier, Data et Application autour du produit choisi. Une plateforme préchoisie biaise les requirements.
 - **C, 0 points :** Limiter l'activité commune à une Gap Analysis après validation complète des trois Target Architectures. La Gap Analysis ne remplace pas les étapes communes de chaque phase.
 
