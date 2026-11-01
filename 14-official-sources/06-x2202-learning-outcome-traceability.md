@@ -1,6 +1,6 @@
 # Traçabilité X2202 — 131 learning outcomes et références de questions candidates
 
-**Statut : 131 objectifs recensés. La matrice a été resserrée sur 31 objectifs mal associés aux questions historiques, avec références XP05–XP17 plus explicites. 130 objectifs disposent désormais d'une référence explicite à un ou plusieurs exercices candidats ; L1.8.1 n'impose pas de question distincte (Bloom = None). Une référence candidate n'est jamais une validation de fond ou du niveau Bloom.** Les formulations de cette table restent des résumés pédagogiques, et les 131 objectifs doivent être relus contre le texte officiel.
+**Statut : 131 objectifs recensés. La matrice a été resserrée sur 31 objectifs initialement mal associés aux questions historiques, avec références XP05–XP17 plus explicites. 130 objectifs disposent désormais d'une référence explicite à un ou plusieurs exercices candidats ; L1.8.1 n'impose pas de question distincte (Bloom = None). Une référence candidate n'est jamais une validation de fond ou du niveau Bloom.** Les formulations de cette table restent des résumés pédagogiques, et les 131 objectifs doivent être relus contre le texte officiel.
 
 **Syllabus de référence :** [TOGAF Certification Program Conformance Requirements X2202](https://www.opengroup.org/library/x2202), sections 3.1 et 3.2. La formulation et le niveau de Bloom exacts doivent toujours être confrontés à l'original avant de marquer un objectif vérifié.
 
