@@ -53,9 +53,9 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 **Scoring :** A=3, B=5, C=1, D=0.
 
 - **B, 5 points :** Évaluer les deux capacités, définir responsabilités communes et tailorer un modèle fédéré, avec inventaire des principes divergents et mécanismes d'exception avant de sélectionner les lots. La fédération réutilise les forces existantes tout en rendant les décisions communes traçables.
-- **A, 3 points :** Conserver les processus locaux et établir des principes minimums communs pour les interfaces critiques, puis évaluer les capacités des divisions dans un second temps. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **C, 1 point :** Créer un Board commun pour les seuls projets partagés, sans rapprocher encore les règles de décision applicables aux domaines métier. Aborde une préoccupation secondaire sans démontrer la décision demandée.
-- **D, 0 point :** Demander à chaque division d'approuver ses propres architectures cibles et lancer une revue de convergence à la fin de la migration. Décision inadaptée au moment et aux contraintes décrites.
+- **A, 3 points :** Conserver les processus locaux et établir des principes minimums communs pour les interfaces critiques, puis évaluer les capacités des divisions dans un second temps. Les principes communs limités aux interfaces sont un premier pas ; les capacités et arbitrages hors interfaces restent non évalués.
+- **C, 1 point :** Créer un Board commun pour les seuls projets partagés, sans rapprocher encore les règles de décision applicables aux domaines métier. Un Board limité aux seuls projets communs ne clarifie pas les règles métier ni les dérogations des divisions.
+- **D, 0 point :** Demander à chaque division d'approuver ses propres architectures cibles et lancer une revue de convergence à la fin de la migration. Retarder toute convergence après migration laisse les décisions des deux divisions non gouvernées.
 
 **Référence :** X2202, Practitioner, unité 1 ; TOGAF Standard / Series Guides pertinents.
 
@@ -64,9 +64,9 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 **Scoring :** A=1, B=3, C=5, D=0.
 
 - **C, 5 points :** Clarifier concerns, requirements, impacts et utiliser la gouvernance appropriée pour arbitrer de manière traçable, en comparant plusieurs lots de déploiement et en indiquant l'autorité capable d'accepter les risques. Le conflit se résout en qualifiant les concerns et les impacts, non par priorité automatique d'un rôle.
-- **B, 3 points :** Appliquer d'abord les contrôles de sécurité incontestables et chiffrer leur impact sur la date avant de faire arbitrer les autres options. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **A, 1 point :** Organiser un atelier de clarification entre CISO et sponsor sans documenter encore les options de réalisation et leurs dépendances. Aborde une préoccupation secondaire sans démontrer la décision demandée.
-- **D, 0 point :** Lancer un pilote limité à des transactions non critiques et reporter le conflit de sécurité à la première revue post-déploiement. Décision inadaptée au moment et aux contraintes décrites.
+- **B, 3 points :** Appliquer d'abord les contrôles de sécurité incontestables et chiffrer leur impact sur la date avant de faire arbitrer les autres options. Les contrôles incontestés réduisent le risque immédiat, mais les exigences contestées attendent encore une décision de gouvernance.
+- **A, 1 point :** Organiser un atelier de clarification entre CISO et sponsor sans documenter encore les options de réalisation et leurs dépendances. Un atelier non documenté peut clarifier le désaccord, sans permettre l'arbitrage des options et impacts.
+- **D, 0 point :** Lancer un pilote limité à des transactions non critiques et reporter le conflit de sécurité à la première revue post-déploiement. Un pilote ne permet pas de reporter une exigence de sécurité non négociée après déploiement.
 
 **Référence :** X2202, Practitioner, unité 2 ; TOGAF Standard / Series Guides pertinents.
 
@@ -75,9 +75,9 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 **Scoring :** A=3, B=1, C=0, D=5.
 
 - **D, 5 points :** Cadrer scope, stakeholders, drivers, value et Architecture Vision, avec hypothèses par pays et bénéfices mesurables dans le Statement of Architecture Work. Le cadrage doit précéder l'architecture détaillée et clarifier les frontières de responsabilité.
-- **A, 3 points :** Limiter provisoirement le scope aux deux pays sponsorisés et établir une première Vision, en laissant les autres pays pour un cadrage ultérieur. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **B, 1 point :** Définir les interfaces communes entre pays avant de négocier les business drivers et la gouvernance de groupe. Aborde une préoccupation secondaire sans démontrer la décision demandée.
-- **C, 0 point :** Établir un plan de migration pour l'ensemble des pays puis demander à chaque entité de le confirmer au prochain comité. Décision inadaptée au moment et aux contraintes décrites.
+- **A, 3 points :** Limiter provisoirement le scope aux deux pays sponsorisés et établir une première Vision, en laissant les autres pays pour un cadrage ultérieur. Limiter à deux pays donne une Vision provisoire, mais manque le cadrage des autres pays et des interfaces transverses.
+- **B, 1 point :** Définir les interfaces communes entre pays avant de négocier les business drivers et la gouvernance de groupe. Dessiner les interfaces communes avant drivers et gouvernance suppose un périmètre qui n'est pas approuvé.
+- **C, 0 point :** Établir un plan de migration pour l'ensemble des pays puis demander à chaque entité de le confirmer au prochain comité. Planifier les migrations mondiales sans Vision par pays ni value case inverse le déroulement de l'ADM.
 
 **Référence :** X2202, Practitioner, unité 3 ; TOGAF Standard / Series Guides pertinents.
 
@@ -86,9 +86,9 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 **Scoring :** A=0, B=5, C=3, D=1.
 
 - **B, 5 points :** Approfondir la Data Architecture et ses requirements avant de figer la solution applicative, en clarifiant ownership, qualité, cycle de vie et contraintes de transfert avant de figer les services. Une Data Architecture gouvernée précède la sélection d'un produit ou d'un modèle d'intégration.
-- **C, 3 points :** Préparer un modèle de données commun et inventorier les propriétaires connus, puis formaliser les règles de rétention dans une revue suivante. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **D, 1 point :** Examiner les exigences d'interfaces applicatives et les contrats de services avant de résoudre toutes les définitions des données. Aborde une préoccupation secondaire sans démontrer la décision demandée.
-- **A, 0 point :** Valider une solution d'intégration qui synchronise les référentiels clients, puis traiter les différences de sémantique au déploiement. Décision inadaptée au moment et aux contraintes décrites.
+- **C, 3 points :** Préparer un modèle de données commun et inventorier les propriétaires connus, puis formaliser les règles de rétention dans une revue suivante. Le modèle de données et l'inventaire des owners sont utiles, mais les règles de rétention restent non définies.
+- **D, 1 point :** Examiner les exigences d'interfaces applicatives et les contrats de services avant de résoudre toutes les définitions des données. Les contrats applicatifs ne peuvent résoudre une sémantique et une ownership des données encore ambiguës.
+- **A, 0 point :** Valider une solution d'intégration qui synchronise les référentiels clients, puis traiter les différences de sémantique au déploiement. Valider la synchronisation avant les définitions de données risque de propager des erreurs entre filiales.
 
 **Référence :** X2202, Practitioner, unité 4 ; TOGAF Standard / Series Guides pertinents.
 
@@ -97,9 +97,9 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 **Scoring :** A=3, B=1, C=0, D=5.
 
 - **D, 5 points :** Phase F, en utilisant des critères de migration et de priorisation, en comparant les coûts transitoires, risques résiduels et conditions de réalisation par wave. Le séquencement relève de F après préparation des options en E ; G ne remplace pas la planification.
-- **A, 3 points :** Produire un classement provisoire des lots selon la valeur et la dépendance principale, puis vérifier les capacités de reprise avant validation finale. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **B, 1 point :** Évaluer rapidement les preuves de conformité des composants déjà disponibles pour éliminer les solutions les moins sûres. Aborde une préoccupation secondaire sans démontrer la décision demandée.
-- **C, 0 point :** Construire l'Architecture Contract de la première release, puis demander aux équipes de négocier l'ordre des migrations en Phase G. Décision inadaptée au moment et aux contraintes décrites.
+- **A, 3 points :** Produire un classement provisoire des lots selon la valeur et la dépendance principale, puis vérifier les capacités de reprise avant validation finale. Un classement provisoire valeur/dépendance structure la discussion, mais la readiness et le coût de coexistence restent à arbitrer.
+- **B, 1 point :** Évaluer rapidement les preuves de conformité des composants déjà disponibles pour éliminer les solutions les moins sûres. La conformité des composants ne permet pas seule de classer les Transition Architectures par valeur et risque.
+- **C, 0 point :** Construire l'Architecture Contract de la première release, puis demander aux équipes de négocier l'ordre des migrations en Phase G. Négocier les vagues en Phase G remplace à tort le Migration Planning de Phase F.
 
 **Référence :** X2202, Practitioner, unité 5 ; TOGAF Standard / Series Guides pertinents.
 
@@ -108,9 +108,9 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 **Scoring :** A=5, B=3, C=0, D=1.
 
 - **A, 5 points :** Évaluer le changement et déterminer s'il faut lancer un nouveau cycle ou une évolution ciblée, avec une Change Request documentée et une classification du changement permettant de réutiliser l'ADM de manière proportionnée. La Phase H qualifie le changement après livraison et détermine le niveau de reprise architecturale.
-- **B, 3 points :** Enregistrer les nouveaux business drivers et réaliser une analyse ciblée des écarts, avant de décider du périmètre exact de re-entry. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **D, 1 point :** Adapter les interfaces de la nouvelle filiale dans une release séparée sous réserve d'une revue technique, sans analyser la stratégie globale. Aborde une préoccupation secondaire sans démontrer la décision demandée.
-- **C, 0 point :** Mettre à jour uniquement les objectifs financiers de la Roadmap, puis évaluer l'impact architectural à la prochaine revue annuelle. Décision inadaptée au moment et aux contraintes décrites.
+- **B, 3 points :** Enregistrer les nouveaux business drivers et réaliser une analyse ciblée des écarts, avant de décider du périmètre exact de re-entry. La collecte des nouveaux drivers démarre l'analyse, mais la portée de la nouvelle Architecture Vision n'est pas encore décidée.
+- **D, 1 point :** Adapter les interfaces de la nouvelle filiale dans une release séparée sous réserve d'une revue technique, sans analyser la stratégie globale. Adapter une interface locale ne répond pas à la transformation du modèle métier liée à l'acquisition.
+- **C, 0 point :** Mettre à jour uniquement les objectifs financiers de la Roadmap, puis évaluer l'impact architectural à la prochaine revue annuelle. Réviser seulement les objectifs financiers reporte trop tard les impacts sur l'architecture en service.
 
 **Référence :** X2202, Practitioner, unité 6 ; TOGAF Standard / Series Guides pertinents.
 
@@ -119,9 +119,9 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 **Scoring :** A=3, B=1, C=5, D=0.
 
 - **C, 5 points :** Mettre à jour et analyser la requirement, tracer les impacts et itérer sur les architectures concernées, avec Requirements Impact Assessment sur les vues, building blocks, risques et work packages affectés. La gestion des exigences est transversale ; un changement réglementaire peut déclencher des itérations entre phases.
-- **A, 3 points :** Mettre à jour la version de l'exigence et son propriétaire puis convoquer Data et Application pour recenser les impacts détaillés. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **B, 1 point :** Mettre à jour seulement le modèle applicatif de la cible, en demandant au Data Owner de confirmer ensuite la cohérence des échanges. Aborde une préoccupation secondaire sans démontrer la décision demandée.
-- **D, 0 point :** Conserver l'exigence historique dans la spécification et créer une note réglementaire séparée pour les équipes de déploiement. Décision inadaptée au moment et aux contraintes décrites.
+- **A, 3 points :** Mettre à jour la version de l'exigence et son propriétaire puis convoquer Data et Application pour recenser les impacts détaillés. Versionner la requirement et consulter Data/Application est pertinent, mais n'analyse pas encore les impacts sur tous les domaines.
+- **B, 1 point :** Mettre à jour seulement le modèle applicatif de la cible, en demandant au Data Owner de confirmer ensuite la cohérence des échanges. Corriger la seule Application Architecture laisse les modèles Data et Business potentiellement incohérents.
+- **D, 0 point :** Conserver l'exigence historique dans la spécification et créer une note réglementaire séparée pour les équipes de déploiement. Une note réglementaire isolée laisse les spécifications et work packages régis par une règle obsolète.
 
 **Référence :** X2202, Practitioner, unité 7 ; TOGAF Standard / Series Guides pertinents.
 
@@ -130,9 +130,9 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 **Scoring :** A=5, B=1, C=3, D=0.
 
 - **A, 5 points :** Effectuer une analyse de transformation readiness et intégrer les actions organisationnelles dans la trajectoire, avec facteurs de readiness, plans de montée en compétences et work packages préparatoires. La préparation organisationnelle est une composante de la trajectoire, pas une activité laissée automatiquement au delivery.
-- **C, 3 points :** Évaluer d'abord les rôles d'exploitation et financer une formation ciblée, puis compléter l'examen des autres facteurs de readiness. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **B, 1 point :** Ajouter au plan une mesure de mitigation technique et un critère de reprise, sans réexaminer l'organisation du support. Aborde une préoccupation secondaire sans démontrer la décision demandée.
-- **D, 0 point :** Conserver la date de mise en service et planifier le support fournisseur seulement une fois les premiers incidents observés. Décision inadaptée au moment et aux contraintes décrites.
+- **C, 3 points :** Évaluer d'abord les rôles d'exploitation et financer une formation ciblée, puis compléter l'examen des autres facteurs de readiness. Rôles et formation préparent les opérations, mais les autres facteurs de readiness restent à instruire.
+- **B, 1 point :** Ajouter au plan une mesure de mitigation technique et un critère de reprise, sans réexaminer l'organisation du support. Une mitigation technique ne traite ni les compétences ni les responsabilités du run model.
+- **D, 0 point :** Conserver la date de mise en service et planifier le support fournisseur seulement une fois les premiers incidents observés. Attendre les incidents pour créer le support met en péril l'acceptation opérationnelle.
 
 **Référence :** X2202, Practitioner, unité 8 ; TOGAF Standard / Series Guides pertinents.
 ## Diagnostic
