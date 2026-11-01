@@ -31,10 +31,10 @@ D. Un viewpoint
 
 ## Q266 — Artifact
 Un artifact est :
-A. Une phase ADM
+A. Un composant de solution réutilisable déployé pour réaliser une capability métier
 B. Une représentation architecturale d'un aspect de l'architecture
-C. Une équipe
-D. Un livrable approuvé par le comité d'architecture
+C. Un produit de travail contractuel rassemblant les vues et exigences de la cible
+D. Une phase de développement d'architecture au sein du cycle ADM
 **Réponse : B.** Catalogs, matrices et diagrams sont des artifacts.
 **Distracteur D :** Un deliverable peut rassembler plusieurs artifacts ; les deux notions ne sont pas synonymes.
 **Mapping : Architecture Content — Artifacts.**
@@ -134,9 +134,9 @@ D. Les conventions pour construire une view répondant à certains concerns
 ## Q277 — View
 Une view est :
 A. La représentation concrète construite selon un viewpoint
-B. La convention abstraite de représentation
-C. Un phase
-D. Une exception
+B. Une convention de construction et d'interprétation des représentations d'architecture
+C. Un composant concret permettant de réaliser un service de la Target Architecture
+D. Un ensemble d'engagements d'implémentation formalisés entre parties prenantes
 **Réponse : A.** B décrit le viewpoint ; C/D sont autres concepts.
 **Mapping : Architecture Content — Views/Viewpoints.**
 
@@ -152,10 +152,10 @@ D. Pour approuver une exception sans passer par le Board
 
 ## Q279 — Viewpoint reusable
 Pourquoi un viewpoint peut-il être réutilisable ?
-A. Il contient toujours une solution précise
-B. Il remplace la Target
+A. Parce qu'une View représente toujours le même SBB pour toutes les organisations
+B. Parce qu'un Viewpoint ne peut être défini qu'à la fin d'une réalisation technique
 C. Il définit une manière de construire des views pour un type récurrent de concerns
-D. Il n'a aucun rapport avec les stakeholders
+D. Parce qu'un diagram physique est identique à une convention de représentation
 **Réponse : C.** Un viewpoint est une convention réutilisable de représentation.
 **Mapping : Architecture Content — Viewpoints.**
 
@@ -197,9 +197,9 @@ D. Pour éviter toute implementation
 
 ## Q284 — SBB traceability
 Pourquoi relier un SBB aux ABB qu'il réalise ?
-A. Pour supprimer les requirements
-B. Pour éviter la Compliance Review
-C. Pour remplacer les artifacts
+A. Pour remplacer les AB Bs par une liste des produits achetés indépendamment des capacités
+B. Pour présenter exclusivement le coût d'implémentation des technologies de plateforme
+C. Pour considérer toute implémentation comme conforme avant la Compliance Review
 D. Pour montrer comment la solution concrète satisfait l'intention architecturale
 **Réponse : D.** La traçabilité ABB→SBB soutient justification et conformité.
 **Mapping : Architecture Content — ABB/SBB.**
@@ -216,10 +216,10 @@ D. Un produit de travail formel composé de plusieurs artifacts soumis aux stake
 
 ## Q286 — Metamodel purpose
 Pourquoi un metamodel est-il utile ?
-A. Pour imposer une technologie
+A. Pour définir directement la liste des solutions commerciales approuvées par le Board
 B. Pour assurer cohérence de vocabulaire et relations entre artifacts
-C. Pour remplacer l'ADM
-D. Pour éviter les stakeholders
+C. Pour éviter toute adaptation du Content Framework au contexte de l'entreprise
+D. Pour remplacer l'Architecture Requirements Repository par des diagrams uniquement
 **Réponse : B.** Il aide à produire des modèles cohérents et comparables.
 **Mapping : Architecture Content — Content Metamodel.**
 
@@ -316,9 +316,9 @@ D. Une view peut être réalisée à l'aide d'un ou plusieurs artifacts appropri
 ## Q297 — Repository vs Content
 Quelle distinction est correcte ?
 A. Le Content Framework structure ce qui est produit ; le Repository organise où ces assets sont conservés et gérés
-B. Content Framework et Repository sont synonymes car ils conservent le même contenu
-C. Le Repository est un artifact
-D. Le Content Framework est une phase
+B. Le Content Framework précise l'ordre des migrations ; le Repository fixe les exigences métier
+C. Le Content Framework est une bibliothèque de produits tandis que le Repository définit les viewpoints
+D. Le Content Framework et le Repository désignent deux noms d'un même plan opérationnel
 **Réponse : A.** Structure du contenu et mécanisme de conservation sont différents.
 **Mapping : Architecture Content — Content vs Repository.**
 
