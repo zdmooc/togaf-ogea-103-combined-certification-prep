@@ -50,34 +50,34 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, gradient 5/3/1/0, réussit
 
 ## P1 — Context
 
-**Barème :** A=3, B=5, C=0, D=1.
+**Barème :** A=3, B=1, C=0, D=5.
 
-- **B (5) :** Renforcer en priorité capacité, gouvernance, compétences, repository et tailoring afin de soutenir les transformations, avec une approche de gouvernance par priorités, des rôles nommés et une trajectoire de montée en capacité. La pratique d'architecture doit permettre de guider plusieurs changements en cohérence.
+- **D (5) :** Renforcer en priorité capacité, gouvernance, compétences, repository et tailoring afin de soutenir les transformations, avec une approche de gouvernance par priorités, des rôles nommés et une trajectoire de montée en capacité. La pratique d'architecture doit permettre de guider plusieurs changements en cohérence.
 - **A (3) :** Désigner temporairement des architectes responsables par domaine et enregistrer les décisions critiques, puis structurer la capacité formelle. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
-- **D (1) :** Mettre en place une bibliothèque de patterns communs avant de clarifier les personnes autorisées à valider les exceptions. Couvre un aspect secondaire, insuffisant au moment décrit.
+- **B (1) :** Mettre en place une bibliothèque de patterns communs avant de clarifier les personnes autorisées à valider les exceptions. Couvre un aspect secondaire, insuffisant au moment décrit.
 - **C (0) :** Confier la cohérence globale au fournisseur principal, puis internaliser les décisions d'architecture après la première mise en production. Contourne la contrainte structurante.
 
 **Référence :** X2202, Practitioner, unité 1.
 
 ## P2 — Stakeholder Management
 
-**Barème :** A=1, B=5, C=0, D=3.
+**Barème :** A=5, B=1, C=0, D=3.
 
-- **B (5) :** L'intégrer comme stakeholder, clarifier concerns et requirements de conformité, puis adapter les views et décisions, avec identification des concerns, consultation des owners et adaptation des views avant approbation. Les acteurs réglementaires critiques doivent peser sur la Target, pas être informés seulement après.
+- **A (5) :** L'intégrer comme stakeholder, clarifier concerns et requirements de conformité, puis adapter les views et décisions, avec identification des concerns, consultation des owners et adaptation des views avant approbation. Les acteurs réglementaires critiques doivent peser sur la Target, pas être informés seulement après.
 - **D (3) :** Demander un avis ciblé sur la résidence des données et préparer une analyse des implications, puis élargir les autres vues dans une seconde revue. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
-- **A (1) :** Reporter la consultation de conformité à la revue de migration lorsque le design technique sera stabilisé. Couvre un aspect secondaire, insuffisant au moment décrit.
+- **B (1) :** Reporter la consultation de conformité à la revue de migration lorsque le design technique sera stabilisé. Couvre un aspect secondaire, insuffisant au moment décrit.
 - **C (0) :** Faire accepter provisoirement les risques de transfert par le sponsor et ajouter la conformité comme contrôle de Phase G. Contourne la contrainte structurante.
 
 **Référence :** X2202, Practitioner, unité 2.
 
 ## P3 — Phase A
 
-**Barème :** A=5, B=1, C=0, D=3.
+**Barème :** A=0, B=1, C=5, D=3.
 
-- **A (5) :** Revenir au cadrage Phase A pour clarifier drivers, outcomes, stakeholders et Vision tout en conservant les requirements utiles, en reliant drivers, outcomes, stakeholders et scope à une Architecture Vision défendable. Les requirements détaillées ne compensent pas l'absence de drivers et de business value en Phase A.
+- **C (5) :** Revenir au cadrage Phase A pour clarifier drivers, outcomes, stakeholders et Vision tout en conservant les requirements utiles, en reliant drivers, outcomes, stakeholders et scope à une Architecture Vision défendable. Les requirements détaillées ne compensent pas l'absence de drivers et de business value en Phase A.
 - **D (3) :** Rattacher les requirements existantes à quelques drivers majeurs et valider un premier jeu d'indicateurs, puis finaliser la Vision. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
 - **B (1) :** Proposer une Roadmap préliminaire de plateforme pour susciter la discussion métier, sans faire encore approuver les bénéfices. Couvre un aspect secondaire, insuffisant au moment décrit.
-- **C (0) :** Réserver le fournisseur et répartir les exigences entre les équipes d'implémentation, puis mesurer les outcomes après livraison. Contourne la contrainte structurante.
+- **A (0) :** Réserver le fournisseur et répartir les exigences entre les équipes d'implémentation, puis mesurer les outcomes après livraison. Contourne la contrainte structurante.
 
 **Référence :** X2202, Practitioner, unité 3.
 
@@ -105,21 +105,21 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, gradient 5/3/1/0, réussit
 
 ## P6 — Phase H
 
-**Barème :** A=5, B=1, C=0, D=3.
+**Barème :** A=0, B=1, C=5, D=3.
 
-- **A (5) :** Évaluer les drivers et la performance de l'architecture, puis décider de l'évolution ou d'un nouveau cycle, en comparant la valeur réellement délivrée aux business drivers actuels et en classant l'impact de changement. La Phase H considère aussi l'obsolescence de valeur et l'évolution des drivers métier.
+- **C (5) :** Évaluer les drivers et la performance de l'architecture, puis décider de l'évolution ou d'un nouveau cycle, en comparant la valeur réellement délivrée aux business drivers actuels et en classant l'impact de changement. La Phase H considère aussi l'obsolescence de valeur et l'évolution des drivers métier.
 - **D (3) :** Mettre à jour les principaux KPI et préparer une analyse d'impact de la nouvelle demande avant de choisir le périmètre de réarchitecture. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
 - **B (1) :** Modifier uniquement la chaîne de rejet qui affiche le plus mauvais indicateur, sans réévaluer l'objectif métier global. Couvre un aspect secondaire, insuffisant au moment décrit.
-- **C (0) :** Reprendre immédiatement tout l'ADM depuis Preliminary, même si l'analyse pourrait limiter le travail à quelques domaines. Contourne la contrainte structurante.
+- **A (0) :** Reprendre immédiatement tout l'ADM depuis Preliminary, même si l'analyse pourrait limiter le travail à quelques domaines. Contourne la contrainte structurante.
 
 **Référence :** X2202, Practitioner, unité 6.
 
 ## P7 — Requirements Management
 
-**Barème :** A=5, B=1, C=0, D=3.
+**Barème :** A=3, B=1, C=0, D=5.
 
-- **A (5) :** Mettre à jour la requirement, utiliser la traceability pour identifier les impacts et déclencher les itérations nécessaires, en établissant un Requirements Impact Assessment traçant les building blocks, décisions et migrations concernés. L'impact de requirements doit être propagé et gouverné transversalement.
-- **D (3) :** Réaliser une première analyse sur les services les plus exposés et chiffrer les travaux urgents, puis vérifier les autres impacts. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
+- **D (5) :** Mettre à jour la requirement, utiliser la traceability pour identifier les impacts et déclencher les itérations nécessaires, en établissant un Requirements Impact Assessment traçant les building blocks, décisions et migrations concernés. L'impact de requirements doit être propagé et gouverné transversalement.
+- **A (3) :** Réaliser une première analyse sur les services les plus exposés et chiffrer les travaux urgents, puis vérifier les autres impacts. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
 - **B (1) :** Appliquer la modification aux ABB du service principal et demander aux autres équipes de réévaluer leurs contrats pendant la migration. Couvre un aspect secondaire, insuffisant au moment décrit.
 - **C (0) :** Conserver les work packages approuvés et considérer que le changement se limite au code déjà modifié. Contourne la contrainte structurante.
 
