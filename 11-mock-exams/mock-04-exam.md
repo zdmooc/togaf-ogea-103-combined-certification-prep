@@ -27,7 +27,7 @@ A. Dans le Standards Information Base, car toutes les exigences approuvées devi
 **Q7.** Le Continuum aide principalement à :
 A. Positionner et classifier les assets du générique vers le spécifique  B. Stocker les logs  C. Gérer le budget  D. Exécuter des applications
 
-**Q8.** Une cible de modernisation est présentée au Board dans un Architecture Definition Document comportant plusieurs diagrammes et matrices. Quelle définition s'applique à ce dossier ?
+**Q8.** Le comité doit approuver un Architecture Definition Document contenant plusieurs matrices et diagrammes. Quelle définition de Deliverable convient ?
 A. Un Deliverable est une application cible dont le code source a été approuvé.  B. Un Deliverable est toujours un diagramme individuel sans exigences associées.  C. Un Deliverable correspond au seul modèle de métadonnées utilisé par une entreprise.  D. Un Deliverable est un produit de travail formel pouvant comprendre plusieurs artifacts.
 
 ## Introduction to the ADM
@@ -65,7 +65,7 @@ A. Traiter le sujet exclusivement en Phase G car tout changement réglementaire 
 **Q19.** Requirements Management doit :
 A. Commencer seulement en F  B. Finir après A  C. Être limité aux requirements techniques  D. Soutenir et tracer les requirements pendant tout l'ADM
 
-**Q20.** Le sponsor veut mener en parallèle une clarification des données et une étude d'applications, les deux se modifiant mutuellement. Quelle affirmation sur l'ADM est correcte ?
+**Q20.** Les domaines Data et Application doivent être ajustés après une nouvelle exigence. Quelle affirmation sur l'itération ADM est correcte ?
 A. L'ADM impose la clôture définitive de C Data avant tout travail C Application.  B. L'ADM permet tailoring, itérations et travail concurrent sous gouvernance appropriée.  C. La Phase H doit être déclenchée dès qu'une étude produit une nouvelle requirement.  D. Chaque phase ADM possède une durée prescrite et identique quel que soit le contexte.
 
 **Q21.** Quel concept exprime ce qui manque entre Baseline et Target ?
@@ -130,7 +130,7 @@ A. Est toujours un produit  B. Est une réunion  C. Est une Viewpoint  D. Repré
 **Q38.** Le comité demande le périmètre des applications supportant une capability et leurs relations avec des données sensibles. Quel ensemble distingue correctement les formes d'artifacts ?
 A. Catalog pour décisions contractuelles, Matrix pour documents approuvés, Diagram pour solution livrée.  B. Catalog pour inventaire, Matrix pour relations, Diagram pour représentation graphique.  C. Catalog et Matrix sont des SBB ; seul Diagram constitue un artifact du Content Framework.  D. Matrix correspond uniquement au planning de migration et Diagram à l'Architecture Contract.
 
-**Q39.** Le CISO veut voir les relations de confiance et le métier les capacités de paiement impactées. Quelle affirmation sur les représentations est correcte ?
+**Q39.** Deux stakeholders exigent des représentations différentes d'une même cible. Quelle affirmation sur View et Viewpoint est correcte ?
 A. Une Viewpoint est une instance graphique construite à partir d'une View.  B. Une View est un Building Block exécuté par un service de plateforme.  C. Une View répond à des concerns en suivant la convention spécifiée par une Viewpoint.  D. Une View est obligatoirement le même modèle pour tous les stakeholders.
 
 **Q40.** Le Content Metamodel sert principalement à :
