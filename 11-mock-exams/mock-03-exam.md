@@ -109,7 +109,7 @@ A. Architecture Board — autorité de gouvernance et d'arbitrage  B. Project St
 A. Validation d'un seul Technology Standard comme preuve suffisante.  B. Nouvelle Architecture Vision produite automatiquement à la place d'une analyse d'implémentation.  C. Registre de projet recensant le budget sans vérification des exigences techniques.  D. Compliance Review fondée sur les exigences, décisions et preuves de mise en œuvre.
 
 **Q35.** Le fournisseur a déployé les composants prévus, mais les tests de résilience ne prouvent pas le respect des requirements approuvées. Quelle revue faut-il conduire ?
-A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Architecture Roadmap — preuve indirecte via le seul suivi du planning  C. Évalue la conformité à l'architecture et aux exigences approuvées  D. Standards Information Base — validation automatique des solutions utilisant un produit autorisé
+A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Architecture Roadmap — preuve indirecte via le seul suivi du planning  C. Architecture Compliance Review — évalue la conformité aux exigences et décisions d'architecture approuvées  D. Standards Information Base — validation automatique des solutions utilisant un produit autorisé
 
 **Q36.** Dans une plateforme de paiements instantanés, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Lequel décrit un Deliverable ?
 A. Artifact — représentation individuelle de type catalogue ou diagramme  B. Un produit de travail formel assemblant éventuellement plusieurs artifacts  C. SBB — composant de solution réalisant une capacité définie  D. Viewpoint — convention de représentation d'une view
