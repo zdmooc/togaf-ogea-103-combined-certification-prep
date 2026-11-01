@@ -9,13 +9,13 @@
 **Q1.** Quelle description correspond le mieux à l'Enterprise Architecture ?
 A. Une CMDB  B. Une méthode de développement logiciel  C. Une discipline permettant d'aligner structure, capacités et transformation de l'entreprise  D. Une liste de projets
 
-**Q2.** Un Stakeholder est :
+**Q2.** Operations est affecté par les nouveaux services d'astreinte mais ne finance pas le programme. Quel énoncé décrit correctement son statut de stakeholder ?
 A. Une personne, un groupe ou une organisation ayant un intérêt dans ou étant affecté par l'architecture  B. Toujours le sponsor  C. Un deliverable  D. Un standard
 
 **Q3.** Quel énoncé présente correctement l'apport de l'Enterprise Continuum à une équipe qui souhaite réutiliser une architecture de référence ?
 A. Il remplace l'Architecture Repository comme entrepôt physique unique de fichiers.  B. Il définit automatiquement la liste des work packages financés dans le Migration Plan.  C. Il impose de sélectionner un fournisseur unique pour chaque ABB générique.  D. Il aide à classifier et contextualiser des assets génériques ou spécifiques sans se confondre avec leur stockage.
 
-**Q4.** Un Concern est :
+**Q4.** Le DPO s'inquiète de la résidence des données avant la définition des exigences. Comment qualifier cette préoccupation ?
 A. Une solution technique  B. Une préoccupation d'un stakeholder  C. Une phase ADM  D. Un artifact
 
 **Q5.** Un Architecture Principle doit surtout :
@@ -62,7 +62,7 @@ A. G  B. B  C. D  D. H
 **Q18.** Après la mise en production, les KPI révèlent que l'architecture ne répond plus aux nouveaux objectifs de l'entreprise. Quelle activité est la plus appropriée ?
 A. Architecture Compliance en Phase G uniquement, pour vérifier les produits utilisés et maintenir la Target.  B. Requirements Management exclusivement, sans analyse de nouveaux business drivers.  C. Architecture Change Management en Phase H, pour réévaluer drivers, impacts et magnitude du changement.  D. Architecture Contract, qui interdit toute modification après signature par les parties prenantes.
 
-**Q19.** Requirements Management :
+**Q19.** Une requirement modifiée affecte Data Architecture et les waves de migration. Quelle affirmation sur Requirements Management est correcte ?
 A. Est limité à Phase A  B. Est limité aux business requirements  C. Est exécuté après la migration seulement  D. Interagit avec toutes les phases ADM
 
 **Q20.** Quelle affirmation sur l'itération est correcte ?
