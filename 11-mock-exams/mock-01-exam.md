@@ -45,7 +45,7 @@ A. Phase B — structurer capabilities et processus métiers de la cible  B. Pha
 **Q13.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Les services applicatifs et interactions entre applications relèvent principalement de :
 A. Phase B — définir services et processus métier indépendants des applications  B. Phase C Application — services et interactions applicatifs  C. Phase C Data — préciser propriété et cycle de vie de l'information  D. Phase D — détailler le socle et les services technologiques
 
-**Q14.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. La Target Technology Architecture est développée principalement en :
+**Q14.** Le projet a défini ses capacités métier, données et services applicatifs ; il reste à concevoir les plateformes et middlewares. Dans quelle phase ADM ?
 A. Phase C Data — gouverner les entités et les flux d'information  B. Phase C Application — modéliser services et contrats applicatifs  C. Phase D — plateformes, services technologiques et infrastructure  D. Phase E — agréger les gaps en work packages et transitions
 
 **Q15.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Identifier et regrouper les principaux work packages et Transition Architectures relève surtout de :
@@ -63,7 +63,7 @@ A. Réexécuter automatiquement Preliminary jusqu'à H car une nouvelle loi impl
 **Q19.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Requirements Management est :
 A. Requirements Management — processus transversal aux phases ADM pour gérer les besoins et leurs impacts  B. Phase A uniquement — figer les exigences à l'approbation de la Vision  C. Phase G uniquement — vérifier seulement les exigences à la réception  D. Phase H exclusivement — traiter toute requirement après la mise en service
 
-**Q20.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. La Gap Analysis compare principalement :
+**Q20.** L'ancienne plateforme traite les rejets manuellement, mais la cible impose des événements de compensation automatisés. Quelle technique décrit cet écart entre Baseline et Target ?
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Gap Analysis — analyse des écarts entre Baseline et Target  C. Architecture Contract — contractualiser obligations et critères de conformité  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q21.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle caractéristique de l'ADM permet de réexaminer une décision après une nouvelle exigence ?
@@ -102,16 +102,16 @@ A. Scoping — limiter le périmètre et la profondeur d'un seul travail  B. Par
 **Q32.** Dans une banque de détail, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Comment l'ADM peut-il accompagner un delivery Agile incrémental ?
 A. L'ADM peut être adapté et itéré pour soutenir un delivery incrémental  B. Terminer définitivement B, C et D avant toute livraison produit  C. Supprimer les requirements et la gouvernance à partir du premier sprint  D. Limiter l'ADM à Phase G en considérant le backlog comme unique architecture
 
-**Q33.** Dans une banque de détail, le Board doit différencier arbitrage, conformité et exceptions. L'Architecture Board sert principalement à :
+**Q33.** Le CTO et le CISO ne s'accordent pas sur une exception de sécurité affectant plusieurs domaines. Quelle instance compétente tranche la question d'architecture ?
 A. Project Steering Committee — pilotage coûts et délais uniquement  B. Arbitrer et gouverner les décisions d'architecture  C. Requirements Manager — traçabilité mais pas acceptation des exceptions  D. Fournisseur — approbation autonome de ses propres non-conformités
 
 **Q34.** Une plateforme est mise en œuvre par trois fournisseurs, avec des critères de conformité et d'acceptation déjà définis. Quel mécanisme décrit au mieux les engagements réciproques utiles à la gouvernance de réalisation ?
 A. Architecture Definition Document, utilisé comme substitut automatique de tout engagement contractuel.  B. Architecture Requirements Specification, suffisante à elle seule pour nommer l'autorité des dérogations.  C. Architecture Contract, convenant responsabilités, obligations et conformité entre acteurs.  D. Standards Information Base, qui remplace le contrôle de la mise en œuvre lorsque les produits sont standards.
 
-**Q35.** Dans une banque de détail, le Board doit différencier arbitrage, conformité et exceptions. Une Architecture Compliance Review vise à :
+**Q35.** Les services en production utilisent une technologie autorisée, mais leur journalisation viole la Target approuvée. Quelle activité permet d'évaluer cet écart ?
 A. Évaluer la conformité d'une implémentation à l'architecture approuvée  B. Gap Analysis — comparaison Baseline et Target non implémentées  C. Architecture Roadmap — preuve indirecte via le seul suivi du planning  D. Standards Information Base — validation automatique des solutions utilisant un produit autorisé
 
-**Q36.** Dans une banque de détail, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Un Deliverable est :
+**Q36.** Une Architecture Definition Document regroupe des représentations et spécifications soumises à validation formelle. Quelle catégorie de contenu représente-t-elle ?
 A. Artifact — représentation individuelle de type catalogue ou diagramme  B. SBB — composant de solution réalisant une capacité définie  C. Viewpoint — convention de représentation d'une view  D. Un produit de travail formel pouvant contenir plusieurs artifacts
 
 **Q37.** Dans une banque de détail, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Un Artifact est :
