@@ -12,8 +12,8 @@ A. Une CMDB  B. Une méthode de développement logiciel  C. Une discipline perme
 **Q2.** Un Stakeholder est :
 A. Une personne, un groupe ou une organisation ayant un intérêt dans ou étant affecté par l'architecture  B. Toujours le sponsor  C. Un deliverable  D. Un standard
 
-**Q3.** Une Viewpoint est :
-A. Une architecture cible  B. Un plan  C. Une requirement  D. Une convention pour construire une View répondant à certains concerns
+**Q3.** Quel énoncé présente correctement l'apport de l'Enterprise Continuum à une équipe qui souhaite réutiliser une architecture de référence ?
+A. Il remplace l'Architecture Repository comme entrepôt physique unique de fichiers.  B. Il définit automatiquement la liste des work packages financés dans le Migration Plan.  C. Il impose de sélectionner un fournisseur unique pour chaque ABB générique.  D. Il aide à classifier et contextualiser des assets génériques ou spécifiques sans se confondre avec leur stockage.
 
 **Q4.** Un Concern est :
 A. Une solution technique  B. Une préoccupation d'un stakeholder  C. Une phase ADM  D. Un artifact
@@ -21,8 +21,8 @@ A. Une solution technique  B. Une préoccupation d'un stakeholder  C. Une phase 
 **Q5.** Un Architecture Principle doit surtout :
 A. Définir tous les produits  B. Être changé à chaque sprint  C. Guider les décisions d'une manière cohérente et durable  D. Remplacer les requirements
 
-**Q6.** Quelle distinction est correcte ?
-A. Repository organise/conserve les assets ; Continuum aide à les classifier/contextualiser  B. Repository et Continuum sont identiques  C. Continuum exécute les solutions  D. Repository est une phase ADM
+**Q6.** Un référentiel contient standards, exigences, landscape et décisions d'exception. Quel composant sert principalement à enregistrer des décisions de gouvernance et dérogations ?
+A. Governance Log, au sein des éléments logiques de l'Architecture Repository.  B. Reference Library, qui remplace les décisions locales par des patterns externes.  C. Architecture Metamodel, contenant les instances historiques de chaque dérogation approuvée.  D. Solutions Landscape, où toute exception se transforme automatiquement en solution déployée.
 
 **Q7.** Architecture Capability inclut notamment :
 A. Un seul diagramme  B. Uniquement l'équipe projet  C. Seulement des outils  D. Rôles, compétences, gouvernance, processus, repository et pratiques
@@ -38,8 +38,8 @@ A. Préparer la capacité et le cadre dans lesquels l'architecture sera pratiqu�
 **Q10.** Quelle phase établit principalement la Vision et obtient l'alignement initial des stakeholders ?
 A. D  B. A  C. F  D. H
 
-**Q11.** Quelle phase décrit principalement comment l'entreprise doit fonctionner demain ?
-A. E  B. C  C. B  D. G
+**Q11.** Un programme possède une Vision mais les processus et capabilities métier nécessaires aux résultats attendus ne sont pas définis. Quelle phase est prioritaire ?
+A. Phase D, Technology Architecture, parce que la Vision identifie déjà les drivers métier.  B. Phase F, Migration Planning, pour financer d'abord les outils déjà proposés.  C. Phase B, Business Architecture, pour définir les capacités métier, processus et gaps pertinents.  D. Phase G, Implementation Governance, pour demander une Compliance Review aux équipes applicatives.
 
 **Q12.** Quelle phase traite principalement les modèles de données, ownership et flux d'information ?
 A. B  B. D  C. F  D. C Data
@@ -59,8 +59,8 @@ A. A  B. E  C. H  D. F
 **Q17.** À quel moment la conformité de l'implémentation à l'architecture approuvée est-elle au premier plan ?
 A. G  B. B  C. D  D. H
 
-**Q18.** À quel moment surveille-t-on les nouveaux drivers et l'évolution de l'architecture ?
-A. F  B. C  C. H  D. A
+**Q18.** Après la mise en production, les KPI révèlent que l'architecture ne répond plus aux nouveaux objectifs de l'entreprise. Quelle activité est la plus appropriée ?
+A. Architecture Compliance en Phase G uniquement, pour vérifier les produits utilisés et maintenir la Target.  B. Requirements Management exclusivement, sans analyse de nouveaux business drivers.  C. Architecture Change Management en Phase H, pour réévaluer drivers, impacts et magnitude du changement.  D. Architecture Contract, qui interdit toute modification après signature par les parties prenantes.
 
 **Q19.** Requirements Management :
 A. Est limité à Phase A  B. Est limité aux business requirements  C. Est exécuté après la migration seulement  D. Interagit avec toutes les phases ADM
@@ -76,8 +76,8 @@ A. Architecture Roadmap  B. Viewpoint  C. Architecture Board  D. Concern
 
 ## ADM Techniques
 
-**Q23.** Identifier les acteurs clés et leurs stratégies d'engagement relève de :
-A. Stakeholder Management  B. Gap Analysis  C. Interoperability  D. Risk Management
+**Q23.** Une transformation exige une interopérabilité entre deux organisations dont les règles de rapprochement diffèrent. Quelle analyse est la plus complète ?
+A. Examiner Business/Operational, Information et Technical interoperability, ainsi que leurs dépendances.  B. Mesurer uniquement la compatibilité des protocoles et des versions de composants.  C. Examiner l'Implementation Factor Catalog comme substitut des accords de données et de processus.  D. Exiger que les deux entités utilisent le même SBB et considérer la conformité acquise.
 
 **Q24.** Décrire une situation métier afin de dériver des requirements relève de :
 A. Readiness Assessment  B. Capability Planning  C. Business Scenarios  D. Compliance Review
@@ -99,8 +99,8 @@ A. Business Scenarios  B. Migration Planning Techniques  C. Architecture Content
 **Q29.** Le tailoring doit être :
 A. Une suppression de toute discipline  B. Une copie d'un autre contexte  C. Une adaptation consciente de l'ADM aux besoins et contraintes de l'organisation  D. Un remplacement par la gestion de projet
 
-**Q30.** Dans une grande organisation, les Levels of Architecture permettent :
-A. D'avoir plusieurs scopes reliés, du niveau Enterprise à des niveaux plus ciblés  B. D'éviter tout alignement  C. De supprimer les stakeholders  D. De limiter TOGAF à la Technology Architecture
+**Q30.** Une entreprise doit articuler architecture d'entreprise et delivery produit itératif. Quel comportement ADM est pertinent ?
+A. Conserver des principes et une Vision cohérents tout en itérant sur les domaines et exigences selon les retours des produits.  B. Finaliser chaque phase une seule fois puis interdire toute modification des exigences.  C. N'utiliser que Phase G, puisque les décisions doivent être prises exclusivement par le delivery Agile.  D. Supprimer les viewpoints car un backlog suffit à fournir toutes les représentations nécessaires.
 
 **Q31.** Partitioning aide principalement à :
 A. Définir les scores d'examen  B. Organiser les espaces d'architecture, responsabilités et interfaces  C. Écrire les contrats  D. Remplacer le Repository
@@ -113,8 +113,8 @@ A. TOGAF exige de terminer toutes les phases avant tout delivery  B. Les teams n
 **Q33.** L'Architecture Board est principalement :
 A. Un groupe de développement  B. Une base de données  C. Une autorité de gouvernance et d'arbitrage  D. Une View
 
-**Q34.** L'Architecture Contract sert à :
-A. Formaliser les attentes, engagements et responsabilités concernant l'architecture  B. Définir les business drivers  C. Classifier les assets  D. Produire une Gap Analysis
+**Q34.** Un Architecture Board doit suivre la conformité de plusieurs équipes et gérer les exceptions. Quel mécanisme fournit un lien formel avec les équipes de réalisation ?
+A. Architecture Contract précisant engagements, responsabilités et critères de conformité convenus.  B. Architecture Roadmap, qui tient lieu d'accord détaillé de conformité avec chaque fournisseur.  C. Architecture Vision, dont l'approbation remplace toute revue de l'implémentation.  D. Architecture Metamodel, qui accepte automatiquement les demandes de dérogation.
 
 **Q35.** Quand une implémentation s'écarte d'un standard, la meilleure pratique est :
 A. Ignorer l'écart s'il fonctionne  B. Le documenter, analyser son impact et le soumettre au processus de gouvernance approprié  C. Le cacher jusqu'à H  D. Modifier le standard localement sans approbation
@@ -127,8 +127,8 @@ A. Building Block  B. Viewpoint  C. Catalog  D. Deliverable
 **Q37.** Quel terme désigne une représentation telle qu'un Catalog, Matrix ou Diagram ?
 A. Artifact  B. Capability  C. Contract  D. Principle
 
-**Q38.** Un ABB :
-A. Est toujours un produit choisi  B. Décrit une capacité ou un besoin architectural indépendamment d'une réalisation précise  C. Est un planning  D. Est plus concret qu'un SBB
+**Q38.** Une équipe doit représenter les services, les capacités métier et leurs relations, puis faire approuver un dossier formel. Quelle distinction est correcte ?
+A. Chaque building block devient un deliverable distinct dès que son diagramme est approuvé.  B. Un deliverable formel peut contenir plusieurs artifacts représentant des building blocks et leurs liens.  C. Un viewpoint représente l'application physique tandis qu'un SBB décrit toujours un process métier.  D. Un Architecture Contract est un type de diagramme et remplace les artifacts de la Target.
 
 **Q39.** Un SBB :
 A. Est toujours métier  B. Est une phase  C. Correspond généralement à une réalisation plus spécifique d'un besoin architectural  D. Est une Viewpoint
