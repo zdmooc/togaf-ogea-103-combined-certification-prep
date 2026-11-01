@@ -4,7 +4,7 @@ Préparation complète et structurée à la certification **TOGAF Enterprise Arc
 
 ## Status
 
-**Repository build: CONTENT REMEDIATED — QUALITY REVIEW PENDING (2026-11-01)**  
+**Repository build: SELF-STUDY CONTENT INTEGRATED — EXTERNAL CALIBRATION PENDING (2026-11-01)**  
 **Current audit: structural controls passed; individual semantic review and independent exam-level calibration are still pending.**
 
 Ce dépôt est un support d'autoformation original. Il n'est pas un cours accrédité The Open Group et ne garantit pas la réussite à l'examen.
@@ -24,6 +24,10 @@ Couvrir ensemble :
 - préparation aux entretiens d'architecte en anglais.
 
 ## Compléments issus de l'audit du 1er novembre 2026
+
+- L'objectif Foundation **L1 7.3** est désormais couvert par un tableau complet de ses **16 livrables** et 16 QCM `D01–D16` avec corrigés séparés. Le glossaire Foundation inclut désormais `Digital Architecture`.
+- Un deuxième contrôle CI (`scripts/validate_pedagogical_consistency.py`) vérifie les barèmes et justifications de **140 scénarios Practitioner** (60 S + 48 mocks + 32 XP) et les nouveaux exercices ciblés ; une revue humaine de fond reste nécessaire.
+- Le rapport de référence pour l'état du dépôt est `FINAL_AUDIT.md` (le verdict READY de septembre est obsolète).
 
 - Banque Foundation : 300 bonnes réponses rééquilibrées (75 A/B/C/D), 133 distracteurs renforcés lors du premier audit (53 + 80) et 133 ensembles supplémentaires de trois distracteurs retravaillés durant l'audit de longueur. Biais de longueur amélioré : bonne réponse la plus longue 70 % → 34 %, longueur relative moyenne 2,08 → 1,12. Plus 24 QCM complémentaires dans `09-foundation-question-bank/09-advanced-drills.md`.
 - Banque Practitioner : 60 scénarios enrichis et réécrits avec contexte, quatre options argumentées et 15 meilleures réponses par lettre, plus 8 cas longs avec corrections dans `10-practitioner-scenarios/09-advanced-multi-constraint-scenarios.md`.
