@@ -56,3 +56,6 @@ La répartition des réponses a été corrigée (75 A, 75 B, 75 C, 75 D). Cent t
 ---
 
 Contenu pédagogique original. Ne reproduit pas les questions d'examen officielles.
+## Complément ciblé X2202 Foundation 7.3
+
+Seize questions originales `D01–D16`, couvrant les seize livrables cités explicitement dans X2202 7.3, figurent dans `11-x2202-deliverables-drills.md`. Corrigés séparés dans `11-x2202-deliverables-drills-corrections.md`.
