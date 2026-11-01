@@ -65,8 +65,8 @@ A. Phase G applique une Compliance Review et ne peut jamais rouvrir les architec
 **Q19.** Requirements Management :
 A. N'intervient qu'en A  B. N'intervient qu'en G  C. Est un domaine technique  D. Maintient, analyse et trace les exigences tout au long de l'ADM
 
-**Q20.** Quelle affirmation est correcte ?
-A. L'ADM peut itérer entre phases et domaines selon le contexte  B. Une phase ne peut jamais être revisitée  C. L'ADM est un planning fixe  D. L'ADM exclut le tailoring
+**Q20.** Une contrainte de résidence des données apparaît après les premières vues applicatives de Phase C. Quelle affirmation sur la progression ADM est juste ?
+A. Les phases peuvent être revisitées pour réconcilier les modèles et exigences avec la nouvelle contrainte.  B. Une Phase C entamée ne peut pas être modifiée sans relancer Preliminary.  C. Une requirement découverte après B doit attendre Phase H après le go-live.  D. Les changements sont traités uniquement dans le Migration Plan sans mettre à jour les vues.
 
 **Q21.** Une Gap Analysis sert à :
 A. Choisir un fournisseur  B. Définir le sponsor  C. Identifier les écarts entre Baseline et Target  D. Remplacer Requirements Management
@@ -133,8 +133,8 @@ A. Une matrice montrant les relations entre éléments de deux catégories.  B. 
 **Q39.** Quelle distinction ABB/SBB est correcte ?
 A. ABB est plus concret  B. Ils sont identiques  C. SBB est toujours métier  D. ABB exprime le besoin architectural, SBB une réalisation plus spécifique
 
-**Q40.** Quelle association est correcte ?
-A. Catalog = graphique, Matrix = liste, Diagram = contrat  B. Catalog = liste structurée, Matrix = relations croisées, Diagram = vue visuelle  C. Les trois sont des Deliverables  D. Les trois sont des phases ADM
+**Q40.** Pour présenter les ressources du SI à un comité, l'architecte veut une liste de services, une matrice reliant applications et données et une représentation des flux. Quelle association est correcte ?
+A. Catalog pour engagements fournisseurs, Matrix pour coûts projet et Diagram pour preuve de conformité.  B. Catalog pour liste structurée, Matrix pour relations entre éléments, Diagram pour représentation graphique.  C. Catalog pour solutions physiques, Matrix pour Architecture Contracts et Diagram pour exigences réglementaires.  D. Les trois sont des types de Deliverables formellement distincts par nature.
 
 # Part 2 — Practitioner : huit scénarios multi-contraintes
 
