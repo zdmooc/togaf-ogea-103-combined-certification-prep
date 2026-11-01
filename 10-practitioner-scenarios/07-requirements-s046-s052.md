@@ -5,15 +5,13 @@
 Le sponsor écrit : « la nouvelle plateforme doit être très résiliente ». Les équipes interprètent cette phrase de manière différente.
 
 Quelle action est la meilleure ?
+A. Supprimer la requirement car elle est ambiguë.
+B. Décomposer et clarifier la requirement en critères vérifiables — disponibilité, RTO/RPO, modes de défaillance, failover, tests — tout en conservant la traçabilité vers le concern initial.
+C. Définir un premier seuil quantifié de disponibilité puis compléter les conditions de mesure et la validation par Operations.
+D. Laisser chaque équipe définir sa propre notion de résilience.
+**Scoring : A=0, B=5, C=3, D=1.**
 
-A. Décomposer et clarifier la requirement en critères vérifiables — disponibilité, RTO/RPO, modes de défaillance, failover, tests — tout en conservant la traçabilité vers le concern initial.  
-B. Laisser chaque équipe définir sa propre notion de résilience.  
-C. Choisir un produit “high availability” et considérer la requirement satisfaite.  
-D. Supprimer la requirement car elle est ambiguë.
-
-**Scoring : A=5, C=3, B=1, D=0.**
-
-**Pourquoi A :** Requirements Management transforme des besoins en exigences compréhensibles et testables. C peut contribuer à la satisfaction mais confond moyen et requirement ; B crée l’incohérence ; D perd le besoin.
+**Justification révisée :** le choix B (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix C (3 points) constitue une étape utile, mais partielle : définir un premier seuil quantifié de disponibilité puis compléter les conditions de mesure et la validation par Operations. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Requirements Management — Quality of Requirements.**
 
@@ -24,15 +22,13 @@ D. Supprimer la requirement car elle est ambiguë.
 Finance exige de réduire fortement les coûts d’infrastructure. Operations exige une redondance maximale sur tous les composants. Les deux requirements sont approuvées séparément mais deviennent incompatibles dans la Target.
 
 Quelle action est la meilleure ?
+A. Satisfaire automatiquement Finance.
+B. Maintenir les deux requirements inchangées et laisser le delivery résoudre le conflit.
+C. Rendre le conflit explicite, analyser trade-offs et impacts, impliquer les stakeholders concernés et obtenir un arbitrage gouverné avec requirements mises à jour.
+D. Faire expliciter et documenter les impacts des deux exigences, puis préparer une proposition de compromis pour l'autorité de décision.
+**Scoring : A=1, B=0, C=5, D=3.**
 
-A. Rendre le conflit explicite, analyser trade-offs et impacts, impliquer les stakeholders concernés et obtenir un arbitrage gouverné avec requirements mises à jour.  
-B. Satisfaire automatiquement Finance.  
-C. Satisfaire automatiquement Operations.  
-D. Maintenir les deux requirements inchangées et laisser le delivery résoudre le conflit.
-
-**Scoring : A=5, C=3, B=1, D=0.**
-
-**Pourquoi A :** Requirements Management inclut identification et résolution des conflits. C peut être prudente pour la continuité mais n’est pas un arbitrage complet ; B privilégie un concern ; D déplace une contradiction non résolue.
+**Justification révisée :** le choix C (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix D (3 points) constitue une étape utile, mais partielle : faire expliciter et documenter les impacts des deux exigences, puis préparer une proposition de compromis pour l'autorité de décision. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Requirements Management — Conflicting Requirements.**
 
@@ -43,15 +39,13 @@ D. Maintenir les deux requirements inchangées et laisser le delivery résoudre 
 Une exigence de chiffrement apparaît dans le document Technology, mais personne ne sait quel stakeholder ou quelle obligation l’a créée. Elle n’est reliée ni aux controls sécurité ni aux décisions de Phase A.
 
 Quelle action est la meilleure ?
+A. Rattacher l'exigence au composant principal et à un critère de vérification, puis étendre ensuite la traçabilité aux autres dépendances.
+B. Choisir un algorithme de chiffrement et clôturer la requirement.
+C. La supprimer car son origine n’est pas immédiatement connue.
+D. Restaurer la traçabilité vers source/concern, analyser où la requirement s’applique et relier les artifacts et building blocks concernés.
+**Scoring : A=3, B=1, C=0, D=5.**
 
-A. Restaurer la traçabilité vers source/concern, analyser où la requirement s’applique et relier les artifacts et building blocks concernés.  
-B. La supprimer car son origine n’est pas immédiatement connue.  
-C. La conserver comme texte isolé sans analyse.  
-D. Choisir un algorithme de chiffrement et clôturer la requirement.
-
-**Scoring : A=5, C=3, D=1, B=0.**
-
-**Pourquoi A :** une requirement doit pouvoir être comprise, tracée et liée aux décisions d’architecture. C préserve l’exigence mais pas sa gouvernance ; D saute au design ; B risque de supprimer une obligation valide.
+**Justification révisée :** le choix D (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix A (3 points) constitue une étape utile, mais partielle : rattacher l'exigence au composant principal et à un critère de vérification, puis étendre ensuite la traçabilité aux autres dépendances. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Requirements Management — Traceability.**
 
@@ -62,15 +56,13 @@ D. Choisir un algorithme de chiffrement et clôturer la requirement.
 Pendant Migration Planning, un régulateur impose un nouveau contrôle sur les données. La requirement affecte Data Architecture et le séquencement des work packages.
 
 Quelle action est la meilleure ?
+A. Enregistrer et analyser la nouvelle requirement, itérer sur les architectures impactées si nécessaire, puis mettre à jour gaps, work packages et Migration Plan.
+B. Ouvrir une évaluation d'impact de la nouvelle requirement sur le planning de migration avant de décider des ajustements du plan approuvé.
+C. Attendre Phase H après mise en production.
+D. Ignorer la requirement car les Phases C et E sont terminées.
+**Scoring : A=5, B=3, C=1, D=0.**
 
-A. Enregistrer et analyser la nouvelle requirement, itérer sur les architectures impactées si nécessaire, puis mettre à jour gaps, work packages et Migration Plan.  
-B. Ignorer la requirement car les Phases C et E sont terminées.  
-C. L’ajouter seulement au backlog du dernier projet.  
-D. Attendre Phase H après mise en production.
-
-**Scoring : A=5, C=3, D=1, B=0.**
-
-**Pourquoi A :** Requirements Management traverse l’ADM et peut provoquer une itération. C reconnaît l’exigence mais ne traite pas l’impact architectural ; D est tardif ; B viole la logique transversale.
+**Justification révisée :** le choix A (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix B (3 points) constitue une étape utile, mais partielle : ouvrir une évaluation d'impact de la nouvelle requirement sur le planning de migration avant de décider des ajustements du plan approuvé. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Requirements Management — Change during ADM / Iteration.**
 
@@ -81,15 +73,13 @@ D. Attendre Phase H après mise en production.
 Une requirement interdisait le cloud à cause d’une politique interne. La politique vient d’être remplacée et le sponsor veut conserver l’exigence « parce qu’elle a déjà été approuvée ».
 
 Quelle action est la meilleure ?
-
-A. Réévaluer la requirement, sa source et sa validité ; la modifier ou la retirer de manière gouvernée et tracer la décision.  
-B. Ne jamais modifier une requirement approuvée.  
-C. La supprimer silencieusement.  
+A. La supprimer silencieusement.
+B. Réévaluer la requirement, sa source et sa validité ; la modifier ou la retirer de manière gouvernée et tracer la décision.
+C. Soumettre la requirement à une nouvelle validation avec son sponsor et conserver l'historique des versions avant de la retirer ou de la modifier.
 D. Modifier uniquement le diagramme Technology sans toucher au registre des requirements.
+**Scoring : A=0, B=5, C=3, D=1.**
 
-**Scoring : A=5, B=3, D=1, C=0.**
-
-**Pourquoi A :** les requirements évoluent avec les drivers et constraints. B assure une stabilité apparente mais fige une contrainte obsolète ; D crée une incohérence ; C détruit la traçabilité.
+**Justification révisée :** le choix B (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix C (3 points) constitue une étape utile, mais partielle : soumettre la requirement à une nouvelle validation avec son sponsor et conserver l'historique des versions avant de la retirer ou de la modifier. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Requirements Management — Requirement Lifecycle.**
 
@@ -100,15 +90,13 @@ D. Modifier uniquement le diagramme Technology sans toucher au registre des requ
 MayaBank possède le principe « Security by Design ». Pour une plateforme spécifique, le CISO exige que tous les secrets soient stockés dans un service approuvé et renouvelés automatiquement.
 
 Quelle distinction est la meilleure ?
+A. La requirement ne doit jamais être liée au principe.
+B. Le principe doit être supprimé dès qu’une requirement existe.
+C. Le principe guide durablement les décisions ; la règle précise de gestion des secrets est une requirement/standard applicable au contexte et doit être tracée comme telle.
+D. Conserver le principe comme règle de décision et rédiger une exigence mesurable dérivée, sans encore expliciter toutes les implications.
+**Scoring : A=1, B=0, C=5, D=3.**
 
-A. Le principe guide durablement les décisions ; la règle précise de gestion des secrets est une requirement/standard applicable au contexte et doit être tracée comme telle.  
-B. Les deux éléments sont exactement le même type d’objet.  
-C. Le principe doit être supprimé dès qu’une requirement existe.  
-D. La requirement ne doit jamais être liée au principe.
-
-**Scoring : A=5, B=3, D=1, C=0.**
-
-**Pourquoi A :** principle et requirement se complètent mais ne sont pas synonymes. B reconnaît leur lien mais perd la distinction de granularité ; D coupe une trace utile ; C est faux.
+**Justification révisée :** le choix C (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix D (3 points) constitue une étape utile, mais partielle : conserver le principe comme règle de décision et rédiger une exigence mesurable dérivée, sans encore expliciter toutes les implications. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Requirements Management — Principle vs Requirement.**
 
@@ -119,15 +107,13 @@ D. La requirement ne doit jamais être liée au principe.
 Le programme possède 250 requirements toutes marquées « critique ». Les équipes ne peuvent pas arbitrer ni savoir lesquelles conditionnent la réussite de la transformation.
 
 Quelle action est la meilleure ?
+A. Prioriser d'abord les exigences réglementaires et de sécurité, puis compléter l'arbitrage avec valeur, risques et dépendances.
+B. Laisser le chef de projet supprimer celles qui ralentissent le planning.
+C. Remplacer les requirements par la liste des produits choisis.
+D. Revoir la qualité, source, priorité, dépendances et critères d’acceptation des requirements avec les stakeholders, puis maintenir une gouvernance de changement.
+**Scoring : A=3, B=1, C=0, D=5.**
 
-A. Revoir la qualité, source, priorité, dépendances et critères d’acceptation des requirements avec les stakeholders, puis maintenir une gouvernance de changement.  
-B. Considérer toutes les requirements également prioritaires.  
-C. Laisser le chef de projet supprimer celles qui ralentissent le planning.  
-D. Remplacer les requirements par la liste des produits choisis.
-
-**Scoring : A=5, B=3, C=1, D=0.**
-
-**Pourquoi A :** un registre utile doit soutenir les décisions, pas seulement accumuler du texte. B évite un arbitrage arbitraire mais rend la priorité inutilisable ; C retire la gouvernance ; D confond besoins et solutions.
+**Justification révisée :** le choix D (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix A (3 points) constitue une étape utile, mais partielle : prioriser d'abord les exigences réglementaires et de sécurité, puis compléter l'arbitrage avec valeur, risques et dépendances. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Requirements Management — Prioritization / Governance.**
 

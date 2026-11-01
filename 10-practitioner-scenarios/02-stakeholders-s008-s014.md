@@ -5,15 +5,13 @@
 Le sponsor et l’équipe projet ont approuvé une cible de paiement. Lors d’une revue tardive, Operations refuse le modèle car il n’existe ni run model clair, ni stratégie de support, ni exigences de bascule exploitables.
 
 Quelle action est la meilleure ?
+A. Consulter Operations et consigner ses principales contraintes d'exploitation pour la prochaine revue d'architecture, sans réviser immédiatement toutes les décisions.
+B. Rappeler que le sponsor a déjà approuvé l’architecture et poursuivre.
+C. Demander à l’équipe delivery de résoudre seule le problème après mise en production.
+D. Reconnaître Operations comme stakeholder critique, comprendre ses concerns, produire les vues nécessaires et intégrer les requirements opérationnels dans l’architecture.
+**Scoring : A=3, B=1, C=0, D=5.**
 
-A. Rappeler que le sponsor a déjà approuvé l’architecture et poursuivre.  
-B. Reconnaître Operations comme stakeholder critique, comprendre ses concerns, produire les vues nécessaires et intégrer les requirements opérationnels dans l’architecture.  
-C. Ajouter uniquement une réunion d’information pour Operations sans changer l’architecture.  
-D. Demander à l’équipe delivery de résoudre seule le problème après mise en production.
-
-**Scoring : B=5, C=3, A=1, D=0.**
-
-**Pourquoi B :** une approbation du sponsor ne remplace pas l’analyse des stakeholders affectés. C améliore la communication mais pas le contenu ; A ignore un concern majeur ; D reporte le problème hors du travail d’architecture.
+**Justification révisée :** le choix D (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix A (3 points) constitue une étape utile, mais partielle : consulter Operations et consigner ses principales contraintes d'exploitation pour la prochaine revue d'architecture, sans réviser immédiatement toutes les décisions. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Stakeholder Management — Concerns, Views, Requirements.**
 
@@ -24,15 +22,13 @@ D. Demander à l’équipe delivery de résoudre seule le problème après mise 
 Le sponsor veut une mise en production en trois mois. Le CISO exige des contrôles qui peuvent ajouter plusieurs semaines. Les deux parties considèrent leur priorité comme non négociable.
 
 Quelle approche est la plus appropriée ?
-
-A. Choisir automatiquement la préférence du sponsor car il finance le programme.  
-B. Choisir automatiquement la préférence du CISO car la sécurité est toujours prioritaire.  
-C. Clarifier les concerns, contraintes et requirements, rendre visibles les impacts et arbitrages, puis utiliser la gouvernance appropriée pour obtenir une décision traçable.  
+A. Clarifier les concerns, contraintes et requirements, rendre visibles les impacts et arbitrages, puis utiliser la gouvernance appropriée pour obtenir une décision traçable.
+B. Appliquer provisoirement les contrôles de sécurité prioritaires du CISO et faire arbitrer les impacts métier restants.
+C. Choisir automatiquement la préférence du sponsor car il finance le programme.
 D. Demander au delivery de décider discrètement pendant l’implémentation.
+**Scoring : A=5, B=3, C=1, D=0.**
 
-**Scoring : C=5, B=3, A=1, D=0.**
-
-**Pourquoi C :** le rôle de l’architecture est de rendre les conflits explicites et gouvernables. B peut être prudent mais ne traite pas l’arbitrage de manière structurée ; A réduit la gouvernance au pouvoir budgétaire ; D évite la décision.
+**Justification révisée :** le choix A (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix B (3 points) constitue une étape utile, mais partielle : appliquer provisoirement les contrôles de sécurité prioritaires du CISO et faire arbitrer les impacts métier restants. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Stakeholder Management — Conflicting Concerns / Governance.**
 
@@ -43,15 +39,13 @@ D. Demander au delivery de décider discrètement pendant l’implémentation.
 Pendant Phase C, MayaBank fusionne deux directions opérationnelles. De nouveaux responsables apparaissent et les responsabilités sur la donnée changent. L’équipe souhaite garder la stakeholder map de Phase A pour « ne pas rouvrir le cadrage ».
 
 Quelle action est la meilleure ?
+A. Ignorer l’organisation et se concentrer uniquement sur l’Application Architecture.
+B. Mettre à jour la stakeholder map, les concerns et les plans d’engagement, puis vérifier l’impact sur requirements et vues.
+C. Mettre à jour les stakeholders les plus influents et leurs préoccupations, sans refaire encore la cartographie complète des dépendances.
+D. Conserver la carte initiale jusqu’à Phase H.
+**Scoring : A=0, B=5, C=3, D=1.**
 
-A. Conserver la carte initiale jusqu’à Phase H.  
-B. Mettre à jour la stakeholder map, les concerns et les plans d’engagement, puis vérifier l’impact sur requirements et vues.  
-C. Recommencer tout l’ADM depuis Preliminary.  
-D. Ignorer l’organisation et se concentrer uniquement sur l’Application Architecture.
-
-**Scoring : B=5, C=3, A=1, D=0.**
-
-**Pourquoi B :** stakeholder management est continu. C peut être nécessaire seulement si le changement est structurel au point d’exiger un nouveau cycle ; A fige une information devenue fausse ; D ignore un impact architectural réel.
+**Justification révisée :** le choix B (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix C (3 points) constitue une étape utile, mais partielle : mettre à jour les stakeholders les plus influents et leurs préoccupations, sans refaire encore la cartographie complète des dépendances. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Stakeholder Management — Continuous Engagement.**
 
@@ -62,15 +56,13 @@ D. Ignorer l’organisation et se concentrer uniquement sur l’Application Arch
 L’architecte prépare un diagramme technique de 80 composants et veut l’utiliser pour le comité exécutif, le CISO, les équipes métier et les SRE.
 
 Quelle approche est la meilleure ?
+A. Présenter la vue technique uniquement au sponsor afin qu’il la redistribue.
+B. Supprimer toute modélisation et envoyer uniquement du texte.
+C. Produire des views adaptées aux concerns des stakeholders, construites à partir d’une base architecturale cohérente.
+D. Conserver un modèle d'architecture partagé, mais préparer des explications distinctes pour les principaux groupes de stakeholders.
+**Scoring : A=1, B=0, C=5, D=3.**
 
-A. Utiliser le même diagramme pour garantir une « source unique ».  
-B. Produire des views adaptées aux concerns des stakeholders, construites à partir d’une base architecturale cohérente.  
-C. Supprimer toute modélisation et envoyer uniquement du texte.  
-D. Présenter la vue technique uniquement au sponsor afin qu’il la redistribue.
-
-**Scoring : B=5, A=3, D=1, C=0.**
-
-**Pourquoi B :** cohérence de la source ne signifie pas uniformité des vues. A a une intention de cohérence mais ignore les concerns ; D délègue mal la communication ; C abandonne un moyen utile sans raison.
+**Justification révisée :** le choix C (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix D (3 points) constitue une étape utile, mais partielle : conserver un modèle d'architecture partagé, mais préparer des explications distinctes pour les principaux groupes de stakeholders. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Stakeholder Management — Viewpoints and Views.**
 
@@ -81,15 +73,13 @@ D. Présenter la vue technique uniquement au sponsor afin qu’il la redistribue
 Un directeur infrastructure a un fort pouvoir d’arbitrage mais peu d’intérêt quotidien pour la transformation. L’équipe lui envoie chaque jour tous les détails de conception, ce qui provoque une perte d’attention.
 
 Quelle action est la meilleure ?
+A. Prévoir une synthèse décisionnelle périodique pour cet acteur et garder les détails accessibles à la demande, sans cartographier tous ses concerns.
+B. Le traiter comme un membre à temps plein de l’équipe projet.
+C. L’exclure totalement car son intérêt est faible.
+D. Maintenir le stakeholder satisfait avec une communication ciblée sur décisions, risques et impacts, sans le surcharger.
+**Scoring : A=3, B=1, C=0, D=5.**
 
-A. Maintenir le stakeholder satisfait avec une communication ciblée sur décisions, risques et impacts, sans le surcharger.  
-B. L’exclure totalement car son intérêt est faible.  
-C. Continuer à envoyer tous les détails par prudence.  
-D. Le traiter comme un membre à temps plein de l’équipe projet.
-
-**Scoring : A=5, C=3, D=1, B=0.**
-
-**Pourquoi A :** l’engagement doit être proportionné à influence et intérêt. C maintient l’information mais la rend inefficace ; D sur-engage ; B ignore un acteur influent.
+**Justification révisée :** le choix D (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix A (3 points) constitue une étape utile, mais partielle : prévoir une synthèse décisionnelle périodique pour cet acteur et garder les détails accessibles à la demande, sans cartographier tous ses concerns. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Stakeholder Management — Influence / Interest.**
 
@@ -100,15 +90,13 @@ D. Le traiter comme un membre à temps plein de l’équipe projet.
 Le responsable Operations dit : « je ne veux plus passer mes nuits à gérer des bascules manuelles ». L’équipe copie cette phrase telle quelle dans l’Architecture Requirements Specification.
 
 Quelle action est la meilleure ?
+A. Transformer le concern en requirements vérifiables sur failover, automatisation, RTO/RPO, observabilité et tests, tout en gardant la traçabilité vers le stakeholder.
+B. Traduire l'inquiétude en une cible indicative de disponibilité puis confirmer ultérieurement ses seuils, ses conditions de mesure et son propriétaire.
+C. Choisir immédiatement un produit de haute disponibilité.
+D. Ignorer ce concern car il n’est pas formulé techniquement.
+**Scoring : A=5, B=3, C=1, D=0.**
 
-A. Conserver uniquement la phrase : elle représente parfaitement une requirement.  
-B. Transformer le concern en requirements vérifiables sur failover, automatisation, RTO/RPO, observabilité et tests, tout en gardant la traçabilité vers le stakeholder.  
-C. Ignorer ce concern car il n’est pas formulé techniquement.  
-D. Choisir immédiatement un produit de haute disponibilité.
-
-**Scoring : B=5, A=3, D=1, C=0.**
-
-**Pourquoi B :** un concern alimente des requirements mais n’est pas automatiquement une requirement testable. A préserve la voix du stakeholder mais pas l’exploitabilité ; D saute directement à la solution ; C perd une information essentielle.
+**Justification révisée :** le choix A (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix B (3 points) constitue une étape utile, mais partielle : traduire l'inquiétude en une cible indicative de disponibilité puis confirmer ultérieurement ses seuils, ses conditions de mesure et son propriétaire. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Stakeholder Management — Concern → Requirement.**
 
@@ -119,15 +107,13 @@ D. Choisir immédiatement un produit de haute disponibilité.
 L’Architecture Board valide une cible. Les responsables métier clés déclarent ensuite qu’elle ne répond pas à leur processus critique. Un architecte affirme que la validation du Board rend leur avis inutile.
 
 Quelle est la meilleure réponse ?
-
-A. La décision du Board remplace toujours l’acceptation des stakeholders.  
-B. Le Board est un mécanisme de gouvernance, mais il faut revoir les concerns métier non satisfaits, vérifier requirements et vues, puis soumettre les ajustements à la gouvernance appropriée.  
-C. Dissoudre l’Architecture Board.  
+A. Dissoudre l’Architecture Board.
+B. Le Board est un mécanisme de gouvernance, mais il faut revoir les concerns métier non satisfaits, vérifier requirements et vues, puis soumettre les ajustements à la gouvernance appropriée.
+C. Obtenir la validation de conformité du Board et organiser ensuite l'acceptation métier formelle, sans l'intégrer au même cycle de décision.
 D. Demander au métier de s’adapter à la cible sans analyse.
+**Scoring : A=0, B=5, C=3, D=1.**
 
-**Scoring : B=5, A=3, D=1, C=0.**
-
-**Pourquoi B :** gouvernance et stakeholder management se complètent. A reconnaît le pouvoir du Board mais le transforme en substitut à l’analyse des concerns ; D nie la valeur métier ; C détruit le mécanisme au lieu de corriger le processus.
+**Justification révisée :** le choix B (5 points) couvre la décision structurante et son bon niveau de gouvernance. Le choix C (3 points) constitue une étape utile, mais partielle : obtenir la validation de conformité du Board et organiser ensuite l'acceptation métier formelle, sans l'intégrer au même cycle de décision. Il laisse donc un travail de cadrage, de validation ou de traçabilité avant de pouvoir conclure. Les deux autres options ont une portée plus faible ou ignorent une contrainte centrale. Ce classement est pédagogique et doit être confronté au référentiel officiel.
 
 **Mapping : Stakeholder Management — Governance and Stakeholder Acceptance.**
 
