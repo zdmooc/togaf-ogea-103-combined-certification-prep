@@ -21,10 +21,10 @@ D. Choisir tous les produits
 
 ## Q003 — TOGAF
 TOGAF est principalement :
-A. Un produit logiciel
-B. Un langage de programmation
+A. Un cadre contractuel destiné à la gestion des fournisseurs et à l'approbation des achats
+B. Une bibliothèque de standards techniques destinée uniquement à l'architecture infrastructure
 C. Un framework et une méthode pour l'Enterprise Architecture
-D. Une norme de sécurité
+D. Une méthode de gestion opérationnelle des releases sans architecture métier ou données
 **Réponse : C.** TOGAF fournit un cadre et l'ADM. A, B et D décrivent d'autres types d'objets.
 **Mapping : Concepts — What is TOGAF.**
 
@@ -95,10 +95,10 @@ D. Un artifact
 
 ## Q011 — Concern
 Dans TOGAF, un concern est :
-A. Un composant logiciel
-B. Une phase ADM
+A. Une contrainte technique détaillée et mesurable déjà approuvée pour la solution cible
+B. La convention formelle permettant de construire une représentation de l'architecture
 C. Une préoccupation importante d'un stakeholder
-D. Une migration wave
+D. Une décision d'architecture prise par le Board et enregistrée dans le Governance Log
 **Réponse : C.** Le concern exprime ce qui importe au stakeholder. A/B/D sont d'autres objets.
 **Mapping : Concepts — Concerns.**
 
@@ -350,10 +350,10 @@ D. Remplacer tous les standards
 
 ## Q038 — Architecture Metamodel
 Le rôle d'un Architecture Metamodel est :
-A. Fixer le planning de migration
+A. Décrire les états Baseline, Transition et Target sans référencer les types d'éléments
 B. Définir les types d'éléments architecturaux et leurs relations
-C. Remplacer les stakeholders
-D. Choisir un fournisseur
+C. Ordonner les work packages et arbitrer les coûts de migration des services
+D. Formaliser les engagements entre l'Architecture Board et les équipes de delivery
 **Réponse : B.** Le metamodel structure le contenu architectural. A/C/D sont d'autres décisions.
 **Mapping : Concepts — Metamodel.**
 
@@ -369,9 +369,9 @@ D. Un portefeuille exhaustif des états de la Technology Architecture
 
 ## Q040 — Scope
 Pourquoi le scope est-il important dans un engagement d'architecture ?
-A. Pour éviter tout stakeholder
-B. Pour choisir immédiatement la technologie
-C. Pour supprimer les requirements
+A. Pour définir uniquement le nombre de serveurs et la capacité CPU de chaque plateforme
+B. Pour permettre à chaque équipe de considérer la Target de son choix comme approuvée
+C. Pour imposer les mêmes domaines et la même profondeur à toutes les initiatives
 D. Pour limiter et clarifier ce qui est inclus, exclu et au bon niveau de détail
 **Réponse : D.** Le scope rend le travail gouvernable et proportionné. A/B/C sont contraires à la méthode.
 **Mapping : Concepts — Scope.**
@@ -508,10 +508,10 @@ D. Une préférence individuelle
 
 ## Q055 — Four domains relation
 Pourquoi les quatre domaines ne doivent-ils pas être traités comme totalement indépendants ?
-A. Parce qu'ils sont identiques
-B. Parce que seul Technology compte
+A. Parce que Technology Architecture doit choisir les produits avant toute décision Business
+B. Parce que les modèles Data peuvent évoluer indépendamment des services et processus
 C. Parce que les besoins métier entraînent des besoins data, application et technology
-D. Parce que TOGAF interdit les dépendances
+D. Parce que l'Application Architecture remplace les exigences et capacités des métiers
 **Réponse : C.** Les domaines sont distincts mais interdépendants. A/B/D sont faux.
 **Mapping : Concepts — Four Domains.**
 
