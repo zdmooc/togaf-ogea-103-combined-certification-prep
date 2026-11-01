@@ -1,6 +1,6 @@
 # Traçabilité X2202 — 131 learning outcomes et références de questions candidates
 
-**Statut : 131 objectifs recensés. 130 objectifs disposent désormais d'une référence explicite à un ou plusieurs exercices candidats ; L1.8.1 n'impose pas de question distincte (Bloom = None). Une référence candidate n'est jamais une validation de fond ou du niveau Bloom.** Les formulations de cette table restent des résumés pédagogiques, et les 131 objectifs doivent être relus contre le texte officiel.
+**Statut : 131 objectifs recensés. La matrice a été resserrée sur 14 objectifs mal associés aux questions historiques, avec références XP05–XP17 plus explicites. 130 objectifs disposent désormais d'une référence explicite à un ou plusieurs exercices candidats ; L1.8.1 n'impose pas de question distincte (Bloom = None). Une référence candidate n'est jamais une validation de fond ou du niveau Bloom.** Les formulations de cette table restent des résumés pédagogiques, et les 131 objectifs doivent être relus contre le texte officiel.
 
 **Syllabus de référence :** [TOGAF Certification Program Conformance Requirements X2202](https://www.opengroup.org/library/x2202), sections 3.1 et 3.2. La formulation et le niveau de Bloom exacts doivent toujours être confrontés à l'original avant de marquer un objectif vérifié.
 
@@ -36,7 +36,7 @@
 | L1.3.3 | Itération ADM | [Cours](../02-adm/12-adm-iteration.md) | Q043, Q141 | Candidat précis — non relu |
 | L1.3.4 | Pourquoi gouverner la création et maintenance EA | [Cours](../05-architecture-governance/01-governance-fundamentals.md) | Q241, Q245 | Candidat précis — non relu |
 | L1.3.5 | Scoping : largeur, profondeur, domaines, horizon | [Cours](../01-togaf-foundations/10-x2202-foundation-deepening.md) | Q040, F09 | Candidat précis — non relu |
-| L1.3.6 | Alternatives architecturales et trade-offs | [Cours](../02-adm/02-phase-a-architecture-vision.md) | S009, A04 | Candidat précis — non relu |
+| L1.3.6 | Alternatives architecturales et trade-offs | [Cours](../02-adm/02-phase-a-architecture-vision.md) | XP17 | Candidat précis — non relu |
 | L1.3.7 | Preliminary : finalité | [Cours](../02-adm/01-preliminary-phase.md) | Q061, Q062 | Candidat précis — non relu |
 | L1.3.8 | Preliminary : objectifs | [Cours](../02-adm/01-preliminary-phase.md) | Q062–Q064 | Candidat précis — non relu |
 | L1.3.9 | Phase A : finalité | [Cours](../02-adm/02-phase-a-architecture-vision.md) | Q066, Q069 | Candidat précis — non relu |
@@ -117,7 +117,7 @@
 | L2.1.4 | Rôle de la gouvernance et de l'architecte | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | S002, S004 | Candidat précis — non relu |
 | L2.1.5 | Conformance et niveaux de conformité | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | A01, S038 | Candidat précis — non relu |
 | L2.1.6 | Alignement objectifs et Agile | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | S004 | Candidat précis — non relu |
-| L2.1.7 | États candidate/current/transition/target | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S043 | Candidat précis — non relu |
+| L2.1.7 | États candidate/current/transition/target | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP05 | Candidat précis — non relu |
 | L2.1.8 | Enterprise Security Architecture | [Cours](../04-applying-the-adm/05-security.md) | S006 | Candidat précis — non relu |
 | L2.1.9 | Sécurité comme sujet transversal | [Cours](../04-applying-the-adm/05-security.md) | S006 | Candidat précis — non relu |
 | L2.1.10 | Gestion de l'incertitude, valeur et pertes | [Cours](../03-adm-techniques/06-risk-management.md) | S007, A08 | Candidat précis — non relu |
@@ -138,7 +138,7 @@
 |---|---|---|---|---|
 | L2.3.1 | Entrées de Phase A et itérations | [Cours](../07-practitioner/04-phase-a-scenarios.md) | S015, S016 | Candidat précis — non relu |
 | L2.3.2 | Conduire Phase A : scope, concerns, drivers | [Cours](../07-practitioner/04-phase-a-scenarios.md) | S015, S018 | Candidat précis — non relu |
-| L2.3.3 | Conception sécurité au démarrage | [Cours](../04-applying-the-adm/05-security.md) | S020 | Candidat précis — non relu |
+| L2.3.3 | Conception sécurité au démarrage | [Cours](../04-applying-the-adm/05-security.md) | XP06 | Candidat précis — non relu |
 | L2.3.4 | Livrables de Phase A : Vision, SoAW, Communications | [Cours](../07-practitioner/04-phase-a-scenarios.md) | S017, S021 | Candidat précis — non relu |
 
 ## L2 U4 — Architecture Development (9 objectifs)
@@ -164,7 +164,7 @@
 | L2.5.3 | Greenfield / Revolutionary / Evolutionary | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S033, A05 | Candidat précis — non relu |
 | L2.5.4 | Identifier et regrouper work packages | [Cours](../02-adm/07-phase-e-opportunities-solutions.md) | S031, S035 | Candidat précis — non relu |
 | L2.5.5 | Élaborer des Transition Architectures | [Cours](../02-adm/07-phase-e-opportunities-solutions.md) | S033 | Candidat précis — non relu |
-| L2.5.6 | Effets organisationnels et coordination des migrations | [Cours](../07-practitioner/06-efg-implementation-scenarios.md) | S034, S035 | Candidat précis — non relu |
+| L2.5.6 | Effets organisationnels et coordination des migrations | [Cours](../07-practitioner/06-efg-implementation-scenarios.md) | XP07 | Candidat précis — non relu |
 | L2.5.7 | Attribuer une business value aux work packages | [Cours](../02-adm/08-phase-f-migration-planning.md) | S034 | Candidat précis — non relu |
 | L2.5.8 | Prioriser les projets de migration | [Cours](../02-adm/08-phase-f-migration-planning.md) | S035 | Candidat précis — non relu |
 | L2.5.9 | Confirmer l'Architecture Roadmap | [Cours](../02-adm/08-phase-f-migration-planning.md) | S032 | Candidat précis — non relu |
@@ -180,7 +180,7 @@
 | Objectif | Notion à démontrer | Cours candidat | Références d'exercices précises | Statut de revue |
 |---|---|---|---|---|
 | L2.6.1 | Demandes de changement et déclencheurs | [Cours](../02-adm/10-phase-h-architecture-change-management.md) | S040, S041 | Candidat précis — non relu |
-| L2.6.2 | Stakeholder Management du changement | [Cours](../07-practitioner/07-phase-h-scenarios.md) | S042, S044 | Candidat précis — non relu |
+| L2.6.2 | Stakeholder Management du changement | [Cours](../07-practitioner/07-phase-h-scenarios.md) | XP16 | Candidat précis — non relu |
 | L2.6.3 | Sorties Phase H et suites à donner | [Cours](../02-adm/10-phase-h-architecture-change-management.md) | S043, S045 | Candidat précis — non relu |
 
 ## L2 U7 — Requirements Management (3 objectifs)
@@ -195,23 +195,23 @@
 
 | Objectif | Notion à démontrer | Cours candidat | Références d'exercices précises | Statut de revue |
 |---|---|---|---|---|
-| L2.8.1 | TOGAF Library : ressources | [Cours](../07-practitioner/09-supporting-adm-work.md) | S060 | Candidat précis — non relu |
+| L2.8.1 | TOGAF Library : ressources | [Cours](../07-practitioner/09-supporting-adm-work.md) | XP08 | Candidat précis — non relu |
 | L2.8.2 | Business Scenario Technique | [Cours](../03-adm-techniques/02-business-scenarios.md) | S053 | Candidat précis — non relu |
 | L2.8.3 | Compliance Assessment : usages | [Cours](../05-architecture-governance/04-architecture-compliance.md) | S038, A01 | Candidat précis — non relu |
 | L2.8.4 | Migration Planning et consolidation des gaps | [Cours](../03-adm-techniques/08-migration-planning-techniques.md) | S054, A05 | Candidat précis — non relu |
 | L2.8.5 | Organisation logique du Repository | [Cours](../01-togaf-foundations/08-architecture-repository.md) | XP02 | Candidat précis — non relu |
-| L2.8.6 | Ce que contient un Repository bien maintenu | [Cours](../07-practitioner/09-supporting-adm-work.md) | S043 | Candidat précis — non relu |
-| L2.8.7 | Architecture Levels et Landscape | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | S057 | Candidat précis — non relu |
-| L2.8.8 | Niveaux d'architecture dans l'entreprise | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | S057 | Candidat précis — non relu |
-| L2.8.9 | Choisir niveau et détail attendu | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | S022, S057 | Candidat précis — non relu |
+| L2.8.6 | Ce que contient un Repository bien maintenu | [Cours](../07-practitioner/09-supporting-adm-work.md) | XP09 | Candidat précis — non relu |
+| L2.8.7 | Architecture Levels et Landscape | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | XP10 | Candidat précis — non relu |
+| L2.8.8 | Niveaux d'architecture dans l'entreprise | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | XP10 | Candidat précis — non relu |
+| L2.8.9 | Choisir niveau et détail attendu | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | XP11 | Candidat précis — non relu |
 | L2.8.10 | ABBs : rôle et moment d'utilisation | [Cours](../06-architecture-content/06-abb-vs-sbb.md) | S022, S059 | Candidat précis — non relu |
-| L2.8.11 | Capabilities, Value Streams, Organization/Information Mapping | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S057, S058 | Candidat précis — non relu |
+| L2.8.11 | Capabilities, Value Streams, Organization/Information Mapping | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP12 | Candidat précis — non relu |
 | L2.8.12 | Gap Analysis et applications | [Cours](../03-adm-techniques/03-gap-analysis.md) | S054 | Candidat précis — non relu |
 | L2.8.13 | Itérations de pratiques architecturales | [Cours](../04-applying-the-adm/02-iteration.md) | S028, S060 | Candidat précis — non relu |
 | L2.8.14 | Implementation Factor Catalog, Matrix et Increments | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP03 | Candidat précis — non relu |
-| L2.8.15 | Utilité de l'Enterprise Metamodel | [Cours](../06-architecture-content/02-content-metamodel.md) | S059 | Candidat précis — non relu |
-| L2.8.16 | Quand alimenter l'Architecture Content Framework | [Cours](../06-architecture-content/01-content-framework.md) | S059 | Candidat précis — non relu |
-| L2.8.17 | Utiliser l'Enterprise Metamodel | [Cours](../06-architecture-content/02-content-metamodel.md) | S059 | Candidat précis — non relu |
+| L2.8.15 | Utilité de l'Enterprise Metamodel | [Cours](../06-architecture-content/02-content-metamodel.md) | XP13 | Candidat précis — non relu |
+| L2.8.16 | Quand alimenter l'Architecture Content Framework | [Cours](../06-architecture-content/01-content-framework.md) | XP14 | Candidat précis — non relu |
+| L2.8.17 | Utiliser l'Enterprise Metamodel | [Cours](../06-architecture-content/02-content-metamodel.md) | XP15 | Candidat précis — non relu |
 | L2.8.18 | Taxonomie : classement des objets | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP04 | Candidat précis — non relu |
 | L2.8.19 | Risk Assessment : usages | [Cours](../03-adm-techniques/06-risk-management.md) | S056 | Candidat précis — non relu |
 
@@ -225,6 +225,7 @@ Cette matrice permet de **détecter les manques**, et non de prétendre que le d
 
 - `Q001` à `Q300` : banque Foundation principale (`09-foundation-question-bank/01` à `08`).
 - `XF01` et `XF02` : exercices ciblés Foundation (`09-foundation-question-bank/10-x2202-targeted-drills.md`).
+- `XP05` à `XP17` : treize cas additionnels de clarification (`10-practitioner-scenarios/11-x2202-gap-closure-scenarios.md`).
 - `XP01` à `XP04` : cas ciblés Practitioner (`10-practitioner-scenarios/10-x2202-targeted-cases.md`).
 - `F01` à `F24` : exercices Foundation avancés (`09-foundation-question-bank/09-advanced-drills.md`).
 - `S001` à `S060` : banque Practitioner (`10-practitioner-scenarios/01` à `08`).
