@@ -47,8 +47,25 @@ check(Counter(pbest) == dict.fromkeys('ABCD', 15), f'Practitioner bias {Counter(
 
 for n in range(1, 7):
     exam = (root / '11-mock-exams' / f'mock-0{n}-exam.md').read_text(encoding='utf-8')
-    check(len(re.findall(r'^\*\*Q\d+\.\*\*', exam, re.M)) == 40, f'Mock {n}: 40 QCM')
-    check(len(re.findall(r'^## P\d+\b', exam, re.M)) == 8, f'Mock {n}: 8 scenarios')
+    correction = (root / '11-mock-exams' / 'corrections' / f'mock-0{n}-correction.md').read_text(encoding='utf-8')
+    qids = [int(x) for x in re.findall(r'^\*\*Q(\d+)\.\*\*', exam, re.M)]
+    pids = [int(x) for x in re.findall(r'^## P(\d+)\b', exam, re.M)]
+    keys = [(int(i), l) for i, l in re.findall(r'^(\d+)\.\s+\*\*([ABCD])\*\*', correction, re.M)]
+    check(qids == list(range(1, 41)), f'Mock {n}: question IDs not Q1..Q40')
+    check(pids == list(range(1, 9)), f'Mock {n}: scenario IDs not P1..P8')
+    check([i for i, _ in keys] == list(range(1, 41)), f'Mock {n}: Foundation corrections missing')
+    part2 = correction[correction.index('# Part 2'):]
+    gradient = re.findall(r'^\*\*(?:Barème|Scoring)\s*:\*\*\s*([^\n]+)', part2, re.M)
+    check(len(gradient) == 8, f'Mock {n}: expected 8 Practitioner gradient keys')
+    for i, item in enumerate(gradient, 1):
+        values = re.findall(r'([ABCD])=(\d)', item)
+        check(len(values) == 4 and sorted(int(v) for _, v in values) == [0, 1, 3, 5],
+              f'Mock {n} P{i}: invalid gradient')
+
+advanced_f = (root / '09-foundation-question-bank' / '09-advanced-drills.md').read_text(encoding='utf-8')
+advanced_p = (root / '10-practitioner-scenarios' / '09-advanced-multi-constraint-scenarios.md').read_text(encoding='utf-8')
+check(len(re.findall(r'^## F\d\d\b', advanced_f, re.M)) == 24, 'Advanced Foundation: 24 expected')
+check(len(re.findall(r'^## A\d\d\b', advanced_p, re.M)) == 8, 'Advanced Practitioner: 8 expected')
 
 print('Foundation', len(fids), Counter(fanswers))
 print('Practitioner', len(pids), Counter(pbest))
