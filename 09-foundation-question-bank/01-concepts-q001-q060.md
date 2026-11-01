@@ -262,9 +262,9 @@ D. Un produit de travail formel remis/revu par des stakeholders
 ## Q029 — Artifact
 Un artifact est :
 A. Une représentation architecturale telle qu'un catalog, matrix ou diagram
-B. Un engagement formel entre l'Architecture Board et les équipes de réalisation
-C. Une phase
-D. Une équipe
+B. Un deliverable formel rassemblant les engagements des fournisseurs de la solution
+C. Un Building Block réalisant un service dans l'architecture cible
+D. Un viewpoint spécifiant comment construire une vue pour un concern donné
 **Réponse : A.** Un artifact représente du contenu architectural. B/C/D sont faux.
 **Mapping : Concepts — Artifact.**
 
@@ -359,10 +359,10 @@ D. Formaliser les engagements entre l'Architecture Board et les équipes de deli
 
 ## Q039 — Architecture Vision
 L'Architecture Vision est principalement :
-A. Le design technique final
-B. Le contrat d'exploitation
+A. Une spécification détaillée de tous les contrats applicatifs avant validation métier
+B. Un Implementation and Migration Plan contenant les tasks et dates de production
 C. Une vue de haut niveau de la cible et de la valeur permettant l'alignement initial
-D. Un portefeuille exhaustif des états de la Technology Architecture
+D. Une cible technique immuable décidée uniquement par les équipes de plateforme
 **Réponse : C.** La Vision cadre et aligne ; A/D sont trop détaillés ; B est autre chose.
 **Distracteur D :** Une vision initiale doit communiquer valeur, objectif et orientation, non un inventaire exhaustif.
 **Mapping : Concepts — Architecture Vision.**
@@ -415,9 +415,9 @@ D. Une solution réalise des éléments de l'architecture, mais l'architecture c
 ## Q045 — Business driver
 Un business driver est :
 A. Une force ou condition qui motive un changement
-B. Une application
-C. Un artifact
-D. Une requirement de conception déjà validée
+B. Une condition d'acceptation détaillée mesurable dans le test d'une solution particulière
+C. Une représentation de la Target Architecture construite selon un viewpoint métier
+D. Une décision d'exception temporaire gouvernée par l'Architecture Board
 **Réponse : A.** Les drivers expliquent pourquoi la transformation est nécessaire. B/C/D sont des objets différents.
 **Distracteur D :** Une requirement exprime une condition à satisfaire ; un driver motive le changement.
 **Mapping : Concepts — Drivers/Goals.**
