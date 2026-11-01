@@ -53,74 +53,25 @@ Not every asset must physically live in the same database. The repository can pr
 
 ---
 
-## 4. Major repository areas
+## 4. Seven repository sections required by TOGAF X2202 (Practitioner 8.5)
 
-For learning purposes, remember the key logical areas commonly associated with the TOGAF Architecture Repository.
+**Exam vocabulary (TOGAF 10):** this is the exact set of seven logical sections listed in X2202 §3.2.8, learning outcome 8.5. An enterprise can implement them in several tools; the sections are not necessarily separate databases.
 
-### Architecture Metamodel
+| X2202 section | What belongs there |
+|---|---|
+| **Architecture Landscape** | Architecture descriptions, baselines, targets, transitions and their relationships across enterprise levels |
+| **Reference Library** | Architecture patterns, reference models and reusable guidance |
+| **Standards Library** | Approved standards and applicability rules for architectures and solutions |
+| **Governance Repository** | Architecture decisions, compliance assessments, dispensations and other governance evidence |
+| **Architecture Requirements Repository** | Identified architecture requirements, ownership, versions and traceability |
+| **Solutions Landscape** | Implemented and planned solutions, their relationships and alignment with target architecture |
+| **Enterprise Repository** | The wider collection of enterprise information repositories integrated with the architecture practice |
 
-Defines how architecture content is structured and related.
+**Terminology trap:** `Standards Information Base` and `Governance Log` are legitimate names found in other TOGAF presentations or older material, and can describe concrete assets, but **must not replace** `Standards Library` and `Governance Repository` in an answer listing the **seven X2202 8.5 sections**.
 
-It answers questions such as:
+The `Architecture Metamodel` and `Architecture Capability` remain important cross-cutting TOGAF concepts. They are **not additional entries** in the list of seven sections required by X2202 8.5.
 
-- what concepts do we model?
-- how are artifacts related?
-- what extensions are used by the enterprise?
-
-### Architecture Capability
-
-Contains information supporting the operation and governance of the architecture practice.
-
-Examples:
-
-- organization ;
-- roles ;
-- responsibilities ;
-- governance processes ;
-- skills.
-
-### Architecture Landscape
-
-Provides representations of architectures across the enterprise at different levels and points in time.
-
-It helps answer:
-
-**What architectures exist across our enterprise landscape?**
-
-### Standards Information Base
-
-Contains standards that guide architecture and solution decisions.
-
-Examples:
-
-- approved platform standards ;
-- technology standards ;
-- integration standards ;
-- data standards.
-
-### Reference Library
-
-Contains reusable reference material.
-
-Examples:
-
-- external frameworks ;
-- patterns ;
-- reference architectures ;
-- industry material.
-
-### Governance Log
-
-Contains governance-related records.
-
-Examples:
-
-- compliance decisions ;
-- dispensations/exceptions ;
-- review outcomes ;
-- governance actions.
-
-The exact implementation can be tailored to the enterprise.
+**Reference:** [The Open Group X2202 v4.0, §3.2.8, objective 8.5](https://www.opengroup.org/library/x2202).
 
 ---
 
@@ -157,9 +108,9 @@ The exact representation can vary, but the concept is to maintain coherent visib
 
 ---
 
-## 6. Standards Information Base
+## 6. Standards Library (historically called Standards Information Base in some materials)
 
-The **Standards Information Base** supports consistency by making relevant standards discoverable.
+The **Standards Library** supports consistency by making relevant standards discoverable.
 
 Example MayaBank:
 
@@ -181,7 +132,7 @@ Example:
 
 ---
 
-## 7. Governance Log
+## 7. Governance Repository (Governance Log is one kind of record)
 
 Architecture Governance needs memory.
 
@@ -194,7 +145,7 @@ If an exception is approved today, future architects should be able to know:
 - what risk was accepted ;
 - whether remediation is required.
 
-The **Governance Log** helps preserve this information.
+The **Governance Repository**, including a Governance Log or decision records, helps preserve this information.
 
 Without it, organizations repeatedly debate the same decisions and lose accountability.
 

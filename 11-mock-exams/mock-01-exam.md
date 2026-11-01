@@ -136,9 +136,9 @@ MayaBank prépare la mutualisation de ses services de paiement entre deux filial
 
 **Quelle réponse choisir ?**
 
-A. Démarrer une Phase E limitée aux work packages techniques et différer la définition de la gouvernance commune jusqu'à la première livraison.
+A. Évaluer les capacités d'architecture existantes, harmoniser principes, responsabilités et processus d'exception avec le Board, puis ajuster le tailoring et relier ce cadre au travail de transformation.
 
-B. Évaluer les capacités d'architecture existantes, harmoniser principes, responsabilités et processus d'exception avec le Board, puis ajuster le tailoring et relier ce cadre au travail de transformation.
+B. Démarrer une Phase E limitée aux work packages techniques et différer la définition de la gouvernance commune jusqu'à la première livraison.
 
 C. Utiliser le cadre de gouvernance du fournisseur retenu comme procédure provisoire, puis demander son adoption par les deux filiales.
 
@@ -152,9 +152,9 @@ La nouvelle plateforme de paiement instantané doit réduire les délais de trai
 
 A. Conserver l'approbation du sponsor comme unique validation de la Vision, puis prévoir les adaptations du run model après la vague pilote.
 
-B. Confier l'ensemble du run model à Operations et garder l'architecture cible inchangée, en lui laissant le choix des moyens.
+B. Mettre à jour l'analyse des stakeholders et concerns, intégrer les exigences de continuité, de support et de sécurité dans des vues appropriées, puis faire arbitrer les impacts avant de confirmer la vague pilote.
 
-C. Mettre à jour l'analyse des stakeholders et concerns, intégrer les exigences de continuité, de support et de sécurité dans des vues appropriées, puis faire arbitrer les impacts avant de confirmer la vague pilote.
+C. Confier l'ensemble du run model à Operations et garder l'architecture cible inchangée, en lui laissant le choix des moyens.
 
 D. Organiser un atelier Operations/CISO et intégrer leurs exigences les plus urgentes dans les conditions du pilote, sans encore revoir toutes les vues ni l'acceptation des stakeholders.
 
@@ -164,11 +164,11 @@ Le directeur d'un groupe veut déployer une plateforme IA en moins de huit mois.
 
 **Quelle réponse choisir ?**
 
-A. Cadrer les business drivers, stakeholders, concerns, scope, valeur et contraintes ; comparer des options de Vision, réutiliser les principes pertinents et obtenir le Statement of Architecture Work approuvé.
+A. Demander à chaque équipe produit de définir son architecture cible séparément ; la Vision de groupe émergera des implémentations.
 
 B. Maintenir les deux technologies choisies comme hypothèse et demander aux principaux métiers de confirmer les critères de valeur et le périmètre avant tout engagement de delivery, sans comparer encore plusieurs visions.
 
-C. Demander à chaque équipe produit de définir son architecture cible séparément ; la Vision de groupe émergera des implémentations.
+C. Cadrer les business drivers, stakeholders, concerns, scope, valeur et contraintes ; comparer des options de Vision, réutiliser les principes pertinents et obtenir le Statement of Architecture Work approuvé.
 
 D. Définir immédiatement les work packages de migration et le plan de financement en Phase F afin d'imposer une date crédible aux métiers.
 
@@ -180,11 +180,11 @@ MayaBank veut réduire de 40 % les corrections manuelles des transactions. Le m�
 
 A. Retenir Kafka/PostgreSQL, puis adapter les activités métier à leurs capacités et traiter la résidence des données dans le contrat fournisseur.
 
-B. Confirmer les capabilities et parcours métier, développer et itérer les architectures Data/Application/Technology avec leurs gaps et requirements, comparer les modèles de traitement fédéré et centralisé, puis soumettre les arbitrages.
+B. Lancer une Gap Analysis Technology isolée pour prouver que la plateforme cible peut répondre à la volumétrie.
 
 C. Réexaminer la Data Architecture et les contraintes de résidence en priorité, puis compléter les vues applicatives et techniques après une première validation du métier.
 
-D. Lancer une Gap Analysis Technology isolée pour prouver que la plateforme cible peut répondre à la volumétrie.
+D. Confirmer les capabilities et parcours métier, développer et itérer les architectures Data/Application/Technology avec leurs gaps et requirements, comparer les modèles de traitement fédéré et centralisé, puis soumettre les arbitrages.
 
 ## P5 — Implementing E/F/G — dépendances, valeur et transition
 
@@ -194,11 +194,11 @@ La Target Architecture d'une banque prévoit trois work packages : standardisati
 
 A. Faire vérifier les risques et les exceptions dans une Compliance Review anticipée, puis conserver l'ordre des lots déjà souhaité par le sponsor.
 
-B. Publier immédiatement une roadmap provisoire qui place la standardisation des événements en première vague, puis arbitrer les coûts et bénéfices des autres lots au comité suivant.
+B. En Phase F, évaluer valeur, dépendances, readiness et coûts des transitions, puis confirmer les priorités, séquencement, critères de bascule et Implementation and Migration Plan avant la Phase G.
 
 C. Réexaminer la Vision et relancer la totalité des domaines B/C/D pour éviter tout risque d'erreur de priorisation.
 
-D. En Phase F, évaluer valeur, dépendances, readiness et coûts des transitions, puis confirmer les priorités, séquencement, critères de bascule et Implementation and Migration Plan avant la Phase G.
+D. Publier immédiatement une roadmap provisoire qui place la standardisation des événements en première vague, puis arbitrer les coûts et bénéfices des autres lots au comité suivant.
 
 ## P6 — Phase H — adaptation réglementaire après déploiement
 
@@ -206,13 +206,13 @@ Un service de paiement est en production depuis dix-huit mois. Une réglementati
 
 **Quelle réponse choisir ?**
 
-A. Appliquer l'Architecture Change Management de Phase H : mettre à jour l'état réel, analyser exigences et impacts, classer le changement et déterminer l'ampleur du travail ADM avec gouvernance adaptée.
+A. Reporter le changement au cycle annuel de roadmap afin de limiter le nombre d'exceptions.
 
 B. Documenter la nouvelle requirement et les composants manifestement touchés, puis planifier une revue ciblée des vues applicatives et data, sans conclure encore sur la catégorie définitive de changement.
 
 C. Déployer l'interface proposée par une filiale puisqu'elle est déjà utilisée en production ; son existence constitue une validation suffisante.
 
-D. Reporter le changement au cycle annuel de roadmap afin de limiter le nombre d'exceptions.
+D. Appliquer l'Architecture Change Management de Phase H : mettre à jour l'état réel, analyser exigences et impacts, classer le changement et déterminer l'ampleur du travail ADM avec gouvernance adaptée.
 
 ## P7 — Requirements Management — disponibilité contradictoire
 
@@ -220,9 +220,9 @@ Pour une architecture de paiement, le métier a approuvé « une disponibilité 
 
 **Quelle réponse choisir ?**
 
-A. Retenir l'interprétation la moins coûteuse, puis faire accepter le risque résiduel par le métier au moment du déploiement.
+A. Clarifier avec les propriétaires les critères de mesure, périmètres et exceptions ; versionner l'exigence, tracer ses impacts sur les décisions et modèles, puis faire arbitrer les options et risques documentés.
 
-B. Clarifier avec les propriétaires les critères de mesure, périmètres et exceptions ; versionner l'exigence, tracer ses impacts sur les décisions et modèles, puis faire arbitrer les options et risques documentés.
+B. Retenir l'interprétation la moins coûteuse, puis faire accepter le risque résiduel par le métier au moment du déploiement.
 
 C. Convoquer le métier et Operations pour convenir d'un seuil opérationnel provisoire, en consignant le désaccord mais sans réévaluer immédiatement tous les impacts de la Technology Architecture.
 

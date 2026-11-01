@@ -29,10 +29,10 @@ D. Sauter les stakeholders pour gagner du temps
 
 ## Q214 — Tailoring vs inconsistency
 Une équipe appelle « Phase A » un travail de Migration Planning sans explication. Quel risque ?
-A. Améliorer automatiquement la méthode
+A. Réduire l'effort de documentation sans vérifier les conséquences sur les revues
 B. Perdre le langage commun et la traçabilité
 C. Réduire le besoin de gouvernance
-D. Aucun risque
+D. Définir la même profondeur de processus pour les programmes quel que soit le risque
 **Réponse : B.** Le tailoring ne doit pas rendre le framework incompréhensible ou incohérent.
 **Mapping : Applying ADM — Tailoring.**
 
@@ -84,9 +84,9 @@ D. Une configuration de pod uniquement
 
 ## Q220 — Segment/Capability level
 Un niveau segment/capability est utile pour :
-A. Remplacer toute architecture entreprise
+A. Remplacer les modèles de domaine par la seule Roadmap sans vues d'architecture
 B. Définir un segment sans respecter les interfaces ni les standards de l'entreprise
-C. Supprimer les dépendances
+C. Établir un plan de transformation sans analyser les dépendances entre partitions
 D. Détailler une partie cohérente de l'entreprise tout en restant aligné au niveau supérieur
 **Réponse : D.** Il fournit un niveau intermédiaire de décision.
 **Mapping : Applying ADM — Levels.**

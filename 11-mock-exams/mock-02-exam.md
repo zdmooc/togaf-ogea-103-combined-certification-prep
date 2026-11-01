@@ -172,11 +172,11 @@ Le périmètre comprend potentiellement quatre pays, mais deux seulement dispose
 
 A. Limiter provisoirement le scope aux deux pays sponsorisés et établir une première Vision, en laissant les autres pays pour un cadrage ultérieur.
 
-B. Cadrer scope, stakeholders, drivers, value et Architecture Vision, avec hypothèses par pays et bénéfices mesurables dans le Statement of Architecture Work.
+B. Définir les interfaces communes entre pays avant de négocier les business drivers et la gouvernance de groupe.
 
 C. Établir un plan de migration pour l'ensemble des pays puis demander à chaque entité de le confirmer au prochain comité.
 
-D. Définir les interfaces communes entre pays avant de négocier les business drivers et la gouvernance de groupe.
+D. Cadrer scope, stakeholders, drivers, value et Architecture Vision, avec hypothèses par pays et bénéfices mesurables dans le Statement of Architecture Work.
 
 ## P4 — B/C/D
 
@@ -186,9 +186,9 @@ Une filiale veut détecter la fraude sur les transactions en temps réel, ce qui
 
 **Quelle action est la plus appropriée à ce stade ?**
 
-A. Approfondir la Data Architecture et ses requirements avant de figer la solution applicative, en clarifiant ownership, qualité, cycle de vie et contraintes de transfert avant de figer les services.
+A. Valider une solution d'intégration qui synchronise les référentiels clients, puis traiter les différences de sémantique au déploiement.
 
-B. Valider une solution d'intégration qui synchronise les référentiels clients, puis traiter les différences de sémantique au déploiement.
+B. Approfondir la Data Architecture et ses requirements avant de figer la solution applicative, en clarifiant ownership, qualité, cycle de vie et contraintes de transfert avant de figer les services.
 
 C. Préparer un modèle de données commun et inventorier les propriétaires connus, puis formaliser les règles de rétention dans une revue suivante.
 
@@ -204,11 +204,11 @@ Deux architectures de transition sont envisagées : coexistence des anciens mess
 
 A. Produire un classement provisoire des lots selon la valeur et la dépendance principale, puis vérifier les capacités de reprise avant validation finale.
 
-B. Phase F, en utilisant des critères de migration et de priorisation, en comparant les coûts transitoires, risques résiduels et conditions de réalisation par wave.
+B. Évaluer rapidement les preuves de conformité des composants déjà disponibles pour éliminer les solutions les moins sûres.
 
 C. Construire l'Architecture Contract de la première release, puis demander aux équipes de négocier l'ordre des migrations en Phase G.
 
-D. Évaluer rapidement les preuves de conformité des composants déjà disponibles pour éliminer les solutions les moins sûres.
+D. Phase F, en utilisant des critères de migration et de priorisation, en comparant les coûts transitoires, risques résiduels et conditions de réalisation par wave.
 
 ## P6 — Phase H
 
@@ -234,11 +234,11 @@ Une loi impose un suivi plus détaillé des rejets et des événements de repris
 
 **Quelle action est la plus appropriée à ce stade ?**
 
-A. Mettre à jour et analyser la requirement, tracer les impacts et itérer sur les architectures concernées, avec Requirements Impact Assessment sur les vues, building blocks, risques et work packages affectés.
+A. Mettre à jour la version de l'exigence et son propriétaire puis convoquer Data et Application pour recenser les impacts détaillés.
 
 B. Mettre à jour seulement le modèle applicatif de la cible, en demandant au Data Owner de confirmer ensuite la cohérence des échanges.
 
-C. Mettre à jour la version de l'exigence et son propriétaire puis convoquer Data et Application pour recenser les impacts détaillés.
+C. Mettre à jour et analyser la requirement, tracer les impacts et itérer sur les architectures concernées, avec Requirements Impact Assessment sur les vues, building blocks, risques et work packages affectés.
 
 D. Conserver l'exigence historique dans la spécification et créer une note réglementaire séparée pour les équipes de déploiement.
 
@@ -250,9 +250,9 @@ La plateforme cible est validée mais le support exige désormais une équipe de
 
 **Quelle action est la plus appropriée à ce stade ?**
 
-A. Ajouter au plan une mesure de mitigation technique et un critère de reprise, sans réexaminer l'organisation du support.
+A. Effectuer une analyse de transformation readiness et intégrer les actions organisationnelles dans la trajectoire, avec facteurs de readiness, plans de montée en compétences et work packages préparatoires.
 
-B. Effectuer une analyse de transformation readiness et intégrer les actions organisationnelles dans la trajectoire, avec facteurs de readiness, plans de montée en compétences et work packages préparatoires.
+B. Ajouter au plan une mesure de mitigation technique et un critère de reprise, sans réexaminer l'organisation du support.
 
 C. Évaluer d'abord les rôles d'exploitation et financer une formation ciblée, puis compléter l'examen des autres facteurs de readiness.
 

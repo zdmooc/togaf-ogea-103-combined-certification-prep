@@ -72,33 +72,33 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 
 ## P3 — Phase A
 
-**Scoring :** A=3, B=5, C=0, D=1.
+**Scoring :** A=3, B=1, C=0, D=5.
 
-- **B, 5 points :** Cadrer scope, stakeholders, drivers, value et Architecture Vision, avec hypothèses par pays et bénéfices mesurables dans le Statement of Architecture Work. Le cadrage doit précéder l'architecture détaillée et clarifier les frontières de responsabilité.
+- **D, 5 points :** Cadrer scope, stakeholders, drivers, value et Architecture Vision, avec hypothèses par pays et bénéfices mesurables dans le Statement of Architecture Work. Le cadrage doit précéder l'architecture détaillée et clarifier les frontières de responsabilité.
 - **A, 3 points :** Limiter provisoirement le scope aux deux pays sponsorisés et établir une première Vision, en laissant les autres pays pour un cadrage ultérieur. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **D, 1 point :** Définir les interfaces communes entre pays avant de négocier les business drivers et la gouvernance de groupe. Aborde une préoccupation secondaire sans démontrer la décision demandée.
+- **B, 1 point :** Définir les interfaces communes entre pays avant de négocier les business drivers et la gouvernance de groupe. Aborde une préoccupation secondaire sans démontrer la décision demandée.
 - **C, 0 point :** Établir un plan de migration pour l'ensemble des pays puis demander à chaque entité de le confirmer au prochain comité. Décision inadaptée au moment et aux contraintes décrites.
 
 **Référence :** X2202, Practitioner, unité 3 ; TOGAF Standard / Series Guides pertinents.
 
 ## P4 — B/C/D
 
-**Scoring :** A=5, B=0, C=3, D=1.
+**Scoring :** A=0, B=5, C=3, D=1.
 
-- **A, 5 points :** Approfondir la Data Architecture et ses requirements avant de figer la solution applicative, en clarifiant ownership, qualité, cycle de vie et contraintes de transfert avant de figer les services. Une Data Architecture gouvernée précède la sélection d'un produit ou d'un modèle d'intégration.
+- **B, 5 points :** Approfondir la Data Architecture et ses requirements avant de figer la solution applicative, en clarifiant ownership, qualité, cycle de vie et contraintes de transfert avant de figer les services. Une Data Architecture gouvernée précède la sélection d'un produit ou d'un modèle d'intégration.
 - **C, 3 points :** Préparer un modèle de données commun et inventorier les propriétaires connus, puis formaliser les règles de rétention dans une revue suivante. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
 - **D, 1 point :** Examiner les exigences d'interfaces applicatives et les contrats de services avant de résoudre toutes les définitions des données. Aborde une préoccupation secondaire sans démontrer la décision demandée.
-- **B, 0 point :** Valider une solution d'intégration qui synchronise les référentiels clients, puis traiter les différences de sémantique au déploiement. Décision inadaptée au moment et aux contraintes décrites.
+- **A, 0 point :** Valider une solution d'intégration qui synchronise les référentiels clients, puis traiter les différences de sémantique au déploiement. Décision inadaptée au moment et aux contraintes décrites.
 
 **Référence :** X2202, Practitioner, unité 4 ; TOGAF Standard / Series Guides pertinents.
 
 ## P5 — E/F/G
 
-**Scoring :** A=3, B=5, C=0, D=1.
+**Scoring :** A=3, B=1, C=0, D=5.
 
-- **B, 5 points :** Phase F, en utilisant des critères de migration et de priorisation, en comparant les coûts transitoires, risques résiduels et conditions de réalisation par wave. Le séquencement relève de F après préparation des options en E ; G ne remplace pas la planification.
+- **D, 5 points :** Phase F, en utilisant des critères de migration et de priorisation, en comparant les coûts transitoires, risques résiduels et conditions de réalisation par wave. Le séquencement relève de F après préparation des options en E ; G ne remplace pas la planification.
 - **A, 3 points :** Produire un classement provisoire des lots selon la valeur et la dépendance principale, puis vérifier les capacités de reprise avant validation finale. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **D, 1 point :** Évaluer rapidement les preuves de conformité des composants déjà disponibles pour éliminer les solutions les moins sûres. Aborde une préoccupation secondaire sans démontrer la décision demandée.
+- **B, 1 point :** Évaluer rapidement les preuves de conformité des composants déjà disponibles pour éliminer les solutions les moins sûres. Aborde une préoccupation secondaire sans démontrer la décision demandée.
 - **C, 0 point :** Construire l'Architecture Contract de la première release, puis demander aux équipes de négocier l'ordre des migrations en Phase G. Décision inadaptée au moment et aux contraintes décrites.
 
 **Référence :** X2202, Practitioner, unité 5 ; TOGAF Standard / Series Guides pertinents.
@@ -116,10 +116,10 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 
 ## P7 — Requirements Management
 
-**Scoring :** A=5, B=1, C=3, D=0.
+**Scoring :** A=3, B=1, C=5, D=0.
 
-- **A, 5 points :** Mettre à jour et analyser la requirement, tracer les impacts et itérer sur les architectures concernées, avec Requirements Impact Assessment sur les vues, building blocks, risques et work packages affectés. La gestion des exigences est transversale ; un changement réglementaire peut déclencher des itérations entre phases.
-- **C, 3 points :** Mettre à jour la version de l'exigence et son propriétaire puis convoquer Data et Application pour recenser les impacts détaillés. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
+- **C, 5 points :** Mettre à jour et analyser la requirement, tracer les impacts et itérer sur les architectures concernées, avec Requirements Impact Assessment sur les vues, building blocks, risques et work packages affectés. La gestion des exigences est transversale ; un changement réglementaire peut déclencher des itérations entre phases.
+- **A, 3 points :** Mettre à jour la version de l'exigence et son propriétaire puis convoquer Data et Application pour recenser les impacts détaillés. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
 - **B, 1 point :** Mettre à jour seulement le modèle applicatif de la cible, en demandant au Data Owner de confirmer ensuite la cohérence des échanges. Aborde une préoccupation secondaire sans démontrer la décision demandée.
 - **D, 0 point :** Conserver l'exigence historique dans la spécification et créer une note réglementaire séparée pour les équipes de déploiement. Décision inadaptée au moment et aux contraintes décrites.
 
@@ -127,11 +127,11 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 
 ## P8 — Supporting ADM Work
 
-**Scoring :** A=1, B=5, C=3, D=0.
+**Scoring :** A=5, B=1, C=3, D=0.
 
-- **B, 5 points :** Effectuer une analyse de transformation readiness et intégrer les actions organisationnelles dans la trajectoire, avec facteurs de readiness, plans de montée en compétences et work packages préparatoires. La préparation organisationnelle est une composante de la trajectoire, pas une activité laissée automatiquement au delivery.
+- **A, 5 points :** Effectuer une analyse de transformation readiness et intégrer les actions organisationnelles dans la trajectoire, avec facteurs de readiness, plans de montée en compétences et work packages préparatoires. La préparation organisationnelle est une composante de la trajectoire, pas une activité laissée automatiquement au delivery.
 - **C, 3 points :** Évaluer d'abord les rôles d'exploitation et financer une formation ciblée, puis compléter l'examen des autres facteurs de readiness. Étape utile mais encore insuffisante pour conclure sans le traitement de toutes les dépendances.
-- **A, 1 point :** Ajouter au plan une mesure de mitigation technique et un critère de reprise, sans réexaminer l'organisation du support. Aborde une préoccupation secondaire sans démontrer la décision demandée.
+- **B, 1 point :** Ajouter au plan une mesure de mitigation technique et un critère de reprise, sans réexaminer l'organisation du support. Aborde une préoccupation secondaire sans démontrer la décision demandée.
 - **D, 0 point :** Conserver la date de mise en service et planifier le support fournisseur seulement une fois les premiers incidents observés. Décision inadaptée au moment et aux contraintes décrites.
 
 **Référence :** X2202, Practitioner, unité 8 ; TOGAF Standard / Series Guides pertinents.

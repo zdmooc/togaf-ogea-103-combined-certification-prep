@@ -192,8 +192,8 @@ D. Architecture Contract fixant les engagements des seuls fournisseurs technique
 Une faible readiness doit conduire à :
 A. Déployer la Target sans adapter la capacité organisationnelle ou le modèle d'exploitation
 B. Prévoir des actions de changement, compétences et gouvernance dans la roadmap
-C. Annuler automatiquement la Target
-D. Supprimer les stakeholders
+C. Retenir la Target actuelle comme acquise sans mesurer les capacités d'adoption
+D. Confier le risque de résistance au seul fournisseur de la plateforme
 **Réponse : B.** La technique alimente la planification de transformation.
 **Mapping : ADM Techniques — Business Transformation Readiness.**
 

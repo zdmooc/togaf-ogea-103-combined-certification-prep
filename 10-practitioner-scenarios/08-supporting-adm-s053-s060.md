@@ -15,10 +15,10 @@ D. Dériver directement un objectif technique de latence depuis l'offre fourniss
 
 **Justification des quatre niveaux :**
 
-- **A — 5 points :** Utiliser un Business Scenario pour expliciter problème/opportunité, acteurs, environnement, desired outcomes et requirements. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **B — 3 points :** Utiliser un entretien métier structuré pour clarifier objectifs, acteurs et indicateurs, puis formaliser un Business Scenario dans un second temps. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **C — 1 point :** Organiser un entretien avec les métiers pour définir les acteurs et un indicateur de temps de traitement, puis compléter le scénario d'affaires plus tard. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **D — 0 point :** Dériver directement un objectif technique de latence depuis l'offre fournisseur la plus rapide, puis vérifier la valeur métier après le pilote. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **A — 5 points :** Utiliser un Business Scenario pour expliciter problème/opportunité, acteurs, environnement, desired outcomes et requirements. Le Business Scenario relie acteurs, problème, environnement et outcomes.
+- **B — 3 points :** Utiliser un entretien métier structuré pour clarifier objectifs, acteurs et indicateurs, puis formaliser un Business Scenario dans un second temps. Décrire le parcours actuel est une entrée, pas un scénario cible.
+- **C — 1 point :** Organiser un entretien avec les métiers pour définir les acteurs et un indicateur de temps de traitement, puis compléter le scénario d'affaires plus tard. Un seul diagramme technique n'explique pas la demande métier.
+- **D — 0 point :** Dériver directement un objectif technique de latence depuis l'offre fournisseur la plus rapide, puis vérifier la valeur métier après le pilote. Choisir le fournisseur avant le scénario inverse besoin et solution.
 
 **Mapping : Supporting ADM Work — Business Scenarios.**
 
@@ -40,10 +40,10 @@ D. Reformuler les gaps principaux en besoins indépendants des produits et garde
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Identifier d’abord les différences à conserver, supprimer, modifier ou créer ; utiliser ensuite ces gaps comme entrée des options de solution et work packages. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **C — 3 points :** Conserver les produits candidats dans une colonne de solutions potentielles tout en distinguant les gaps architecturaux eux-mêmes. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **D — 1 point :** Reformuler les gaps principaux en besoins indépendants des produits et garder les fournisseurs comme options candidates, puis affiner les dépendances. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **A — 0 point :** Conserver le nom des produits comme unique entrée du plan d'implémentation et traiter les besoins métier dans les fiches projets après financement. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **B — 5 points :** Identifier d’abord les différences à conserver, supprimer, modifier ou créer ; utiliser ensuite ces gaps comme entrée des options de solution et work packages. Les gaps doivent être établis avant de choisir les solutions.
+- **C — 3 points :** Conserver les produits candidats dans une colonne de solutions potentielles tout en distinguant les gaps architecturaux eux-mêmes. Un benchmark aide à comparer mais ne remplace pas les gaps.
+- **D — 1 point :** Reformuler les gaps principaux en besoins indépendants des produits et garder les fournisseurs comme options candidates, puis affiner les dépendances. Une différence de plateforme ne résume pas le gap métier.
+- **A — 0 point :** Conserver le nom des produits comme unique entrée du plan d'implémentation et traiter les besoins métier dans les fiches projets après financement. Dériver les gaps du produit choisi rend la méthode circulaire.
 
 **Mapping : Supporting ADM Work — Gap Analysis.**
 
@@ -65,10 +65,10 @@ D. Conduire une évaluation limitée des compétences et du modèle opérationne
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Utiliser une Business Transformation Readiness Assessment pour identifier les facteurs de readiness et intégrer les actions nécessaires à la transformation. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **D — 3 points :** Conduire une évaluation limitée des compétences et du modèle opérationnel avec les responsables de plateforme, puis enrichir l'évaluation globale de readiness. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **A — 1 point :** Évaluer d'abord les compétences opérationnelles et contractualiser le support critique, puis compléter l'analyse globale de readiness avant de figer les lots. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **B — 0 point :** Conserver le calendrier et engager une formation générique pendant les premiers mois de production, sans revoir les responsabilités de support. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **C — 5 points :** Utiliser une Business Transformation Readiness Assessment pour identifier les facteurs de readiness et intégrer les actions nécessaires à la transformation. Readiness couvre compétences, organisation, financement et capacité d'adoption.
+- **D — 3 points :** Conduire une évaluation limitée des compétences et du modèle opérationnel avec les responsables de plateforme, puis enrichir l'évaluation globale de readiness. Une estimation technique ne couvre pas les équipes de support.
+- **A — 1 point :** Évaluer d'abord les compétences opérationnelles et contractualiser le support critique, puis compléter l'analyse globale de readiness avant de figer les lots. La formation isolée ne suffit pas à garantir l'exploitation.
+- **B — 0 point :** Conserver le calendrier et engager une formation générique pendant les premiers mois de production, sans revoir les responsabilités de support. Ignorer la capacité de transformation rend le plan infaisable.
 
 **Mapping : Supporting ADM Work — Business Transformation Readiness.**
 
@@ -90,10 +90,10 @@ D. Distinguer risque initial, mitigation et residual risk, attribuer ownership e
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Distinguer risque initial, mitigation et residual risk, attribuer ownership et obtenir l’acceptation/escalade appropriée du risque résiduel. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **A — 3 points :** Maintenir la mitigation et son suivi dans le registre de risque, tout en demandant une validation différée de l'acceptation du risque résiduel. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **B — 1 point :** Documenter le contrôle, maintenir le risque résiduel ouvert et demander une nouvelle estimation avec les équipes métiers avant l'escalade formelle. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **C — 0 point :** Réduire la sévérité du risque dans le registre et replanifier sa revue au prochain comité de performance, sans traiter le dépassement du seuil. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **D — 5 points :** Distinguer risque initial, mitigation et residual risk, attribuer ownership et obtenir l’acceptation/escalade appropriée du risque résiduel. Une mitigation doit être suivie de la mesure du risque résiduel.
+- **A — 3 points :** Maintenir la mitigation et son suivi dans le registre de risque, tout en demandant une validation différée de l'acceptation du risque résiduel. Une mesure sans owner laisse l'acceptation du risque ambiguë.
+- **B — 1 point :** Documenter le contrôle, maintenir le risque résiduel ouvert et demander une nouvelle estimation avec les équipes métiers avant l'escalade formelle. Un score de risque initial seul ne prouve pas son traitement.
+- **C — 0 point :** Réduire la sévérité du risque dans le registre et replanifier sa revue au prochain comité de performance, sans traiter le dépassement du seuil. Cacher le risque résiduel empêche toute acceptation éclairée.
 
 **Mapping : Supporting ADM Work — Risk Management.**
 
@@ -115,10 +115,10 @@ D. Financer d'abord la plateforme la moins coûteuse en supposant qu'elle créer
 
 **Justification des quatre niveaux :**
 
-- **A — 5 points :** Utiliser Capability-Based Planning pour relier les investissements aux capabilities/outcomes nécessaires, puis déterminer les building blocks et work packages qui les réalisent. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **B — 3 points :** Commencer par une carte de capabilities métier et la relier aux principaux produits, sans prioriser encore les work packages sur les gaps. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **C — 1 point :** Construire une première carte de capabilities et associer les produits aux fonctions qu'ils supportent, puis évaluer les gains à la prochaine revue. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **D — 0 point :** Financer d'abord la plateforme la moins coûteuse en supposant qu'elle créera automatiquement la capacité métier recherchée. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **A — 5 points :** Utiliser Capability-Based Planning pour relier les investissements aux capabilities/outcomes nécessaires, puis déterminer les building blocks et work packages qui les réalisent. Capability-Based Planning relie outcomes et investissements aux capacités.
+- **B — 3 points :** Commencer par une carte de capabilities métier et la relier aux principaux produits, sans prioriser encore les work packages sur les gaps. Une capability map initie le travail sans prioriser les work packages.
+- **C — 1 point :** Construire une première carte de capabilities et associer les produits aux fonctions qu'ils supportent, puis évaluer les gains à la prochaine revue. Un inventaire applicatif ne mesure pas les capacités manquantes.
+- **D — 0 point :** Financer d'abord la plateforme la moins coûteuse en supposant qu'elle créera automatiquement la capacité métier recherchée. Partir des produits déployés plutôt que des besoins biaise la Roadmap.
 
 **Mapping : Supporting ADM Work — Capability-Based Planning.**
 
@@ -140,10 +140,10 @@ D. Comparer les modèles d'information et définir une table de correspondance p
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Évaluer l’interopérabilité sur plusieurs dimensions — sémantique, information, processus, technique et gouvernance — et traiter les incompatibilités. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **C — 3 points :** Revoir les contrats d'échange et la sémantique de l'information avant toute refonte, sans établir encore un modèle complet d'interopérabilité. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **D — 1 point :** Comparer les modèles d'information et définir une table de correspondance pour les champs les plus critiques, puis élargir les contrats de service. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **A — 0 point :** Remplacer un des deux frameworks API pour uniformiser les protocoles, sans vérifier la compatibilité sémantique des échanges. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **B — 5 points :** Évaluer l’interopérabilité sur plusieurs dimensions — sémantique, information, processus, technique et gouvernance — et traiter les incompatibilités. Interopérabilité couvre contrats, sémantique, processus et gouvernance.
+- **C — 3 points :** Revoir les contrats d'échange et la sémantique de l'information avant toute refonte, sans établir encore un modèle complet d'interopérabilité. Revoir les contrats détecte certains écarts mais pas tous.
+- **D — 1 point :** Comparer les modèles d'information et définir une table de correspondance pour les champs les plus critiques, puis élargir les contrats de service. Un protocole commun peut transporter des statuts métiers divergents.
+- **A — 0 point :** Remplacer un des deux frameworks API pour uniformiser les protocoles, sans vérifier la compatibilité sémantique des échanges. Une connexion réseau ne prouve pas l'accord sur le sens des échanges.
 
 **Mapping : Supporting ADM Work — Interoperability.**
 
@@ -165,10 +165,10 @@ D. Requalifier le diagramme comme artifact du livrable et lister les building bl
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Expliquer que le deliverable est le produit de travail formel, qu’il peut contenir plusieurs artifacts, et que les services/capacités représentés peuvent être des building blocks. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **D — 3 points :** Requalifier le diagramme comme artifact du livrable et lister les building blocks représentés, tout en laissant à compléter les autres vues requises. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **A — 1 point :** Requalifier correctement le diagramme comme artifact et recenser les building blocks, puis compléter progressivement les autres éléments du livrable. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **B — 0 point :** Conserver le diagramme comme preuve d'architecture approuvable et ajouter la liste des standards technologiques comme annexe au dossier. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **C — 5 points :** Expliquer que le deliverable est le produit de travail formel, qu’il peut contenir plusieurs artifacts, et que les services/capacités représentés peuvent être des building blocks. Le Framework distingue deliverable formel, artifact et building block.
+- **D — 3 points :** Requalifier le diagramme comme artifact du livrable et lister les building blocks représentés, tout en laissant à compléter les autres vues requises. Un diagramme seul ne décrit pas toutes les obligations du livrable.
+- **A — 1 point :** Requalifier correctement le diagramme comme artifact et recenser les building blocks, puis compléter progressivement les autres éléments du livrable. Un composant de solution n'est pas un document d'architecture.
+- **B — 0 point :** Conserver le diagramme comme preuve d'architecture approuvable et ajouter la liste des standards technologiques comme annexe au dossier. Confondre les catégories détruit la traçabilité entre intention et réalisation.
 
 **Mapping : Supporting ADM Work — Architecture Content.**
 
@@ -190,10 +190,10 @@ D. Rechercher les assets pertinents, évaluer leur réutilisabilité dans le nou
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Rechercher les assets pertinents, évaluer leur réutilisabilité dans le nouveau contexte, adapter ce qui est applicable et documenter ce qui doit changer. L'action traite l'impact global et les responsabilités de décision avant de figer l'architecture.
-- **A — 3 points :** Réutiliser une partie des patterns existants après une comparaison technique préliminaire, avant la revue complète du scope et des concerns. Elle apporte une amélioration utile mais n'assure pas encore une décision complète et vérifiable.
-- **B — 1 point :** Réutiliser les standards et patterns après une première vérification de compatibilité technique, puis examiner les concerns supplémentaires avant le jalon d'approbation. Peut éclairer une partie du problème, mais laisse ouverte la principale contrainte ou dépendance.
-- **C — 0 point :** Cloner la Target Architecture précédente et ne modifier que les diagrammes de déploiement, en considérant les décisions métier acquises. Peut fonctionner dans un autre contexte, mais ne répond pas ici à la priorité de l'architecture.
+- **D — 5 points :** Rechercher les assets pertinents, évaluer leur réutilisabilité dans le nouveau contexte, adapter ce qui est applicable et documenter ce qui doit changer. La réutilisation suppose recherche, qualification et adaptation des assets.
+- **A — 3 points :** Réutiliser une partie des patterns existants après une comparaison technique préliminaire, avant la revue complète du scope et des concerns. Un pattern existant est un candidat, non une preuve d'adéquation.
+- **B — 1 point :** Réutiliser les standards et patterns après une première vérification de compatibilité technique, puis examiner les concerns supplémentaires avant le jalon d'approbation. Une copie sans vérification reproduit d'anciennes hypothèses.
+- **C — 0 point :** Cloner la Target Architecture précédente et ne modifier que les diagrammes de déploiement, en considérant les décisions métier acquises. Ignorer les références du Repository provoque des conceptions redondantes.
 
 **Mapping : Supporting ADM Work — Repository / Reuse / Tailoring.**
 

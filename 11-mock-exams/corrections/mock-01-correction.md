@@ -55,10 +55,10 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 ## P1 — Context for Enterprise Architecture — gouvernance fédérée
 
-**Barème :** A=3, B=5, C=1, D=0.
+**Barème :** A=5, B=3, C=1, D=0.
 
-- **B — 5 points.** L'absence de gouvernance commune est un risque systémique ; la bonne réponse réutilise la capacité existante et rend l'autorité des décisions explicite. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **A — 3 points.** La proposition A autorise un travail préparatoire utile mais reporte l'arbitrage critique.
+- **A — 5 points.** L'absence de gouvernance commune est un risque systémique ; la bonne réponse réutilise la capacité existante et rend l'autorité des décisions explicite. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **B — 3 points.** La proposition B autorise un travail préparatoire utile mais reporte l'arbitrage critique.
 - **C — 1 point.** Utiliser le cadre de gouvernance du fournisseur retenu comme procédure provisoire, puis demander son adoption par les deux filiales. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
 - **D — 0 point.** Annuler la Target en cours et relancer systématiquement un Preliminary complet pour toutes les entités, avant toute autre activité d'architecture. L'action manque le problème central ou abandonne une gouvernance nécessaire.
 
@@ -66,43 +66,43 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 ## P2 — Stakeholder Management — conflit entre valeur et exploitabilité
 
-**Barème :** A=1, B=0, C=5, D=3.
+**Barème :** A=1, B=5, C=0, D=3.
 
-- **C — 5 points.** La consultation devient utile seulement si elle modifie réellement les requirements et les décisions. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **B — 5 points.** La consultation devient utile seulement si elle modifie réellement les requirements et les décisions. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
 - **D — 3 points.** D traite les risques urgents mais ne rétablit pas la traçabilité et la validation transverse.
 - **A — 1 point.** Conserver l'approbation du sponsor comme unique validation de la Vision, puis prévoir les adaptations du run model après la vague pilote. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **B — 0 point.** Confier l'ensemble du run model à Operations et garder l'architecture cible inchangée, en lui laissant le choix des moyens. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **C — 0 point.** Confier l'ensemble du run model à Operations et garder l'architecture cible inchangée, en lui laissant le choix des moyens. L'action manque le problème central ou abandonne une gouvernance nécessaire.
 
 **Source de contrôle :** X2202, Practitioner, domaine 2 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
 ## P3 — Phase A — vision fondée sur des drivers vérifiables
 
-**Barème :** A=5, B=3, C=1, D=0.
+**Barème :** A=1, B=3, C=5, D=0.
 
-- **A — 5 points.** La Phase A fait le lien entre contexte et mandat ; le choix de produit ne peut précéder la justification et l'accord sur la valeur. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **C — 5 points.** La Phase A fait le lien entre contexte et mandat ; le choix de produit ne peut précéder la justification et l'accord sur la valeur. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
 - **B — 3 points.** B est une action d'urgence utile mais conserve un biais solution et ignore certaines options.
-- **C — 1 point.** Demander à chaque équipe produit de définir son architecture cible séparément ; la Vision de groupe émergera des implémentations. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
+- **A — 1 point.** Demander à chaque équipe produit de définir son architecture cible séparément ; la Vision de groupe émergera des implémentations. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
 - **D — 0 point.** Définir immédiatement les work packages de migration et le plan de financement en Phase F afin d'imposer une date crédible aux métiers. L'action manque le problème central ou abandonne une gouvernance nécessaire.
 
 **Source de contrôle :** X2202, Practitioner, domaine 3 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
 ## P4 — Architecture Development B/C/D — exigence contradictoire
 
-**Barème :** A=1, B=5, C=3, D=0.
+**Barème :** A=1, B=0, C=3, D=5.
 
-- **B — 5 points.** B relie résultats métier, décisions Data/App/Tech et exigences, sans nier l'itération. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **D — 5 points.** D relie résultats métier, décisions Data/App/Tech et exigences, sans nier l'itération. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
 - **C — 3 points.** C est un début utile mais partiel : il pourrait figer des choix de domaine avant réconciliation.
 - **A — 1 point.** Retenir Kafka/PostgreSQL, puis adapter les activités métier à leurs capacités et traiter la résidence des données dans le contrat fournisseur. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **D — 0 point.** Lancer une Gap Analysis Technology isolée pour prouver que la plateforme cible peut répondre à la volumétrie. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **B — 0 point.** Lancer une Gap Analysis Technology isolée pour prouver que la plateforme cible peut répondre à la volumétrie. L'action manque le problème central ou abandonne une gouvernance nécessaire.
 
 **Source de contrôle :** X2202, Practitioner, domaine 4 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
 ## P5 — Implementing E/F/G — dépendances, valeur et transition
 
-**Barème :** A=1, B=3, C=0, D=5.
+**Barème :** A=1, B=5, C=0, D=3.
 
-- **D — 5 points.** D intègre la dépendance technique, la valeur et le coût transitoire dans le plan approuvé. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **B — 3 points.** B corrige l'ordre critique sans avoir encore une planification justifiée et complète.
+- **B — 5 points.** D intègre la dépendance technique, la valeur et le coût transitoire dans le plan approuvé. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **D — 3 points.** B corrige l'ordre critique sans avoir encore une planification justifiée et complète.
 - **A — 1 point.** Faire vérifier les risques et les exceptions dans une Compliance Review anticipée, puis conserver l'ordre des lots déjà souhaité par le sponsor. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
 - **C — 0 point.** Réexaminer la Vision et relancer la totalité des domaines B/C/D pour éviter tout risque d'erreur de priorisation. L'action manque le problème central ou abandonne une gouvernance nécessaire.
 
@@ -110,22 +110,22 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 ## P6 — Phase H — adaptation réglementaire après déploiement
 
-**Barème :** A=5, B=3, C=1, D=0.
+**Barème :** A=0, B=3, C=1, D=5.
 
-- **A — 5 points.** H décide sur la magnitude du changement, sans présupposer un re-architecting ou un petit patch. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **D — 5 points.** H décide sur la magnitude du changement, sans présupposer un re-architecting ou un petit patch. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
 - **B — 3 points.** B est pertinent mais incomplet car la classification et les dépendances ne sont pas encore vérifiées.
 - **C — 1 point.** Déployer l'interface proposée par une filiale puisqu'elle est déjà utilisée en production ; son existence constitue une validation suffisante. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **D — 0 point.** Reporter le changement au cycle annuel de roadmap afin de limiter le nombre d'exceptions. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **A — 0 point.** Reporter le changement au cycle annuel de roadmap afin de limiter le nombre d'exceptions. L'action manque le problème central ou abandonne une gouvernance nécessaire.
 
 **Source de contrôle :** X2202, Practitioner, domaine 6 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
 ## P7 — Requirements Management — disponibilité contradictoire
 
-**Barème :** A=1, B=5, C=3, D=0.
+**Barème :** A=5, B=1, C=3, D=0.
 
-- **B — 5 points.** Une exigence vérifiable et tracée est nécessaire pour comparer des solutions coûteuses. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **A — 5 points.** Une exigence vérifiable et tracée est nécessaire pour comparer des solutions coûteuses. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
 - **C — 3 points.** C reconnaît l'ambiguïté mais laisse l'impact architectural ouvert.
-- **A — 1 point.** Retenir l'interprétation la moins coûteuse, puis faire accepter le risque résiduel par le métier au moment du déploiement. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
+- **B — 1 point.** Retenir l'interprétation la moins coûteuse, puis faire accepter le risque résiduel par le métier au moment du déploiement. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
 - **D — 0 point.** Reporter l'interprétation détaillée à la Phase G, lorsque les mécanismes techniques de failover seront implémentés. L'action manque le problème central ou abandonne une gouvernance nécessaire.
 
 **Source de contrôle :** X2202, Practitioner, domaine 7 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.

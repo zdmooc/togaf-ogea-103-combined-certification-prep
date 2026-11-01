@@ -35,7 +35,9 @@ L’interopérabilité force l’architecte à analyser ces frontières explicit
 
 Deux systèmes reliés par API peuvent être intégrés mais non réellement interopérables si les données ou comportements sont interprétés différemment.
 
-## 4. Dimensions
+## 4. Dimensions — grille pratique, pas taxonomie officielle à mémoriser
+
+**Attention certification :** la décomposition Business / Information / Application / Technology / Security ci-dessous est une **grille d'analyse pédagogique** pour les scénarios d'intégration, **pas** une liste normative de « cinq dimensions TOGAF » imposée par X2202. Le syllabus Foundation L1 4.7 demande de savoir **expliquer l'interopérabilité et son utilisation**. Il ne prescrit pas de réciter cinq catégories. Une différence de sémantique, d'organisation ou de confiance peut croiser plusieurs dimensions.
 
 ### Business interoperability
 
@@ -168,7 +170,7 @@ Deux banques exposent des APIs conformes au même protocole, mais interprètent 
 ## 15. Key points
 
 - Interoperability traite les frontières.
-- Elle couvre business, data, application, technology et security.
+- On peut analyser business, information/data, application, technology et security comme **angles de diagnostic**, sans les présenter comme cinq catégories certifiées par X2202.
 - Integration est plus étroit.
 - Contrats et sémantique sont essentiels.
 - Elle traverse plusieurs phases ADM.

@@ -163,6 +163,70 @@ for i, (m1,q1,t1) in enumerate(stems):
 check(not close, f"Near-identical mock stems after context removal: {close[:10]}")
 print(f"Lexical mock overlap screen: {len(stems)} questions, {len(close)} pairs >= 0.78 (not a semantic-independence proof)")
 
+
+# Perplexity semantic audit non-regression checks (2026-11-01).
+historical_phrases = (
+    "Répond aux enjeux structurants, à leur séquencement",
+    "Action pertinente mais incomplète, qui reporte",
+    "Peut contribuer ponctuellement, mais ne traite",
+    "Peut avoir un intérêt dans un autre contexte",
+    "Couvre les dépendances, l'ordre des actions",
+    "Apporte une avancée réelle mais reporte",
+    "Action partielle dont la valeur est limitée",
+    "Peut être pertinente sous d'autres hypothèses",
+    "L'action traite l'impact global et les responsabilités",
+    "Elle apporte une amélioration utile mais n'assure",
+    "Peut éclairer une partie du problème",
+    "Peut fonctionner dans un autre contexte, mais"
+)
+for f in sorted((ROOT / "10-practitioner-scenarios").glob("0[1-8]-*s*.md")):
+    content=f.read_text(encoding="utf-8")
+    for phrase in historical_phrases:
+        check(phrase not in content, f"{f.name}: generic 5/3/1/0 explanation persists: {phrase}")
+
+bank = "\n".join(f.read_text(encoding="utf-8") for f in sorted((ROOT/"09-foundation-question-bank").glob("0[1-8]-*q*.md")))
+check("B'est" not in bank and "B’est" not in bank,
+      "Foundation: misplaced B'est typo or stale letter reference")
+q73 = next((b for b in re.split(r"(?=^## Q\d+ — )",bank,flags=re.M) if b.startswith("## Q073 —")), "")
+check("Phase A établit l'Architecture Vision" in q73 and "Phase B développe" in q73,
+      "Q073: inversion of Phase A/B explanation has regressed")
+
+all_best=[]
+for n in range(1,7):
+    correction=read(f"11-mock-exams/corrections/mock-0{n}-correction.md").split("# Part 2")[1]
+    gradients=re.findall(r"\*\*(?:Barème|Scoring)\s*:\*\*\s*([^\n]+)",correction)
+    best=[next((l for l,v in grades(g).items() if v==5),None) for g in gradients]
+    check(len(best)==8 and {letter:best.count(letter) for letter in "ABCD"}==dict.fromkeys("ABCD",2),
+          f"Mock {n}: asymmetric Practitioner best-answer positions {best}")
+    all_best.extend(best)
+check(len(all_best)==48 and {l:all_best.count(l) for l in "ABCD"}==dict.fromkeys("ABCD",12),
+      "Combined Practitioner best-answer location remains unbalanced")
+
+repository_course=read("01-togaf-foundations/08-architecture-repository.md")
+for label in ("Architecture Landscape","Reference Library","Standards Library","Governance Repository",
+              "Architecture Requirements Repository","Solutions Landscape","Enterprise Repository"):
+    check(label in repository_course, f"Missing X2202 Repository category: {label}")
+check("historically" in repository_course and "Governance Log" in repository_course,
+      "Explain why legacy names are not a replacement for X2202 L2 8.5")
+
+
+# Extra X2202 conformance/migration practice cases.
+extra_exams = read('10-practitioner-scenarios/12-conformance-and-migration-xp033-xp036.md')
+extra_answers = read('10-practitioner-scenarios/12-conformance-and-migration-corrections.md')
+extra_blocks = blocks(extra_exams, r'## XP[0-9]{2}')
+extra_keys = blocks(extra_answers, r'## XP[0-9]{2}')
+check(len(extra_blocks) == len(extra_keys) == 4, 'Expected 4 XP33–XP36 with corrections')
+for i in range(min(len(extra_blocks), len(extra_keys))):
+    code = f'XP{i+33:02d}'
+    check(extra_blocks[i].startswith('## '+code), code+': wrong exercise ID')
+    check(extra_keys[i].startswith('## '+code), code+': wrong correction ID')
+    options(extra_blocks[i], code)
+    header = re.search(r'\*\*Barème pédagogique\s*:\*\*\s*([^\n]+)', extra_keys[i])
+    score = grades(header[1]) if header else {}
+    if verify_grades(score, code):
+        for label, value in score.items():
+            check(bool(re.search(rf'^- \*\*{label}, {value} point',extra_keys[i],re.M)), code+': graded rationale missing for '+label)
+
 print(f"Reviewed structurally: {count} S-cases, 48 mock cases, 32 XP targeted, 2 XF, 16 deliverable questions")
 if failures:
     for failure in failures:

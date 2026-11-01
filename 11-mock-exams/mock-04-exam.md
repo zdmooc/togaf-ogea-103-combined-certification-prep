@@ -140,9 +140,9 @@ A. Définir une charte de gouvernance commune et un registre des exceptions, pui
 
 B. Introduire une liste de standards techniques communes et vérifier leur usage lors des prochains projets, sans clarifier les responsabilités de décision.
 
-C. Tailorer et fédérer la gouvernance tout en maintenant principes et contrôles communs nécessaires, avec un noyau de principes obligatoires et une délégation de décisions selon les risques.
+C. Autoriser chaque filiale à choisir ses pratiques puis préparer une étude de cohérence groupe une fois la migration terminée.
 
-D. Autoriser chaque filiale à choisir ses pratiques puis préparer une étude de cohérence groupe une fois la migration terminée.
+D. Tailorer et fédérer la gouvernance tout en maintenant principes et contrôles communs nécessaires, avec un noyau de principes obligatoires et une délégation de décisions selon les risques.
 
 ## P2 — Stakeholder Management
 
@@ -152,9 +152,9 @@ La banque prépare l'automatisation d'un parcours crédit qui coûte actuellemen
 
 **Quelle décision recommander ?**
 
-A. Produire les vues adaptées aux concerns, expliciter valeur/coût/risque et organiser l'arbitrage, incluant un modèle de valeur, les alternatives et les conséquences opérationnelles pour chaque stakeholder.
+A. Présenter une Architecture Roadmap technique pour donner une visibilité sur les phases de déploiement sans quantifier tous les bénéfices.
 
-B. Présenter une Architecture Roadmap technique pour donner une visibilité sur les phases de déploiement sans quantifier tous les bénéfices.
+B. Produire les vues adaptées aux concerns, expliciter valeur/coût/risque et organiser l'arbitrage, incluant un modèle de valeur, les alternatives et les conséquences opérationnelles pour chaque stakeholder.
 
 C. Produire une première comparaison des coûts et bénéfices par option, puis compléter les views de conformité et d'exploitation avant le comité suivant.
 
@@ -168,13 +168,13 @@ Deux directions demandent une architecture de données partagées ; les données
 
 **Quelle décision recommander ?**
 
-A. Clarifier scope, stakeholders, responsabilités et Vision avant l'architecture détaillée, en documentant scope, domaines, profondeur de travail, horizon et responsabilités de validation.
+A. Définir la largeur du périmètre et les acteurs principaux, puis préciser les autres dimensions du scope à la prochaine revue.
 
 B. Établir une liste de work packages par direction avant d'avoir distingué les responsabilités et les limites de l'architecture.
 
 C. Obtenir l'accord des DSI locales sur les applications concernées, puis élaborer une Vision commune sans encore définir les outcomes.
 
-D. Définir la largeur du périmètre et les acteurs principaux, puis préciser les autres dimensions du scope à la prochaine revue.
+D. Clarifier scope, stakeholders, responsabilités et Vision avant l'architecture détaillée, en documentant scope, domaines, profondeur de travail, horizon et responsabilités de validation.
 
 ## P4 — B/C/D
 
@@ -184,9 +184,9 @@ La direction Business a validé le parcours cible de gestion des réclamations, 
 
 **Quelle décision recommander ?**
 
-A. Identifier les services applicatifs clés et les flux de données nécessaires, puis vérifier la cible technologique et les alternatives dans une seconde revue.
+A. Développer Application Architecture puis Technology Architecture en maintenant la traçabilité aux besoins métier/data, en dérivant les contrats de services, building blocks et contraintes de plateforme de la cible métier et data.
 
-B. Développer Application Architecture puis Technology Architecture en maintenant la traçabilité aux besoins métier/data, en dérivant les contrats de services, building blocks et contraintes de plateforme de la cible métier et data.
+B. Identifier les services applicatifs clés et les flux de données nécessaires, puis vérifier la cible technologique et les alternatives dans une seconde revue.
 
 C. Examiner en premier la plateforme approuvée du groupe et construire un prototype, sans comparer encore les impacts sur les capacités métier.
 
@@ -202,9 +202,9 @@ Le work package de vérification d'identité promet une forte baisse de fraude ;
 
 A. Programmer un lot IAM limité et démarrer en parallèle une validation fonctionnelle du contrôle, puis arbitrer les risques et coûts de la trajectoire complète.
 
-B. Analyser valeur, risque, dépendances et Transition Architectures en Phase F avant de séquencer, en modélisant la dépendance critique, les options de transition et les risques résiduels dans le plan.
+B. Favoriser l'initiative de plus forte valeur mais lui associer une condition formelle de disponibilité IAM avant le go-live.
 
-C. Favoriser l'initiative de plus forte valeur mais lui associer une condition formelle de disponibilité IAM avant le go-live.
+C. Analyser valeur, risque, dépendances et Transition Architectures en Phase F avant de séquencer, en modélisant la dépendance critique, les options de transition et les risques résiduels dans le plan.
 
 D. Accepter la priorité du sponsor et transférer les risques d'intégration au prestataire de delivery sans modifier la roadmap.
 
@@ -216,9 +216,9 @@ La fonctionnalité demandée consiste à ajouter un filtre local dans une applic
 
 **Quelle décision recommander ?**
 
-A. Vérifier les requirements et la vue impactée, puis autoriser un changement local en conservant une trace d'analyse.
+A. Évaluer l'impact et appliquer un changement proportionné si l'architecture reste valide, avec évaluation d'impact et preuve de conformité au niveau approprié.
 
-B. Évaluer l'impact et appliquer un changement proportionné si l'architecture reste valide, avec évaluation d'impact et preuve de conformité au niveau approprié.
+B. Vérifier les requirements et la vue impactée, puis autoriser un changement local en conservant une trace d'analyse.
 
 C. Planifier une revue des principes de l'application avant de modifier la fonctionnalité, sans analyser immédiatement son impact concret.
 
@@ -250,9 +250,9 @@ Une nouvelle plateforme exige un changement des rôles d'exploitation dans trois
 
 A. Réaliser d'abord une évaluation des compétences et responsabilités locales, puis inscrire les actions de préparation dans les prochaines waves.
 
-B. Utiliser Transformation Readiness et Stakeholder Management pour traiter les barrières et actions d'adoption, avec facteurs de readiness, plan d'adoption, priorisation des prérequis et budget associé.
+B. Rédiger des procédures d'exploitation standard pour les équipes actuelles, sans résoudre leur capacité de support 24/7.
 
-C. Rédiger des procédures d'exploitation standard pour les équipes actuelles, sans résoudre leur capacité de support 24/7.
+C. Utiliser Transformation Readiness et Stakeholder Management pour traiter les barrières et actions d'adoption, avec facteurs de readiness, plan d'adoption, priorisation des prérequis et budget associé.
 
 D. Conserver le plan de migration initial et ajouter une clause de formation générale au contrat de livraison.
 ---

@@ -54,7 +54,7 @@ A. Considérer la TOGAF Library comme la base des solutions installées de l'ent
 
 B. Utiliser exclusivement le Governance Log interne, car aucun guide externe ne peut contribuer au tailoring ADM.
 
-C. Copier l'ensemble des guides de la Library dans chaque dossier projet, puis choisir ceux que le fournisseur préfère.
+C. Identifier dans la TOGAF Library les guides traitant de gouvernance et d'itération, puis organiser leur sélection avec les architectes de domaine ; la mise en correspondance avec la capacité d'architecture interne restera à formaliser.
 
 D. Consulter le Leader's Guide et le Practitioners' Approach pertinents dans la TOGAF Library, puis adapter leur guidance à l'Architecture Capability et au Repository interne.
 
@@ -182,7 +182,7 @@ B. Pour révéler les impacts des concerns et des contraintes contradictoires, c
 
 C. Parce que le nombre de diagrammes produits prouve la qualité de l'architecture finale.
 
-D. Pour choisir provisoirement le produit du fournisseur préféré, en comparant le reste lors de la première Compliance Review.
+D. Pour comparer deux options de conception selon les exigences majeures de résilience et de coût, puis préparer une revue avec les stakeholders, sans encore formaliser tous les risques et trade-offs.
 
 
 ## XP18 — L2.1.10 : Piloter l'incertitude et la perte potentielle
@@ -392,7 +392,7 @@ B. Évolutive pour les trois, car toute entreprise existante doit conserver ind�
 
 C. Distinguer greenfield pour le service neuf, revolutionary pour la bascule radicale, evolutionary pour la migration progressive ; justifier chaque choix par valeur, dépendances, risque et readiness.
 
-D. Classifier les trois transformations, mais choisir la stratégie finale d'après la technologie préférée du fournisseur et non la disponibilité des équipes.
+D. Classifier les trois transformations et comparer les coûts de migration et la durée de coexistence, puis différer l'analyse de readiness des équipes et des impacts opérationnels.
 
 
 ## XP32 — L2.7.1 : Identifier les sources des requirements

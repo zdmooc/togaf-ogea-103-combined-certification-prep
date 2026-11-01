@@ -4,6 +4,9 @@ Préparation complète et structurée à la certification **TOGAF Enterprise Arc
 
 ## Status
 
+**Suivi audit Perplexity (01/11/2026) :** la relecture sémantique a corrigé des erreurs de clés et d'explications dans la banque Foundation, harmonisé le vocabulaire TOGAF 10, individualisé les 60 barèmes Practitioner, corrigé XP08 et équilibré les positions de réponses sur les six examens. Voir [rapport de suivi](14-official-sources/07-perplexity-followup-semantic-audit.md). **La revue psychométrique et une expertise pédagogique indépendante restent ouvertes.**
+
+
 **Repository build: SELF-STUDY CONTENT INTEGRATED — EXTERNAL CALIBRATION PENDING (2026-11-01)**  
 **Current audit: structural controls passed; individual semantic review and independent exam-level calibration are still pending.**
 

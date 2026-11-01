@@ -154,11 +154,11 @@ Le programme remplace un référentiel de clients utilisé dans trois directions
 
 A. Organiser une revue des données critiques et proposer des règles temporaires de validation, puis analyser les autres impacts.
 
-B. Réengager Data comme stakeholder, clarifier concerns/requirements et analyser les impacts sur architecture et roadmap, en remettant les concerns Data au centre et en révisant les vues, exigences, gaps et options de migration.
+B. Documenter les limites des sources et ajuster les tests de recette, sans renégocier les exigences avec les owners.
 
 C. Conserver la Target et transférer la responsabilité de qualité aux équipes d'exploitation après le déploiement.
 
-D. Documenter les limites des sources et ajuster les tests de recette, sans renégocier les exigences avec les owners.
+D. Réengager Data comme stakeholder, clarifier concerns/requirements et analyser les impacts sur architecture et roadmap, en remettant les concerns Data au centre et en révisant les vues, exigences, gaps et options de migration.
 
 ## P3 — Phase A
 
@@ -186,9 +186,9 @@ La Target applicative prévoit des services centrés sur les produits historique
 
 A. Ajouter un adaptateur autour de l'application existante pour couvrir rapidement un sous-ensemble du besoin, sans réviser toutes les interactions.
 
-B. Itérer entre Business et Application Architecture pour réaligner cible et requirements avant Phase E, en réconciliant capabilities, services, données et plateformes et en documentant les gaps.
+B. Conserver l'architecture applicative approuvée et demander au métier d'adapter les processus au produit disponible.
 
-C. Conserver l'architecture applicative approuvée et demander au métier d'adapter les processus au produit disponible.
+C. Itérer entre Business et Application Architecture pour réaligner cible et requirements avant Phase E, en réconciliant capabilities, services, données et plateformes et en documentant les gaps.
 
 D. Réviser les services exposés à partir des parcours métier critiques, puis compléter l'analyse des composants moins impactés.
 
@@ -200,9 +200,9 @@ Une équipe produit implémente un service d'autorisation en production, mais so
 
 **Quelle réponse est la plus adaptée au problème actuel ?**
 
-A. Documenter le problème et appliquer des mesures compensatoires provisoires, puis soumettre l'exception au Board avant la release.
+A. Utiliser les mécanismes de Phase G pour Compliance Review, analyse de l'écart et décision gouvernée, en réalisant une Compliance Assessment, en évaluant le risque et en faisant décider l'exception ou la correction.
 
-B. Utiliser les mécanismes de Phase G pour Compliance Review, analyse de l'écart et décision gouvernée, en réalisant une Compliance Assessment, en évaluant le risque et en faisant décider l'exception ou la correction.
+B. Documenter le problème et appliquer des mesures compensatoires provisoires, puis soumettre l'exception au Board avant la release.
 
 C. Mettre à jour l'Architecture Definition Document pour refléter la solution livrée, sans analyser la contradiction avec le principe.
 
@@ -216,9 +216,9 @@ Une technologie de chiffrement utilisée par la plateforme cible ne recevra plus
 
 **Quelle réponse est la plus adaptée au problème actuel ?**
 
-A. Évaluer l'impact sur architecture, roadmap, risks et décider de l'ampleur du nouveau travail, avec analyse d'impact, classification Phase H et conséquences sur les transitions et standards.
+A. Attendre l'arrêt effectif du support et demander ensuite une dérogation générale pour conserver la Target.
 
-B. Attendre l'arrêt effectif du support et demander ensuite une dérogation générale pour conserver la Target.
+B. Évaluer l'impact sur architecture, roadmap, risks et décider de l'ampleur du nouveau travail, avec analyse d'impact, classification Phase H et conséquences sur les transitions et standards.
 
 C. Préparer une migration pilote du composant concerné en supposant que les interfaces existantes resteront compatibles.
 
@@ -234,9 +234,9 @@ Une application analytique souhaite réutiliser les événements de paiement, al
 
 A. Définir un modèle de données pseudonymisé comme candidat et en mesurer les conséquences métier, puis formaliser les critères de conformité.
 
-B. Identifier le conflit, engager les stakeholders, analyser options et maintenir la trace de la décision, en distinguant le besoin de valeur analytique des méthodes possibles pour préserver la confidentialité.
+B. Demander à la plateforme d'analytics de décider automatiquement de la minimisation nécessaire selon les capacités du fournisseur.
 
-C. Demander à la plateforme d'analytics de décider automatiquement de la minimisation nécessaire selon les capacités du fournisseur.
+C. Identifier le conflit, engager les stakeholders, analyser options et maintenir la trace de la décision, en distinguant le besoin de valeur analytique des méthodes possibles pour préserver la confidentialité.
 
 D. Réduire la portée du besoin analytique aux données non sensibles, sans avoir évalué les résultats métier attendus.
 
@@ -248,13 +248,13 @@ Un programme de paiements comporte des gaps concernant les données, les applica
 
 **Quelle réponse est la plus adaptée au problème actuel ?**
 
-A. Capability-Based Planning peut aider à regrouper et prioriser le changement autour des capacités nécessaires, en consolidant gaps, solutions potentielles et dépendances pour construire les work packages.
+A. Attribuer un lot à chaque projet existant et optimiser séparément les coûts après le démarrage des migrations.
 
 B. Établir une matrice provisoire des gaps liés à l'identité et proposer un lot mutualisé, puis traiter les autres dépendances lors d'une seconde revue.
 
 C. Financer d'abord la capability dont le business case est le plus favorable et demander aux autres équipes de s'y raccorder.
 
-D. Attribuer un lot à chaque projet existant et optimiser séparément les coûts après le démarrage des migrations.
+D. Capability-Based Planning peut aider à regrouper et prioriser le changement autour des capacités nécessaires, en consolidant gaps, solutions potentielles et dépendances pour construire les work packages.
 ---
 
 Fin de l'examen blanc.

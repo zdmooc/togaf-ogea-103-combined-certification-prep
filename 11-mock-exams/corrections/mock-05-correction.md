@@ -61,11 +61,11 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40 avec gradient 5/3/1/0, passage
 
 ## P2 — Stakeholder Management
 
-**Barème :** A=3, B=5, C=0, D=1.
+**Barème :** A=3, B=1, C=0, D=5.
 
-- **B (5) :** Réengager Data comme stakeholder, clarifier concerns/requirements et analyser les impacts sur architecture et roadmap, en remettant les concerns Data au centre et en révisant les vues, exigences, gaps et options de migration. Une contrainte de qualité peut imposer des itérations entre les domaines et la trajectoire.
+- **D (5) :** Réengager Data comme stakeholder, clarifier concerns/requirements et analyser les impacts sur architecture et roadmap, en remettant les concerns Data au centre et en révisant les vues, exigences, gaps et options de migration. Une contrainte de qualité peut imposer des itérations entre les domaines et la trajectoire.
 - **A (3) :** Organiser une revue des données critiques et proposer des règles temporaires de validation, puis analyser les autres impacts. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
-- **D (1) :** Documenter les limites des sources et ajuster les tests de recette, sans renégocier les exigences avec les owners. Couvre un aspect secondaire, insuffisant au moment décrit.
+- **B (1) :** Documenter les limites des sources et ajuster les tests de recette, sans renégocier les exigences avec les owners. Couvre un aspect secondaire, insuffisant au moment décrit.
 - **C (0) :** Conserver la Target et transférer la responsabilité de qualité aux équipes d'exploitation après le déploiement. Contourne la contrainte structurante.
 
 **Référence :** X2202, Practitioner, unité 2.
@@ -83,21 +83,21 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40 avec gradient 5/3/1/0, passage
 
 ## P4 — B/C/D
 
-**Barème :** A=1, B=5, C=0, D=3.
+**Barème :** A=1, B=0, C=5, D=3.
 
-- **B (5) :** Itérer entre Business et Application Architecture pour réaligner cible et requirements avant Phase E, en réconciliant capabilities, services, données et plateformes et en documentant les gaps. La Target Application doit démontrer qu'elle supporte la capacité métier souhaitée.
+- **C (5) :** Itérer entre Business et Application Architecture pour réaligner cible et requirements avant Phase E, en réconciliant capabilities, services, données et plateformes et en documentant les gaps. La Target Application doit démontrer qu'elle supporte la capacité métier souhaitée.
 - **D (3) :** Réviser les services exposés à partir des parcours métier critiques, puis compléter l'analyse des composants moins impactés. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
 - **A (1) :** Ajouter un adaptateur autour de l'application existante pour couvrir rapidement un sous-ensemble du besoin, sans réviser toutes les interactions. Couvre un aspect secondaire, insuffisant au moment décrit.
-- **C (0) :** Conserver l'architecture applicative approuvée et demander au métier d'adapter les processus au produit disponible. Contourne la contrainte structurante.
+- **B (0) :** Conserver l'architecture applicative approuvée et demander au métier d'adapter les processus au produit disponible. Contourne la contrainte structurante.
 
 **Référence :** X2202, Practitioner, unité 4.
 
 ## P5 — E/F/G
 
-**Barème :** A=3, B=5, C=0, D=1.
+**Barème :** A=5, B=3, C=0, D=1.
 
-- **B (5) :** Utiliser les mécanismes de Phase G pour Compliance Review, analyse de l'écart et décision gouvernée, en réalisant une Compliance Assessment, en évaluant le risque et en faisant décider l'exception ou la correction. La Phase G compare preuves d'implémentation, exigences et dérogations approuvées.
-- **A (3) :** Documenter le problème et appliquer des mesures compensatoires provisoires, puis soumettre l'exception au Board avant la release. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
+- **A (5) :** Utiliser les mécanismes de Phase G pour Compliance Review, analyse de l'écart et décision gouvernée, en réalisant une Compliance Assessment, en évaluant le risque et en faisant décider l'exception ou la correction. La Phase G compare preuves d'implémentation, exigences et dérogations approuvées.
+- **B (3) :** Documenter le problème et appliquer des mesures compensatoires provisoires, puis soumettre l'exception au Board avant la release. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
 - **D (1) :** Ajouter un test d'audit à la campagne de validation et considérer l'écart comme un défaut technique de priorité moyenne. Couvre un aspect secondaire, insuffisant au moment décrit.
 - **C (0) :** Mettre à jour l'Architecture Definition Document pour refléter la solution livrée, sans analyser la contradiction avec le principe. Contourne la contrainte structurante.
 
@@ -105,33 +105,33 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40 avec gradient 5/3/1/0, passage
 
 ## P6 — Phase H
 
-**Barème :** A=5, B=0, C=1, D=3.
+**Barème :** A=0, B=5, C=1, D=3.
 
-- **A (5) :** Évaluer l'impact sur architecture, roadmap, risks et décider de l'ampleur du nouveau travail, avec analyse d'impact, classification Phase H et conséquences sur les transitions et standards. L'obsolescence stratégique peut déclencher un changement gouverné de l'architecture en service.
+- **B (5) :** Évaluer l'impact sur architecture, roadmap, risks et décider de l'ampleur du nouveau travail, avec analyse d'impact, classification Phase H et conséquences sur les transitions et standards. L'obsolescence stratégique peut déclencher un changement gouverné de l'architecture en service.
 - **D (3) :** Inscrire la fin de support dans le registre de risques et lancer une étude technique comparative, puis décider de la re-entry ADM. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
 - **C (1) :** Préparer une migration pilote du composant concerné en supposant que les interfaces existantes resteront compatibles. Couvre un aspect secondaire, insuffisant au moment décrit.
-- **B (0) :** Attendre l'arrêt effectif du support et demander ensuite une dérogation générale pour conserver la Target. Contourne la contrainte structurante.
+- **A (0) :** Attendre l'arrêt effectif du support et demander ensuite une dérogation générale pour conserver la Target. Contourne la contrainte structurante.
 
 **Référence :** X2202, Practitioner, unité 6.
 
 ## P7 — Requirements Management
 
-**Barème :** A=3, B=5, C=0, D=1.
+**Barème :** A=3, B=0, C=5, D=1.
 
-- **B (5) :** Identifier le conflit, engager les stakeholders, analyser options et maintenir la trace de la décision, en distinguant le besoin de valeur analytique des méthodes possibles pour préserver la confidentialité. La bonne décision relie obligations, valeur et alternatives avec acceptation des stakeholders.
+- **C (5) :** Identifier le conflit, engager les stakeholders, analyser options et maintenir la trace de la décision, en distinguant le besoin de valeur analytique des méthodes possibles pour préserver la confidentialité. La bonne décision relie obligations, valeur et alternatives avec acceptation des stakeholders.
 - **A (3) :** Définir un modèle de données pseudonymisé comme candidat et en mesurer les conséquences métier, puis formaliser les critères de conformité. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
 - **D (1) :** Réduire la portée du besoin analytique aux données non sensibles, sans avoir évalué les résultats métier attendus. Couvre un aspect secondaire, insuffisant au moment décrit.
-- **C (0) :** Demander à la plateforme d'analytics de décider automatiquement de la minimisation nécessaire selon les capacités du fournisseur. Contourne la contrainte structurante.
+- **B (0) :** Demander à la plateforme d'analytics de décider automatiquement de la minimisation nécessaire selon les capacités du fournisseur. Contourne la contrainte structurante.
 
 **Référence :** X2202, Practitioner, unité 7.
 
 ## P8 — Supporting ADM Work
 
-**Barème :** A=5, B=3, C=1, D=0.
+**Barème :** A=0, B=3, C=1, D=5.
 
-- **A (5) :** Capability-Based Planning peut aider à regrouper et prioriser le changement autour des capacités nécessaires, en consolidant gaps, solutions potentielles et dépendances pour construire les work packages. Le regroupement des gaps évite de confondre solutions isolées et capacités partagées.
+- **D (5) :** Capability-Based Planning peut aider à regrouper et prioriser le changement autour des capacités nécessaires, en consolidant gaps, solutions potentielles et dépendances pour construire les work packages. Le regroupement des gaps évite de confondre solutions isolées et capacités partagées.
 - **B (3) :** Établir une matrice provisoire des gaps liés à l'identité et proposer un lot mutualisé, puis traiter les autres dépendances lors d'une seconde revue. Partiellement adapté, avec une dépendance ou décision laissée ouverte.
 - **C (1) :** Financer d'abord la capability dont le business case est le plus favorable et demander aux autres équipes de s'y raccorder. Couvre un aspect secondaire, insuffisant au moment décrit.
-- **D (0) :** Attribuer un lot à chaque projet existant et optimiser séparément les coûts après le démarrage des migrations. Contourne la contrainte structurante.
+- **A (0) :** Attribuer un lot à chaque projet existant et optimiser séparément les coûts après le démarrage des migrations. Contourne la contrainte structurante.
 
 **Référence :** X2202, Practitioner, unité 8.

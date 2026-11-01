@@ -53,6 +53,10 @@ La sélection des distracteurs reste une revue **qualitative** : une longueur co
 - [x] Écran lexical contre les formulations inter-examens presque identiques, après retrait des introductions génériques ; ce contrôle ne garantit pas l'unicité sémantique.
 - [ ] Étalonnage indépendant de la qualité des distracteurs et de l'adéquation au niveau Bloom réel ; voir `FINAL_AUDIT.md`.
 
+## Contre-audit Perplexity — actions de suivi
+
+La PR #3 a corrigé les explications erronées et coquilles Foundation, précisé les noms officiels du Repository, révisé les méthodes de Phase H, individualisé les 60 grilles de scénarios et équilibré les 48 réponses des examens blancs. Quatre cas complémentaires XP33–XP36 abordent Conformance et les stratégies de migration. **L'audit expert indépendant et la calibration au véritable niveau d'examen ne sont pas achevés.** Voir `07-perplexity-followup-semantic-audit.md`.
+
 ## Critères de sortie bloquants
 
 - [x] 130 objectifs évaluables disposent de références candidates exactes vers un cours et des exercices ; les dossiers comportent des corrigés. **À vérifier encore : adéquation au wording officiel, au niveau Bloom et à la référence TOGAF exacte pour chaque association.**

@@ -96,6 +96,10 @@ check(advanced_targeted == {f'XP{i:02d}' for i in range(5, 33)}, f'Expected 28 X
 check(foundation_targeted == {'XF01', 'XF02'}, f'Unexpected Foundation targeted drills: {foundation_targeted}')
 check(practitioner_targeted == {'XP01', 'XP02', 'XP03', 'XP04'}, f'Unexpected Practitioner targeted cases: {practitioner_targeted}')
 practitioner_targeted |= advanced_targeted
+extra_cases = (root / '10-practitioner-scenarios' / '12-conformance-and-migration-xp033-xp036.md').read_text(encoding='utf-8')
+extra_ids = set(re.findall(r'^## (XP[0-9]{2})', extra_cases, re.M))
+check(extra_ids == {'XP33', 'XP34', 'XP35', 'XP36'}, f'XP33-XP36 cases mismatch: {extra_ids}')
+practitioner_targeted |= extra_ids
 
 for row in re.findall(r'^\| L[12]\.\d+\.\d+ \|[^\n]+$', trace, re.M):
     cells = [c.strip() for c in row.split('|')[1:-1]]

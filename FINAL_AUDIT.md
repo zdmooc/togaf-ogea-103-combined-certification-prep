@@ -1,3 +1,9 @@
+# Mise à jour — contre-audit Perplexity (01/11/2026)
+
+Le contrôle des seules structures effectué avant la première fusion n'avait pas détecté des erreurs de correction, des indices de bonne réponse et des barèmes de cas peu discriminants. Une seconde remédiation est décrite dans `14-official-sources/07-perplexity-followup-semantic-audit.md`. Les examens restent des **simulations pédagogiques non étalonnées** et non des sujets officiels. **Ne pas interpréter les tests CI verts comme une validation sémantique indépendante de l'intégralité des questions.**
+
+---
+
 # Bilan de remédiation TOGAF X2202 — 1er novembre 2026
 
 **Statut : publication possible comme support indépendant d'autoformation.** Les contrôles automatisés de structure, de barème et de traçabilité ont été renforcés et passent sur la branche de correction. **Ce statut n'est pas une accréditation, un audit pédagogique indépendant, une validation psychométrique ou une garantie de réussite.** La fusion éventuelle de la PR #2 correspond à une publication interne du contenu, non à une certification du support.

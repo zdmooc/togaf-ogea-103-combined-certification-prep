@@ -210,7 +210,7 @@ A. Continuum et Repository classifient de la même manière les solutions sans r
 B. Le Continuum est une base de données technique
 C. Le Repository est un mécanisme de stockage/organisation ; le Continuum aide à classifier et contextualiser
 D. Le Repository est une phase ADM
-**Réponse : C.** B'est la distinction fondamentale. A/B/D sont faux.
+**Réponse : C.** C'est la distinction fondamentale : l'Enterprise Continuum permet de classifier et contextualiser les assets ; l'Architecture Repository sert à les conserver et les gérer.
 **Mapping : Concepts — Repository vs Continuum.**
 
 ## Q024 — Architecture Capability
@@ -342,9 +342,9 @@ D. Des décisions, compliance reviews, exceptions et éléments de gouvernance
 ## Q037 — Reference Library
 Une Reference Library sert principalement à :
 A. Mettre à disposition des références, patterns et matériels réutilisables
-B. Définir la paie
+B. Centraliser les Architecture Requirements Specification des initiatives, avec leurs critères d'acceptation
 C. Conserver exclusivement l'inventaire des services mis en production et leurs SLA
-D. Remplacer tous les standards
+D. Conserver les décisions de conformité et les exceptions accordées par l'Architecture Board
 **Réponse : A.** Elle facilite réutilisation et apprentissage. B/C/D sont faux.
 **Mapping : Concepts — Architecture Repository.**
 
@@ -387,10 +387,10 @@ D. Refuser tout tailoring
 
 ## Q042 — Tailoring
 Tailoring signifie :
-A. Supprimer toutes les phases au hasard
+A. Réduire les activités ADM au seul périmètre technique pour accélérer la livraison
 B. Adapter la méthode au contexte sans perdre sa logique de gouvernance
-C. Appliquer exactement le même niveau de détail partout
-D. Remplacer TOGAF par un outil
+C. Conserver tous les livrables standard de l'ADM sans adapter leur profondeur au programme
+D. Paramétrer un outil de modélisation puis considérer ses workflows comme la méthode retenue
 **Réponse : B.** Le tailoring est contrôlé et contextuel. A/C/D sont des caricatures.
 **Mapping : Concepts — Tailoring.**
 
@@ -491,8 +491,8 @@ D. Un état relativement stable de l'architecture
 ## Q053 — Architecture decision
 Pourquoi tracer les décisions d'architecture ?
 A. Pour conserver rationale, contraintes et responsabilités
-B. Pour empêcher toute évolution
-C. Pour supprimer les stakeholders
+B. Documenter uniquement les exigences actuellement approuvées sans liens vers leurs éléments cibles
+C. Relier chaque exigence à son sponsor, mais pas aux éléments d'architecture qui la réalisent
 D. Pour remplacer les requirements
 **Réponse : A.** La traçabilité soutient gouvernance et changement. B/C/D sont contraires à l'objectif.
 **Mapping : Concepts — Governance/Traceability.**
