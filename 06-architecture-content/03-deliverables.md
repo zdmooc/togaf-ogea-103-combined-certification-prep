@@ -15,6 +15,34 @@ Exemples fréquemment rencontrés :
 - Implementation and Migration Plan ;
 - Architecture Contract.
 
+## 1 bis. Les 16 livrables explicitement nommés par X2202 Foundation 7.3
+
+Le syllabus officiel **X2202 §3.1.7, objectif 7.3** demande de pouvoir décrire brièvement les livrables ci-dessous, produits et consommés à différents moments de l'ADM. **La phase indiquée n'est qu'un repère pédagogique** : les travaux peuvent débuter, être mis à jour ou consommés dans plusieurs phases et les cycles ADM sont itératifs.
+
+| Livrable demandé par X2202 7.3 | Rôle de décision / contenu distinctif | Repère de phase |
+|---|---|---|
+| Architecture Contract | Formalise les engagements des parties réalisant et gouvernant l'architecture | F/G, gouvernance de réalisation |
+| Architecture Definition Document | Décrit Baseline et Target Architectures, modèles et vues des domaines | B/C/D, évolue au fil de l'ADM |
+| Architecture Principles | Règles de décision durables, justification et implications | Preliminary, réutilisé ensuite |
+| Architecture Requirements Specification | Exigences d'architecture, contraintes et critères à satisfaire | A/B/C/D, affinée transversalement |
+| Architecture Roadmap | États de transition et grands work packages menant vers la cible | A, enrichie en E/F |
+| Architecture Vision | Direction, valeur métier, objectifs et périmètre de haut niveau | A |
+| Business Principles, Business Goals, and Business Drivers | Fondements, objectifs et moteurs métier qui orientent les arbitrages | Preliminary/A, entrées métiers |
+| Capability Assessment | Apprécie les capacités existantes ou nécessaires pour réaliser la transformation | Preliminary/A puis mise à jour |
+| Change Request | Formalise une demande d'évolution de l'architecture approuvée | G/H et Requirements Management |
+| Communications Plan | Prévoit qui informer, sur quels sujets, à quel moment et par quel canal | A, suit l'engagement |
+| Compliance Assessment | Évalue la conformité d'une implémentation aux exigences et décisions approuvées | G |
+| Implementation and Migration Plan | Détaille priorités, vagues, dépendances, ressources et séquencement | F |
+| Implementation Governance Model | Définit les règles, instances et processus permettant de gouverner la réalisation | E/F, utilisé en G |
+| Request for Architecture Work | Exprime et déclenche une demande métier de travail architectural | Entrée vers A |
+| Requirements Impact Assessment | Analyse les conséquences d'une modification des exigences sur l'architecture et la trajectoire | Requirements Management, toutes phases |
+| Statement of Architecture Work | Formalise le mandat de la mission d'architecture, scope, approche, contraintes et engagements | A |
+
+**Ne pas confondre :** Request for Architecture Work = demande initiale ; Statement of Architecture Work = mandat convenu ; Architecture Vision = direction et valeur ; Architecture Definition Document = description structurée ; Architecture Requirements Specification = contraintes et critères ; Architecture Roadmap = trajectoire ; Implementation and Migration Plan = séquencement opérationnel ; Implementation Governance Model = mode de contrôle de la réalisation ; Architecture Contract = engagements ; Compliance Assessment = mesure de conformité ; Change Request = demande d'évolution ; Requirements Impact Assessment = analyse d'impact d'une requirement.
+
+**Exercice ciblé :** `09-foundation-question-bank/11-x2202-deliverables-drills.md` (16 QCM couvrant les 16 livrables). Référence à relire : [X2202, §3.1.7, learning outcome 7.3](https://www.opengroup.org/library/x2202). La formulation des explications est originale et n'est pas une reproduction des questions officielles.
+
+
 ## 2. Deliverable vs Artifact
 
 Un deliverable est le **package formel**.

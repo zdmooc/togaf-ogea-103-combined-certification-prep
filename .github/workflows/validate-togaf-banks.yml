@@ -1,0 +1,28 @@
+name: Validate TOGAF training banks
+on:
+  push:
+    branches:
+      - main
+      - fix/x2202-foundation-practitioner-20261101
+  pull_request:
+    paths:
+      - '09-foundation-question-bank/**'
+      - '10-practitioner-scenarios/**'
+      - '11-mock-exams/**'
+      - 'scripts/validate_togaf_banks.py'
+      - 'scripts/validate_pedagogical_consistency.py'
+      - '14-official-sources/**'
+      - '.github/workflows/validate-togaf-banks.yml'
+
+jobs:
+  structural-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Foundation, Practitioner and combined mock structure
+        run: python scripts/validate_togaf_banks.py
+      - name: Validate graded decisions, rationales and targeted drills
+        run: python scripts/validate_pedagogical_consistency.py

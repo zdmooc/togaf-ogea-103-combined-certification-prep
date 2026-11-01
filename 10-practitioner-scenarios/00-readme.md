@@ -65,6 +65,10 @@ La répartition n’est pas présentée comme une pondération officielle : elle
 - `07-requirements-s046-s052.md`
 - `08-supporting-adm-s053-s060.md`
 
+## Révision approfondie — 1er novembre 2026
+
+Les 60 scénarios S001–S060 ont été enrichis avec conflits de parties prenantes, contraintes réelles, alternatives supplémentaires, et justification distincte des quatre niveaux 5/3/1/0. Les meilleures réponses sont réparties A/B/C/D (15 chacune). Quatre cas ciblés supplémentaires `XP01–XP04` complètent les objectifs X2202 1.11, 8.5, 8.14 et 8.18, avec corrections séparées. Huit cas longs indépendants s'ajoutent dans `09-advanced-multi-constraint-scenarios.md`, avec corrections séparées. **Le barème reste pédagogique et n'est pas validé psychométriquement.**
+
 ## Méthode d’entraînement
 
 Pour chaque scénario :

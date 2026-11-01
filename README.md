@@ -4,8 +4,8 @@ Préparation complète et structurée à la certification **TOGAF Enterprise Arc
 
 ## Status
 
-**Repository build: COMPLETE**  
-**Final audit: READY FOR SERIOUS OGEA-103 SELF-STUDY AND EXAM PREPARATION**
+**Repository build: SELF-STUDY CONTENT INTEGRATED — EXTERNAL CALIBRATION PENDING (2026-11-01)**  
+**Current audit: structural controls passed; individual semantic review and independent exam-level calibration are still pending.**
 
 Ce dépôt est un support d'autoformation original. Il n'est pas un cours accrédité The Open Group et ne garantit pas la réussite à l'examen.
 
@@ -22,6 +22,20 @@ Couvrir ensemble :
 - application pratique sur un cas fil rouge MayaBank ;
 - entraînement intensif QCM/scénarios/mocks ;
 - préparation aux entretiens d'architecte en anglais.
+
+## Compléments issus de l'audit du 1er novembre 2026
+
+- L'objectif Foundation **L1 7.3** est désormais couvert par un tableau complet de ses **16 livrables** et 16 QCM `D01–D16` avec corrigés séparés. Le glossaire Foundation inclut désormais `Digital Architecture`.
+- Un deuxième contrôle CI (`scripts/validate_pedagogical_consistency.py`) vérifie les barèmes et justifications de **140 scénarios Practitioner** (60 S + 48 mocks + 32 XP) et les nouveaux exercices ciblés ; une revue humaine de fond reste nécessaire.
+- Le rapport de référence pour l'état du dépôt est `FINAL_AUDIT.md` (le verdict READY de septembre est obsolète).
+
+- Banque Foundation : 300 bonnes réponses rééquilibrées (75 A/B/C/D), 133 distracteurs renforcés lors du premier audit (53 + 80) et 133 ensembles supplémentaires de trois distracteurs retravaillés durant l'audit de longueur. Biais de longueur amélioré : bonne réponse la plus longue 70 % → 34 %, longueur relative moyenne 2,08 → 1,12. Plus 24 QCM complémentaires dans `09-foundation-question-bank/09-advanced-drills.md`.
+- Banque Practitioner : 60 scénarios enrichis et réécrits avec contexte, quatre options argumentées et 15 meilleures réponses par lettre, plus 8 cas longs avec corrections dans `10-practitioner-scenarios/09-advanced-multi-constraint-scenarios.md`.
+- Examens blancs : les 48 scénarios Practitioner des six examens ont été approfondis, ainsi que 240 QCM Foundation des six mocks retravaillés, dont 48 réécrits en profondeur ; tous les sujets conservent leur format 40 + 8.
+- Validation automatique : `.github/workflows/validate-togaf-banks.yml` contrôle les structures, clés et barèmes, les 130 références candidates du syllabus ainsi que les biais de longueur des réponses Foundation et mocks ; elle ne certifie pas l'exactitude pédagogique.
+- Leçons complémentaires : `01-togaf-foundations/10-x2202-foundation-deepening.md` et `07-practitioner/13-x2202-practitioner-deepening.md`.
+- Traçabilité : `14-official-sources/06-x2202-learning-outcome-traceability.md` recense **131 objectifs**, dont **130 avec exercice candidat précisément identifié** et **1 objectif sans examen distinct (Bloom None)**. Deux QCM Foundation ciblés et 32 scénarios Practitioner ciblés : `09-foundation-question-bank/10-x2202-targeted-drills.md`, `10-practitioner-scenarios/10-x2202-targeted-cases.md` et `10-practitioner-scenarios/11-x2202-gap-closure-scenarios.md`. Les 131 niveaux Bloom officiels figurent dans la matrice ; 31 associations d'objectifs initialement trop générales ont été corrigées avec des cas spécifiques ; l'évaluation de l'adéquation réelle de chaque question au niveau requis reste à compléter.
+- Portes de sortie : `14-official-sources/05-x2202-remediation-register.md`. **Aucune équivalence avec la difficulté officielle n'est démontrée.**
 
 ## Structure du dépôt
 
@@ -45,16 +59,16 @@ Voir également :
 - `AUDIT.md` — audit initial et architecture cible du dépôt
 - `FINAL_AUDIT.md` — contrôle final, couverture, limites et verdict de readiness
 
-## Format d'examen de référence — vérifié 2026-09-06
+## Format d'examen de référence — vérifié 2026-11-01
 
-### OGEA-101 / Part 1
+### OGEA-101 / Part 1 (français : OGEA-F101)
 
 - 40 questions
 - 60 minutes
 - 60% pour réussir
 - répartition publique : **8 Concepts / 14 ADM / 6 ADM Techniques / 4 Applying ADM / 3 Governance / 5 Architecture Content**
 
-### OGEA-102 / Part 2
+### OGEA-102 / Part 2 (français : OGEA-F102)
 
 - 8 scénarios
 - 90 minutes

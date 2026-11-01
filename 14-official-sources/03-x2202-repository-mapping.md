@@ -1,3 +1,7 @@
+# AVERTISSEMENT : ce tableau décrit les grands domaines, pas chaque learning outcome
+
+La présence d'un chapitre ou d'un ensemble de QCM **ne prouve pas** que chaque objectif de X2202 est maîtrisé et évalué. Le registre de remédiation plus précis se trouve dans `05-x2202-remediation-register.md`. Ne pas conclure à une couverture parfaite sur la seule base du tableau ci-dessous.
+
 # X2202 Syllabus → Repository Mapping
 
 Verified on **2026-09-06**.

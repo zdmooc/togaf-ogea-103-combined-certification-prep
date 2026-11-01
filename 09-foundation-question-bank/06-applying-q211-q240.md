@@ -2,182 +2,274 @@
 
 ## Q211 — Tailoring
 Pourquoi tailor l'ADM ?
-A. Pour l'adapter au contexte, au scope et à la gouvernance de l'organisation  B. Pour supprimer toute structure  C. Pour éviter les stakeholders  D. Pour imposer un seul niveau de détail
-**Réponse : A.** Le tailoring garde la logique TOGAF tout en l'adaptant au contexte. B/C/D sont des déformations.
+A. Pour supprimer les objectifs ADM qui imposent une coordination entre domaines métiers
+B. Pour adopter la même architecture cible indépendamment du périmètre réel du projet
+C. Pour l'adapter au contexte, au scope et à la gouvernance de l'organisation
+D. Pour remplacer les activités de gouvernance par un simple planning des releases
+**Réponse : C.** Le tailoring garde la logique TOGAF tout en l'adaptant au contexte. A/B/D sont des déformations.
 **Mapping : Applying ADM — Tailoring.**
 
 ## Q212 — Tailoring scope
 Que peut-on adapter lors du tailoring ?
-A. Processus, terminologie, artifacts, gouvernance et niveau de détail  B. Les lois applicables  C. La réalité métier  D. Le fait qu'une architecture doive répondre à des concerns
-**Réponse : A.** TOGAF peut être adapté dans sa mise en œuvre, pas dans les contraintes externes ou la logique fondamentale.
+A. Uniquement les versions de produits installés sans modifier les activités de l'ADM
+B. Uniquement les horaires de réunion du Board sans adaptation de périmètre
+C. Le modèle métier de l'entreprise sans considérer ses responsabilités de gouvernance
+D. Processus, terminologie, artifacts, gouvernance et niveau de détail
+**Réponse : D.** TOGAF peut être adapté dans sa mise en œuvre, pas dans les contraintes externes ou la logique fondamentale.
 **Mapping : Applying ADM — Tailoring.**
 
 ## Q213 — Tailoring discipline
 Quel tailoring est le plus sain ?
-A. Supprimer un artifact si aucune décision ni concern ne le justifie, en documentant l'adaptation  B. Supprimer Phase G pour éviter les reviews  C. Ignorer Requirements Management  D. Sauter les stakeholders pour gagner du temps
+A. Supprimer un artifact si aucune décision ni concern ne le justifie, en documentant l'adaptation
+B. Supprimer Phase G pour éviter les reviews
+C. Supprimer les mécanismes de gestion des requirements pour réduire le nombre d'artifacts
+D. Sauter les stakeholders pour gagner du temps
 **Réponse : A.** L'adaptation doit être intentionnelle et gouvernée. B/C/D suppriment des mécanismes essentiels.
 **Mapping : Applying ADM — Tailoring.**
 
 ## Q214 — Tailoring vs inconsistency
 Une équipe appelle « Phase A » un travail de Migration Planning sans explication. Quel risque ?
-A. Perdre le langage commun et la traçabilité  B. Améliorer automatiquement la méthode  C. Réduire le besoin de gouvernance  D. Aucun risque
-**Réponse : A.** Le tailoring ne doit pas rendre le framework incompréhensible ou incohérent.
+A. Améliorer automatiquement la méthode
+B. Perdre le langage commun et la traçabilité
+C. Réduire le besoin de gouvernance
+D. Aucun risque
+**Réponse : B.** Le tailoring ne doit pas rendre le framework incompréhensible ou incohérent.
 **Mapping : Applying ADM — Tailoring.**
 
 ## Q215 — Iterative ADM
 L'ADM peut être itératif parce que :
-A. Les architectures et requirements sont affinées à mesure que la compréhension progresse  B. Les phases n'ont aucun objectif  C. Toute séquence est inutile  D. Il faut toujours recommencer depuis Preliminary
-**Réponse : A.** L'itération est structurée, pas arbitraire. B/C/D sont faux.
+A. La progression ADM est strictement linéaire et chaque phase devient immuable après revue
+B. L'itération n'intervient qu'après Phase G, à l'issue de la première mise en production
+C. Les architectures et requirements sont affinées à mesure que la compréhension progresse
+D. Requirements Management peut remplacer les architectures B/C/D et leur vérification métier
+**Réponse : C.** L'itération est structurée, pas arbitraire. A/B/D sont faux.
 **Mapping : Applying ADM — Iteration.**
 
 ## Q216 — Iteration between domains
 Un choix Application révèle une contrainte Data majeure. Que peut-on faire ?
-A. Itérer entre les travaux Data et Application  B. Ignorer la contrainte  C. Attendre H  D. Refaire toujours Phase F
-**Réponse : A.** L'ADM permet des boucles cohérentes entre domaines interdépendants.
+A. Valider l'Application Architecture sans analyser son impact sur les entités Data concernées
+B. Attendre H
+C. Refaire toujours Phase F
+D. Itérer entre les travaux Data et Application
+**Réponse : D.** L'ADM permet des boucles cohérentes entre domaines interdépendants.
 **Mapping : Applying ADM — Iteration.**
 
 ## Q217 — Iteration and feedback
 Pourquoi intégrer des feedback loops dans un environnement digital ?
-A. Pour ajuster architecture et requirements selon les résultats réels  B. Pour supprimer la Target  C. Pour éviter les principles  D. Pour remplacer la governance
+A. Pour ajuster architecture et requirements selon les résultats réels
+B. Pour supprimer la gouvernance des standards dès que les produits peuvent livrer rapidement
+C. Pour considérer que la Vision initiale ne nécessite plus de validation des stakeholders
+D. Pour figer définitivement les requirements après la première release produite
 **Réponse : A.** Les feedback loops soutiennent l'apprentissage et l'évolution contrôlée.
 **Mapping : Applying ADM — Iteration/Digital.**
 
 ## Q218 — Levels of Architecture
 Pourquoi travailler à plusieurs niveaux d'architecture ?
-A. Pour gérer la complexité et adapter le niveau de décision  B. Pour dupliquer les mêmes documents  C. Pour isoler totalement les équipes  D. Pour éviter l'Enterprise Architecture
-**Réponse : A.** Les niveaux rendent les décisions proportionnées et coordonnées.
+A. Pour dupliquer les mêmes documents
+B. Pour gérer la complexité et adapter le niveau de décision
+C. Pour isoler totalement les équipes
+D. Pour éviter l'Enterprise Architecture
+**Réponse : B.** Les niveaux rendent les décisions proportionnées et coordonnées.
 **Mapping : Applying ADM — Levels of Architecture.**
 
 ## Q219 — Enterprise level
 Au niveau Enterprise, l'architecture se concentre surtout sur :
-A. Les orientations et cohérences transverses de l'entreprise  B. Le code d'une seule classe  C. Un incident isolé  D. Une configuration de pod uniquement
-**Réponse : A.** Le niveau Enterprise est large et stratégique.
+A. Le code d'une seule classe
+B. Les détails de conception d'une API propre à une squad
+C. Les orientations et cohérences transverses de l'entreprise
+D. Une configuration de pod uniquement
+**Réponse : C.** Le niveau Enterprise est large et stratégique.
+**Distracteur B :** Ces décisions relèvent d'un niveau plus proche de la solution.
 **Mapping : Applying ADM — Levels.**
 
 ## Q220 — Segment/Capability level
 Un niveau segment/capability est utile pour :
-A. Détailler une partie cohérente de l'entreprise tout en restant aligné au niveau supérieur  B. Remplacer toute architecture entreprise  C. Ignorer les standards  D. Supprimer les dépendances
-**Réponse : A.** Il fournit un niveau intermédiaire de décision.
+A. Remplacer toute architecture entreprise
+B. Définir un segment sans respecter les interfaces ni les standards de l'entreprise
+C. Supprimer les dépendances
+D. Détailler une partie cohérente de l'entreprise tout en restant aligné au niveau supérieur
+**Réponse : D.** Il fournit un niveau intermédiaire de décision.
 **Mapping : Applying ADM — Levels.**
 
 ## Q221 — Solution level
 Une Solution Architecture doit idéalement :
-A. Réaliser les intentions d'architecture supérieures tout en répondant au contexte de solution  B. Ignorer les ABB  C. Redéfinir seule la stratégie d'entreprise  D. Échapper à la governance
+A. Réaliser les intentions d'architecture supérieures tout en répondant au contexte de solution
+B. Écarter les ABB approuvés même lorsqu'ils expriment des capacités requises par la solution
+C. Redéfinir seule la stratégie d'entreprise
+D. Échapper à la governance
 **Réponse : A.** Les niveaux doivent rester cohérents, sans nier les contraintes locales.
 **Mapping : Applying ADM — Levels.**
 
 ## Q222 — Partitioning
 Architecture Partitioning sert à :
-A. Diviser le paysage d'architecture en parties gouvernables avec frontières et responsabilités  B. Supprimer les interfaces  C. Éviter la coordination  D. Remplacer les domains
-**Réponse : A.** Le partitioning structure la complexité et les responsabilités.
+A. Définir une même profondeur de détail et une même durée pour toutes les architectures de l'entreprise
+B. Diviser le paysage d'architecture en parties gouvernables avec frontières et responsabilités
+C. Ordonner les releases d'un programme sans identifier les espaces de responsabilité
+D. Appliquer des standards identiques à tous les composants sans gérer les interfaces entre domaines
+**Réponse : B.** Le partitioning structure la complexité et les responsabilités.
 **Mapping : Applying ADM — Partitioning.**
 
 ## Q223 — Partition boundary
 Pourquoi clarifier les frontières entre partitions ?
-A. Pour maîtriser ownership, interfaces et dépendances  B. Pour empêcher tout partage  C. Pour éliminer le Repository  D. Pour choisir un vendor
-**Réponse : A.** Les frontières ambiguës génèrent incohérences et doublons.
+A. Pour permettre à chaque partition d'utiliser ses propres standards contradictoires
+B. Pour éliminer toutes les dépendances entre domaines sans modélisation des flux
+C. Pour maîtriser ownership, interfaces et dépendances
+D. Pour remplacer la matrice des responsabilités par le seul calendrier du programme
+**Réponse : C.** Les frontières ambiguës génèrent incohérences et doublons.
 **Mapping : Applying ADM — Partitioning.**
 
 ## Q224 — Federation
 Dans une architecture fédérée, que recherche-t-on ?
-A. Un équilibre entre autonomie locale et cohérence globale  B. Centraliser chaque décision  C. Autoriser toute divergence  D. Supprimer les standards
-**Réponse : A.** La fédération combine autonomie et gouvernance partagée.
+A. Une autonomie absolue des filiales sans mécanisme de cohérence ou de standards
+B. Une validation centrale de toute décision locale, même dépourvue d'impact transverse
+C. Une architecture unique à un niveau de détail imposé identiquement aux domaines
+D. Un équilibre entre autonomie locale et cohérence globale
+**Réponse : D.** La fédération combine autonomie et gouvernance partagée.
 **Mapping : Applying ADM — Federation.**
 
 ## Q225 — Federation governance
 Quel mécanisme aide une fédération d'équipes ?
-A. Des principles, standards, interfaces et forums de gouvernance communs  B. Aucun contrat d'interface  C. Aucun stakeholder transversal  D. Des décisions secrètes
+A. Des principles, standards, interfaces et forums de gouvernance communs
+B. Aucun contrat d'interface
+C. Laisser chaque équipe décider ses standards sans mécanisme de cohérence transverse
+D. Des décisions secrètes
 **Réponse : A.** Des règles partagées rendent l'autonomie compatible avec la cohérence.
 **Mapping : Applying ADM — Federation.**
 
 ## Q226 — Security cross-cutting
 Comment appliquer la sécurité avec l'ADM ?
-A. Comme concern transverse intégré aux phases et requirements  B. Seulement après G  C. Seulement en D  D. Seulement si le CISO le demande à la fin
-**Réponse : A.** Security/risk doivent influencer architecture, requirements et governance dès le début.
+A. Ne traiter les risques de sécurité qu'après la dernière revue de conformité
+B. Comme concern transverse intégré aux phases et requirements
+C. Concentrer les exigences de sécurité exclusivement dans la Technology Architecture
+D. Inscrire les contrôles de sécurité seulement après le choix de toutes les solutions
+**Réponse : B.** Security/risk doivent influencer architecture, requirements et governance dès le début.
 **Mapping : Applying ADM — Security.**
 
 ## Q227 — Security in A
 En Phase A, la sécurité doit notamment :
-A. Identifier concerns, contraintes et risques majeurs de haut niveau  B. Attendre la production  C. Choisir toutes les configurations finales  D. Être hors scope par défaut
-**Réponse : A.** Les enjeux majeurs doivent être intégrés dès le cadrage sans sur-détailler.
+A. Choisir tous les produits de protection avant l'identification des business drivers
+B. Réserver les security controls au contrôle de conformité final de Phase G
+C. Identifier concerns, contraintes et risques majeurs de haut niveau
+D. Créer une dérogation générale permettant d'ignorer les requirements de sécurité
+**Réponse : C.** Les enjeux majeurs doivent être intégrés dès le cadrage sans sur-détailler.
 **Mapping : Applying ADM — Security.**
 
 ## Q228 — Security in B/C/D
 En B/C/D, une approche correcte est :
-A. Raffiner les requirements et controls de sécurité dans chaque domaine pertinent  B. Traiter sécurité uniquement en D  C. Ignorer Business Architecture  D. Éviter toute traçabilité
-**Réponse : A.** La sécurité traverse Business, Data, Application et Technology.
+A. Traiter sécurité uniquement en D
+B. Déduire les exigences de sécurité exclusivement de la plateforme technique retenue
+C. Éviter toute traçabilité
+D. Raffiner les requirements et controls de sécurité dans chaque domaine pertinent
+**Réponse : D.** La sécurité traverse Business, Data, Application et Technology.
 **Mapping : Applying ADM — Security.**
 
 ## Q229 — Security in G
 En Phase G, la sécurité est notamment vérifiée par :
-A. Des preuves de conformité aux requirements/controls approuvés  B. Le nombre de diagrams  C. La seule opinion du sponsor  D. La couleur du backlog
+A. Des preuves de conformité aux requirements/controls approuvés
+B. Le classement des work packages en fonction de la valeur métier de chaque release
+C. La définition d'une Technology Architecture sans exigences ni risque résiduel
+D. Une comparaison de la seule architecture Baseline aux architectures cibles du programme
 **Réponse : A.** G vérifie l'implémentation concrète.
 **Mapping : Applying ADM — Security/Governance.**
 
 ## Q230 — Digital Enterprise
 Dans une digital enterprise, l'architecture doit souvent :
-A. Supporter vitesse, feedback, modularité et évolution continue tout en gardant la gouvernance  B. Devenir entièrement documentaire  C. Supprimer les standards  D. Éviter toute architecture cible
-**Réponse : A.** TOGAF peut être appliqué dans un contexte digital de manière adaptée.
+A. Fixer une Architecture Definition Document immuable avant les premières itérations produit
+B. Supporter vitesse, feedback, modularité et évolution continue tout en gardant la gouvernance
+C. Remplacer toute gouvernance de domaine par les seules décisions quotidiennes des squads
+D. S'appuyer exclusivement sur la Target Technology sans expliciter les drivers métier évolutifs
+**Réponse : B.** TOGAF peut être appliqué dans un contexte digital de manière adaptée.
 **Mapping : Applying ADM — Digital Enterprise.**
 
 ## Q231 — Digital building blocks
 Pourquoi modulariser des building blocks dans un contexte digital ?
-A. Pour favoriser réutilisation, autonomie et évolution maîtrisée  B. Pour créer davantage de dépendances cachées  C. Pour supprimer les contracts  D. Pour rendre les interfaces implicites
-**Réponse : A.** La modularité bien gouvernée soutient vitesse et cohérence.
+A. Pour créer davantage de dépendances cachées
+B. Pour supprimer les contracts
+C. Pour favoriser réutilisation, autonomie et évolution maîtrisée
+D. Pour rendre les interfaces implicites
+**Réponse : C.** La modularité bien gouvernée soutient vitesse et cohérence.
 **Mapping : Applying ADM — Digital Enterprise.**
 
 ## Q232 — Continuous architecture
 Une architecture digitale efficace est souvent :
-A. Maintenue et ajustée continuellement plutôt que figée une fois pour toutes  B. Écrite une fois puis jamais revue  C. Déconnectée du delivery  D. Sans governance
-**Réponse : A.** Les environnements digitaux évoluent et exigent feedback et change management.
+A. Définie une fois en Preliminary et conservée sans révision pendant les releases de l'entreprise
+B. Limitée à la seule Architecture Vision initiale sans itération entre Data et Application
+C. Adaptée uniquement lorsque le comité de projet annule la roadmap et lance un nouveau programme
+D. Maintenue et ajustée continuellement plutôt que figée une fois pour toutes
+**Réponse : D.** Les environnements digitaux évoluent et exigent feedback et change management.
 **Mapping : Applying ADM — Digital Enterprise.**
 
 ## Q233 — Agile and TOGAF
 TOGAF et Agile sont :
-A. Compatibles si l'ADM est adapté et la gouvernance intégrée aux boucles de delivery  B. Mutuellement exclusifs  C. Identiques  D. Compatibles seulement si aucune architecture n'existe
+A. Compatibles si l'ADM est adapté et la gouvernance intégrée aux boucles de delivery
+B. Incompatibles car l'ADM exige de terminer intégralement toutes les phases avant chaque sprint
+C. Compatibles seulement si les product owners remplacent toutes les autorités de gouvernance
+D. Compatibles uniquement en Phase G, lorsque les produits sont déjà réalisés et testés
 **Réponse : A.** L'un organise l'architecture, l'autre le delivery adaptatif ; ils peuvent se compléter.
 **Mapping : Applying ADM — Agile and TOGAF.**
 
 ## Q234 — Architecture runway
 Dans un environnement Agile, l'architecture doit :
-A. Fournir suffisamment de direction et de constraints pour permettre le delivery sans figer tout le futur  B. Détailler chaque sprint des années à l'avance  C. Éviter les feedback loops  D. Interdire les décisions locales
-**Réponse : A.** L'architecture donne une direction évolutive et gouvernée.
+A. Figer toutes les architectures de domaine avant le premier sprint et interdire leur évolution
+B. Fournir suffisamment de direction et de constraints pour permettre le delivery sans figer tout le futur
+C. Déléguer toutes les décisions aux produits sans maintenir les standards et exigences transverses
+D. Limiter l'architecture aux contrôles réalisés après chaque déploiement, sans Vision cible
+**Réponse : B.** L'architecture donne une direction évolutive et gouvernée.
 **Mapping : Applying ADM — Agile and TOGAF.**
 
 ## Q235 — Agile governance
 Quelle approche est préférable ?
-A. Intégrer les architecture decisions et compliance checks dans le flux Agile  B. Faire une review unique trois ans après  C. Supprimer les principles  D. Ne jamais documenter les décisions
-**Réponse : A.** Une gouvernance légère et continue est plus adaptée au rythme Agile.
+A. Conserver les architecture decisions hors des sprints jusqu'au prochain audit annuel
+B. Substituer systématiquement le backlog des squads aux standards et principles approuvés
+C. Intégrer les architecture decisions et compliance checks dans le flux Agile
+D. Attendre la fin de toutes les releases avant de vérifier les exigences et les exceptions
+**Réponse : C.** Une gouvernance légère et continue est plus adaptée au rythme Agile.
 **Mapping : Applying ADM — Agile and TOGAF.**
 
 ## Q236 — Large Enterprise
 Dans une grande entreprise, quel problème devient particulièrement important ?
-A. Coordonner plusieurs domaines, niveaux, partitions et cycles  B. Réduire le nombre de stakeholders à un  C. N'avoir qu'une seule solution pour tout  D. Supprimer l'Architecture Repository
-**Réponse : A.** La complexité organisationnelle nécessite fédération et coordination.
+A. Réduire le nombre de stakeholders à un
+B. N'avoir qu'une seule solution pour tout
+C. Supprimer l'Architecture Repository
+D. Coordonner plusieurs domaines, niveaux, partitions et cycles
+**Réponse : D.** La complexité organisationnelle nécessite fédération et coordination.
 **Mapping : Applying ADM — Large Enterprise.**
 
 ## Q237 — Large enterprise consistency
 Comment maintenir la cohérence entre plusieurs équipes d'architecture ?
-A. Principles, standards, metamodel, repository et gouvernance partagés  B. Aucun mécanisme commun  C. Chaque équipe redéfinit le vocabulaire  D. Pas de review inter-domaines
+A. Principles, standards, metamodel, repository et gouvernance partagés
+B. En laissant chaque équipe choisir librement ses standards sans mécanisme commun d'arbitrage
+C. En centralisant toutes les décisions de détail au Board, y compris les changements mineurs
+D. En conservant seulement le Repository partagé sans governance ou roles explicites
 **Réponse : A.** Les mécanismes partagés permettent une architecture fédérée mais cohérente.
 **Mapping : Applying ADM — Large Enterprise.**
 
 ## Q238 — Large enterprise reuse
 Pourquoi le Repository est-il particulièrement utile à grande échelle ?
-A. Pour favoriser visibilité, réutilisation et cohérence entre nombreux travaux  B. Pour stocker uniquement les mots de passe  C. Pour remplacer les architects  D. Pour éviter les standards
-**Réponse : A.** Sans repository commun, la duplication et les divergences augmentent.
+A. Pour remplacer les principes d'architecture par des décisions locales
+B. Pour favoriser visibilité, réutilisation et cohérence entre nombreux travaux
+C. Pour remplacer les architects
+D. Pour éviter les standards
+**Réponse : B.** Sans repository commun, la duplication et les divergences augmentent.
+**Distracteur A :** Le Repository aide à appliquer principes et réutilisation, non à les remplacer.
 **Mapping : Applying ADM — Large Enterprise.**
 
 ## Q239 — Context over rigidity
 Quel principe d'application est le plus cohérent ?
-A. Adapter l'ADM au contexte tout en préservant objectifs, traçabilité et gouvernance  B. Appliquer mécaniquement tous les artifacts  C. Supprimer les phases difficiles  D. Choisir la méthode après la solution
-**Réponse : A.** TOGAF est tailorable mais reste discipliné.
+A. Remplacer les phases ADM par les choix de produits établis au début du programme
+B. Garder des phases linéaires immuables pour garantir la conformité du projet
+C. Adapter l'ADM au contexte tout en préservant objectifs, traçabilité et gouvernance
+D. Supprimer la governance transverse afin de raccourcir les revues des équipes
+**Réponse : C.** TOGAF est tailorable mais reste discipliné.
 **Mapping : Applying ADM — Synthesis.**
 
 ## Q240 — Applying ADM synthesis
 Une banque avec 30 équipes Agile et plusieurs domaines veut utiliser TOGAF. Quelle approche est la meilleure ?
-A. Architecture fédérée, tailoring, niveaux cohérents, governance continue et repository partagé  B. Un seul document central figé  C. Aucun principle pour laisser l'autonomie totale  D. Une seule équipe qui valide chaque petite décision
-**Réponse : A.** Elle combine les mécanismes d'application adaptés à une grande organisation Agile.
+A. Un Board central approuvant chaque ticket produit avant sa mise en production
+B. Des squads autonomes sans principes communs ni requirements transverses
+C. Une démarche waterfall complète et identique imposée aux trente équipes
+D. Architecture fédérée, tailoring, niveaux cohérents, governance continue et repository partagé
+**Réponse : D.** Elle combine les mécanismes d'application adaptés à une grande organisation Agile.
 **Mapping : Applying ADM — Synthesis.**
 
 ---

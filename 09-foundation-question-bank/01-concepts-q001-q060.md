@@ -2,362 +2,564 @@
 
 ## Q001 — Enterprise Architecture
 Quel énoncé décrit le mieux l'Enterprise Architecture ?
-A. Un inventaire de serveurs  B. Une discipline reliant stratégie, métier et évolution du SI  C. Un outil de modélisation  D. Un plan projet
-**Réponse : B.** L'EA organise la cohérence et la transformation de l'entreprise. A est trop technique, C n'est qu'un moyen, D relève du delivery.
+A. Une discipline reliant stratégie, métier et évolution du SI
+B. Une méthode de contrôle du seul portefeuille technologique
+C. Un outil de modélisation
+D. Un plan projet
+**Réponse : A.** L'EA organise la cohérence et la transformation de l'entreprise. B est trop technique, C n'est qu'un moyen, D relève du delivery.
+**Distracteur B :** Le portefeuille technologique ne couvre qu'une partie de la discipline d'Enterprise Architecture.
 **Mapping : Concepts — Enterprise Architecture.**
 
 ## Q002 — Valeur de l'architecture
 Quelle est la meilleure description de la valeur d'une architecture d'entreprise ?
-A. Produire beaucoup de diagrammes  B. Remplacer la gestion de projet  C. Aider à aligner, arbitrer et conduire la transformation  D. Choisir tous les produits
-**Réponse : C.** La valeur vient des décisions et de l'alignement. A confond documentation et valeur ; B et D dépassent le rôle de l'EA.
+A. Produire beaucoup de diagrammes
+B. Aider à aligner, arbitrer et conduire la transformation
+C. Remplacer la gestion de projet
+D. Choisir tous les produits
+**Réponse : B.** La valeur vient des décisions et de l'alignement. A confond documentation et valeur ; C et D dépassent le rôle de l'EA.
 **Mapping : Concepts — Value of Architecture.**
 
 ## Q003 — TOGAF
 TOGAF est principalement :
-A. Un produit logiciel  B. Un framework et une méthode pour l'Enterprise Architecture  C. Un langage de programmation  D. Une norme de sécurité
-**Réponse : B.** TOGAF fournit un cadre et l'ADM. A, C et D décrivent d'autres types d'objets.
+A. Un cadre contractuel destiné à la gestion des fournisseurs et à l'approbation des achats
+B. Une bibliothèque de standards techniques destinée uniquement à l'architecture infrastructure
+C. Un framework et une méthode pour l'Enterprise Architecture
+D. Une méthode de gestion opérationnelle des releases sans architecture métier ou données
+**Réponse : C.** TOGAF fournit un cadre et l'ADM. A, B et D décrivent d'autres types d'objets.
 **Mapping : Concepts — What is TOGAF.**
 
 ## Q004 — ADM
 Que signifie ADM ?
-A. Architecture Delivery Model  B. Architecture Development Method  C. Application Design Matrix  D. Architecture Decision Mechanism
-**Réponse : B.** ADM = Architecture Development Method. Les autres développements sont faux.
+A. Architecture Delivery Model
+B. Application Design Matrix
+C. Architecture Decision Mechanism
+D. Architecture Development Method
+**Réponse : D.** ADM = Architecture Development Method. Les autres développements sont faux.
 **Mapping : Concepts — ADM.**
 
 ## Q005 — Business Architecture
 Quel domaine s'intéresse en priorité aux capacités, processus, rôles et services métier ?
-A. Business Architecture  B. Data Architecture  C. Application Architecture  D. Technology Architecture
+A. Business Architecture
+B. Data Architecture
+C. Application Architecture
+D. Technology Architecture
 **Réponse : A.** Les capacités et processus sont d'abord métier. B traite l'information, C les applications, D les plateformes techniques.
 **Mapping : Concepts — Four Domains.**
 
 ## Q006 — Data Architecture
 Quel sujet relève principalement de la Data Architecture ?
-A. Ownership et cycle de vie des données  B. Structure d'une équipe projet  C. Choix d'un hyperviseur  D. Contrat avec un fournisseur
-**Réponse : A.** La Data Architecture couvre structure, gouvernance, flux et lifecycle des données. B/C/D relèvent d'autres préoccupations.
+A. Structure d'une équipe projet
+B. Ownership et cycle de vie des données
+C. Choix d'un hyperviseur
+D. Contrat avec un fournisseur
+**Réponse : B.** La Data Architecture couvre structure, gouvernance, flux et lifecycle des données. A/C/D relèvent d'autres préoccupations.
 **Mapping : Concepts — Data Architecture.**
 
 ## Q007 — Application Architecture
 Quel énoncé correspond le mieux à l'Application Architecture ?
-A. Décrire les services applicatifs et leurs interactions  B. Définir la stratégie commerciale  C. Gérer les salaires  D. Définir uniquement le réseau
-**Réponse : A.** L'Application Architecture traite le paysage applicatif et les services. B est métier ; C hors sujet ; D est technologique.
+A. Définir la stratégie commerciale
+B. Décrire les processus métier indépendamment de leurs services numériques
+C. Décrire les services applicatifs et leurs interactions
+D. Définir uniquement le réseau
+**Réponse : C.** L'Application Architecture traite le paysage applicatif et les services. A est métier ; B hors sujet ; D est technologique.
+**Distracteur B :** Les processus métier concernent principalement la Business Architecture.
 **Mapping : Concepts — Application Architecture.**
 
 ## Q008 — Technology Architecture
 Quel élément relève principalement de la Technology Architecture ?
-A. Capacité métier  B. Plateforme d'exécution et infrastructure  C. Ownership d'une donnée client  D. Concern du sponsor
-**Réponse : B.** Les plateformes et technologies relèvent du domaine Technology. A/C/D appartiennent à d'autres concepts.
+A. Capacité métier
+B. Ownership d'une donnée client
+C. Concern du sponsor
+D. Plateforme d'exécution et infrastructure
+**Réponse : D.** Les plateformes et technologies relèvent du domaine Technology. A/B/C appartiennent à d'autres concepts.
 **Mapping : Concepts — Technology Architecture.**
 
 ## Q009 — Capability vs Application
 Une business capability représente :
-A. Ce que l'entreprise doit être capable de faire  B. Une application précise  C. Un serveur  D. Un document contractuel
+A. Ce que l'entreprise doit être capable de faire
+B. Une application précise
+C. Une application qui réalise actuellement une fonction métier
+D. Un document contractuel
 **Réponse : A.** Une capability décrit une aptitude métier indépendante d'une solution particulière. B/C sont des moyens possibles ; D est différent.
+**Distracteur C :** L'application est un moyen contingent de réaliser la capability et peut être remplacée.
 **Mapping : Concepts — Capability.**
 
 ## Q010 — Stakeholder
 Un stakeholder est :
-A. Seulement le sponsor  B. Toute partie ayant un intérêt dans ou étant affectée par l'architecture  C. Uniquement l'architecte  D. Un artifact
+A. Le seul décideur autorisé à approuver formellement toutes les vues de la Target
+B. Toute partie ayant un intérêt dans ou étant affectée par l'architecture
+C. Le rôle technique chargé exclusivement de produire les diagrammes d'architecture
+D. Un artifact
 **Réponse : B.** Le terme couvre sponsor, métier, sécurité, opérations, etc. A et C sont trop restrictifs ; D est une catégorie de contenu.
 **Mapping : Concepts — Stakeholders.**
 
 ## Q011 — Concern
 Dans TOGAF, un concern est :
-A. Une préoccupation importante d'un stakeholder  B. Un composant logiciel  C. Une phase ADM  D. Une migration wave
-**Réponse : A.** Le concern exprime ce qui importe au stakeholder. B/C/D sont d'autres objets.
+A. Une contrainte technique détaillée et mesurable déjà approuvée pour la solution cible
+B. La convention formelle permettant de construire une représentation de l'architecture
+C. Une préoccupation importante d'un stakeholder
+D. Une décision d'architecture prise par le Board et enregistrée dans le Governance Log
+**Réponse : C.** Le concern exprime ce qui importe au stakeholder. A/B/D sont d'autres objets.
 **Mapping : Concepts — Concerns.**
 
 ## Q012 — Viewpoint
 Un viewpoint est le mieux décrit comme :
-A. La représentation finale  B. La convention permettant de construire une view répondant à des concerns  C. Un projet  D. Un requirement
-**Réponse : B.** Le viewpoint définit comment produire la view. A décrit la view ; C/D sont différents.
+A. Une architecture view concrète construite pour présenter un domaine ou une relation
+B. Un content metamodel spécifiant les types, propriétés et relations des éléments
+C. Un architecture artifact formel représentant les interactions entre composants
+D. La convention permettant de construire une view répondant à des concerns
+**Réponse : D.** Le viewpoint définit comment produire la view. A décrit la view ; B/C sont différents.
 **Mapping : Concepts — View/Viewpoint.**
 
 ## Q013 — View
 Une view est :
-A. Une représentation d'architecture construite selon un viewpoint  B. Une règle absolue de gouvernance  C. Un repository  D. Une solution fournisseur
+A. Une représentation d'architecture construite selon un viewpoint
+B. Une spécification de la notation et des conventions servant à créer des vues, et non une vue concrète
+C. Un produit de travail contractuel pouvant contenir plusieurs matrices ou diagrammes de domaines
+D. Un building block physique dont les propriétés techniques ont été validées par l'exploitation
 **Réponse : A.** La view est la représentation produite pour répondre à des concerns. B/C/D sont d'autres notions.
 **Mapping : Concepts — View/Viewpoint.**
 
 ## Q014 — Chaîne stakeholder
 Quel enchaînement est le plus cohérent ?
-A. View → Stakeholder → Concern → Viewpoint  B. Stakeholder → Concern → Viewpoint → View  C. Requirement → View → Stakeholder → Principle  D. Artifact → Concern → Sponsor → ADM
+A. View → Stakeholder → Concern → Viewpoint
+B. Stakeholder → Concern → Viewpoint → View
+C. Requirement → View → Stakeholder → Principle
+D. Artifact → Concern → Sponsor → ADM
 **Réponse : B.** On part du stakeholder et de ses concerns pour choisir un viewpoint et produire une view. Les autres inversent la logique.
 **Mapping : Concepts — Stakeholders, Concerns, Views.**
 
 ## Q015 — Architecture Principle
 Un Architecture Principle sert principalement à :
-A. Guider de manière durable les décisions d'architecture  B. Décrire un ticket d'incident  C. Remplacer une requirement  D. Définir un planning détaillé
-**Réponse : A.** Un principe guide les décisions. B/D sont opérationnels ; C est faux car principe et requirement sont distincts.
+A. Formaliser une condition mesurable que la Target doit satisfaire
+B. Remplacer une requirement
+C. Guider de manière durable les décisions d'architecture
+D. Définir un planning détaillé
+**Réponse : C.** Un principe guide les décisions. A/D sont opérationnels ; B est faux car principe et requirement sont distincts.
+**Distracteur A :** Une condition vérifiable est une requirement, pas un principe directeur durable.
 **Mapping : Concepts — Architecture Principles.**
 
 ## Q016 — Principe vs Requirement
 Quelle distinction est correcte ?
-A. Un principe est plus spécifique qu'une requirement  B. Une requirement est toujours éternelle  C. Un principe guide les décisions ; une requirement exprime quelque chose à satisfaire  D. Ils sont synonymes
-**Réponse : C.** Le principe est durable et directeur ; la requirement est contextuelle et testable. A/B/D sont faux.
+A. Un principe est plus spécifique qu'une requirement
+B. Une requirement est toujours éternelle
+C. Principle et Requirement ont le même statut ; seule leur formulation diffère
+D. Un principe guide les décisions ; une requirement exprime quelque chose à satisfaire
+**Réponse : D.** Le principe est durable et directeur ; la requirement est contextuelle et testable. A/B/C sont faux.
 **Mapping : Concepts — Principle vs Requirement.**
 
 ## Q017 — Baseline
 La Baseline Architecture représente :
-A. L'état actuel pertinent  B. La cible finale  C. Un état intermédiaire  D. Le budget
+A. L'état actuel pertinent
+B. La cible finale
+C. Un état intermédiaire
+D. Le programme de migration vers l'architecture cible
 **Réponse : A.** Baseline = current state. B = Target ; C = Transition ; D n'est pas une architecture.
+**Distracteur D :** Le programme de migration est une trajectoire de changement, non l'état actuel de l'architecture.
 **Mapping : Concepts — Baseline/Target/Transition.**
 
 ## Q018 — Target
 La Target Architecture représente :
-A. L'état futur souhaité  B. L'état actuel  C. Une exception  D. Une seule application
-**Réponse : A.** Target = future desired state. B est Baseline ; C/D ne définissent pas une Target.
+A. L'état actuel
+B. L'état futur souhaité
+C. Une exception
+D. Une seule application
+**Réponse : B.** Target = future desired state. A est Baseline ; C/D ne définissent pas une Target.
 **Mapping : Concepts — Baseline/Target/Transition.**
 
 ## Q019 — Transition Architecture
 Une Transition Architecture est :
-A. Un état architectural intermédiaire nécessaire pour atteindre la cible  B. Un planning Gantt  C. Un principe  D. La Baseline
-**Réponse : A.** Elle décrit un plateau intermédiaire cohérent. B est un planning ; C/D sont différents.
+A. Une séquence de work packages priorisés dans un Implementation and Migration Plan
+B. Une Architecture Roadmap représentant les grandes étapes vers la cible
+C. Un état architectural intermédiaire nécessaire pour atteindre la cible
+D. Une description de la Baseline Architecture avant tout changement approuvé
+**Réponse : C.** Elle décrit un plateau intermédiaire cohérent. A est un planning ; B/D sont différents.
 **Mapping : Concepts — Transition Architecture.**
 
 ## Q020 — Gap
 Un gap représente :
-A. Une différence pertinente entre Baseline et Target  B. Une équipe projet  C. Une view  D. Un contrat
-**Réponse : A.** Le gap montre ce qui doit changer. B/C/D sont d'autres objets.
+A. Un écart de conformité mesuré entre un composant déployé et un standard approuvé
+B. Une dépendance planifiée entre deux work packages de la Roadmap
+C. Un différend entre sponsors sur la répartition du financement d'une solution
+D. Une différence pertinente entre Baseline et Target
+**Réponse : D.** Le gap montre ce qui doit changer. A/B/C sont d'autres objets.
 **Mapping : Concepts — Gap.**
 
 ## Q021 — Enterprise Continuum
 L'Enterprise Continuum sert principalement à :
-A. Classifier et contextualiser des assets d'architecture d'un générique vers le spécifique  B. Stocker physiquement tous les fichiers  C. Exécuter des workloads  D. Gérer le budget
+A. Classifier et contextualiser des assets d'architecture d'un générique vers le spécifique
+B. Stocker physiquement tous les fichiers
+C. Ordonner les vagues d'implémentation dans un planning opérationnel détaillé
+D. Définir l'organisation des données d'un référentiel de standards
 **Réponse : A.** C'est un mécanisme de classification/contexte. B décrit plutôt le rôle du Repository ; C/D sont hors sujet.
+**Distracteur D :** Le Continuum classifie les assets selon leur degré de généralité ; il ne se réduit pas au stockage.
 **Mapping : Concepts — Enterprise Continuum.**
 
 ## Q022 — Architecture Repository
 L'Architecture Repository sert principalement à :
-A. Organiser et conserver des assets d'architecture  B. Remplacer l'ADM  C. Classifier conceptuellement du Foundation au Organization-Specific uniquement  D. Exécuter les applications
-**Réponse : A.** Le Repository stocke et organise les assets. C décrit le Continuum de façon simplifiée ; B/D sont faux.
+A. Remplacer l'ADM
+B. Organiser et conserver des assets d'architecture
+C. Classifier conceptuellement du Foundation au Organization-Specific uniquement
+D. Assurer l'exécution des contrôles de conformité des applications en production
+**Réponse : B.** Le Repository stocke et organise les assets. C décrit le Continuum de façon simplifiée ; A/D sont faux.
 **Mapping : Concepts — Architecture Repository.**
 
 ## Q023 — Repository vs Continuum
 Quelle phrase est correcte ?
-A. Ils sont synonymes  B. Le Repository est un mécanisme de stockage/organisation ; le Continuum aide à classifier et contextualiser  C. Le Continuum est une base de données technique  D. Le Repository est une phase ADM
-**Réponse : B.** C'est la distinction fondamentale. A/C/D sont faux.
+A. Continuum et Repository classifient de la même manière les solutions sans rôle distinct
+B. Le Continuum est une base de données technique
+C. Le Repository est un mécanisme de stockage/organisation ; le Continuum aide à classifier et contextualiser
+D. Le Repository est une phase ADM
+**Réponse : C.** B'est la distinction fondamentale. A/B/D sont faux.
 **Mapping : Concepts — Repository vs Continuum.**
 
 ## Q024 — Architecture Capability
 Architecture Capability désigne :
-A. La capacité de l'organisation à pratiquer et gouverner l'architecture  B. Une application métier  C. Une seule compétence individuelle  D. Un serveur
-**Réponse : A.** Elle couvre rôles, gouvernance, processus, compétences et repository. B/C/D sont trop limités.
+A. Une application métier
+B. Une seule compétence individuelle
+C. Le niveau de maturité d'une seule équipe de développement
+D. La capacité de l'organisation à pratiquer et gouverner l'architecture
+**Réponse : D.** Elle couvre rôles, gouvernance, processus, compétences et repository. A/B/C sont trop limités.
+**Distracteur C :** L'Architecture Capability est organisationnelle et inclut gouvernance, méthodes et responsabilités.
 **Mapping : Concepts — Architecture Capability.**
 
 ## Q025 — Architecture Board
 Un Architecture Board est principalement :
-A. Un mécanisme de gouvernance et d'arbitrage de l'architecture  B. Une équipe de développement  C. Une base de données  D. Une migration wave
+A. Un mécanisme de gouvernance et d'arbitrage de l'architecture
+B. Une équipe d'exploitation assurant seulement le support des composants de la plateforme cible
+C. Une instance projet approuvant exclusivement les charges, délais et allocations de budget
+D. Une bibliothèque de référence réunissant des standards et patterns sans pouvoir d'arbitrage
 **Réponse : A.** Il soutient décisions, conformité et exceptions. B/C/D ne correspondent pas.
 **Mapping : Concepts — Architecture Capability/Governance.**
 
 ## Q026 — Requirements Management
 Requirements Management est :
-A. Une phase située uniquement après H  B. Une activité transversale au cycle ADM  C. Un outil de ticketing  D. Un domaine d'architecture
+A. Une phase située uniquement après H
+B. Une activité transversale au cycle ADM
+C. Un outil de ticketing
+D. Un domaine d'architecture
 **Réponse : B.** Les requirements sont identifiées, maintenues et tracées tout au long de l'ADM. A/C/D sont faux.
 **Mapping : Concepts — Requirements Management.**
 
 ## Q027 — Requirement
 Une architecture requirement doit idéalement être :
-A. Ambiguë et générale  B. Compréhensible, traçable et vérifiable  C. Une préférence personnelle  D. Un nom de produit obligatoire sans justification
-**Réponse : B.** Une requirement utile doit pouvoir être comprise et évaluée. A/C/D affaiblissent le raisonnement architectural.
+A. Ambiguë et générale
+B. Une préférence personnelle
+C. Compréhensible, traçable et vérifiable
+D. Un nom de produit obligatoire sans justification
+**Réponse : C.** Une requirement utile doit pouvoir être comprise et évaluée. A/B/D affaiblissent le raisonnement architectural.
 **Mapping : Concepts — Requirements.**
 
 ## Q028 — Deliverable
 Un deliverable est :
-A. Un produit de travail formel remis/revu par des stakeholders  B. Uniquement un diagramme  C. Un composant exécutable  D. Un viewpoint
-**Réponse : A.** Un deliverable peut contenir plusieurs artifacts. B est trop restrictif ; C peut être un SBB ; D est différent.
+A. Une représentation graphique élémentaire ne nécessitant ni revue ni acceptation
+B. Un composant exécutable
+C. Un viewpoint
+D. Un produit de travail formel remis/revu par des stakeholders
+**Réponse : D.** Un deliverable peut contenir plusieurs artifacts. A est trop restrictif ; B peut être un SBB ; C est différent.
 **Mapping : Concepts — Deliverable.**
 
 ## Q029 — Artifact
 Un artifact est :
-A. Une représentation architecturale telle qu'un catalog, matrix ou diagram  B. Toujours un contrat juridique  C. Une phase  D. Une équipe
+A. Une représentation architecturale telle qu'un catalog, matrix ou diagram
+B. Un deliverable formel rassemblant les engagements des fournisseurs de la solution
+C. Un Building Block réalisant un service dans l'architecture cible
+D. Un viewpoint spécifiant comment construire une vue pour un concern donné
 **Réponse : A.** Un artifact représente du contenu architectural. B/C/D sont faux.
 **Mapping : Concepts — Artifact.**
 
 ## Q030 — Building Block
 Un building block est :
-A. Un élément architectural réutilisable décrivant une capacité ou composant  B. Une réunion  C. Un stakeholder  D. Un score d'examen
-**Réponse : A.** Les building blocks structurent l'architecture. B/C/D ne sont pas des building blocks.
+A. Un artifact servant à visualiser une relation entre capacités
+B. Un élément architectural réutilisable décrivant une capacité ou composant
+C. Un stakeholder
+D. Une architecture de transition complète approuvée
+**Réponse : B.** Les building blocks structurent l'architecture. A/C/D ne sont pas des building blocks.
+**Distracteur A :** Un artifact représente l'architecture ; il n'est pas, par définition, le building block représenté.
+**Distracteur D :** Une Transition Architecture est un état, tandis qu'un building block en est un élément potentiel.
 **Mapping : Concepts — Building Blocks.**
 
 ## Q031 — ABB
 Un Architecture Building Block (ABB) exprime surtout :
-A. Le besoin/capacité architectural de manière indépendante d'une implémentation précise  B. Le produit exact choisi  C. Un incident  D. Une facture
-**Réponse : A.** L'ABB reste logique/architectural. B correspond plutôt à un SBB ; C/D sont hors sujet.
+A. Le produit exact choisi
+B. Un composant de solution déjà sélectionné pour réaliser une capacité
+C. Le besoin/capacité architectural de manière indépendante d'une implémentation précise
+D. La description des activités prévues dans un lot de migration
+**Réponse : C.** L'ABB reste logique/architectural. A correspond plutôt à un SBB ; B/D sont hors sujet.
+**Distracteur B :** Une solution sélectionnée correspond davantage au SBB qu'à l'ABB.
+**Distracteur D :** Un work package décrit un ensemble de travaux, non l'ABB abstrait.
 **Mapping : Concepts — ABB.**
 
 ## Q032 — SBB
 Un Solution Building Block (SBB) est généralement :
-A. Plus proche de la réalisation concrète d'un ABB  B. Plus abstrait qu'un ABB  C. Un stakeholder  D. Une phase ADM
-**Réponse : A.** Le SBB réalise ou contribue à réaliser les capacités décrites par les ABB. B inverse la relation ; C/D sont faux.
+A. Un principe de conception stable qui oriente les décisions sans prescrire de produit concret
+B. Une représentation telle qu'un diagram ou matrix décrivant les relations entre services
+C. Une requirement détaillée que le programme doit vérifier dans ses tests de conformité
+D. Plus proche de la réalisation concrète d'un ABB
+**Réponse : D.** Le SBB réalise ou contribue à réaliser les capacités décrites par les ABB. A inverse la relation ; B/C sont faux.
 **Mapping : Concepts — SBB.**
 
 ## Q033 — ABB vs SBB
 Quel exemple est le plus cohérent ?
-A. ABB « messaging capability » ; SBB « plateforme de messaging choisie »  B. ABB « budget » ; SBB « sponsor »  C. ABB « Phase A » ; SBB « Phase B »  D. ABB « concern » ; SBB « view »
+A. ABB « messaging capability » ; SBB « plateforme de messaging choisie »
+B. ABB « serveur SQL choisi » ; SBB « besoin de persistance des données »
+C. ABB « Phase A » ; SBB « Phase B »
+D. ABB « concern » ; SBB « view »
 **Réponse : A.** L'ABB exprime la capacité, le SBB une réalisation plus concrète. B/C/D mélangent des catégories.
+**Distracteur B :** Cet ordre inverse l'abstraction attendue entre ABB et SBB.
 **Mapping : Concepts — ABB vs SBB.**
 
 ## Q034 — Architecture Landscape
 Dans le Repository, l'Architecture Landscape aide surtout à :
-A. Donner une vue des architectures existantes à différents niveaux  B. Stocker seulement les contrats fournisseurs  C. Exécuter les tests  D. Remplacer les views
-**Réponse : A.** Le Landscape fournit une compréhension des architectures. B/C/D sont faux.
+A. Stocker seulement les contrats fournisseurs
+B. Donner une vue des architectures existantes à différents niveaux
+C. Exécuter les vérifications automatiques des produits approuvés par le Board
+D. Remplacer les views
+**Réponse : B.** Le Landscape fournit une compréhension des architectures. A/C/D sont faux.
 **Mapping : Concepts — Architecture Repository.**
 
 ## Q035 — Standards Information Base
 La Standards Information Base contient principalement :
-A. Des standards et technologies approuvés/pertinents  B. Les salaires  C. Les incidents  D. Les stakeholders uniquement
-**Réponse : A.** Elle soutient la standardisation. B/C/D ne correspondent pas à sa finalité.
+A. La description Baseline et Target validée de chaque application
+B. Les incidents
+C. Des standards et technologies approuvés/pertinents
+D. Les stakeholders uniquement
+**Réponse : C.** Elle soutient la standardisation. A/B/D ne correspondent pas à sa finalité.
+**Distracteur A :** Ces descriptions appartiennent au paysage et aux documents d'architecture, pas au catalogue des standards.
 **Mapping : Concepts — Architecture Repository.**
 
 ## Q036 — Governance Log
 Le Governance Log sert surtout à conserver :
-A. Des décisions, compliance reviews, exceptions et éléments de gouvernance  B. Le code source métier  C. Les factures clients  D. Les mots de passe
-**Réponse : A.** Il trace la gouvernance. B/C/D sont hors périmètre.
+A. Le code source métier
+B. Les versions successives de l'Architecture Definition Document
+C. Les états de migration et leurs dépendances détaillées
+D. Des décisions, compliance reviews, exceptions et éléments de gouvernance
+**Réponse : D.** Il trace la gouvernance. A/B/C sont hors périmètre.
+**Distracteur B :** Le Governance Log documente décisions et conformité, pas simplement le contenu des architectures.
+**Distracteur C :** La planification de migration peut être tracée dans une roadmap/plan, sans être le rôle du Governance Log.
 **Mapping : Concepts — Architecture Repository.**
 
 ## Q037 — Reference Library
 Une Reference Library sert principalement à :
-A. Mettre à disposition des références, patterns et matériels réutilisables  B. Définir la paie  C. Exécuter la production  D. Remplacer tous les standards
+A. Mettre à disposition des références, patterns et matériels réutilisables
+B. Définir la paie
+C. Conserver exclusivement l'inventaire des services mis en production et leurs SLA
+D. Remplacer tous les standards
 **Réponse : A.** Elle facilite réutilisation et apprentissage. B/C/D sont faux.
 **Mapping : Concepts — Architecture Repository.**
 
 ## Q038 — Architecture Metamodel
 Le rôle d'un Architecture Metamodel est :
-A. Définir les types d'éléments architecturaux et leurs relations  B. Fixer le planning de migration  C. Remplacer les stakeholders  D. Choisir un fournisseur
-**Réponse : A.** Le metamodel structure le contenu architectural. B/C/D sont d'autres décisions.
+A. Décrire les états Baseline, Transition et Target sans référencer les types d'éléments
+B. Définir les types d'éléments architecturaux et leurs relations
+C. Ordonner les work packages et arbitrer les coûts de migration des services
+D. Formaliser les engagements entre l'Architecture Board et les équipes de delivery
+**Réponse : B.** Le metamodel structure le contenu architectural. A/C/D sont d'autres décisions.
 **Mapping : Concepts — Metamodel.**
 
 ## Q039 — Architecture Vision
 L'Architecture Vision est principalement :
-A. Une vue de haut niveau de la cible et de la valeur permettant l'alignement initial  B. Le design technique final  C. Le contrat d'exploitation  D. La liste de tous les serveurs
-**Réponse : A.** La Vision cadre et aligne ; B/D sont trop détaillés ; C est autre chose.
+A. Une spécification détaillée de tous les contrats applicatifs avant validation métier
+B. Un Implementation and Migration Plan contenant les tasks et dates de production
+C. Une vue de haut niveau de la cible et de la valeur permettant l'alignement initial
+D. Une cible technique immuable décidée uniquement par les équipes de plateforme
+**Réponse : C.** La Vision cadre et aligne ; A/D sont trop détaillés ; B est autre chose.
+**Distracteur D :** Une vision initiale doit communiquer valeur, objectif et orientation, non un inventaire exhaustif.
 **Mapping : Concepts — Architecture Vision.**
 
 ## Q040 — Scope
 Pourquoi le scope est-il important dans un engagement d'architecture ?
-A. Pour limiter et clarifier ce qui est inclus, exclu et au bon niveau de détail  B. Pour éviter tout stakeholder  C. Pour choisir immédiatement la technologie  D. Pour supprimer les requirements
-**Réponse : A.** Le scope rend le travail gouvernable et proportionné. B/C/D sont contraires à la méthode.
+A. Pour définir uniquement le nombre de serveurs et la capacité CPU de chaque plateforme
+B. Pour permettre à chaque équipe de considérer la Target de son choix comme approuvée
+C. Pour imposer les mêmes domaines et la même profondeur à toutes les initiatives
+D. Pour limiter et clarifier ce qui est inclus, exclu et au bon niveau de détail
+**Réponse : D.** Le scope rend le travail gouvernable et proportionné. A/B/C sont contraires à la méthode.
 **Mapping : Concepts — Scope.**
 
 ## Q041 — Reuse
 Quel principe de travail est cohérent avec TOGAF ?
-A. Réutiliser les assets pertinents plutôt que recréer systématiquement  B. Tout concevoir de zéro  C. Ignorer le Repository  D. Refuser tout tailoring
+A. Réutiliser les assets pertinents plutôt que recréer systématiquement
+B. Tout concevoir de zéro
+C. Réutiliser les patterns existants sans examiner leurs hypothèses dans le nouveau contexte
+D. Refuser tout tailoring
 **Réponse : A.** TOGAF valorise la réutilisation et le Repository. B/C/D créent de la rigidité ou du gaspillage.
 **Mapping : Concepts — Reuse.**
 
 ## Q042 — Tailoring
 Tailoring signifie :
-A. Adapter la méthode au contexte sans perdre sa logique de gouvernance  B. Supprimer toutes les phases au hasard  C. Appliquer exactement le même niveau de détail partout  D. Remplacer TOGAF par un outil
-**Réponse : A.** Le tailoring est contrôlé et contextuel. B/C/D sont des caricatures.
+A. Supprimer toutes les phases au hasard
+B. Adapter la méthode au contexte sans perdre sa logique de gouvernance
+C. Appliquer exactement le même niveau de détail partout
+D. Remplacer TOGAF par un outil
+**Réponse : B.** Le tailoring est contrôlé et contextuel. A/C/D sont des caricatures.
 **Mapping : Concepts — Tailoring.**
 
 ## Q043 — Iteration
 Pourquoi l'ADM peut-il être itératif ?
-A. Parce que compréhension, requirements et décisions peuvent être affinées progressivement  B. Parce qu'aucune phase n'a de but  C. Pour éviter la gouvernance  D. Pour empêcher la réutilisation
-**Réponse : A.** L'itération permet adaptation et convergence. B/C/D sont faux.
+A. Parce que l'ADM impose un enchaînement figé des phases et interdit de réviser les modèles approuvés
+B. Parce que les phases B à F peuvent être remplacées définitivement par des sprints de delivery produit
+C. Parce que compréhension, requirements et décisions peuvent être affinées progressivement
+D. Parce que Requirements Management se déclenche uniquement après la mise en production de la cible
+**Réponse : C.** L'itération permet adaptation et convergence. A/B/D sont faux.
 **Mapping : Concepts — Iteration.**
 
 ## Q044 — Architecture vs Solution
 Quelle phrase est la plus juste ?
-A. Une architecture décrit uniquement un produit  B. Une solution réalise des éléments de l'architecture, mais l'architecture couvre aussi exigences, structure et décisions  C. Architecture et solution sont synonymes  D. Une architecture ne contient aucune contrainte
-**Réponse : B.** L'architecture est plus large que l'implémentation. A/C/D sont réducteurs.
+A. L'architecture est entièrement déterminée par la liste des composants installés en production
+B. La solution choisie remplace les requirements et les principes dès que le fournisseur est sélectionné
+C. L'architecture correspond seulement aux diagrammes de réseau et aux plateformes de la cible
+D. Une solution réalise des éléments de l'architecture, mais l'architecture couvre aussi exigences, structure et décisions
+**Réponse : D.** L'architecture est plus large que l'implémentation. A/B/C sont réducteurs.
 **Mapping : Concepts — Architecture vs Solution.**
 
 ## Q045 — Business driver
 Un business driver est :
-A. Une force ou condition qui motive un changement  B. Une application  C. Un artifact  D. Un serveur
+A. Une force ou condition qui motive un changement
+B. Une condition d'acceptation détaillée mesurable dans le test d'une solution particulière
+C. Une représentation de la Target Architecture construite selon un viewpoint métier
+D. Une décision d'exception temporaire gouvernée par l'Architecture Board
 **Réponse : A.** Les drivers expliquent pourquoi la transformation est nécessaire. B/C/D sont des objets différents.
+**Distracteur D :** Une requirement exprime une condition à satisfaire ; un driver motive le changement.
 **Mapping : Concepts — Drivers/Goals.**
 
 ## Q046 — Goal
 Un goal représente :
-A. Un résultat ou état souhaité à atteindre  B. Une préoccupation uniquement technique  C. Un building block  D. Un diagramme
-**Réponse : A.** Les goals traduisent les ambitions de l'entreprise. B/C/D ne définissent pas un goal.
+A. Une préoccupation uniquement technique
+B. Un résultat ou état souhaité à atteindre
+C. Un building block
+D. Un diagramme
+**Réponse : B.** Les goals traduisent les ambitions de l'entreprise. A/C/D ne définissent pas un goal.
 **Mapping : Concepts — Drivers/Goals.**
 
 ## Q047 — Constraint
 Une constraint est :
-A. Une limitation qui restreint les choix possibles  B. Toujours un principe  C. Toujours un stakeholder  D. Une Transition Architecture
-**Réponse : A.** Une contrainte limite l'espace de solution. B/C/D sont d'autres catégories.
+A. Un principe de gouvernance général sans portée sur les options de conception
+B. Un concern exprimé par une partie prenante, même sans limitation imposée
+C. Une limitation qui restreint les choix possibles
+D. Une Transition Architecture
+**Réponse : C.** Une contrainte limite l'espace de solution. A/B/D sont d'autres catégories.
 **Mapping : Concepts — Requirements/Constraints.**
 
 ## Q048 — Concern vers requirement
 Un stakeholder dit : « je crains une interruption des paiements ». Quelle action est la plus cohérente ?
-A. Transformer ce concern en exigences mesurables de disponibilité/continuité  B. Ignorer le concern  C. Choisir un produit sans analyse  D. Le convertir en phase ADM
-**Réponse : A.** Le concern alimente les requirements. B/C/D court-circuitent le raisonnement.
+A. Consigner l'inquiétude dans la stakeholder map et la considérer déjà vérifiable
+B. Choisir un produit sans analyse
+C. Le convertir en phase ADM
+D. Transformer ce concern en exigences mesurables de disponibilité/continuité
+**Réponse : D.** Le concern alimente les requirements. A/B/C court-circuitent le raisonnement.
 **Mapping : Concepts — Concern/Requirement.**
 
 ## Q049 — Current vs future
 Quel couple est correct ?
-A. Baseline = futur ; Target = actuel  B. Baseline = actuel ; Target = futur souhaité  C. Transition = actuel ; Baseline = intermédiaire  D. Target = planning
-**Réponse : B.** C'est la distinction fondamentale. A/C inversent les termes ; D confond état et plan.
+A. Baseline = actuel ; Target = futur souhaité
+B. Baseline = futur ; Target = actuel
+C. Transition = actuel ; Baseline = intermédiaire
+D. Target = planning
+**Réponse : A.** C'est la distinction fondamentale. B/C inversent les termes ; D confond état et plan.
 **Mapping : Concepts — Baseline/Target.**
 
 ## Q050 — Architecture Roadmap
 L'Architecture Roadmap donne surtout :
-A. Une vue de la trajectoire et des work packages/plateaux vers la cible  B. Le code source  C. La liste des congés  D. Les mots de passe
-**Réponse : A.** Elle exprime la trajectoire d'architecture. B/C/D sont hors sujet.
+A. Le code source
+B. Une vue de la trajectoire et des work packages/plateaux vers la cible
+C. Un Architecture Contract encadrant les engagements d'implémentation
+D. Une Architecture Requirements Specification détaillant les contraintes de la cible
+**Réponse : B.** Elle exprime la trajectoire d'architecture. A/C/D sont hors sujet.
+**Distracteur C :** Le Contract formalise des engagements, tandis que la Roadmap décrit la trajectoire et les packages.
+**Distracteur D :** La spécification d'exigences formalise les conditions, pas le chemin de transition vers la cible.
 **Mapping : Concepts — Roadmap.**
 
 ## Q051 — Work Package
 Un work package est :
-A. Un ensemble cohérent de travaux contribuant à la transformation  B. Une view  C. Un principle  D. Un concern
-**Réponse : A.** Les work packages regroupent les changements à réaliser. B/C/D sont d'autres catégories.
+A. Un ensemble de capacités métier représentées dans la Target Business Architecture
+B. Un ensemble de standards et principes structurant les décisions du programme
+C. Un ensemble cohérent de travaux contribuant à la transformation
+D. Un ensemble de vues formelles regroupées dans l'Architecture Definition Document
+**Réponse : C.** Les work packages regroupent les changements à réaliser. A/B/D sont d'autres catégories.
 **Mapping : Concepts — Work Package.**
 
 ## Q052 — Plateau
 Dans une trajectoire d'architecture, un plateau correspond le mieux à :
-A. Un état relativement stable de l'architecture  B. Un stakeholder  C. Un incident  D. Une option de réponse
-**Réponse : A.** Un plateau peut représenter un état intermédiaire stable. B/C/D sont faux.
+A. Un stakeholder
+B. Une phase de validation isolée avant passage en production
+C. Une option de réponse
+D. Un état relativement stable de l'architecture
+**Réponse : D.** Un plateau peut représenter un état intermédiaire stable. A/B/C sont faux.
+**Distracteur B :** Un plateau est un état architectural relativement stable, pas une activité ponctuelle.
 **Mapping : Concepts — Transition/Roadmap.**
 
 ## Q053 — Architecture decision
 Pourquoi tracer les décisions d'architecture ?
-A. Pour conserver rationale, contraintes et responsabilités  B. Pour empêcher toute évolution  C. Pour supprimer les stakeholders  D. Pour remplacer les requirements
+A. Pour conserver rationale, contraintes et responsabilités
+B. Pour empêcher toute évolution
+C. Pour supprimer les stakeholders
+D. Pour remplacer les requirements
 **Réponse : A.** La traçabilité soutient gouvernance et changement. B/C/D sont contraires à l'objectif.
 **Mapping : Concepts — Governance/Traceability.**
 
 ## Q054 — Reusable asset
 Lequel est le meilleur exemple d'asset réutilisable ?
-A. Un pattern de résilience validé  B. Une conversation informelle sans trace  C. Une erreur non documentée  D. Une préférence individuelle
-**Réponse : A.** Un pattern validé peut être réutilisé via le Repository. B/C/D n'offrent pas un asset gouverné.
+A. Une conversation informelle sans trace
+B. Un pattern de résilience validé
+C. Une erreur non documentée
+D. Une préférence individuelle
+**Réponse : B.** Un pattern validé peut être réutilisé via le Repository. A/C/D n'offrent pas un asset gouverné.
 **Mapping : Concepts — Reuse/Repository.**
 
 ## Q055 — Four domains relation
 Pourquoi les quatre domaines ne doivent-ils pas être traités comme totalement indépendants ?
-A. Parce que les besoins métier entraînent des besoins data, application et technology  B. Parce qu'ils sont identiques  C. Parce que seul Technology compte  D. Parce que TOGAF interdit les dépendances
-**Réponse : A.** Les domaines sont distincts mais interdépendants. B/C/D sont faux.
+A. Parce que Technology Architecture doit choisir les produits avant toute décision Business
+B. Parce que les modèles Data peuvent évoluer indépendamment des services et processus
+C. Parce que les besoins métier entraînent des besoins data, application et technology
+D. Parce que l'Application Architecture remplace les exigences et capacités des métiers
+**Réponse : C.** Les domaines sont distincts mais interdépendants. A/B/D sont faux.
 **Mapping : Concepts — Four Domains.**
 
 ## Q056 — Architecture at different levels
 Une grande entreprise peut-elle travailler à plusieurs niveaux d'architecture ?
-A. Non, un seul niveau est autorisé  B. Oui, par exemple enterprise, segment/capability et solution, avec cohérence entre niveaux  C. Oui mais sans gouvernance  D. Seulement pour Technology
-**Réponse : B.** Les niveaux permettent de gérer la complexité et le bon niveau de détail. A/C/D sont trop restrictifs.
+A. Non, un seul niveau est autorisé
+B. Oui mais sans gouvernance
+C. Conserver uniquement des architectures de solution sans coordination supérieure
+D. Oui, par exemple enterprise, segment/capability et solution, avec cohérence entre niveaux
+**Réponse : D.** Les niveaux permettent de gérer la complexité et le bon niveau de détail. A/B/C sont trop restrictifs.
 **Mapping : Concepts — Levels of Architecture.**
 
 ## Q057 — Federation
 Dans une organisation fédérée, la priorité architecturale est :
-A. Autonomie totale sans règles communes  B. Cohérence entre décisions locales et contraintes/standards partagés  C. Centralisation de toute décision mineure  D. Suppression des domain architects
-**Réponse : B.** La fédération équilibre autonomie et cohérence. A/C sont des extrêmes ; D n'est pas nécessaire.
+A. Cohérence entre décisions locales et contraintes/standards partagés
+B. Autonomie totale sans règles communes
+C. Centralisation de toute décision mineure
+D. Suppression des domain architects
+**Réponse : A.** La fédération équilibre autonomie et cohérence. B/C sont des extrêmes ; D n'est pas nécessaire.
 **Mapping : Concepts — Federation.**
 
 ## Q058 — Security
 Comment la sécurité doit-elle être considérée dans l'architecture ?
-A. Comme une préoccupation transverse intégrée au cycle  B. Uniquement après la mise en production  C. Seulement en Phase D  D. Jamais dans les requirements
-**Réponse : A.** Security/risk sont cross-cutting concerns. B/C/D arrivent trop tard ou sont faux.
+A. Contrôler la sécurité uniquement lors de l'acceptation des livrables en Phase G
+B. Comme une préoccupation transverse intégrée au cycle
+C. Réaliser une revue de sécurité seulement lorsque la Target Technology est terminée
+D. Maintenir la sécurité hors de l'Architecture Requirements Specification
+**Réponse : B.** Security/risk sont cross-cutting concerns. A/C/D arrivent trop tard ou sont faux.
 **Mapping : Concepts — Cross-cutting Concerns.**
 
 ## Q059 — Architecture effectiveness
 Quel signal indique le mieux une architecture efficace ?
-A. Les décisions sont comprises, traçables et soutiennent les objectifs  B. Le document est très long  C. Le diagramme contient beaucoup de couleurs  D. Tous les produits sont récents
-**Réponse : A.** L'efficacité se mesure par l'alignement et la qualité des décisions, pas par le volume ou l'esthétique.
+A. Le document est très long
+B. Le nombre de représentations produites par l'équipe
+C. Les décisions sont comprises, traçables et soutiennent les objectifs
+D. Tous les produits sont récents
+**Réponse : C.** L'efficacité se mesure par l'alignement et la qualité des décisions, pas par le volume ou l'esthétique.
+**Distracteur B :** Le volume des vues ne prouve ni l'alignement ni l'utilité des décisions.
 **Mapping : Concepts — Value of Architecture.**
 
 ## Q060 — Synthèse concepts
 Quel raisonnement est le plus TOGAF ?
-A. Produit → diagramme → justification  B. Driver → stakeholder/concern → requirement → architecture → gap → roadmap → governance  C. Serveur → budget → stakeholder  D. Projet → outil → phase
-**Réponse : B.** Il relie motivation, parties prenantes, exigences, architecture, transformation et gouvernance. Les autres commencent par la solution ou mélangent les concepts.
+A. Produit → diagramme → justification
+B. Solution → Technical Architecture → Business Case → Requirements → Governance
+C. Projet → outil → phase
+D. Driver → stakeholder/concern → requirement → architecture → gap → roadmap → governance
+**Réponse : D.** Il relie motivation, parties prenantes, exigences, architecture, transformation et gouvernance. Les autres commencent par la solution ou mélangent les concepts.
+**Distracteur B :** Commencer par la solution renverse la logique des motivations et des exigences.
 **Mapping : Concepts — Synthesis.**
 
 ---

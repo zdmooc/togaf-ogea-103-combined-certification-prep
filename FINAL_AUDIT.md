@@ -1,3 +1,47 @@
+# Bilan de remédiation TOGAF X2202 — 1er novembre 2026
+
+**Statut : publication possible comme support indépendant d'autoformation.** Les contrôles automatisés de structure, de barème et de traçabilité ont été renforcés et passent sur la branche de correction. **Ce statut n'est pas une accréditation, un audit pédagogique indépendant, une validation psychométrique ou une garantie de réussite.** La fusion éventuelle de la PR #2 correspond à une publication interne du contenu, non à une certification du support.
+
+## Résultats établis
+
+| Dimension | Résultat démontré | Limite |
+|---|---|---|
+| Syllabus X2202 | 131 objectifs inventoriés, Bloom transcrits et 130 associations candidates vers des questions précises (L1.8.1 non évalué séparément) | La pertinence cognitive de toutes les associations n'a pas été revue indépendamment |
+| Foundation | 300 QCM, 75 bonnes réponses par lettre, corrigés ; 24 QCM avancés et 2 QCM ciblés | La qualité et la difficulté de chaque distracteur ne sont pas certifiées |
+| Livrables Foundation 7.3 | 16 livrables explicitement décrits dans `06-architecture-content/03-deliverables.md`, 16 QCM dédiés D01–D16 et corrigés | Repères de phases indicatifs, l'ADM étant itératif |
+| Practitioner | 60 scénarios S et 32 cas ciblés XP, avec justifications 5/3/1/0 | Les classements restent pédagogiques, pas issus d'un étalonnage officiel |
+| Examens blancs | 6 × (40 Foundation + 8 Practitioner), corrigés ; aucun intitulé identique ; contrôle lexical inter-examens | Deux sujets peuvent encore évaluer le même concept ; variété psychométrique non garantie |
+| Contrôle automatisé | `scripts/validate_togaf_banks.py` et `scripts/validate_pedagogical_consistency.py` exécutés par GitHub Actions | La CI vérifie des propriétés vérifiables, non la vérité de toutes les explications |
+| Longueur des réponses | Foundation : bonne réponse la plus longue 34 %, ratio moyen 1,12, aucune > 2× ; mocks : plus courte 38 %, ratio moyen 1,03 | Une longueur équilibrée ne prouve pas une difficulté réaliste |
+
+## Vérifications documentaires
+
+- **Source normative :** The Open Group, `X2202`, version 4.0, avril 2022, sections 3.1 et 3.2.
+- **L1 7.3 :** l'énumération officielle comporte **16 livrables**. Le document de cours a été complété à partir de cette liste et les 16 items ont une question dédiée.
+- **L1 7.3 — Bloom :** le PDF officiel affiche le libellé atypique `2_Remembering` ; il est conservé tel quel, sans prétendre qu'il s'agit d'une valeur standard de Bloom.
+- **L1 2.1 :** `Digital Architecture` a été ajouté au glossaire, conformément à la liste officielle. Le syllabus précise que les définitions de cette unité ne sont pas examinables séparément sauf si reprises dans un autre objectif.
+- **L2 8.5 :** les sept rubriques officielles de l'Architecture Repository ont été rétablies ; les synonymes issus d'autres représentations ne constituent pas une huitième rubrique.
+- **Examens en français :** OGEA-F101 et OGEA-F102 figurent dans le tableau officiel Pearson VUE ; il n'y figure pas de Combined français. Vérifier le système de réservation pour les options en vigueur.
+
+## Revue des répétitions
+
+La recherche a été menée sur les 240 questions Foundation des six examens après retrait de leurs introductions génériques. Les paires de formulations modérément similaires examinées concernent en général des distinctions proches mais non identiques (p. ex. Catalog/Matrix/Diagram, Baseline/Target, Data/Application). Le contrôle de CI bloque désormais des formulations presque identiques à travers les examens, mais **ne sait pas mesurer l'équivalence sémantique comme un relecteur spécialiste**.
+
+## Points à contrôler avant de prétendre à une conformité pédagogique indépendante
+
+1. Relecture indépendante, **question par question**, des 300 QCM Foundation, des 60 scénarios Practitioner, des 48 scénarios des mocks et des exercices ajoutés.
+2. Contrôle de chaque association parmi les 130 objectifs évaluables au regard du texte exact X2202, des KLP et du niveau Bloom ; une référence précise reste une **preuve candidate** et non une validation de maîtrise.
+3. Essais chronométrés par des personnes externes, comparaison de difficulté avec des supports officiels autorisés et test de navigation Open Book.
+4. Vérification des dernières conditions Pearson VUE au moment de l'inscription.
+
+**Décision de maintenance :** les contrôles CI réussis peuvent permettre la fusion des ressources d'autoformation dans `main` ; les quatre actions ci-dessus sont des exigences de validation externe, non des tâches que des tests statiques pourraient clore à eux seuls.
+
+---
+
+## Audit historique (6 septembre 2026) — archivé pour traçabilité
+
+Le verdict `READY` ci-dessous est **historique, remplacé** par le statut ci-dessus. Il ne doit pas être repris comme une attestation de qualité officielle.
+
 # FINAL AUDIT — TOGAF OGEA-103 Combined Certification Prep
 
 Audit date: **2026-09-06**

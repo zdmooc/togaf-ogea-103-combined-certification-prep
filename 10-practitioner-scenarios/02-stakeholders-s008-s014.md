@@ -4,133 +4,174 @@
 
 Le sponsor et l’équipe projet ont approuvé une cible de paiement. Lors d’une revue tardive, Operations refuse le modèle car il n’existe ni run model clair, ni stratégie de support, ni exigences de bascule exploitables.
 
+Le modèle cible comporte plusieurs services en disponibilité étendue et une migration progressive avec coexistence de l'ancien SI. Le pilote doit commencer dans un mois. Le sponsor refuse une réouverture générale du programme, mais Operations précise qu'aucun responsable d'astreinte ni exercice de reprise n'a été défini. Le Board attend une décision fondée sur les risques opérationnels.
+
 Quelle action est la meilleure ?
+A. Consulter Operations et consigner ses principales contraintes d'exploitation pour la prochaine revue d'architecture, sans réviser immédiatement toutes les décisions.
+B. Exiger au minimum un runbook et un test de bascule pour le pilote, puis formaliser ultérieurement les autres requirements d'exploitation.
+C. Faire confirmer au sponsor l'acceptation du risque opérationnel, sans modifier les représentations ou responsabilités déjà approuvées.
+D. Reconnaître Operations comme stakeholder critique, comprendre ses concerns, produire les vues nécessaires et intégrer les requirements opérationnels dans l’architecture.
+**Scoring : A=3, B=1, C=0, D=5.**
 
-A. Rappeler que le sponsor a déjà approuvé l’architecture et poursuivre.  
-B. Reconnaître Operations comme stakeholder critique, comprendre ses concerns, produire les vues nécessaires et intégrer les requirements opérationnels dans l’architecture.  
-C. Ajouter uniquement une réunion d’information pour Operations sans changer l’architecture.  
-D. Demander à l’équipe delivery de résoudre seule le problème après mise en production.
+**Justification des quatre niveaux :**
 
-**Scoring : B=5, C=3, A=1, D=0.**
-
-**Pourquoi B :** une approbation du sponsor ne remplace pas l’analyse des stakeholders affectés. C améliore la communication mais pas le contenu ; A ignore un concern majeur ; D reporte le problème hors du travail d’architecture.
+- **D — 5 points :** Reconnaître Operations comme stakeholder critique, comprendre ses concerns, produire les vues nécessaires et intégrer les requirements opérationnels dans l’architecture. Répond aux enjeux structurants, à leur séquencement et aux responsabilités de décision.
+- **A — 3 points :** Consulter Operations et consigner ses principales contraintes d'exploitation pour la prochaine revue d'architecture, sans réviser immédiatement toutes les décisions. Action pertinente mais incomplète, qui reporte une partie du cadrage, de la traçabilité ou de l'arbitrage.
+- **B — 1 point :** Exiger au minimum un runbook et un test de bascule pour le pilote, puis formaliser ultérieurement les autres requirements d'exploitation. Peut contribuer ponctuellement, mais ne traite pas la principale dépendance ou ne sécurise pas la décision.
+- **C — 0 point :** Faire confirmer au sponsor l'acceptation du risque opérationnel, sans modifier les représentations ou responsabilités déjà approuvées. Peut avoir un intérêt dans un autre contexte, mais ici repousse ou contourne le problème central.
 
 **Mapping : Stakeholder Management — Concerns, Views, Requirements.**
 
----
+**Référence d'étude :** syllabus X2202, Practitioner, unité 2 ; TOGAF Standard, ADM et Series Guides applicables.
 
+---
 ## S009 — Sponsor contre CISO
 
 Le sponsor veut une mise en production en trois mois. Le CISO exige des contrôles qui peuvent ajouter plusieurs semaines. Les deux parties considèrent leur priorité comme non négociable.
 
+La date avancée dépend d'un lancement commercial ; les exigences de sécurité portent sur des accès privilégiés et une preuve d'audit réglementaire. Une option de lancement limité existe mais n'a pas été chiffrée. Le comité d'architecture doit présenter une trajectoire défendable, en laissant aux autorités désignées la responsabilité d'accepter les risques résiduels.
+
 Quelle approche est la plus appropriée ?
+A. Clarifier les concerns, contraintes et requirements, rendre visibles les impacts et arbitrages, puis utiliser la gouvernance appropriée pour obtenir une décision traçable.
+B. Appliquer provisoirement les contrôles de sécurité prioritaires du CISO et faire arbitrer les impacts métier restants.
+C. Documenter les exigences minimales non négociables du CISO et étudier les impacts calendaires avant l'arbitrage formel du sponsor.
+D. Réduire le périmètre du produit au pilote commercial et traiter les contrôles de sécurité durant une seconde release, sans décision d'exception.
+**Scoring : A=5, B=3, C=1, D=0.**
 
-A. Choisir automatiquement la préférence du sponsor car il finance le programme.  
-B. Choisir automatiquement la préférence du CISO car la sécurité est toujours prioritaire.  
-C. Clarifier les concerns, contraintes et requirements, rendre visibles les impacts et arbitrages, puis utiliser la gouvernance appropriée pour obtenir une décision traçable.  
-D. Demander au delivery de décider discrètement pendant l’implémentation.
+**Justification des quatre niveaux :**
 
-**Scoring : C=5, B=3, A=1, D=0.**
-
-**Pourquoi C :** le rôle de l’architecture est de rendre les conflits explicites et gouvernables. B peut être prudent mais ne traite pas l’arbitrage de manière structurée ; A réduit la gouvernance au pouvoir budgétaire ; D évite la décision.
+- **A — 5 points :** Clarifier les concerns, contraintes et requirements, rendre visibles les impacts et arbitrages, puis utiliser la gouvernance appropriée pour obtenir une décision traçable. Répond aux enjeux structurants, à leur séquencement et aux responsabilités de décision.
+- **B — 3 points :** Appliquer provisoirement les contrôles de sécurité prioritaires du CISO et faire arbitrer les impacts métier restants. Action pertinente mais incomplète, qui reporte une partie du cadrage, de la traçabilité ou de l'arbitrage.
+- **C — 1 point :** Documenter les exigences minimales non négociables du CISO et étudier les impacts calendaires avant l'arbitrage formel du sponsor. Peut contribuer ponctuellement, mais ne traite pas la principale dépendance ou ne sécurise pas la décision.
+- **D — 0 point :** Réduire le périmètre du produit au pilote commercial et traiter les contrôles de sécurité durant une seconde release, sans décision d'exception. Peut avoir un intérêt dans un autre contexte, mais ici repousse ou contourne le problème central.
 
 **Mapping : Stakeholder Management — Conflicting Concerns / Governance.**
 
----
+**Référence d'étude :** syllabus X2202, Practitioner, unité 2 ; TOGAF Standard, ADM et Series Guides applicables.
 
+---
 ## S010 — Carte de stakeholders devenue obsolète
 
 Pendant Phase C, MayaBank fusionne deux directions opérationnelles. De nouveaux responsables apparaissent et les responsabilités sur la donnée changent. L’équipe souhaite garder la stakeholder map de Phase A pour « ne pas rouvrir le cadrage ».
 
+Le regroupement change le data ownership et le modèle de support de deux applications critiques. La cible reste approuvée mais les futurs responsables refusent de signer les exigences de conservation. Un jalon de validation C Data est imminent. La direction souhaite éviter toute remise à plat, tout en disposant d'une traçabilité claire des décisions et des changements de parties prenantes.
+
 Quelle action est la meilleure ?
+A. Conserver les anciennes validations tout en ajoutant les nouveaux responsables comme simples destinataires du rapport d'architecture.
+B. Mettre à jour la stakeholder map, les concerns et les plans d’engagement, puis vérifier l’impact sur requirements et vues.
+C. Mettre à jour les stakeholders les plus influents et leurs préoccupations, sans refaire encore la cartographie complète des dépendances.
+D. Mettre à jour les rôles de décision et le registre des risques, puis reporter la révision des views et concerns après la validation de la Data Architecture.
+**Scoring : A=0, B=5, C=3, D=1.**
 
-A. Conserver la carte initiale jusqu’à Phase H.  
-B. Mettre à jour la stakeholder map, les concerns et les plans d’engagement, puis vérifier l’impact sur requirements et vues.  
-C. Recommencer tout l’ADM depuis Preliminary.  
-D. Ignorer l’organisation et se concentrer uniquement sur l’Application Architecture.
+**Justification des quatre niveaux :**
 
-**Scoring : B=5, C=3, A=1, D=0.**
-
-**Pourquoi B :** stakeholder management est continu. C peut être nécessaire seulement si le changement est structurel au point d’exiger un nouveau cycle ; A fige une information devenue fausse ; D ignore un impact architectural réel.
+- **B — 5 points :** Mettre à jour la stakeholder map, les concerns et les plans d’engagement, puis vérifier l’impact sur requirements et vues. Répond aux enjeux structurants, à leur séquencement et aux responsabilités de décision.
+- **C — 3 points :** Mettre à jour les stakeholders les plus influents et leurs préoccupations, sans refaire encore la cartographie complète des dépendances. Action pertinente mais incomplète, qui reporte une partie du cadrage, de la traçabilité ou de l'arbitrage.
+- **D — 1 point :** Mettre à jour les rôles de décision et le registre des risques, puis reporter la révision des views et concerns après la validation de la Data Architecture. Peut contribuer ponctuellement, mais ne traite pas la principale dépendance ou ne sécurise pas la décision.
+- **A — 0 point :** Conserver les anciennes validations tout en ajoutant les nouveaux responsables comme simples destinataires du rapport d'architecture. Peut avoir un intérêt dans un autre contexte, mais ici repousse ou contourne le problème central.
 
 **Mapping : Stakeholder Management — Continuous Engagement.**
 
----
+**Référence d'étude :** syllabus X2202, Practitioner, unité 2 ; TOGAF Standard, ADM et Series Guides applicables.
 
+---
 ## S011 — Un diagramme pour tout le monde
 
 L’architecte prépare un diagramme technique de 80 composants et veut l’utiliser pour le comité exécutif, le CISO, les équipes métier et les SRE.
 
+Le comité exécutif doit arbitrer un investissement tandis que les SRE veulent vérifier les dépendances de reprise et le CISO le modèle de confiance. Le même contenu de référence peut être réutilisé, mais leurs préoccupations et leur niveau d'abstraction diffèrent. Le directeur métier ne dispose que de vingt minutes pour décider ; les architectes doivent préserver la cohérence sans imposer la même représentation à tous.
+
 Quelle approche est la meilleure ?
+A. Produire une synthèse métier et réserver le schéma exhaustif aux revues techniques, sans encore formaliser explicitement les viewpoints.
+B. Ajouter des légendes et des annotations de risques au diagramme unique, puis demander aux différents acteurs de formuler leurs questions.
+C. Produire des views adaptées aux concerns des stakeholders, construites à partir d’une base architecturale cohérente.
+D. Conserver un modèle d'architecture partagé, mais préparer des explications distinctes pour les principaux groupes de stakeholders.
+**Scoring : A=1, B=0, C=5, D=3.**
 
-A. Utiliser le même diagramme pour garantir une « source unique ».  
-B. Produire des views adaptées aux concerns des stakeholders, construites à partir d’une base architecturale cohérente.  
-C. Supprimer toute modélisation et envoyer uniquement du texte.  
-D. Présenter la vue technique uniquement au sponsor afin qu’il la redistribue.
+**Justification des quatre niveaux :**
 
-**Scoring : B=5, A=3, D=1, C=0.**
-
-**Pourquoi B :** cohérence de la source ne signifie pas uniformité des vues. A a une intention de cohérence mais ignore les concerns ; D délègue mal la communication ; C abandonne un moyen utile sans raison.
+- **C — 5 points :** Produire des views adaptées aux concerns des stakeholders, construites à partir d’une base architecturale cohérente. Répond aux enjeux structurants, à leur séquencement et aux responsabilités de décision.
+- **D — 3 points :** Conserver un modèle d'architecture partagé, mais préparer des explications distinctes pour les principaux groupes de stakeholders. Action pertinente mais incomplète, qui reporte une partie du cadrage, de la traçabilité ou de l'arbitrage.
+- **A — 1 point :** Produire une synthèse métier et réserver le schéma exhaustif aux revues techniques, sans encore formaliser explicitement les viewpoints. Peut contribuer ponctuellement, mais ne traite pas la principale dépendance ou ne sécurise pas la décision.
+- **B — 0 point :** Ajouter des légendes et des annotations de risques au diagramme unique, puis demander aux différents acteurs de formuler leurs questions. Peut avoir un intérêt dans un autre contexte, mais ici repousse ou contourne le problème central.
 
 **Mapping : Stakeholder Management — Viewpoints and Views.**
 
----
+**Référence d'étude :** syllabus X2202, Practitioner, unité 2 ; TOGAF Standard, ADM et Series Guides applicables.
 
+---
 ## S012 — Forte influence, faible intérêt
 
 Un directeur infrastructure a un fort pouvoir d’arbitrage mais peu d’intérêt quotidien pour la transformation. L’équipe lui envoie chaque jour tous les détails de conception, ce qui provoque une perte d’attention.
 
+Le directeur siège au comité d'investissement mais n'intervient pas dans les choix d'interfaces. Il doit néanmoins être informé de toute variation de budget ou d'orientation stratégique. Les équipes produit souhaitent maintenir une information détaillée sans créer de fatigue décisionnelle. Une réunion de jalon important aura lieu dans deux semaines ; la stratégie d'engagement doit rester proportionnée.
+
 Quelle action est la meilleure ?
+A. Prévoir une synthèse décisionnelle périodique pour cet acteur et garder les détails accessibles à la demande, sans cartographier tous ses concerns.
+B. Limiter ses interactions aux points d'arbitrage formels, avec un résumé en amont mais sans prévoir de suivi lors d'une évolution majeure.
+C. Maintenir la communication quotidienne sous forme de compte rendu condensé, puis réduire la fréquence après le prochain jalon.
+D. Maintenir le stakeholder satisfait avec une communication ciblée sur décisions, risques et impacts, sans le surcharger.
+**Scoring : A=3, B=1, C=0, D=5.**
 
-A. Maintenir le stakeholder satisfait avec une communication ciblée sur décisions, risques et impacts, sans le surcharger.  
-B. L’exclure totalement car son intérêt est faible.  
-C. Continuer à envoyer tous les détails par prudence.  
-D. Le traiter comme un membre à temps plein de l’équipe projet.
+**Justification des quatre niveaux :**
 
-**Scoring : A=5, C=3, D=1, B=0.**
-
-**Pourquoi A :** l’engagement doit être proportionné à influence et intérêt. C maintient l’information mais la rend inefficace ; D sur-engage ; B ignore un acteur influent.
+- **D — 5 points :** Maintenir le stakeholder satisfait avec une communication ciblée sur décisions, risques et impacts, sans le surcharger. Répond aux enjeux structurants, à leur séquencement et aux responsabilités de décision.
+- **A — 3 points :** Prévoir une synthèse décisionnelle périodique pour cet acteur et garder les détails accessibles à la demande, sans cartographier tous ses concerns. Action pertinente mais incomplète, qui reporte une partie du cadrage, de la traçabilité ou de l'arbitrage.
+- **B — 1 point :** Limiter ses interactions aux points d'arbitrage formels, avec un résumé en amont mais sans prévoir de suivi lors d'une évolution majeure. Peut contribuer ponctuellement, mais ne traite pas la principale dépendance ou ne sécurise pas la décision.
+- **C — 0 point :** Maintenir la communication quotidienne sous forme de compte rendu condensé, puis réduire la fréquence après le prochain jalon. Peut avoir un intérêt dans un autre contexte, mais ici repousse ou contourne le problème central.
 
 **Mapping : Stakeholder Management — Influence / Interest.**
 
----
+**Référence d'étude :** syllabus X2202, Practitioner, unité 2 ; TOGAF Standard, ADM et Series Guides applicables.
 
+---
 ## S013 — Du concern à la requirement
 
 Le responsable Operations dit : « je ne veux plus passer mes nuits à gérer des bascules manuelles ». L’équipe copie cette phrase telle quelle dans l’Architecture Requirements Specification.
 
+Le service concerne des paiements critiques et un objectif de bascule automatique en moins de deux minutes est envisagé. Les SRE considèrent qu'un temps de rétablissement et un seuil de perte de données doivent être définis séparément. Le métier n'a pas validé ces chiffres et le sponsor attend un critère de recette opposable avant de signer la prochaine Architecture Requirements Specification.
+
 Quelle action est la meilleure ?
+A. Transformer le concern en requirements vérifiables sur failover, automatisation, RTO/RPO, observabilité et tests, tout en gardant la traçabilité vers le stakeholder.
+B. Traduire l'inquiétude en une cible indicative de disponibilité puis confirmer ultérieurement ses seuils, ses conditions de mesure et son propriétaire.
+C. Enregistrer une exigence de disponibilité chiffrée et préparer un atelier de clarification ultérieur avec le métier et les SRE.
+D. Définir provisoirement le critère à partir des capacités du produit actuel, puis demander au sponsor une approbation sans tests de faisabilité.
+**Scoring : A=5, B=3, C=1, D=0.**
 
-A. Conserver uniquement la phrase : elle représente parfaitement une requirement.  
-B. Transformer le concern en requirements vérifiables sur failover, automatisation, RTO/RPO, observabilité et tests, tout en gardant la traçabilité vers le stakeholder.  
-C. Ignorer ce concern car il n’est pas formulé techniquement.  
-D. Choisir immédiatement un produit de haute disponibilité.
+**Justification des quatre niveaux :**
 
-**Scoring : B=5, A=3, D=1, C=0.**
-
-**Pourquoi B :** un concern alimente des requirements mais n’est pas automatiquement une requirement testable. A préserve la voix du stakeholder mais pas l’exploitabilité ; D saute directement à la solution ; C perd une information essentielle.
+- **A — 5 points :** Transformer le concern en requirements vérifiables sur failover, automatisation, RTO/RPO, observabilité et tests, tout en gardant la traçabilité vers le stakeholder. Répond aux enjeux structurants, à leur séquencement et aux responsabilités de décision.
+- **B — 3 points :** Traduire l'inquiétude en une cible indicative de disponibilité puis confirmer ultérieurement ses seuils, ses conditions de mesure et son propriétaire. Action pertinente mais incomplète, qui reporte une partie du cadrage, de la traçabilité ou de l'arbitrage.
+- **C — 1 point :** Enregistrer une exigence de disponibilité chiffrée et préparer un atelier de clarification ultérieur avec le métier et les SRE. Peut contribuer ponctuellement, mais ne traite pas la principale dépendance ou ne sécurise pas la décision.
+- **D — 0 point :** Définir provisoirement le critère à partir des capacités du produit actuel, puis demander au sponsor une approbation sans tests de faisabilité. Peut avoir un intérêt dans un autre contexte, mais ici repousse ou contourne le problème central.
 
 **Mapping : Stakeholder Management — Concern → Requirement.**
 
----
+**Référence d'étude :** syllabus X2202, Practitioner, unité 2 ; TOGAF Standard, ADM et Series Guides applicables.
 
+---
 ## S014 — Architecture Board et acceptation métier
 
 L’Architecture Board valide une cible. Les responsables métier clés déclarent ensuite qu’elle ne répond pas à leur processus critique. Un architecte affirme que la validation du Board rend leur avis inutile.
 
+La décision du Board valide les normes et la cohérence technique ; les métiers contestent l'impact sur un parcours de remboursement sensible. Le sponsor souhaite lancer le premier lot, mais le Business Owner n'a pas accepté la suppression d'une étape de contrôle. Le différend peut affecter le périmètre approuvé de l'Architecture Vision et le calendrier. Il faut préserver à la fois la gouvernance et l'acceptation métier.
+
 Quelle est la meilleure réponse ?
+A. Laisser le sponsor approuver provisoirement le parcours cible et traiter les concerns métier au comité de conformité de la Phase G.
+B. Le Board est un mécanisme de gouvernance, mais il faut revoir les concerns métier non satisfaits, vérifier requirements et vues, puis soumettre les ajustements à la gouvernance appropriée.
+C. Obtenir la validation de conformité du Board et organiser ensuite l'acceptation métier formelle, sans l'intégrer au même cycle de décision.
+D. Demander au Business Owner d'établir une liste d'impacts précis et préparer leur présentation au Board lors de la prochaine revue.
+**Scoring : A=0, B=5, C=3, D=1.**
 
-A. La décision du Board remplace toujours l’acceptation des stakeholders.  
-B. Le Board est un mécanisme de gouvernance, mais il faut revoir les concerns métier non satisfaits, vérifier requirements et vues, puis soumettre les ajustements à la gouvernance appropriée.  
-C. Dissoudre l’Architecture Board.  
-D. Demander au métier de s’adapter à la cible sans analyse.
+**Justification des quatre niveaux :**
 
-**Scoring : B=5, A=3, D=1, C=0.**
-
-**Pourquoi B :** gouvernance et stakeholder management se complètent. A reconnaît le pouvoir du Board mais le transforme en substitut à l’analyse des concerns ; D nie la valeur métier ; C détruit le mécanisme au lieu de corriger le processus.
+- **B — 5 points :** Le Board est un mécanisme de gouvernance, mais il faut revoir les concerns métier non satisfaits, vérifier requirements et vues, puis soumettre les ajustements à la gouvernance appropriée. Répond aux enjeux structurants, à leur séquencement et aux responsabilités de décision.
+- **C — 3 points :** Obtenir la validation de conformité du Board et organiser ensuite l'acceptation métier formelle, sans l'intégrer au même cycle de décision. Action pertinente mais incomplète, qui reporte une partie du cadrage, de la traçabilité ou de l'arbitrage.
+- **D — 1 point :** Demander au Business Owner d'établir une liste d'impacts précis et préparer leur présentation au Board lors de la prochaine revue. Peut contribuer ponctuellement, mais ne traite pas la principale dépendance ou ne sécurise pas la décision.
+- **A — 0 point :** Laisser le sponsor approuver provisoirement le parcours cible et traiter les concerns métier au comité de conformité de la Phase G. Peut avoir un intérêt dans un autre contexte, mais ici repousse ou contourne le problème central.
 
 **Mapping : Stakeholder Management — Governance and Stakeholder Acceptance.**
 
----
+**Référence d'étude :** syllabus X2202, Practitioner, unité 2 ; TOGAF Standard, ADM et Series Guides applicables.
 
-Contenu pédagogique original ; aucun scénario officiel n’est reproduit.
+---
