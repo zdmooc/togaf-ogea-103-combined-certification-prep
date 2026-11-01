@@ -1,4 +1,9 @@
-# AVERTISSEMENT — AUDIT HISTORIQUE REMPLACÉ (01/11/2026)
+# AVERTISSEMENT — AUDIT HISTORIQUE (01/11/2026)
+
+**NOUVEAU STATUT : CONTENU AMÉLIORÉ / VALIDATION INDÉPENDANTE EN ATTENTE.** La PR #2 corrige les banques et examens blancs, relie 130 learning outcomes évaluables à des exercices candidats, documente leurs niveaux Bloom officiels et réduit les biais de longueur des choix. Les tests de structure passent. Cela ne constitue **ni une validation psychométrique, ni une garantie de réussite, ni une revue indépendante de l'ensemble des corrigés**. La branche de correction n'est pas encore fusionnée dans `main`.
+
+Voir `14-official-sources/05-x2202-remediation-register.md` et la PR #2.
+
 
 Le verdict READY ci-dessous date du 6 septembre 2026 et **n'est plus le verdict courant**. Un nouvel audit a confirmé des questions trop simples, un biais massif des lettres, des scénarios Practitioner insuffisamment profonds et des lacunes X2202. Des corrections sont engagées ; **aucune couverture parfaite ou difficulté identique à l'examen ne peut actuellement être garantie**. Consulter `14-official-sources/05-x2202-remediation-register.md`.
 
