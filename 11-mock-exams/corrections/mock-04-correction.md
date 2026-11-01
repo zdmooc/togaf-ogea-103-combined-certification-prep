@@ -12,7 +12,7 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, scoring 5/3/1/0, réussite
 5. **B** — Baseline = état actuel.
 6. **C** — Les composants logiques du Repository distinguent requirements, standards, solutions, modèles et décisions. [X2202, domaine correspondant].
 7. **A** — Continuum classe du générique au spécifique.
-8. **D** — Deliverable = produit formel contenant éventuellement plusieurs artifacts.
+8. **D** — Un deliverable peut agréger plusieurs artifacts et être soumis à validation formelle.
 9. **A** — Preliminary établit capability/gouvernance.
 10. **C** — Phase A cadre scope, stakeholders, value et Vision.
 11. **D** — Les capabilities décrivent des aptitudes durables, distinctes des moyens applicatifs. [X2202, domaine correspondant].
@@ -24,7 +24,7 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, scoring 5/3/1/0, réussite
 17. **A** — G = implementation governance.
 18. **C** — Phase H traite l'évolution de l'architecture de manière proportionnée et gouvernée. [X2202, domaine correspondant].
 19. **D** — Requirements Management est transversal.
-20. **B** — ADM = tailorable et itératif.
+20. **B** — TOGAF permet de revenir sur les domaines dont les contraintes évoluent.
 21. **A** — Gap = différence Baseline/Target.
 22. **C** — Transition Architecture = état intermédiaire.
 23. **B** — Un protocole commun n'assure pas une interprétation partagée des informations. [X2202, domaine correspondant].
@@ -43,7 +43,7 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, scoring 5/3/1/0, réussite
 36. **A** — Catalog/Matrix/Diagram sont des Artifacts.
 37. **D** — Building Block = élément réutilisable d'architecture/solution.
 38. **B** — Le Content Framework distingue trois formes d'artifacts : catalogues, matrices et diagrammes. [X2202, domaine correspondant].
-39. **C** — une View répond à des concerns via une Viewpoint.
+39. **C** — Un viewpoint règle la construction d'une view, adaptée à des concerns.
 40. **A** — Content Metamodel définit types d'entités et relations.
 
 # Part 2 — correction approfondie
