@@ -12,11 +12,11 @@ D. Un plan projet
 
 ## Q002 — Valeur de l'architecture
 Quelle est la meilleure description de la valeur d'une architecture d'entreprise ?
-A. Produire beaucoup de diagrammes
+A. Centraliser la production de vues architecturales sans démontrer leur contribution aux décisions
 B. Aider à aligner, arbitrer et conduire la transformation
-C. Remplacer la gestion de projet
-D. Choisir tous les produits
-**Réponse : B.** La valeur vient des décisions et de l'alignement. A confond documentation et valeur ; C et D dépassent le rôle de l'EA.
+C. Piloter directement les coûts et les délais de tous les projets de transformation
+D. Uniformiser le portefeuille technique sans tenir compte des capacités métier
+**Réponse : B.** La valeur de l'Enterprise Architecture vient de l'alignement entre stratégie, décisions et transformation. A confond production de vues et impact réel ; C relève du pilotage de projet ; D traite la standardisation technologique comme une fin en soi.
 **Mapping : Concepts — Value of Architecture.**
 
 ## Q003 — TOGAF
@@ -243,11 +243,11 @@ D. Un domaine d'architecture
 
 ## Q027 — Requirement
 Une architecture requirement doit idéalement être :
-A. Ambiguë et générale
-B. Une préférence personnelle
+A. Formulée comme une intention stratégique, sans critère permettant de vérifier sa satisfaction
+B. Acceptée oralement par un sponsor, sans identifiant ni lien vers les décisions d'architecture
 C. Compréhensible, traçable et vérifiable
-D. Un nom de produit obligatoire sans justification
-**Réponse : C.** Une requirement utile doit pouvoir être comprise et évaluée. A/B/D affaiblissent le raisonnement architectural.
+D. Limitée au nom d'une solution préférée avant toute analyse des contraintes métier
+**Réponse : C.** Une requirement d'architecture doit être compréhensible, traçable et vérifiable. A décrit un objectif trop général, B perd la traçabilité et D préjuge d'une solution plutôt que d'exprimer le besoin.
 **Mapping : Concepts — Requirements.**
 
 ## Q028 — Deliverable
@@ -285,7 +285,7 @@ A. Le produit exact choisi
 B. Un composant de solution déjà sélectionné pour réaliser une capacité
 C. Le besoin/capacité architectural de manière indépendante d'une implémentation précise
 D. La description des activités prévues dans un lot de migration
-**Réponse : C.** L'ABB reste logique/architectural. A correspond plutôt à un SBB ; B/D sont hors sujet.
+**Réponse : C.** Un ABB décrit une capacité architecturale sans imposer sa réalisation. A et B se rapprochent des SBB (produits ou composants de solution sélectionnés) ; D relève d'un work package de migration.
 **Distracteur B :** Une solution sélectionnée correspond davantage au SBB qu'à l'ABB.
 **Distracteur D :** Un work package décrit un ensemble de travaux, non l'ABB abstrait.
 **Mapping : Concepts — ABB.**
@@ -311,11 +311,11 @@ D. ABB « concern » ; SBB « view »
 
 ## Q034 — Architecture Landscape
 Dans le Repository, l'Architecture Landscape aide surtout à :
-A. Stocker seulement les contrats fournisseurs
+A. Centraliser les engagements d'implémentation consignés dans les Architecture Contracts
 B. Donner une vue des architectures existantes à différents niveaux
-C. Exécuter les vérifications automatiques des produits approuvés par le Board
-D. Remplacer les views
-**Réponse : B.** Le Landscape fournit une compréhension des architectures. A/C/D sont faux.
+C. Maintenir principalement la liste des technologies et standards approuvés pour les solutions
+D. Classifier les assets du générique vers les architectures spécifiques à l'organisation
+**Réponse : B.** L'Architecture Landscape conserve la vue des architectures à différents niveaux. A renvoie aux contrats et à la gouvernance, C à la base de standards, D à la fonction de classification de l'Enterprise Continuum.
 **Mapping : Concepts — Architecture Repository.**
 
 ## Q035 — Standards Information Base
@@ -424,11 +424,11 @@ D. Une décision d'exception temporaire gouvernée par l'Architecture Board
 
 ## Q046 — Goal
 Un goal représente :
-A. Une préoccupation uniquement technique
+A. Une force interne ou externe motivant une transformation de l'entreprise
 B. Un résultat ou état souhaité à atteindre
-C. Un building block
-D. Un diagramme
-**Réponse : B.** Les goals traduisent les ambitions de l'entreprise. A/C/D ne définissent pas un goal.
+C. Une règle durable qui oriente les décisions de conception
+D. Une condition vérifiable que la solution cible doit respecter
+**Réponse : B.** Un goal décrit le résultat ou l'état souhaité. A désigne plutôt un driver, C un Architecture Principle et D une requirement.
 **Mapping : Concepts — Drivers/Goals.**
 
 ## Q047 — Constraint
@@ -452,10 +452,10 @@ D. Transformer ce concern en exigences mesurables de disponibilité/continuité
 ## Q049 — Current vs future
 Quel couple est correct ?
 A. Baseline = actuel ; Target = futur souhaité
-B. Baseline = futur ; Target = actuel
-C. Transition = actuel ; Baseline = intermédiaire
-D. Target = planning
-**Réponse : A.** C'est la distinction fondamentale. B/C inversent les termes ; D confond état et plan.
+B. Baseline = première Transition Architecture ; Target = état actuel constaté
+C. Transition = état cible final ; Baseline = architecture future approuvée
+D. Target = liste des work packages ; Baseline = plan d'implémentation
+**Réponse : A.** La Baseline décrit l'état de référence actuel et la Target l'état futur recherché. B et C confondent états initial, intermédiaire et cible ; D confond descriptions d'architecture et planification.
 **Mapping : Concepts — Baseline/Target.**
 
 ## Q050 — Architecture Roadmap
@@ -480,30 +480,30 @@ D. Un ensemble de vues formelles regroupées dans l'Architecture Definition Docu
 
 ## Q052 — Plateau
 Dans une trajectoire d'architecture, un plateau correspond le mieux à :
-A. Un stakeholder
-B. Une phase de validation isolée avant passage en production
-C. Une option de réponse
+A. Un lot de travaux de migration à réaliser pour passer de la Baseline à la Target
+B. Un jalon de validation dans le planning, sans description de l'architecture résultante
+C. Un écart entre deux états architecturaux qu'il faudra résoudre
 D. Un état relativement stable de l'architecture
-**Réponse : D.** Un plateau peut représenter un état intermédiaire stable. A/B/C sont faux.
+**Réponse : D.** Le plateau représente un état relativement stable de l'architecture. A décrit un work package, B un jalon de projet et C un gap ; aucun de ces objets ne constitue à lui seul un plateau.
 **Distracteur B :** Un plateau est un état architectural relativement stable, pas une activité ponctuelle.
 **Mapping : Concepts — Transition/Roadmap.**
 
 ## Q053 — Architecture decision
 Pourquoi tracer les décisions d'architecture ?
 A. Pour conserver rationale, contraintes et responsabilités
-B. Documenter uniquement les exigences actuellement approuvées sans liens vers leurs éléments cibles
-C. Relier chaque exigence à son sponsor, mais pas aux éléments d'architecture qui la réalisent
-D. Pour remplacer les requirements
-**Réponse : A.** La traçabilité soutient gouvernance et changement. B/C/D sont contraires à l'objectif.
+B. Conserver une liste de produits retenus, sans le raisonnement justifiant les arbitrages
+C. Permettre de réviser automatiquement les requirements lorsqu'un fournisseur change
+D. Figer définitivement la Target et empêcher de réévaluer les décisions lors d'un changement
+**Réponse : A.** Le registre des décisions conserve leur justification, leurs contraintes et les responsabilités d'arbitrage. B perd le rationale, C confond traçabilité et modification automatique, D empêche la réévaluation gouvernée.
 **Mapping : Concepts — Governance/Traceability.**
 
 ## Q054 — Reusable asset
 Lequel est le meilleur exemple d'asset réutilisable ?
-A. Une conversation informelle sans trace
+A. Un diagramme ponctuel décrivant un incident isolé sans généralisation ni validation
 B. Un pattern de résilience validé
-C. Une erreur non documentée
-D. Une préférence individuelle
-**Réponse : B.** Un pattern validé peut être réutilisé via le Repository. A/C/D n'offrent pas un asset gouverné.
+C. Une dérogation temporaire propre à un projet et non évaluée pour réutilisation
+D. Un choix de composant local non documenté, sans critères de validité
+**Réponse : B.** Un pattern de résilience validé, contextualisé et stocké dans le Repository est réutilisable. A est trop ponctuel, C une exception locale, D un choix non qualifié pour d'autres contextes.
 **Mapping : Concepts — Reuse/Repository.**
 
 ## Q055 — Four domains relation
@@ -544,11 +544,11 @@ D. Maintenir la sécurité hors de l'Architecture Requirements Specification
 
 ## Q059 — Architecture effectiveness
 Quel signal indique le mieux une architecture efficace ?
-A. Le document est très long
-B. Le nombre de représentations produites par l'équipe
+A. Le nombre de deliverables formellement validés au cours du programme
+B. La diversité des views produites, sans mesure de leur utilité dans les arbitrages
 C. Les décisions sont comprises, traçables et soutiennent les objectifs
-D. Tous les produits sont récents
-**Réponse : C.** L'efficacité se mesure par l'alignement et la qualité des décisions, pas par le volume ou l'esthétique.
+D. Le taux de standardisation du parc technologique considéré indépendamment des objectifs métier
+**Réponse : C.** Une architecture efficace soutient des décisions traçables et les résultats métier. A et B mesurent la documentation, D un indicateur technique partiel ; aucun ne démontre à lui seul l'alignement et l'utilité de l'architecture.
 **Distracteur B :** Le volume des vues ne prouve ni l'alignement ni l'utilité des décisions.
 **Mapping : Concepts — Value of Architecture.**
 
