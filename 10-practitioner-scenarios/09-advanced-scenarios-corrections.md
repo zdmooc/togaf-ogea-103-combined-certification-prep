@@ -37,7 +37,7 @@ Les barèmes ci-dessous **ne sont pas officiels**. Le score doit être défendab
 ## A05 — D=5, A=3, B=1, C=0
 **Learning outcome :** L2 U5 5.2–5.10 (E/F/G).
 - **D (5)** : rend visibles les dépendances et la readiness avant de choisir la stratégie et les transitions ; distingue la planification F de la gouvernance G.
-- **A (3)** : répond à la préférence du sponsor et peut réduire la durée de coexistence, mais ne résout pas la contradiction risque/disponibilité ni les prérequis événementiels.
+- **A (3)** : un pilote et un plan de retour arrière répondent à une partie du risque opérationnel, mais n'apportent ni analyse complète des dépendances, ni comparaison des stratégies, ni séquencement fondé sur la disponibilité des événements.
 - **B (1)** : un contrat sera utile en implémentation, pas pour choisir l'ordre de migration.
 - **C (0)** : ajoute une solution sans traiter ses dépendances ni ses impacts.
 **Référence :** TOGAF ADM Phase E Opportunities & Solutions, Phase F Migration Planning.
