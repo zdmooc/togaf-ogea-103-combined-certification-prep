@@ -39,7 +39,7 @@ La répartition est proportionnelle au plan officiel OGEA-101 de 40 questions :
 
 ## Audit 2026-11-01
 
-La répartition des réponses a été corrigée (75 A, 75 B, 75 C, 75 D). Cent trente-trois distracteurs très faibles ont été remplacés (53 + 80) par des concepts TOGAF plus proches. Ce correctif ne suffit pas à établir une difficulté réaliste : une revue humaine demeure requise. Les 24 exercices avancés et leurs corrections séparées figurent dans `09-advanced-drills.md`.
+La répartition des réponses a été corrigée (75 A, 75 B, 75 C, 75 D). Cent trente-trois distracteurs très faibles ont été remplacés (53 + 80) par des concepts TOGAF plus proches. Ce correctif ne suffit pas à établir une difficulté réaliste : une revue humaine demeure requise. Deux exercices ciblés supplémentaires `XF01–XF02` couvrent la définition d'une Enterprise et le modèle de rédaction des Architecture Principles. Les 24 exercices avancés et leurs corrections séparées figurent dans `09-advanced-drills.md`.
 
 ## Méthode d'utilisation
 
