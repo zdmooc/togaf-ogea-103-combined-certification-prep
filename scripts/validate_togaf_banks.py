@@ -130,6 +130,36 @@ advanced_p = (root / '10-practitioner-scenarios' / '09-advanced-multi-constraint
 check(len(re.findall(r'^## F\d\d\b', advanced_f, re.M)) == 24, 'Advanced Foundation: 24 expected')
 check(len(re.findall(r'^## A\d\d\b', advanced_p, re.M)) == 8, 'Advanced Practitioner: 8 expected')
 
+
+# Detect answer-length cues, which make practice questions guessable.
+foundation_files = sorted((root / '09-foundation-question-bank').glob('0[1-8]-*q*.md'))
+lengths = []
+for file in foundation_files:
+    content = file.read_text(encoding='utf-8')
+    questions = re.split(r'(?=^## Q\d+ — )', content, flags=re.M)[1:]
+    for question in questions:
+        key = re.search(r'\*\*Réponse\s*:\s*([ABCD])\.\*\*', question)
+        choices_text = question.split('**Réponse')[0]
+        opts = dict(re.findall(r'^([ABCD])\.\s+([^\n]+)', choices_text, re.M))
+        if not key or set(opts) != set('ABCD'):
+            check(False, f'{file}: cannot score choice lengths')
+            continue
+        correct = len(opts[key[1]])
+        other_mean = sum(len(v) for k, v in opts.items() if k != key[1]) / 3.0
+        lengths.append((correct, other_mean, max(len(x) for x in opts.values())))
+if len(lengths) == 300:
+    longest_share = sum(a == mx for a, other, mx in lengths) / len(lengths)
+    extreme_count = sum(a > 2.0 * other for a, other, mx in lengths)
+    average_ratio = sum(a / other for a, other, mx in lengths) / len(lengths)
+    check(longest_share <= 0.40,
+          f'Answer-length cue: correct option is longest {longest_share:.1%}, threshold 40%')
+    check(extreme_count == 0, f'Answer-length cue: {extreme_count} options > 2x distractor mean')
+    check(average_ratio <= 1.35,
+          f'Answer-length cue: mean correct/distractor length ratio {average_ratio:.2f}, limit 1.35')
+    print(f'Answer-length QA: longest={longest_share:.1%}, mean ratio={average_ratio:.2f}, >2x={extreme_count}')
+else:
+    check(False, f'Answer-length QA parsed {len(lengths)} of 300 questions')
+
 print('Foundation', len(fids), Counter(fanswers))
 print('Practitioner', len(pids), Counter(pbest))
 print('6 Combined mock exams checked')
