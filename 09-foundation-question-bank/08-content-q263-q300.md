@@ -16,7 +16,7 @@ A. Architecture Vision, Architecture Roadmap et Architecture Contract
 B. Sprints, Stories, Epics uniquement
 C. CPU, RAM, Disk uniquement
 D. Deliverables, Artifacts, Building Blocks
-**Réponse : D.** B'est la triade fondamentale du contenu TOGAF.
+**Réponse : D.** C'est la triade structurante de l'Architecture Content Framework : Deliverables, Artifacts et Building Blocks.
 **Distracteur A :** Ce sont des exemples de deliverables, pas les trois catégories générales.
 **Mapping : Architecture Content — Content Framework.**
 
@@ -283,7 +283,7 @@ A. Application Portfolio Catalog
 B. Technology Building Block déployé
 C. Architecture Contract fournisseur
 D. Requirements Management process
-**Réponse : A.** Un catalog est un artifact. B/C/D sont organisation, phase et stakeholder.
+**Réponse : A.** L'Application Portfolio Catalog est un artifact (un catalogue). Le Technology Building Block est un building block, l'Architecture Contract un deliverable et Requirements Management un processus transversal.
 **Mapping : Architecture Content — Artifacts.**
 
 ## Q294 — Matrix example
