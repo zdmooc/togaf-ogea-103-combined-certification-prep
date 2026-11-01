@@ -49,19 +49,19 @@ D. Ne disposer d'aucune règle de décision
 
 ## Q246 — Architecture Contract
 Un Architecture Contract est principalement :
-A. Un diagramme réseau
+A. Un ensemble de diagrams décrivant l'état Baseline et les building blocks de la Target
 B. Un accord formalisant les responsabilités et attentes entre parties autour de l'architecture
-C. Une Business Capability
-D. Une Transition Architecture
+C. Un registre des standards technologies classés par version et domaine d'application
+D. Une Architecture Roadmap représentant les work packages et états intermédiaires
 **Réponse : B.** Il explicite les engagements de conformité et collaboration. A/C/D sont d'autres objets.
 **Mapping : Architecture Governance — Architecture Contract.**
 
 ## Q247 — Contract in implementation
 Pendant Phase G, l'Architecture Contract aide à :
-A. Redéfinir la Business Architecture
-B. Remplacer le code
+A. Clarifier l'ordre des work packages et les gains métier attendus en Phase F
+B. Définir la Baseline et Target Business Architecture avant le choix des solutions
 C. Clarifier ce que les équipes d'implémentation doivent respecter et fournir comme preuves
-D. Supprimer les reviews
+D. Classer les assets réutilisables selon leur position dans l'Enterprise Continuum
 **Réponse : C.** Le contrat soutient la gouvernance de mise en œuvre.
 **Mapping : Architecture Governance — Architecture Contract.**
 
@@ -77,9 +77,9 @@ D. La Vision aligne sur la direction cible ; le Contract formalise des engagemen
 ## Q249 — Compliance Review
 Une Architecture Compliance Review sert à :
 A. Comparer une implémentation ou solution aux requirements et décisions d'architecture approuvées
-B. Créer le scope
-C. Définir les business goals
-D. Remplacer Phase E
+B. Comparer les modèles Baseline et Target pour produire une première liste des gaps
+C. Identifier les work packages prioritaires et leurs dépendances au cours de la Phase F
+D. Construire l'Architecture Vision et faire accepter les hypothèses de périmètre
 **Réponse : A.** Elle vérifie l'alignement effectif.
 **Mapping : Architecture Governance — Compliance.**
 
@@ -104,9 +104,9 @@ D. Supprimer le requirement localement
 
 ## Q252 — Deviation
 Une deviation est :
-A. Une phase ADM
-B. Un stakeholder
-C. Un building block
+A. Une nouvelle requirement métier qui n'a pas encore été reliée aux composants cibles
+B. Un gap identifié entre les architectures Baseline et Target pendant la conception
+C. Une option de solution candidate non encore soumise à une décision de gouvernance
 D. Un écart par rapport à une architecture, standard ou requirement approuvé
 **Réponse : D.** Elle décrit la non-conformité constatée.
 **Mapping : Architecture Governance — Deviations.**
