@@ -7,42 +7,42 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40 avec gradient 5/3/1/0, passage
 
 1. **A** — stakeholder = partie intéressée/affectée.
 2. **C** — concern = ce qui importe au stakeholder.
-3. **D** — capability = aptitude de l'entreprise.
+3. **D** — Au niveau Portfolio, l'EA guide la sélection et la cohérence d'un ensemble de changements. [X2202, domaine correspondant].
 4. **B** — Principle = règle directrice générale.
 5. **A** — Target = futur souhaité.
-6. **C** — état intermédiaire = Transition Architecture.
+6. **C** — Le Content Framework sépare représentation graphique, éléments architecturaux et engagements formels. [X2202, domaine correspondant].
 7. **B** — Repository organise les assets.
 8. **D** — Continuum classe/contextualise les assets.
 9. **B** — Preliminary installe capability et gouvernance.
 10. **A** — Architecture Vision = Phase A.
-11. **C** — capabilities/processus métier = Phase B.
+11. **C** — La Phase B décrit les besoins métier et prépare la cohérence des domaines qui suivent. [X2202, domaine correspondant].
 12. **D** — data ownership = C Data.
 13. **B** — interactions/services applicatifs = C Application.
 14. **C** — plateforme cible = Phase D.
 15. **A** — work packages/transitions = E.
 16. **D** — séquencement de migration = F.
 17. **B** — Contract/Compliance soutiennent G.
-18. **C** — changement post-implémentation = H.
+18. **C** — La Phase H ne présuppose pas qu'une exigence réglementaire impose un type unique de changement. [X2202, domaine correspondant].
 19. **A** — Requirements Management est continu.
 20. **B** — ADM tailorable et itératif.
 21. **D** — Gap = différence Baseline/Target.
 22. **C** — Roadmap montre la trajectoire.
-23. **C** — Stakeholder Management.
+23. **C** — La readiness mesure la capacité de l'entreprise à transformer et exploiter, pas seulement la faisabilité technique. [X2202, domaine correspondant].
 24. **A** — Business Scenarios.
 25. **B** — Interoperability Analysis.
 26. **D** — Transformation Readiness.
 27. **C** — Risk Management.
 28. **A** — Capability-Based Planning.
 29. **B** — Tailoring.
-30. **D** — Levels of Architecture.
+30. **D** — L'ADM peut coexister avec des approches agiles et reste itératif. [X2202, domaine correspondant].
 31. **A** — Partitioning.
 32. **C** — security est transverse.
 33. **B** — Architecture Board.
-34. **C** — Architecture Contract.
+34. **C** — Architecture Governance demande une décision d'exception et une preuve, pas une approbation implicite. [X2202, domaine correspondant].
 35. **A** — une exception doit être analysée, approuvée et suivie.
 36. **D** — Deliverable = produit formel.
 37. **A** — Matrix = Artifact.
-38. **B** — Building Block = élément réutilisable.
+38. **B** — Une matrice est une représentation ; elle ne devient ni une solution ni un contrat. [X2202, domaine correspondant].
 39. **C** — ABB architectural, SBB plus concret.
 40. **D** — Catalog liste, Matrix relie, Diagram visualise.
 
