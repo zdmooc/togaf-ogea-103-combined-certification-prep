@@ -63,7 +63,7 @@ A. Phase G applique une Compliance Review et ne peut jamais rouvrir les architec
 **Q19.** Une nouvelle requirement sur la durée de conservation apparaît alors que Data, Application et Technology Architecture sont déjà engagées. Quelle propriété de Requirements Management permet de traiter cette évolution ?
 A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Phase G uniquement — vérifier seulement les exigences à la réception  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Maintient, analyse et trace les exigences tout au long de l'ADM
 
-**Q20.** Une nouvelle contrainte de résidence de données oblige à revoir plusieurs décisions de phases déjà parcourues. Quelle affirmation sur l'ADM est correcte ?
+**Q20.** Une obligation de résidence des données apparaît pendant Phase D alors que les modèles Data et Application ont déjà été approuvés. Quelle propriété de l'ADM permet de réconcilier ces travaux ?
 A. Les phases peuvent être revisitées pour réconcilier les modèles et exigences avec la nouvelle contrainte.  B. L'ADM est linéaire et ne permet pas de revenir sur les domaines  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
 **Q21.** Une banque cible un service de paiements résilient, mais son SI actuel ne dispose pas de la capacité de reprise requise. Quelle analyse formalise cette différence avant de retenir une solution ?
@@ -120,7 +120,7 @@ A. Deliverable — produit de travail formel agrégant des représentations  B. 
 **Q38.** Une revue a besoin d'une représentation de la relation entre des services applicatifs et leurs entités de données. Quel type d'artifact du Content Framework est le plus directement adapté ?
 A. Une matrice montrant les relations entre éléments de deux catégories.  B. Un Architecture Contract car toute relation entre services et données doit être contractualisée.  C. Un catalogue listant seulement les noms de services sans dépendances.  D. Une Transition Architecture considérée comme un type de diagramme obligatoire.
 
-**Q39.** Dans une mutuelle d'assurance, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Quelle distinction ABB/SBB est correcte ?
+**Q39.** Une mutuelle modélise un service abstrait d'indemnisation, puis retient une application comme moyen de le réaliser. Comment distinguer les deux building blocks ?
 A. L'ABB est le produit précis et le SBB le besoin indépendant de toute solution  B. ABB et SBB sont synonymes dès qu'une solution est approuvée  C. Le SBB est toujours une capability métier, tandis que l'ABB est une technologie  D. ABB exprime le besoin architectural, SBB une réalisation plus spécifique
 
 **Q40.** Pour documenter un portefeuille applicatif, ses relations aux données et ses flux, quelle association Catalog / Matrix / Diagram est correcte ?
