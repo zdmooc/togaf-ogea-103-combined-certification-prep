@@ -65,11 +65,11 @@ D. Pour figer définitivement les requirements après la première release produ
 
 ## Q218 — Levels of Architecture
 Pourquoi travailler à plusieurs niveaux d'architecture ?
-A. Pour dupliquer les mêmes documents
+A. Pour exiger une même granularité de modèles pour les arbitrages stratégiques et la conception de solution
 B. Pour gérer la complexité et adapter le niveau de décision
-C. Pour isoler totalement les équipes
-D. Pour éviter l'Enterprise Architecture
-**Réponse : B.** Les niveaux rendent les décisions proportionnées et coordonnées.
+C. Pour séparer les équipes d'architecture par périmètre sans aligner leurs décisions
+D. Pour remplacer les orientations d'entreprise par un ensemble de choix locaux de solution
+**Réponse : B.** Les niveaux d'architecture aident à maîtriser la complexité et à calibrer le détail par type de décision. A impose la même granularité, C rompt la cohérence entre niveaux et D abandonne la direction commune.
 **Mapping : Applying ADM — Levels of Architecture.**
 
 ## Q219 — Enterprise level

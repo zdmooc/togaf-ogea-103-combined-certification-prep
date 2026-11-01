@@ -191,6 +191,20 @@ q73 = next((b for b in re.split(r"(?=^## Q\d+ — )",bank,flags=re.M) if b.start
 check("Phase A établit l'Architecture Vision" in q73 and "Phase B développe" in q73,
       "Q073: inversion of Phase A/B explanation has regressed")
 
+# Verified semantic corrections from the 300-item Foundation review (2026-11-01).
+# These checks protect specific corrected explanations; they are not a semantic oracle.
+for ident, expected in (
+    ("Q031", "A et B se rapprochent des SBB"),
+    ("Q061", "B relève d'une Compliance Review"),
+    ("Q062", "A relève de la phase F"),
+    ("Q100", "La phase D développe la Technology Architecture"),
+    ("Q108", "A désigne Business Architecture (phase B)"),
+):
+    section = next((b for b in re.split(r"(?=^## Q\d+ — )", bank, flags=re.M)
+                    if b.startswith(f"## {ident} —")), "")
+    check(expected in section, f"{ident}: verified explanation has regressed")
+check("AB Bs" not in bank, "Q284: malformed ABB label has regressed")
+
 all_best=[]
 for n in range(1,7):
     correction=read(f"11-mock-exams/corrections/mock-0{n}-correction.md").split("# Part 2")[1]

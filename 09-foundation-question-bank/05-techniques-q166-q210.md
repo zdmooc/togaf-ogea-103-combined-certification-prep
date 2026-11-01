@@ -171,11 +171,11 @@ D. Comparer les performances des produits d'infrastructure sans évaluer les éq
 
 ## Q184 — Readiness factors
 Quel facteur est pertinent pour Transformation Readiness ?
-A. Couleur du diagramme
-B. La conformité technique des seuls composants applicatifs
-C. Nombre de pages du document
+A. La conformité d'implémentation des composants livrés, sans étude de l'adoption organisationnelle
+B. La présence d'une Target Technology Architecture approuvée, indépendamment des compétences des équipes
+C. La disponibilité d'un fournisseur ayant répondu à un appel d'offres, sans évaluer la capacité de changement
 D. Leadership, compétences et capacité au changement
-**Réponse : D.** La readiness est organisationnelle et humaine autant que technique.
+**Réponse : D.** La readiness couvre leadership, culture, compétences, ressources et capacité d'absorption du changement. A/B/C évaluent des conditions techniques ou contractuelles isolées, insuffisantes pour qualifier l'adoption organisationnelle.
 **Distracteur B :** Elle est utile mais ne remplace pas sponsor, capacités humaines et exploitation.
 **Mapping : ADM Techniques — Business Transformation Readiness.**
 
@@ -292,10 +292,10 @@ D. Aider à prioriser et séquencer les changements
 ## Q197 — Business value
 Lors de la priorisation des work packages, quel critère est pertinent ?
 A. Business value
-B. Ordre alphabétique
-C. Couleur du diagramme
-D. Préférence personnelle
-**Réponse : A.** Valeur, coût, risque et dépendances sont des critères défendables.
+B. Le nombre de composants techniques remplacés, pris isolément comme mesure de priorité
+C. L'ordre des jalons déjà annoncé aux équipes, sans analyse de la contribution aux objectifs
+D. Le seul coût initial des technologies, sans évaluation des bénéfices attendus
+**Réponse : A.** La business value sert à évaluer les bénéfices des work packages. Le nombre de composants (B), les jalons annoncés (C) et le coût isolé (D) ne démontrent pas la valeur ; une vraie priorisation intègre aussi risques et dépendances.
 **Mapping : ADM Techniques — Migration Planning.**
 
 ## Q198 — Dependency
