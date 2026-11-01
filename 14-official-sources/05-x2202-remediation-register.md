@@ -29,7 +29,7 @@ Chaque *learning outcome* doit obtenir (1) une référence du cours avec explica
 
 - Banque Foundation : ancien état 272 A / 26 B / 2 C / 0 D. **Correctif mécanique** : 75 bonnes réponses par lettre, propositions réordonnées ; cela **ne prouve pas** une difficulté réaliste.
 - Banque Practitioner : ancien état 43 A / 14 B / 3 C / 0 D. **Correctif de premier niveau** : les 60 scénarios ont été développés avec enjeux métier, contraintes et alternatives révisées, et les meilleures réponses réparties sur A/B/C/D. Une revue de qualité **indépendante** des options et de chaque gradient reste obligatoire.
-- Six examens blancs : les 48 scénarios Practitioner ont été développés et 48 QCM Foundation renforcés. Les 192 autres QCM n'ont pas fait l'objet d'une refonte complète. L'indépendance psychométrique et la difficulté restent **non validées**.
+- Six examens blancs : les 48 scénarios Practitioner ont été développés et les 240 QCM Foundation ont été retravaillés (48 réécrits en profondeur, 192 avec distracteurs liés aux notions TOGAF et contextualisation). La vérification pédagogique indépendante reste nécessaire. L'indépendance psychométrique et la difficulté restent **non validées**.
 
 ## Critères de sortie bloquants
 
@@ -46,8 +46,12 @@ Chaque *learning outcome* doit obtenir (1) une référence du cours avec explica
 - [x] 60 scénarios Practitioner : 15 meilleures réponses A/B/C/D et quatre niveaux distincts.
 - [x] 6 examens blancs : 40 QCM + 8 scénarios chacun et corrections présentes.
 - [x] 48 scénarios des mocks repris avec des contextes plus développés.
-- [x] 48 QCM des mocks renforcés et 14 intitulés répétés contextualisés.
-- [ ] Validation sémantique exhaustive de l'ensemble du corpus par relecteur qualifié.
+- [x] 240 QCM des mocks retravaillés (48 réécrits en profondeur, 192 révisés par concept) et 14 intitulés répétés contextualisés.
+- [x] 131 learning outcomes X2202 inventoriés individuellement et associés à des supports candidats (sans validation individuelle de fond).
+- [x] 133 distracteurs faibles de la banque Foundation remplacés par des alternatives conceptuellement plus proches (53 + 80).
+- [x] GitHub Actions : contrôles structurels des banques, six mocks, 131 objectifs et liens vers les cours.
+- [ ] Associer à chacun des 131 objectifs un numéro précis d'exercice et vérifier sa conformité au niveau Bloom requis.
+- [ ] Validation sémantique indépendante et approfondie de l'ensemble du corpus par relecteur qualifié.
 
 ## Distinction importante
 
