@@ -133,8 +133,8 @@ A. Chaque diagramme est nécessairement un SBB correspondant à un service méti
 **Q39.** Quel énoncé est correct ?
 A. SBB est toujours plus abstrait qu'ABB  B. ABB est toujours un produit fournisseur  C. ABB est architectural ; SBB est plus orienté réalisation/solution  D. Ils sont synonymes
 
-**Q40.** Quelle affirmation est correcte ?
-A. Une Matrix ne montre aucune relation  B. Catalog, Matrix et Diagram sont des formes d'Artifacts  C. Un Catalog est toujours un Deliverable complet  D. Un Diagram est une Viewpoint
+**Q40.** Une Architecture Definition Document contient un inventaire des applications, une relation application/donnée et un dessin des composants de paiement. Comment classer les trois représentations ?
+A. Le Catalog est un SBB, la Matrix un deliverable et le Diagram un Architecture Contract.  B. Ce sont respectivement Catalog, Matrix et Diagram, trois formes possibles d'artifacts.  C. Chaque représentation constitue une Transition Architecture complète.  D. Ce sont des viewpoints et non des artifacts car elles ciblent différents stakeholders.
 
 # Part 2 — Practitioner : scénarios contextualisés
 
