@@ -67,10 +67,10 @@ A. Il intervient de manière transversale, avec analyse et traçabilité des imp
 A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
 **Q21.** Le programme identifie l'absence d'un service de vérification dans la Baseline, alors que la Target l'exige. Quelle technique décrit cette différence ?
-A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Migration Planning — prioriser les lots sans comparer Baseline et Target  D. Les différences pertinentes entre Baseline et Target
+A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Migration Planning — prioriser les lots sans comparer Baseline et Target  D. Gap Analysis — différences entre Baseline et Target
 
 **Q22.** Finance demande les transitions et principaux lots conduisant à l'architecture cible, plutôt qu'un inventaire de composants. Quel livrable utiliser ?
-A. Architecture Requirements Specification — conditions vérifiables de cible  B. Architecture Contract — engagements entre acteurs de réalisation  C. Montrer la trajectoire et les principaux changements vers la cible  D. Implementation and Migration Plan — tâches et dates détaillées des waves
+A. Architecture Requirements Specification — conditions vérifiables de cible  B. Architecture Contract — engagements entre acteurs de réalisation  C. Architecture Roadmap — trajectoire et principaux changements vers la cible  D. Implementation and Migration Plan — tâches et dates détaillées des waves
 
 **Q23.** Un projet envisage une Target cloud-native, mais les équipes ne maîtrisent ni l'exploitation ni les contraintes de financement. Quelle technique fournit l'analyse la plus adaptée ?
 A. Gap Analysis exclusivement technique sur les versions de conteneurs.  B. Compliance Review de la Target comme substitut de l'évaluation des compétences.  C. Business Transformation Readiness Assessment, avec facteurs et actions de remédiation intégrables à la roadmap.  D. Information Mapping, qui démontre automatiquement l'existence des ressources humaines nécessaires.
@@ -103,7 +103,7 @@ A. Partitioning — organisation des espaces et interfaces d'architecture  B. Sc
 A. Déclencher les analyses sécurité uniquement après le premier go-live  B. Traiter la sécurité comme un domaine isolé sans impact sur les autres vues  C. Elle est intégrée transversalement aux requirements, risques, architectures et gouvernance  D. Supposer que la sélection du chiffrement suffit à fermer tous les risques
 
 **Q33.** Les équipes de deux directions présentent des architectures contradictoires et une dérogation transverse. Quelle autorité est chargée de l'arbitrage d'architecture ?
-A. Project Steering Committee — pilotage coûts et délais uniquement  B. Gouverne et arbitre les décisions d'architecture  C. Requirements Manager — traçabilité mais pas acceptation des exceptions  D. Fournisseur — approbation autonome de ses propres non-conformités
+A. Project Steering Committee — pilotage coûts et délais uniquement  B. Architecture Board — instance de gouvernance et d'arbitrage  C. Requirements Manager — traçabilité mais pas acceptation des exceptions  D. Fournisseur — approbation autonome de ses propres non-conformités
 
 **Q34.** Une équipe livraison propose un changement de protocole à un standard approuvé. Quelle pratique caractérise une réponse de gouvernance correcte ?
 A. Changer directement le standard commun pour qu'il reflète la décision locale du fournisseur.  B. Autoriser l'alternative si le même produit figure dans la liste de technologies approuvées.  C. Enregistrer l'écart, mesurer ses impacts et soumettre la dérogation ou correction à l'autorité compétente.  D. Supprimer l'exigence non satisfaite du dossier d'architecture afin d'éviter une non-conformité.
