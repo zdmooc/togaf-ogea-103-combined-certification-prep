@@ -69,9 +69,9 @@ D. Business Scenarios
 ## Q173 — Business Scenario validation
 Pourquoi valider un Business Scenario avec les stakeholders ?
 A. Pour vérifier que le problème et les requirements reflètent bien la réalité métier
-B. Pour remplacer la Phase A
-C. Pour éviter la gouvernance
-D. Pour choisir automatiquement la technologie
+B. Pour figer le choix du fournisseur avant d'analyser les besoins de chaque acteur
+C. Pour remplacer les Business Requirements par les seules contraintes techniques
+D. Pour garantir que chaque stakeholder dispose exactement du même viewpoint
 **Réponse : A.** La validation garantit pertinence et compréhension partagée. B/C/D sont faux.
 **Mapping : ADM Techniques — Business Scenarios.**
 
@@ -97,9 +97,9 @@ D. Une exception de gouvernance formellement approuvée
 
 ## Q176 — Remove gap
 Un composant existe en Baseline mais ne doit plus exister en Target. Comment le considérer ?
-A. Comme une requirement
-B. Comme un stakeholder
-C. Comme un viewpoint
+A. Comme un nouveau building block à créer et ajouter à la Target Architecture future
+B. Comme une requirement à préserver inchangée sans analyser sa nécessité dans la cible
+C. Comme un standard à approuver automatiquement pour tous les composants des domaines
 D. Comme un gap de suppression/retrait à traiter
 **Réponse : D.** La Gap Analysis identifie aussi ce qui doit être éliminé.
 **Mapping : ADM Techniques — Gap Analysis.**
@@ -218,9 +218,9 @@ D. Probabilité et impact
 ## Q189 — Mitigation
 Une mitigation est :
 A. Une action visant à réduire probabilité et/ou impact d'un risque
-B. Une Target Architecture
-C. Un deliverable obligatoire
-D. Une Business Capability
+B. Une description de gap entre Baseline et Target avant toute solution candidate
+C. Une classification des informations échangées entre services interbancaires
+D. Une preuve de conformité d'un composant déployé à ses standards
 **Réponse : A.** La mitigation réduit l'exposition. B/C/D sont autres concepts.
 **Mapping : ADM Techniques — Risk Management.**
 
@@ -273,10 +273,10 @@ D. Une Architecture View qui représente la même capability sous un autre viewp
 
 ## Q195 — Capability and roadmap
 Comment Capability-Based Planning aide-t-il la roadmap ?
-A. En remplaçant la Target
-B. En évitant la valeur métier
+A. En choisissant d'abord un produit cloud puis en attribuant a posteriori des capabilities
+B. En définissant seulement la liste des projets déjà financés sans mesure de valeur métier
 C. En reliant work packages et transitions aux capacités métier à développer
-D. En choisissant la couleur des diagrams
+D. En remplaçant tous les work packages par une même Architecture Vision globale
 **Réponse : C.** La roadmap devient orientée outcomes/capabilities plutôt que technologie seule.
 **Mapping : ADM Techniques — Capability-Based Planning.**
 
@@ -408,10 +408,10 @@ D. N'utiliser plusieurs techniques qu'en l'absence de stakeholders identifiables
 
 ## Q210 — Technique synthesis
 Quel enchaînement est le plus cohérent pour une transformation complexe ?
-A. Migration planning avant de comprendre le besoin
+A. Business Scenario → Compliance Review → Architecture Contract, sans Baseline ni Target
 B. Stakeholders → Business Scenario → Gap/Risk/Readiness → Capability planning → Migration planning
-C. Risk après le déploiement uniquement
-D. Gap Analysis sans Baseline/Target
+C. Phase H → Technology Architecture → Preliminary, sans cadrage des drivers métier
+D. Migration Plan → Architecture Vision → Gap Analysis, sans gestion des exigences
 **Réponse : B.** Il combine les techniques selon la progression du problème. A/C/D sont prématurés ou incohérents.
 **Mapping : ADM Techniques — Synthesis.**
 
