@@ -12,8 +12,8 @@ A. Un projet  B. Un SBB  C. Un principe  D. Une préoccupation d'un stakeholder
 **Q2.** Quelle chaîne est la plus cohérente ?
 A. Stakeholder → Concern → Viewpoint → View  B. View → Concern → Stakeholder → Requirement  C. Artifact → Sponsor → Viewpoint  D. Requirement → Viewpoint → Stakeholder
 
-**Q3.** Une Business Capability exprime :
-A. Un produit précis  B. Ce que l'entreprise doit être capable de faire  C. Un serveur  D. Une phase ADM
+**Q3.** Un architecte prépare une décision sur la mutualisation de services entre filiales. Quel objet permet de distinguer une aptitude durable de l'entreprise de l'application Java qui la supporte aujourd'hui ?
+A. Un SBB, dont le nom peut être identique à celui du produit historique.  B. Une business capability, définie indépendamment d'un produit ou d'une implémentation.  C. Une Transition Architecture correspondant au déploiement de la prochaine version.  D. Un Technology Standard définissant la version du runtime applicatif.
 
 **Q4.** La Baseline Architecture est :
 A. Le plan de migration  B. La vision  C. L'état actuel pertinent  D. Une exception
@@ -21,8 +21,8 @@ A. Le plan de migration  B. La vision  C. L'état actuel pertinent  D. Une excep
 **Q5.** Lequel décrit le mieux un Architecture Principle ?
 A. Une tâche projet  B. Un incident  C. Une préférence temporaire  D. Une règle directrice durable guidant les décisions
 
-**Q6.** L'Enterprise Continuum est surtout :
-A. Un mécanisme de classification/contextualisation des assets  B. Une base d'exécution  C. Un planning  D. Une équipe
+**Q6.** Les modèles de Target Architecture utilisent différents éléments et relations entre processus, services et composants. Quelle ressource définit ces types et liens de manière cohérente ?
+A. L'Enterprise Metamodel, qui encadre les entités d'architecture et leurs relations.  B. L'Architecture Roadmap, décrivant uniquement l'ordre des lots de migration.  C. Le Governance Log, qui modélise automatiquement tous les types d'artefacts.  D. L'Architecture Contract, qui définit les classes du métamodèle via les obligations des acteurs.
 
 **Q7.** Quel élément appartient typiquement à l'Architecture Repository ?
 A. Les salaires  B. Standards, reference architectures, decisions et assets  C. Les logs applicatifs uniquement  D. Le code source uniquement
@@ -38,8 +38,8 @@ A. Phase D  B. Phase H  C. Preliminary  D. Phase F
 **Q10.** Le Statement of Architecture Work est particulièrement associé à :
 A. Phase G  B. Phase C  C. Phase H  D. Phase A
 
-**Q11.** Une Capability Map métier est surtout travaillée en :
-A. Phase D  B. Phase B  C. Phase F  D. Phase G
+**Q11.** Le métier demande de nouvelles possibilités d'indemnisation ; la DSI connaît déjà des microservices capables de les implémenter. Quelle activité de l'ADM doit d'abord sécuriser les objectifs et les processus cibles ?
+A. Finaliser l'Architecture Requirements Specification uniquement avec les contraintes techniques déjà disponibles.  B. Définir la Business Architecture de Phase B sans réduire la capability à un composant existant.  C. Démarrer Phase F pour prioriser les migrations des applications historiques.  D. Formaliser un Architecture Contract fournisseur pour les microservices candidats.
 
 **Q12.** Une matrice des entités de données et propriétaires relève surtout de :
 A. Phase C Data  B. Phase E  C. Phase A  D. Phase H
@@ -59,8 +59,8 @@ A. Phase F  B. Phase B  C. Phase A  D. Phase G
 **Q17.** Une équipe implémente une solution et demande l'acceptation d'un écart. Quelle phase est dominante ?
 A. E  B. F  C. G  D. H
 
-**Q18.** Une architecture en production doit être réévaluée à la suite de nouveaux drivers. Quelle phase est dominante ?
-A. F  B. H  C. C  D. Preliminary
+**Q18.** Les services livrés ne produisent plus la valeur attendue après un changement de marché. Quelle activité de l'ADM doit être mobilisée ?
+A. Phase G uniquement, puisqu'il s'agit nécessairement d'une non-conformité technique.  B. Phase H, pour évaluer les nouveaux drivers et déterminer le besoin de changement architectural.  C. Phase E uniquement, afin d'ajouter immédiatement de nouveaux work packages sans revue des drivers.  D. Preliminary automatiquement, car toute modification de valeur oblige à reconstruire la capacité EA.
 
 **Q19.** Les requirements découvertes en Phase C doivent :
 A. Être ignorées jusqu'à F  B. Remplacer les Principles  C. Rester locales à C  D. Être intégrées au processus transversal Requirements Management
@@ -76,8 +76,8 @@ A. Plus détaillée qu'un plan projet complet  B. Une vue structurée de la traj
 
 ## ADM Techniques
 
-**Q23.** Une matrice pouvoir/intérêt est typiquement utilisée en :
-A. Stakeholder Management  B. Risk Management  C. Gap Analysis  D. Interoperability
+**Q23.** Une transformation techniquement faisable risque d'échouer car Operations n'a pas de support 24/7 et les managers ne financent pas la formation. Quelle technique permet d'évaluer cet écart ?
+A. Business Transformation Readiness Assessment, reliée aux actions préparatoires de la roadmap.  B. Application Portfolio Analysis, qui suffit car les problèmes décrits concernent des services.  C. Compliance Assessment, qui peut remplacer l'évaluation de la capacité à exploiter.  D. Gap Analysis Technology exclusivement, en comparant les versions de plateformes.
 
 **Q24.** Pour clarifier un besoin métier ambigu à partir d'acteurs, environnement et résultats attendus, utiliser :
 A. Partitioning  B. Compliance Review  C. Architecture Contract  D. Business Scenarios
@@ -99,8 +99,8 @@ A. Stakeholder Mapping  B. Business Scenarios  C. Requirements Management  D. Mi
 **Q29.** Adapter le nombre et la profondeur des artifacts au contexte est un exemple de :
 A. Compliance  B. Tailoring  C. Gap Analysis  D. Phase H
 
-**Q30.** Intégrer threat modeling, risk assessment et security requirements dans plusieurs phases correspond à :
-A. Une activité limitée à D  B. Un remplacement de l'ADM  C. Une application transverse de security  D. Un SBB
+**Q30.** Le programme doit développer plusieurs domaines simultanément et revenir sur des exigences découvertes après les premières views. Quel comportement de l'ADM est approprié ?
+A. Une progression waterfall dans laquelle toute phase approuvée devient intangible.  B. Une suppression de la documentation de baseline pour accélérer les tâches de release.  C. Un cycle itératif avec réconciliation des domains, requirements et décisions selon les impacts.  D. Une interdiction de retravailler les domaines après la première Validation Architecture Vision.
 
 **Q31.** Plusieurs cycles ADM liés peuvent coexister à différents niveaux car :
 A. TOGAF permet des Levels of Architecture et des scopes différents  B. Une seule architecture est autorisée  C. Seul le niveau Enterprise compte  D. Les domaines sont indépendants
@@ -113,8 +113,8 @@ A. Supprimer la gouvernance  B. Tout centraliser sans exception  C. Laisser chaq
 **Q33.** Quel organe est typiquement chargé d'arbitrer les exceptions d'architecture ?
 A. Architecture Board  B. Scrum Team  C. Finance uniquement  D. Repository
 
-**Q34.** L'Architecture Contract sert surtout à :
-A. Définir un Viewpoint  B. Créer une Baseline  C. Classifier les assets  D. Formaliser engagements, responsabilités et attentes
+**Q34.** Une équipe de réalisation utilise un standard approuvé mais ne satisfait pas les requirements de résilience de la Target. Quel mécanisme révèle correctement l'écart ?
+A. Validation d'un seul Technology Standard comme preuve suffisante.  B. Nouvelle Architecture Vision produite automatiquement à la place d'une analyse d'implémentation.  C. Registre de projet recensant le budget sans vérification des exigences techniques.  D. Compliance Review fondée sur les exigences, décisions et preuves de mise en œuvre.
 
 **Q35.** Une Compliance Review :
 A. Définit le business case  B. Remplace Phase G  C. Évalue la conformité à l'architecture et aux exigences approuvées  D. Crée la Vision
@@ -127,8 +127,8 @@ A. Une relation dans une Matrix  B. Un produit de travail formel assemblant éve
 **Q37.** Une Application Communication Diagram est un exemple de :
 A. Artifact  B. Architecture Board  C. Principle  D. Syllabus
 
-**Q38.** Quel énoncé sur Building Blocks est correct ?
-A. Ils sont toujours physiques  B. Ils sont des phases ADM  C. Ils sont des stakeholders  D. Ils représentent des éléments réutilisables de l'architecture ou de sa réalisation
+**Q38.** Un dossier formalise plusieurs diagrammes et matrices nécessaires à une décision de comité. Quelle distinction est correcte ?
+A. Chaque diagramme est nécessairement un SBB correspondant à un service métier.  B. Un deliverable est synonyme de building block dès qu'il est archivé.  C. Un viewpoint constitue le produit de travail contractuellement revu en lieu et place des artifacts.  D. Le dossier approuvable est un deliverable pouvant contenir plusieurs artifacts.
 
 **Q39.** Quel énoncé est correct ?
 A. SBB est toujours plus abstrait qu'ABB  B. ABB est toujours un produit fournisseur  C. ABB est architectural ; SBB est plus orienté réalisation/solution  D. Ils sont synonymes
