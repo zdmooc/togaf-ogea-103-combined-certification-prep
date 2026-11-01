@@ -28,17 +28,26 @@ Chaque *learning outcome* doit obtenir (1) une référence du cours avec explica
 ## Constats de qualité des banques
 
 - Banque Foundation : ancien état 272 A / 26 B / 2 C / 0 D. **Correctif mécanique** : 75 bonnes réponses par lettre, propositions réordonnées ; cela **ne prouve pas** une difficulté réaliste.
-- Banque Practitioner : ancien état 43 A / 14 B / 3 C / 0 D. **Correctif de premier niveau** : les 60 options à 3 points ont été reformulées pour proposer une action au moins partiellement utile, et les meilleures réponses réparties sur A/B/C/D. Les scénarios courts demeurent des exercices d'introduction tant qu'ils ne sont pas réécrits et évalués indépendamment.
-- Six examens blancs : répartition équilibrée en apparence. L'indépendance psychométrique et la difficulté restent **non validées**.
+- Banque Practitioner : ancien état 43 A / 14 B / 3 C / 0 D. **Correctif de premier niveau** : les 60 scénarios ont été développés avec enjeux métier, contraintes et alternatives révisées, et les meilleures réponses réparties sur A/B/C/D. Une revue de qualité **indépendante** des options et de chaque gradient reste obligatoire.
+- Six examens blancs : les 48 scénarios Practitioner ont été développés et 48 QCM Foundation renforcés. Les 192 autres QCM n'ont pas fait l'objet d'une refonte complète. L'indépendance psychométrique et la difficulté restent **non validées**.
 
 ## Critères de sortie bloquants
 
 - [ ] Chacun des learning outcomes détaillés dispose de liens précis cours → exercice → corrigé → référence TOGAF.
 - [ ] Analyse humaine indépendante de l'exactitude des 300 QCM, de tous les distracteurs et des explications.
 - [ ] 60 scénarios validés comme décisions réellement nuancées, avec score 5/3/1/0 justifié.
-- [ ] Six examens blancs sans réponses triviales, sans reprises sémantiques évidentes et évalués avec lecteurs indépendants.
+- [ ] Six examens blancs sans réponses triviales, sans reprises sémantiques évidentes et évalués avec lecteurs indépendants. Le contrôle technique a éliminé des intitulés identiques, mais les ressemblances sémantiques doivent être revues.
 - [ ] Pratique chronométrée et usage du corpus Open Book intégré.
 - [ ] Vérification finale des langues/code examens sur les pages officielles.
+
+## Contrôles réalisés (1er novembre 2026)
+
+- [x] 300 QCM Foundation : 75 bonnes réponses A/B/C/D et sens des bonnes réponses préservé.
+- [x] 60 scénarios Practitioner : 15 meilleures réponses A/B/C/D et quatre niveaux distincts.
+- [x] 6 examens blancs : 40 QCM + 8 scénarios chacun et corrections présentes.
+- [x] 48 scénarios des mocks repris avec des contextes plus développés.
+- [x] 48 QCM des mocks renforcés et 14 intitulés répétés contextualisés.
+- [ ] Validation sémantique exhaustive de l'ensemble du corpus par relecteur qualifié.
 
 ## Distinction importante
 
