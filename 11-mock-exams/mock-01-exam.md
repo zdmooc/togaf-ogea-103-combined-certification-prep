@@ -25,7 +25,7 @@ A. Architecture Vision — direction approuvée d'un programme spécifique  B. L
 A. Le premier est un SBB car il ne contient pas de détail de technologie, et le second un ABB car il est implémentable.  B. Les deux sont des artifacts car un besoin et un produit sont toujours des représentations graphiques.  C. Le besoin générique est décrit par un ABB ; le composant de solution choisi peut être un SBB  D. Le premier est une Transition Architecture et le second un Architecture Contract.
 
 **Q7.** Un programme exige la réutilisation de services existants et fixe un niveau de disponibilité vérifiable. Quelle proposition distingue correctement Architecture Principle et Requirement ?
-A. La règle de réutilisation est un Architecture Principle ; le niveau de disponibilité vérifiable est une Architecture Requirement.  B. Requirement — condition vérifiable propre au périmètre d'une solution  C. SBB — composant retenu pour réaliser une capacité architecturale  D. Viewpoint — convention choisie pour exposer les concerns
+A. Réutilisation = Architecture Principle ; niveau de disponibilité vérifiable = Requirement.  B. Requirement — condition vérifiable propre au périmètre d'une solution  C. SBB — composant retenu pour réaliser une capacité architecturale  D. Viewpoint — convention choisie pour exposer les concerns
 
 **Q8.** Dans une banque de détail, le comité examine les acteurs, états et référentiels pour orienter la transformation. Une Transition Architecture est :
 A. Implementation and Migration Plan — travaux, dépendances et échéances  B. Baseline Architecture — état actuel observé dans le périmètre  C. Standards Information Base — standards techniques autorisés  D. Un état architectural intermédiaire cohérent vers la Target
