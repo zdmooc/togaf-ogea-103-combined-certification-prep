@@ -210,7 +210,7 @@ A. Continuum et Repository classifient de la même manière les solutions sans r
 B. Le Continuum est une base de données technique
 C. Le Repository est un mécanisme de stockage/organisation ; le Continuum aide à classifier et contextualiser
 D. Le Repository est une phase ADM
-**Réponse : C.** B'est la distinction fondamentale. A/B/D sont faux.
+**Réponse : C.** C'est la distinction fondamentale : l'Enterprise Continuum permet de classifier et contextualiser les assets ; l'Architecture Repository sert à les conserver et les gérer.
 **Mapping : Concepts — Repository vs Continuum.**
 
 ## Q024 — Architecture Capability
