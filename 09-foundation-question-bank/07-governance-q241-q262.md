@@ -67,7 +67,7 @@ D. Supprimer les reviews
 
 ## Q248 — Contract vs Architecture Vision
 Quelle différence est correcte ?
-A. Ils sont identiques
+A. Architecture Vision et Architecture Contract ont la même finalité et le même signataire
 B. Le Contract définit toujours la Target Data Architecture
 C. La Vision est un waiver
 D. La Vision aligne sur la direction cible ; le Contract formalise des engagements de gouvernance entre parties
@@ -85,10 +85,10 @@ D. Remplacer Phase E
 
 ## Q250 — Compliance evidence
 Quel élément est utile lors d'une Compliance Review ?
-A. Uniquement le nom du projet
+A. Une liste des jalons projet, sans traçabilité vers les requirements d'architecture
 B. Requirements, decisions, architecture contracts et preuves d'implémentation
 C. Un simple état d'avancement du planning projet
-D. Uniquement les impressions du sponsor
+D. Le seul accord oral du sponsor sans preuves d'implémentation ni critères mesurés
 **Réponse : B.** Une review doit être factuelle et traçable.
 **Distracteur C :** Le respect du calendrier ne démontre pas la conformité architecturale.
 **Mapping : Architecture Governance — Compliance.**
@@ -122,7 +122,7 @@ D. Un business goal
 
 ## Q254 — Exception conditions
 Une bonne exception doit idéalement préciser :
-A. Seulement « approuvé »
+A. La seule date d'approbation du Board sans scope, risques ni durée de la dérogation
 B. Rationale, scope, risques, owner, durée/conditions et actions futures
 C. Aucun responsable
 D. Aucune date de revue
@@ -151,7 +151,7 @@ D. Pour tracer décisions, reviews, exceptions et responsabilités
 Une équipe ne peut résoudre un conflit architectural local. Que faire ?
 A. Escalader selon le modèle de governance prévu
 B. Décider secrètement
-C. Ignorer le conflit
+C. Conserver les décisions locales contradictoires sans solliciter l'autorité d'arbitrage
 D. Supprimer le stakeholder concerné
 **Réponse : A.** L'escalation vers l'autorité appropriée protège cohérence et traçabilité.
 **Mapping : Architecture Governance — Escalation.**
@@ -177,7 +177,7 @@ D. F
 ## Q260 — Governance and H
 En Phase H, la governance sert notamment à :
 A. Déployer sans analyse
-B. Ignorer les drivers
+B. Réviser les technologies sans considérer les nouveaux drivers ou la valeur délivrée
 C. Supprimer le Board
 D. Décider comment répondre aux changements et s'il faut un nouveau cycle
 **Réponse : D.** H gouverne l'évolution de l'architecture.
