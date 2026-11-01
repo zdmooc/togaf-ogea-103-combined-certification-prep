@@ -1,6 +1,6 @@
 # Traçabilité X2202 — 131 learning outcomes et références de questions candidates
 
-**Statut : 131 objectifs recensés. La matrice a été resserrée sur 14 objectifs mal associés aux questions historiques, avec références XP05–XP17 plus explicites. 130 objectifs disposent désormais d'une référence explicite à un ou plusieurs exercices candidats ; L1.8.1 n'impose pas de question distincte (Bloom = None). Une référence candidate n'est jamais une validation de fond ou du niveau Bloom.** Les formulations de cette table restent des résumés pédagogiques, et les 131 objectifs doivent être relus contre le texte officiel.
+**Statut : 131 objectifs recensés. La matrice a été resserrée sur 25 objectifs mal associés aux questions historiques, avec références XP05–XP17 plus explicites. 130 objectifs disposent désormais d'une référence explicite à un ou plusieurs exercices candidats ; L1.8.1 n'impose pas de question distincte (Bloom = None). Une référence candidate n'est jamais une validation de fond ou du niveau Bloom.** Les formulations de cette table restent des résumés pédagogiques, et les 131 objectifs doivent être relus contre le texte officiel.
 
 **Syllabus de référence :** [TOGAF Certification Program Conformance Requirements X2202](https://www.opengroup.org/library/x2202), sections 3.1 et 3.2. La formulation et le niveau de Bloom exacts doivent toujours être confrontés à l'original avant de marquer un objectif vérifié.
 
@@ -120,7 +120,7 @@
 | L2.1.7 | États candidate/current/transition/target | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP05 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.8 | Enterprise Security Architecture | [Cours](../04-applying-the-adm/05-security.md) | S006 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.9 | Sécurité comme sujet transversal | [Cours](../04-applying-the-adm/05-security.md) | S006 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L2.1.10 | Gestion de l'incertitude, valeur et pertes | [Cours](../03-adm-techniques/06-risk-management.md) | S007, A08 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.1.10 | Gestion de l'incertitude, valeur et pertes | [Cours](../03-adm-techniques/06-risk-management.md) | XP18 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.11 | Quatre contextes DPBoK | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP01 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 
 ## L2 U2 — Stakeholder Management (4 objectifs)
@@ -145,9 +145,9 @@
 
 | Objectif | Notion à démontrer | Cours candidat | Références d'exercices précises | Statut de revue |
 |---|---|---|---|---|
-| L2.4.1 | Étapes communes B/C/D | [Cours](../07-practitioner/05-bcd-architecture-development-scenarios.md) | S022, S023 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L2.4.2 | Risques et sécurité dans B/C/D | [Cours](../04-applying-the-adm/05-security.md) | S026 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L2.4.3 | Entrées Business : principes et drivers | [Cours](../07-practitioner/05-bcd-architecture-development-scenarios.md) | S022 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
+| L2.4.1 | Étapes communes B/C/D | [Cours](../07-practitioner/05-bcd-architecture-development-scenarios.md) | XP19 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.4.2 | Risques et sécurité dans B/C/D | [Cours](../04-applying-the-adm/05-security.md) | XP20 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.4.3 | Entrées Business : principes et drivers | [Cours](../07-practitioner/05-bcd-architecture-development-scenarios.md) | XP21 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.4.4 | Appliquer Phase B | [Cours](../02-adm/03-phase-b-business-architecture.md) | S022, S023 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.4.5 | Entrées Data et Application en C | [Cours](../02-adm/04-phase-c-data-architecture.md) | S024, S028 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.4.6 | Appliquer Phase C | [Cours](../02-adm/05-phase-c-application-architecture.md) | S024–S025 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
@@ -159,7 +159,7 @@
 
 | Objectif | Notion à démontrer | Cours candidat | Références d'exercices précises | Statut de revue |
 |---|---|---|---|---|
-| L2.5.1 | Risques et sécurité en E/F/G | [Cours](../07-practitioner/06-efg-implementation-scenarios.md) | S031, S038 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.5.1 | Risques et sécurité en E/F/G | [Cours](../07-practitioner/06-efg-implementation-scenarios.md) | XP22 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.5.2 | Implementation and Migration Strategy en E | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S033, A05 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L2.5.3 | Greenfield / Revolutionary / Evolutionary | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S033, A05 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.5.4 | Identifier et regrouper work packages | [Cours](../02-adm/07-phase-e-opportunities-solutions.md) | S031, S035 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
@@ -167,11 +167,11 @@
 | L2.5.6 | Effets organisationnels et coordination des migrations | [Cours](../07-practitioner/06-efg-implementation-scenarios.md) | XP07 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.5.7 | Attribuer une business value aux work packages | [Cours](../02-adm/08-phase-f-migration-planning.md) | S034 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.5.8 | Prioriser les projets de migration | [Cours](../02-adm/08-phase-f-migration-planning.md) | S035 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L2.5.9 | Confirmer l'Architecture Roadmap | [Cours](../02-adm/08-phase-f-migration-planning.md) | S032 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L2.5.10 | Sorties F vers implémentation | [Cours](../02-adm/08-phase-f-migration-planning.md) | S032, S039 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L2.5.11 | Entrées Phase G | [Cours](../02-adm/09-phase-g-implementation-governance.md) | S036 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.5.9 | Confirmer l'Architecture Roadmap | [Cours](../02-adm/08-phase-f-migration-planning.md) | XP23 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
+| L2.5.10 | Sorties F vers implémentation | [Cours](../02-adm/08-phase-f-migration-planning.md) | XP23 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.5.11 | Entrées Phase G | [Cours](../02-adm/09-phase-g-implementation-governance.md) | XP24 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.5.12 | Exécuter la gouvernance Phase G | [Cours](../02-adm/09-phase-g-implementation-governance.md) | S036, S037 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
-| L2.5.13 | Sorties soutenant la gouvernance | [Cours](../05-architecture-governance/04-architecture-compliance.md) | S038 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.5.13 | Sorties soutenant la gouvernance | [Cours](../05-architecture-governance/04-architecture-compliance.md) | XP24 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.5.14 | Contrats d'architecture et implementers | [Cours](../05-architecture-governance/03-architecture-contract.md) | S036, S038 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.5.15 | Arbitrage opportunité / viabilité | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S034, A05 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 
@@ -181,7 +181,7 @@
 |---|---|---|---|---|
 | L2.6.1 | Demandes de changement et déclencheurs | [Cours](../02-adm/10-phase-h-architecture-change-management.md) | S040, S041 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.6.2 | Stakeholder Management du changement | [Cours](../07-practitioner/07-phase-h-scenarios.md) | XP16 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L2.6.3 | Sorties Phase H et suites à donner | [Cours](../02-adm/10-phase-h-architecture-change-management.md) | S043, S045 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.6.3 | Sorties Phase H et suites à donner | [Cours](../02-adm/10-phase-h-architecture-change-management.md) | XP25 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 
 ## L2 U7 — Requirements Management (3 objectifs)
 
@@ -189,7 +189,7 @@
 |---|---|---|---|---|
 | L2.7.1 | Sources des exigences | [Cours](../07-practitioner/08-requirements-management-scenarios.md) | S046, S051 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.7.2 | Correspondance exigences / étapes ADM | [Cours](../02-adm/11-requirements-management.md) | S048, S049 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L2.7.3 | Sorties des Requirements Management | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S049, S050 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.7.3 | Sorties des Requirements Management | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP26 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 
 ## L2 U8 — Supporting the ADM Work (19 objectifs)
 
@@ -229,7 +229,7 @@ Cette matrice permet de **détecter les manques**, et non de prétendre que le d
 
 - `Q001` à `Q300` : banque Foundation principale (`09-foundation-question-bank/01` à `08`).
 - `XF01` et `XF02` : exercices ciblés Foundation (`09-foundation-question-bank/10-x2202-targeted-drills.md`).
-- `XP05` à `XP17` : treize cas additionnels de clarification (`10-practitioner-scenarios/11-x2202-gap-closure-scenarios.md`).
+- `XP05` à `XP26` : vingt-deux cas additionnels de clarification (`10-practitioner-scenarios/11-x2202-gap-closure-scenarios.md`).
 - `XP01` à `XP04` : cas ciblés Practitioner (`10-practitioner-scenarios/10-x2202-targeted-cases.md`).
 - `F01` à `F24` : exercices Foundation avancés (`09-foundation-question-bank/09-advanced-drills.md`).
 - `S001` à `S060` : banque Practitioner (`10-practitioner-scenarios/01` à `08`).
