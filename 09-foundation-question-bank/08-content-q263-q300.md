@@ -97,20 +97,20 @@ D. Montrer des relations entre deux ensembles d'éléments
 ## Q273 — Diagram
 Un diagram sert principalement à :
 A. Visualiser des éléments et relations dans une représentation graphique
-B. Stocker tous les standards
-C. Remplacer les requirements
-D. Spécifier l'ensemble des exigences d'une architecture
-**Réponse : A.** Le diagram est un artifact visuel.
+B. Inventorier des éléments architecturaux dans une liste structurée sans représenter leurs relations
+C. Montrer des correspondances entre deux ensembles d'éléments dans un tableau croisé
+D. Définir les conventions de construction et d'interprétation d'une view
+**Réponse : A.** Un diagram représente graphiquement éléments et relations. B correspond plutôt à un catalog, C à une matrix et D à un viewpoint ; ces représentations ne sont pas interchangeables.
 **Distracteur D :** Cette fonction concerne une Architecture Requirements Specification ; le diagramme représente graphiquement un aspect.
 **Mapping : Architecture Content — Diagrams.**
 
 ## Q274 — Catalog vs Matrix
 Quelle distinction est correcte ?
-A. Catalog et Matrix ont le même usage et diffèrent seulement par le nom du fichier
+A. Catalog et Matrix servent tous deux à lister des éléments, sans différence sur la représentation des relations
 B. Catalog = liste structurée ; Matrix = relations entre ensembles
-C. Matrix = phase ADM
-D. Catalog = Architecture Contract
-**Réponse : B.** C'est la différence de structure et de finalité.
+C. Le Catalog montre les relations entre deux ensembles tandis que la Matrix ne décrit qu'une liste d'éléments
+D. Une Matrix est un deliverable formel de gouvernance tandis qu'un Catalog est toujours une Architecture View
+**Réponse : B.** Un Catalog inventorie des éléments ; une Matrix met en évidence des correspondances entre ensembles. A gomme la distinction, C l'inverse, D confond artifacts, deliverables et views.
 **Mapping : Architecture Content — Catalog vs Matrix.**
 
 ## Q275 — Matrix vs Diagram
@@ -197,7 +197,7 @@ D. Pour permettre au Board de supprimer les étapes de revue des SBB après sél
 
 ## Q284 — SBB traceability
 Pourquoi relier un SBB aux ABB qu'il réalise ?
-A. Pour remplacer les AB Bs par une liste des produits achetés indépendamment des capacités
+A. Pour remplacer les ABB par une liste des produits achetés indépendamment des capacités
 B. Pour présenter exclusivement le coût d'implémentation des technologies de plateforme
 C. Pour considérer toute implémentation comme conforme avant la Compliance Review
 D. Pour montrer comment la solution concrète satisfait l'intention architecturale
@@ -288,20 +288,20 @@ D. Requirements Management process
 
 ## Q294 — Matrix example
 Quel artifact montre bien quelle application supporte quelle business capability ?
-A. Un stakeholder list uniquement
+A. Un Application Portfolio Catalog inventoriant les applications sans associer chaque capability
 B. Une Capability/Application Matrix
-C. Une Architecture Vision
-D. Un waiver
-**Réponse : B.** Une matrix est adaptée aux relations entre deux ensembles.
+C. Un Application Communication Diagram montrant les échanges sans correspondance explicite aux capabilities
+D. Une Architecture Roadmap indiquant les étapes de transformation des applications
+**Réponse : B.** La Capability/Application Matrix montre précisément quelles applications supportent les capacités métier. A inventorie les applications, C montre leurs échanges et D ordonne la trajectoire ; aucun ne porte directement cette correspondance.
 **Mapping : Architecture Content — Matrices.**
 
 ## Q295 — Diagram example
 Quel artifact est adapté pour visualiser les interactions entre applications ?
-A. Un catalog de principles uniquement
-B. Un Governance Log
+A. Un Application Portfolio Catalog recensant les applications et leurs attributs
+B. Une Application/Technology Matrix reliant les applications à leurs plateformes
 C. Un Application Communication Diagram
-D. Un Contract
-**Réponse : C.** Le diagram représente visuellement les échanges et dépendances.
+D. Un Interface Catalog décrivant les points d'échange sans vue graphique des interactions
+**Réponse : C.** L'Application Communication Diagram visualise les interactions entre applications. A dresse un inventaire, B relie applications et technologies et D catalogue les interfaces, sans rendre les relations aussi lisibles graphiquement.
 **Mapping : Architecture Content — Diagrams.**
 
 ## Q296 — View vs Artifact
