@@ -57,10 +57,10 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 **Barème :** A=5, B=3, C=1, D=0.
 
-- **A — 5 points.** L'absence de gouvernance commune est un risque systémique ; la bonne réponse réutilise la capacité existante et rend l'autorité des décisions explicite. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **B — 3 points.** La proposition B autorise un travail préparatoire utile mais reporte l'arbitrage critique.
-- **C — 1 point.** Utiliser le cadre de gouvernance du fournisseur retenu comme procédure provisoire, puis demander son adoption par les deux filiales. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **D — 0 point.** Annuler la Target en cours et relancer systématiquement un Preliminary complet pour toutes les entités, avant toute autre activité d'architecture. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **A — 5 points.** Comparer les deux Architecture Capabilities et établir les autorités de gouvernance commune permet une fédération vérifiable sans jeter les architectures déjà produites.
+- **B — 3 points.** Limiter d'abord les lots techniques conserve un début de trajectoire, mais les exceptions et conflits de standards restent sans arbitrage.
+- **C — 1 points.** Les règles du fournisseur ne remplacent pas la capacité de décision des filiales ni les principes communs du groupe.
+- **D — 0 points.** Reprendre intégralement Preliminary et abandonner les travaux utiles n'est pas proportionné ; il faut évaluer puis adapter la capacité existante.
 
 **Source de contrôle :** X2202, Practitioner, domaine 1 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
@@ -68,10 +68,10 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 **Barème :** A=1, B=5, C=0, D=3.
 
-- **B — 5 points.** La consultation devient utile seulement si elle modifie réellement les requirements et les décisions. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **D — 3 points.** D traite les risques urgents mais ne rétablit pas la traçabilité et la validation transverse.
-- **A — 1 point.** Conserver l'approbation du sponsor comme unique validation de la Vision, puis prévoir les adaptations du run model après la vague pilote. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **C — 0 point.** Confier l'ensemble du run model à Operations et garder l'architecture cible inchangée, en lui laissant le choix des moyens. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **B — 5 points.** Operations et CISO doivent participer aux concerns et à la mise à jour de la Vision, avec requirements et views de continuité réellement validées.
+- **D — 3 points.** Un atelier sur les contrôles urgents est utile, mais ni le modèle opérationnel complet ni la traçabilité de la cible ne sont réconciliés.
+- **A — 1 points.** La validation du seul sponsor ne prouve pas que les exigences de reprise et de support sont satisfaites.
+- **C — 0 points.** Transférer le problème à Operations sans modifier la cible conserve les incohérences architecturales.
 
 **Source de contrôle :** X2202, Practitioner, domaine 2 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
@@ -79,10 +79,10 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 **Barème :** A=1, B=3, C=5, D=0.
 
-- **C — 5 points.** La Phase A fait le lien entre contexte et mandat ; le choix de produit ne peut précéder la justification et l'accord sur la valeur. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **B — 3 points.** B est une action d'urgence utile mais conserve un biais solution et ignore certaines options.
-- **A — 1 point.** Demander à chaque équipe produit de définir son architecture cible séparément ; la Vision de groupe émergera des implémentations. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **D — 0 point.** Définir immédiatement les work packages de migration et le plan de financement en Phase F afin d'imposer une date crédible aux métiers. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **C — 5 points.** La Vision de Phase A doit relier drivers, valeur, stakeholders, risques et périmètre avant de figer les technologies candidates.
+- **B — 3 points.** Une vérification des critères de valeur permet un cadrage partiel, mais le choix des deux technologies reste biaisé par une hypothèse non confirmée.
+- **A — 1 points.** Des architectures produit séparées ne remplacent pas une Vision commune ni l'accord sur les objectifs du programme.
+- **D — 0 points.** Un Migration Plan détaillé en F ne peut précéder le cadrage et le développement de la Target.
 
 **Source de contrôle :** X2202, Practitioner, domaine 3 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
@@ -90,10 +90,10 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 **Barème :** A=1, B=0, C=3, D=5.
 
-- **D — 5 points.** D relie résultats métier, décisions Data/App/Tech et exigences, sans nier l'itération. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **C — 3 points.** C est un début utile mais partiel : il pourrait figer des choix de domaine avant réconciliation.
-- **A — 1 point.** Retenir Kafka/PostgreSQL, puis adapter les activités métier à leurs capacités et traiter la résidence des données dans le contrat fournisseur. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **B — 0 point.** Lancer une Gap Analysis Technology isolée pour prouver que la plateforme cible peut répondre à la volumétrie. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **D — 5 points.** L'itération B/C/D réconcilie besoins métier, données, services, technologies et règles de résidence avant le regroupement des gaps.
+- **C — 3 points.** Revoir les données est nécessaire, mais les applications et technologies pourraient rester incohérentes sans analyse transverse.
+- **A — 1 points.** Choisir Kafka/PostgreSQL avant la résolution des besoins inverse la relation entre exigences et solutions.
+- **B — 0 points.** Une comparaison technologique isolée ne couvre ni double saisie, ni définition des données, ni impacts métier.
 
 **Source de contrôle :** X2202, Practitioner, domaine 4 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
@@ -101,10 +101,10 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 **Barème :** A=1, B=5, C=0, D=3.
 
-- **B — 5 points.** D intègre la dépendance technique, la valeur et le coût transitoire dans le plan approuvé. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **D — 3 points.** B corrige l'ordre critique sans avoir encore une planification justifiée et complète.
-- **A — 1 point.** Faire vérifier les risques et les exceptions dans une Compliance Review anticipée, puis conserver l'ordre des lots déjà souhaité par le sponsor. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **C — 0 point.** Réexaminer la Vision et relancer la totalité des domaines B/C/D pour éviter tout risque d'erreur de priorisation. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **B — 5 points.** La Phase F doit prioriser les lots selon valeur, dépendances, coûts de coexistence et readiness, puis formaliser leur séquence de migration.
+- **D — 3 points.** Placer les événements en premier traite la dépendance Fraud, mais laisse le coût transitoire et les autres arbitrages non validés.
+- **A — 1 points.** Une revue de conformité anticipée ne justifie pas à elle seule l'ordre de migration déjà demandé par le sponsor.
+- **C — 0 points.** Redémarrer intégralement la Vision et B/C/D sans nouveau gap déterminant retarde inutilement la décision de planification.
 
 **Source de contrôle :** X2202, Practitioner, domaine 5 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
@@ -112,10 +112,10 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 **Barème :** A=0, B=3, C=1, D=5.
 
-- **D — 5 points.** H décide sur la magnitude du changement, sans présupposer un re-architecting ou un petit patch. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **B — 3 points.** B est pertinent mais incomplet car la classification et les dépendances ne sont pas encore vérifiées.
-- **C — 1 point.** Déployer l'interface proposée par une filiale puisqu'elle est déjà utilisée en production ; son existence constitue une validation suffisante. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **A — 0 point.** Reporter le changement au cycle annuel de roadmap afin de limiter le nombre d'exceptions. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **D — 5 points.** Phase H qualifie l'effet de la nouvelle réglementation sur l'architecture en service et décide de la modification ou du nouveau cycle ADM.
+- **B — 3 points.** Tracer l'exigence et les composants touchés est utile, mais la portée et les dépendances du changement restent à classifier.
+- **C — 1 points.** L'usage en production d'une interface par une filiale ne prouve pas sa validité réglementaire pour l'ensemble du groupe.
+- **A — 0 points.** Reporter l'évaluation à une revue annuelle peut exposer le programme à une non-conformité réglementaire.
 
 **Source de contrôle :** X2202, Practitioner, domaine 6 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
@@ -123,10 +123,10 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 **Barème :** A=5, B=1, C=3, D=0.
 
-- **A — 5 points.** Une exigence vérifiable et tracée est nécessaire pour comparer des solutions coûteuses. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **C — 3 points.** C reconnaît l'ambiguïté mais laisse l'impact architectural ouvert.
-- **B — 1 point.** Retenir l'interprétation la moins coûteuse, puis faire accepter le risque résiduel par le métier au moment du déploiement. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **D — 0 point.** Reporter l'interprétation détaillée à la Phase G, lorsque les mécanismes techniques de failover seront implémentés. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **A — 5 points.** Une disponibilité de 99,95 % sans périmètre ni exclusion documentée doit être clarifiée, tracée, versionnée et propagée aux views concernées.
+- **C — 3 points.** Un compromis provisoire alimente la discussion, mais n'évalue pas encore les conséquences techniques et contractuelles.
+- **B — 1 points.** Choisir l'interprétation la moins coûteuse avant arbitrage ignore les exigences des owners et les risques de sécurité.
+- **D — 0 points.** Attendre Phase G pour définir l'exigence empêche de concevoir et comparer des solutions conformes.
 
 **Source de contrôle :** X2202, Practitioner, domaine 7 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
@@ -134,10 +134,10 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 **Barème :** A=1, B=0, C=5, D=3.
 
-- **C — 5 points.** La réutilisation doit être contextualisée ; l'approbation historique ne vaut pas approbation de la nouvelle Target. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **D — 3 points.** D vérifie des facteurs réels mais laisse une part essentielle du risque non évaluée.
-- **A — 1 point.** Redéfinir toute l'architecture à partir de zéro, car un pattern de référence ancien ne peut plus être compatible avec les contraintes actuelles. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
-- **B — 0 point.** Adopter le modèle existant sans analyse puisque le Board l'a déjà approuvé ; mettre à jour uniquement les versions de produits. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+- **C — 5 points.** La réutilisation doit vérifier les hypothèses de capacité, volumes, sécurité et obligations réglementaires avant de choisir les adaptations.
+- **D — 3 points.** Des tests de charge et sécurité ciblent de vrais risques, mais la conformité réglementaire et les hypothèses métiers restent ouvertes.
+- **A — 1 points.** L'ancienneté d'un pattern ne prouve pas qu'il est inutilisable ; elle appelle une vérification de pertinence.
+- **B — 0 points.** Une approbation historique du Repository ne garantit pas l'adéquation au nouveau volume et aux règles de la filiale.
 
 **Source de contrôle :** X2202, Practitioner, domaine 8 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
