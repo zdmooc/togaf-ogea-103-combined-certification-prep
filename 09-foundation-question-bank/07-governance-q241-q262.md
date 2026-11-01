@@ -3,18 +3,18 @@
 ## Q241 — Architecture Governance
 Architecture Governance sert principalement à :
 A. Organiser décisions, conformité, responsabilités et exceptions d'architecture
-B. Écrire tout le code
-C. Remplacer la stratégie métier
-D. Supprimer les stakeholders
+B. Concentrer le pilotage sur coûts et planning des équipes de delivery sans vérifier la cohérence architecturale
+C. Définir exclusivement les choix techniques de chaque application sans responsabilité d'arbitrage transverse
+D. Assurer la préparation opérationnelle des utilisateurs finaux sans décisions de conformité ni de standards
 **Réponse : A.** La gouvernance rend les décisions explicites, appliquées et traçables. B/C/D sont faux.
 **Mapping : Architecture Governance — Fundamentals.**
 
 ## Q242 — Governance vs project management
 Quelle distinction est correcte ?
-A. Elles sont synonymes
+A. Architecture Governance pilote les ressources projet ; Project Governance valide les views et les standards
 B. Architecture Governance veille à la conformité et aux décisions d'architecture ; Project Governance pilote notamment coûts/délais/risques projet
-C. Architecture Governance pilote uniquement les coûts et délais du portefeuille
-D. Project Governance définit seule la Target Architecture
+C. Architecture Governance concerne seulement les achats ; Project Governance contrôle les requirements d'entreprise
+D. Architecture Governance et Project Governance se confondent quand le sponsor est aussi propriétaire de la Target
 **Réponse : B.** Les deux se coordonnent mais ont des objets différents.
 **Distracteur C :** Coûts et délais sont des dimensions de pilotage de projet, pas la finalité propre de la gouvernance d'architecture.
 **Mapping : Architecture Governance — Governance boundaries.**
@@ -114,9 +114,9 @@ D. Un écart par rapport à une architecture, standard ou requirement approuvé
 ## Q253 — Exception
 Une exception/waiver est :
 A. Une autorisation gouvernée de déroger à une règle sous conditions
-B. Toute erreur non détectée
-C. Une Target Architecture
-D. Un business goal
+B. Une modification de requirement sans analyse de ses impacts sur la Target Architecture
+C. Un choix technique local qui remplace automatiquement un principe approuvé par le Board
+D. Un gap constaté entre Baseline et Target, considéré à tort comme dérogation autorisée
 **Réponse : A.** Une exception est explicitement décidée, documentée et souvent limitée.
 **Mapping : Architecture Governance — Exceptions.**
 
