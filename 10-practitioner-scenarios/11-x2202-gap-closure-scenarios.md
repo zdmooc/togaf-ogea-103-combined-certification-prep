@@ -1,4 +1,4 @@
-# Consolidation X2202 — 13 cas de couverture ciblée XP05–XP17
+# Consolidation X2202 — 22 cas de couverture ciblée XP05–XP26
 
 Exercices originaux : choisir la meilleure action. Les scores gradués 5/3/1/0 sont pédagogiques ; corrigés séparés. Ces cas complètent la banque historique S001–S060 et les cas XP01–XP04.
 
@@ -183,4 +183,139 @@ B. Pour révéler les impacts des concerns et des contraintes contradictoires, c
 C. Parce que le nombre de diagrammes produits prouve la qualité de l'architecture finale.
 
 D. Pour choisir provisoirement le produit du fournisseur préféré, en comparant le reste lors de la première Compliance Review.
+
+
+## XP18 — L2.1.10 : Piloter l'incertitude et la perte potentielle
+
+Une banque prévoit de remplacer un orchestrateur de paiement utilisé pour les transactions critiques. Le business case annonce une baisse du coût d'exploitation, mais les dépendances de reprise avec le legacy sont peu documentées. Operations redoute une coupure, Finance veut confirmer les bénéfices et un prestataire affirme pouvoir basculer en une nuit. L'Architecture Board veut créer un environnement où les incertitudes sont connues, gouvernées et suivies, afin de maximiser le bénéfice et limiter les pertes métier.
+
+**Quelle action est la plus appropriée ?**
+
+A. Choisir le scénario de coût minimal, puis réexaminer les risques si les tests montrent un incident.
+
+B. Mesurer les incertitudes sur les capacités et dépendances, analyser scénarios/risques/bénéfices, prévoir des mesures et décisions jalonnées, puis ajuster la trajectoire selon des preuves.
+
+C. Documenter les risques les plus élevés dans un registre et prévoir une première Transition Architecture, puis confirmer les bénéfices et les dépendances après un pilote contrôlé.
+
+D. Confier la décision au fournisseur ayant livré la solution et considérer son SLA comme preuve suffisante.
+
+
+## XP19 — L2.4.1 : Étapes communes des phases B, C et D
+
+L'équipe Architecture lance l'étude de sa plateforme bancaire. Les responsables métier possèdent une carte des capacités, les Data Owners signalent des risques de conservation, et le CTO défend une nouvelle plateforme technique. Les trois équipes travaillent en parallèle, mais leurs livrables manquent de structure comparable. Le Board demande un processus commun permettant d'établir les décisions de chaque domaine et de réconcilier les informations produites.
+
+**Quelle action est la plus appropriée ?**
+
+A. Fixer d'abord les standards technologiques puis dessiner les domaines métier, Data et Application autour du produit choisi.
+
+B. Laisser chaque domaine produire son propre diagramme Target, puis rechercher leurs incompatibilités lors de la migration.
+
+C. Limiter l'activité commune à une Gap Analysis après validation complète des trois Target Architectures.
+
+D. Pour chaque domaine : sélectionner reference models/viewpoints, établir Baseline et Target proportionnées, identifier gaps et requirements, résoudre les impacts entre domaines, mener les revues et actualiser Roadmap et contenus.
+
+
+## XP20 — L2.4.2 : Risque et sécurité dans B/C/D
+
+Un service interbancaire traite des identités client et des données de règlement. Les équipes Data proposent un échange interrégional, Application veut centraliser les API et Technology met en avant une infrastructure certifiée. Le CISO indique que l'architecture doit traiter menace de détournement, restriction de transfert et reprise d'activité. Le sponsor ne veut pas que la sécurité soit examinée seulement lorsque la plateforme sera sélectionnée.
+
+**Quelle action est la plus appropriée ?**
+
+A. Évaluer les threats, vulnerabilities, requirements, contrôles et risques résiduels dans B/C/D ; intégrer les contraintes aux vues Data/Application/Technology, aux gaps et à la gouvernance.
+
+B. Obtenir une validation sécurité uniquement après la Phase D pour ne pas ralentir l'analyse métier et des données.
+
+C. Identifier les obligations de confidentialité et la résilience critique, puis détailler les controls et mitigations des domaines touchés dans une revue transverse suivante.
+
+D. Se fier à la certification du fournisseur : les risques sont couverts par sa plateforme standard.
+
+
+## XP21 — L2.4.3 : Entrées métier avant de développer B
+
+Une mutuelle souhaite supprimer plusieurs doubles saisies entre souscription et indemnisation. L'équipe applicative présente un workflow modernisé, tandis que la direction métier demande de préserver certains contrôles réglementaires. Aucun document n'articule les principes métier, les business goals et les drivers de transformation. Les architectes doivent préparer les entrées pertinentes pour développer la Business Architecture cible.
+
+**Quelle action est la plus appropriée ?**
+
+A. Retenir le workflow proposé et considérer les différences de processus comme des requirements de delivery.
+
+B. Définir uniquement les composants techniques partagés et laisser le métier produire ses indicateurs après le design.
+
+C. Recueillir et expliciter business principles, business goals et drivers avec les stakeholders, puis les traduire en décisions et requirements de Business Architecture.
+
+D. Consigner les business goals principaux et leurs stakeholders avant de construire le modèle complet des principes et drivers lors du jalon de revue.
+
+
+## XP22 — L2.5.1 : Risque et sécurité durant E, F et G
+
+Un programme a retenu une cible de paiement multi-sites. Phase E prépare les Transition Architectures ; Phase F doit prioriser les migrations ; Phase G contrôlera les solutions réalisées. Les données sensibles vont temporairement transiter par deux systèmes et les règles de journalisation diffèrent. Le CISO exige une vision des risques, des contrôles compensatoires, des critères de conformité et des responsabilités à chaque phase.
+
+**Quelle action est la plus appropriée ?**
+
+A. Concentrer l'analyse de sécurité sur la Compliance Review finale de Phase G.
+
+B. Analyser le risque transitoire en E, intégrer coûts/mitigations et priorités en F, puis vérifier en G les controls, écarts, contrats et preuves d'implémentation.
+
+C. Inscrire une mitigation pour la période de coexistence dans la roadmap E/F, puis demander au Board d'étendre le contrôle aux solutions réalisées à la première revue G.
+
+D. Sélectionner le fournisseur le plus certifié et considérer son produit comme une dérogation permanente aux règles Data.
+
+
+## XP23 — L2.5.9,L2.5.10 : Roadmap confirmée et sorties de Phase F
+
+Le comité de migration dispose de work packages et de deux architectures transitoires proposées. Finance autorise le financement en deux vagues, mais la seconde dépend de la normalisation des événements et de la formation des opérateurs. Le Board demande une Architecture Roadmap confirmée et les informations permettant de passer à l'implémentation, avec des responsabilités claires et des critères de bascule.
+
+**Quelle action est la plus appropriée ?**
+
+A. Conserver la Roadmap provisoire de Phase E puisque les projets possèdent déjà un budget suffisant.
+
+B. Préparer directement les Compliance Reviews de Phase G pour découvrir les dépendances restantes durant le delivery.
+
+C. Prioriser les dépendances techniques dans un tableau de jalons et soumettre le plan au sponsor, puis compléter la readiness et les risques résiduels après le pilote.
+
+D. Confirmer la Roadmap et l'Implementation and Migration Plan après analyse valeur/risque/dépendances, préciser Transition Architectures, engagements et informations à transmettre à Phase G.
+
+
+## XP24 — L2.5.11,L2.5.13 : Entrées G et sorties de gouvernance
+
+Une équipe de delivery commence à construire les SBB d'une plateforme de virements. L'Architecture Definition Document et les exigences sont approuvés, la Roadmap est financée et un Architecture Contract est proposé aux fournisseurs. Le Board doit déterminer les entrées nécessaires aux Compliance Reviews et les livrables de sortie permettant de gouverner les écarts, engagements et changements.
+
+**Quelle action est la plus appropriée ?**
+
+A. Garder comme seule entrée le backlog Agile de l'équipe, puis enregistrer les issues après la mise en production.
+
+B. Relier les entrées approuvées (architecture, requirements, Contract, plan et standards) aux Compliance Assessments, décisions d'exception et Change Requests, puis répercuter les résultats dans la gouvernance.
+
+C. Définir une grille de conformité des requirements les plus critiques et un registre d'écarts, puis compléter les autres décisions/contrats aux jalons de réalisation.
+
+D. Créer un nouveau Statement of Architecture Work à la fin de l'implémentation et ne pas tenir compte des exigences approuvées précédentes.
+
+
+## XP25 — L2.6.3 : Sorties Phase H et décision de suite
+
+Une évolution réglementaire est apparue sur une plateforme déjà déployée. L'analyse Phase H conclut que certains services Data doivent être réarchitecturés, tandis que les APIs de paiement peuvent rester stables. Le sponsor souhaite un chemin clair, des responsabilités et un mandat pour le cycle suivant. Le Board doit distinguer une modification locale d'une initiative d'architecture plus large.
+
+**Quelle action est la plus appropriée ?**
+
+A. Documenter le résultat de Change Management et la décision de gouvernance, produire les Change Requests/mandats et déclencher les activités ou le nouveau cycle ADM nécessaires avec exigences et Landscape mis à jour.
+
+B. Conserver le changement dans un ticket d'incident opérationnel sans modifier les artefacts d'architecture approuvés.
+
+C. Émettre une Change Request et attribuer un owner, puis laisser la réconciliation des autres documents et la portée ADM à une revue ultérieure.
+
+D. Considérer le changement comme terminé dès l'acceptation orale de la nouvelle requirement par son propriétaire.
+
+
+## XP26 — L2.7.3 : Sorties de Requirements Management
+
+Une banque en Phase F reçoit une nouvelle exigence de traçabilité des rejets. Le Requirements Manager doit éviter que le changement reste isolé dans le backlog d'une application. La Target Architecture, les Architecture Requirements Specifications et les plans de migration contiennent des dépendances vers les services Data et Fraud. Le comité demande quels livrables et preuves permettent de statuer sur les impacts de cette requirement.
+
+**Quelle action est la plus appropriée ?**
+
+A. Ajouter la demande au registre des changements puis demander aux équipes de l'implémenter sans toucher aux specs approuvées.
+
+B. Documenter une seule user story et la considérer comme une architecture cible suffisante.
+
+C. Mettre à jour les exigences et leurs liens, produire un Requirements Impact Assessment pour les modèles, décisions et work packages affectés, et soumettre les changements gouvernés.
+
+D. Versionner la requirement et notifier les propriétaires techniques, puis compléter l'analyse des impacts sur la roadmap à la prochaine revue.
 
