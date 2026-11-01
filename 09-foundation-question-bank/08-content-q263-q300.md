@@ -2,7 +2,7 @@
 
 ## Q263 — Content Framework
 L'Architecture Content Framework sert principalement à :
-A. Exécuter les applications
+A. Exécuter les composants décrits dans la Technology Architecture cible
 B. Remplacer l'ADM
 C. Structurer les types de contenu produits par le travail d'architecture
 D. Définir les critères de conformité des implémentations
@@ -23,8 +23,8 @@ D. Deliverables, Artifacts, Building Blocks
 ## Q265 — Deliverable
 Un deliverable est :
 A. Un produit de travail formel soumis à review/approval
-B. Toujours un seul diagramme
-C. Toujours un composant logiciel
+B. Un unique diagramme indépendamment des conditions d'acceptation du livrable
+C. Un building block de solution nécessairement déployé avant la revue
 D. Un viewpoint
 **Réponse : A.** Un deliverable peut regrouper plusieurs artifacts. B/C/D sont faux.
 **Mapping : Architecture Content — Deliverables.**
@@ -106,7 +106,7 @@ D. Spécifier l'ensemble des exigences d'une architecture
 
 ## Q274 — Catalog vs Matrix
 Quelle distinction est correcte ?
-A. Ils sont identiques
+A. Catalog et Matrix ont le même usage et diffèrent seulement par le nom du fichier
 B. Catalog = liste structurée ; Matrix = relations entre ensembles
 C. Matrix = phase ADM
 D. Catalog = Architecture Contract
@@ -225,17 +225,17 @@ D. Pour éviter les stakeholders
 
 ## Q287 — Metamodel extension
 Peut-on adapter/étendre un metamodel ?
-A. Non, jamais
+A. Le métamodèle ne peut être adapté que si l'ensemble des phases ADM est relancé
 B. Oui, sans documentation
 C. Oui, si le contexte l'exige et que l'extension reste gouvernée
-D. Seulement en Phase H
+D. L'extension du métamodèle est autorisée exclusivement après la mise en production
 **Réponse : C.** Le framework est tailorable, y compris le contenu, mais les extensions doivent rester cohérentes.
 **Mapping : Architecture Content — Content Metamodel.**
 
 ## Q288 — Artifact choice
 Comment choisir entre catalog, matrix et diagram ?
-A. Toujours utiliser les trois
-B. Toujours un diagram
+A. Produire systématiquement un Catalog, une Matrix et un Diagram pour chaque décision
+B. Choisir systématiquement un Diagram même lorsque la question porte sur un inventaire
 C. Selon le nombre de pages souhaité
 D. Selon la question, les concerns et la relation à montrer
 **Réponse : D.** Le format doit servir la décision et le concern.
@@ -316,7 +316,7 @@ D. Une view peut être réalisée à l'aide d'un ou plusieurs artifacts appropri
 ## Q297 — Repository vs Content
 Quelle distinction est correcte ?
 A. Le Content Framework structure ce qui est produit ; le Repository organise où ces assets sont conservés et gérés
-B. Ils sont identiques
+B. Content Framework et Repository sont synonymes car ils conservent le même contenu
 C. Le Repository est un artifact
 D. Le Content Framework est une phase
 **Réponse : A.** Structure du contenu et mécanisme de conservation sont différents.
