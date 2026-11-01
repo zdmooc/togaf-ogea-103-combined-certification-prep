@@ -104,9 +104,9 @@ D. Une migration wave
 
 ## Q012 — Viewpoint
 Un viewpoint est le mieux décrit comme :
-A. La représentation finale
-B. Un projet
-C. Un requirement
+A. Une architecture view concrète construite pour présenter un domaine ou une relation
+B. Un content metamodel spécifiant les types, propriétés et relations des éléments
+C. Un architecture artifact formel représentant les interactions entre composants
 D. La convention permettant de construire une view répondant à des concerns
 **Réponse : D.** Le viewpoint définit comment produire la view. A décrit la view ; B/C sont différents.
 **Mapping : Concepts — View/Viewpoint.**
@@ -169,18 +169,18 @@ D. Une seule application
 
 ## Q019 — Transition Architecture
 Une Transition Architecture est :
-A. Un planning Gantt
-B. Un principe
+A. Une séquence de work packages priorisés dans un Implementation and Migration Plan
+B. Une Architecture Roadmap représentant les grandes étapes vers la cible
 C. Un état architectural intermédiaire nécessaire pour atteindre la cible
-D. La Baseline
+D. Une description de la Baseline Architecture avant tout changement approuvé
 **Réponse : C.** Elle décrit un plateau intermédiaire cohérent. A est un planning ; B/D sont différents.
 **Mapping : Concepts — Transition Architecture.**
 
 ## Q020 — Gap
 Un gap représente :
-A. Une équipe projet
-B. Une view
-C. Un contrat
+A. Un écart de conformité mesuré entre un composant déployé et un standard approuvé
+B. Une dépendance planifiée entre deux work packages de la Roadmap
+C. Un différend entre sponsors sur la répartition du financement d'une solution
 D. Une différence pertinente entre Baseline et Target
 **Réponse : D.** Le gap montre ce qui doit changer. A/B/C sont d'autres objets.
 **Mapping : Concepts — Gap.**
@@ -471,10 +471,10 @@ D. Une Architecture Requirements Specification détaillant les contraintes de la
 
 ## Q051 — Work Package
 Un work package est :
-A. Une view
-B. Un principle
+A. Un ensemble de capacités métier représentées dans la Target Business Architecture
+B. Un ensemble de standards et principes structurant les décisions du programme
 C. Un ensemble cohérent de travaux contribuant à la transformation
-D. Un concern
+D. Un ensemble de vues formelles regroupées dans l'Architecture Definition Document
 **Réponse : C.** Les work packages regroupent les changements à réaliser. A/B/D sont d'autres catégories.
 **Mapping : Concepts — Work Package.**
 
