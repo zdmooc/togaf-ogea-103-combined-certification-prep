@@ -39,7 +39,7 @@ for file in sorted((ROOT / "10-practitioner-scenarios").glob("0[1-8]-*s*.md")):
         score = grades(a[1]) if a else {}
         if verify_grades(score, ident):
             for letter, points in score.items():
-                check(bool(re.search(rf"^\s*-\s*\*\*{letter}\s*(?:[—–-]\s*{points}\b|,\s*{points}\s*points|\(\s*{points}\s*\))", section, flags=re.M)),
+                check(bool(re.search(rf"^\s*-\s*\*\*{letter}\s*(?:[—–-]\s*{points}\b|,\s*{points}\s*points?|\(\s*{points}\s*\))", section, flags=re.M)),
                       f"{ident}: explanation for {letter}={points} missing")
         options(section.split("**Scoring")[0], ident)
         count += 1
@@ -60,7 +60,7 @@ for n in range(1, 7):
         scores=grades(m[1]) if m else {}
         if verify_grades(scores,ident):
             for letter, points in scores.items():
-                check(bool(re.search(rf"^\s*-\s*\*\*{letter}\s*(?:[—–-]\s*{points}\b|,\s*{points}\s*points|\(\s*{points}\s*\))",b,re.M)),
+                check(bool(re.search(rf"^\s*-\s*\*\*{letter}\s*(?:[—–-]\s*{points}\b|,\s*{points}\s*points?|\(\s*{points}\s*\))",b,re.M)),
                       f"{ident}: explanation for {letter}={points} missing")
 
 # Targeted cases XP01..XP32 and dedicated corrections.
@@ -94,7 +94,7 @@ for ident in sorted(expected):
     if verify_grades(scores,ident):
         for letter in "ABCD":
             # XP01-04 use **A (5)**, XP05-32 use **A, 5 points**
-            check(bool(re.search(rf"\*\*{letter}\s*(?:\({scores[letter]}\)|[,—–]\s*{scores[letter]}\s*points)",b)),
+            check(bool(re.search(rf"\*\*{letter}\s*(?:\({scores[letter]}\)|[,—–]\s*{scores[letter]}\s*points?)",b)),
                   f"{ident}: missing separate reasoning for {letter}")
                 
 # Two extra Foundation drills with answer keys.
