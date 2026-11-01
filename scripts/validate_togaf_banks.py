@@ -62,6 +62,29 @@ for n in range(1, 7):
         check(len(values) == 4 and sorted(int(v) for _, v in values) == [0, 1, 3, 5],
               f'Mock {n} P{i}: invalid gradient')
 
+# Cross-exam integrity checks: structure, duplicate stems, and syllabus trace inventory.
+seen_stems = set()
+for n in range(1, 7):
+    source = (root / '11-mock-exams' / f'mock-0{n}-exam.md').read_text(encoding='utf-8')
+    foundation = source.split('# Part 2')[0]
+    segments = re.split(r'(?=^\*\*Q\d+\.\*\*)', foundation, flags=re.M)[1:]
+    check(len(segments) == 40, f'Mock {n}: expected 40 Q blocks')
+    for i, question in enumerate(segments, 1):
+        head = re.search(r'^\*\*Q(\d+)\.\*\*\s+([^\n]+)', question)
+        check(bool(head) and int(head[1]) == i, f'Mock {n}: malformed question {i}')
+        if head:
+            stem = re.sub(r'\s+', ' ', head[2].casefold()).strip()
+            check(stem not in seen_stems, f'Mock {n} Q{i}: repeated question stem')
+            seen_stems.add(stem)
+        labels = re.findall(r'(?:^|\n| {2})([ABCD])\.\s+', question)
+        check(labels == list('ABCD'), f'Mock {n} Q{i}: wrong choices {labels}')
+
+trace = (root / '14-official-sources' / '06-x2202-learning-outcome-traceability.md').read_text(encoding='utf-8')
+outcomes = re.findall(r'^\| (L[12])\.(\d+)\.(\d+) \|', trace, re.M)
+check(len(outcomes) == 131 and len(set(outcomes)) == 131, f'X2202 outcomes: {len(outcomes)} distinct rows, expected 131')
+for path in re.findall(r'\[Cours\]\(\.\./([^)]*)\)', trace):
+    check((root / path).is_file(), f'X2202 references missing source file: {path}')
+
 advanced_f = (root / '09-foundation-question-bank' / '09-advanced-drills.md').read_text(encoding='utf-8')
 advanced_p = (root / '10-practitioner-scenarios' / '09-advanced-multi-constraint-scenarios.md').read_text(encoding='utf-8')
 check(len(re.findall(r'^## F\d\d\b', advanced_f, re.M)) == 24, 'Advanced Foundation: 24 expected')
