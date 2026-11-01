@@ -6,7 +6,7 @@
 
 ## Concepts
 
-**Q1.** Dans une banque corporate, le comité examine les acteurs, états et référentiels pour orienter la transformation. Qui est un Stakeholder ?
+**Q1.** Une équipe de conformité sans budget propre est affectée par un changement de traçabilité des paiements. Comment qualifie-t-on cette équipe dans le travail d'architecture ?
 A. Toute partie intéressée par ou affectée par l'architecture  B. Sponsor — autorité budgétaire exclusivement, sans autre partie concernée  C. Architecte — seul acteur participant à la production des vues de Target  D. Requirement — condition vérifiable consignée dans la spécification
 
 **Q2.** Dans une banque corporate, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quel terme exprime ce qui importe à un stakeholder ?
@@ -33,7 +33,7 @@ A. Architecture Repository — stockage et organisation des éléments produits 
 **Q9.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. La mise en place de l'Architecture Board et du processus d'exception relève d'abord de :
 A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Preliminary — mise en place de l'Architecture Capability  C. Phase E — définir options, work packages et transitions candidates  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
-**Q10.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. L'Architecture Vision est principalement élaborée en :
+**Q10.** La direction veut formuler une Vision et autoriser le travail d'architecture d'un nouveau service corporate avant de choisir les plateformes. Quelle phase ADM ?
 A. Phase A — définition du périmètre, des concerns métier et de l'Architecture Vision  B. Preliminary — définir la gouvernance et l'Architecture Capability  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** Un programme doit définir les services métier et processus d'assurance futurs ; les applications legacy sont connues. Quel travail ADM doit structurer ce besoin ?
@@ -45,13 +45,13 @@ A. Phase B — structurer capabilities et processus métiers de la cible  B. Pha
 **Q13.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Les interactions et services applicatifs cibles sont développés principalement en :
 A. Phase B — définir services et processus métier indépendants des applications  B. Phase C Application — services et interactions applicatifs  C. Phase C Data — préciser propriété et cycle de vie de l'information  D. Phase D — détailler le socle et les services technologiques
 
-**Q14.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. La plateforme technique cible est développée principalement en :
+**Q14.** Une fois les services applicatifs identifiés, la banque doit définir les services de plateforme, l'hébergement et la résilience technique de la cible. Quelle phase est principalement sollicitée ?
 A. Phase C Data — gouverner les entités et les flux d'information  B. Phase C Application — modéliser services et contrats applicatifs  C. Phase D — plateformes, services technologiques et infrastructure  D. Phase E — agréger les gaps en work packages et transitions
 
 **Q15.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Les work packages et Transition Architectures commencent à être consolidés surtout en :
 A. Phase E — options, work packages et Transition Architectures  B. Phase F — confirmer l'ordre et le plan détaillé de la migration  C. Phase G — vérifier la conformité des éléments déjà implémentés  D. Phase C Application — définir les interactions applicatives de cible
 
-**Q16.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Le séquencement détaillé de la migration est principalement consolidé en :
+**Q16.** Une banque dispose de work packages candidats et de Transition Architectures. Il faut confirmer l'ordre des vagues selon dépendances et valeur. Quelle phase ADM réalise le séquencement final ?
 A. Phase E — élaborer les options de solution et premiers lots  B. Phase G — suivre les écarts de conformité pendant le delivery  C. Phase H — évaluer les changements de l'architecture en service  D. Phase F — séquencement et plan détaillé de migration
 
 **Q17.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. L'Architecture Contract et la Compliance Review soutiennent surtout :
@@ -66,10 +66,10 @@ A. Il intervient de manière transversale, avec analyse et traçabilité des imp
 **Q20.** Le projet découvre un besoin nouveau en Phase C après validation initiale de la Vision. Quelle affirmation sur l'ADM est correcte ?
 A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
-**Q21.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une Gap Analysis identifie :
+**Q21.** Le programme identifie l'absence d'un service de vérification dans la Baseline, alors que la Target l'exige. Quelle technique décrit cette différence ?
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Migration Planning — prioriser les lots sans comparer Baseline et Target  D. Les différences pertinentes entre Baseline et Target
 
-**Q22.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une Architecture Roadmap sert principalement à :
+**Q22.** Finance demande les transitions et principaux lots conduisant à l'architecture cible, plutôt qu'un inventaire de composants. Quel livrable utiliser ?
 A. Architecture Requirements Specification — conditions vérifiables de cible  B. Architecture Contract — engagements entre acteurs de réalisation  C. Montrer la trajectoire et les principaux changements vers la cible  D. Implementation and Migration Plan — tâches et dates détaillées des waves
 
 **Q23.** Un projet envisage une Target cloud-native, mais les équipes ne maîtrisent ni l'exploitation ni les contraintes de financement. Quelle technique fournit l'analyse la plus adaptée ?
@@ -81,7 +81,7 @@ A. Business Scenarios — besoin métier contextualisé et requirements  B. Gap 
 **Q25.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique aide à déterminer si deux environnements peuvent fonctionner ensemble ?
 A. Technology Architecture — mêmes produits, sans vérifier la sémantique  B. Interoperability — capacité de collaboration métier, information et technique  C. Standards Information Base — liste de standards techniques approuvés  D. Compliance Review — contrôle d'un composant isolé après réalisation
 
-**Q26.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique évalue les barrières à l'adoption de la transformation ?
+**Q26.** Une plateforme cloud-native semble techniquement réalisable, mais les managers ne financent pas les capacités d'exploitation en continu. Quelle méthode évalue la préparation de l'organisation ?
 A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation des capacités de mise en œuvre
 
 **Q27.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique structure l'analyse des événements incertains susceptibles d'affecter les objectifs ?
@@ -102,7 +102,7 @@ A. Partitioning — organisation des espaces et interfaces d'architecture  B. Sc
 **Q32.** Dans une banque corporate, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Quelle affirmation sur security est correcte ?
 A. Déclencher les analyses sécurité uniquement après le premier go-live  B. Traiter la sécurité comme un domaine isolé sans impact sur les autres vues  C. Elle est intégrée transversalement aux requirements, risques, architectures et gouvernance  D. Supposer que la sélection du chiffrement suffit à fermer tous les risques
 
-**Q33.** Dans une banque corporate, le Board doit différencier arbitrage, conformité et exceptions. L'Architecture Board :
+**Q33.** Les équipes de deux directions présentent des architectures contradictoires et une dérogation transverse. Quelle autorité est chargée de l'arbitrage d'architecture ?
 A. Project Steering Committee — pilotage coûts et délais uniquement  B. Gouverne et arbitre les décisions d'architecture  C. Requirements Manager — traçabilité mais pas acceptation des exceptions  D. Fournisseur — approbation autonome de ses propres non-conformités
 
 **Q34.** Une équipe livraison propose un changement de protocole à un standard approuvé. Quelle pratique caractérise une réponse de gouvernance correcte ?
