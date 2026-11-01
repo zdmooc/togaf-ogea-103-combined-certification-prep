@@ -285,13 +285,13 @@ mock_foundation_checks = {
 for n, targeted in mock_foundation_checks.items():
     question_text = read(f"11-mock-exams/mock-0{n}-exam.md").split("# Part 2")[0]
     correction_text = read(f"11-mock-exams/corrections/mock-0{n}-correction.md").split("# Part 2")[0]
-    questions = re.split(r"(?=^\\*\\*Q\\d+\\.\\*\\*)", question_text, flags=re.M)
+    questions = re.split(r"(?=^\*\*Q\d+\.\*\*)", question_text, flags=re.M)
     for number, (letter, expected) in targeted.items():
         q = next((item for item in questions if item.startswith(f"**Q{number}.**")), "")
-        choice_match = re.search(rf"(?:^|  ){letter}\\. (.*?)(?=  [ABCD]\\. |$)", q, re.M)
+        choice_match = re.search(rf"(?:^|  ){letter}\. (.*?)(?=  [ABCD]\. |$)", q, re.M)
         check(bool(choice_match and expected in choice_match[1]),
               f"Mock 0{n} Foundation Q{number}: expected {expected} in option {letter}")
-        check(bool(re.search(rf"^{number}\\. \\*\\*{letter}\\*\\* —", correction_text, re.M)),
+        check(bool(re.search(rf"^{number}\. \*\*{letter}\*\* —", correction_text, re.M)),
               f"Mock 0{n} Foundation Q{number}: corrected letter {letter} has regressed")
     check("[X2202, domaine correspondant]" not in correction_text and
           "[X2202, objectifs du domaine concerné]" not in correction_text,
