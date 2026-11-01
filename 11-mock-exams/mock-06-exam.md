@@ -18,7 +18,7 @@ A. Il remplace l'Architecture Repository comme entrepôt physique unique de fich
 **Q4.** Dans une fédération bancaire, le comité examine les acteurs, états et référentiels pour orienter la transformation. Le DPO s'inquiète de la résidence des données avant la définition des exigences. Comment qualifier cette préoccupation ?
 A. Requirement — une condition formelle mesurable que la cible doit respecter  B. Concern — préoccupation d'un stakeholder que l'architecture doit examiner et représenter  C. Viewpoint — une convention permettant de construire et interpréter une vue  D. Business Driver — une force qui motive une transformation de l'entreprise
 
-**Q5.** Dans une fédération bancaire, le comité examine les acteurs, états et référentiels pour orienter la transformation. Un Architecture Principle doit surtout :
+**Q5.** Le groupe veut une règle stable guidant plusieurs décisions de conception, avec rationale et implications. Quel objet TOGAF doit-il formuler ?
 A. Requirement — condition vérifiable propre au périmètre d'une solution  B. SBB — composant retenu pour réaliser une capacité architecturale  C. Guider les décisions d'une manière cohérente et durable  D. Viewpoint — convention choisie pour exposer les concerns
 
 **Q6.** Un référentiel contient standards, exigences, landscape et décisions d'exception. Quel composant sert principalement à enregistrer des décisions de gouvernance et dérogations ?
@@ -33,7 +33,7 @@ A. Target Architecture — architecture future envisagée après les changements
 **Q9.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quel est le but majeur de Preliminary ?
 A. Préparer la capacité et le cadre dans lesquels l'architecture sera pratiquée  B. Phase A — établir Vision, scope et Statement of Architecture Work  C. Phase E — définir options, work packages et transitions candidates  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
-**Q10.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle phase établit principalement la Vision et obtient l'alignement initial des stakeholders ?
+**Q10.** Une nouvelle initiative retail n'a pas encore de business outcomes ni de scope officiellement convenus. Quelle phase prépare la Vision et le mandat initial ?
 A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase A — cadrage du changement métier et préparation de l'Architecture Vision  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** Un programme possède une Vision mais les processus et capabilities métier nécessaires aux résultats attendus ne sont pas définis. Quelle phase est prioritaire ?
@@ -81,7 +81,7 @@ A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B
 **Q25.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Identifier ce qui existe en Baseline mais pas en Target, ou inversement, relève de :
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Gap Analysis — analyse des écarts entre Baseline et Target  C. Architecture Contract — contractualiser obligations et critères de conformité  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
-**Q26.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer les obstacles culturels, humains et organisationnels relève de :
+**Q26.** Une transformation internationale introduit un nouveau modèle opérationnel alors que les équipes locales ne disposent pas des compétences requises. Quelle technique évalue ce risque d'adoption ?
 A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation des capacités de transformation
 
 **Q27.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer menaces et opportunités incertaines pouvant affecter les objectifs relève de :
@@ -102,7 +102,7 @@ A. Scoping — limiter le périmètre et la profondeur d'un seul travail  B. Org
 **Q32.** Dans une fédération bancaire, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Comment articuler l'ADM et le développement Agile ?
 A. Terminer définitivement B, C et D avant toute livraison produit  B. Supprimer les requirements et la gouvernance à partir du premier sprint  C. Limiter l'ADM à Phase G en considérant le backlog comme unique architecture  D. L'ADM peut être tailorable, itératif et synchronisé avec des incréments de delivery
 
-**Q33.** Dans une fédération bancaire, le Board doit différencier arbitrage, conformité et exceptions. L'Architecture Board est principalement :
+**Q33.** Une filiale demande une exception à une norme commune, alors que trois équipes sont concernées par la décision. Quelle instance d'architecture doit arbitrer et tracer cette exception ?
 A. Project Steering Committee — pilotage coûts et délais uniquement  B. Requirements Manager — traçabilité mais pas acceptation des exceptions  C. Architecture Board — instance de gouvernance et d'arbitrage des décisions d'architecture  D. Fournisseur — approbation autonome de ses propres non-conformités
 
 **Q34.** Un Architecture Board doit suivre la conformité de plusieurs équipes et gérer les exceptions. Quel mécanisme fournit un lien formel avec les équipes de réalisation ?
