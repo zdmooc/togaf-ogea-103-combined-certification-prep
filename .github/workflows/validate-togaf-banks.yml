@@ -10,6 +10,8 @@ on:
       - '10-practitioner-scenarios/**'
       - '11-mock-exams/**'
       - 'scripts/validate_togaf_banks.py'
+      - 'scripts/validate_pedagogical_consistency.py'
+      - '14-official-sources/**'
       - '.github/workflows/validate-togaf-banks.yml'
 
 jobs:
@@ -22,3 +24,5 @@ jobs:
           python-version: '3.12'
       - name: Validate Foundation, Practitioner and combined mock structure
         run: python scripts/validate_togaf_banks.py
+      - name: Validate graded decisions, rationales and targeted drills
+        run: python scripts/validate_pedagogical_consistency.py
