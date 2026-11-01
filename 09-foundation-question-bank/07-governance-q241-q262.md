@@ -95,10 +95,10 @@ D. Le seul accord oral du sponsor sans preuves d'implémentation ni critères me
 
 ## Q251 — Non-compliance
 Une review découvre un écart important. Quelle action est la plus cohérente ?
-A. Le cacher
-B. Déclarer automatiquement l'architecture invalide sans analyse
+A. Modifier immédiatement la Target pour correspondre à l'état réel sans revue de gouvernance
+B. Enregistrer la déviation comme un simple incident projet sans comparer les requirements
 C. Enregistrer l'écart, évaluer son impact et décider correction ou exception via governance
-D. Supprimer le requirement localement
+D. Confier l'acceptation définitive de l'écart au fournisseur de la solution impliquée
 **Réponse : C.** La gouvernance traite explicitement les écarts.
 **Mapping : Architecture Governance — Compliance/Exception.**
 
@@ -131,10 +131,10 @@ D. Aucune date de revue
 
 ## Q255 — Temporary waiver
 Pourquoi une exception temporaire peut-elle être préférable à modifier immédiatement le standard ?
-A. Parce que les standards ne changent jamais
-B. Pour éviter toute analyse
+A. Parce qu'une exception locale doit toujours conduire à retirer la requirement centrale
+B. Parce que le sponsor peut approuver seul une déviation sans analyse de risques
 C. Parce qu'un cas local ne justifie pas forcément de changer une règle globale
-D. Pour supprimer la gouvernance
+D. Parce que toute déviation doit obligatoirement devenir un nouveau standard permanent
 **Réponse : C.** Le waiver permet de gérer un cas particulier sans généraliser trop vite.
 **Mapping : Architecture Governance — Exceptions.**
 
@@ -186,18 +186,18 @@ D. Décider comment répondre aux changements et s'il faut un nouveau cycle
 ## Q261 — Best governance behavior
 Quel comportement est le plus mature ?
 A. Rendre les écarts visibles et les traiter selon un processus de décision connu
-B. Tolérer des exceptions implicites
-C. Modifier les standards sans trace
-D. Éviter les compliance reviews
+B. Tolérer les écarts si le sponsor accepte le calendrier sans mesurer leur risque métier
+C. Modifier systématiquement les standards centraux afin d'aligner les règles sur chaque solution
+D. Considérer une déviation comme approuvée dès qu'elle ne bloque pas la production
 **Réponse : A.** La gouvernance repose sur visibilité, décision et traçabilité.
 **Mapping : Architecture Governance — Synthesis.**
 
 ## Q262 — Governance synthesis
 Quel enchaînement est le plus cohérent ?
-A. Exception → aucun requirement → déploiement
+A. Stakeholders → Technology Standards → Migration Plan → Business Architecture
 B. Principles/requirements → Architecture Contract → implementation → Compliance Review → correction ou exception
-C. Compliance Review avant toute architecture
-D. Board → suppression de tout delivery
+C. Implementation Plan → Architecture Vision → Principles → Compliance Review
+D. Architecture Contract → Change Request → Business Scenarios → Preliminary Phase
 **Réponse : B.** Il relie règles, engagement, implémentation, contrôle et traitement des écarts.
 **Mapping : Architecture Governance — Synthesis.**
 
