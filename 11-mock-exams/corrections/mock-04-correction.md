@@ -30,7 +30,7 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, scoring 5/3/1/0, réussite
 23. **B** — Un protocole commun n'assure pas une interprétation partagée des informations. [X2202, domaine correspondant].
 24. **C** — Business Scenarios.
 25. **D** — Transformation Readiness.
-26. **A** — Risk Management.
+26. **A** — Business Transformation Readiness Assessment (compétences, organisation, capacité d'adoption).
 27. **C** — Capability-Based Planning.
 28. **B** — Migration Planning Techniques.
 29. **D** — Tailoring.
