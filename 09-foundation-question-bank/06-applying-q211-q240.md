@@ -2,10 +2,10 @@
 
 ## Q211 — Tailoring
 Pourquoi tailor l'ADM ?
-A. Pour supprimer toute structure
-B. Pour éviter les stakeholders
+A. Pour supprimer les objectifs ADM qui imposent une coordination entre domaines métiers
+B. Pour adopter la même architecture cible indépendamment du périmètre réel du projet
 C. Pour l'adapter au contexte, au scope et à la gouvernance de l'organisation
-D. Pour imposer un seul niveau de détail
+D. Pour remplacer les activités de gouvernance par un simple planning des releases
 **Réponse : C.** Le tailoring garde la logique TOGAF tout en l'adaptant au contexte. A/B/D sont des déformations.
 **Mapping : Applying ADM — Tailoring.**
 
@@ -38,10 +38,10 @@ D. Aucun risque
 
 ## Q215 — Iterative ADM
 L'ADM peut être itératif parce que :
-A. Les phases n'ont aucun objectif
-B. Toute séquence est inutile
+A. La progression ADM est strictement linéaire et chaque phase devient immuable après revue
+B. L'itération n'intervient qu'après Phase G, à l'issue de la première mise en production
 C. Les architectures et requirements sont affinées à mesure que la compréhension progresse
-D. Il faut toujours recommencer depuis Preliminary
+D. Requirements Management peut remplacer les architectures B/C/D et leur vérification métier
 **Réponse : C.** L'itération est structurée, pas arbitraire. A/B/D sont faux.
 **Mapping : Applying ADM — Iteration.**
 
@@ -57,9 +57,9 @@ D. Itérer entre les travaux Data et Application
 ## Q217 — Iteration and feedback
 Pourquoi intégrer des feedback loops dans un environnement digital ?
 A. Pour ajuster architecture et requirements selon les résultats réels
-B. Pour supprimer la Target
-C. Pour éviter les principles
-D. Pour remplacer la governance
+B. Pour supprimer la gouvernance des standards dès que les produits peuvent livrer rapidement
+C. Pour considérer que la Vision initiale ne nécessite plus de validation des stakeholders
+D. Pour figer définitivement les requirements après la première release produite
 **Réponse : A.** Les feedback loops soutiennent l'apprentissage et l'évolution contrôlée.
 **Mapping : Applying ADM — Iteration/Digital.**
 
@@ -166,9 +166,9 @@ D. Raffiner les requirements et controls de sécurité dans chaque domaine perti
 ## Q229 — Security in G
 En Phase G, la sécurité est notamment vérifiée par :
 A. Des preuves de conformité aux requirements/controls approuvés
-B. Le nombre de diagrams
-C. La seule opinion du sponsor
-D. La couleur du backlog
+B. Le classement des work packages en fonction de la valeur métier de chaque release
+C. La définition d'une Technology Architecture sans exigences ni risque résiduel
+D. Une comparaison de la seule architecture Baseline aux architectures cibles du programme
 **Réponse : A.** G vérifie l'implémentation concrète.
 **Mapping : Applying ADM — Security/Governance.**
 
@@ -219,10 +219,10 @@ D. Limiter l'architecture aux contrôles réalisés après chaque déploiement, 
 
 ## Q235 — Agile governance
 Quelle approche est préférable ?
-A. Faire une review unique trois ans après
-B. Supprimer les principles
+A. Conserver les architecture decisions hors des sprints jusqu'au prochain audit annuel
+B. Substituer systématiquement le backlog des squads aux standards et principles approuvés
 C. Intégrer les architecture decisions et compliance checks dans le flux Agile
-D. Ne jamais documenter les décisions
+D. Attendre la fin de toutes les releases avant de vérifier les exigences et les exceptions
 **Réponse : C.** Une gouvernance légère et continue est plus adaptée au rythme Agile.
 **Mapping : Applying ADM — Agile and TOGAF.**
 
@@ -238,9 +238,9 @@ D. Coordonner plusieurs domaines, niveaux, partitions et cycles
 ## Q237 — Large enterprise consistency
 Comment maintenir la cohérence entre plusieurs équipes d'architecture ?
 A. Principles, standards, metamodel, repository et gouvernance partagés
-B. Aucun mécanisme commun
-C. Chaque équipe redéfinit le vocabulaire
-D. Pas de review inter-domaines
+B. En laissant chaque équipe choisir librement ses standards sans mécanisme commun d'arbitrage
+C. En centralisant toutes les décisions de détail au Board, y compris les changements mineurs
+D. En conservant seulement le Repository partagé sans governance ou roles explicites
 **Réponse : A.** Les mécanismes partagés permettent une architecture fédérée mais cohérente.
 **Mapping : Applying ADM — Large Enterprise.**
 
