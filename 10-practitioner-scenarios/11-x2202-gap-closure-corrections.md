@@ -1,4 +1,4 @@
-# Corrigés de couverture X2202 — XP05–XP26
+# Corrigés de couverture X2202 — XP05–XP32
 
 Le barème est un entraînement de jugement, jamais une reproduction des questions officielles.
 
@@ -253,3 +253,69 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 
 **Référence :** X2202 L2.7.3 et sections TOGAF ADM/Series Guides correspondantes.
 
+
+## XP27 — L2.8.4
+
+**Barème pédagogique :** A=0, B=5, C=1, D=3.
+
+- **B — 5 points :** Utiliser l'Implementation Factor Catalog, consolider gaps/solutions/dépendances, analyser readiness et work packages, puis comparer les transitions et priorités de migration. B articule les techniques de planification et relie E/F à la réalisation ; D reconnaît les dépendances et des prérequis mais ne couvre pas tous les facteurs.
+- **D — 3 points :** Répertorier les principales dépendances MQ et un lot de support pour la première wave, puis compléter l'évaluation des facteurs d'implémentation après le pilote. Action utile mais insuffisante pour couvrir la décision entière.
+- **C — 1 point :** Établir d'abord un Architecture Contract avec le fournisseur pour l'ensemble de la migration, puis déterminer les gaps au moment de Phase G. Contribution limitée ou prématurée.
+- **A — 0 point :** Produire uniquement un diagramme de la Target Technology Architecture ; les dépendances de migration seront déduites des composants. N'adresse pas la contrainte principale.
+
+**Source :** X2202, objectif L2.8.4, et TOGAF Standard 10th Edition.
+
+## XP28 — L2.8.10
+
+**Barème pédagogique :** A=5, B=1, C=3, D=0.
+
+- **A — 5 points :** Définir les ABB logiques à partir des capacités et exigences, clarifier leurs interfaces et relations, puis évaluer les SBB candidats qui peuvent les réaliser. A place les ABB au bon niveau d'abstraction ; C en définit un premier mais anticipe une sélection avant la traçabilité complète.
+- **C — 3 points :** Inventorier les capacités et décrire un premier ABB de décision, puis sélectionner la solution et compléter la traçabilité inter-domaines à la revue suivante. Action utile mais insuffisante pour couvrir la décision entière.
+- **B — 1 point :** Traiter le moteur déjà en place comme ABB officiel et obliger tous les projets à adopter son produit avant de vérifier les requirements. Contribution limitée ou prématurée.
+- **D — 0 point :** Éliminer les ABB car seules les applications livrées doivent figurer dans une architecture cible moderne. N'adresse pas la contrainte principale.
+
+**Source :** X2202, objectif L2.8.10, et TOGAF Standard 10th Edition.
+
+## XP29 — L2.1.2
+
+**Barème pédagogique :** A=0, B=1, C=5, D=3.
+
+- **C — 5 points :** Un ensemble cohérent de descriptions, modèles et vues liés aux capabilities, données, applications et technologies, montrant motivations, états, dépendances et décisions à plusieurs niveaux. C décrit l'architecture multi-domaines, ses vues et états ; D ajoute des liens utiles mais reste insuffisant pour les préoccupations du comité.
+- **D — 3 points :** Ajouter au schéma réseau un inventaire des applications et les principaux owners, puis produire les autres vues au fil des arbitrages. Action utile mais insuffisante pour couvrir la décision entière.
+- **B — 1 point :** Une Architecture Vision seule couvre nécessairement toutes les informations utiles au delivery et à l'exploitation. Contribution limitée ou prématurée.
+- **A — 0 point :** Un diagramme détaillé du réseau suffit dès lors qu'il inclut tous les composants de l'infrastructure actuelle. N'adresse pas la contrainte principale.
+
+**Source :** X2202, objectif L2.1.2, et TOGAF Standard 10th Edition.
+
+## XP30 — L2.3.4
+
+**Barème pédagogique :** A=1, B=5, C=3, D=0.
+
+- **B — 5 points :** Produire Architecture Vision et Statement of Architecture Work, identifier scope et stakeholders, et organiser le Communications Plan avec les approbations appropriées. B rassemble les livrables et engagements de Phase A ; C prépare Vision et mandat mais laisse l'engagement incomplet.
+- **C — 3 points :** Documenter la Vision et un premier mandat, puis distribuer les décisions au comité sans formaliser encore la stratégie de communication. Action utile mais insuffisante pour couvrir la décision entière.
+- **A — 1 point :** Finaliser directement les modèles Data et Application avant de documenter l'engagement des acteurs. Contribution limitée ou prématurée.
+- **D — 0 point :** Établir un Migration Plan définitif et un Architecture Contract fournisseur avant l'approbation de la Vision. N'adresse pas la contrainte principale.
+
+**Source :** X2202, objectif L2.3.4, et TOGAF Standard 10th Edition.
+
+## XP31 — L2.5.3
+
+**Barème pédagogique :** A=0, B=1, C=5, D=3.
+
+- **C — 5 points :** Distinguer greenfield pour le service neuf, revolutionary pour la bascule radicale, evolutionary pour la migration progressive ; justifier chaque choix par valeur, dépendances, risque et readiness. C distingue les trois approches et leurs conditions ; D réalise la classification mais manque l'évaluation de viabilité.
+- **D — 3 points :** Classifier les trois transformations, mais choisir la stratégie finale d'après la technologie préférée du fournisseur et non la disponibilité des équipes. Action utile mais insuffisante pour couvrir la décision entière.
+- **B — 1 point :** Évolutive pour les trois, car toute entreprise existante doit conserver indéfiniment des solutions en parallèle. Contribution limitée ou prématurée.
+- **A — 0 point :** Révolutionnaire pour les trois, car elle minimise toujours les risques de dépendance. N'adresse pas la contrainte principale.
+
+**Source :** X2202, objectif L2.5.3, et TOGAF Standard 10th Edition.
+
+## XP32 — L2.7.1
+
+**Barème pédagogique :** A=1, B=5, C=3, D=0.
+
+- **B — 5 points :** Collecter business goals et drivers, constraints, principes, stakeholders/concerns, régulations, risques et exigences de domaines, puis les qualifier et les tracer transversalement. B identifie les principales sources et leur traçabilité ; C privilégie à bon escient la conformité urgente mais reporte les autres préoccupations.
+- **C — 3 points :** Recueillir les requirements réglementaires et de sécurité les plus urgentes, puis compléter les besoins métier et opérationnels avant de figer la Target. Action utile mais insuffisante pour couvrir la décision entière.
+- **A — 1 point :** Utiliser uniquement les exigences techniques de l'application actuelle parce qu'elles ont déjà été implémentées. Contribution limitée ou prématurée.
+- **D — 0 point :** Dériver toutes les requirements de la liste de services du fournisseur retenu et faire approuver les exceptions après la migration. N'adresse pas la contrainte principale.
+
+**Source :** X2202, objectif L2.7.1, et TOGAF Standard 10th Edition.
