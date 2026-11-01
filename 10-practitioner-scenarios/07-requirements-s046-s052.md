@@ -10,15 +10,15 @@ Quelle action est la meilleure ?
 A. Sélectionner le design haute disponibilité recommandé par l'intégrateur, puis déduire la requirement du niveau de service qu'il garantit.
 B. Décomposer et clarifier la requirement en critères vérifiables — disponibilité, RTO/RPO, modes de défaillance, failover, tests — tout en conservant la traçabilité vers le concern initial.
 C. Définir un premier seuil quantifié de disponibilité puis compléter les conditions de mesure et la validation par Operations.
-D. Proposer des seuils provisoires de reprise et de perte de données, puis organiser un atelier de validation des hypothèses avec les SRE et le Business Owner.
+D. Déduire des seuils de reprise provisoires du seul SLA du fournisseur, puis les appliquer sans valider leur adéquation avec les besoins des SRE et du Business Owner.
 **Scoring : A=0, B=5, C=3, D=1.**
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Décomposer et clarifier la requirement en critères vérifiables — disponibilité, RTO/RPO, modes de défaillance, failover, tests — tout en conservant la traçabilité vers le concern initial. Une requirement vérifiable établit un critère d'acceptation clair.
-- **C — 3 points :** Définir un premier seuil quantifié de disponibilité puis compléter les conditions de mesure et la validation par Operations. Un objectif qualitatif doit encore devenir une condition testable.
-- **D — 1 point :** Proposer des seuils provisoires de reprise et de perte de données, puis organiser un atelier de validation des hypothèses avec les SRE et le Business Owner. Une intention de projet ne remplace pas un seuil mesurable.
-- **A — 0 point :** Sélectionner le design haute disponibilité recommandé par l'intégrateur, puis déduire la requirement du niveau de service qu'il garantit. Une exigence ambiguë rend impossible la Compliance Assessment.
+- **B — 5 points :** Décomposer et clarifier la requirement en critères vérifiables — disponibilité, RTO/RPO, modes de défaillance, failover, tests — tout en conservant la traçabilité vers le concern initial. Disponibilité, RTO/RPO, modes de panne et critères de test clarifiés rendent l'exigence vérifiable.
+- **C — 3 points :** Définir un premier seuil quantifié de disponibilité puis compléter les conditions de mesure et la validation par Operations. Un premier seuil quantifié est utile, mais mesures et validation Operations restent à formaliser.
+- **D — 1 points :** Déduire des seuils de reprise provisoires du seul SLA du fournisseur, puis les appliquer sans valider leur adéquation avec les besoins des SRE et du Business Owner. Un SLA fournisseur ne définit pas les exigences réelles de continuité, notamment les scénarios métier.
+- **A — 0 points :** Sélectionner le design haute disponibilité recommandé par l'intégrateur, puis déduire la requirement du niveau de service qu'il garantit. Un design choisi avant clarification du concern produit une exigence dictée par la solution.
 
 **Mapping : Requirements Management — Quality of Requirements.**
 
@@ -40,10 +40,10 @@ D. Faire expliciter et documenter les impacts des deux exigences, puis préparer
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Rendre le conflit explicite, analyser trade-offs et impacts, impliquer les stakeholders concernés et obtenir un arbitrage gouverné avec requirements mises à jour. Le conflit doit être explicité puis arbitré par les owners appropriés.
-- **D — 3 points :** Faire expliciter et documenter les impacts des deux exigences, puis préparer une proposition de compromis pour l'autorité de décision. Une priorité provisoire aide sans trancher le désaccord.
-- **A — 1 point :** Préparer deux architectures alternatives chiffrées et faire expliciter les risques avant de demander un arbitrage métier, sans conclure encore sur leur traçabilité. Supprimer une demande sans consultation détruit la trace métier.
-- **B — 0 point :** Adopter une redondance limitée uniquement aux composants critiques et considérer les deux requirements satisfaites, sans accord formel des owners. Ignorer les exigences incompatibles reporte le conflit à la livraison.
+- **C — 5 points :** Rendre le conflit explicite, analyser trade-offs et impacts, impliquer les stakeholders concernés et obtenir un arbitrage gouverné avec requirements mises à jour. Les deux exigences incompatibles sont analysées avec leurs owners et font l'objet d'un arbitrage traçable.
+- **D — 3 points :** Faire expliciter et documenter les impacts des deux exigences, puis préparer une proposition de compromis pour l'autorité de décision. Une proposition de compromis aide l'autorité de décision, mais le conflit reste à trancher.
+- **A — 1 points :** Préparer deux architectures alternatives chiffrées et faire expliciter les risques avant de demander un arbitrage métier, sans conclure encore sur leur traçabilité. Comparer les alternatives en coûts/risques éclaire le débat, sans garantir encore l'arbitrage ni la mise à jour des requirements.
+- **B — 0 points :** Adopter une redondance limitée uniquement aux composants critiques et considérer les deux requirements satisfaites, sans accord formel des owners. Une architecture locale dite suffisante ne remplace pas l'accord des owners sur leurs exigences contradictoires.
 
 **Mapping : Requirements Management — Conflicting Requirements.**
 
@@ -90,10 +90,10 @@ D. Conserver le plan approuvé et demander à l'équipe technique de satisfaire 
 
 **Justification des quatre niveaux :**
 
-- **A — 5 points :** Enregistrer et analyser la nouvelle requirement, itérer sur les architectures impactées si nécessaire, puis mettre à jour gaps, work packages et Migration Plan. L'analyse d'impact en F doit réconcilier plan et architecture.
-- **B — 3 points :** Ouvrir une évaluation d'impact de la nouvelle requirement sur le planning de migration avant de décider des ajustements du plan approuvé. Notifier le projet est un début, sans mise à jour de la Roadmap.
-- **C — 1 point :** Évaluer prioritairement le gap Data et ses conséquences sur le lot immédiat, puis inscrire les impacts des autres work packages à une revue suivante. Le ticket de livraison ne couvre pas toutes les dépendances de domaines.
-- **D — 0 point :** Conserver le plan approuvé et demander à l'équipe technique de satisfaire la règle réglementaire par configuration locale, sans revoir les dépendances. Ignorer la demande fige un plan potentiellement non conforme.
+- **A — 5 points :** Enregistrer et analyser la nouvelle requirement, itérer sur les architectures impactées si nécessaire, puis mettre à jour gaps, work packages et Migration Plan. Le changement réglementaire se propage aux domaines, gaps et lots avant de réviser le plan de migration.
+- **B — 3 points :** Ouvrir une évaluation d'impact de la nouvelle requirement sur le planning de migration avant de décider des ajustements du plan approuvé. La première analyse de planning est utile, mais ne couvre pas encore les modèles et exigences de tous les domaines.
+- **C — 1 points :** Évaluer prioritairement le gap Data et ses conséquences sur le lot immédiat, puis inscrire les impacts des autres work packages à une revue suivante. Se concentrer sur Data et le lot immédiat reporte les autres dépendances potentiellement bloquantes.
+- **D — 0 points :** Conserver le plan approuvé et demander à l'équipe technique de satisfaire la règle réglementaire par configuration locale, sans revoir les dépendances. Une correction de configuration locale ne garantit ni conformité ni cohérence du plan approuvé.
 
 **Mapping : Requirements Management — Change during ADM / Iteration.**
 
@@ -158,17 +158,17 @@ Le portefeuille comporte des contraintes réglementaires, des améliorations de 
 
 Quelle action est la meilleure ?
 A. Prioriser d'abord les exigences réglementaires et de sécurité, puis compléter l'arbitrage avec valeur, risques et dépendances.
-B. Commencer par hiérarchiser les exigences imposées par la réglementation et la sécurité, puis compléter ensuite la comparaison des bénéfices et interdépendances.
+B. Traiter les demandes dans leur ordre d'arrivée, en donnant une priorité par défaut aux mentions de sécurité, puis remettre les arbitrages de valeur et de dépendance après le cadrage de livraison.
 C. Distribuer le budget également entre les squads afin qu'aucune requirement qualifiée critique ne soit exclue de la première vague.
 D. Revoir la qualité, source, priorité, dépendances et critères d’acceptation des requirements avec les stakeholders, puis maintenir une gouvernance de changement.
 **Scoring : A=3, B=1, C=0, D=5.**
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Revoir la qualité, source, priorité, dépendances et critères d’acceptation des requirements avec les stakeholders, puis maintenir une gouvernance de changement. La valeur, les risques et les dépendances permettent une priorisation légitime.
-- **A — 3 points :** Prioriser d'abord les exigences réglementaires et de sécurité, puis compléter l'arbitrage avec valeur, risques et dépendances. La priorité métier provisoire ignore certains impacts d'architecture.
-- **B — 1 point :** Commencer par hiérarchiser les exigences imposées par la réglementation et la sécurité, puis compléter ensuite la comparaison des bénéfices et interdépendances. L'ordre des demandes ne mesure pas leur valeur ou leur urgence.
-- **C — 0 point :** Distribuer le budget également entre les squads afin qu'aucune requirement qualifiée critique ne soit exclue de la première vague. Une absence totale de priorité empêche l'arbitrage du périmètre.
+- **D — 5 points :** Revoir la qualité, source, priorité, dépendances et critères d’acceptation des requirements avec les stakeholders, puis maintenir une gouvernance de changement. La qualité, la source et la traçabilité des exigences permettent une priorité fondée sur objectifs et dépendances.
+- **A — 3 points :** Prioriser d'abord les exigences réglementaires et de sécurité, puis compléter l'arbitrage avec valeur, risques et dépendances. Les obligations critiques sont repérées, mais la valeur et les interdépendances ne sont pas encore analysées.
+- **B — 1 points :** Traiter les demandes dans leur ordre d'arrivée, en donnant une priorité par défaut aux mentions de sécurité, puis remettre les arbitrages de valeur et de dépendance après le cadrage de livraison. L'ordre d'arrivée et un libellé de sécurité ne suffisent pas à qualifier les impacts et la priorité.
+- **C — 0 points :** Distribuer le budget également entre les squads afin qu'aucune requirement qualifiée critique ne soit exclue de la première vague. Un budget également distribué ignore la criticité et les dépendances.
 
 **Mapping : Requirements Management — Prioritization / Governance.**
 
