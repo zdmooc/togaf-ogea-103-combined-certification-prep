@@ -12,8 +12,8 @@ A. Artifact  B. Concern  C. Work Package  D. Plateau
 **Q2.** Quelle distinction est correcte ?
 A. Une Viewpoint est la représentation finale  B. Une View est une convention  C. Une View est construite selon une Viewpoint  D. View et Viewpoint sont synonymes
 
-**Q3.** Quelle est la valeur principale de l'Enterprise Architecture ?
-A. Aligner décisions, capacités et transformation  B. Produire un maximum de diagrammes  C. Remplacer la gestion de projet  D. Choisir tous les produits
+**Q3.** Une banque choisit des investissements pour atteindre un nouveau modèle de règlement. Quelle manifestation de l'Enterprise Architecture apporte le plus directement de la valeur à la décision ?
+A. Relier drivers métier, capabilities, contraintes et alternatives d'évolution pour appuyer un arbitrage de transformation.  B. Construire uniquement l'Architecture Roadmap de projets déjà approuvés sans réexaminer les résultats attendus.  C. Vérifier que les composants de la Technology Architecture appartiennent au catalogue des standards, sans analyser les impacts métier.  D. Documenter des vues détaillées de chaque application avant d'identifier les parties prenantes et leurs préoccupations.
 
 **Q4.** Quelle affirmation distingue le mieux Architecture Repository et Enterprise Continuum ?
 A. Le Continuum stocke les fichiers  B. Le Repository classe du générique au spécifique  C. Ils sont identiques  D. Le Repository organise des assets, le Continuum aide à les classifier/contextualiser
@@ -21,8 +21,8 @@ A. Le Continuum stocke les fichiers  B. Le Repository classe du générique au s
 **Q5.** Architecture Capability désigne principalement :
 A. Une compétence individuelle  B. La capacité organisationnelle à pratiquer et gouverner l'architecture  C. Une application  D. Un diagramme
 
-**Q6.** Un Building Block est :
-A. Un planning  B. Une réunion de gouvernance  C. Un élément architectural réutilisable représentant une capacité ou un composant  D. Un stakeholder
+**Q6.** Un modèle décrit le besoin d'un service d'identité fédérée sans imposer de fournisseur ; une solution précise d'IAM est étudiée pour le réaliser. Quelle qualification distingue les deux éléments ?
+A. Le premier est un SBB car il ne contient pas de détail de technologie, et le second un ABB car il est implémentable.  B. Les deux sont des artifacts car un besoin et un produit sont toujours des représentations graphiques.  C. Le premier est un ABB, le second peut être un SBB.  D. Le premier est une Transition Architecture et le second un Architecture Contract.
 
 **Q7.** Quelle distinction est correcte ?
 A. Un Principle guide durablement les décisions ; une Requirement exprime quelque chose à satisfaire  B. Une Requirement est toujours plus générale qu'un Principle  C. Ils sont synonymes  D. Un Principle n'a aucun impact sur l'architecture
@@ -38,8 +38,8 @@ A. Séquencer les projets  B. Préparer Architecture Capability, gouvernance, pr
 **Q10.** Phase A vise principalement à :
 A. Détailler la Technology Architecture  B. Prioriser les work packages  C. Cadrer l'engagement et établir l'Architecture Vision  D. Gouverner l'implémentation
 
-**Q11.** Les capabilities, processus et services métier sont développés en priorité en :
-A. Phase B  B. Phase C Data  C. Phase D  D. Phase F
+**Q11.** En Phase B, la direction veut remplacer une application historique, mais souhaite conserver la capacité métier de validation des paiements. Quel livrable ou résultat faut-il privilégier pour guider les architectures suivantes ?
+A. Une Target Business Architecture distinguant capacités, processus et services métier de l'application actuelle.  B. Un Technology Platform Diagram précisant les versions des serveurs de la Baseline.  C. Un Implementation and Migration Plan définitif détaillant déjà les vagues de remplacement.  D. Une liste de SBB retenus sans lien aux concerns du métier.
 
 **Q12.** Ownership, lifecycle et qualité des données relèvent principalement de :
 A. Phase B  B. Phase E  C. Phase G  D. Phase C Data
@@ -59,8 +59,8 @@ A. Phase D  B. Phase E  C. Phase G  D. Phase F
 **Q17.** Architecture Compliance et gouvernance de la réalisation relèvent principalement de :
 A. Phase F  B. Phase G  C. Phase H  D. Phase A
 
-**Q18.** Décider comment répondre à un changement architectural significatif après déploiement relève de :
-A. Requirements Management uniquement  B. Phase G  C. Phase H  D. Phase C
+**Q18.** Après mise en production, une nouvelle obligation de contrôle introduit un changement pouvant toucher processus métier, données et composants. Quel raisonnement Phase H est correct ?
+A. Réexécuter automatiquement Preliminary jusqu'à H car une nouvelle loi implique un re-architecting.  B. Limiter le changement à Requirements Management et ne jamais modifier une Target approuvée.  C. Évaluer et classifier le changement, puis déterminer les activités ADM à rouvrir selon les impacts et la gouvernance.  D. Traiter systématiquement les nouvelles obligations comme des non-conformités de Phase G sans examiner l'architecture en service.
 
 **Q19.** Requirements Management est :
 A. Transversal à l'ADM  B. Une sous-phase de F  C. Limité à Phase A  D. Exécuté seulement après H
@@ -76,8 +76,8 @@ A. Roadmap et Migration Plan sont identiques  B. Roadmap = planning détaillé u
 
 ## ADM Techniques — Q23 à Q28
 
-**Q23.** Pour identifier influence, intérêt et concerns des acteurs, quelle technique est la plus adaptée ?
-A. Gap Analysis  B. Stakeholder Management  C. Capability-Based Planning  D. Interoperability Analysis
+**Q23.** Les métiers soutiennent une migration, mais Operations et Risk expriment des préoccupations conflictuelles et le comité n'a pas de vue adaptée pour arbitrer. Quelle technique est la plus directement utile ?
+A. Gap Analysis, pour comparer les composants de la Target indépendamment des acteurs.  B. Stakeholder Management, pour expliciter acteurs, concerns, engagements et vues pertinentes avant l'arbitrage.  C. Migration Planning, pour ordonner les lots avant de clarifier leurs propriétaires.  D. Architecture Compliance, pour vérifier une réalisation qui n'existe pas encore.
 
 **Q24.** Quelle technique aide à transformer un problème métier en exigences compréhensibles et vérifiables ?
 A. Business Scenarios  B. Migration Planning  C. Compliance Review  D. Partitioning
@@ -99,8 +99,8 @@ A. Capability-Based Planning  B. Gap Analysis  C. Compliance Review  D. Architec
 **Q29.** Adapter l'ADM au contexte de l'organisation s'appelle :
 A. Partitioning  B. Federation  C. Tailoring  D. Compliance
 
-**Q30.** Quel concept permet de coordonner Enterprise, Segment et Capability Architectures ?
-A. Business Scenario  B. Work Package  C. Governance Log  D. Levels of Architecture
+**Q30.** Un groupe veut une architecture commune des paiements, mais les filiales ont des obligations différentes et un horizon de transformation de trois ans. Quel aspect de l'ADM permet d'ajuster largeur, profondeur, domaines et temps ?
+A. Architecture Compliance, qui définit le périmètre exclusivement après l'implémentation.  B. Architecture Contract, qui fixe à lui seul les quatre domaines et les horizons.  C. Technology Architecture, qui impose le périmètre à partir de la plateforme retenue.  D. Scoping, qui borne le travail d'architecture et les décisions qu'il doit soutenir.
 
 **Q31.** Dans une grande organisation, séparer des espaces d'architecture tout en maintenant cohérence et interfaces correspond à :
 A. Gap Analysis  B. Partitioning  C. Phase H  D. Requirements Management
@@ -113,8 +113,8 @@ A. L'ADM peut être adapté et itéré pour soutenir un delivery incrémental  B
 **Q33.** L'Architecture Board sert principalement à :
 A. Développer le code  B. Arbitrer et gouverner les décisions d'architecture  C. Gérer la paie  D. Exécuter les tests
 
-**Q34.** Un Architecture Contract formalise principalement :
-A. Une représentation graphique  B. Un catalogue  C. Des engagements et responsabilités liés à l'architecture  D. Une Baseline
+**Q34.** Une plateforme est mise en œuvre par trois fournisseurs, avec des critères de conformité et d'acceptation déjà définis. Quel mécanisme décrit au mieux les engagements réciproques utiles à la gouvernance de réalisation ?
+A. Architecture Definition Document, utilisé comme substitut automatique de tout engagement contractuel.  B. Architecture Requirements Specification, suffisante à elle seule pour nommer l'autorité des dérogations.  C. Architecture Contract, convenant responsabilités, obligations et conformité entre acteurs.  D. Standards Information Base, qui remplace le contrôle de la mise en œuvre lorsque les produits sont standards.
 
 **Q35.** Une Architecture Compliance Review vise à :
 A. Évaluer la conformité d'une implémentation à l'architecture approuvée  B. Définir la Vision  C. Remplacer Requirements Management  D. Classifier les assets
@@ -127,8 +127,8 @@ A. Toujours un diagramme  B. Un composant exécutable  C. Une Viewpoint  D. Un p
 **Q37.** Un Artifact est :
 A. Une équipe  B. Une représentation architecturale telle qu'un catalog, matrix ou diagram  C. Une phase ADM  D. Un contrat fournisseur
 
-**Q38.** Quelle distinction est correcte ?
-A. ABB et SBB sont identiques  B. Un ABB est toujours un produit précis  C. ABB décrit le besoin architectural ; SBB décrit une réalisation plus concrète  D. SBB est plus abstrait qu'ABB
+**Q38.** Un architecte compare un besoin générique de service de messagerie et une technologie précise sélectionnée pour le réaliser. Quelle affirmation sur le Content Framework est correcte ?
+A. L'ABB est toujours l'application déployée et le SBB sa représentation dans un diagramme.  B. La différence ABB/SBB se limite au statut Draft/Approved du livrable.  C. Un ABB représente le besoin/capacité architectural et un SBB le moyen de solution envisagé.  D. Les deux sont des viewpoints car ils correspondent à des angles de représentation.
 
 **Q39.** Quelle affirmation est correcte ?
 A. Une View répond à des concerns selon une Viewpoint  B. Une Viewpoint est produite après la View  C. Une View est un Building Block  D. View et Deliverable sont synonymes
