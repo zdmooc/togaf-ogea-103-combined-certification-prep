@@ -44,7 +44,7 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40, scoring 5/3/1/0, passage simu
 37. **A** — un diagramme applicatif est un Artifact.
 38. **D** — Le deliverable rassemble des représentations et autres éléments nécessaires à l'approbation. [X2202, objectifs du domaine concerné].
 39. **C** — ABB plus architectural, SBB plus solution/réalisation.
-40. **B** — Catalog/Matrix/Diagram sont des formes d'Artifacts.
+40. **B** — L'Architecture Content distingue des forms de représentation, pas des étapes de migration.
 
 # Part 2 — corrections détaillées
 
