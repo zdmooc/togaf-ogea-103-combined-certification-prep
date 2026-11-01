@@ -117,7 +117,7 @@ A. Artifact — représentation individuelle de type catalogue ou diagramme  B. 
 **Q37.** Dans une plateforme de paiements instantanés, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Une Application Communication Diagram est un exemple de :
 A. Artifact — représentation telle que Catalog, Matrix ou Diagram  B. Deliverable — produit de travail formel agrégant des représentations  C. SBB — composant concret réalisant des fonctionnalités d'architecture  D. Architecture Contract — obligations de mise en œuvre entre parties
 
-**Q38.** Un dossier formalise plusieurs diagrammes et matrices nécessaires à une décision de comité. Quelle distinction est correcte ?
+**Q38.** Le Board examine un Architecture Definition Document réunissant matrices Application/Data, catalogues et diagrammes. Quelle qualification du document est correcte ?
 A. Chaque diagramme est nécessairement un SBB correspondant à un service métier.  B. Un deliverable est synonyme de building block dès qu'il est archivé.  C. Un viewpoint constitue le produit de travail contractuellement revu en lieu et place des artifacts.  D. Le dossier approuvable est un deliverable pouvant contenir plusieurs artifacts.
 
 **Q39.** Dans une plateforme de paiements instantanés, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Quelle relation est juste entre un ABB et un SBB ?
