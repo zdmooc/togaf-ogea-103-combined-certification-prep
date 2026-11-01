@@ -85,27 +85,15 @@ check(len(outcomes) == 131 and len(set(outcomes)) == 131, f'X2202 outcomes: {len
 for path in re.findall(r'\[Cours\]\(\.\./([^)]*)\)', trace):
     check((root / path).is_file(), f'X2202 references missing source file: {path}')
 
-# Ensure that every assessable X2202 objective points to an existing precise item.
+# Ensure every assessable X2202 objective points to an existing precise item.
 foundation_drills = (root / '09-foundation-question-bank' / '10-x2202-targeted-drills.md').read_text(encoding='utf-8')
 practitioner_cases = (root / '10-practitioner-scenarios' / '10-x2202-targeted-cases.md').read_text(encoding='utf-8')
 foundation_targeted = set(re.findall(r'^## (XF\d\d)\b', foundation_drills, re.M))
 practitioner_targeted = set(re.findall(r'^## (XP\d\d)\b', practitioner_cases, re.M))
 check(foundation_targeted == {'XF01', 'XF02'}, f'Unexpected Foundation targeted drills: {foundation_targeted}')
 check(practitioner_targeted == {'XP01', 'XP02', 'XP03', 'XP04'}, f'Unexpected Practitioner targeted cases: {practitioner_targeted}')
-for row in re.findall(r'^\| L[12]\.\d+\.\d+ \|.*
-advanced_p = (root / '10-practitioner-scenarios' / '09-advanced-multi-constraint-scenarios.md').read_text(encoding='utf-8')
-check(len(re.findall(r'^## F\d\d\b', advanced_f, re.M)) == 24, 'Advanced Foundation: 24 expected')
-check(len(re.findall(r'^## A\d\d\b', advanced_p, re.M)) == 8, 'Advanced Practitioner: 8 expected')
 
-print('Foundation', len(fids), Counter(fanswers))
-print('Practitioner', len(pids), Counter(pbest))
-print('6 Combined mock exams checked')
-if errors:
-    for error in errors:
-        print('FAIL', error, file=sys.stderr)
-    sys.exit(1)
-print('PASS static structure only; a human semantic and X2202 audit remains necessary')
-, trace, re.M):
+for row in re.findall(r'^\| L[12]\.\d+\.\d+ \|[^\n]+$', trace, re.M):
     cells = [c.strip() for c in row.split('|')[1:-1]]
     if len(cells) != 5:
         check(False, f'Trace malformed: {row}')
@@ -115,7 +103,7 @@ print('PASS static structure only; a human semantic and X2202 audit remains nece
         check('Bloom None' in exercises, 'L1.8.1 must retain its official None/untested status')
         continue
     check('Candidat précis' in review, f'{objective}: not associated with a precise candidate')
-    refs = re.findall(r'\b(XF\d\d|XP\d\d|[QSF A]\d{2,3})\b', exercises.replace(' ', ''))
+    refs = re.findall(r'\b(XF\d\d|XP\d\d|[QSFA]\d{2,3})\b', exercises)
     check(len(refs) > 0, f'{objective}: no specific question or scenario')
     for reference in refs:
         if reference.startswith('XF'):
@@ -139,8 +127,9 @@ check(len(re.findall(r'^## A\d\d\b', advanced_p, re.M)) == 8, 'Advanced Practiti
 print('Foundation', len(fids), Counter(fanswers))
 print('Practitioner', len(pids), Counter(pbest))
 print('6 Combined mock exams checked')
+print('X2202: 130 candidate assessments + 1 non-assessed objective')
 if errors:
     for error in errors:
-        print('FAIL', error, file=sys.stderr)
+        print('FAIL:', error, file=sys.stderr)
     sys.exit(1)
-print('PASS static structure only; a human semantic and X2202 audit remains necessary')
+print('PASS: static integrity only; independent semantic review still required')
