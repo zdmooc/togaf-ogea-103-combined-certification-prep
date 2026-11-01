@@ -49,8 +49,8 @@ D. Gérer les exceptions
 
 ## Q171 — Business Scenario components
 Quel élément est typiquement utile dans un Business Scenario ?
-A. Uniquement le nom d'un produit
-B. Uniquement un diagramme réseau
+A. La liste des solutions candidates, même sans acteurs ni résultat métier défini
+B. Un diagramme technique seul, sans environnement, acteurs ni outcomes du scénario
 C. Acteurs, environnement, problème, résultat attendu et requirements
 D. Une matrice de comparaison des standards technologiques de la cible
 **Réponse : C.** Le scénario décrit suffisamment le contexte pour dériver les requirements. A/B/D sont insuffisants.
@@ -118,7 +118,7 @@ D. Migration Planning décrit la Baseline
 Un gap métier provoque un besoin data et applicatif. Que faut-il faire ?
 A. Traiter chaque gap comme totalement isolé
 B. Tracer les dépendances entre gaps de domaines
-C. Ignorer le gap métier
+C. Documenter les impacts Data et Application sans tracer le gap métier qui les motive
 D. Passer directement à G
 **Réponse : B.** Les gaps sont souvent interdépendants et doivent être consolidés.
 **Mapping : ADM Techniques — Gap Analysis.**
@@ -134,9 +134,9 @@ D. La définition du scope
 
 ## Q180 — Levels of interoperability
 L'interoperability peut concerner :
-A. Uniquement le réseau
-B. Uniquement les bases de données
-C. Uniquement les contrats
+A. La seule connectivité réseau, sans contrats d'information ni coordination métier
+B. Le seul modèle de bases de données, indépendamment des services échangés
+C. Les seuls Architecture Contracts entre fournisseurs, sans échanges d'information
 D. Business, information, applications et technologies
 **Réponse : D.** Elle est multi-dimensionnelle. A/B/C sont trop étroits.
 **Mapping : ADM Techniques — Interoperability.**
@@ -144,7 +144,7 @@ D. Business, information, applications et technologies
 ## Q181 — Semantic interoperability
 Deux systèmes échangent le même champ mais avec des significations différentes. C'est surtout un problème :
 A. Sémantique/informationnel
-B. Uniquement physique
+B. Un problème de topologie réseau même lorsque la connectivité fonctionne correctement
 C. De stakeholder map
 D. De Phase H
 **Réponse : A.** L'échange technique fonctionne mais le sens n'est pas partagé.
@@ -190,7 +190,7 @@ D. ABB/SBB
 
 ## Q186 — Readiness action
 Une faible readiness doit conduire à :
-A. Ignorer le problème
+A. Déployer la Target sans adapter la capacité organisationnelle ou le modèle d'exploitation
 B. Prévoir des actions de changement, compétences et gouvernance dans la roadmap
 C. Annuler automatiquement la Target
 D. Supprimer les stakeholders
@@ -255,7 +255,7 @@ D. Les capacités que l'entreprise doit posséder pour atteindre ses objectifs
 ## Q193 — Capability vs project
 Pourquoi une capability n'est-elle pas un projet ?
 A. Une capability est une aptitude durable ; un projet est un moyen temporaire de changement
-B. Ils sont synonymes
+B. Capability et Project sont des objets de même durée, différant seulement par leur budget
 C. Une capability correspond à une version logicielle précise
 D. Un projet est un viewpoint
 **Réponse : A.** La distinction évite de confondre résultat durable et véhicule de transformation.
@@ -401,8 +401,8 @@ D. Migration Planning Techniques
 Peut-on utiliser plusieurs techniques sur un même engagement ?
 A. Oui, elles répondent à des problèmes complémentaires
 B. Non, une seule technique est autorisée
-C. Seulement en Phase H
-D. Seulement si aucun stakeholder n'existe
+C. Combiner les techniques uniquement lorsque l'architecture est déjà en Phase H
+D. N'utiliser plusieurs techniques qu'en l'absence de stakeholders identifiables
 **Réponse : A.** Un engagement réel combine souvent stakeholder, gap, risk, readiness, capability et migration planning.
 **Mapping : ADM Techniques — Integration.**
 
