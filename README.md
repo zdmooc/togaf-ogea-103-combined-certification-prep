@@ -30,7 +30,7 @@ Couvrir ensemble :
 - Examens blancs : les 48 scénarios Practitioner des six examens ont été approfondis, ainsi que 240 QCM Foundation des six mocks retravaillés, dont 48 réécrits en profondeur ; tous les sujets conservent leur format 40 + 8.
 - Validation automatique : `.github/workflows/validate-togaf-banks.yml` contrôle les structures, clés et barèmes mais ne juge pas l'exactitude pédagogique.
 - Leçons complémentaires : `01-togaf-foundations/10-x2202-foundation-deepening.md` et `07-practitioner/13-x2202-practitioner-deepening.md`.
-- Traçabilité : `14-official-sources/06-x2202-learning-outcome-traceability.md` recense 131 objectifs individuels, avec cours et plages d'exercices candidats encore à valider.
+- Traçabilité : `14-official-sources/06-x2202-learning-outcome-traceability.md` recense **131 objectifs**, dont **130 avec exercice candidat précisément identifié** et **1 objectif sans examen distinct (Bloom None)**. Six nouveaux exercices ciblés : `09-foundation-question-bank/10-x2202-targeted-drills.md` et `10-practitioner-scenarios/10-x2202-targeted-cases.md`. Les associations n'ont pas toutes été relues selon leur niveau Bloom.
 - Portes de sortie : `14-official-sources/05-x2202-remediation-register.md`. **Aucune équivalence avec la difficulté officielle n'est démontrée.**
 
 ## Structure du dépôt
