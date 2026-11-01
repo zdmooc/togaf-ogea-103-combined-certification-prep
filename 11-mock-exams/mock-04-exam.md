@@ -82,7 +82,7 @@ A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B
 A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation de la préparation organisationnelle
 
 **Q26.** Une filiale dispose des plateformes cibles mais ne possède ni équipe d'astreinte ni formation d'exploitation. Quelle évaluation identifie ce manque organisationnel avant la migration ?
-A. Risk Management — identification, analyse et traitement des risques  B. Gap Analysis — différences entre les états existant et cible  C. Readiness Assessment — facteurs de compétences et capacité d'adoption  D. Compliance Review — vérification des exigences d'une solution réalisée
+A. Business Transformation Readiness Assessment — évaluation des compétences, responsabilités et capacités organisationnelles  B. Gap Analysis — différences entre les états existant et cible  C. Risk Management — identification, analyse et traitement des risques  D. Compliance Review — vérification des exigences d'une solution réalisée
 
 **Q27.** Dans un opérateur de transport, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Pour organiser la transformation autour de capabilities métier :
 A. Migration Planning — ordre de lots déjà définis sans lien explicite aux capacités  B. Gap Analysis Technology — écarts de plateformes au lieu d'aptitudes métier  C. Capability-Based Planning — planification par capacités métier  D. Compliance Review — contrôle des réalisations, pas des investissements
