@@ -7,42 +7,42 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40, scoring 5/3/1/0, passage simu
 
 1. **D** — Concern = préoccupation d'un stakeholder.
 2. **A** — Stakeholder → Concern → Viewpoint → View.
-3. **B** — La capability décrit ce que l'entreprise sait faire, pas le moyen contingent de le réaliser. [X2202, objectifs du domaine concerné].
+3. **B** — La capability décrit ce que l'entreprise sait faire, pas le moyen contingent de le réaliser.
 4. **C** — Baseline = état actuel pertinent.
 5. **D** — Principle = règle directrice durable.
-6. **A** — Le métamodèle organise le vocabulaire et les relations d'architecture. [X2202, objectifs du domaine concerné].
+6. **A** — Le métamodèle organise le vocabulaire et les relations d'architecture.
 7. **B** — Repository contient standards, references, decisions et autres assets.
 8. **C** — Transition Architecture = état intermédiaire.
 9. **C** — Preliminary établit gouvernance/capability.
 10. **D** — Statement of Architecture Work est associé à Phase A.
-11. **B** — La cible métier fait apparaître les capabilities et gaps avant le choix ou la réutilisation des composants. [X2202, objectifs du domaine concerné].
+11. **B** — La cible métier fait apparaître les capabilities et gaps avant le choix ou la réutilisation des composants.
 12. **A** — entités et data ownership relèvent de C Data.
 13. **C** — services applicatifs = C Application.
 14. **B** — services technologiques = Phase D.
 15. **D** — work packages/transitions candidats = Phase E.
 16. **A** — priorisation valeur/risque/dépendances = F.
 17. **C** — écart pendant implémentation = G.
-18. **B** — Phase H surveille l'adéquation de l'architecture livrée aux besoins évolutifs. [X2202, objectifs du domaine concerné].
+18. **B** — Phase H surveille l'adéquation de l'architecture livrée aux besoins évolutifs.
 19. **D** — Requirements Management intègre les nouvelles requirements.
 20. **A** — l'ADM permet l'itération.
 21. **C** — les gaps alimentent changements/work packages.
 22. **B** — Roadmap = trajectoire structurée.
-23. **A** — La readiness couvre capacité organisationnelle, funding, leadership, ressources et exploitation. [X2202, objectifs du domaine concerné].
+23. **A** — La readiness couvre capacité organisationnelle, funding, leadership, ressources et exploitation.
 24. **D** — Business Scenarios clarifient le besoin.
 25. **B** — Gap Analysis compare Baseline/Target.
 26. **C** — Transformation Readiness traite adoption et capacité de changement.
 27. **A** — Capability-Based Planning.
 28. **D** — Migration Planning Techniques.
 29. **B** — Tailoring adapte artifacts et profondeur.
-30. **C** — L'ADM autorise des itérations et du travail concurrent lorsque les décisions restent gouvernées. [X2202, objectifs du domaine concerné].
+30. **C** — L'ADM autorise des itérations et du travail concurrent lorsque les décisions restent gouvernées.
 31. **A** — Levels of Architecture permettent plusieurs scopes liés.
 32. **D** — federation = partitions + interfaces + gouvernance cohérente.
 33. **A** — Architecture Board arbitre les exceptions.
-34. **D** — La conformité d'architecture ne se réduit jamais à l'emploi de produits autorisés. [X2202, objectifs du domaine concerné].
+34. **D** — La conformité d'architecture ne se réduit jamais à l'emploi de produits autorisés.
 35. **C** — Compliance Review contrôle l'alignement.
 36. **B** — Deliverable = produit formel.
 37. **A** — un diagramme applicatif est un Artifact.
-38. **D** — Le deliverable rassemble des représentations et autres éléments nécessaires à l'approbation. [X2202, objectifs du domaine concerné].
+38. **D** — Le deliverable rassemble des représentations et autres éléments nécessaires à l'approbation.
 39. **C** — ABB plus architectural, SBB plus solution/réalisation.
 40. **B** — L'Architecture Content distingue des forms de représentation, pas des étapes de migration.
 

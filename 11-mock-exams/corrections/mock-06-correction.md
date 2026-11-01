@@ -7,42 +7,42 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, gradient 5/3/1/0, réussit
 
 1. **C** — l'EA aligne structure, capacités et transformation.
 2. **A** — stakeholder = partie intéressée/affectée.
-3. **D** — Le Continuum est un mécanisme de classification ; le Repository organise et conserve les ressources. [X2202, domaine correspondant].
+3. **D** — Le Continuum est un mécanisme de classification ; le Repository organise et conserve les ressources.
 4. **B** — Concern = préoccupation stakeholder.
 5. **C** — Principle guide durablement les décisions.
-6. **A** — Le Governance Log permet de tracer décisions de conformité et exceptions. [X2202, domaine correspondant].
+6. **A** — Le Governance Log permet de tracer décisions de conformité et exceptions.
 7. **D** — Architecture Capability = rôles, compétences, gouvernance, processus et moyens.
 8. **C** — Baseline → Target → Gap.
 9. **A** — Preliminary prépare la capacité et le cadre.
 10. **B** — Phase A établit Vision et alignement initial.
-11. **C** — La Phase B traduit la Vision dans un modèle de capacités et processus métier cible. [X2202, domaine correspondant].
+11. **C** — La Phase B traduit la Vision dans un modèle de capacités et processus métier cible.
 12. **D** — data ownership/flux = Phase C Data.
 13. **A** — services applicatifs = C Application.
 14. **B** — plateformes/services technologiques = D.
 15. **C** — options/work packages candidats = E.
 16. **D** — priorisation/séquencement = F.
 17. **A** — conformité de l'implémentation = G.
-18. **C** — La Phase H surveille la pertinence de l'architecture et gouverne son adaptation. [X2202, domaine correspondant].
+18. **C** — La Phase H surveille la pertinence de l'architecture et gouverne son adaptation.
 19. **D** — Requirements Management interagit avec toutes les phases.
 20. **B** — l'itération permet de revisiter le travail lorsque nécessaire.
 21. **C** — les gaps peuvent exister dans les quatre domaines.
 22. **A** — Roadmap montre la trajectoire vers la cible.
-23. **A** — L'interopérabilité inclut processus, signification de l'information et moyens techniques. [X2202, domaine correspondant].
+23. **A** — L'interopérabilité inclut processus, signification de l'information et moyens techniques.
 24. **C** — Business Scenarios.
 25. **B** — Gap Analysis.
 26. **D** — Transformation Readiness.
 27. **A** — Risk Management.
 28. **B** — Migration Planning Techniques.
 29. **C** — Tailoring = adaptation consciente de l'ADM.
-30. **A** — TOGAF permet itération et tailoring sans perdre la traçabilité ni les autorités de décision. [X2202, domaine correspondant].
+30. **A** — TOGAF permet itération et tailoring sans perdre la traçabilité ni les autorités de décision.
 31. **B** — Partitioning = espaces, responsabilités, interfaces.
 32. **D** — ADM peut être itératif/tailorable avec Agile.
 33. **C** — Architecture Board = autorité de gouvernance.
-34. **A** — Le Contract définit des engagements entre les parties et peut guider les Compliance Reviews. [X2202, domaine correspondant].
+34. **A** — Le Contract définit des engagements entre les parties et peut guider les Compliance Reviews.
 35. **B** — un écart doit être analysé et gouverné.
 36. **D** — Deliverable = produit formel contenant potentiellement plusieurs artifacts.
 37. **A** — Artifact = Catalog/Matrix/Diagram, etc.
-38. **B** — Le Content Framework articule livrables, représentations et éléments d'architecture. [X2202, domaine correspondant].
+38. **B** — Le Content Framework articule livrables, représentations et éléments d'architecture.
 39. **C** — SBB correspond à une réalisation plus spécifique.
 40. **D** — Content Metamodel définit types d'objets et relations.
 

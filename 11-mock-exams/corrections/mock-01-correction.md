@@ -8,44 +8,46 @@
 
 # Part 1 — Key et explications
 
+Les références détaillées par objectif figurent dans `14-official-sources/06-x2202-learning-outcome-traceability.md`. Les commentaires ci-dessous ne prétendent pas être des citations précises du syllabus.
+
 1. **B** — Concern = préoccupation d'un stakeholder.
 2. **C** — la View est produite selon une Viewpoint.
-3. **A** — L'EA oriente des choix de changement cohérents et non seulement la documentation ou la conformité de produits. [X2202, objectifs du domaine concerné].
+3. **A** — L'EA oriente des choix de changement cohérents et non seulement la documentation ou la conformité de produits.
 4. **D** — Repository organise/conserve ; Continuum classe/contextualise.
 5. **B** — Architecture Capability = capacité organisationnelle à pratiquer l'EA.
-6. **C** — Un ABB décrit des caractéristiques ou capacités architecturales sans figer l'implémentation ; un SBB représente une solution. [X2202, objectifs du domaine concerné].
+6. **C** — Un ABB décrit des caractéristiques ou capacités architecturales sans figer l'implémentation ; un SBB représente une solution.
 7. **A** — Un principe oriente durablement ; une requirement formule une condition vérifiable.
 8. **D** — Transition Architecture = état intermédiaire cohérent.
 9. **B** — Preliminary prépare capability, gouvernance, principles et tailoring.
 10. **C** — Phase A cadre le travail et l'Architecture Vision.
-11. **A** — La Phase B établit les besoins et représentations métier indépendamment du produit actuellement déployé. [X2202, objectifs du domaine concerné].
+11. **A** — La Phase B établit les besoins et représentations métier indépendamment du produit actuellement déployé.
 12. **D** — Phase C Data traite ownership, lifecycle et qualité.
 13. **B** — Phase C Application traite services et interactions applicatives.
 14. **C** — Phase D = Technology Architecture.
 15. **A** — Phase E structure options, work packages et transitions.
 16. **D** — Phase F priorise et séquence la migration.
 17. **B** — Phase G gouverne l'implémentation.
-18. **C** — La Phase H classe le changement selon son ampleur ; la réponse peut être simplification, incremental ou re-architecting. [X2202, objectifs du domaine concerné].
+18. **C** — La Phase H classe le changement selon son ampleur ; la réponse peut être simplification, incremental ou re-architecting.
 19. **A** — Requirements Management est transversal.
 20. **B** — Gap Analysis compare Baseline et Target.
 21. **C** — l'ADM est itératif et tailorable.
 22. **D** — Roadmap = trajectoire ; Migration Plan = séquencement/priorisation détaillés.
-23. **B** — Le Stakeholder Management éclaire la décision en associant concerns, viewpoints et autorités appropriées. [X2202, objectifs du domaine concerné].
+23. **B** — Le Stakeholder Management éclaire la décision en associant concerns, viewpoints et autorités appropriées.
 24. **A** — Business Scenarios relient problème métier et requirements.
 25. **D** — Gap Analysis identifie create/change/remove entre Baseline et Target.
 26. **C** — Transformation Readiness évalue capacité d'adoption.
 27. **B** — Risk Management traite incertitude, impact et réponses.
 28. **A** — Capability-Based Planning organise le changement autour des capabilities.
 29. **C** — Tailoring adapte l'ADM au contexte.
-30. **D** — Le scoping utilise breadth, depth, architecture domains et time period pour fixer un périmètre proportionné. [X2202, objectifs du domaine concerné].
+30. **D** — Le scoping utilise breadth, depth, architecture domains et time period pour fixer un périmètre proportionné.
 31. **B** — Partitioning organise espaces, responsabilités et interfaces.
 32. **A** — TOGAF peut être adapté à Agile et au delivery incrémental.
 33. **B** — Architecture Board = gouvernance/arbitrage.
-34. **C** — Le Contract lie les acteurs à des engagements, sans remplacer les descriptions et exigences d'architecture. [X2202, objectifs du domaine concerné].
+34. **C** — Le Contract lie les acteurs à des engagements, sans remplacer les descriptions et exigences d'architecture.
 35. **A** — Compliance Review vérifie l'alignement de l'implémentation.
 36. **D** — Deliverable = produit formel pouvant contenir des artifacts.
 37. **B** — Artifact = représentation du contenu architectural.
-38. **C** — Le Content Framework distingue représentation, exigences et building blocks selon leur niveau d'abstraction. [X2202, objectifs du domaine concerné].
+38. **C** — Le Content Framework distingue représentation, exigences et building blocks selon leur niveau d'abstraction.
 39. **A** — la View répond aux concerns selon une Viewpoint.
 40. **D** — Catalog liste, Matrix relie, Diagram visualise.
 

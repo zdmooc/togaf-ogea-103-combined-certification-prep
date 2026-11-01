@@ -273,6 +273,30 @@ for n in range(1, 7):
         check(phrase not in correction,
               f"Mock 0{n}: generic 3/1/0 explanation has returned: {phrase}")
 
+# Targeted non-regression tests from the 240 Foundation mock editorial audit.
+mock_foundation_checks = {
+    1: {7: ("A", "niveau de disponibilité"), 33: ("B", "Architecture Board"), 35: ("A", "Architecture Compliance Review")},
+    2: {22: ("B", "Architecture Roadmap")},
+    3: {35: ("C", "Architecture Compliance Review")},
+    4: {26: ("A", "Business Transformation Readiness Assessment")},
+    5: {21: ("D", "Gap Analysis"), 22: ("C", "Architecture Roadmap"), 33: ("B", "Architecture Board")},
+    6: {5: ("C", "Architecture Principle"), 8: ("C", "Gap =")},
+}
+for n, targeted in mock_foundation_checks.items():
+    question_text = read(f"11-mock-exams/mock-0{n}-exam.md").split("# Part 2")[0]
+    correction_text = read(f"11-mock-exams/corrections/mock-0{n}-correction.md").split("# Part 2")[0]
+    questions = re.split(r"(?=^\*\*Q\d+\.\*\*)", question_text, flags=re.M)
+    for number, (letter, expected) in targeted.items():
+        q = next((item for item in questions if item.startswith(f"**Q{number}.**")), "")
+        choice_match = re.search(rf"(?:^|  ){letter}\. (.*?)(?=  [ABCD]\. |$)", q, re.M)
+        check(bool(choice_match and expected in choice_match[1]),
+              f"Mock 0{n} Foundation Q{number}: expected {expected} in option {letter}")
+        check(bool(re.search(rf"^{number}\. \*\*{letter}\*\* —", correction_text, re.M)),
+              f"Mock 0{n} Foundation Q{number}: corrected letter {letter} has regressed")
+    check("[X2202, domaine correspondant]" not in correction_text and
+          "[X2202, objectifs du domaine concerné]" not in correction_text,
+          f"Mock 0{n}: unverifiable generic X2202 placeholder citation")
+
 print(f"Reviewed structurally: {count} S-cases, 48 mock cases, 32 XP targeted, 2 XF, 16 deliverable questions")
 if failures:
     for failure in failures:
