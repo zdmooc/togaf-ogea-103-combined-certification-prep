@@ -24,7 +24,7 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 17. **D** — G gouverne implémentation et conformité.
 18. **B** — La réponse est décidée par Architecture Change Management en tenant compte de l'ampleur. [X2202, objectifs du domaine concerné].
 19. **D** — Requirements Management est transversal.
-20. **A** — l'ADM autorise l'itération.
+20. **A** — L'ADM est itératif ; les impacts sur les domaines peuvent provoquer des retours contrôlés.
 21. **C** — Gap = différence Baseline/Target.
 22. **B** — Roadmap = trajectoire de transformation.
 23. **D** — Le Business Scenario traduit un besoin ou opportunité en contexte exploitable pour les exigences. [X2202, objectifs du domaine concerné].
@@ -44,7 +44,7 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 37. **C** — Artifact = représentation architecturale.
 38. **A** — La matrix est destinée aux relations entre types d'entités ; le catalog liste et le diagram représente graphiquement. [X2202, objectifs du domaine concerné].
 39. **D** — ABB abstrait, SBB concrétise davantage.
-40. **B** — Catalog liste, Matrix relie, Diagram visualise.
+40. **B** — Les formes d'artifacts sont Catalog, Matrix et Diagram.
 
 # Part 2 — correction approfondie
 
