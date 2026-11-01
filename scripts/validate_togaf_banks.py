@@ -175,11 +175,10 @@ for n in range(1, 7):
             check(False, f'Mock {n} has missing Foundation answer key')
             continue
         qid = int(header[1])
-        opts = dict(re.findall(r'(?:^|\n| {2})([ABCD])\.\s+([^A-D\n]+?)(?=\s{2}[ABCD]\.\s+|\n|$)', block))
-        # The last item is parsed separately to avoid a shorter/longer terminal capture.
+        options_line = next((line for line in block.splitlines() if line.startswith('A. ')), '')
+        opts = dict(re.findall(r'(?:^| {2})([ABCD])\.\s+(.+?)(?= {2}[ABCD]\.\s+|$)', options_line))
         if len(opts) != 4:
-            segments = re.split(r'(?=(?:^|\n| {2})[ABCD]\.\s+)', block)
-            check(False, f'Mock {n} Q{qid}: failed to parse options for length analysis')
+            check(False, f'Mock {n} Q{qid}: failed to parse all four options for length analysis')
             continue
         lengths = {l: len(v.strip()) for l, v in opts.items()}
         correct_len = lengths[keys[qid]]
