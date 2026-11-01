@@ -25,11 +25,12 @@ Couvrir ensemble :
 
 ## Compléments issus de l'audit du 1er novembre 2026
 
-- Banque Foundation : 300 bonnes réponses rééquilibrées (75 A/B/C/D), 53 distracteurs renforcés, plus 24 QCM complémentaires dans `09-foundation-question-bank/09-advanced-drills.md`.
+- Banque Foundation : 300 bonnes réponses rééquilibrées (75 A/B/C/D), 133 distracteurs renforcés (53 + 80), plus 24 QCM complémentaires dans `09-foundation-question-bank/09-advanced-drills.md`.
 - Banque Practitioner : 60 scénarios enrichis et réécrits avec contexte, quatre options argumentées et 15 meilleures réponses par lettre, plus 8 cas longs avec corrections dans `10-practitioner-scenarios/09-advanced-multi-constraint-scenarios.md`.
-- Examens blancs : les 48 scénarios Practitioner des six examens ont été approfondis, ainsi que 48 QCM Foundation supplémentaires ; tous les sujets conservent leur format 40 + 8.
+- Examens blancs : les 48 scénarios Practitioner des six examens ont été approfondis, ainsi que 240 QCM Foundation des six mocks retravaillés, dont 48 réécrits en profondeur ; tous les sujets conservent leur format 40 + 8.
 - Validation automatique : `.github/workflows/validate-togaf-banks.yml` contrôle les structures, clés et barèmes mais ne juge pas l'exactitude pédagogique.
 - Leçons complémentaires : `01-togaf-foundations/10-x2202-foundation-deepening.md` et `07-practitioner/13-x2202-practitioner-deepening.md`.
+- Traçabilité : `14-official-sources/06-x2202-learning-outcome-traceability.md` recense 131 objectifs individuels, avec cours et plages d'exercices candidats encore à valider.
 - Portes de sortie : `14-official-sources/05-x2202-remediation-register.md`. **Aucune équivalence avec la difficulté officielle n'est démontrée.**
 
 ## Structure du dépôt
