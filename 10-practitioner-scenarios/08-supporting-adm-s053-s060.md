@@ -35,15 +35,15 @@ Quelle action est la meilleure ?
 A. Conserver le nom des produits comme unique entrée du plan d'implémentation et traiter les besoins métier dans les fiches projets après financement.
 B. Identifier d’abord les différences à conserver, supprimer, modifier ou créer ; utiliser ensuite ces gaps comme entrée des options de solution et work packages.
 C. Conserver les produits candidats dans une colonne de solutions potentielles tout en distinguant les gaps architecturaux eux-mêmes.
-D. Reformuler les gaps principaux en besoins indépendants des produits et garder les fournisseurs comme options candidates, puis affiner les dépendances.
+D. Classer les applications candidates en familles de produits afin d'orienter l'appel d'offres, puis déduire les gaps de leurs principales fonctionnalités sans comparer d'abord Baseline et Target.
 **Scoring : A=0, B=5, C=3, D=1.**
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Identifier d’abord les différences à conserver, supprimer, modifier ou créer ; utiliser ensuite ces gaps comme entrée des options de solution et work packages. Les gaps doivent être établis avant de choisir les solutions.
-- **C — 3 points :** Conserver les produits candidats dans une colonne de solutions potentielles tout en distinguant les gaps architecturaux eux-mêmes. Un benchmark aide à comparer mais ne remplace pas les gaps.
-- **D — 1 point :** Reformuler les gaps principaux en besoins indépendants des produits et garder les fournisseurs comme options candidates, puis affiner les dépendances. Une différence de plateforme ne résume pas le gap métier.
-- **A — 0 point :** Conserver le nom des produits comme unique entrée du plan d'implémentation et traiter les besoins métier dans les fiches projets après financement. Dériver les gaps du produit choisi rend la méthode circulaire.
+- **B — 5 points :** Identifier d’abord les différences à conserver, supprimer, modifier ou créer ; utiliser ensuite ces gaps comme entrée des options de solution et work packages. Comparer Baseline et Target détermine les changements à traiter avant de grouper les solutions candidates.
+- **C — 3 points :** Conserver les produits candidats dans une colonne de solutions potentielles tout en distinguant les gaps architecturaux eux-mêmes. Distinguer les gaps des produits candidats est utile, mais il reste à identifier leurs dépendances.
+- **D — 1 points :** Classer les applications candidates en familles de produits afin d'orienter l'appel d'offres, puis déduire les gaps de leurs principales fonctionnalités sans comparer d'abord Baseline et Target. Le catalogue de produits peut orienter le marché mais ne permet pas de déduire les écarts métier de référence.
+- **A — 0 points :** Conserver le nom des produits comme unique entrée du plan d'implémentation et traiter les besoins métier dans les fiches projets après financement. Partir du portefeuille commercial sans identifier les écarts architecturaux inverse le raisonnement.
 
 **Mapping : Supporting ADM Work — Gap Analysis.**
 
@@ -57,7 +57,7 @@ La Target est techniquement faisable. Pourtant, aucune équipe ne sait exploiter
 La transformation doit couvrir plusieurs équipes qui exploitent aujourd'hui des applications traditionnelles. La nouvelle plateforme exige des rotations d'astreinte et un modèle de facturation nouveau. Le sponsor estime la faisabilité technique acquise, mais les managers d'exploitation signalent une dépendance forte à un intégrateur extérieur. Le comité demande des actions préparatoires, des coûts et une estimation des risques avant le lancement des waves.
 
 Quelle action est la meilleure ?
-A. Évaluer d'abord les compétences opérationnelles et contractualiser le support critique, puis compléter l'analyse globale de readiness avant de figer les lots.
+A. Faire prendre en charge le support par un fournisseur en ajoutant une courte formation technique, puis présumer la capacité d'adoption sans évaluer les processus et responsabilités d'exploitation.
 B. Conserver le calendrier et engager une formation générique pendant les premiers mois de production, sans revoir les responsabilités de support.
 C. Utiliser une Business Transformation Readiness Assessment pour identifier les facteurs de readiness et intégrer les actions nécessaires à la transformation.
 D. Conduire une évaluation limitée des compétences et du modèle opérationnel avec les responsables de plateforme, puis enrichir l'évaluation globale de readiness.
@@ -65,10 +65,10 @@ D. Conduire une évaluation limitée des compétences et du modèle opérationne
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Utiliser une Business Transformation Readiness Assessment pour identifier les facteurs de readiness et intégrer les actions nécessaires à la transformation. Readiness couvre compétences, organisation, financement et capacité d'adoption.
-- **D — 3 points :** Conduire une évaluation limitée des compétences et du modèle opérationnel avec les responsables de plateforme, puis enrichir l'évaluation globale de readiness. Une estimation technique ne couvre pas les équipes de support.
-- **A — 1 point :** Évaluer d'abord les compétences opérationnelles et contractualiser le support critique, puis compléter l'analyse globale de readiness avant de figer les lots. La formation isolée ne suffit pas à garantir l'exploitation.
-- **B — 0 point :** Conserver le calendrier et engager une formation générique pendant les premiers mois de production, sans revoir les responsabilités de support. Ignorer la capacité de transformation rend le plan infaisable.
+- **C — 5 points :** Utiliser une Business Transformation Readiness Assessment pour identifier les facteurs de readiness et intégrer les actions nécessaires à la transformation. La Transformation Readiness Assessment couvre organisation, compétences, financement et actions d'adoption.
+- **D — 3 points :** Conduire une évaluation limitée des compétences et du modèle opérationnel avec les responsables de plateforme, puis enrichir l'évaluation globale de readiness. L'étude limitée aux compétences et au modèle opérationnel est un début sans couvrir les autres facteurs.
+- **A — 1 points :** Faire prendre en charge le support par un fournisseur en ajoutant une courte formation technique, puis présumer la capacité d'adoption sans évaluer les processus et responsabilités d'exploitation. Une assistance fournisseur et une formation isolée ne démontrent pas l'adhésion ni les responsabilités du futur run.
+- **B — 0 points :** Conserver le calendrier et engager une formation générique pendant les premiers mois de production, sans revoir les responsabilités de support. Maintenir le calendrier sans traiter les responsabilités de support expose le service à des défaillances.
 
 **Mapping : Supporting ADM Work — Business Transformation Readiness.**
 
@@ -140,10 +140,10 @@ D. Comparer les modèles d'information et définir une table de correspondance p
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Évaluer l’interopérabilité sur plusieurs dimensions — sémantique, information, processus, technique et gouvernance — et traiter les incompatibilités. Interopérabilité couvre contrats, sémantique, processus et gouvernance.
-- **C — 3 points :** Revoir les contrats d'échange et la sémantique de l'information avant toute refonte, sans établir encore un modèle complet d'interopérabilité. Revoir les contrats détecte certains écarts mais pas tous.
-- **D — 1 point :** Comparer les modèles d'information et définir une table de correspondance pour les champs les plus critiques, puis élargir les contrats de service. Un protocole commun peut transporter des statuts métiers divergents.
-- **A — 0 point :** Remplacer un des deux frameworks API pour uniformiser les protocoles, sans vérifier la compatibilité sémantique des échanges. Une connexion réseau ne prouve pas l'accord sur le sens des échanges.
+- **B — 5 points :** Évaluer l’interopérabilité sur plusieurs dimensions — sémantique, information, processus, technique et gouvernance — et traiter les incompatibilités. L'analyse interopérabilité couvre sens des données, contrats, processus et gouvernance des deux partenaires.
+- **C — 3 points :** Revoir les contrats d'échange et la sémantique de l'information avant toute refonte, sans établir encore un modèle complet d'interopérabilité. La sémantique et les contrats constituent une première analyse solide, mais pas tous les impacts.
+- **D — 1 points :** Comparer les modèles d'information et définir une table de correspondance pour les champs les plus critiques, puis élargir les contrats de service. Une table de correspondance améliore certains champs sans traiter l'ensemble des processus et contrats.
+- **A — 0 points :** Remplacer un des deux frameworks API pour uniformiser les protocoles, sans vérifier la compatibilité sémantique des échanges. Uniformiser le protocole ne résout pas la divergence de sens des statuts métier.
 
 **Mapping : Supporting ADM Work — Interoperability.**
 
@@ -183,17 +183,17 @@ Le précédent programme portait sur des paiements domestiques alors que l'initi
 
 Quelle action est la meilleure ?
 A. Réutiliser une partie des patterns existants après une comparaison technique préliminaire, avant la revue complète du scope et des concerns.
-B. Réutiliser les standards et patterns après une première vérification de compatibilité technique, puis examiner les concerns supplémentaires avant le jalon d'approbation.
+B. Reprendre les standards et patterns du Repository après la seule vérification des versions logicielles, en considérant la compatibilité de produits comme validation du nouveau contexte métier.
 C. Cloner la Target Architecture précédente et ne modifier que les diagrammes de déploiement, en considérant les décisions métier acquises.
 D. Rechercher les assets pertinents, évaluer leur réutilisabilité dans le nouveau contexte, adapter ce qui est applicable et documenter ce qui doit changer.
 **Scoring : A=3, B=1, C=0, D=5.**
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Rechercher les assets pertinents, évaluer leur réutilisabilité dans le nouveau contexte, adapter ce qui est applicable et documenter ce qui doit changer. La réutilisation suppose recherche, qualification et adaptation des assets.
-- **A — 3 points :** Réutiliser une partie des patterns existants après une comparaison technique préliminaire, avant la revue complète du scope et des concerns. Un pattern existant est un candidat, non une preuve d'adéquation.
-- **B — 1 point :** Réutiliser les standards et patterns après une première vérification de compatibilité technique, puis examiner les concerns supplémentaires avant le jalon d'approbation. Une copie sans vérification reproduit d'anciennes hypothèses.
-- **C — 0 point :** Cloner la Target Architecture précédente et ne modifier que les diagrammes de déploiement, en considérant les décisions métier acquises. Ignorer les références du Repository provoque des conceptions redondantes.
+- **D — 5 points :** Rechercher les assets pertinents, évaluer leur réutilisabilité dans le nouveau contexte, adapter ce qui est applicable et documenter ce qui doit changer. La réutilisation exige comparaison des hypothèses d'origine, contraintes, risques et besoins réels.
+- **A — 3 points :** Réutiliser une partie des patterns existants après une comparaison technique préliminaire, avant la revue complète du scope et des concerns. Une comparaison technique préalable est utile, mais la validité métier et réglementaire reste à démontrer.
+- **B — 1 points :** Reprendre les standards et patterns du Repository après la seule vérification des versions logicielles, en considérant la compatibilité de produits comme validation du nouveau contexte métier. Des versions compatibles ne prouvent ni la valeur ni la conformité d'un pattern dans le nouveau contexte.
+- **C — 0 points :** Cloner la Target Architecture précédente et ne modifier que les diagrammes de déploiement, en considérant les décisions métier acquises. Le clonage des seuls diagrammes reproduit sans examen les hypothèses de la cible antérieure.
 
 **Mapping : Supporting ADM Work — Repository / Reuse / Tailoring.**
 

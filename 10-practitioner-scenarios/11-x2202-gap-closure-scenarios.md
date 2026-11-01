@@ -14,7 +14,7 @@ B. Conserver seulement l'état courant et ajouter les futurs changements dans le
 
 C. Maintenir candidate, current, transition et target avec horizon, approbation, domaine et relations de traçabilité explicites.
 
-D. Ajouter un tableau des applications en production et reporter les modèles futurs à la revue du portefeuille suivant.
+D. Distinguer les architectures current, candidate et target dans le Landscape, puis mentionner les états de transition dans la Roadmap sans préciser leur horizon, approbation ni liens de traçabilité.
 
 ## XP06 — L2.3.3 : Sécurité dès la Phase A
 
@@ -80,7 +80,7 @@ Le groupe veut une direction commune pour la modernisation sur cinq ans, mais un
 
 A. Construire une seule Architecture de solution, avec une même profondeur de détail pour les trois horizons.
 
-B. Classer les décisions uniquement par phase ADM sans référencer le niveau organisationnel des modèles.
+B. Distinguer Strategic, Segment et Capability Architecture avec des vues adaptées à leur horizon, mais laisser les dépendances et interfaces entre niveaux à documenter ultérieurement.
 
 C. Articuler Strategic, Segment et Capability Architecture dans l'Architecture Landscape, avec niveaux de détail et interfaces adaptés aux enjeux.
 
@@ -92,7 +92,7 @@ Un comité exécutif doit arbitrer une mutualisation des capacités bancaires al
 
 **Quelle réponse est la plus appropriée ?**
 
-A. Garder les mêmes modèles techniques détaillés pour les deux décisions, en ajoutant un résumé financier en introduction.
+A. Préparer une vue stratégique des capacités et une vue détaillée de solution pour les équipes, mais sans établir explicitement les liens de traçabilité ni les décisions entre ces niveaux.
 
 B. Limiter les deux décisions à une Business Architecture car le domaine technique importe seulement en Phase G.
 
@@ -122,7 +122,7 @@ Une équipe décrit des capabilities, applications, data entities et services de
 
 A. Le Content Framework définit les relations de données en production, tandis que le Metamodel définit uniquement les méthodes de migration.
 
-B. Créer une nomenclature commune sans définir de types ni relations ; la cohérence peut être vérifiée manuellement à chaque comité.
+B. Définir des types d'éléments et quelques relations partagées dans un métamodèle minimal, mais reporter la gouvernance de ses extensions et de ses versions.
 
 C. Définir concepts, propriétés et relations dans un Enterprise Metamodel cohérent avec le Content Framework, puis l'utiliser pour structurer artifacts, deliverables et traçabilité.
 
@@ -152,7 +152,7 @@ A. Créer directement des SBB correspondant à toutes les entités, sans disting
 
 B. Remplacer les objets métier par les noms des produits existants pour garantir la convergence.
 
-C. Laisser chaque application définir son propre modèle et vérifier seulement les contrats d'API lors de la migration.
+C. Définir les principaux types d'entités et les relations transverses dans un modèle commun, puis laisser les extensions locales aux applications sans les versionner ni les gouverner.
 
 D. Définir les types d'entités, leurs propriétés et relations autorisées selon le TOGAF Enterprise Metamodel, puis adapter et versionner les extensions spécifiques.
 
@@ -168,7 +168,7 @@ B. Recommencer toutes les phases ADM sans réaliser d'analyse de concerns ou d'i
 
 C. Réviser la stakeholder map et les concerns, analyser les exigences et options avec leurs owners, puis classer le changement et préparer les décisions gouvernées.
 
-D. Réaliser une réunion technique entre équipes de réalisation puis reporter la consultation des responsables métier après déploiement.
+D. Consulter les principaux stakeholders métier, qualifier les concerns urgents et les impacts visibles, puis reporter la consolidation des requirements et l'arbitrage de la portée du changement.
 
 ## XP17 — L1.3.6 : Pourquoi envisager plusieurs options architecturales ?
 
@@ -208,7 +208,7 @@ L'équipe Architecture lance l'étude de sa plateforme bancaire. Les responsable
 
 A. Fixer d'abord les standards technologiques puis dessiner les domaines métier, Data et Application autour du produit choisi.
 
-B. Laisser chaque domaine produire son propre diagramme Target, puis rechercher leurs incompatibilités lors de la migration.
+B. Développer les Baseline, Target et Gap Analyses de chaque domaine, puis organiser une revue transverse de cohérence avant Phase E, sans itérer encore sur les écarts révélés.
 
 C. Limiter l'activité commune à une Gap Analysis après validation complète des trois Target Architectures.
 

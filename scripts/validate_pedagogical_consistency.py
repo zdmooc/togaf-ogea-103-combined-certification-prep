@@ -241,6 +241,38 @@ for i in range(min(len(extra_blocks), len(extra_keys))):
         for label, value in score.items():
             check(bool(re.search(rf'^- \*\*{label}, {value} point',extra_keys[i],re.M)), code+': graded rationale missing for '+label)
 
+# Practitioner semantic-alignment regression checks (2026-11-01).
+for path in sorted((ROOT / "10-practitioner-scenarios").glob("0[1-8]-*s*.md")):
+    for section in blocks(path.read_text(encoding="utf-8"), r"## S\d+ — "):
+        ident = re.match(r"## (S\d+)", section)[1]
+        choices = options(section.split("**Scoring")[0], ident)
+        rationales = re.findall(r"^- \*\*([ABCD]) — (\d) points? :\*\* (.+)$", section, re.M)
+        check(len(rationales) == 4, f"{ident}: expected four complete rationales")
+        for letter, score, rationale in rationales:
+            check(rationale.startswith(choices.get(letter, "#NO_OPTION#")),
+                  f"{ident}: {letter} rationale begins with a stale option")
+
+mock01 = read("11-mock-exams/corrections/mock-01-correction.md")
+mock01p5 = next((section for section in blocks(mock01.split("# Part 2")[1], r"## P\d+ — ")
+                if section.startswith("## P5 —")), "")
+check("**B — 5 points.** La Phase F doit prioriser" in mock01p5,
+      "Mock 01 P5: B=5 rationale reverted to the old D answer")
+check("**D — 3 points.** Placer les événements en premier" in mock01p5,
+      "Mock 01 P5: D=3 rationale reverted to the old B answer")
+
+for n in range(1, 7):
+    correction = read(f"11-mock-exams/corrections/mock-0{n}-correction.md")
+    for phrase in (
+        "Étape utile mais encore insuffisante pour conclure",
+        "Traite une partie utile mais ne complète pas l'arbitrage",
+        "Une étape utile, mais insuffisante pour l'ensemble des enjeux",
+        "Partiellement adapté, avec une dépendance ou décision laissée ouverte",
+        "Couvre un aspect secondaire, insuffisant au moment décrit",
+        "Contourne la contrainte structurante",
+    ):
+        check(phrase not in correction,
+              f"Mock 0{n}: generic 3/1/0 explanation has returned: {phrase}")
+
 print(f"Reviewed structurally: {count} S-cases, 48 mock cases, 32 XP targeted, 2 XF, 16 deliverable questions")
 if failures:
     for failure in failures:
