@@ -14,7 +14,7 @@
 4. **D** — Repository organise/conserve ; Continuum classe/contextualise.
 5. **B** — Architecture Capability = capacité organisationnelle à pratiquer l'EA.
 6. **C** — Un ABB décrit des caractéristiques ou capacités architecturales sans figer l'implémentation ; un SBB représente une solution. [X2202, objectifs du domaine concerné].
-7. **A** — Principle guide ; Requirement formalise ce qui doit être satisfait.
+7. **A** — Un principe oriente durablement ; une requirement formule une condition vérifiable.
 8. **D** — Transition Architecture = état intermédiaire cohérent.
 9. **B** — Preliminary prépare capability, gouvernance, principles et tailoring.
 10. **C** — Phase A cadre le travail et l'Architecture Vision.
