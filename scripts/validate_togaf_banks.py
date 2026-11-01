@@ -90,6 +90,10 @@ foundation_drills = (root / '09-foundation-question-bank' / '10-x2202-targeted-d
 practitioner_cases = (root / '10-practitioner-scenarios' / '10-x2202-targeted-cases.md').read_text(encoding='utf-8')
 foundation_targeted = set(re.findall(r'^## (XF\d\d)\b', foundation_drills, re.M))
 practitioner_targeted = set(re.findall(r'^## (XP\d\d)\b', practitioner_cases, re.M))
+advanced_targeted_cases = (root / '10-practitioner-scenarios' / '11-x2202-gap-closure-scenarios.md').read_text(encoding='utf-8')
+advanced_targeted = set(re.findall(r'^## (XP\d\d)\b', advanced_targeted_cases, re.M))
+check(advanced_targeted == {f'XP{i:02d}' for i in range(5, 18)}, f'Expected 13 XP05–XP17 cases: {advanced_targeted}')
+practitioner_targeted |= advanced_targeted
 check(foundation_targeted == {'XF01', 'XF02'}, f'Unexpected Foundation targeted drills: {foundation_targeted}')
 check(practitioner_targeted == {'XP01', 'XP02', 'XP03', 'XP04'}, f'Unexpected Practitioner targeted cases: {practitioner_targeted}')
 
@@ -101,8 +105,10 @@ for row in re.findall(r'^\| L[12]\.\d+\.\d+ \|[^\n]+$', trace, re.M):
     objective, notion, course, exercises, review = cells
     if objective == 'L1.8.1':
         check('Bloom None' in exercises, 'L1.8.1 must retain its official None/untested status')
+        check('Bloom officiel : None' in review, 'L1.8.1 must show Bloom None in audit')
         continue
     check('Candidat précis' in review, f'{objective}: not associated with a precise candidate')
+    check('Bloom officiel :' in review, f'{objective}: missing official Bloom level annotation')
     refs = re.findall(r'\b(XF\d\d|XP\d\d|[QSFA]\d{2,3})\b', exercises)
     check(len(refs) > 0, f'{objective}: no specific question or scenario')
     for reference in refs:
