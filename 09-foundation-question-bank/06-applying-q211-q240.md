@@ -11,9 +11,9 @@ D. Pour remplacer les activités de gouvernance par un simple planning des relea
 
 ## Q212 — Tailoring scope
 Que peut-on adapter lors du tailoring ?
-A. Les lois applicables
-B. La réalité métier
-C. Le fait qu'une architecture doive répondre à des concerns
+A. Uniquement les versions de produits installés sans modifier les activités de l'ADM
+B. Uniquement les horaires de réunion du Board sans adaptation de périmètre
+C. Le modèle métier de l'entreprise sans considérer ses responsabilités de gouvernance
 D. Processus, terminologie, artifacts, gouvernance et niveau de détail
 **Réponse : D.** TOGAF peut être adapté dans sa mise en œuvre, pas dans les contraintes externes ou la logique fondamentale.
 **Mapping : Applying ADM — Tailoring.**
@@ -111,18 +111,18 @@ D. Appliquer des standards identiques à tous les composants sans gérer les int
 
 ## Q223 — Partition boundary
 Pourquoi clarifier les frontières entre partitions ?
-A. Pour empêcher tout partage
-B. Pour éliminer le Repository
+A. Pour permettre à chaque partition d'utiliser ses propres standards contradictoires
+B. Pour éliminer toutes les dépendances entre domaines sans modélisation des flux
 C. Pour maîtriser ownership, interfaces et dépendances
-D. Pour choisir un vendor
+D. Pour remplacer la matrice des responsabilités par le seul calendrier du programme
 **Réponse : C.** Les frontières ambiguës génèrent incohérences et doublons.
 **Mapping : Applying ADM — Partitioning.**
 
 ## Q224 — Federation
 Dans une architecture fédérée, que recherche-t-on ?
-A. Centraliser chaque décision
-B. Autoriser toute divergence
-C. Supprimer les standards
+A. Une autonomie absolue des filiales sans mécanisme de cohérence ou de standards
+B. Une validation centrale de toute décision locale, même dépourvue d'impact transverse
+C. Une architecture unique à un niveau de détail imposé identiquement aux domaines
 D. Un équilibre entre autonomie locale et cohérence globale
 **Réponse : D.** La fédération combine autonomie et gouvernance partagée.
 **Mapping : Applying ADM — Federation.**
@@ -147,10 +147,10 @@ D. Inscrire les contrôles de sécurité seulement après le choix de toutes les
 
 ## Q227 — Security in A
 En Phase A, la sécurité doit notamment :
-A. Attendre la production
-B. Choisir toutes les configurations finales
+A. Choisir tous les produits de protection avant l'identification des business drivers
+B. Réserver les security controls au contrôle de conformité final de Phase G
 C. Identifier concerns, contraintes et risques majeurs de haut niveau
-D. Être hors scope par défaut
+D. Créer une dérogation générale permettant d'ignorer les requirements de sécurité
 **Réponse : C.** Les enjeux majeurs doivent être intégrés dès le cadrage sans sur-détailler.
 **Mapping : Applying ADM — Security.**
 
@@ -256,18 +256,18 @@ D. Pour éviter les standards
 
 ## Q239 — Context over rigidity
 Quel principe d'application est le plus cohérent ?
-A. Appliquer mécaniquement tous les artifacts
-B. Supprimer les phases difficiles
+A. Remplacer les phases ADM par les choix de produits établis au début du programme
+B. Garder des phases linéaires immuables pour garantir la conformité du projet
 C. Adapter l'ADM au contexte tout en préservant objectifs, traçabilité et gouvernance
-D. Choisir la méthode après la solution
+D. Supprimer la governance transverse afin de raccourcir les revues des équipes
 **Réponse : C.** TOGAF est tailorable mais reste discipliné.
 **Mapping : Applying ADM — Synthesis.**
 
 ## Q240 — Applying ADM synthesis
 Une banque avec 30 équipes Agile et plusieurs domaines veut utiliser TOGAF. Quelle approche est la meilleure ?
-A. Un seul document central figé
-B. Aucun principle pour laisser l'autonomie totale
-C. Une seule équipe qui valide chaque petite décision
+A. Un Board central approuvant chaque ticket produit avant sa mise en production
+B. Des squads autonomes sans principes communs ni requirements transverses
+C. Une démarche waterfall complète et identique imposée aux trente équipes
 D. Architecture fédérée, tailoring, niveaux cohérents, governance continue et repository partagé
 **Réponse : D.** Elle combine les mécanismes d'application adaptés à une grande organisation Agile.
 **Mapping : Applying ADM — Synthesis.**
