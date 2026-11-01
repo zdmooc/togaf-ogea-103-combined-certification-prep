@@ -18,7 +18,7 @@ A. Elle guide des changements cohérents et relie les décisions techniques à l
 **Q4.** Dans un opérateur de transport, le comité examine les acteurs, états et référentiels pour orienter la transformation. Un Architecture Principle est :
 A. Requirement — condition vérifiable propre au périmètre d'une solution  B. SBB — composant retenu pour réaliser une capacité architecturale  C. Viewpoint — convention choisie pour exposer les concerns  D. Une règle directrice durable pour les décisions
 
-**Q5.** Dans un opérateur de transport, le comité examine les acteurs, états et référentiels pour orienter la transformation. La Baseline Architecture décrit :
+**Q5.** Une mutuelle doit modéliser le fonctionnement actuel de son système de sinistres avant de comparer les gaps avec la nouvelle cible. Quel état architectural convient ?
 A. Target Architecture — architecture future envisagée après les changements  B. Baseline Architecture — état actuel pertinent de l'entreprise  C. Transition Architecture — état intermédiaire cohérent avant la cible  D. Architecture Roadmap — trajectoire des lots et états successifs
 
 **Q6.** Le Repository possède des décisions de conformité, des requirements et des patterns réutilisables. Où chercher les exigences d'architecture gouvernées et leurs relations de traçabilité ?
@@ -33,7 +33,7 @@ A. Artifact — représentation individuelle de type catalogue ou diagramme  B. 
 **Q9.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Où établit-on principalement principes, gouvernance et Architecture Capability ?
 A. Preliminary — mise en place de l'Architecture Capability  B. Phase A — établir Vision, scope et Statement of Architecture Work  C. Phase E — définir options, work packages et transitions candidates  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
-**Q10.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Où clarifie-t-on principalement scope, stakeholders, business value et Architecture Vision ?
+**Q10.** Le comité du programme d'urbanisation attend la définition du périmètre, des concerns et de la proposition de valeur avant les modèles B/C/D. Quelle phase est concernée ?
 A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase B — définir capabilities et processus métier de la Target  C. Phase A — cadrage de la transformation et préparation de l'Architecture Vision  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** En Phase B, l'équipe examine une capacité « suivre les réclamations » indépendamment du CRM historique. Pourquoi ce découplage est-il important pour la Target ?
@@ -45,13 +45,13 @@ A. Phase B — structurer capabilities et processus métiers de la cible  B. Pha
 **Q13.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Où décrit-on principalement les services et interactions applicatives cibles ?
 A. Phase C Application — services et interactions applicatifs  B. Phase B — définir services et processus métier indépendants des applications  C. Phase C Data — préciser propriété et cycle de vie de l'information  D. Phase D — détailler le socle et les services technologiques
 
-**Q14.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Où développe-t-on principalement la Target Technology Architecture ?
+**Q14.** Après définition des services applicatifs et données d'un parcours de réclamation, l'équipe doit préciser les plateformes et technologies cibles. Dans quelle phase ce travail se concentre-t-il ?
 A. Phase C Data — gouverner les entités et les flux d'information  B. Phase C Application — modéliser services et contrats applicatifs  C. Phase D — plateformes, services technologiques et infrastructure  D. Phase E — agréger les gaps en work packages et transitions
 
 **Q15.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Où identifie-t-on principalement les Solution Building Blocks candidats, work packages et Transition Architectures ?
 A. Phase F — confirmer l'ordre et le plan détaillé de la migration  B. Phase G — vérifier la conformité des éléments déjà implémentés  C. Phase C Application — définir les interactions applicatives de cible  D. Phase E — options, work packages et Transition Architectures
 
-**Q16.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Où consolide-t-on priorités, dépendances et séquencement de migration ?
+**Q16.** Les lots de migration sont identifiés ; le Board doit maintenant décider leur ordre, leur valeur et leurs interdépendances avant de financer la trajectoire. Quelle phase réalise principalement ce travail ?
 A. Phase E — élaborer les options de solution et premiers lots  B. Phase F — séquencement et plan détaillé de migration  C. Phase G — suivre les écarts de conformité pendant le delivery  D. Phase H — évaluer les changements de l'architecture en service
 
 **Q17.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Où contrôle-t-on principalement l'implémentation par rapport à l'architecture approuvée ?
@@ -60,7 +60,7 @@ A. Phase G — conformité et gouvernance de la réalisation  B. Phase F — pri
 **Q18.** Après la livraison d'une architecture, une obligation modifie les flux de données et les contrôles. Quelle réponse ADM évite une ré-architecture systématique ?
 A. Traiter le sujet exclusivement en Phase G car tout changement réglementaire est une exception de réalisation.  B. Relancer directement toutes les phases depuis Preliminary indépendamment des effets constatés.  C. Analyser en Phase H l'impact et classifier le changement avant de déterminer l'ampleur du nouveau travail ADM.  D. Modifier simplement les requirements sans réexaminer les architectures et transitions impactées.
 
-**Q19.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Requirements Management doit :
+**Q19.** Un nouveau règlement de paiement modifie les exigences de traçabilité au milieu des phases C et D. Quelle approche doit maintenir les requirements et leurs impacts cohérents entre les phases ADM ?
 A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Phase G uniquement — vérifier seulement les exigences à la réception  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Soutenir et tracer les requirements pendant tout l'ADM
 
 **Q20.** Les domaines Data et Application doivent être ajustés après une nouvelle exigence. Quelle affirmation sur l'itération ADM est correcte ?
@@ -81,7 +81,7 @@ A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B
 **Q25.** Dans un opérateur de transport, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Pour évaluer si l'organisation peut réellement absorber une transformation :
 A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation de la préparation organisationnelle
 
-**Q26.** Dans un opérateur de transport, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Pour analyser probabilité, impact, mitigation et residual risk :
+**Q26.** Une filiale dispose des plateformes cibles mais ne possède ni équipe d'astreinte ni formation d'exploitation. Quelle évaluation identifie ce manque organisationnel avant la migration ?
 A. Risk Management — identification, analyse et traitement des risques  B. Gap Analysis — différences entre les états existant et cible  C. Readiness Assessment — facteurs de compétences et capacité d'adoption  D. Compliance Review — vérification des exigences d'une solution réalisée
 
 **Q27.** Dans un opérateur de transport, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Pour organiser la transformation autour de capabilities métier :
