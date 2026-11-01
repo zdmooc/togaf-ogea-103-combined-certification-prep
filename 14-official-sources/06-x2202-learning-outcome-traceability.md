@@ -115,7 +115,7 @@
 | L2.1.2 | Représentation d'une EA | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | XP29 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.3 | Architecture Capability | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | S001, S002 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.4 | Rôle de la gouvernance et de l'architecte | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | S002, S004 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L2.1.5 | Conformance et niveaux de conformité | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | A01, S038 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.1.5 | Conformance et niveaux de conformité | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | A01, S038, XP33–XP34 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.6 | Alignement objectifs et Agile | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | S004 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.7 | États candidate/current/transition/target | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP05 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.8 | Enterprise Security Architecture | [Cours](../04-applying-the-adm/05-security.md) | S006 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
@@ -161,7 +161,7 @@
 |---|---|---|---|---|
 | L2.5.1 | Risques et sécurité en E/F/G | [Cours](../07-practitioner/06-efg-implementation-scenarios.md) | XP22 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.5.2 | Implementation and Migration Strategy en E | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S033, A05 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L2.5.3 | Greenfield / Revolutionary / Evolutionary | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP31 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
+| L2.5.3 | Greenfield / Revolutionary / Evolutionary | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP31, XP35–XP36 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.5.4 | Identifier et regrouper work packages | [Cours](../02-adm/07-phase-e-opportunities-solutions.md) | S031, S035 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.5.5 | Élaborer des Transition Architectures | [Cours](../02-adm/07-phase-e-opportunities-solutions.md) | S033 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.5.6 | Effets organisationnels et coordination des migrations | [Cours](../07-practitioner/06-efg-implementation-scenarios.md) | XP07 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
@@ -230,6 +230,7 @@ Cette matrice permet de **détecter les manques**, et non de prétendre que le d
 - `Q001` à `Q300` : banque Foundation principale (`09-foundation-question-bank/01` à `08`).
 - `D01` à `D16` : les 16 livrables Foundation 7.3 (`09-foundation-question-bank/11-x2202-deliverables-drills.md`) avec corrigés séparés.
 - `XF01` et `XF02` : exercices ciblés Foundation (`09-foundation-question-bank/10-x2202-targeted-drills.md`).
+- `XP33` à `XP36` : quatre scénarios additionnels sur les niveaux de conformance et stratégies Greenfield/Evolutionary/Revolutionary (`10-practitioner-scenarios/12-conformance-and-migration-xp033-xp036.md`).
 - `XP05` à `XP32` : vingt-huit cas additionnels de clarification (`10-practitioner-scenarios/11-x2202-gap-closure-scenarios.md`).
 - `XP01` à `XP04` : cas ciblés Practitioner (`10-practitioner-scenarios/10-x2202-targeted-cases.md`).
 - `F01` à `F24` : exercices Foundation avancés (`09-foundation-question-bank/09-advanced-drills.md`).
