@@ -138,11 +138,11 @@ Une entreprise engage dix programmes simultanés mais n'a qu'un architecte réf�
 
 A. Désigner temporairement des architectes responsables par domaine et enregistrer les décisions critiques, puis structurer la capacité formelle.
 
-B. Renforcer en priorité capacité, gouvernance, compétences, repository et tailoring afin de soutenir les transformations, avec une approche de gouvernance par priorités, des rôles nommés et une trajectoire de montée en capacité.
+B. Mettre en place une bibliothèque de patterns communs avant de clarifier les personnes autorisées à valider les exceptions.
 
 C. Confier la cohérence globale au fournisseur principal, puis internaliser les décisions d'architecture après la première mise en production.
 
-D. Mettre en place une bibliothèque de patterns communs avant de clarifier les personnes autorisées à valider les exceptions.
+D. Renforcer en priorité capacité, gouvernance, compétences, repository et tailoring afin de soutenir les transformations, avec une approche de gouvernance par priorités, des rôles nommés et une trajectoire de montée en capacité.
 
 ## P2 — Stakeholder Management
 
@@ -152,9 +152,9 @@ Un projet d'échanges interbancaires traite des informations sensibles et le res
 
 **Quelle réponse est la plus adaptée au problème actuel ?**
 
-A. Reporter la consultation de conformité à la revue de migration lorsque le design technique sera stabilisé.
+A. L'intégrer comme stakeholder, clarifier concerns et requirements de conformité, puis adapter les views et décisions, avec identification des concerns, consultation des owners et adaptation des views avant approbation.
 
-B. L'intégrer comme stakeholder, clarifier concerns et requirements de conformité, puis adapter les views et décisions, avec identification des concerns, consultation des owners et adaptation des views avant approbation.
+B. Reporter la consultation de conformité à la revue de migration lorsque le design technique sera stabilisé.
 
 C. Faire accepter provisoirement les risques de transfert par le sponsor et ajouter la conformité comme contrôle de Phase G.
 
@@ -168,11 +168,11 @@ Le programme possède de nombreuses requirements sur la plateforme, la supervisi
 
 **Quelle réponse est la plus adaptée au problème actuel ?**
 
-A. Revenir au cadrage Phase A pour clarifier drivers, outcomes, stakeholders et Vision tout en conservant les requirements utiles, en reliant drivers, outcomes, stakeholders et scope à une Architecture Vision défendable.
+A. Réserver le fournisseur et répartir les exigences entre les équipes d'implémentation, puis mesurer les outcomes après livraison.
 
 B. Proposer une Roadmap préliminaire de plateforme pour susciter la discussion métier, sans faire encore approuver les bénéfices.
 
-C. Réserver le fournisseur et répartir les exigences entre les équipes d'implémentation, puis mesurer les outcomes après livraison.
+C. Revenir au cadrage Phase A pour clarifier drivers, outcomes, stakeholders et Vision tout en conservant les requirements utiles, en reliant drivers, outcomes, stakeholders et scope à une Architecture Vision défendable.
 
 D. Rattacher les requirements existantes à quelques drivers majeurs et valider un premier jeu d'indicateurs, puis finaliser la Vision.
 
@@ -216,11 +216,11 @@ Les KPI métier indiquent que la plateforme déployée n'a pas réduit les rejet
 
 **Quelle réponse est la plus adaptée au problème actuel ?**
 
-A. Évaluer les drivers et la performance de l'architecture, puis décider de l'évolution ou d'un nouveau cycle, en comparant la valeur réellement délivrée aux business drivers actuels et en classant l'impact de changement.
+A. Reprendre immédiatement tout l'ADM depuis Preliminary, même si l'analyse pourrait limiter le travail à quelques domaines.
 
 B. Modifier uniquement la chaîne de rejet qui affiche le plus mauvais indicateur, sans réévaluer l'objectif métier global.
 
-C. Reprendre immédiatement tout l'ADM depuis Preliminary, même si l'analyse pourrait limiter le travail à quelques domaines.
+C. Évaluer les drivers et la performance de l'architecture, puis décider de l'évolution ou d'un nouveau cycle, en comparant la valeur réellement délivrée aux business drivers actuels et en classant l'impact de changement.
 
 D. Mettre à jour les principaux KPI et préparer une analyse d'impact de la nouvelle demande avant de choisir le périmètre de réarchitecture.
 
@@ -232,13 +232,13 @@ Une obligation de traçabilité des données change pendant la réalisation et a
 
 **Quelle réponse est la plus adaptée au problème actuel ?**
 
-A. Mettre à jour la requirement, utiliser la traceability pour identifier les impacts et déclencher les itérations nécessaires, en établissant un Requirements Impact Assessment traçant les building blocks, décisions et migrations concernés.
+A. Réaliser une première analyse sur les services les plus exposés et chiffrer les travaux urgents, puis vérifier les autres impacts.
 
 B. Appliquer la modification aux ABB du service principal et demander aux autres équipes de réévaluer leurs contrats pendant la migration.
 
 C. Conserver les work packages approuvés et considérer que le changement se limite au code déjà modifié.
 
-D. Réaliser une première analyse sur les services les plus exposés et chiffrer les travaux urgents, puis vérifier les autres impacts.
+D. Mettre à jour la requirement, utiliser la traceability pour identifier les impacts et déclencher les itérations nécessaires, en établissant un Requirements Impact Assessment traçant les building blocks, décisions et migrations concernés.
 
 ## P8 — Supporting ADM Work
 
