@@ -123,6 +123,46 @@ for i, exercise_section in enumerate(exercise_sections, 1):
             check(match[1] in opts, f"{ident}: correction has no corresponding answer")
             check("**Réponse :" in correction, f"{ident}: missing rationale")
 
+
+# Lexical near-duplicate screen across the six mock exams.
+# Strip reusable context prefixes, so the screen examines the actual question.
+stems=[]
+generic_contexts=(
+    "le comité examine les acteurs, états et référentiels pour orienter la transformation.",
+    "l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué.",
+    "les architectes hésitent entre plusieurs techniques de diagnostic et de planification.",
+    "la gouvernance doit permettre plusieurs équipes et horizons de livraison.",
+    "le Board doit différencier arbitrage, conformité et exceptions.",
+    "le dossier d'architecture doit distinguer représentations, livrables et building blocks.",
+)
+for n in range(1,7):
+    exam=read(f"11-mock-exams/mock-0{n}-exam.md").split("# Part 2")[0]
+    for part in re.split(r"(?=^\*\*Q\d+\.\*\*)",exam, flags=re.M)[1:]:
+        head=re.search(r"^\*\*Q(\d+)\.\*\*\s+([^\n]+)",part)
+        if not head: 
+            continue
+        stem=head[2]
+        for boilerplate in generic_contexts:
+            if boilerplate in stem:
+                stem=stem.split(boilerplate,1)[1].strip()
+        stems.append((n,int(head[1]),stem))
+STOP=set("une un dans pour aux avec cette comme les des dont doit que qui quelle quel quelles est sont comment pourquoi principalement faut entre avant apres architecture architectures adm togaf phase phases le la de du un une et ou est en ce cet les".split())
+def terms(value):
+    return set(t for t in re.findall(r"[a-z0-9]+",value.casefold()) if len(t)>=4 and t not in STOP)
+close=[]
+for i, (m1,q1,t1) in enumerate(stems):
+    a=terms(t1)
+    for m2,q2,t2 in stems[i+1:]:
+        if m1==m2: 
+            continue
+        b=terms(t2)
+        common=a&b
+        ratio=len(common)/len(a|b) if a|b else 0
+        if len(common)>=3 and ratio>=0.78:
+            close.append((m1,q1,m2,q2,round(ratio,2)))
+check(not close, f"Near-identical mock stems after context removal: {close[:10]}")
+print(f"Lexical mock overlap screen: {len(stems)} questions, {len(close)} pairs >= 0.78 (not a semantic-independence proof)")
+
 print(f"Reviewed structurally: {count} S-cases, 48 mock cases, 32 XP targeted, 2 XF, 16 deliverable questions")
 if failures:
     for failure in failures:
