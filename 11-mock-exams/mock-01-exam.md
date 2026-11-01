@@ -24,8 +24,8 @@ A. Une compétence individuelle  B. La capacité organisationnelle à pratiquer 
 **Q6.** Un modèle décrit le besoin d'un service d'identité fédérée sans imposer de fournisseur ; une solution précise d'IAM est étudiée pour le réaliser. Quelle qualification distingue les deux éléments ?
 A. Le premier est un SBB car il ne contient pas de détail de technologie, et le second un ABB car il est implémentable.  B. Les deux sont des artifacts car un besoin et un produit sont toujours des représentations graphiques.  C. Le premier est un ABB, le second peut être un SBB.  D. Le premier est une Transition Architecture et le second un Architecture Contract.
 
-**Q7.** Quelle distinction est correcte ?
-A. Un Principle guide durablement les décisions ; une Requirement exprime quelque chose à satisfaire  B. Une Requirement est toujours plus générale qu'un Principle  C. Ils sont synonymes  D. Un Principle n'a aucun impact sur l'architecture
+**Q7.** Une règle d'architecture approuvée exige la réutilisation des services existants. Le programme de paiement définit ensuite « 100 % des appels inter-applicatifs doivent utiliser TLS 1.3 ». Quelle distinction est correcte ?
+A. La règle de réutilisation est un Principle ; l'obligation TLS vérifiable est une Requirement ou un standard dérivé.  B. Les deux sont des Architecture Principles puisqu'elles gouvernent des décisions techniques.  C. La règle de réutilisation est un Building Block et TLS un Architecture Contract.  D. Les deux sont des views dont l'application ne demande pas de traçabilité.
 
 **Q8.** Une Transition Architecture est :
 A. La Baseline  B. Le plan projet  C. Un standard  D. Un état architectural intermédiaire cohérent vers la Target
