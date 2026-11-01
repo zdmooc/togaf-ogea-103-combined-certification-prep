@@ -210,6 +210,23 @@ check("historically" in repository_course and "Governance Log" in repository_cou
       "Explain why legacy names are not a replacement for X2202 L2 8.5")
 
 
+# Extra X2202 conformance/migration practice cases.
+extra_exams = read('10-practitioner-scenarios/12-conformance-and-migration-xp033-xp036.md')
+extra_answers = read('10-practitioner-scenarios/12-conformance-and-migration-corrections.md')
+extra_blocks = blocks(extra_exams, r'## XP[0-9]{2}')
+extra_keys = blocks(extra_answers, r'## XP[0-9]{2}')
+check(len(extra_blocks) == len(extra_keys) == 4, 'Expected 4 XP33–XP36 with corrections')
+for i in range(min(len(extra_blocks), len(extra_keys))):
+    code = f'XP{i+33:02d}'
+    check(extra_blocks[i].startswith('## '+code), code+': wrong exercise ID')
+    check(extra_keys[i].startswith('## '+code), code+': wrong correction ID')
+    options(extra_blocks[i], code)
+    header = re.search(r'\*\*Barème pédagogique\s*:\*\*\s*([^\n]+)', extra_keys[i])
+    score = grades(header[1]) if header else {}
+    if verify_grades(score, code):
+        for label, value in score.items():
+            check(bool(re.search(rf'^- \*\*{label}, {value} point',extra_keys[i],re.M)), code+': graded rationale missing for '+label)
+
 print(f"Reviewed structurally: {count} S-cases, 48 mock cases, 32 XP targeted, 2 XF, 16 deliverable questions")
 if failures:
     for failure in failures:
