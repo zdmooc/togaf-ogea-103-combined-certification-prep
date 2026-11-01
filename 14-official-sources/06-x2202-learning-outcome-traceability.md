@@ -99,7 +99,7 @@
 |---|---|---|---|---|
 | L1.7.1 | Stakeholder, concern, viewpoint, view | [Cours](../06-architecture-content/07-views-and-viewpoints.md) | Q012–Q014, Q276–Q279 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.7.2 | Building Blocks dans l'ADM | [Cours](../06-architecture-content/05-building-blocks.md) | Q030–Q033, Q280–Q284 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.7.3 | Livrables standard des phases ADM | [Cours](../06-architecture-content/03-deliverables.md) | Q290–Q292, F10–F13 | Candidat précis — non relu ; Bloom officiel : 2_Remembering (libellé atypique du X2202) |
+| L1.7.3 | Livrables standard des phases ADM | [Cours](../06-architecture-content/03-deliverables.md) | D01–D16, Q290–Q292, F10–F13 | Candidat précis — non relu ; Bloom officiel : 2_Remembering (libellé atypique du X2202) |
 
 ## L1 U8 — Certification Program (1 objectifs)
 
@@ -228,6 +228,7 @@ Cette matrice permet de **détecter les manques**, et non de prétendre que le d
 ## Conventions de numérotation
 
 - `Q001` à `Q300` : banque Foundation principale (`09-foundation-question-bank/01` à `08`).
+- `D01` à `D16` : les 16 livrables Foundation 7.3 (`09-foundation-question-bank/11-x2202-deliverables-drills.md`) avec corrigés séparés.
 - `XF01` et `XF02` : exercices ciblés Foundation (`09-foundation-question-bank/10-x2202-targeted-drills.md`).
 - `XP05` à `XP32` : vingt-huit cas additionnels de clarification (`10-practitioner-scenarios/11-x2202-gap-closure-scenarios.md`).
 - `XP01` à `XP04` : cas ciblés Practitioner (`10-practitioner-scenarios/10-x2202-targeted-cases.md`).
