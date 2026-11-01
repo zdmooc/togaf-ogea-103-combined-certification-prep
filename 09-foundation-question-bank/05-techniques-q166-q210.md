@@ -125,10 +125,10 @@ D. Passer directement à G
 
 ## Q179 — Interoperability
 L'interoperability traite principalement :
-A. La paie
-B. La governance du Board uniquement
+A. La conformité d'une implémentation aux standards techniques de l'entreprise indépendamment de ses échanges
+B. La traçabilité des décisions d'Architecture Board vers les contrats des fournisseurs
 C. La capacité de systèmes/organisations à travailler ensemble efficacement
-D. La définition du scope
+D. Le classement des applications dans les différentes couches d'un Architecture Repository
 **Réponse : C.** Elle concerne échanges, compatibilité et coopération à plusieurs niveaux.
 **Mapping : ADM Techniques — Interoperability.**
 
@@ -152,10 +152,10 @@ D. De Phase H
 
 ## Q182 — Organizational interoperability
 Deux entités ont des responsabilités incompatibles malgré des APIs compatibles. Le problème est principalement :
-A. Réseau
+A. Technique : les protocoles et les versions empêchent l'établissement d'une connexion entre les services
 B. Organisationnel/business interoperability
-C. Storage
-D. Syntaxe uniquement
+C. Informationnelle : les deux entités attribuent des significations différentes aux mêmes données
+D. Applicative : les deux partenaires utilisent des frameworks différents malgré des règles métier identiques
 **Réponse : B.** L'interopérabilité dépasse la technique et inclut processus et responsabilités.
 **Mapping : ADM Techniques — Interoperability.**
 
@@ -199,10 +199,10 @@ D. Supprimer les stakeholders
 
 ## Q187 — Risk Management
 Risk Management sert principalement à :
-A. Définir uniquement les applications
-B. Choisir un viewpoint
+A. Définir uniquement les exigences de performance du service technique le plus critique
+B. Construire la Business Architecture sans étudier les conséquences des incertitudes
 C. Identifier, analyser, traiter et suivre les risques d'architecture/transformation
-D. Remplacer Phase H
+D. Vérifier seulement la conformité aux standards des composants déjà livrés
 **Réponse : C.** Le risque traverse le cycle. A/B/D sont faux.
 **Mapping : ADM Techniques — Risk Management.**
 
@@ -245,9 +245,9 @@ D. Pour remplacer les stakeholders
 
 ## Q192 — Capability-Based Planning
 Capability-Based Planning commence principalement par :
-A. Les produits déjà achetés
-B. Les incidents
-C. Les IP
+A. Les applications déjà déployées et leurs versions pour établir la seule Baseline Technology
+B. Les initiatives déjà financées, sans comparaison des capacités métier communes
+C. Les projets de migration classés par date de mise en production indépendamment des résultats
 D. Les capacités que l'entreprise doit posséder pour atteindre ses objectifs
 **Réponse : D.** La technique part de l'aptitude métier, pas d'une solution.
 **Mapping : ADM Techniques — Capability-Based Planning.**
@@ -264,10 +264,10 @@ D. Un projet est un viewpoint
 
 ## Q194 — Capability increment
 Un capability increment représente :
-A. Une view
+A. Une étape de déploiement d'un composant technologique sans changement de capability
 B. Une amélioration progressive d'une capacité dans la trajectoire
-C. Un requirement supprimé
-D. Un stakeholder
+C. Une modification de requirement consignée sans impact sur les résultats métier
+D. Une Architecture View qui représente la même capability sous un autre viewpoint
 **Réponse : B.** La technique permet d'organiser la montée en capacité par étapes.
 **Mapping : ADM Techniques — Capability-Based Planning.**
 
@@ -309,10 +309,10 @@ D. Les deux sont forcément indépendants
 
 ## Q199 — Risk/value balance
 Deux work packages ont forte valeur, mais l'un a un risque très élevé. Que faut-il faire ?
-A. Choisir seulement la valeur
-B. Choisir seulement le risque
+A. Prioriser le work package offrant le meilleur bénéfice nominal indépendamment des risques résiduels
+B. Retenir le work package le moins coûteux puis reporter les évaluations de dépendances à la Phase G
 C. Évaluer explicitement valeur, risque, dépendances et capacité d'exécution avant priorité
-D. Tirer au sort
+D. Établir l'ordre des livraisons uniquement en fonction des disponibilités des équipes techniques
 **Réponse : C.** La priorisation est multi-critères et gouvernée.
 **Mapping : ADM Techniques — Migration Planning.**
 
