@@ -34,6 +34,7 @@ Quatre questions progressives d'abstraction : **Why** (motivation, outcomes), **
 | Business Model | Logique de création, de délivrance et de capture de valeur |
 | Business Architecture | Structure des capacités, services, organisation et processus métier |
 | Data Architecture | Organisation, gouvernance et échange des données |
+| Digital Architecture | Architecture d'un système ou service numérique, articulant expériences, capacités, données, applications et technologies ; ne désigne pas une phase ADM distincte |
 | Application Architecture | Structure des services applicatifs et de leurs interactions |
 | Technology Architecture | Plateformes, services techniques et infrastructures |
 | Architecture Landscape | Ensemble cohérent d'états architecturaux, selon les niveaux et les horizons |
