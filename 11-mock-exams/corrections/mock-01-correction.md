@@ -49,32 +49,98 @@
 39. **A** — la View répond aux concerns selon une Viewpoint.
 40. **D** — Catalog liste, Matrix relie, Diagram visualise.
 
-# Part 2 — Scoring
+# Part 2 — Scoring argumenté
 
-## P1 — Context
-**B=5, A=3, C=1, D=0.** B corrige la cause : absence d'Architecture Capability. A poursuit avec une architecture fragile ; C externalise abusivement la gouvernance ; D est encore plus hors séquence.
+Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne correspondent pas à des questions confidentielles de l'examen officiel.
 
-## P2 — Stakeholder Management
-**C=5, D=3, A=1, B=0.** C traite Operations comme stakeholder critique et transforme les concerns en requirements. D améliore la communication mais pas l'architecture. A ignore un risque réel ; B reporte le problème après go-live.
+## P1 — Context for Enterprise Architecture — gouvernance fédérée
 
-## P3 — Phase A
-**A=5, B=3, D=1, C=0.** A restaure le cadrage avant la solution. B avance prématurément mais reste dans l'architecture ; D transfère abusivement le scope au delivery ; C saute jusqu'à la migration.
+**Barème :** A=3, B=5, C=1, D=0.
 
-## P4 — B/C/D
-**B=5, C=3, A=1, D=0.** B part du besoin métier et dérive Data/Application/Technology. C traite une partie utile mais trop étroite. A inverse besoin et solution ; D saute l'architecture de domaine.
+- **B — 5 points.** L'absence de gouvernance commune est un risque systémique ; la bonne réponse réutilise la capacité existante et rend l'autorité des décisions explicite. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **A — 3 points.** La proposition A autorise un travail préparatoire utile mais reporte l'arbitrage critique.
+- **C — 1 point.** Utiliser le cadre de gouvernance du fournisseur retenu comme procédure provisoire, puis demander son adoption par les deux filiales. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
+- **D — 0 point.** Annuler la Target en cours et relancer systématiquement un Preliminary complet pour toutes les entités, avant toute autre activité d'architecture. L'action manque le problème central ou abandonne une gouvernance nécessaire.
 
-## P5 — E/F/G
-**D=5, A=3, B=1, C=0.** Phase F répond précisément à priorisation/séquencement. A est un mécanisme utile plus tard ; B revient trop loin ; C traite le changement après implémentation.
+**Source de contrôle :** X2202, Practitioner, domaine 1 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
-## P6 — Phase H
-**A=5, B=3, C=1, D=0.** A applique Architecture Change Management. B traite seulement un symptôme documentaire ; C bypass l'architecture ; D ignore un driver réglementaire.
+## P2 — Stakeholder Management — conflit entre valeur et exploitabilité
 
-## P7 — Requirements Management
-**B=5, C=3, A=1, D=0.** B clarifie et trace la requirement. C conserve le sujet mais trop tard ; A arbitre sur le coût sans traiter l'ambiguïté ; D supprime une exigence légitime.
+**Barème :** A=1, B=0, C=5, D=3.
 
-## P8 — Supporting ADM Work
-**C=5, B=3, A=1, D=0.** C réutilise avec contextualisation. B reconnaît la valeur de réutilisation mais copie sans analyse. A duplique inutilement ; D consulte beaucoup trop tard.
+- **C — 5 points.** La consultation devient utile seulement si elle modifie réellement les requirements et les décisions. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **D — 3 points.** D traite les risques urgents mais ne rétablit pas la traçabilité et la validation transverse.
+- **A — 1 point.** Conserver l'approbation du sponsor comme unique validation de la Vision, puis prévoir les adaptations du run model après la vague pilote. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
+- **B — 0 point.** Confier l'ensemble du run model à Operations et garder l'architecture cible inchangée, en lui laissant le choix des moyens. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+
+**Source de contrôle :** X2202, Practitioner, domaine 2 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
+
+## P3 — Phase A — vision fondée sur des drivers vérifiables
+
+**Barème :** A=5, B=3, C=1, D=0.
+
+- **A — 5 points.** La Phase A fait le lien entre contexte et mandat ; le choix de produit ne peut précéder la justification et l'accord sur la valeur. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **B — 3 points.** B est une action d'urgence utile mais conserve un biais solution et ignore certaines options.
+- **C — 1 point.** Demander à chaque équipe produit de définir son architecture cible séparément ; la Vision de groupe émergera des implémentations. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
+- **D — 0 point.** Définir immédiatement les work packages de migration et le plan de financement en Phase F afin d'imposer une date crédible aux métiers. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+
+**Source de contrôle :** X2202, Practitioner, domaine 3 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
+
+## P4 — Architecture Development B/C/D — exigence contradictoire
+
+**Barème :** A=1, B=5, C=3, D=0.
+
+- **B — 5 points.** B relie résultats métier, décisions Data/App/Tech et exigences, sans nier l'itération. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **C — 3 points.** C est un début utile mais partiel : il pourrait figer des choix de domaine avant réconciliation.
+- **A — 1 point.** Retenir Kafka/PostgreSQL, puis adapter les activités métier à leurs capacités et traiter la résidence des données dans le contrat fournisseur. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
+- **D — 0 point.** Lancer une Gap Analysis Technology isolée pour prouver que la plateforme cible peut répondre à la volumétrie. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+
+**Source de contrôle :** X2202, Practitioner, domaine 4 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
+
+## P5 — Implementing E/F/G — dépendances, valeur et transition
+
+**Barème :** A=1, B=3, C=0, D=5.
+
+- **D — 5 points.** D intègre la dépendance technique, la valeur et le coût transitoire dans le plan approuvé. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **B — 3 points.** B corrige l'ordre critique sans avoir encore une planification justifiée et complète.
+- **A — 1 point.** Faire vérifier les risques et les exceptions dans une Compliance Review anticipée, puis conserver l'ordre des lots déjà souhaité par le sponsor. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
+- **C — 0 point.** Réexaminer la Vision et relancer la totalité des domaines B/C/D pour éviter tout risque d'erreur de priorisation. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+
+**Source de contrôle :** X2202, Practitioner, domaine 5 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
+
+## P6 — Phase H — adaptation réglementaire après déploiement
+
+**Barème :** A=5, B=3, C=1, D=0.
+
+- **A — 5 points.** H décide sur la magnitude du changement, sans présupposer un re-architecting ou un petit patch. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **B — 3 points.** B est pertinent mais incomplet car la classification et les dépendances ne sont pas encore vérifiées.
+- **C — 1 point.** Déployer l'interface proposée par une filiale puisqu'elle est déjà utilisée en production ; son existence constitue une validation suffisante. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
+- **D — 0 point.** Reporter le changement au cycle annuel de roadmap afin de limiter le nombre d'exceptions. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+
+**Source de contrôle :** X2202, Practitioner, domaine 6 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
+
+## P7 — Requirements Management — disponibilité contradictoire
+
+**Barème :** A=1, B=5, C=3, D=0.
+
+- **B — 5 points.** Une exigence vérifiable et tracée est nécessaire pour comparer des solutions coûteuses. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **C — 3 points.** C reconnaît l'ambiguïté mais laisse l'impact architectural ouvert.
+- **A — 1 point.** Retenir l'interprétation la moins coûteuse, puis faire accepter le risque résiduel par le métier au moment du déploiement. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
+- **D — 0 point.** Reporter l'interprétation détaillée à la Phase G, lorsque les mécanismes techniques de failover seront implémentés. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+
+**Source de contrôle :** X2202, Practitioner, domaine 7 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
+
+## P8 — Supporting ADM Work — réutilisation conditionnelle
+
+**Barème :** A=1, B=0, C=5, D=3.
+
+- **C — 5 points.** La réutilisation doit être contextualisée ; l'approbation historique ne vaut pas approbation de la nouvelle Target. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **D — 3 points.** D vérifie des facteurs réels mais laisse une part essentielle du risque non évaluée.
+- **A — 1 point.** Redéfinir toute l'architecture à partir de zéro, car un pattern de référence ancien ne peut plus être compatible avec les contraintes actuelles. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
+- **B — 0 point.** Adopter le modèle existant sans analyse puisque le Board l'a déjà approuvé ; mettre à jour uniquement les versions de produits. L'action manque le problème central ou abandonne une gouvernance nécessaire.
+
+**Source de contrôle :** X2202, Practitioner, domaine 8 ; TOGAF Standard 10th Edition, ADM et ses pratiques applicables.
 
 ## Diagnostic
 
-Si Part 1 <24 : retravailler les concepts/ADM avant de refaire le mock. Si Part 2 <24 : retravailler surtout `07-practitioner/` et la banque `10-practitioner-scenarios/`.
+Réviser les huit domaines Practitioner selon les erreurs de contexte, d'arbitrage et de séquencement ; ne pas juger la préparation à partir du seul score.
