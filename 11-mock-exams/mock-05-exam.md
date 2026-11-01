@@ -63,7 +63,7 @@ A. Réaliser uniquement une Compliance Assessment après la mise en production d
 **Q19.** Une exigence de conformité change en cours de migration et affecte les phases précédentes. Quel rôle joue Requirements Management ?
 A. Il intervient de manière transversale, avec analyse et traçabilité des impacts sur les phases pertinentes.  B. Phase A uniquement — figer les exigences à l'approbation de la Vision  C. Phase G uniquement — vérifier seulement les exigences à la réception  D. Phase H exclusivement — traiter toute requirement après la mise en service
 
-**Q20.** Le projet découvre un besoin nouveau en Phase C après validation initiale de la Vision. Quelle affirmation sur l'ADM est correcte ?
+**Q20.** Les équipes agiles découvrent un besoin métier supplémentaire pendant la conception de la cible, après le cadrage initial. Quel comportement ADM permet de tenir compte de ce besoin ?
 A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
 **Q21.** Le programme identifie l'absence d'un service de vérification dans la Baseline, alors que la Target l'exige. Quelle technique décrit cette différence ?
@@ -120,7 +120,7 @@ A. Artifact — représentation telle que Catalog, Matrix ou Diagram  B. Deliver
 **Q38.** Dans une Architecture Definition Document, une matrice Application/Data décrit des interactions entre services et entités. Quel statut a-t-elle dans le Content Framework ?
 A. C'est obligatoirement un SBB, puisque les lignes sont des systèmes informatiques.  B. C'est un artifact de type Matrix intégré au deliverable ADD.  C. C'est une Transition Architecture définissant un état architectural complet.  D. C'est un Architecture Contract car elle décrit des interactions entre équipes.
 
-**Q39.** Une capacité de messagerie abstraite peut être réalisée par une plateforme particulière. Quelle distinction ABB / SBB est correcte ?
+**Q39.** Dans une banque corporate, le besoin d'archivage réglementaire est décrit indépendamment du produit, avant sélection d'une plateforme. Quelle relation ABB/SBB retenir ?
 A. L'ABB est le produit précis et le SBB le besoin indépendant de toute solution  B. ABB et SBB sont synonymes dès qu'une solution est approuvée  C. L'ABB décrit la capacité architecturale, et le SBB une solution spécifique candidate ou choisie.  D. Le SBB est toujours une capability métier, tandis que l'ABB est une technologie
 
 **Q40.** Dans une banque corporate, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Dans un dossier comprenant inventaire, relations et flux, quelle association d'artifacts est correcte ?
