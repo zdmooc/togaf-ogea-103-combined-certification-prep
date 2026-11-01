@@ -160,6 +160,42 @@ if len(lengths) == 300:
 else:
     check(False, f'Answer-length QA parsed {len(lengths)} of 300 questions')
 
+
+# Also detect the reverse cue in combined mocks: correct choice systematically shortest.
+mock_lengths = []
+for n in range(1, 7):
+    exam = (root / '11-mock-exams' / f'mock-0{n}-exam.md').read_text(encoding='utf-8')
+    correction = (root / '11-mock-exams' / 'corrections' / f'mock-0{n}-correction.md').read_text(encoding='utf-8')
+    keys = {int(i): l for i, l in re.findall(r'^(\d+)\.\s+\*\*([ABCD])\*\*', correction, re.M)}
+    foundation = exam.split('# Part 2')[0]
+    blocks = re.split(r'(?=^\*\*Q\d+\.\*\*)', foundation, flags=re.M)[1:]
+    for block in blocks:
+        header = re.search(r'^\*\*Q(\d+)\.\*\*', block)
+        if not header or int(header[1]) not in keys:
+            check(False, f'Mock {n} has missing Foundation answer key')
+            continue
+        qid = int(header[1])
+        opts = dict(re.findall(r'(?:^|\n| {2})([ABCD])\.\s+([^A-D\n]+?)(?=\s{2}[ABCD]\.\s+|\n|$)', block))
+        # The last item is parsed separately to avoid a shorter/longer terminal capture.
+        if len(opts) != 4:
+            segments = re.split(r'(?=(?:^|\n| {2})[ABCD]\.\s+)', block)
+            check(False, f'Mock {n} Q{qid}: failed to parse options for length analysis')
+            continue
+        lengths = {l: len(v.strip()) for l, v in opts.items()}
+        correct_len = lengths[keys[qid]]
+        other_mean = sum(v for l, v in lengths.items() if l != keys[qid]) / 3
+        mock_lengths.append((correct_len, other_mean, min(lengths.values())))
+if len(mock_lengths) == 240:
+    shortest_share = sum(a == short for a, other, short in mock_lengths) / 240
+    mean_ratio = sum(a / other for a, other, short in mock_lengths) / 240
+    check(shortest_share <= 0.45,
+          f'Mock reverse answer-length cue: shortest answer {shortest_share:.1%}')
+    check(0.80 <= mean_ratio <= 1.30,
+          f'Mock reverse answer-length ratio {mean_ratio:.2f}')
+    print(f'Mock answer-length QA: shortest={shortest_share:.1%}, mean ratio={mean_ratio:.2f}')
+else:
+    check(False, f'Mock answer-length QA parsed {len(mock_lengths)}/240')
+
 print('Foundation', len(fids), Counter(fanswers))
 print('Practitioner', len(pids), Counter(pbest))
 print('6 Combined mock exams checked')
