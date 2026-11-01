@@ -21,11 +21,11 @@ D. Architecture Governance et Project Governance se confondent quand le sponsor 
 
 ## Q243 — Architecture Board
 Le rôle principal d'un Architecture Board est :
-A. Développer tout le code
-B. Prioriser les activités quotidiennes de développement des squads
+A. Approuver chaque choix de réalisation technique et chaque tâche de développement
+B. Séquencer toutes les activités de projet à la place des responsables de delivery
 C. Arbitrer et gouverner les décisions d'architecture significatives
-D. Remplacer toutes les équipes projet
-**Réponse : C.** Le Board fournit un forum de décision et de conformité. A/B/D sont opérationnels ou excessifs.
+D. Définir seul les requirements métier sans les stakeholders et les architectes de domaine
+**Réponse : C.** L'Architecture Board arbitre les décisions architecturales significatives. A relève de la conception détaillée, B du pilotage de livraison et D court-circuite les responsabilités métier et les architectes de domaine.
 **Distracteur B :** Le Board porte sur les grandes décisions et la conformité, non le management quotidien des équipes.
 **Mapping : Architecture Governance — Architecture Board.**
 
@@ -150,10 +150,10 @@ D. Pour tracer décisions, reviews, exceptions et responsabilités
 ## Q257 — Escalation
 Une équipe ne peut résoudre un conflit architectural local. Que faire ?
 A. Escalader selon le modèle de governance prévu
-B. Décider secrètement
-C. Conserver les décisions locales contradictoires sans solliciter l'autorité d'arbitrage
-D. Supprimer le stakeholder concerné
-**Réponse : A.** L'escalation vers l'autorité appropriée protège cohérence et traçabilité.
+B. Faire ratifier l'option par le seul responsable de livraison, même si l'impact dépasse son périmètre
+C. Conserver les décisions de chaque domaine en attendant une éventuelle revue annuelle
+D. Documenter les deux options dans le Repository sans demander de décision à l'autorité compétente
+**Réponse : A.** Une divergence transverse se traite selon l'escalation prévue. B manque d'autorité, C reporte la décision et D confond documentation avec arbitrage ; aucun ne résout le conflit.
 **Mapping : Architecture Governance — Escalation.**
 
 ## Q258 — Governance principles
