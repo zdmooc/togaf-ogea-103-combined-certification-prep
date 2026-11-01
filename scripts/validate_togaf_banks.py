@@ -93,9 +93,9 @@ practitioner_targeted = set(re.findall(r'^## (XP\d\d)\b', practitioner_cases, re
 advanced_targeted_cases = (root / '10-practitioner-scenarios' / '11-x2202-gap-closure-scenarios.md').read_text(encoding='utf-8')
 advanced_targeted = set(re.findall(r'^## (XP\d\d)\b', advanced_targeted_cases, re.M))
 check(advanced_targeted == {f'XP{i:02d}' for i in range(5, 18)}, f'Expected 13 XP05–XP17 cases: {advanced_targeted}')
-practitioner_targeted |= advanced_targeted
 check(foundation_targeted == {'XF01', 'XF02'}, f'Unexpected Foundation targeted drills: {foundation_targeted}')
 check(practitioner_targeted == {'XP01', 'XP02', 'XP03', 'XP04'}, f'Unexpected Practitioner targeted cases: {practitioner_targeted}')
+practitioner_targeted |= advanced_targeted
 
 for row in re.findall(r'^\| L[12]\.\d+\.\d+ \|[^\n]+$', trace, re.M):
     cells = [c.strip() for c in row.split('|')[1:-1]]
