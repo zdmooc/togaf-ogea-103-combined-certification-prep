@@ -58,7 +58,7 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 **Barème :** A=5, B=3, C=1, D=0.
 
 - **A — 5 points.** L'absence de gouvernance commune est un risque systémique ; la bonne réponse réutilise la capacité existante et rend l'autorité des décisions explicite. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
-- **B — 3 points.** La proposition A autorise un travail préparatoire utile mais reporte l'arbitrage critique.
+- **B — 3 points.** La proposition B autorise un travail préparatoire utile mais reporte l'arbitrage critique.
 - **C — 1 point.** Utiliser le cadre de gouvernance du fournisseur retenu comme procédure provisoire, puis demander son adoption par les deux filiales. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
 - **D — 0 point.** Annuler la Target en cours et relancer systématiquement un Preliminary complet pour toutes les entités, avant toute autre activité d'architecture. L'action manque le problème central ou abandonne une gouvernance nécessaire.
 
@@ -90,7 +90,7 @@ Chaque scénario suit le barème pédagogique 5/3/1/0. Ces classements ne corres
 
 **Barème :** A=1, B=0, C=3, D=5.
 
-- **D — 5 points.** B relie résultats métier, décisions Data/App/Tech et exigences, sans nier l'itération. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
+- **D — 5 points.** D relie résultats métier, décisions Data/App/Tech et exigences, sans nier l'itération. La décision intègre les contraintes prioritaires dans le bon ordre ADM.
 - **C — 3 points.** C est un début utile mais partiel : il pourrait figer des choix de domaine avant réconciliation.
 - **A — 1 point.** Retenir Kafka/PostgreSQL, puis adapter les activités métier à leurs capacités et traiter la résidence des données dans le contrat fournisseur. L'action ne traite qu'un angle ou repose sur une hypothèse non vérifiée.
 - **B — 0 point.** Lancer une Gap Analysis Technology isolée pour prouver que la plateforme cible peut répondre à la volumétrie. L'action manque le problème central ou abandonne une gouvernance nécessaire.
