@@ -62,11 +62,11 @@ A. Phase B  B. Phase G  C. Phase A  D. Phase C
 **Q18.** Une architecture en service est concernée par une réglementation qui peut nécessiter une nouvelle capacité métier. Quelle décision de Phase H est correcte ?
 A. Réaliser uniquement une Compliance Assessment après la mise en production du changement.  B. Faire modifier directement la Technology Architecture sans analyser les besoins métier et data.  C. Évaluer le changement, les impacts et la magnitude avant de sélectionner les activités ADM à rouvrir.  D. Classer systématiquement la demande comme simplification car elle provient d'une autorité réglementaire.
 
-**Q19.** Requirements Management est :
-A. Une activité continue autour de l'ADM  B. Une étape uniquement après D  C. Une technique de migration  D. Un domaine d'architecture
+**Q19.** Une exigence de disponibilité change durant Phase F et affecte plusieurs architecture building blocks. Quelle affirmation sur Requirements Management est correcte ?
+A. Il intervient de manière transversale, avec analyse et traçabilité des impacts sur les phases pertinentes.  B. Il s'arrête dès qu'une Architecture Vision a été approuvée.  C. Il remplace entièrement la Phase H après mise en production.  D. Il ne concerne que la Target Technology Architecture et pas les work packages.
 
-**Q20.** Quelle affirmation sur l'ADM est correcte ?
-A. Il est figé  B. Il peut être itéré et adapté au contexte  C. Il interdit plusieurs niveaux d'architecture  D. Il ne traite pas le métier
+**Q20.** La Data Architecture d'un programme révèle une dépendance applicative ignorée lors de la Vision. Quelle affirmation sur l'ADM est correcte ?
+A. Il est toujours figé après la première review de Phase A.  B. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.  C. Il impose d'interdire les itérations entre Data et Application.  D. Il se limite à la Technology Architecture lorsque le projet utilise Agile.
 
 **Q21.** Une Gap Analysis identifie :
 A. Les sponsors  B. Les fournisseurs  C. Les views  D. Les différences pertinentes entre Baseline et Target
@@ -130,11 +130,11 @@ A. Un Artifact  B. Une phase  C. Un SBB  D. Un Principle
 **Q38.** Dans une Architecture Definition Document, une matrice Application/Data décrit des interactions entre services et entités. Quel statut a-t-elle dans le Content Framework ?
 A. C'est obligatoirement un SBB, puisque les lignes sont des systèmes informatiques.  B. C'est un artifact de type Matrix intégré au deliverable ADD.  C. C'est une Transition Architecture définissant un état architectural complet.  D. C'est un Architecture Contract car elle décrit des interactions entre équipes.
 
-**Q39.** Quelle distinction ABB/SBB est correcte ?
-A. ABB est toujours un produit précis  B. SBB est toujours abstrait  C. ABB exprime une capacité architecturale, SBB une solution plus concrète  D. Ils sont synonymes
+**Q39.** Un dossier décrit une capacité générique de traçabilité et envisage une solution de journalisation particulière pour la réaliser. Quelle distinction ABB/SBB est correcte ?
+A. L'ABB est le produit commercial retenu et le SBB le besoin indépendant de technologie.  B. Les deux désignent toujours les matrices de relations entre services.  C. L'ABB décrit la capacité architecturale, et le SBB une solution spécifique candidate ou choisie.  D. Le SBB représente nécessairement une capability métier non technique.
 
-**Q40.** Quelle association est correcte ?
-A. Catalog = relation croisée ; Matrix = visuel ; Diagram = liste  B. Catalog = plan ; Matrix = phase ; Diagram = requirement  C. Ils sont synonymes  D. Catalog = liste, Matrix = relations, Diagram = représentation visuelle
+**Q40.** Un dossier doit montrer une liste des acteurs, leurs relations aux systèmes et un schéma des échanges. Quelle association est correcte ?
+A. Catalog = SBB, Matrix = Architecture Contract, Diagram = Transition Architecture.  B. Catalog = plan de migration, Matrix = objectif métier, Diagram = compliance evidence.  C. Les trois objets sont synonymes dès lors qu'ils figurent dans l'Architecture Definition Document.  D. Catalog = liste, Matrix = relations, Diagram = représentation visuelle.
 
 # Part 2 — Practitioner : huit cas multi-contraintes
 
