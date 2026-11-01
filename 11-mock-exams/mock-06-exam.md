@@ -7,124 +7,124 @@
 ## Concepts
 
 **Q1.** Dans une fédération bancaire, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quelle description correspond le mieux à l'Enterprise Architecture ?
-A. L'état actuel pertinent  B. Un Deliverable est un produit de travail formel pouvant comprendre plusieurs artifacts.  C. Une discipline permettant d'aligner structure, capacités et transformation de l'entreprise  D. Une règle directrice générale pour les décisions
+A. Contrôler les produits déployés sans relier les décisions aux capacités de l'entreprise  B. Se limiter à la planification détaillée des releases des projets déjà retenus  C. Une discipline permettant d'aligner structure, capacités et transformation de l'entreprise  D. Remplacer les arbitrages métier par l'approbation de la Technology Architecture
 
 **Q2.** Operations est affecté par les nouveaux services d'astreinte mais ne finance pas le programme. Quel énoncé décrit correctement son statut de stakeholder ?
-A. Une personne, un groupe ou une organisation ayant un intérêt dans ou étant affecté par l'architecture  B. À l'état futur souhaité  C. Enterprise Continuum  D. Une préoccupation d'un stakeholder
+A. Une personne, un groupe ou une organisation ayant un intérêt dans ou étant affecté par l'architecture  B. Sponsor — autorité budgétaire exclusivement, sans autre partie concernée  C. Architecte — seul acteur participant à la production des vues de Target  D. Requirement — condition vérifiable consignée dans la spécification
 
 **Q3.** Quel énoncé présente correctement l'apport de l'Enterprise Continuum à une équipe qui souhaite réutiliser une architecture de référence ?
 A. Il remplace l'Architecture Repository comme entrepôt physique unique de fichiers.  B. Il définit automatiquement la liste des work packages financés dans le Migration Plan.  C. Il impose de sélectionner un fournisseur unique pour chaque ABB générique.  D. Il aide à classifier et contextualiser des assets génériques ou spécifiques sans se confondre avec leur stockage.
 
 **Q4.** Dans une fédération bancaire, le comité examine les acteurs, états et référentiels pour orienter la transformation. Le DPO s'inquiète de la résidence des données avant la définition des exigences. Comment qualifier cette préoccupation ?
-A. La capacité organisationnelle à pratiquer et gouverner l'architecture  B. Une préoccupation d'un stakeholder  C. Un état architectural intermédiaire cohérent vers la Target  D. Un arbitrage cohérent reliant objectifs d'entreprise, choix d'architecture et impacts.
+A. Requirement — une condition formelle mesurable que la cible doit respecter  B. Une préoccupation d'un stakeholder  C. Viewpoint — une convention permettant de construire et interpréter une vue  D. Business Driver — une force qui motive une transformation de l'entreprise
 
 **Q5.** Dans une fédération bancaire, le comité examine les acteurs, états et référentiels pour orienter la transformation. Un Architecture Principle doit surtout :
-A. Baseline = état actuel pertinent ; Target = état futur souhaité  B. Rôles, compétences, gouvernance, processus et moyens permettant de pratiquer l'architecture  C. Guider les décisions d'une manière cohérente et durable  D. Une business capability, définie indépendamment d'un produit ou d'une implémentation.
+A. Requirement — condition vérifiable propre au périmètre d'une solution  B. SBB — composant retenu pour réaliser une capacité architecturale  C. Guider les décisions d'une manière cohérente et durable  D. Viewpoint — convention choisie pour exposer les concerns
 
 **Q6.** Un référentiel contient standards, exigences, landscape et décisions d'exception. Quel composant sert principalement à enregistrer des décisions de gouvernance et dérogations ?
 A. Governance Log, au sein des éléments logiques de l'Architecture Repository.  B. Reference Library, qui remplace les décisions locales par des patterns externes.  C. Architecture Metamodel, contenant les instances historiques de chaque dérogation approuvée.  D. Solutions Landscape, où toute exception se transforme automatiquement en solution déployée.
 
 **Q7.** Dans une fédération bancaire, le comité examine les acteurs, états et référentiels pour orienter la transformation. Architecture Capability inclut notamment :
-A. Une règle directrice durable pour les décisions  B. Un Deliverable est un produit de travail formel pouvant comprendre plusieurs artifacts.  C. Mettre en relation capabilities, interdépendances et valeur des initiatives afin de sélectionner une trajectoire cohérente.  D. Rôles, compétences, gouvernance, processus, repository et pratiques
+A. Architecture Vision — direction approuvée d'un programme spécifique  B. Technology Standards — liste des plateformes et produits autorisés  C. Architecture Requirements Specification — exigences d'une seule cible  D. Rôles, compétences, gouvernance, processus, repository et pratiques
 
 **Q8.** Dans une fédération bancaire, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quelle relation entre Baseline, Target et Gap décrit la transformation ?
-A. Une règle directrice générale pour les décisions  B. Architecture Repository  C. Baseline → Target → Gap  D. Il aide à classifier et contextualiser des assets génériques ou spécifiques sans se confondre avec leur stockage.
+A. Target Architecture — architecture future envisagée après les changements  B. Transition Architecture — état intermédiaire cohérent avant la cible  C. Baseline Architecture — état actuel pertinent de l'entreprise  D. Architecture Roadmap — trajectoire des lots et états successifs
 
 **Q9.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quel est le but majeur de Preliminary ?
-A. Préparer la capacité et le cadre dans lesquels l'architecture sera pratiquée  B. Une vue structurée de la trajectoire et des principaux changements  C. Phase C Data  D. Phase E
+A. Préparer la capacité et le cadre dans lesquels l'architecture sera pratiquée  B. Phase A — établir Vision, scope et Statement of Architecture Work  C. Phase E — définir options, work packages et transitions candidates  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
 **Q10.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle phase établit principalement la Vision et obtient l'alignement initial des stakeholders ?
-A. Phase F  B. A  C. Soutenir et tracer les requirements pendant tout l'ADM  D. Transition Architecture
+A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase A — cadrage et Architecture Vision  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** Un programme possède une Vision mais les processus et capabilities métier nécessaires aux résultats attendus ne sont pas définis. Quelle phase est prioritaire ?
 A. Phase D, Technology Architecture, parce que la Vision identifie déjà les drivers métier.  B. Phase F, Migration Planning, pour financer d'abord les outils déjà proposés.  C. Phase B, Business Architecture, pour définir les capacités métier, processus et gaps pertinents.  D. Phase G, Implementation Governance, pour demander une Compliance Review aux équipes applicatives.
 
 **Q12.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle phase traite principalement les modèles de données, ownership et flux d'information ?
-A. Phase G  B. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.  C. Préparer la capacité et le cadre dans lesquels l'architecture sera pratiquée  D. C Data
+A. Phase B — structurer capabilities et processus métiers de la cible  B. Phase C Application — décrire services applicatifs et leurs interactions  C. Phase D — définir plateformes et services technologiques nécessaires  D. Phase C Data — modèles, propriété et gouvernance des données
 
 **Q13.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle phase traite principalement les services applicatifs et leur coopération ?
-A. C Application  B. A  C. D  D. G
+A. Phase C Application — services et interactions applicatifs  B. Phase B — définir services et processus métier indépendants des applications  C. Phase C Data — préciser propriété et cycle de vie de l'information  D. Phase D — détailler le socle et les services technologiques
 
 **Q14.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle phase développe principalement les plateformes et services technologiques cibles ?
-A. Architecture Change Management en Phase H, pour réévaluer drivers, impacts et magnitude du changement.  B. D  C. Métier, Data, Application ou Technology selon la comparaison Baseline/Target  D. Cadrer l'engagement et établir l'Architecture Vision
+A. Phase C Data — gouverner les entités et les flux d'information  B. Phase D — plateformes, services technologiques et infrastructure  C. Phase C Application — modéliser services et contrats applicatifs  D. Phase E — agréger les gaps en work packages et transitions
 
 **Q15.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. À quel moment transforme-t-on les gaps en grandes options de solution et work packages candidats ?
-A. Une Target Business Architecture distinguant capacités, processus et services métier de l'application actuelle.  B. Phase D  C. E  D. Évaluer et classifier le changement, puis déterminer les activités ADM à rouvrir selon les impacts et la gouvernance.
+A. Phase F — confirmer l'ordre et le plan détaillé de la migration  B. Phase G — vérifier la conformité des éléments déjà implémentés  C. Phase E — options, work packages et Transition Architectures  D. Phase C Application — définir les interactions applicatives de cible
 
 **Q16.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. À quel moment priorise-t-on les projets et définit-on leur séquence de migration ?
-A. Transversal à l'ADM  B. Roadmap montre la trajectoire ; Migration Plan détaille priorisation et séquencement  C. La Target Business Architecture de Phase B, alimentant ensuite Data/Application/Technology.  D. F
+A. Phase E — élaborer les options de solution et premiers lots  B. Phase G — suivre les écarts de conformité pendant le delivery  C. Phase H — évaluer les changements de l'architecture en service  D. Phase F — séquencement et plan détaillé de migration
 
 **Q17.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. À quel moment la conformité de l'implémentation à l'architecture approuvée est-elle au premier plan ?
-A. G  B. Phase C Data  C. Transformer les gaps en options de solution, work packages et Transition Architectures  D. Maintient, analyse et trace les exigences tout au long de l'ADM
+A. Phase G — conformité et gouvernance de la réalisation  B. Phase F — prioriser les vagues de l'Implementation and Migration Plan  C. Phase H — évaluer l'impact des demandes après mise en service  D. Preliminary — définir principes et capacité de gouvernance
 
 **Q18.** Après la mise en production, les KPI révèlent que l'architecture ne répond plus aux nouveaux objectifs de l'entreprise. Quelle activité est la plus appropriée ?
 A. Architecture Compliance en Phase G uniquement, pour vérifier les produits utilisés et maintenir la Target.  B. Requirements Management exclusivement, sans analyse de nouveaux business drivers.  C. Architecture Change Management en Phase H, pour réévaluer drivers, impacts et magnitude du changement.  D. Architecture Contract, qui interdit toute modification après signature par les parties prenantes.
 
 **Q19.** Une requirement modifiée affecte Data Architecture et les waves de migration. Quelle affirmation sur Requirements Management est correcte ?
-A. Phase C Application  B. Phase F  C. Des itérations entre domaines et phases selon les besoins  D. Interagit avec toutes les phases ADM
+A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Phase G uniquement — vérifier seulement les exigences à la réception  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Interagit avec toutes les phases ADM
 
 **Q20.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quand peut-on revenir sur une phase ADM après de nouveaux résultats ?
-A. Les changements à traiter et futurs work packages  B. Elle permet de revisiter phases/domaines lorsque l'apprentissage ou le changement l'exige  C. Phase A  D. Phase C Application
+A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. Elle permet de revisiter phases/domaines lorsque l'apprentissage ou le changement l'exige  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
 **Q21.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Un Gap peut être :
-A. Phase D  B. Phase G  C. Métier, Data, Application ou Technology selon la comparaison Baseline/Target  D. L'ADM permet tailoring, itérations et travail concurrent sous gouvernance appropriée.
+A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Métier, Data, Application ou Technology selon la comparaison Baseline/Target  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q22.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quel élément montre comment des états intermédiaires et changements conduisent vers la cible ?
-A. Architecture Roadmap  B. Gap  C. Développer la Target Business Architecture avant de dériver Data/Application/Technology et leurs gaps.  D. Phase D
+A. Architecture Roadmap — trajectoire de transformation vers la cible  B. Architecture Requirements Specification — conditions vérifiables de cible  C. Architecture Contract — engagements entre acteurs de réalisation  D. Implementation and Migration Plan — tâches et dates détaillées des waves
 
 **Q23.** Une transformation exige une interopérabilité entre deux organisations dont les règles de rapprochement diffèrent. Quelle analyse est la plus complète ?
 A. Examiner Business/Operational, Information et Technical interoperability, ainsi que leurs dépendances.  B. Mesurer uniquement la compatibilité des protocoles et des versions de composants.  C. Examiner l'Implementation Factor Catalog comme substitut des accords de données et de processus.  D. Exiger que les deux entités utilisent le même SBB et considérer la conformité acquise.
 
 **Q24.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Décrire une situation métier afin de dériver des requirements relève de :
-A. Migration Planning Techniques  B. Business Transformation Readiness  C. Business Scenarios  D. Examiner Business/Operational, Information et Technical interoperability, ainsi que leurs dépendances.
+A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B. Compliance Review — vérification des solutions construites  C. Business Scenarios — besoin métier contextualisé et requirements  D. Migration Planning — hiérarchisation de lots et de dépendances
 
 **Q25.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Identifier ce qui existe en Baseline mais pas en Target, ou inversement, relève de :
-A. Business Scenarios  B. Gap Analysis  C. Migration Planning Techniques  D. Business Transformation Readiness Assessment
+A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Gap Analysis — analyse des écarts entre Baseline et Target  C. Architecture Contract — contractualiser obligations et critères de conformité  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q26.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer les obstacles culturels, humains et organisationnels relève de :
-A. Risk Management  B. Business Scenarios  C. Migration Planning Techniques  D. Business Transformation Readiness
+A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness
 
 **Q27.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer menaces et opportunités incertaines pouvant affecter les objectifs relève de :
-A. Risk Management  B. Business Transformation Readiness Assessment, reliée aux actions préparatoires de la roadmap.  C. Business Scenarios  D. Migration Planning Techniques
+A. Risk Management — identification, analyse et traitement des risques  B. Gap Analysis — différences entre les états existant et cible  C. Readiness Assessment — facteurs de compétences et capacité d'adoption  D. Compliance Review — vérification des exigences d'une solution réalisée
 
 **Q28.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Prioriser des initiatives selon business value, dependencies et readiness relève surtout de :
-A. Business Transformation Readiness  B. Migration Planning Techniques  C. Business Scenarios  D. Risk Management
+A. Business Scenarios — formulation des besoins et outcomes métier  B. Migration Planning Techniques — priorisation et dépendances  C. Gap Analysis — identification des différences entre existant et cible  D. Architecture Principles — règles de décision durables, non séquencement
 
 **Q29.** Dans une fédération bancaire, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Le tailoring doit être :
-A. Elle est intégrée transversalement aux requirements, risques, architectures et gouvernance  B. L'ADM peut être tailorable, itératif et synchronisé avec des incréments de delivery  C. Une adaptation consciente de l'ADM aux besoins et contraintes de l'organisation  D. L'ADM peut être adapté et itéré pour soutenir un delivery incrémental
+A. Partitioning — délimiter des espaces d'architecture et interfaces  B. Scoping — choisir breadth, depth, domains et horizon d'un travail  C. Une adaptation consciente de l'ADM aux besoins et contraintes de l'organisation  D. Compliance Assessment — vérifier le respect de la Target livrée
 
 **Q30.** Une entreprise doit articuler architecture d'entreprise et delivery produit itératif. Quel comportement ADM est pertinent ?
 A. Conserver des principes et une Vision cohérents tout en itérant sur les domaines et exigences selon les retours des produits.  B. Finaliser chaque phase une seule fois puis interdire toute modification des exigences.  C. N'utiliser que Phase G, puisque les décisions doivent être prises exclusivement par le delivery Agile.  D. Supprimer les viewpoints car un backlog suffit à fournir toutes les représentations nécessaires.
 
 **Q31.** Dans une fédération bancaire, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Partitioning aide principalement à :
-A. Breadth, depth, architecture domains et time period, avec justification par les décisions attendues.  B. Organiser les espaces d'architecture, responsabilités et interfaces  C. Tailorer l'ADM, autoriser l'itération et maintenir des contrôles proportionnés aux risques et décisions.  D. Conserver des principes et une Vision cohérents tout en itérant sur les domaines et exigences selon les retours des produits.
+A. Scoping — limiter le périmètre et la profondeur d'un seul travail  B. Organiser les espaces d'architecture, responsabilités et interfaces  C. Tailoring — adapter les activités ADM sans définir les espaces de responsabilité  D. Architecture Roadmap — ordonner les changements sans créer les partitions
 
 **Q32.** Dans une fédération bancaire, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Comment articuler l'ADM et le développement Agile ?
-A. Organiser les espaces d'architecture, responsabilités et interfaces  B. Partitioning  C. Peut être adapté pour soutenir décisions rapides, plateformes et produits numériques  D. L'ADM peut être tailorable, itératif et synchronisé avec des incréments de delivery
+A. Terminer définitivement B, C et D avant toute livraison produit  B. Supprimer les requirements et la gouvernance à partir du premier sprint  C. Limiter l'ADM à Phase G en considérant le backlog comme unique architecture  D. L'ADM peut être tailorable, itératif et synchronisé avec des incréments de delivery
 
 **Q33.** Dans une fédération bancaire, le Board doit différencier arbitrage, conformité et exceptions. L'Architecture Board est principalement :
-A. Architecture Compliance Review  B. Architecture Contract précisant engagements, responsabilités et critères de conformité convenus.  C. Une autorité de gouvernance et d'arbitrage  D. Évaluer la conformité d'une implémentation à l'architecture approuvée
+A. Project Steering Committee — pilotage coûts et délais uniquement  B. Requirements Manager — traçabilité mais pas acceptation des exceptions  C. Une autorité de gouvernance et d'arbitrage  D. Fournisseur — approbation autonome de ses propres non-conformités
 
 **Q34.** Un Architecture Board doit suivre la conformité de plusieurs équipes et gérer les exceptions. Quel mécanisme fournit un lien formel avec les équipes de réalisation ?
 A. Architecture Contract précisant engagements, responsabilités et critères de conformité convenus.  B. Architecture Roadmap, qui tient lieu d'accord détaillé de conformité avec chaque fournisseur.  C. Architecture Vision, dont l'approbation remplace toute revue de l'implémentation.  D. Architecture Metamodel, qui accepte automatiquement les demandes de dérogation.
 
 **Q35.** Dans une fédération bancaire, le Board doit différencier arbitrage, conformité et exceptions. Quand une implémentation s'écarte d'un standard, la meilleure pratique est :
-A. Enregistrer l'écart, mesurer ses impacts et soumettre la dérogation ou correction à l'autorité compétente.  B. Le documenter, analyser son impact et le soumettre au processus de gouvernance approprié  C. Arbitrer et gouverner les décisions d'architecture  D. Arbitrer et tracer conformité, exceptions et responsabilités selon un cadre approuvé.
+A. Accepter implicitement l'écart dès que le sponsor confirme la date  B. Le documenter, analyser son impact et le soumettre au processus de gouvernance approprié  C. Modifier automatiquement la Target pour correspondre au déploiement  D. Supprimer la requirement non satisfaite de l'Architecture Requirements Specification
 
 **Q36.** Dans une fédération bancaire, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Quel terme désigne un produit de travail formel pouvant contenir plusieurs artifacts ?
-A. Une View répond à des concerns selon une Viewpoint  B. Une matrice montrant les relations entre éléments de deux catégories.  C. Artifact  D. Deliverable
+A. Artifact — représentation individuelle de type catalogue ou diagramme  B. SBB — composant de solution réalisant une capacité définie  C. Viewpoint — convention de représentation d'une view  D. Deliverable — produit de travail formel soumis à revue
 
 **Q37.** Dans une fédération bancaire, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Quel terme désigne une représentation telle qu'un Catalog, Matrix ou Diagram ?
-A. Artifact  B. Définir les types d'entités architecturales et leurs relations  C. L'ABB décrit la capacité architecturale, et le SBB une solution spécifique candidate ou choisie.  D. Catalog = liste structurée, Matrix = relations, Diagram = représentation visuelle
+A. Artifact — représentation telle que Catalog, Matrix ou Diagram  B. Deliverable — produit de travail formel agrégant des représentations  C. SBB — composant concret réalisant des fonctionnalités d'architecture  D. Architecture Contract — obligations de mise en œuvre entre parties
 
 **Q38.** Une équipe doit représenter les services, les capacités métier et leurs relations, puis faire approuver un dossier formel. Quelle distinction est correcte ?
 A. Chaque building block devient un deliverable distinct dès que son diagramme est approuvé.  B. Un deliverable formel peut contenir plusieurs artifacts représentant des building blocks et leurs liens.  C. Un viewpoint représente l'application physique tandis qu'un SBB décrit toujours un process métier.  D. Un Architecture Contract est un type de diagramme et remplace les artifacts de la Target.
 
 **Q39.** Dans une fédération bancaire, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Un SBB :
-A. Content Metamodel  B. Un ABB représente le besoin/capacité architectural et un SBB le moyen de solution envisagé.  C. Correspond généralement à une réalisation plus spécifique d'un besoin architectural  D. Une représentation du contenu architectural
+A. L'ABB est le produit précis et le SBB le besoin indépendant de toute solution  B. ABB et SBB sont synonymes dès qu'une solution est approuvée  C. Correspond généralement à une réalisation plus spécifique d'un besoin architectural  D. Le SBB est toujours une capability métier, tandis que l'ABB est une technologie
 
 **Q40.** Dans une fédération bancaire, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Quel élément décrit les types d'objets architecturaux, attributs et relations pouvant être utilisés dans le contenu ?
-A. Une matrice montrant les relations entre éléments de deux catégories.  B. Artifact  C. Une View répond à des concerns en suivant la convention spécifiée par une Viewpoint.  D. Content Metamodel
+A. Architecture Roadmap — jalons et transformations de la cible  B. Enterprise Continuum — classification du générique vers le spécifique  C. Architecture Contract — obligations entre les parties de réalisation  D. Content Metamodel — types d'entités et leurs relations
 
 # Part 2 — Practitioner : huit cas multi-contraintes
 
