@@ -45,6 +45,14 @@ Chaque *learning outcome* doit obtenir (1) une référence du cours avec explica
 
 La sélection des distracteurs reste une revue **qualitative** : une longueur comparable ne garantit ni unicité de la bonne réponse, ni distracteur plausible. Les corrections ont réduit une anomalie détectable, pas étalonné l'examen. Les **28 scénarios XP05–XP32** ciblent des objectifs insuffisamment évalués par la banque d'origine ; **31 associations** de la matrice ont été renforcées avec ces cas dédiés. L'examen en français : OGEA-F101 / OGEA-F102 ; aucun Combined français listé dans la table publique consultée au 1er novembre 2026. Sources dans `02-exam-format-and-policies.md`.
 
+## Résultats supplémentaires du contrôle final de contenu
+
+- [x] Foundation 7.3 : **16 livrables** vérifiés dans le syllabus et décrits dans le cours ; 16 QCM `D01–D16` avec corrigés dédiés.
+- [x] Glossaire Foundation 2.1 : terme `Digital Architecture` rétabli.
+- [x] Contrôle CI complémentaire sur **140 scénarios Practitioner** et **16 exercices de livrables** (présence des options, quatre notes, justifications et clés).
+- [x] Écran lexical contre les formulations inter-examens presque identiques, après retrait des introductions génériques ; ce contrôle ne garantit pas l'unicité sémantique.
+- [ ] Étalonnage indépendant de la qualité des distracteurs et de l'adéquation au niveau Bloom réel ; voir `FINAL_AUDIT.md`.
+
 ## Critères de sortie bloquants
 
 - [x] 130 objectifs évaluables disposent de références candidates exactes vers un cours et des exercices ; les dossiers comportent des corrigés. **À vérifier encore : adéquation au wording officiel, au niveau Bloom et à la référence TOGAF exacte pour chaque association.**
