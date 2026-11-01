@@ -32,8 +32,9 @@ Phase H permet d’éviter deux extrêmes :
 ```mermaid
 flowchart LR
 G[Phase G\nImplementation Governance] --> H[Phase H\nArchitecture Change Management]
-H -->|major change| A[New ADM cycle / Phase A]
-H -->|minor change| GOV[Governed change]
+H -->|re-architecting| A[New ADM cycle / Phase A]
+H -->|incremental| I[Change governance or partial re-architecting]
+H -->|simplification| GOV[Governed maintenance]
 ```
 
 Phase H boucle donc naturellement vers un nouveau cycle lorsque nécessaire.
@@ -90,7 +91,21 @@ Questions :
 - Remet-il en cause la roadmap ?
 - Nécessite-t-il une nouvelle vision ?
 
-## 8. Minor vs major change
+## 8. Classification de Phase H : Simplification, Incremental, Re-architecting
+
+**La classification utile pour raisonner avec TOGAF :** 
+
+| Classe | Traitement habituel | Exemple |
+|---|---|---|
+| **Simplification change** | Change management gouverné sans refonte globale | Rationalisation limitée de composants sans nouvelles capabilities |
+| **Incremental change** | Maintenance ou **réarchitecture partielle** selon l'impact | Évolution de services et interfaces pour une nouvelle exigence |
+| **Re-architecting change** | Nouveau cycle d'architecture, scope adapté aux changements | Acquisition transformant capacités, domaines et contraintes majeures |
+
+Les mots « mineur » et « majeur » constituent un **raccourci d'évaluation de l'ampleur**, et non la nomenclature complète des trois classes. Les critères doivent être adaptés au contexte, à la valeur, aux stakeholders et au risque. Une requête peut aussi mener à une exemption formellement gouvernée.
+
+**Référence de méthode :** TOGAF ADM, Architecture Change Management (les trois catégories sont aussi documentées dans des publications historiques TOGAF) ; X2202 Practitioner unité 6 vise l'explication de Phase H et de ses suites.
+
+### Lecture simplifiée : mineur vs majeur
 
 Il ne faut pas chercher une règle mécanique universelle. L’organisation doit disposer de critères de gouvernance.
 
