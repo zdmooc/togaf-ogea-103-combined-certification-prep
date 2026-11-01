@@ -16,7 +16,7 @@ A. Une personne, un groupe ou une organisation ayant un intérêt dans ou étant
 A. Il remplace l'Architecture Repository comme entrepôt physique unique de fichiers.  B. Il définit automatiquement la liste des work packages financés dans le Migration Plan.  C. Il impose de sélectionner un fournisseur unique pour chaque ABB générique.  D. Il aide à classifier et contextualiser des assets génériques ou spécifiques sans se confondre avec leur stockage.
 
 **Q4.** Dans une fédération bancaire, le comité examine les acteurs, états et référentiels pour orienter la transformation. Le DPO s'inquiète de la résidence des données avant la définition des exigences. Comment qualifier cette préoccupation ?
-A. Requirement — une condition formelle mesurable que la cible doit respecter  B. Une préoccupation d'un stakeholder  C. Viewpoint — une convention permettant de construire et interpréter une vue  D. Business Driver — une force qui motive une transformation de l'entreprise
+A. Requirement — une condition formelle mesurable que la cible doit respecter  B. Concern — préoccupation d'un stakeholder que l'architecture doit examiner et représenter  C. Viewpoint — une convention permettant de construire et interpréter une vue  D. Business Driver — une force qui motive une transformation de l'entreprise
 
 **Q5.** Dans une fédération bancaire, le comité examine les acteurs, états et référentiels pour orienter la transformation. Un Architecture Principle doit surtout :
 A. Requirement — condition vérifiable propre au périmètre d'une solution  B. SBB — composant retenu pour réaliser une capacité architecturale  C. Guider les décisions d'une manière cohérente et durable  D. Viewpoint — convention choisie pour exposer les concerns
@@ -34,7 +34,7 @@ A. Target Architecture — architecture future envisagée après les changements
 A. Préparer la capacité et le cadre dans lesquels l'architecture sera pratiquée  B. Phase A — établir Vision, scope et Statement of Architecture Work  C. Phase E — définir options, work packages et transitions candidates  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
 **Q10.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle phase établit principalement la Vision et obtient l'alignement initial des stakeholders ?
-A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase A — cadrage et Architecture Vision  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
+A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase A — cadrage du changement métier et préparation de l'Architecture Vision  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** Un programme possède une Vision mais les processus et capabilities métier nécessaires aux résultats attendus ne sont pas définis. Quelle phase est prioritaire ?
 A. Phase D, Technology Architecture, parce que la Vision identifie déjà les drivers métier.  B. Phase F, Migration Planning, pour financer d'abord les outils déjà proposés.  C. Phase B, Business Architecture, pour définir les capacités métier, processus et gaps pertinents.  D. Phase G, Implementation Governance, pour demander une Compliance Review aux équipes applicatives.
@@ -61,7 +61,7 @@ A. Phase G — conformité et gouvernance de la réalisation  B. Phase F — pri
 A. Architecture Compliance en Phase G uniquement, pour vérifier les produits utilisés et maintenir la Target.  B. Requirements Management exclusivement, sans analyse de nouveaux business drivers.  C. Architecture Change Management en Phase H, pour réévaluer drivers, impacts et magnitude du changement.  D. Architecture Contract, qui interdit toute modification après signature par les parties prenantes.
 
 **Q19.** Une requirement modifiée affecte Data Architecture et les waves de migration. Quelle affirmation sur Requirements Management est correcte ?
-A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Phase G uniquement — vérifier seulement les exigences à la réception  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Interagit avec toutes les phases ADM
+A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Phase G uniquement — vérifier seulement les exigences à la réception  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Requirements Management — fonction transverse qui interagit avec toutes les phases ADM
 
 **Q20.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quand peut-on revenir sur une phase ADM après de nouveaux résultats ?
 A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. Elle permet de revisiter phases/domaines lorsque l'apprentissage ou le changement l'exige  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
@@ -82,7 +82,7 @@ A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Gap Analysis — analyse des écarts entre Baseline et Target  C. Architecture Contract — contractualiser obligations et critères de conformité  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q26.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer les obstacles culturels, humains et organisationnels relève de :
-A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness
+A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation des capacités de transformation
 
 **Q27.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer menaces et opportunités incertaines pouvant affecter les objectifs relève de :
 A. Risk Management — identification, analyse et traitement des risques  B. Gap Analysis — différences entre les états existant et cible  C. Readiness Assessment — facteurs de compétences et capacité d'adoption  D. Compliance Review — vérification des exigences d'une solution réalisée
@@ -103,7 +103,7 @@ A. Scoping — limiter le périmètre et la profondeur d'un seul travail  B. Org
 A. Terminer définitivement B, C et D avant toute livraison produit  B. Supprimer les requirements et la gouvernance à partir du premier sprint  C. Limiter l'ADM à Phase G en considérant le backlog comme unique architecture  D. L'ADM peut être tailorable, itératif et synchronisé avec des incréments de delivery
 
 **Q33.** Dans une fédération bancaire, le Board doit différencier arbitrage, conformité et exceptions. L'Architecture Board est principalement :
-A. Project Steering Committee — pilotage coûts et délais uniquement  B. Requirements Manager — traçabilité mais pas acceptation des exceptions  C. Une autorité de gouvernance et d'arbitrage  D. Fournisseur — approbation autonome de ses propres non-conformités
+A. Project Steering Committee — pilotage coûts et délais uniquement  B. Requirements Manager — traçabilité mais pas acceptation des exceptions  C. Architecture Board — instance de gouvernance et d'arbitrage des décisions d'architecture  D. Fournisseur — approbation autonome de ses propres non-conformités
 
 **Q34.** Un Architecture Board doit suivre la conformité de plusieurs équipes et gérer les exceptions. Quel mécanisme fournit un lien formel avec les équipes de réalisation ?
 A. Architecture Contract précisant engagements, responsabilités et critères de conformité convenus.  B. Architecture Roadmap, qui tient lieu d'accord détaillé de conformité avec chaque fournisseur.  C. Architecture Vision, dont l'approbation remplace toute revue de l'implémentation.  D. Architecture Metamodel, qui accepte automatiquement les demandes de dérogation.
