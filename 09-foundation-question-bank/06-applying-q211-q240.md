@@ -102,10 +102,10 @@ D. Échapper à la governance
 
 ## Q222 — Partitioning
 Architecture Partitioning sert à :
-A. Supprimer les interfaces
+A. Définir une même profondeur de détail et une même durée pour toutes les architectures de l'entreprise
 B. Diviser le paysage d'architecture en parties gouvernables avec frontières et responsabilités
-C. Éviter la coordination
-D. Remplacer les domains
+C. Ordonner les releases d'un programme sans identifier les espaces de responsabilité
+D. Appliquer des standards identiques à tous les composants sans gérer les interfaces entre domaines
 **Réponse : B.** Le partitioning structure la complexité et les responsabilités.
 **Mapping : Applying ADM — Partitioning.**
 
