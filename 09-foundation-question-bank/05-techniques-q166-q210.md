@@ -22,9 +22,9 @@ D. Vérifier la conformité des services aux exigences d'architecture
 
 ## Q168 — Stakeholder concern
 Un stakeholder puissant exprime une inquiétude forte sur la résilience. Quelle action est la plus cohérente ?
-A. L'ignorer
-B. Choisir un produit sans analyse
-C. Le transformer en work package directement
+A. Considérer le stakeholder comme satisfait tant que la Target utilise les standards approuvés
+B. Consigner le risque dans le Migration Plan sans relier ses implications aux requirements
+C. Préparer un test technique de résilience sans impliquer le stakeholder dans les décisions de cible
 D. Capturer le concern, choisir une view adaptée et en dériver des requirements
 **Réponse : D.** La technique relie stakeholder, concern, view et requirements. A/B/C sautent des étapes.
 **Mapping : ADM Techniques — Stakeholder Management.**
@@ -40,10 +40,10 @@ D. Pour éviter les requirements
 
 ## Q170 — Business Scenario
 Un Business Scenario est utilisé principalement pour :
-A. Décrire un réseau physique
+A. Comparer des architectures Baseline et Target après qu'elles ont déjà été définies et approuvées
 B. Relier un problème/opportunité métier à des requirements d'architecture
-C. Prioriser un portefeuille
-D. Gérer les exceptions
+C. Contrôler la conformité des composants livrés aux exigences pendant Implementation Governance
+D. Prioriser les lots de migration à partir d'un calendrier sans clarifier les besoins métier initiaux
 **Réponse : B.** La technique transforme un besoin métier en exigences compréhensibles. A/C/D sont d'autres usages.
 **Mapping : ADM Techniques — Business Scenarios.**
 
@@ -226,10 +226,10 @@ D. Une Business Capability
 
 ## Q190 — Residual risk
 Le residual risk est :
-A. Le risque avant toute analyse
+A. Le niveau de risque estimé avant l'application de contrôles ou de mesures de mitigation
 B. Le risque restant après traitements/mitigations
-C. Un artifact
-D. Une phase
+C. Une opportunité de gain qui n'a pas encore été transformée en work package financé
+D. Un gap architectural entre les états Baseline et Target indépendamment de l'exposition au risque
 **Réponse : B.** Après mitigation, une exposition peut subsister et doit être acceptée ou traitée.
 **Mapping : ADM Techniques — Risk Management.**
 
