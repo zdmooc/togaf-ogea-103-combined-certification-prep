@@ -10,7 +10,7 @@
 A. Contrôler les produits déployés sans relier les décisions aux capacités de l'entreprise  B. Relier stratégie, capacités, décisions et évolution de l'entreprise  C. Se limiter à la planification détaillée des releases des projets déjà retenus  D. Remplacer les arbitrages métier par l'approbation de la Technology Architecture
 
 **Q2.** Dans un opérateur de transport, le comité examine les acteurs, états et référentiels pour orienter la transformation. Un Concern est :
-A. Requirement — une condition formelle mesurable que la cible doit respecter  B. Viewpoint — une convention permettant de construire et interpréter une vue  C. Une préoccupation importante d'un stakeholder  D. Business Driver — une force qui motive une transformation de l'entreprise
+A. Requirement — une condition formelle mesurable que la cible doit respecter  B. Viewpoint — une convention permettant de construire et interpréter une vue  C. Concern — préoccupation exprimée par un stakeholder, à traiter dans les vues appropriées  D. Business Driver — une force qui motive une transformation de l'entreprise
 
 **Q3.** Une entreprise veut expliquer pourquoi une architecture d'entreprise n'est pas qu'une description du SI. Quel choix exprime le mieux sa fonction ?
 A. Elle guide des changements cohérents et relie les décisions techniques à la stratégie et aux capacités métier.  B. Elle définit une seule Technology Architecture obligatoire pour toutes les équipes avant le recueil de concerns.  C. Elle établit principalement les Architecture Contracts des fournisseurs et remplace les décisions du portefeuille.  D. Elle classe toutes les applications actuelles comme des Solution Building Blocks approuvés.
@@ -34,7 +34,7 @@ A. Artifact — représentation individuelle de type catalogue ou diagramme  B. 
 A. Preliminary — mise en place de l'Architecture Capability  B. Phase A — établir Vision, scope et Statement of Architecture Work  C. Phase E — définir options, work packages et transitions candidates  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
 **Q10.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Où clarifie-t-on principalement scope, stakeholders, business value et Architecture Vision ?
-A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase B — définir capabilities et processus métier de la Target  C. Phase A — cadrage et Architecture Vision  D. Phase F — planifier les vagues et priorités de migration
+A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase B — définir capabilities et processus métier de la Target  C. Phase A — cadrage de la transformation et préparation de l'Architecture Vision  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** En Phase B, l'équipe examine une capacité « suivre les réclamations » indépendamment du CRM historique. Pourquoi ce découplage est-il important pour la Target ?
 A. Il permet de supprimer la Data Architecture car toutes les informations appartiennent au domaine Business.  B. Il transforme automatiquement chaque capability en un work package financé.  C. Il conduit à sélectionner le SBB préféré dès la Phase B, puis à adapter les besoins métier.  D. Il permet de définir les capacités et processus métier avant de déterminer quelles applications et solutions les réalisent.
@@ -79,7 +79,7 @@ A. Technical interoperability uniquement, puisque la connexion IP est établie. 
 A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B. Compliance Review — vérification des solutions construites  C. Business Scenarios — besoin métier contextualisé et requirements  D. Migration Planning — hiérarchisation de lots et de dépendances
 
 **Q25.** Dans un opérateur de transport, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Pour évaluer si l'organisation peut réellement absorber une transformation :
-A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness
+A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation de la préparation organisationnelle
 
 **Q26.** Dans un opérateur de transport, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Pour analyser probabilité, impact, mitigation et residual risk :
 A. Risk Management — identification, analyse et traitement des risques  B. Gap Analysis — différences entre les états existant et cible  C. Readiness Assessment — facteurs de compétences et capacité d'adoption  D. Compliance Review — vérification des exigences d'une solution réalisée
@@ -109,7 +109,7 @@ A. Project Steering Committee — pilotage coûts et délais uniquement  B. Requ
 A. Architecture Definition Document, qui remplace à lui seul tous les processus de gouvernance.  B. Implementation Governance Model, qui formalise l'organisation des contrôles pendant la mise en œuvre.  C. Architecture Vision, qui décrit chaque critère détaillé de conformité et les sanctions en cas d'exception.  D. Architecture Roadmap, qui tient lieu de circuit d'approbation des écarts.
 
 **Q35.** Dans un opérateur de transport, le Board doit différencier arbitrage, conformité et exceptions. Quel mécanisme vérifie l'alignement d'une mise en œuvre avec l'architecture approuvée ?
-A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Architecture Roadmap — preuve indirecte via le seul suivi du planning  C. Architecture Compliance Review  D. Standards Information Base — validation automatique des solutions utilisant un produit autorisé
+A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Architecture Roadmap — preuve indirecte via le seul suivi du planning  C. Architecture Compliance Review — vérification des solutions livrées contre l'architecture approuvée  D. Standards Information Base — validation automatique des solutions utilisant un produit autorisé
 
 **Q36.** Dans un opérateur de transport, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Un Catalog, une Matrix ou un Diagram sont des exemples de :
 A. Artifact — représentation telle que Catalog, Matrix ou Diagram  B. Deliverable — produit de travail formel agrégant des représentations  C. SBB — composant concret réalisant des fonctionnalités d'architecture  D. Architecture Contract — obligations de mise en œuvre entre parties
