@@ -6,135 +6,125 @@
 
 ## Concepts
 
-**Q1.** Quel élément décrit le mieux un Concern ?
-A. Un projet  B. Un SBB  C. Un principe  D. Une préoccupation d'un stakeholder
+**Q1.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quel élément décrit le mieux un Concern ?
+A. Rôles, compétences, gouvernance, processus, repository et pratiques  B. Une business capability, définie indépendamment d'un produit ou d'une implémentation.  C. L'Enterprise Metamodel, qui encadre les entités d'architecture et leurs relations.  D. Une préoccupation d'un stakeholder
 
-**Q2.** Quelle chaîne est la plus cohérente ?
-A. Stakeholder → Concern → Viewpoint → View  B. View → Concern → Stakeholder → Requirement  C. Artifact → Sponsor → Viewpoint  D. Requirement → Viewpoint → Stakeholder
+**Q2.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quelle chaîne est la plus cohérente ?
+A. Stakeholder → Concern → Viewpoint → View  B. Standards, reference architectures, decisions et assets  C. Relier drivers métier, capabilities, contraintes et alternatives d'évolution pour appuyer un arbitrage de transformation.  D. Le premier est un ABB, le second peut être un SBB.
 
 **Q3.** Un architecte prépare une décision sur la mutualisation de services entre filiales. Quel objet permet de distinguer une aptitude durable de l'entreprise de l'application Java qui la supporte aujourd'hui ?
 A. Un SBB, dont le nom peut être identique à celui du produit historique.  B. Une business capability, définie indépendamment d'un produit ou d'une implémentation.  C. Une Transition Architecture correspondant au déploiement de la prochaine version.  D. Un Technology Standard définissant la version du runtime applicatif.
 
-**Q4.** La Baseline Architecture est :
-A. Le plan de migration  B. La vision  C. L'état actuel pertinent  D. Une exception
+**Q4.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. La Baseline Architecture est :
+A. Catalog, Matrix, Diagram  B. Une préoccupation importante d'un stakeholder  C. L'état actuel pertinent  D. Dans l'Architecture Requirements Repository, plutôt que dans le seul Governance Log ou la Reference Library.
 
-**Q5.** Lequel décrit le mieux un Architecture Principle ?
-A. Une tâche projet  B. Un incident  C. Une préférence temporaire  D. Une règle directrice durable guidant les décisions
+**Q5.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Lequel décrit le mieux un Architecture Principle ?
+A. Positionner et classifier les assets du générique vers le spécifique  B. Concern  C. Le diagramme est un artifact ; le Contract formalise des engagements de réalisation et de conformité.  D. Une règle directrice durable guidant les décisions
 
 **Q6.** Les modèles de Target Architecture utilisent différents éléments et relations entre processus, services et composants. Quelle ressource définit ces types et liens de manière cohérente ?
 A. L'Enterprise Metamodel, qui encadre les entités d'architecture et leurs relations.  B. L'Architecture Roadmap, décrivant uniquement l'ordre des lots de migration.  C. Le Governance Log, qui modélise automatiquement tous les types d'artefacts.  D. L'Architecture Contract, qui définit les classes du métamodèle via les obligations des acteurs.
 
-**Q7.** Quel élément appartient typiquement à l'Architecture Repository ?
-A. Les salaires  B. Standards, reference architectures, decisions et assets  C. Les logs applicatifs uniquement  D. Le code source uniquement
+**Q7.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quel élément appartient typiquement à l'Architecture Repository ?
+A. Governance Log, au sein des éléments logiques de l'Architecture Repository.  B. Standards, reference architectures, decisions et assets  C. Stakeholder → Concern → Viewpoint → View  D. Une règle directrice durable guidant les décisions
 
-**Q8.** Une Transition Architecture représente :
-A. Un requirement  B. Un artifact  C. Un état intermédiaire cohérent  D. Une phase de gouvernance
+**Q8.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Une Transition Architecture représente :
+A. L'Enterprise Metamodel, qui encadre les entités d'architecture et leurs relations.  B. Une View est construite selon une Viewpoint  C. Un état intermédiaire cohérent  D. La capacité organisationnelle à pratiquer et gouverner l'architecture
 
-## Introduction to the ADM
+**Q9.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Définir ou ajuster le modèle de gouvernance de l'architecture relève surtout de :
+A. Phase E  B. Évaluer et classifier le changement, puis déterminer les activités ADM à rouvrir selon les impacts et la gouvernance.  C. Preliminary  D. Il est itératif et tailorable
 
-**Q9.** Définir ou ajuster le modèle de gouvernance de l'architecture relève surtout de :
-A. Phase D  B. Phase H  C. Preliminary  D. Phase F
-
-**Q10.** Le Statement of Architecture Work est particulièrement associé à :
-A. Phase G  B. Phase C  C. Phase H  D. Phase A
+**Q10.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Le Statement of Architecture Work est particulièrement associé à :
+A. Roadmap montre la trajectoire ; Migration Plan détaille priorisation et séquencement  B. Phase C Data  C. Transformer les gaps en options de solution, work packages et Transition Architectures  D. Phase A
 
 **Q11.** Le métier demande de nouvelles possibilités d'indemnisation ; la DSI connaît déjà des microservices capables de les implémenter. Quelle activité de l'ADM doit d'abord sécuriser les objectifs et les processus cibles ?
 A. Finaliser l'Architecture Requirements Specification uniquement avec les contraintes techniques déjà disponibles.  B. Définir la Business Architecture de Phase B sans réduire la capability à un composant existant.  C. Démarrer Phase F pour prioriser les migrations des applications historiques.  D. Formaliser un Architecture Contract fournisseur pour les microservices candidats.
 
-**Q12.** Une matrice des entités de données et propriétaires relève surtout de :
-A. Phase C Data  B. Phase E  C. Phase A  D. Phase H
+**Q12.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une matrice des entités de données et propriétaires relève surtout de :
+A. Phase C Data  B. Preliminary  C. Phase C Application  D. Phase F
 
-**Q13.** Décrire quels services applicatifs supportent quels processus relève surtout de :
-A. Phase B  B. Phase F  C. Phase C Application  D. Preliminary
+**Q13.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Décrire quels services applicatifs supportent quels processus relève surtout de :
+A. Phase G  B. L'ADM permet tailoring, itérations et travail concurrent sous gouvernance appropriée.  C. Phase C Application  D. Preliminary
 
-**Q14.** Choisir les services technologiques requis par les architectures métier et SI relève principalement de :
-A. Phase C  B. Phase D  C. Phase E  D. Phase H
+**Q14.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Choisir les services technologiques requis par les architectures métier et SI relève principalement de :
+A. Phase A  B. Phase D  C. Phase C Application  D. Phase G
 
-**Q15.** Quel résultat est le plus caractéristique de Phase E ?
-A. Architecture Vision  B. Compliance Review  C. Requirement Catalog final  D. Work packages et Transition Architectures candidats
+**Q15.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quel résultat est le plus caractéristique de Phase E ?
+A. Évaluer le changement, les impacts et la magnitude avant de sélectionner les activités ADM à rouvrir.  B. Les différences pertinentes entre Baseline et Target  C. A  D. Work packages et Transition Architectures candidats
 
-**Q16.** Une matrice de priorisation valeur/risque/dépendances est particulièrement utile en :
-A. Phase F  B. Phase B  C. Phase A  D. Phase G
+**Q16.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une matrice de priorisation valeur/risque/dépendances est particulièrement utile en :
+A. Phase F  B. Phase B, Business Architecture, pour définir les capacités métier, processus et gaps pertinents.  C. D  D. Architecture Change Management en Phase H, pour réévaluer drivers, impacts et magnitude du changement.
 
-**Q17.** Une équipe implémente une solution et demande l'acceptation d'un écart. Quelle phase est dominante ?
-A. E  B. F  C. G  D. H
+**Q17.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une équipe implémente une solution et demande l'acceptation d'un écart. Quelle phase est dominante ?
+A. Interagit avec toutes les phases ADM  B. Architecture Roadmap  C. G  D. Définir la Business Architecture de Phase B sans réduire la capability à un composant existant.
 
 **Q18.** Les services livrés ne produisent plus la valeur attendue après un changement de marché. Quelle activité de l'ADM doit être mobilisée ?
 A. Phase G uniquement, puisqu'il s'agit nécessairement d'une non-conformité technique.  B. Phase H, pour évaluer les nouveaux drivers et déterminer le besoin de changement architectural.  C. Phase E uniquement, afin d'ajouter immédiatement de nouveaux work packages sans revue des drivers.  D. Preliminary automatiquement, car toute modification de valeur oblige à reconstruire la capacité EA.
 
-**Q19.** Les requirements découvertes en Phase C doivent :
-A. Être ignorées jusqu'à F  B. Remplacer les Principles  C. Rester locales à C  D. Être intégrées au processus transversal Requirements Management
+**Q19.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Les requirements découvertes en Phase C doivent :
+A. Des itérations entre domaines et phases selon les besoins  B. Préparer Architecture Capability, gouvernance, principes et tailoring  C. Phase C Data  D. Être intégrées au processus transversal Requirements Management
 
-**Q20.** L'ADM permet :
-A. Des itérations entre domaines et phases selon les besoins  B. Un seul passage obligatoire  C. Aucun tailoring  D. Une application uniquement technique
+**Q20.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. L'ADM permet :
+A. Des itérations entre domaines et phases selon les besoins  B. Phase C Application  C. Phase F  D. Transversal à l'ADM
 
-**Q21.** Le résultat d'une Gap Analysis nourrit particulièrement :
-A. Le choix des stakeholders  B. Le Repository uniquement  C. Les changements à traiter et futurs work packages  D. Le scoring d'examen
+**Q21.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Le résultat d'une Gap Analysis nourrit particulièrement :
+A. Baseline et Target  B. Phase A  C. Les changements à traiter et futurs work packages  D. Phase C Application
 
-**Q22.** L'Architecture Roadmap est généralement :
-A. Plus détaillée qu'un plan projet complet  B. Une vue structurée de la trajectoire et des principaux changements  C. Un contrat juridique  D. Un artifact de Data Architecture uniquement
-
-## ADM Techniques
+**Q22.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. L'Architecture Roadmap est généralement :
+A. Phase D  B. Une vue structurée de la trajectoire et des principaux changements  C. Gouverner l'implémentation et la conformité  D. Les phases peuvent être revisitées pour réconcilier les modèles et exigences avec la nouvelle contrainte.
 
 **Q23.** Une transformation techniquement faisable risque d'échouer car Operations n'a pas de support 24/7 et les managers ne financent pas la formation. Quelle technique permet d'évaluer cet écart ?
 A. Business Transformation Readiness Assessment, reliée aux actions préparatoires de la roadmap.  B. Application Portfolio Analysis, qui suffit car les problèmes décrits concernent des services.  C. Compliance Assessment, qui peut remplacer l'évaluation de la capacité à exploiter.  D. Gap Analysis Technology exclusivement, en comparant les versions de plateformes.
 
-**Q24.** Pour clarifier un besoin métier ambigu à partir d'acteurs, environnement et résultats attendus, utiliser :
-A. Partitioning  B. Compliance Review  C. Architecture Contract  D. Business Scenarios
+**Q24.** Dans une plateforme de paiements instantanés, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Pour clarifier un besoin métier ambigu à partir d'acteurs, environnement et résultats attendus, utiliser :
+A. Interoperability Analysis  B. Capability-Based Planning  C. Business Transformation Readiness  D. Business Scenarios
 
-**Q25.** Comparer Baseline et Target relève de :
-A. Business Scenario  B. Gap Analysis  C. Readiness Assessment  D. Capability Planning
+**Q25.** Dans une plateforme de paiements instantanés, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Comparer Baseline et Target relève de :
+A. Risk Management  B. Gap Analysis  C. Business Scenarios  D. Migration Planning Techniques
 
-**Q26.** Évaluer culture, compétences, leadership et capacité d'adoption relève de :
-A. Risk Analysis uniquement  B. Interoperability  C. Transformation Readiness  D. Catalog Design
+**Q26.** Dans une plateforme de paiements instantanés, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer culture, compétences, leadership et capacité d'adoption relève de :
+A. Stakeholder Management, pour expliciter acteurs, concerns, engagements et vues pertinentes avant l'arbitrage.  B. Risk Management  C. Transformation Readiness  D. Business Scenarios
 
-**Q27.** Quelle technique aide à planifier autour de capacités nécessaires plutôt que de solutions isolées ?
-A. Capability-Based Planning  B. Viewpoint Selection  C. Compliance Review  D. Contract Management
+**Q27.** Dans une plateforme de paiements instantanés, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique aide à planifier autour de capacités nécessaires plutôt que de solutions isolées ?
+A. Capability-Based Planning  B. Interoperability Analysis  C. Information interoperability, car la signification et les modèles des données échangées divergent.  D. Risk Management
 
-**Q28.** La consolidation des dépendances et priorités de migration relève surtout de :
-A. Stakeholder Mapping  B. Business Scenarios  C. Requirements Management  D. Migration Planning Techniques
+**Q28.** Dans une plateforme de paiements instantanés, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. La consolidation des dépendances et priorités de migration relève surtout de :
+A. Capability-Based Planning  B. Interoperability Analysis  C. Examiner Business/Operational, Information et Technical interoperability, ainsi que leurs dépendances.  D. Migration Planning Techniques
 
-## Applying the ADM
-
-**Q29.** Adapter le nombre et la profondeur des artifacts au contexte est un exemple de :
-A. Compliance  B. Tailoring  C. Gap Analysis  D. Phase H
+**Q29.** Dans une plateforme de paiements instantanés, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Adapter le nombre et la profondeur des artifacts au contexte est un exemple de :
+A. Définir partitions, responsabilités, interfaces et règles de cohérence  B. Tailoring  C. L'ADM peut être adapté et itéré pour soutenir un delivery incrémental  D. Partitioning et gouvernance fédérée
 
 **Q30.** Le programme doit développer plusieurs domaines simultanément et revenir sur des exigences découvertes après les premières views. Quel comportement de l'ADM est approprié ?
 A. Une progression waterfall dans laquelle toute phase approuvée devient intangible.  B. Une suppression de la documentation de baseline pour accélérer les tâches de release.  C. Un cycle itératif avec réconciliation des domains, requirements et décisions selon les impacts.  D. Une interdiction de retravailler les domaines après la première Validation Architecture Vision.
 
-**Q31.** Plusieurs cycles ADM liés peuvent coexister à différents niveaux car :
-A. TOGAF permet des Levels of Architecture et des scopes différents  B. Une seule architecture est autorisée  C. Seul le niveau Enterprise compte  D. Les domaines sont indépendants
+**Q31.** Dans une plateforme de paiements instantanés, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Plusieurs cycles ADM liés peuvent coexister à différents niveaux car :
+A. TOGAF permet des Levels of Architecture et des scopes différents  B. Conserver des principes et une Vision cohérents tout en itérant sur les domaines et exigences selon les retours des produits.  C. Un cycle itératif avec réconciliation des domains, requirements et décisions selon les impacts.  D. Scoping, qui borne le travail d'architecture et les décisions qu'il doit soutenir.
 
-**Q32.** Dans une organisation fédérée, la meilleure approche est généralement :
-A. Supprimer la gouvernance  B. Tout centraliser sans exception  C. Laisser chaque domaine sans interfaces  D. Définir partitions, responsabilités, interfaces et règles de cohérence
+**Q32.** Dans une plateforme de paiements instantanés, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Dans une organisation fédérée, la meilleure approche est généralement :
+A. Partitioning  B. Peut être adapté pour soutenir décisions rapides, plateformes et produits numériques  C. Organiser les espaces d'architecture, responsabilités et interfaces  D. Définir partitions, responsabilités, interfaces et règles de cohérence
 
-## Governance
-
-**Q33.** Quel organe est typiquement chargé d'arbitrer les exceptions d'architecture ?
-A. Architecture Board  B. Scrum Team  C. Finance uniquement  D. Repository
+**Q33.** Dans une plateforme de paiements instantanés, le Board doit différencier arbitrage, conformité et exceptions. Quel organe est typiquement chargé d'arbitrer les exceptions d'architecture ?
+A. Architecture Board  B. Compliance Review fondée sur les exigences, décisions et preuves de mise en œuvre.  C. Évaluer la conformité d'une implémentation à l'architecture approuvée  D. Implementation Governance Model, qui formalise l'organisation des contrôles pendant la mise en œuvre.
 
 **Q34.** Une équipe de réalisation utilise un standard approuvé mais ne satisfait pas les requirements de résilience de la Target. Quel mécanisme révèle correctement l'écart ?
 A. Validation d'un seul Technology Standard comme preuve suffisante.  B. Nouvelle Architecture Vision produite automatiquement à la place d'une analyse d'implémentation.  C. Registre de projet recensant le budget sans vérification des exigences techniques.  D. Compliance Review fondée sur les exigences, décisions et preuves de mise en œuvre.
 
-**Q35.** Une Compliance Review :
-A. Définit le business case  B. Remplace Phase G  C. Évalue la conformité à l'architecture et aux exigences approuvées  D. Crée la Vision
+**Q35.** Dans une plateforme de paiements instantanés, le Board doit différencier arbitrage, conformité et exceptions. Une Compliance Review :
+A. Arbitrer et gouverner les décisions d'architecture  B. Arbitrer et tracer conformité, exceptions et responsabilités selon un cadre approuvé.  C. Évalue la conformité à l'architecture et aux exigences approuvées  D. Gouverne et arbitre les décisions d'architecture
 
-## Architecture Content
+**Q36.** Dans une plateforme de paiements instantanés, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Lequel décrit un Deliverable ?
+A. Une View répond à des concerns selon une Viewpoint  B. Un produit de travail formel assemblant éventuellement plusieurs artifacts  C. Une matrice montrant les relations entre éléments de deux catégories.  D. Représente un élément architectural ou de solution réutilisable
 
-**Q36.** Lequel décrit un Deliverable ?
-A. Une relation dans une Matrix  B. Un produit de travail formel assemblant éventuellement plusieurs artifacts  C. Un serveur  D. Un role
-
-**Q37.** Une Application Communication Diagram est un exemple de :
-A. Artifact  B. Architecture Board  C. Principle  D. Syllabus
+**Q37.** Dans une plateforme de paiements instantanés, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Une Application Communication Diagram est un exemple de :
+A. Artifact  B. Catalog = liste structurée, Matrix = relations, Diagram = représentation visuelle  C. ABB exprime le besoin architectural, SBB une réalisation plus spécifique  D. Catalog pour inventaire, Matrix pour relations, Diagram pour représentation graphique.
 
 **Q38.** Un dossier formalise plusieurs diagrammes et matrices nécessaires à une décision de comité. Quelle distinction est correcte ?
 A. Chaque diagramme est nécessairement un SBB correspondant à un service métier.  B. Un deliverable est synonyme de building block dès qu'il est archivé.  C. Un viewpoint constitue le produit de travail contractuellement revu en lieu et place des artifacts.  D. Le dossier approuvable est un deliverable pouvant contenir plusieurs artifacts.
 
-**Q39.** Quel énoncé est correct ?
-A. SBB est toujours plus abstrait qu'ABB  B. ABB est toujours un produit fournisseur  C. ABB est architectural ; SBB est plus orienté réalisation/solution  D. Ils sont synonymes
+**Q39.** Dans une plateforme de paiements instantanés, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Quelle relation est juste entre un ABB et un SBB ?
+A. C'est un artifact de type Matrix intégré au deliverable ADD.  B. Un ABB représente le besoin/capacité architectural et un SBB le moyen de solution envisagé.  C. ABB est architectural ; SBB est plus orienté réalisation/solution  D. Une représentation du contenu architectural
 
 **Q40.** Une architecture bancaire doit représenter inventaire, relations et interactions graphiques. Quelle affirmation sur les formes d'artifacts est correcte ?
-A. Le Catalog est un SBB, la Matrix un deliverable et le Diagram un Architecture Contract.  B. Ce sont respectivement Catalog, Matrix et Diagram, trois formes possibles d'artifacts.  C. Chaque représentation constitue une Transition Architecture complète.  D. Ce sont des viewpoints et non des artifacts car elles ciblent différents stakeholders.
+A. Une View répond à des concerns selon une Viewpoint  B. Ce sont respectivement Catalog, Matrix et Diagram, trois formes possibles d'artifacts.  C. Une matrice montrant les relations entre éléments de deux catégories.  D. Représente un élément architectural ou de solution réutilisable
 
 # Part 2 — Practitioner : scénarios contextualisés
 
