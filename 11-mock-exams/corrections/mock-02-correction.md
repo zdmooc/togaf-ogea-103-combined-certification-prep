@@ -7,42 +7,42 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 
 1. **C** — quatre domaines : Business, Data, Application, Technology.
 2. **D** — stakeholder = partie intéressée ou affectée.
-3. **B** — concern = préoccupation ; requirement = expression à satisfaire.
+3. **B** — L'EA soutient les décisions et leurs compromis plutôt que la seule production documentaire. [X2202, objectifs du domaine concerné].
 4. **A** — Baseline actuel, Target futur souhaité.
 5. **C** — Continuum classe/contextualise les assets.
-6. **B** — Repository conserve et organise les assets.
+6. **B** — L'ABB exprime les capacités nécessaires ; les SBB pourront contribuer à les réaliser. [X2202, objectifs du domaine concerné].
 7. **D** — Artifact : Catalog, Matrix, Diagram.
 8. **A** — Architecture Capability couvre rôles, gouvernance, pratiques et moyens.
 9. **C** — Preliminary prépare la capacité ; A cadre l'engagement.
 10. **B** — Phase A = stakeholders + Vision.
-11. **D** — Phase B = Business Architecture.
+11. **D** — Les besoins métier guident la dérivation des architectures des domaines techniques. [X2202, objectifs du domaine concerné].
 12. **A** — C Data = ownership, structure, qualité, lifecycle.
 13. **C** — C Application = services applicatifs.
 14. **B** — D = Technology Architecture.
 15. **A** — E structure solution options/work packages/transitions.
 16. **C** — F priorise et séquence.
 17. **D** — G gouverne implémentation et conformité.
-18. **B** — H gère l'évolution.
+18. **B** — La réponse est décidée par Architecture Change Management en tenant compte de l'ampleur. [X2202, objectifs du domaine concerné].
 19. **D** — Requirements Management est transversal.
 20. **A** — l'ADM autorise l'itération.
 21. **C** — Gap = différence Baseline/Target.
 22. **B** — Roadmap = trajectoire de transformation.
-23. **D** — Stakeholder Management.
+23. **D** — Le Business Scenario traduit un besoin ou opportunité en contexte exploitable pour les exigences. [X2202, objectifs du domaine concerné].
 24. **B** — Business Scenarios.
 25. **C** — Interoperability Analysis.
 26. **A** — Transformation Readiness.
 27. **D** — Risk Management.
 28. **B** — Migration Planning Techniques.
 29. **A** — Tailoring adapte l'ADM.
-30. **C** — security est transverse.
+30. **C** — Un paysage d'architecture articule des niveaux cohérents de scope et d'horizon. [X2202, objectifs du domaine concerné].
 31. **D** — l'ADM peut soutenir la Digital Enterprise.
 32. **B** — Partitioning/federation aident les grandes organisations.
 33. **C** — Architecture Board.
-34. **A** — Architecture Contract.
+34. **A** — Le Board prend ou fait prendre des décisions d'architecture explicites ; les exceptions doivent rester gouvernées. [X2202, objectifs du domaine concerné].
 35. **D** — exception = analyse, documentation, décision gouvernée.
 36. **B** — Deliverable = produit de travail formel.
 37. **C** — Artifact = représentation architecturale.
-38. **A** — Building Block = élément réutilisable.
+38. **A** — La matrix est destinée aux relations entre types d'entités ; le catalog liste et le diagram représente graphiquement. [X2202, objectifs du domaine concerné].
 39. **D** — ABB abstrait, SBB concrétise davantage.
 40. **B** — Catalog liste, Matrix relie, Diagram visualise.
 
