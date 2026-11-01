@@ -7,42 +7,42 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, scoring 5/3/1/0, réussite
 
 1. **B** — l'EA relie stratégie, capacités et transformation.
 2. **C** — Concern = préoccupation stakeholder.
-3. **A** — Viewpoint = convention ; View = représentation produite.
+3. **A** — L'EA apporte une cohérence de changement entre métier, organisation et technologie. [X2202, domaine correspondant].
 4. **D** — Principle guide durablement les décisions.
 5. **B** — Baseline = état actuel.
-6. **C** — Repository organise/conserve le patrimoine d'architecture.
+6. **C** — Les composants logiques du Repository distinguent requirements, standards, solutions, modèles et décisions. [X2202, domaine correspondant].
 7. **A** — Continuum classe du générique au spécifique.
 8. **D** — Deliverable = produit formel contenant éventuellement plusieurs artifacts.
 9. **A** — Preliminary établit capability/gouvernance.
 10. **C** — Phase A cadre scope, stakeholders, value et Vision.
-11. **D** — Phase B = Target Business Architecture.
+11. **D** — Les capabilities décrivent des aptitudes durables, distinctes des moyens applicatifs. [X2202, domaine correspondant].
 12. **B** — C Data = structure/ownership/lifecycle des données.
 13. **A** — C Application = services/interactions applicatives.
 14. **C** — D = Technology Architecture.
 15. **D** — E = solution options, work packages, Transition Architectures.
 16. **B** — F = priorités, dépendances, séquencement.
 17. **A** — G = implementation governance.
-18. **C** — H = Architecture Change Management.
+18. **C** — Phase H traite l'évolution de l'architecture de manière proportionnée et gouvernée. [X2202, domaine correspondant].
 19. **D** — Requirements Management est transversal.
 20. **B** — ADM = tailorable et itératif.
 21. **A** — Gap = différence Baseline/Target.
 22. **C** — Transition Architecture = état intermédiaire.
-23. **B** — Stakeholder Management.
+23. **B** — Un protocole commun n'assure pas une interprétation partagée des informations. [X2202, domaine correspondant].
 24. **C** — Business Scenarios.
 25. **D** — Transformation Readiness.
 26. **A** — Risk Management.
 27. **C** — Capability-Based Planning.
 28. **B** — Migration Planning Techniques.
 29. **D** — Tailoring.
-30. **A** — Levels of Architecture.
+30. **A** — La portée du travail se définit selon quatre dimensions et pas uniquement selon le nombre d'applications. [X2202, domaine correspondant].
 31. **C** — Partitioning.
 32. **B** — Agile et TOGAF peuvent coexister via tailoring/iteration.
 33. **D** — Architecture Board.
-34. **B** — Architecture Contract.
+34. **B** — Le modèle de gouvernance d'implémentation définit mécanismes, rôles et responsabilités de contrôle. [X2202, domaine correspondant].
 35. **C** — Architecture Compliance Review.
 36. **A** — Catalog/Matrix/Diagram sont des Artifacts.
 37. **D** — Building Block = élément réutilisable d'architecture/solution.
-38. **B** — ABB abstrait ; SBB réalise plus concrètement.
+38. **B** — Le Content Framework distingue trois formes d'artifacts : catalogues, matrices et diagrammes. [X2202, domaine correspondant].
 39. **C** — une View répond à des concerns via une Viewpoint.
 40. **A** — Content Metamodel définit types d'entités et relations.
 
