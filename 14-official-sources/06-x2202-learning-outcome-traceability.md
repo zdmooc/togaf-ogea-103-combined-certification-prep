@@ -1,6 +1,6 @@
 # Traçabilité X2202 — 131 learning outcomes et références de questions candidates
 
-**Statut : 131 objectifs recensés. La matrice a été resserrée sur 25 objectifs mal associés aux questions historiques, avec références XP05–XP17 plus explicites. 130 objectifs disposent désormais d'une référence explicite à un ou plusieurs exercices candidats ; L1.8.1 n'impose pas de question distincte (Bloom = None). Une référence candidate n'est jamais une validation de fond ou du niveau Bloom.** Les formulations de cette table restent des résumés pédagogiques, et les 131 objectifs doivent être relus contre le texte officiel.
+**Statut : 131 objectifs recensés. La matrice a été resserrée sur 31 objectifs mal associés aux questions historiques, avec références XP05–XP17 plus explicites. 130 objectifs disposent désormais d'une référence explicite à un ou plusieurs exercices candidats ; L1.8.1 n'impose pas de question distincte (Bloom = None). Une référence candidate n'est jamais une validation de fond ou du niveau Bloom.** Les formulations de cette table restent des résumés pédagogiques, et les 131 objectifs doivent être relus contre le texte officiel.
 
 **Syllabus de référence :** [TOGAF Certification Program Conformance Requirements X2202](https://www.opengroup.org/library/x2202), sections 3.1 et 3.2. La formulation et le niveau de Bloom exacts doivent toujours être confrontés à l'original avant de marquer un objectif vérifié.
 
@@ -112,7 +112,7 @@
 | Objectif | Notion à démontrer | Cours candidat | Références d'exercices précises | Statut de revue |
 |---|---|---|---|---|
 | L2.1.1 | EA comme guide d'un changement efficace | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | S001, S003 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L2.1.2 | Représentation d'une EA | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | S003, S005 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.1.2 | Représentation d'une EA | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | XP29 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.3 | Architecture Capability | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | S001, S002 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.4 | Rôle de la gouvernance et de l'architecte | [Cours](../07-practitioner/02-context-for-enterprise-architecture.md) | S002, S004 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.1.5 | Conformance et niveaux de conformité | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | A01, S038 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
@@ -139,7 +139,7 @@
 | L2.3.1 | Entrées de Phase A et itérations | [Cours](../07-practitioner/04-phase-a-scenarios.md) | S015, S016 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.3.2 | Conduire Phase A : scope, concerns, drivers | [Cours](../07-practitioner/04-phase-a-scenarios.md) | S015, S018 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.3.3 | Conception sécurité au démarrage | [Cours](../04-applying-the-adm/05-security.md) | XP06 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L2.3.4 | Livrables de Phase A : Vision, SoAW, Communications | [Cours](../07-practitioner/04-phase-a-scenarios.md) | S017, S021 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
+| L2.3.4 | Livrables de Phase A : Vision, SoAW, Communications | [Cours](../07-practitioner/04-phase-a-scenarios.md) | XP30 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 
 ## L2 U4 — Architecture Development (9 objectifs)
 
@@ -161,7 +161,7 @@
 |---|---|---|---|---|
 | L2.5.1 | Risques et sécurité en E/F/G | [Cours](../07-practitioner/06-efg-implementation-scenarios.md) | XP22 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.5.2 | Implementation and Migration Strategy en E | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S033, A05 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L2.5.3 | Greenfield / Revolutionary / Evolutionary | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | S033, A05 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
+| L2.5.3 | Greenfield / Revolutionary / Evolutionary | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP31 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.5.4 | Identifier et regrouper work packages | [Cours](../02-adm/07-phase-e-opportunities-solutions.md) | S031, S035 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.5.5 | Élaborer des Transition Architectures | [Cours](../02-adm/07-phase-e-opportunities-solutions.md) | S033 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
 | L2.5.6 | Effets organisationnels et coordination des migrations | [Cours](../07-practitioner/06-efg-implementation-scenarios.md) | XP07 | Candidat précis — non relu ; Bloom officiel : 3_Applying |
@@ -187,7 +187,7 @@
 
 | Objectif | Notion à démontrer | Cours candidat | Références d'exercices précises | Statut de revue |
 |---|---|---|---|---|
-| L2.7.1 | Sources des exigences | [Cours](../07-practitioner/08-requirements-management-scenarios.md) | S046, S051 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.7.1 | Sources des exigences | [Cours](../07-practitioner/08-requirements-management-scenarios.md) | XP32 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.7.2 | Correspondance exigences / étapes ADM | [Cours](../02-adm/11-requirements-management.md) | S048, S049 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.7.3 | Sorties des Requirements Management | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP26 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 
@@ -198,13 +198,13 @@
 | L2.8.1 | TOGAF Library : ressources | [Cours](../07-practitioner/09-supporting-adm-work.md) | XP08 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.8.2 | Business Scenario Technique | [Cours](../03-adm-techniques/02-business-scenarios.md) | S053 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.8.3 | Compliance Assessment : usages | [Cours](../05-architecture-governance/04-architecture-compliance.md) | S038, A01 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L2.8.4 | Migration Planning et consolidation des gaps | [Cours](../03-adm-techniques/08-migration-planning-techniques.md) | S054, A05 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.8.4 | Migration Planning et consolidation des gaps | [Cours](../03-adm-techniques/08-migration-planning-techniques.md) | XP27 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.8.5 | Organisation logique du Repository | [Cours](../01-togaf-foundations/08-architecture-repository.md) | XP02 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L2.8.6 | Ce que contient un Repository bien maintenu | [Cours](../07-practitioner/09-supporting-adm-work.md) | XP09 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.8.7 | Architecture Levels et Landscape | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | XP10 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.8.8 | Niveaux d'architecture dans l'entreprise | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | XP10 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.8.9 | Choisir niveau et détail attendu | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | XP11 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L2.8.10 | ABBs : rôle et moment d'utilisation | [Cours](../06-architecture-content/06-abb-vs-sbb.md) | S022, S059 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L2.8.10 | ABBs : rôle et moment d'utilisation | [Cours](../06-architecture-content/06-abb-vs-sbb.md) | XP28 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.8.11 | Capabilities, Value Streams, Organization/Information Mapping | [Cours](../07-practitioner/13-x2202-practitioner-deepening.md) | XP12 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.8.12 | Gap Analysis et applications | [Cours](../03-adm-techniques/03-gap-analysis.md) | S054 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L2.8.13 | Itérations de pratiques architecturales | [Cours](../04-applying-the-adm/02-iteration.md) | S028, S060 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
@@ -229,7 +229,7 @@ Cette matrice permet de **détecter les manques**, et non de prétendre que le d
 
 - `Q001` à `Q300` : banque Foundation principale (`09-foundation-question-bank/01` à `08`).
 - `XF01` et `XF02` : exercices ciblés Foundation (`09-foundation-question-bank/10-x2202-targeted-drills.md`).
-- `XP05` à `XP26` : vingt-deux cas additionnels de clarification (`10-practitioner-scenarios/11-x2202-gap-closure-scenarios.md`).
+- `XP05` à `XP32` : vingt-huit cas additionnels de clarification (`10-practitioner-scenarios/11-x2202-gap-closure-scenarios.md`).
 - `XP01` à `XP04` : cas ciblés Practitioner (`10-practitioner-scenarios/10-x2202-targeted-cases.md`).
 - `F01` à `F24` : exercices Foundation avancés (`09-foundation-question-bank/09-advanced-drills.md`).
 - `S001` à `S060` : banque Practitioner (`10-practitioner-scenarios/01` à `08`).
