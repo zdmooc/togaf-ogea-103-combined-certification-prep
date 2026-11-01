@@ -31,9 +31,9 @@ D. Remplacer toutes les équipes projet
 
 ## Q244 — Board decision
 Quand un Architecture Board est-il particulièrement utile ?
-A. Pour chaque correction orthographique
-B. Pour toutes les tâches d'exploitation
-C. Pour supprimer les requirements
+A. Lorsque le Product Owner souhaite répartir les tâches détaillées de chaque sprint
+B. Lorsque les exploitants doivent sélectionner une version de logiciel sans impact architectural
+C. Lorsque les équipes demandent uniquement une approbation budgétaire de leur calendrier
 D. Lorsqu'une décision transverse ou une exception importante nécessite arbitrage
 **Réponse : D.** Le Board doit se concentrer sur les décisions architecturales significatives.
 **Mapping : Architecture Governance — Architecture Board.**
@@ -140,9 +140,9 @@ D. Parce que toute déviation doit obligatoirement devenir un nouveau standard p
 
 ## Q256 — Governance log
 Pourquoi tenir un Governance Log ?
-A. Pour stocker uniquement le code
-B. Pour remplacer le Repository
-C. Pour supprimer les audits
+A. Pour transformer automatiquement les écarts de réalisation en nouvelles normes obligatoires
+B. Pour remplacer toutes les spécifications de requirements et les diagrams de la Target
+C. Pour centraliser les tâches de support quotidien des équipes d'exploitation
 D. Pour tracer décisions, reviews, exceptions et responsabilités
 **Réponse : D.** Le log fournit une mémoire de gouvernance.
 **Mapping : Architecture Governance — Governance Log.**
@@ -158,10 +158,10 @@ D. Supprimer le stakeholder concerné
 
 ## Q258 — Governance principles
 Pourquoi des principles approuvés sont-ils importants pour la governance ?
-A. Ils remplacent tous les requirements
+A. Ils remplacent les requirements détaillées et les contrôles de conformité des solutions
 B. Ils fournissent des critères durables pour guider et arbitrer les décisions
-C. Ils éliminent le besoin de jugement
-D. Ils ne servent qu'en Preliminary
+C. Ils désignent toujours les SBB retenus par les équipes de réalisation
+D. Ils garantissent la même implémentation technique pour tous les domaines métier
 **Réponse : B.** Les principles soutiennent les décisions tout au long du cycle.
 **Mapping : Architecture Governance — Principles.**
 
