@@ -10,42 +10,42 @@
 
 1. **B** — Concern = préoccupation d'un stakeholder.
 2. **C** — la View est produite selon une Viewpoint.
-3. **A** — l'EA crée de la valeur par alignement et qualité des décisions.
+3. **A** — L'EA oriente des choix de changement cohérents et non seulement la documentation ou la conformité de produits. [X2202, objectifs du domaine concerné].
 4. **D** — Repository organise/conserve ; Continuum classe/contextualise.
 5. **B** — Architecture Capability = capacité organisationnelle à pratiquer l'EA.
-6. **C** — Building Block = élément architectural réutilisable.
+6. **C** — Un ABB décrit des caractéristiques ou capacités architecturales sans figer l'implémentation ; un SBB représente une solution. [X2202, objectifs du domaine concerné].
 7. **A** — Principle guide ; Requirement formalise ce qui doit être satisfait.
 8. **D** — Transition Architecture = état intermédiaire cohérent.
 9. **B** — Preliminary prépare capability, gouvernance, principles et tailoring.
 10. **C** — Phase A cadre le travail et l'Architecture Vision.
-11. **A** — Phase B = Business Architecture.
+11. **A** — La Phase B établit les besoins et représentations métier indépendamment du produit actuellement déployé. [X2202, objectifs du domaine concerné].
 12. **D** — Phase C Data traite ownership, lifecycle et qualité.
 13. **B** — Phase C Application traite services et interactions applicatives.
 14. **C** — Phase D = Technology Architecture.
 15. **A** — Phase E structure options, work packages et transitions.
 16. **D** — Phase F priorise et séquence la migration.
 17. **B** — Phase G gouverne l'implémentation.
-18. **C** — Phase H traite Architecture Change Management.
+18. **C** — La Phase H classe le changement selon son ampleur ; la réponse peut être simplification, incremental ou re-architecting. [X2202, objectifs du domaine concerné].
 19. **A** — Requirements Management est transversal.
 20. **B** — Gap Analysis compare Baseline et Target.
 21. **C** — l'ADM est itératif et tailorable.
 22. **D** — Roadmap = trajectoire ; Migration Plan = séquencement/priorisation détaillés.
-23. **B** — Stakeholder Management traite influence, intérêt et concerns.
+23. **B** — Le Stakeholder Management éclaire la décision en associant concerns, viewpoints et autorités appropriées. [X2202, objectifs du domaine concerné].
 24. **A** — Business Scenarios relient problème métier et requirements.
 25. **D** — Gap Analysis identifie create/change/remove entre Baseline et Target.
 26. **C** — Transformation Readiness évalue capacité d'adoption.
 27. **B** — Risk Management traite incertitude, impact et réponses.
 28. **A** — Capability-Based Planning organise le changement autour des capabilities.
 29. **C** — Tailoring adapte l'ADM au contexte.
-30. **D** — Levels of Architecture coordonnent différents scopes.
+30. **D** — Le scoping utilise breadth, depth, architecture domains et time period pour fixer un périmètre proportionné. [X2202, objectifs du domaine concerné].
 31. **B** — Partitioning organise espaces, responsabilités et interfaces.
 32. **A** — TOGAF peut être adapté à Agile et au delivery incrémental.
 33. **B** — Architecture Board = gouvernance/arbitrage.
-34. **C** — Architecture Contract = engagements et responsabilités.
+34. **C** — Le Contract lie les acteurs à des engagements, sans remplacer les descriptions et exigences d'architecture. [X2202, objectifs du domaine concerné].
 35. **A** — Compliance Review vérifie l'alignement de l'implémentation.
 36. **D** — Deliverable = produit formel pouvant contenir des artifacts.
 37. **B** — Artifact = représentation du contenu architectural.
-38. **C** — ABB abstrait le besoin ; SBB précise la réalisation.
+38. **C** — Le Content Framework distingue représentation, exigences et building blocks selon leur niveau d'abstraction. [X2202, objectifs du domaine concerné].
 39. **A** — la View répond aux concerns selon une Viewpoint.
 40. **D** — Catalog liste, Matrix relie, Diagram visualise.
 
