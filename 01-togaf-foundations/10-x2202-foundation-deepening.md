@@ -49,22 +49,25 @@ Quatre questions progressives d'abstraction : **Why** (motivation, outcomes), **
 
 **Limite officielle importante :** l'Unité 2, L1 2.1 indique que les termes ne sont pas examinables séparément s'ils ne figurent pas dans un autre learning outcome. Ils restent indispensables au raisonnement, sans créer arbitrairement une nouvelle section de questions de définitions.
 
-## 3. Architecture Repository : huit familles logiques (L1 1.8 ; L2 8.5)
+## 3. Architecture Repository : les sept rubriques à connaître pour X2202 Practitioner (L2 8.5)
 
-| Composant | Usage |
+**Correction du 1er novembre 2026 :** une ancienne version de ce chapitre présentait **huit** catégories et mélangeait le composant technique *Architecture Metamodel* avec la liste pédagogique de l'objectif **X2202 L2 8.5**. Le syllabus officiel énumère précisément les **sept** rubriques suivantes, avec les intitulés ci-dessous.
+
+| Rubrique officielle de l'objectif L2 8.5 | Usage |
 |---|---|
-| Architecture Metamodel | Décrire les concepts et relations architecturales |
-| Architecture Capability | Décrire la pratique, ses rôles et sa gouvernance |
-| Architecture Landscape | Modèles Baseline, Target et Transition par domaine/horizon |
-| Standards Information Base | Référentiel des normes et standards applicables |
-| Reference Library | Patterns, modèles de référence et sources réutilisables |
-| Governance Log | Décisions, conformité, exceptions et engagements |
-| Architecture Requirements Repository | Exigences et liens de traçabilité |
-| Solutions Landscape | Solutions mises en œuvre et relations avec la cible |
+| Architecture Landscape | États, domaines, niveaux et horizons des architectures |
+| Reference Library | Références, patterns et éléments réutilisables |
+| Standards Library | Standards applicables aux architectures et solutions |
+| Governance Repository | Décisions de gouvernance, conformité, exceptions et preuves |
+| Architecture Requirements Repository | Exigences et traçabilité |
+| Solutions Landscape | Solutions mises en œuvre et leur rapport aux architectures |
+| Enterprise Repository | Ensemble de ressources et référentiels au niveau entreprise |
 
-L'organisation peut adapter ces composants et le TOGAF Standard emploie aussi des regroupements fonctionnels tels que Standards Library, Governance Repository ou Enterprise Repository. **Ne pas considérer des synonymes d'implémentation comme des composants obligatoirement distincts.**
+**Attention aux variantes terminologiques :** *Standards Information Base* et *Governance Log* sont des termes TOGAF employés dans certaines représentations du Repository, mais il ne faut pas les substituer sans explication aux libellés de l'objectif 8.5. L'**Architecture Metamodel** reste une notion fondamentale du Content Framework et du Repository, **sans constituer une huitième rubrique dans la liste X2202 8.5**.
 
-**Piège :** le Standards Information Base contient des standards ; l'Architecture Definition Document décrit une architecture ; l'Architecture Requirements Specification détaille des exigences. Ce ne sont pas des substituts.
+**Piège :** *Standards Library* rassemble les standards, alors que l'Architecture Definition Document décrit une architecture et l'Architecture Requirements Specification les conditions qu'elle doit satisfaire.
+
+**Référence officielle :** X2202 v4.0 (avril 2022), §3.2.8, learning outcome **8.5**, page imprimée 19.
 
 ## 4. Architecture Principles : forme et qualités (L1 4.2–4.4)
 
