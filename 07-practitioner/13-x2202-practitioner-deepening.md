@@ -98,6 +98,24 @@ Le **TOGAF Fundamental Content** définit le cadre central ; les **TOGAF Series 
 
 La préparation ne doit pas supposer que chaque Series Guide est intégralement exigé : **lier chaque approfondissement à un learning outcome X2202**.
 
+## 9 bis. Regrouper les gaps et mesurer l'avancement (L2 8.14–8.19, 5.15)
+
+Le syllabus X2202 Practitioner distingue trois supports de planification qui **ne sont pas interchangeables** :
+
+| Support | Travail attendu |
+|---|---|
+| **Implementation Factor Catalog** | Consigner les facteurs de réalisation : contraintes, dépendances, hypothèses, risques, exigences organisationnelles et points de décision |
+| **Consolidated Gaps, Solutions, and Dependencies Matrix** | Relier les gaps des architectures de domaines aux solutions candidates et dépendances afin de définir et regrouper les work packages |
+| **Architecture Definition Increments Table** | Présenter l'architecture à développer par incréments/étapes cohérents et la manière dont elle progresse au fil des travaux |
+
+**Exemple :** la capacité Fraude dépend d'un flux d'événements fiable et d'une plateforme exploitée en 24/7. Le Factor Catalog fait émerger l'absence de compétences de support ; la matrice relie la dépendance Fraud → Event Platform et son gap ; la table des increments rend explicite le développement progressif des descriptions d'architecture.
+
+**Taxonomy / Enterprise Metamodel / Architecture Content Framework :** une taxonomie classe les éléments dans des catégories cohérentes. Le métamodèle définit types, propriétés et relations, et le Content Framework organise les éléments produits et enrichis pendant l'ADM. Les trois notions se complètent ; une taxonomie seule n'est pas un métamodèle ni un Architecture Repository. Pendant les cycles ADM, compléter le contenu aux points où des décisions et requirements nouveaux sont identifiés, pas uniquement à la fin du projet.
+
+**Opportunity versus viability (L2 5.15)** : une opportunité attractive n'est pas nécessairement réalisable à temps ou avec le financement, la conformité et les compétences disponibles. L'architecte confronte bénéfices, urgence, capacité d'exécution, coûts, risques et séquencement avant de proposer les priorités.
+
+**Références syllabus :** X2202 §3.2, LO 5.15, 8.14–8.19 ; TOGAF ADM Techniques, Applying the ADM et Architecture Content.
+
 ## 10. Quatre contextes d'application du Digital Practitioner Body of Knowledge (DPBoK)
 
 Le DPBoK décrit quatre contextes de pratique — **Individual/Founder, Team, Team of Teams, Enterprise** — à mobiliser pour comprendre le niveau d'organisation et de coordination du travail numérique. Ils ne se substituent ni aux quatre domaines Business/Data/Application/Technology ni aux niveaux d'Architecture Landscape.
