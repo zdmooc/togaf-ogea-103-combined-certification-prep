@@ -136,48 +136,135 @@ A. ABB est toujours un produit précis  B. SBB est toujours abstrait  C. ABB exp
 **Q40.** Quelle association est correcte ?
 A. Catalog = relation croisée ; Matrix = visuel ; Diagram = liste  B. Catalog = plan ; Matrix = phase ; Diagram = requirement  C. Ils sont synonymes  D. Catalog = liste, Matrix = relations, Diagram = représentation visuelle
 
-# Part 2 — Practitioner
+# Part 2 — Practitioner : huit cas multi-contraintes
 
 ## P1 — Context
+
 Une banque dispose d'un processus d'architecture très lourd qui ralentit les produits numériques à faible risque.
 
-A. Supprimer toute gouvernance.  B. Tailorer le processus selon risque, scope et maturité tout en conservant contrôles essentiels.  C. Imposer toujours le processus complet.  D. Laisser chaque développeur définir sa méthode.
+Une banque utilise le même Architecture Board pour de simples changements d'API internes et pour les plateformes de paiement critiques. Les revues durent plusieurs mois, pénalisant les équipes de produits numériques. Les exigences de sécurité demeurent fortes pour certains flux, mais d'autres opérations présentent de faibles risques. Le sponsor réclame une gouvernance proportionnée avec des responsabilités de décision explicites, afin de préserver la qualité sans introduire des exemptions arbitraires.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Réduire le nombre de documents d'architecture exigés pour les produits agiles, sans encore réviser le circuit de validation.
+
+B. Tailorer le processus selon risque, scope et maturité tout en conservant contrôles essentiels, en distinguant changements locaux et structurants et en définissant des contrôles adaptés au risque.
+
+C. Établir une voie rapide de revue pour les changements à faible impact et préciser progressivement les conditions d'escalade.
+
+D. Maintenir le Board central pour toutes les décisions et instaurer seulement un délai de réponse maximal aux demandes.
 
 ## P2 — Stakeholder Management
+
 Les équipes Data n'ont pas été consultées ; elles découvrent tardivement des requirements de qualité impossibles à satisfaire dans les délais.
 
-A. Maintenir le plan existant.  B. Réengager Data comme stakeholder, clarifier concerns/requirements et analyser les impacts sur architecture et roadmap.  C. Supprimer les requirements.  D. Passer directement en Phase G.
+Le programme remplace un référentiel de clients utilisé dans trois directions. L'équipe Data a découvert que plusieurs exigences de qualité validées par le métier ne sont pas réalisables avec les sources existantes. Le sponsor veut maintenir la date et Operations craint des rejets en production. Un nouveau Data Owner a été nommé, mais il n'a pas examiné les impacts sur les contrats d'applications. Le comité demande un scénario de remédiation et une évaluation honnête des risques.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Organiser une revue des données critiques et proposer des règles temporaires de validation, puis analyser les autres impacts.
+
+B. Réengager Data comme stakeholder, clarifier concerns/requirements et analyser les impacts sur architecture et roadmap, en remettant les concerns Data au centre et en révisant les vues, exigences, gaps et options de migration.
+
+C. Conserver la Target et transférer la responsabilité de qualité aux équipes d'exploitation après le déploiement.
+
+D. Documenter les limites des sources et ajuster les tests de recette, sans renégocier les exigences avec les owners.
 
 ## P3 — Phase A
+
 Une transformation possède une forte pression réglementaire mais aucun Statement of Architecture Work approuvé.
 
-A. Cadrer formellement scope, approche, responsabilités, risques et engagement en Phase A.  B. Développer directement les SBB.  C. Faire une Compliance Review.  D. Lancer Phase H.
+Une réglementation impose un contrôle des transferts interbancaires avant la fin de l'année. Une architecture de services est déjà esquissée, mais le sponsor n'a pas approuvé le Statement of Architecture Work et les filiales divergent sur les responsabilités. Le chef de programme souhaite lancer les équipes de développement pour respecter les délais. Le Board doit confirmer ce qui est dans le scope et quelle autorité acceptera les exceptions. Une méthode TOGAF existe dans le groupe.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Cadrer formellement scope, approche, responsabilités, risques et engagement en Phase A, en définissant les livrables, ressources, risques, rôles, périmètre et conditions d'approbation.
+
+B. Formaliser un mandat provisoire pour les éléments indispensables au contrôle réglementaire, puis faire valider le reste du scope.
+
+C. Autoriser une étude détaillée des interfaces de paiement critiques sous l'autorité du sponsor, en documentant les décisions en attente.
+
+D. Démarrer le plan de migration sur la base du budget et demander la formalisation du mandat après la première release.
 
 ## P4 — B/C/D
+
 La Target Application Architecture est définie, mais elle ne supporte pas plusieurs capabilities métier importantes identifiées tardivement.
 
-A. Ignorer les gaps métier.  B. Itérer entre Business et Application Architecture pour réaligner cible et requirements avant Phase E.  C. Passer en Phase F.  D. Corriger uniquement la Technology Architecture.
+La Target applicative prévoit des services centrés sur les produits historiques, mais une nouvelle Business Architecture demande un processus de remboursement partagé. Les Data Owners ont défini un modèle commun et les exigences de confidentialité sont connues. Plusieurs APIs prévues ne couvrent pas la nouvelle capacité métier ; un fournisseur souhaite néanmoins confirmer sa proposition. L'architecte doit déterminer l'impact sur les frontières applicatives et la plateforme sans remettre inutilement en cause l'ensemble du programme.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Ajouter un adaptateur autour de l'application existante pour couvrir rapidement un sous-ensemble du besoin, sans réviser toutes les interactions.
+
+B. Itérer entre Business et Application Architecture pour réaligner cible et requirements avant Phase E, en réconciliant capabilities, services, données et plateformes et en documentant les gaps.
+
+C. Conserver l'architecture applicative approuvée et demander au métier d'adapter les processus au produit disponible.
+
+D. Réviser les services exposés à partir des parcours métier critiques, puis compléter l'analyse des composants moins impactés.
 
 ## P5 — E/F/G
+
 Le Migration Plan est approuvé, mais une équipe implémente un composant qui viole un principle de sécurité.
 
-A. Réviser seulement la Roadmap.  B. Utiliser les mécanismes de Phase G pour Compliance Review, analyse de l'écart et décision gouvernée.  C. Attendre Phase H.  D. Accepter automatiquement.
+Une équipe produit implémente un service d'autorisation en production, mais son modèle de journalisation viole un principe de sécurité approuvé. L'application répond aux critères de performance et le sponsor souhaite maintenir le go-live. Le CISO demande une exception motivée avec durée, propriétaire et mesures compensatoires ; les équipes delivery proposent de corriger après déploiement. Le plan de migration est approuvé et la question concerne maintenant la conformité de la réalisation au contrat d'architecture.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Documenter le problème et appliquer des mesures compensatoires provisoires, puis soumettre l'exception au Board avant la release.
+
+B. Utiliser les mécanismes de Phase G pour Compliance Review, analyse de l'écart et décision gouvernée, en réalisant une Compliance Assessment, en évaluant le risque et en faisant décider l'exception ou la correction.
+
+C. Mettre à jour l'Architecture Definition Document pour refléter la solution livrée, sans analyser la contradiction avec le principe.
+
+D. Ajouter un test d'audit à la campagne de validation et considérer l'écart comme un défaut technique de priorité moyenne.
 
 ## P6 — Phase H
+
 Une technologie stratégique devient obsolète plus tôt que prévu.
 
-A. Évaluer l'impact sur architecture, roadmap, risks et décider de l'ampleur du nouveau travail.  B. Ignorer jusqu'au remplacement matériel.  C. Modifier seulement le Repository.  D. Revenir automatiquement en Phase A sans analyse.
+Une technologie de chiffrement utilisée par la plateforme cible ne recevra plus de correctifs dans un an. Les remplacements possibles n'ont pas les mêmes contraintes de migration et certains partenaires externes refusent une rupture de compatibilité. Le CISO classe le risque comme important, tandis que Finance souhaite attendre le renouvellement du contrat. L'Architecture Landscape décrit encore la technologie actuelle. La décision doit estimer les impacts architecturaux et définir un changement proportionné.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Évaluer l'impact sur architecture, roadmap, risks et décider de l'ampleur du nouveau travail, avec analyse d'impact, classification Phase H et conséquences sur les transitions et standards.
+
+B. Attendre l'arrêt effectif du support et demander ensuite une dérogation générale pour conserver la Target.
+
+C. Préparer une migration pilote du composant concerné en supposant que les interfaces existantes resteront compatibles.
+
+D. Inscrire la fin de support dans le registre de risques et lancer une étude technique comparative, puis décider de la re-entry ADM.
 
 ## P7 — Requirements Management
+
 Une requirement de confidentialité entre en conflit avec une requirement d'analytics temps réel.
 
-A. Choisir la plus récente.  B. Identifier le conflit, engager les stakeholders, analyser options et maintenir la trace de la décision.  C. Supprimer les deux.  D. Laisser l'application décider.
+Une application analytique souhaite réutiliser les événements de paiement, alors que la politique de confidentialité limite l'identification des clients. Le métier attend une analyse en temps réel pour réduire la fraude ; le DPO exige une minimisation des données. Les architectes envisagent une solution agrégée et une autre avec pseudonymisation. Le comité doit analyser l'incompatibilité apparente des requirements et arbitrer une option explicite, vérifiable et traçable.
+
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Définir un modèle de données pseudonymisé comme candidat et en mesurer les conséquences métier, puis formaliser les critères de conformité.
+
+B. Identifier le conflit, engager les stakeholders, analyser options et maintenir la trace de la décision, en distinguant le besoin de valeur analytique des méthodes possibles pour préserver la confidentialité.
+
+C. Demander à la plateforme d'analytics de décider automatiquement de la minimisation nécessaire selon les capacités du fournisseur.
+
+D. Réduire la portée du besoin analytique aux données non sensibles, sans avoir évalué les résultats métier attendus.
 
 ## P8 — Supporting ADM Work
+
 La transformation comporte beaucoup de gaps mais les équipes ne savent pas lesquels dépendent des mêmes capabilities.
 
-A. Capability-Based Planning peut aider à regrouper et prioriser le changement autour des capacités nécessaires.  B. Utiliser uniquement une Compliance Review.  C. Attendre Phase H.  D. Remplacer les gaps par des produits.
+Un programme de paiements comporte des gaps concernant les données, les applications et l'exploitation. Plusieurs dépendent de la même capability de contrôle d'identité, mais chaque équipe propose un projet isolé. Finance refuse de financer plusieurs fois le même composant. La roadmap ne montre aucune dépendance entre la plateforme commune et les migrations d'applications. L'architecte doit transformer les différences Baseline/Target en solutions regroupées, réalisables et priorisables.
 
+**Quelle réponse est la plus adaptée au problème actuel ?**
+
+A. Capability-Based Planning peut aider à regrouper et prioriser le changement autour des capacités nécessaires, en consolidant gaps, solutions potentielles et dépendances pour construire les work packages.
+
+B. Établir une matrice provisoire des gaps liés à l'identité et proposer un lot mutualisé, puis traiter les autres dépendances lors d'une seconde revue.
+
+C. Financer d'abord la capability dont le business case est le plus favorable et demander aux autres équipes de s'y raccorder.
+
+D. Attribuer un lot à chaque projet existant et optimiser séparément les coûts après le démarrage des migrations.
 ---
 
-Fin du sujet.
+Fin de l'examen blanc.
