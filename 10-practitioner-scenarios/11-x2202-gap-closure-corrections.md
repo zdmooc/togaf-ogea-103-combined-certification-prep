@@ -1,4 +1,4 @@
-# Corrigés de couverture X2202 — XP05–XP17
+# Corrigés de couverture X2202 — XP05–XP26
 
 Le barème est un entraînement de jugement, jamais une reproduction des questions officielles.
 
@@ -144,4 +144,112 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 - **A, 0 point :** Parce que TOGAF oblige à implémenter au moins deux solutions complètes avant toute approbation de la Vision. Ne résout pas le problème central.
 
 **Source de référence :** X2202, objectif L1.3.6 ; TOGAF Standard 10th Edition et Series Guides pertinents.
+
+
+## XP18 — L2.1.10
+
+**Barème :** A=1, B=5, C=3, D=0.
+
+- **B, 5 points :** Mesurer les incertitudes sur les capacités et dépendances, analyser scénarios/risques/bénéfices, prévoir des mesures et décisions jalonnées, puis ajuster la trajectoire selon des preuves. B combine risque, outcomes et gouvernance de l'incertitude. C apporte une mesure initiale et un pilote, mais reporte trop de vérifications structurantes.
+- **C, 3 points :** Documenter les risques les plus élevés dans un registre et prévoir une première Transition Architecture, puis confirmer les bénéfices et les dépendances après un pilote contrôlé. Apporte une avancée utile, mais reporte une dépendance ou un arbitrage important.
+- **A, 1 point :** Choisir le scénario de coût minimal, puis réexaminer les risques si les tests montrent un incident. Action ponctuelle n'assurant pas le résultat attendu.
+- **D, 0 point :** Confier la décision au fournisseur ayant livré la solution et considérer son SLA comme preuve suffisante. Ne répond pas aux contraintes centrales de l'énoncé.
+
+**Référence :** X2202 L2.1.10 et sections TOGAF ADM/Series Guides correspondantes.
+
+
+## XP19 — L2.4.1
+
+**Barème :** A=1, B=3, C=0, D=5.
+
+- **D, 5 points :** Pour chaque domaine : sélectionner reference models/viewpoints, établir Baseline et Target proportionnées, identifier gaps et requirements, résoudre les impacts entre domaines, mener les revues et actualiser Roadmap et contenus. D décrit les étapes réutilisées dans les phases ; B permet une organisation parallèle, mais ignore le cadrage commun et reporte les dépendances.
+- **B, 3 points :** Laisser chaque domaine produire son propre diagramme Target, puis rechercher leurs incompatibilités lors de la migration. Apporte une avancée utile, mais reporte une dépendance ou un arbitrage important.
+- **A, 1 point :** Fixer d'abord les standards technologiques puis dessiner les domaines métier, Data et Application autour du produit choisi. Action ponctuelle n'assurant pas le résultat attendu.
+- **C, 0 point :** Limiter l'activité commune à une Gap Analysis après validation complète des trois Target Architectures. Ne répond pas aux contraintes centrales de l'énoncé.
+
+**Référence :** X2202 L2.4.1 et sections TOGAF ADM/Series Guides correspondantes.
+
+
+## XP20 — L2.4.2
+
+**Barème :** A=5, B=1, C=3, D=0.
+
+- **A, 5 points :** Évaluer les threats, vulnerabilities, requirements, contrôles et risques résiduels dans B/C/D ; intégrer les contraintes aux vues Data/Application/Technology, aux gaps et à la gouvernance. A traite les risques de sécurité à chaque domaine ; C recueille des exigences clés mais reporte la réconciliation et la mitigation.
+- **C, 3 points :** Identifier les obligations de confidentialité et la résilience critique, puis détailler les controls et mitigations des domaines touchés dans une revue transverse suivante. Apporte une avancée utile, mais reporte une dépendance ou un arbitrage important.
+- **B, 1 point :** Obtenir une validation sécurité uniquement après la Phase D pour ne pas ralentir l'analyse métier et des données. Action ponctuelle n'assurant pas le résultat attendu.
+- **D, 0 point :** Se fier à la certification du fournisseur : les risques sont couverts par sa plateforme standard. Ne répond pas aux contraintes centrales de l'énoncé.
+
+**Référence :** X2202 L2.4.2 et sections TOGAF ADM/Series Guides correspondantes.
+
+
+## XP21 — L2.4.3
+
+**Barème :** A=1, B=0, C=5, D=3.
+
+- **C, 5 points :** Recueillir et expliciter business principles, business goals et drivers avec les stakeholders, puis les traduire en décisions et requirements de Business Architecture. C mobilise les informations attendues en entrée de B ; D prépare la valeur et les acteurs, mais laisse des drivers/principes incomplets.
+- **D, 3 points :** Consigner les business goals principaux et leurs stakeholders avant de construire le modèle complet des principes et drivers lors du jalon de revue. Apporte une avancée utile, mais reporte une dépendance ou un arbitrage important.
+- **A, 1 point :** Retenir le workflow proposé et considérer les différences de processus comme des requirements de delivery. Action ponctuelle n'assurant pas le résultat attendu.
+- **B, 0 point :** Définir uniquement les composants techniques partagés et laisser le métier produire ses indicateurs après le design. Ne répond pas aux contraintes centrales de l'énoncé.
+
+**Référence :** X2202 L2.4.3 et sections TOGAF ADM/Series Guides correspondantes.
+
+
+## XP22 — L2.5.1
+
+**Barème :** A=1, B=5, C=3, D=0.
+
+- **B, 5 points :** Analyser le risque transitoire en E, intégrer coûts/mitigations et priorités en F, puis vérifier en G les controls, écarts, contrats et preuves d'implémentation. B couvre les trois phases et le risque de transition ; C avance le plan d'atténuation mais reporte des critères d'acceptation.
+- **C, 3 points :** Inscrire une mitigation pour la période de coexistence dans la roadmap E/F, puis demander au Board d'étendre le contrôle aux solutions réalisées à la première revue G. Apporte une avancée utile, mais reporte une dépendance ou un arbitrage important.
+- **A, 1 point :** Concentrer l'analyse de sécurité sur la Compliance Review finale de Phase G. Action ponctuelle n'assurant pas le résultat attendu.
+- **D, 0 point :** Sélectionner le fournisseur le plus certifié et considérer son produit comme une dérogation permanente aux règles Data. Ne répond pas aux contraintes centrales de l'énoncé.
+
+**Référence :** X2202 L2.5.1 et sections TOGAF ADM/Series Guides correspondantes.
+
+
+## XP23 — L2.5.9,L2.5.10
+
+**Barème :** A=0, B=1, C=3, D=5.
+
+- **D, 5 points :** Confirmer la Roadmap et l'Implementation and Migration Plan après analyse valeur/risque/dépendances, préciser Transition Architectures, engagements et informations à transmettre à Phase G. D confirme les sorties de F pour l'exécution ; C donne un séquencement initial mais ne garantit pas la readiness.
+- **C, 3 points :** Prioriser les dépendances techniques dans un tableau de jalons et soumettre le plan au sponsor, puis compléter la readiness et les risques résiduels après le pilote. Apporte une avancée utile, mais reporte une dépendance ou un arbitrage important.
+- **B, 1 point :** Préparer directement les Compliance Reviews de Phase G pour découvrir les dépendances restantes durant le delivery. Action ponctuelle n'assurant pas le résultat attendu.
+- **A, 0 point :** Conserver la Roadmap provisoire de Phase E puisque les projets possèdent déjà un budget suffisant. Ne répond pas aux contraintes centrales de l'énoncé.
+
+**Référence :** X2202 L2.5.9,L2.5.10 et sections TOGAF ADM/Series Guides correspondantes.
+
+
+## XP24 — L2.5.11,L2.5.13
+
+**Barème :** A=1, B=5, C=3, D=0.
+
+- **B, 5 points :** Relier les entrées approuvées (architecture, requirements, Contract, plan et standards) aux Compliance Assessments, décisions d'exception et Change Requests, puis répercuter les résultats dans la gouvernance. B associe entrées G et sorties de gouvernance ; C prépare la vérification, mais manque des engagements et retours structurés.
+- **C, 3 points :** Définir une grille de conformité des requirements les plus critiques et un registre d'écarts, puis compléter les autres décisions/contrats aux jalons de réalisation. Apporte une avancée utile, mais reporte une dépendance ou un arbitrage important.
+- **A, 1 point :** Garder comme seule entrée le backlog Agile de l'équipe, puis enregistrer les issues après la mise en production. Action ponctuelle n'assurant pas le résultat attendu.
+- **D, 0 point :** Créer un nouveau Statement of Architecture Work à la fin de l'implémentation et ne pas tenir compte des exigences approuvées précédentes. Ne répond pas aux contraintes centrales de l'énoncé.
+
+**Référence :** X2202 L2.5.11,L2.5.13 et sections TOGAF ADM/Series Guides correspondantes.
+
+
+## XP25 — L2.6.3
+
+**Barème :** A=5, B=0, C=3, D=1.
+
+- **A, 5 points :** Documenter le résultat de Change Management et la décision de gouvernance, produire les Change Requests/mandats et déclencher les activités ou le nouveau cycle ADM nécessaires avec exigences et Landscape mis à jour. A précise les sorties et leur usage ; C est un début de traçabilité, mais reporte décision de portée et réconciliation.
+- **C, 3 points :** Émettre une Change Request et attribuer un owner, puis laisser la réconciliation des autres documents et la portée ADM à une revue ultérieure. Apporte une avancée utile, mais reporte une dépendance ou un arbitrage important.
+- **D, 1 point :** Considérer le changement comme terminé dès l'acceptation orale de la nouvelle requirement par son propriétaire. Action ponctuelle n'assurant pas le résultat attendu.
+- **B, 0 point :** Conserver le changement dans un ticket d'incident opérationnel sans modifier les artefacts d'architecture approuvés. Ne répond pas aux contraintes centrales de l'énoncé.
+
+**Référence :** X2202 L2.6.3 et sections TOGAF ADM/Series Guides correspondantes.
+
+
+## XP26 — L2.7.3
+
+**Barème :** A=1, B=0, C=5, D=3.
+
+- **C, 5 points :** Mettre à jour les exigences et leurs liens, produire un Requirements Impact Assessment pour les modèles, décisions et work packages affectés, et soumettre les changements gouvernés. C identifie les sorties et leur effet sur l'ADM ; D entretient la trace, mais reporte la preuve d'impact.
+- **D, 3 points :** Versionner la requirement et notifier les propriétaires techniques, puis compléter l'analyse des impacts sur la roadmap à la prochaine revue. Apporte une avancée utile, mais reporte une dépendance ou un arbitrage important.
+- **A, 1 point :** Ajouter la demande au registre des changements puis demander aux équipes de l'implémenter sans toucher aux specs approuvées. Action ponctuelle n'assurant pas le résultat attendu.
+- **B, 0 point :** Documenter une seule user story et la considérer comme une architecture cible suffisante. Ne répond pas aux contraintes centrales de l'énoncé.
+
+**Référence :** X2202 L2.7.3 et sections TOGAF ADM/Series Guides correspondantes.
 
