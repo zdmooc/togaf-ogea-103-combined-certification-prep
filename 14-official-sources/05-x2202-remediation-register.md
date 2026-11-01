@@ -4,7 +4,7 @@
 
 ## Règles de validation
 
-Chaque *learning outcome* doit obtenir (1) une référence du cours avec explication vérifiée, (2) au moins une évaluation pertinente, (3) un corrigé contrôlé avec justification et (4) une source TOGAF de référence. La présence d'un titre de chapitre ne suffit pas. **Non vérifié** n'est jamais équivalent à **couvert**.
+Chaque *learning outcome* doit obtenir (1) une référence du cours avec explication vérifiée, (2) au moins une évaluation pertinente, (3) un corrigé contrôlé avec justification et (4) une source TOGAF de référence. La présence d'un titre de chapitre ou d'une référence d'exercice seule ne suffit pas. **Non vérifié** n'est jamais équivalent à **couvert**.
 
 | Groupe de learning outcomes X2202 | Enseignement principal | Lacune/contrôle à résoudre | Statut |
 |---|---|---|---|
@@ -47,10 +47,12 @@ Chaque *learning outcome* doit obtenir (1) une référence du cours avec explica
 - [x] 6 examens blancs : 40 QCM + 8 scénarios chacun et corrections présentes.
 - [x] 48 scénarios des mocks repris avec des contextes plus développés.
 - [x] 240 QCM des mocks retravaillés (48 réécrits en profondeur, 192 révisés par concept) et 14 intitulés répétés contextualisés.
-- [x] 131 learning outcomes X2202 inventoriés individuellement et associés à des supports candidats (sans validation individuelle de fond).
+- [x] **131 objectifs X2202** inventoriés ; **130** disposent d'un numéro précis d'exercice candidat et **L1.8.1** n'exige pas de question dédiée (Bloom None). Les associations restent à relire pédagogiquement.
+- [x] **6 exercices ciblés** ajoutés (XF01–XF02, XP01–XP04) pour combler les associations manquantes dans les deux niveaux.
+- [x] Correction du cours : **7 rubriques officielles du Repository** à L2 8.5, et non 8 ; termes Standards Library et Governance Repository distingués des variantes historiques.
 - [x] 133 distracteurs faibles de la banque Foundation remplacés par des alternatives conceptuellement plus proches (53 + 80).
 - [x] GitHub Actions : contrôles structurels des banques, six mocks, 131 objectifs et liens vers les cours.
-- [ ] Associer à chacun des 131 objectifs un numéro précis d'exercice et vérifier sa conformité au niveau Bloom requis.
+- [ ] Examiner la pertinence et le niveau **Bloom** de chacune des 130 associations candidates (les identifiants sont maintenant indiqués, mais pas encore certifiés).
 - [ ] Validation sémantique indépendante et approfondie de l'ensemble du corpus par relecteur qualifié.
 
 ## Distinction importante
