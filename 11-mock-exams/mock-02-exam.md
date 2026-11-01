@@ -70,7 +70,7 @@ A. Les phases peuvent être revisitées pour réconcilier les modèles et exigen
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Gap Analysis — identification des écarts pertinents entre architectures Baseline et Target  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q22.** Le comité veut connaître les grands états intermédiaires et les work packages menant à la cible à trois ans, sans entrer encore dans le planning quotidien des équipes. Quel livrable convient ?
-A. Architecture Requirements Specification — conditions vérifiables de cible  B. Présente la trajectoire de transformation à haut niveau  C. Architecture Contract — engagements entre acteurs de réalisation  D. Implementation and Migration Plan — tâches et dates détaillées des waves
+A. Architecture Requirements Specification — conditions vérifiables de cible  B. Architecture Roadmap — présente la trajectoire de transformation à haut niveau  C. Architecture Contract — engagements entre acteurs de réalisation  D. Implementation and Migration Plan — tâches et dates détaillées des waves
 
 **Q23.** La direction parle de « banque plus rapide », mais aucun acteur ni résultat opérationnel attendu n'est défini. Quelle technique clarifie le problème afin d'en tirer des requirements ?
 A. Gap Analysis, en choisissant immédiatement la solution technique cible.  B. Compliance Review, pour évaluer un programme qui n'a pas encore de Target.  C. Migration Planning, pour établir le séquencement avant la validation du besoin.  D. Business Scenario, articulant problème, acteurs, contexte et outcomes mesurables.
