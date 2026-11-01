@@ -174,10 +174,10 @@ D. La couleur du backlog
 
 ## Q230 — Digital Enterprise
 Dans une digital enterprise, l'architecture doit souvent :
-A. Devenir entièrement documentaire
+A. Fixer une Architecture Definition Document immuable avant les premières itérations produit
 B. Supporter vitesse, feedback, modularité et évolution continue tout en gardant la gouvernance
-C. Supprimer les standards
-D. Éviter toute architecture cible
+C. Remplacer toute gouvernance de domaine par les seules décisions quotidiennes des squads
+D. S'appuyer exclusivement sur la Target Technology sans expliciter les drivers métier évolutifs
 **Réponse : B.** TOGAF peut être appliqué dans un contexte digital de manière adaptée.
 **Mapping : Applying ADM — Digital Enterprise.**
 
@@ -192,9 +192,9 @@ D. Pour rendre les interfaces implicites
 
 ## Q232 — Continuous architecture
 Une architecture digitale efficace est souvent :
-A. Écrite une fois puis jamais revue
-B. Déconnectée du delivery
-C. Sans governance
+A. Définie une fois en Preliminary et conservée sans révision pendant les releases de l'entreprise
+B. Limitée à la seule Architecture Vision initiale sans itération entre Data et Application
+C. Adaptée uniquement lorsque le comité de projet annule la roadmap et lance un nouveau programme
 D. Maintenue et ajustée continuellement plutôt que figée une fois pour toutes
 **Réponse : D.** Les environnements digitaux évoluent et exigent feedback et change management.
 **Mapping : Applying ADM — Digital Enterprise.**
@@ -202,18 +202,18 @@ D. Maintenue et ajustée continuellement plutôt que figée une fois pour toutes
 ## Q233 — Agile and TOGAF
 TOGAF et Agile sont :
 A. Compatibles si l'ADM est adapté et la gouvernance intégrée aux boucles de delivery
-B. Mutuellement exclusifs
-C. Identiques
-D. Compatibles seulement si aucune architecture n'existe
+B. Incompatibles car l'ADM exige de terminer intégralement toutes les phases avant chaque sprint
+C. Compatibles seulement si les product owners remplacent toutes les autorités de gouvernance
+D. Compatibles uniquement en Phase G, lorsque les produits sont déjà réalisés et testés
 **Réponse : A.** L'un organise l'architecture, l'autre le delivery adaptatif ; ils peuvent se compléter.
 **Mapping : Applying ADM — Agile and TOGAF.**
 
 ## Q234 — Architecture runway
 Dans un environnement Agile, l'architecture doit :
-A. Détailler chaque sprint des années à l'avance
+A. Figer toutes les architectures de domaine avant le premier sprint et interdire leur évolution
 B. Fournir suffisamment de direction et de constraints pour permettre le delivery sans figer tout le futur
-C. Éviter les feedback loops
-D. Interdire les décisions locales
+C. Déléguer toutes les décisions aux produits sans maintenir les standards et exigences transverses
+D. Limiter l'architecture aux contrôles réalisés après chaque déploiement, sans Vision cible
 **Réponse : B.** L'architecture donne une direction évolutive et gouvernée.
 **Mapping : Applying ADM — Agile and TOGAF.**
 
