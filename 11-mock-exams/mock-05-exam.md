@@ -34,7 +34,7 @@ A. Architecture Repository — stockage et organisation des éléments produits 
 A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Preliminary — mise en place de l'Architecture Capability  C. Phase E — définir options, work packages et transitions candidates  D. Phase G — contrôler la mise en œuvre et ses dérogations
 
 **Q10.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. L'Architecture Vision est principalement élaborée en :
-A. Phase A — cadrage et Architecture Vision  B. Preliminary — définir la gouvernance et l'Architecture Capability  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
+A. Phase A — définition du périmètre, des concerns métier et de l'Architecture Vision  B. Preliminary — définir la gouvernance et l'Architecture Capability  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** Un programme doit définir les services métier et processus d'assurance futurs ; les applications legacy sont connues. Quel travail ADM doit structurer ce besoin ?
 A. Finaliser la Target Technology Architecture à partir des serveurs supportant les applications actuelles.  B. Décider d'abord des work packages de migration puis adapter les services métier à leur séquencement.  C. Développer la Target Business Architecture avant de dériver Data/Application/Technology et leurs gaps.  D. Réaliser la Compliance Review des applications existantes comme substitut de l'analyse de Target Business.
@@ -82,7 +82,7 @@ A. Business Scenarios — besoin métier contextualisé et requirements  B. Gap 
 A. Technology Architecture — mêmes produits, sans vérifier la sémantique  B. Interoperability — capacité de collaboration métier, information et technique  C. Standards Information Base — liste de standards techniques approuvés  D. Compliance Review — contrôle d'un composant isolé après réalisation
 
 **Q26.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique évalue les barrières à l'adoption de la transformation ?
-A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness
+A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation des capacités de mise en œuvre
 
 **Q27.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique structure l'analyse des événements incertains susceptibles d'affecter les objectifs ?
 A. Gap Analysis — différences entre les états existant et cible  B. Readiness Assessment — facteurs de compétences et capacité d'adoption  C. Risk Management — identification, analyse et traitement des risques  D. Compliance Review — vérification des exigences d'une solution réalisée
