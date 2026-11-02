@@ -9,16 +9,16 @@ Les équipes métier parlent de rapidité mais ne définissent ni latence attend
 Quelle technique aiderait le mieux à démarrer ?
 A. Utiliser un Business Scenario pour expliciter problème/opportunité, acteurs, environnement, desired outcomes et requirements.
 B. Utiliser un entretien métier structuré pour clarifier objectifs, acteurs et indicateurs, puis formaliser un Business Scenario dans un second temps.
-C. Organiser un entretien avec les métiers pour définir les acteurs et un indicateur de temps de traitement, puis compléter le scénario d'affaires plus tard.
+C. Ne retenir qu'un indicateur technique de latence lors d'un entretien rapide, sans préciser le problème métier, les acteurs concernés ni les résultats attendus.
 D. Dériver directement un objectif technique de latence depuis l'offre fournisseur la plus rapide, puis vérifier la valeur métier après le pilote.
 **Scoring : A=5, B=3, C=1, D=0.**
 
 **Justification des quatre niveaux :**
 
-- **A — 5 points :** Utiliser un Business Scenario pour expliciter problème/opportunité, acteurs, environnement, desired outcomes et requirements. Le Business Scenario relie acteurs, problème, environnement et outcomes.
-- **B — 3 points :** Utiliser un entretien métier structuré pour clarifier objectifs, acteurs et indicateurs, puis formaliser un Business Scenario dans un second temps. Décrire le parcours actuel est une entrée, pas un scénario cible.
-- **C — 1 point :** Organiser un entretien avec les métiers pour définir les acteurs et un indicateur de temps de traitement, puis compléter le scénario d'affaires plus tard. Un seul diagramme technique n'explique pas la demande métier.
-- **D — 0 point :** Dériver directement un objectif technique de latence depuis l'offre fournisseur la plus rapide, puis vérifier la valeur métier après le pilote. Choisir le fournisseur avant le scénario inverse besoin et solution.
+- **A — 5 points :** Utiliser un Business Scenario pour expliciter problème/opportunité, acteurs, environnement, desired outcomes et requirements. Le Business Scenario explicite ensemble problème, acteurs, environnement, outcomes et requirements ; il permet de valider la demande avant le choix d'une solution.
+- **B — 3 points :** Utiliser un entretien métier structuré pour clarifier objectifs, acteurs et indicateurs, puis formaliser un Business Scenario dans un second temps. L'entretien structuré recueille objectifs, acteurs et indicateurs en vue du Business Scenario ; la formalisation et la validation du scénario restent différées.
+- **C — 1 points :** Ne retenir qu'un indicateur technique de latence lors d'un entretien rapide, sans préciser le problème métier, les acteurs concernés ni les résultats attendus. Un seul indicateur de latence, sans analyse du problème ni du contexte métier, ne permet pas d'établir des outcomes et requirements suffisants pour le Business Scenario.
+- **D — 0 points :** Dériver directement un objectif technique de latence depuis l'offre fournisseur la plus rapide, puis vérifier la valeur métier après le pilote. Fonder la latence sur l'offre fournisseur avant de clarifier la valeur et le besoin inverse l'enchaînement business scenario → requirements → solutions.
 
 **Mapping : Supporting ADM Work — Business Scenarios.**
 
@@ -82,18 +82,18 @@ Après plusieurs controls, un risque de perte temporaire de service subsiste lor
 La coupure de service envisagée concerne un système de compensation qui ne peut tolérer plus de quelques minutes de perte. Un test de bascule a amélioré la situation mais le niveau résiduel reste supérieur au seuil approuvé par Operations. Le sponsor souhaite clôturer le registre de risques pour présenter un tableau de bord favorable. L'architecte doit décider ce qui nécessite une acceptation explicite et quelles preuves sont attendues.
 
 Quelle action est la meilleure ?
-A. Maintenir la mitigation et son suivi dans le registre de risque, tout en demandant une validation différée de l'acceptation du risque résiduel.
+A. Maintenir le suivi des mitigations dans le registre sans réestimer le risque résiduel ni identifier son propriétaire, puis demander une acceptation différée.
 B. Documenter le contrôle, maintenir le risque résiduel ouvert et demander une nouvelle estimation avec les équipes métiers avant l'escalade formelle.
 C. Réduire la sévérité du risque dans le registre et replanifier sa revue au prochain comité de performance, sans traiter le dépassement du seuil.
 D. Distinguer risque initial, mitigation et residual risk, attribuer ownership et obtenir l’acceptation/escalade appropriée du risque résiduel.
-**Scoring : A=3, B=1, C=0, D=5.**
+**Scoring : A=1, B=3, C=0, D=5.**
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Distinguer risque initial, mitigation et residual risk, attribuer ownership et obtenir l’acceptation/escalade appropriée du risque résiduel. Une mitigation doit être suivie de la mesure du risque résiduel.
-- **A — 3 points :** Maintenir la mitigation et son suivi dans le registre de risque, tout en demandant une validation différée de l'acceptation du risque résiduel. Une mesure sans owner laisse l'acceptation du risque ambiguë.
-- **B — 1 point :** Documenter le contrôle, maintenir le risque résiduel ouvert et demander une nouvelle estimation avec les équipes métiers avant l'escalade formelle. Un score de risque initial seul ne prouve pas son traitement.
-- **C — 0 point :** Réduire la sévérité du risque dans le registre et replanifier sa revue au prochain comité de performance, sans traiter le dépassement du seuil. Cacher le risque résiduel empêche toute acceptation éclairée.
+- **D — 5 points :** Distinguer risque initial, mitigation et residual risk, attribuer ownership et obtenir l’acceptation/escalade appropriée du risque résiduel. Qualifier risque initial et résiduel, propriétaires, mitigation et acceptation ou escalade appropriée fournit une décision traçable et conforme à la tolérance.
+- **A — 1 points :** Maintenir le suivi des mitigations dans le registre sans réestimer le risque résiduel ni identifier son propriétaire, puis demander une acceptation différée. Suivre la mitigation sans recalcul du risque résiduel ni responsable identifié laisse le dépassement du seuil sans décision de gouvernance et reporte l'acceptation.
+- **B — 3 points :** Documenter le contrôle, maintenir le risque résiduel ouvert et demander une nouvelle estimation avec les équipes métiers avant l'escalade formelle. Garder le risque ouvert et demander une estimation actualisée avec le métier est une démarche utile ; l'ownership et l'escalade au bon niveau ne sont pas encore obtenus.
+- **C — 0 points :** Réduire la sévérité du risque dans le registre et replanifier sa revue au prochain comité de performance, sans traiter le dépassement du seuil. Abaisser arbitrairement la gravité puis différer la revue masque un risque résiduel au-dessus de la tolérance d'Operations.
 
 **Mapping : Supporting ADM Work — Risk Management.**
 
@@ -109,16 +109,16 @@ La direction voit ces produits comme des programmes autonomes, mais leur valeur 
 Quelle action est la meilleure ?
 A. Utiliser Capability-Based Planning pour relier les investissements aux capabilities/outcomes nécessaires, puis déterminer les building blocks et work packages qui les réalisent.
 B. Commencer par une carte de capabilities métier et la relier aux principaux produits, sans prioriser encore les work packages sur les gaps.
-C. Construire une première carte de capabilities et associer les produits aux fonctions qu'ils supportent, puis évaluer les gains à la prochaine revue.
+C. Dresser l'inventaire des produits Kafka, Kubernetes et API Gateway et associer à chacun une fonction technique, sans analyser les capabilities et outcomes métier.
 D. Financer d'abord la plateforme la moins coûteuse en supposant qu'elle créera automatiquement la capacité métier recherchée.
 **Scoring : A=5, B=3, C=1, D=0.**
 
 **Justification des quatre niveaux :**
 
-- **A — 5 points :** Utiliser Capability-Based Planning pour relier les investissements aux capabilities/outcomes nécessaires, puis déterminer les building blocks et work packages qui les réalisent. Capability-Based Planning relie outcomes et investissements aux capacités.
-- **B — 3 points :** Commencer par une carte de capabilities métier et la relier aux principaux produits, sans prioriser encore les work packages sur les gaps. Une capability map initie le travail sans prioriser les work packages.
-- **C — 1 point :** Construire une première carte de capabilities et associer les produits aux fonctions qu'ils supportent, puis évaluer les gains à la prochaine revue. Un inventaire applicatif ne mesure pas les capacités manquantes.
-- **D — 0 point :** Financer d'abord la plateforme la moins coûteuse en supposant qu'elle créera automatiquement la capacité métier recherchée. Partir des produits déployés plutôt que des besoins biaise la Roadmap.
+- **A — 5 points :** Utiliser Capability-Based Planning pour relier les investissements aux capabilities/outcomes nécessaires, puis déterminer les building blocks et work packages qui les réalisent. Le Capability-Based Planning rattache outcomes et capacités aux investissements, building blocks, work packages et dépendances, ce que demande Finance.
+- **B — 3 points :** Commencer par une carte de capabilities métier et la relier aux principaux produits, sans prioriser encore les work packages sur les gaps. La carte des capabilities reliée aux produits amorce la justification métier ; sans gaps ni priorisation des work packages, l'arbitrage budgétaire reste incomplet.
+- **C — 1 points :** Dresser l'inventaire des produits Kafka, Kubernetes et API Gateway et associer à chacun une fonction technique, sans analyser les capabilities et outcomes métier. L'inventaire Kafka/Kubernetes/API Gateway fournit des informations de fonctions techniques, mais ne caractérise ni les capabilities manquantes ni les résultats métier visés.
+- **D — 0 points :** Financer d'abord la plateforme la moins coûteuse en supposant qu'elle créera automatiquement la capacité métier recherchée. Financer le produit le moins cher sans évaluer les capabilities et outcomes transforme une contrainte budgétaire en décision d'architecture non justifiée.
 
 **Mapping : Supporting ADM Work — Capability-Based Planning.**
 
@@ -157,7 +157,7 @@ Le comité demande l’Architecture Definition Document. L’équipe répond qu�
 Le comité attend un livrable formel permettant la validation de plusieurs domaines et de leurs implications ; l'équipe a seulement produit un diagramme d'API. Les architectes veulent accélérer la revue en appelant les services représentés des artifacts. Le Business Owner demande une preuve que la cible répond aux concerns métier et Operations veut les éléments de reprise. La distinction entre représentation, composant et livrable influence donc la décision.
 
 Quelle correction est la meilleure ?
-A. Requalifier correctement le diagramme comme artifact et recenser les building blocks, puis compléter progressivement les autres éléments du livrable.
+A. Classer les services du diagramme dans un catalogue technique de composants, puis présenter ce catalogue comme principal complément sans clarifier les catégories TOGAF.
 B. Conserver le diagramme comme preuve d'architecture approuvable et ajouter la liste des standards technologiques comme annexe au dossier.
 C. Expliquer que le deliverable est le produit de travail formel, qu’il peut contenir plusieurs artifacts, et que les services/capacités représentés peuvent être des building blocks.
 D. Requalifier le diagramme comme artifact du livrable et lister les building blocks représentés, tout en laissant à compléter les autres vues requises.
@@ -165,10 +165,10 @@ D. Requalifier le diagramme comme artifact du livrable et lister les building bl
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Expliquer que le deliverable est le produit de travail formel, qu’il peut contenir plusieurs artifacts, et que les services/capacités représentés peuvent être des building blocks. Le Framework distingue deliverable formel, artifact et building block.
-- **D — 3 points :** Requalifier le diagramme comme artifact du livrable et lister les building blocks représentés, tout en laissant à compléter les autres vues requises. Un diagramme seul ne décrit pas toutes les obligations du livrable.
-- **A — 1 point :** Requalifier correctement le diagramme comme artifact et recenser les building blocks, puis compléter progressivement les autres éléments du livrable. Un composant de solution n'est pas un document d'architecture.
-- **B — 0 point :** Conserver le diagramme comme preuve d'architecture approuvable et ajouter la liste des standards technologiques comme annexe au dossier. Confondre les catégories détruit la traçabilité entre intention et réalisation.
+- **C — 5 points :** Expliquer que le deliverable est le produit de travail formel, qu’il peut contenir plusieurs artifacts, et que les services/capacités représentés peuvent être des building blocks. La distinction explicite entre deliverable formel, artifacts constitutifs et building blocks représentés répond au besoin du comité de validation.
+- **D — 3 points :** Requalifier le diagramme comme artifact du livrable et lister les building blocks représentés, tout en laissant à compléter les autres vues requises. Requalifier l'artifact et identifier les building blocks constitue une remise en ordre correcte, mais la composition complète du deliverable doit encore être définie.
+- **A — 1 points :** Classer les services du diagramme dans un catalogue technique de composants, puis présenter ce catalogue comme principal complément sans clarifier les catégories TOGAF. Un catalogue technique identifie des composants potentiels, mais ne corrige pas la confusion entre deliverable formel, artifact de représentation et building block.
+- **B — 0 points :** Conserver le diagramme comme preuve d'architecture approuvable et ajouter la liste des standards technologiques comme annexe au dossier. Considérer un diagramme et une annexe de standards comme livrable complet confond une représentation partielle avec un produit de travail gouverné.
 
 **Mapping : Supporting ADM Work — Architecture Content.**
 
