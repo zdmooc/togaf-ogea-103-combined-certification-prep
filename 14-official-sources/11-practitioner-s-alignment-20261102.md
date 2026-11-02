@@ -9,7 +9,7 @@
 - **33 scénarios modifiés**, avec leurs quatre justifications réécrites pour commenter l'action correspondante et expliquer le classement.
 - **27 scénarios laissés inchangés** après comparaison. Parmi eux, `S001`, `S002`, `S005`, `S022`, `S040` n'avaient pas été retouchés lors de la passe précédente : leurs options et justifications ont été relues, sans erreur manifeste nécessitant une modification ; les autres avaient déjà été corrigés.
 - Conservation de quatre notes distinctes (5, 3, 1, 0) et du meilleur choix pour chaque cas ; les **15 meilleures réponses par lettre** A/B/C/D restent inchangées.
-- Changement des notes intermédiaires sur S009, S013, S019, S020, S024 et S056 ; ajustement d'options trop proches en S029, S053, S057 et S059.
+- Changement des notes intermédiaires sur S009, S013, S019, S020, S023, S024, S028 et S056 ; ajustement d'options trop proches en S029, S053, S057 et S059.
 - Harmonisation `Standards Library` / `Governance Repository` dans le chapitre Repository et les six sujets Combined (avec explication des appellations historiques dans le cours).
 - Catégories de l'interopérabilité ajoutées en distinguant la classification TOGAF 10 des **degrés illustratifs historiques**, sans faire passer ceux-ci pour des objectifs normatifs X2202.
 - Hors périmètre : banque Q001–Q300, exercices XP et barèmes des corrections Practitioner des six mocks ; les lettres des réponses des mocks Foundation restent inchangées.
@@ -35,11 +35,11 @@
 | S018 | `10-practitioner-scenarios/03-phase-a-s015-s021.md` | — | — | Justifications A/B/C/D reformulées |
 | S019 | `10-practitioner-scenarios/03-phase-a-s015-s021.md` | A 1→3; D 3→1 | D | Justifications A/B/C/D reformulées |
 | S020 | `10-practitioner-scenarios/03-phase-a-s015-s021.md` | A 3→1; B 1→3 | A | Justifications A/B/C/D reformulées |
-| S023 | `10-practitioner-scenarios/04-bcd-s022-s030.md` | — | — | Justifications A/B/C/D reformulées |
+| S023 | `10-practitioner-scenarios/04-bcd-s022-s030.md` | A 1→3; D 3→1 | — | Justifications A/B/C/D reformulées ; niveaux 3/1 révisés |
 | S024 | `10-practitioner-scenarios/04-bcd-s022-s030.md` | A 3→1; B 1→3 | A | Justifications A/B/C/D reformulées |
 | S026 | `10-practitioner-scenarios/04-bcd-s022-s030.md` | — | — | Justifications A/B/C/D reformulées |
 | S027 | `10-practitioner-scenarios/04-bcd-s022-s030.md` | — | — | Justifications A/B/C/D reformulées |
-| S028 | `10-practitioner-scenarios/04-bcd-s022-s030.md` | — | — | Justifications A/B/C/D reformulées |
+| S028 | `10-practitioner-scenarios/04-bcd-s022-s030.md` | A 3→1; B 1→3 | — | Justifications A/B/C/D reformulées ; niveaux 3/1 révisés |
 | S029 | `10-practitioner-scenarios/04-bcd-s022-s030.md` | — | C | Justifications A/B/C/D reformulées |
 | S030 | `10-practitioner-scenarios/04-bcd-s022-s030.md` | — | — | Justifications A/B/C/D reformulées |
 | S031 | `10-practitioner-scenarios/05-efg-s031-s039.md` | — | A | Justifications A/B/C/D reformulées |
@@ -132,10 +132,10 @@ Chaque ligne donne la note avant et après, et la justification **hors répétit
 | S020 | B | 1 → 3 | Une validation sponsor seule ne vaut pas acceptation des utilisateurs. | La consultation des trois responsables et la liste de concerns constituent une étape substantielle ; les impacts doivent encore modifier la Vision et les requirements avant approbation. |
 | S020 | C | 0 → 0 | Poursuivre malgré les désaccords invalide la Vision commune. | Maintenir la Vision et repousser les exigences à la construction fait courir le risque d'une solution non acceptée et invalide le cadrage. |
 | S020 | D | 5 → 5 | Les stakeholders concernés doivent valider leurs concerns avant d'autoriser la suite. | Réviser stakeholders, concerns, impacts, Vision et exigences avant autorisation assure une gouvernance cohérente de la Phase A. |
-| S023 | A | 1 → 1 | L'inventaire exhaustif coûte du temps sans bénéfice proportionné. | Une Baseline ciblée et un registre d'hypothèses évitent l'inventaire exhaustif, mais les critères de suffisance et de dépendances restent à consolider. |
+| S023 | A | 1 → 3 | L'inventaire exhaustif coûte du temps sans bénéfice proportionné. | Cibler la chaîne critique et signaler explicitement les fonctions adjacentes non encore étudiées permet une Baseline proportionnée ; il reste à vérifier que ces hypothèses couvrent tous les impacts, interfaces et gaps nécessaires. |
 | S023 | B | 0 → 0 | Ignorer l'existant prive l'architecte de base de comparaison. | Concevoir la Target sans aucune dépendance actuelle reporte les gaps et fragilise les travaux de migration. |
 | S023 | C | 5 → 5 | Une Baseline proportionnée donne les informations nécessaires pour calculer les gaps. | Documenter seulement l'existant nécessaire au périmètre, aux impacts et aux gaps rend la Baseline proportionnée à la décision. |
-| S023 | D | 3 → 3 | Les processus critiques constituent une première sélection sans critère de suffisance. | Restreindre la collecte aux seuls processus désignés sans critère de suffisance risque d'ignorer interfaces et dépendances critiques. |
+| S023 | D | 3 → 1 | Les processus critiques constituent une première sélection sans critère de suffisance. | Se limiter aux processus désignés sans critères de suffisance ni suivi des hypothèses risque d'ignorer des dépendances critiques et ne démontre pas que la Baseline est exploitable. |
 | S024 | A | 3 → 1 | Un schéma SQL clarifie le stockage sans la gouvernance des données. | Recenser quelques entités techniques est une première observation, mais ne décrit ni les propriétaires, ni la gouvernance, ni le cycle de vie ; PostgreSQL reste une hypothèse de solution non justifiée. |
 | S024 | B | 1 → 3 | Une liste d'entités peut aider sans clarifier ownership et signification. | Entités, flux et sensibilité caractérisent la Data Architecture, mais la gouvernance, le cycle de vie et l'ownership doivent encore être traités. |
 | S024 | C | 0 → 0 | La sélection du SGBD ne remplace pas les exigences Data. | Déduire gouvernance et organisation des données d'un benchmark de SGBD inverse besoin métier et choix technologique. |
@@ -148,8 +148,8 @@ Chaque ligne donne la note avant et après, et la justification **hors répétit
 | S027 | B | 0 → 0 | Planifier des lots sans gaps consolidés rend les dépendances invisibles. | Déployer une infrastructure événementielle avant de définir les besoins métier revient à financer une solution sans gaps consolidés. |
 | S027 | C | 5 → 5 | Les gaps des domaines doivent être réconciliés pour révéler les dépendances. | Tracer les impacts cross-domain et consolider les gaps avant Phase E relie les décisions B, C et D à des work packages justifiables. |
 | S027 | D | 3 → 3 | Une liste de gaps séparés est utile mais ne décrit pas leurs impacts mutuels. | Enregistrer le gap et sa dépendance à une analyse future rend le risque visible, mais ne réconcilie pas encore les impacts entre domaines. |
-| S028 | A | 3 → 3 | Modéliser une interface fournit une vue partielle des dépendances d'information. | Différer la réouverture de la Data Architecture jusqu'à l'approbation du modèle applicatif peut figer provisoirement des décisions incohérentes. |
-| S028 | B | 1 → 1 | Une liste de messages ne décrit ni consommateurs ni ownership. | Une hypothèse Data explicitement provisoire et un impact sur les services amorcent une itération, mais interfaces et requirements restent à réconcilier. |
+| S028 | A | 3 → 1 | Modéliser une interface fournit une vue partielle des dépendances d'information. | Attendre la validation du modèle applicatif avant de rouvrir les décisions Data maintient un séquencement rigide et peut faire approuver une Target incohérente avec les contraintes de localisation. |
+| S028 | B | 1 → 3 | Une liste de messages ne décrit ni consommateurs ni ownership. | L'hypothèse réversible et l'analyse d'impact entre Data et services amorcent l'itération nécessaire ; le réexamen des interfaces reste différé, d'où une démarche encore incomplète. |
 | S028 | C | 0 → 0 | Figer l'un des domaines sans consulter l'autre casse la cohérence. | Approuver séparément Data et Application et reporter les conflits en dérogation après la production détruit la cohérence de Phase C. |
 | S028 | D | 5 → 5 | Les phases C Data et Application s'influencent et exigent des itérations. | Itérer entre Data et Application jusqu'à satisfaire les requirements garantit une Target cohérente et traçable. |
 | S029 | A | 5 → 5 | La vue métier doit traiter les capabilities et concerns du décideur. | Le viewpoint sélectionné en fonction des concerns donne au directeur une view métier lisible des capacités, services et impacts. |
