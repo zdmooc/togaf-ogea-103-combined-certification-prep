@@ -65,10 +65,10 @@ D. Restaurer la traçabilité vers source/concern, analyser où la requirement s
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Restaurer la traçabilité vers source/concern, analyser où la requirement s’applique et relier les artifacts et building blocks concernés. La relation requirement→building blocks permet de calculer les impacts.
-- **A — 3 points :** Rattacher l'exigence au composant principal et à un critère de vérification, puis étendre ensuite la traçabilité aux autres dépendances. Une liaison à l'application est utile, mais laisse les données hors traçabilité.
-- **B — 1 point :** Rattacher l'exigence à une obligation ou un stakeholder identifiable et demander une revue rapide de ses périmètres, puis compléter la traçabilité technique. Un identifiant de ticket ne prouve pas que la requirement est satisfaite.
-- **C — 0 point :** Retenir l'interprétation la plus large et imposer le même contrôle à tous les flux, en laissant les exceptions se négocier pendant l'implémentation. Une requirement sans lien reste impossible à vérifier après évolution.
+- **D — 5 points :** Restaurer la traçabilité vers source/concern, analyser où la requirement s’applique et relier les artifacts et building blocks concernés. Tracer la source et les concerns, puis déterminer les artifacts et building blocks affectés permet l'impact analysis et la vérification de la requirement.
+- **A — 3 points :** Rattacher l'exigence au composant principal et à un critère de vérification, puis étendre ensuite la traçabilité aux autres dépendances. Le composant principal et le critère de test donnent un premier lien d'implémentation, mais la source du concern et les dépendances transverses restent incomplètes.
+- **B — 1 points :** Rattacher l'exigence à une obligation ou un stakeholder identifiable et demander une revue rapide de ses périmètres, puis compléter la traçabilité technique. Lier l'exigence à une obligation ou stakeholder restaure une partie de son origine, mais la revue rapide ne relie pas encore sa portée aux artifacts et building blocks.
+- **C — 0 points :** Retenir l'interprétation la plus large et imposer le même contrôle à tous les flux, en laissant les exceptions se négocier pendant l'implémentation. Appliquer indistinctement le contrôle à tous les flux, puis négocier les exceptions en implémentation, évite l'analyse d'applicabilité et compromet la conformité.
 
 **Mapping : Requirements Management — Traceability.**
 
@@ -110,15 +110,15 @@ Quelle action est la meilleure ?
 A. Supprimer sans analyse toutes les contraintes liées au cloud, car le document de politique précédent a été abrogé.
 B. Réévaluer la requirement, sa source et sa validité ; la modifier ou la retirer de manière gouvernée et tracer la décision.
 C. Soumettre la requirement à une nouvelle validation avec son sponsor et conserver l'historique des versions avant de la retirer ou de la modifier.
-D. Enregistrer une demande de modification avec justification de politique et lancer une revue ciblée de conformité avant de modifier toutes les views.
+D. Enregistrer la demande d'évolution dans un ticket, puis différer l'analyse de ses sources, dépendances et impacts jusqu'au prochain audit.
 **Scoring : A=0, B=5, C=3, D=1.**
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Réévaluer la requirement, sa source et sa validité ; la modifier ou la retirer de manière gouvernée et tracer la décision. Les exigences obsolètes demandent une décision et un historique gouvernés.
-- **C — 3 points :** Soumettre la requirement à une nouvelle validation avec son sponsor et conserver l'historique des versions avant de la retirer ou de la modifier. Un statut local aide mais n'actualise pas les autres livrables.
-- **D — 1 point :** Enregistrer une demande de modification avec justification de politique et lancer une revue ciblée de conformité avant de modifier toutes les views. Conserver toutes les exigences actives crée des contradictions.
-- **A — 0 point :** Supprimer sans analyse toutes les contraintes liées au cloud, car le document de politique précédent a été abrogé. Une suppression sans traçabilité détruit la justification antérieure.
+- **B — 5 points :** Réévaluer la requirement, sa source et sa validité ; la modifier ou la retirer de manière gouvernée et tracer la décision. Une requalification gouvernée de la requirement, avec source, décision, versionnement et impacts, applique Requirements Management.
+- **C — 3 points :** Soumettre la requirement à une nouvelle validation avec son sponsor et conserver l'historique des versions avant de la retirer ou de la modifier. La revalidation auprès du sponsor et la conservation des versions protègent l'historique, mais les autres sources et impacts architecturaux restent à vérifier.
+- **D — 1 points :** Enregistrer la demande d'évolution dans un ticket, puis différer l'analyse de ses sources, dépendances et impacts jusqu'au prochain audit. Consigner la demande de modification sans examiner les dépendances et les usages de la requirement ne suffit pas à décider de son retrait ou maintien.
+- **A — 0 points :** Supprimer sans analyse toutes les contraintes liées au cloud, car le document de politique précédent a été abrogé. Supprimer les contraintes dès l'abrogation de la politique sans évaluer leurs autres sources ni conserver les décisions détruit la traçabilité.
 
 **Mapping : Requirements Management — Requirement Lifecycle.**
 
@@ -140,10 +140,10 @@ D. Conserver le principe comme règle de décision et rédiger une exigence mesu
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Le principe guide durablement les décisions ; la règle précise de gestion des secrets est une requirement/standard applicable au contexte et doit être tracée comme telle. Principe durable et requirement testable restent deux catégories distinctes.
-- **D — 3 points :** Conserver le principe comme règle de décision et rédiger une exigence mesurable dérivée, sans encore expliciter toutes les implications. Dériver une requirement est utile mais les implications restent à tracer.
-- **A — 1 point :** Rédiger une requirement mesurable pour le renouvellement des secrets tout en réservant la formalisation des implications du principe à la revue suivante. Un standard local ne remplace pas le principe transversal.
-- **B — 0 point :** Créer un nouveau principe d'architecture reprenant mot pour mot le choix du service de secrets et le traiter comme standard permanent de l'entreprise. Confondre les deux niveaux fausse les exigences applicables.
+- **C — 5 points :** Le principe guide durablement les décisions ; la règle précise de gestion des secrets est une requirement/standard applicable au contexte et doit être tracée comme telle. Le principe oriente les décisions durables, tandis qu'une requirement ou un standard défini pour le contexte doit être vérifiable et tracé.
+- **D — 3 points :** Conserver le principe comme règle de décision et rédiger une exigence mesurable dérivée, sans encore expliciter toutes les implications. Conserver le principe et en dériver une exigence mesurable respecte les niveaux d'abstraction, mais les implications du principe restent à formaliser.
+- **A — 1 points :** Rédiger une requirement mesurable pour le renouvellement des secrets tout en réservant la formalisation des implications du principe à la revue suivante. Une requirement mesurable sur les secrets est utile, mais reporter les implications du principe sans expliciter sa portée fragilise la traçabilité de la décision.
+- **B — 0 points :** Créer un nouveau principe d'architecture reprenant mot pour mot le choix du service de secrets et le traiter comme standard permanent de l'entreprise. Transformer le choix d'un produit de secrets en principe d'entreprise permanent confond un standard contingent avec une règle directrice stable.
 
 **Mapping : Requirements Management — Principle vs Requirement.**
 
