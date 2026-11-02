@@ -19,7 +19,7 @@ A. Une application uniforme des standards techniques sans confrontation des opti
 A. Baseline = état actuel pertinent ; Target = état futur souhaité  B. Target Architecture — architecture future envisagée après les changements  C. Transition Architecture — état intermédiaire cohérent avant la cible  D. Architecture Roadmap — trajectoire des lots et états successifs
 
 **Q5.** Dans une mutuelle d'assurance, le comité examine les acteurs, états et référentiels pour orienter la transformation. L'Enterprise Continuum aide surtout à :
-A. Architecture Repository — stockage et organisation des éléments produits  B. Architecture Roadmap — trajectoire des architectures et work packages  C. Classifier et contextualiser les assets d'architecture  D. Governance Log — décisions de conformité et exceptions d'architecture
+A. Architecture Repository — stockage et organisation des éléments produits  B. Architecture Roadmap — trajectoire des architectures et work packages  C. Classifier et contextualiser les assets d'architecture  D. Governance Repository — décisions de conformité et exceptions d'architecture
 
 **Q6.** Une banque possède une Architecture Vision et une Technology Architecture détaillée, mais aucune représentation des composants réutilisables au niveau de leurs capacités. Quel concept manque pour séparer besoin architectural et solution ?
 A. Solution Building Block, qui doit être sélectionné avant que la capability puisse être définie.  B. Architecture Building Block, dont la description ne présuppose pas une technologie retenue.  C. Architecture Contract, qui remplace la représentation des composants.  D. Compliance Assessment, qui décrit la capacité métier indépendamment des réalisations.
@@ -37,7 +37,7 @@ A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Phas
 A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase A — cadrage du scope, des stakeholders et des drivers ; création de l'Architecture Vision  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** Une équipe produit veut fixer l'ensemble des choix applicatifs de la Target sans connaître encore les capabilities et processus métier visés. Quel résultat ADM manque en premier ?
-A. L'Implementation Governance Model destiné à contrôler les fournisseurs déjà en delivery.  B. Le Governance Log de la Phase H, pour enregistrer les changements futurs.  C. La sélection anticipée des SBB d'infrastructure à partir du Repository.  D. La Target Business Architecture de Phase B, alimentant ensuite Data/Application/Technology.
+A. L'Implementation Governance Model destiné à contrôler les fournisseurs déjà en delivery.  B. Le Governance Repository de la Phase H, pour enregistrer les changements futurs.  C. La sélection anticipée des SBB d'infrastructure à partir du Repository.  D. La Target Business Architecture de Phase B, alimentant ensuite Data/Application/Technology.
 
 **Q12.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Définir ownership, structure, qualité et lifecycle de l'information relève principalement de :
 A. Phase C Data — modèles, propriété et gouvernance des données  B. Phase B — structurer capabilities et processus métiers de la cible  C. Phase C Application — décrire services applicatifs et leurs interactions  D. Phase D — définir plateformes et services technologiques nécessaires
@@ -79,7 +79,7 @@ A. Gap Analysis, en choisissant immédiatement la solution technique cible.  B. 
 A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B. Business Scenarios — besoin métier contextualisé et requirements  C. Compliance Review — vérification des solutions construites  D. Migration Planning — hiérarchisation de lots et de dépendances
 
 **Q25.** Dans une mutuelle d'assurance, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer la capacité de systèmes ou organisations à travailler ensemble relève de :
-A. Technology Architecture — mêmes produits, sans vérifier la sémantique  B. Standards Information Base — liste de standards techniques approuvés  C. Interoperability — capacité de collaboration métier, information et technique  D. Compliance Review — contrôle d'un composant isolé après réalisation
+A. Technology Architecture — mêmes produits, sans vérifier la sémantique  B. Standards Library — liste de standards techniques approuvés  C. Interoperability — capacité de collaboration métier, information et technique  D. Compliance Review — contrôle d'un composant isolé après réalisation
 
 **Q26.** Dans une mutuelle d'assurance, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Identifier les barrières humaines, organisationnelles et opérationnelles à la transformation relève de :
 A. Business Transformation Readiness Assessment  B. Compliance Review — preuve de conformité des composants déployés  C. Gap Analysis — seules différences entre plateformes existantes et cibles  D. Content Metamodel — types d'entités et relations du référentiel
