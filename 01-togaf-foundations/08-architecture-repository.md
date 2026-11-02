@@ -250,9 +250,9 @@ MayaBank is starting an ISO 20022 modernization initiative.
 The architect first checks:
 
 - Architecture Landscape → what payment systems already exist?
-- Standards Information Base → which API/event/container standards apply?
+- Standards Library → which API/event/container standards apply?
 - Reference Library → do we have an ISO 20022 information model or event pattern?
-- Governance Log → were exceptions previously granted for direct database integration?
+- Governance Repository → were exceptions previously granted for direct database integration?
 - Architecture Capability information → which review board must approve the target?
 
 This avoids restarting from zero.
@@ -276,12 +276,12 @@ This avoids restarting from zero.
 ### Trap 1
 Question asks where architecture standards are managed.
 
-→ think **Standards Information Base** within the repository concept.
+→ think **Standards Library** within the repository concept.
 
 ### Trap 2
 Question asks where governance decisions/exceptions are retained.
 
-→ think **Governance Log**.
+→ think **Governance Repository**.
 
 ### Trap 3
 Question asks how assets are classified from generic to specific.
@@ -305,12 +305,12 @@ What is the purpose of the Architecture Repository?
 ### Q2
 Which repository area contains architecture standards?
 
-**Answer:** Standards Information Base.
+**Answer:** Standards Library.
 
 ### Q3
 Which area captures governance decisions and compliance history?
 
-**Answer:** Governance Log.
+**Answer:** Governance Repository.
 
 ### Q4
 What is the difference between Repository and Continuum?
@@ -324,8 +324,8 @@ What is the difference between Repository and Continuum?
 Useful sentences:
 
 - We checked the Architecture Repository before creating new content.
-- The Standards Information Base contains the applicable platform standards.
-- The Governance Log records architecture exceptions.
+- The Standards Library contains the applicable platform standards.
+- The Governance Repository records architecture exceptions.
 - The Architecture Landscape shows the current enterprise architecture.
 
 ### Speak it
@@ -348,14 +348,17 @@ I use it to find existing architecture assets, standards, reference material and
 
 ## 18. Key points to remember
 
-Architecture Repository major ideas:
+Pour l'objectif X2202 Practitioner L2.8.5, retenir les **sept rubriques** de référence :
 
-- **Architecture Metamodel** — structure of content
-- **Architecture Capability** — practice/governance information
-- **Architecture Landscape** — enterprise architectures
-- **Standards Information Base** — applicable standards
-- **Reference Library** — reusable reference material
-- **Governance Log** — governance history
+- **Architecture Landscape** — descriptions des états architecturaux ;
+- **Reference Library** — modèles de référence et patterns réutilisables ;
+- **Standards Library** — standards applicables ;
+- **Governance Repository** — décisions de conformité, dérogations et historique ;
+- **Architecture Requirements Repository** — exigences et traçabilité ;
+- **Solutions Landscape** — solutions réalisées et liens vers les architectures ;
+- **Enterprise Repository** — référentiels transverses de l'entreprise.
+
+L'**Architecture Metamodel** et l'**Architecture Capability** restent des notions importantes, mais ne sont pas deux rubriques supplémentaires dans cette liste de sept. Les termes historiques *Standards Information Base* et *Governance Log* peuvent apparaître dans d'anciens supports : ne pas les substituer aux intitulés ci-dessus sans explication.
 
 And the exam memory line:
 
