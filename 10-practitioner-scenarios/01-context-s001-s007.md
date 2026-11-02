@@ -65,10 +65,10 @@ D. Sélectionner un petit portefeuille de décisions d'architecture et montrer l
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Relier explicitement l’architecture aux business drivers, décisions, risques, capacités, coûts et trajectoires de transformation. Les business drivers, coûts et risques démontrent la valeur pour le comité.
-- **D — 3 points :** Sélectionner un petit portefeuille de décisions d'architecture et montrer leurs impacts mesurables, sans encore relier systématiquement le travail à la stratégie. Quelques décisions mesurables ne prouvent pas encore l'alignement stratégique.
-- **A — 1 point :** Présenter un tableau des économies technologiques attendues, mais sans montrer les effets sur les capacités et résultats métier. Une présentation technique n'explique pas les outcomes métier.
-- **B — 0 point :** Proposer un exercice de conformité technique sur l'application principale, puis traiter l'alignement stratégique après la décision d'investissement. Les diagrammes seuls ne répondent pas à Finance et Operations.
+- **C — 5 points :** Relier explicitement l’architecture aux business drivers, décisions, risques, capacités, coûts et trajectoires de transformation. La liaison explicite drivers–capacités–risques–coûts relie la motivation de l'architecture aux décisions de transformation attendues.
+- **D — 3 points :** Sélectionner un petit portefeuille de décisions d'architecture et montrer leurs impacts mesurables, sans encore relier systématiquement le travail à la stratégie. Les décisions mesurables constituent une base de dialogue, mais l'absence de relation systématique avec les drivers stratégiques laisse la valeur globale incertaine.
+- **A — 1 points :** Présenter un tableau des économies technologiques attendues, mais sans montrer les effets sur les capacités et résultats métier. Le tableau d'économies apporte une première donnée de coût, mais il ne rattache aucun investissement aux capabilities et outcomes métier demandés par le comité.
+- **B — 0 points :** Proposer un exercice de conformité technique sur l'application principale, puis traiter l'alignement stratégique après la décision d'investissement. Une revue de conformité limitée à une application inverse les priorités : la valeur et les business drivers doivent éclairer la décision d'investissement en amont.
 
 **Mapping : Context — Value of Enterprise Architecture.**
 
@@ -90,10 +90,10 @@ D. Tailorer l’ADM, travailler par itérations et maintenir une gouvernance/tra
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Tailorer l’ADM, travailler par itérations et maintenir une gouvernance/traçabilité proportionnée tout en soutenant le delivery incrémental. Le tailoring ADM garde gouvernance et traçabilité dans les incréments Agile.
-- **A — 3 points :** Conserver des décisions autonomes dans les squads tout en instituant des revues légères sur les interfaces et les risques transverses. Une revue par release oublie les dépendances transverses.
-- **B — 1 point :** Définir des points de synchronisation seulement pour les API communes, puis compléter les vues métier et de données après les releases pilotes. L'autonomie produit ne garantit pas la cohérence inter-domaines.
-- **C — 0 point :** Accepter le rythme de livraison autonome et réserver une revue ADM complète à la fin du trimestre, avant d'intégrer les produits. Éliminer la gouvernance fait disparaître les engagements d'architecture.
+- **D — 5 points :** Tailorer l’ADM, travailler par itérations et maintenir une gouvernance/traçabilité proportionnée tout en soutenant le delivery incrémental. Le tailoring et l'itération de l'ADM maintiennent les exigences et décisions traçables tout en permettant la livraison incrémentale.
+- **A — 3 points :** Conserver des décisions autonomes dans les squads tout en instituant des revues légères sur les interfaces et les risques transverses. Des revues légères sur interfaces et risques transverses protègent l'autonomie Agile ; l'option ne prévoit toutefois pas le tailoring ADM complet ni la traçabilité inter-domaines.
+- **B — 1 points :** Définir des points de synchronisation seulement pour les API communes, puis compléter les vues métier et de données après les releases pilotes. La synchronisation sur les seules API traite une interface technique mais reporte les concerns métier et Data, pourtant essentiels à la cohérence des incréments.
+- **C — 0 points :** Accepter le rythme de livraison autonome et réserver une revue ADM complète à la fin du trimestre, avant d'intégrer les produits. Reporter la gouvernance à la fin du trimestre expose les produits à des écarts d'architecture avant leur intégration ; l'ADM doit accompagner les incréments.
 
 **Mapping : Context — Tailoring, Iteration, Agile.**
 
@@ -140,10 +140,10 @@ D. Faire auditer les échanges sensibles et ajouter les contrôles manquants dan
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Réintégrer sécurité et risque dans le travail d’architecture, réévaluer les requirements et itérer sur les domaines impactés avant de poursuivre la migration. Le risque et la sécurité impactent chaque architecture de domaine.
-- **C — 3 points :** Réexaminer les principaux risques de sécurité à la revue de conception suivante et ajuster la cible si nécessaire, sans intégrer encore les exigences de bout en bout. La revue suivante reporte la propagation des exigences transverses.
-- **D — 1 point :** Faire auditer les échanges sensibles et ajouter les contrôles manquants dans les critères de recette, sans reprendre toute la traçabilité B/C/D. La seule validation du CISO ne traite pas les dépendances Data/Application.
-- **A — 0 point :** Demander une dérogation temporaire sur les seuls mécanismes d'identité, puis inclure les risques restants dans le plan de migration. Migrer sans qualification des risques expose le service critique.
+- **B — 5 points :** Réintégrer sécurité et risque dans le travail d’architecture, réévaluer les requirements et itérer sur les domaines impactés avant de poursuivre la migration. Réévaluer requirements et risques et itérer sur les domaines affectés intègre réellement la sécurité dans la Target et les décisions de migration.
+- **C — 3 points :** Réexaminer les principaux risques de sécurité à la revue de conception suivante et ajuster la cible si nécessaire, sans intégrer encore les exigences de bout en bout. La revue suivante est une étape utile mais tardive : la propagation immédiate des exigences dans Data, Application et Technology manque.
+- **D — 1 points :** Faire auditer les échanges sensibles et ajouter les contrôles manquants dans les critères de recette, sans reprendre toute la traçabilité B/C/D. L'audit et les critères de recette sécurisent certains échanges, mais arrivent trop tard pour réconcilier les exigences et building blocks des trois domaines.
+- **A — 0 points :** Demander une dérogation temporaire sur les seuls mécanismes d'identité, puis inclure les risques restants dans le plan de migration. Une dérogation d'identité engagée sans évaluation transversale du risque compromet les exigences de sécurité du service critique.
 
 **Mapping : Context — Integrating Risk and Security / Iteration.**
 
@@ -165,10 +165,10 @@ D. Comparer le produit proposé avec une architecture de référence après une 
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Utiliser la proposition comme information potentielle, mais d’abord clarifier drivers, stakeholders, scope, value et requirements avant de confirmer une solution. La proposition fournisseur doit être évaluée après drivers et requirements.
-- **D — 3 points :** Comparer le produit proposé avec une architecture de référence après une première clarification des besoins, sans élargir immédiatement l'analyse aux autres options. Une évaluation préliminaire ne compare pas encore toutes les options.
-- **A — 1 point :** Conserver le produit comme solution candidate et lancer une comparaison technique, en préparant ensuite la définition des outcomes métier. Une fiche produit ne justifie pas la valeur du service.
-- **B — 0 point :** Établir immédiatement un Architecture Contract avec le fournisseur pour sécuriser les exigences, en laissant le périmètre à préciser durant l'implémentation. Le fournisseur ne peut définir seul la Target métier.
+- **C — 5 points :** Utiliser la proposition comme information potentielle, mais d’abord clarifier drivers, stakeholders, scope, value et requirements avant de confirmer une solution. Clarifier les business drivers, stakeholders, scope et exigences avant le choix évite de transformer une proposition fournisseur en Target prédéfinie.
+- **D — 3 points :** Comparer le produit proposé avec une architecture de référence après une première clarification des besoins, sans élargir immédiatement l'analyse aux autres options. La clarification initiale et la comparaison avec une référence sont utiles, mais l'absence d'alternatives laisse l'arbitrage de solution incomplet.
+- **A — 1 points :** Conserver le produit comme solution candidate et lancer une comparaison technique, en préparant ensuite la définition des outcomes métier. La comparaison technique fournit une information de solution, mais démarre avant la définition des outcomes métier ; la valeur n'est pas encore démontrée.
+- **B — 0 points :** Établir immédiatement un Architecture Contract avec le fournisseur pour sécuriser les exigences, en laissant le périmètre à préciser durant l'implémentation. Un Architecture Contract prématuré fixe une relation fournisseur avant que le scope et les requirements aient été clarifiés ; la gouvernance ne compense pas l'absence de Vision.
 
 **Mapping : Context — Architecture in Context / Business Drivers / Solution Bias.**
 
