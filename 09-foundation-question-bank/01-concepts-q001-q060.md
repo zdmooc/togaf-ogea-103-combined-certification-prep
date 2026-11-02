@@ -98,14 +98,14 @@ Dans TOGAF, un concern est :
 A. Une contrainte technique détaillée et mesurable déjà approuvée pour la solution cible
 B. La convention formelle permettant de construire une représentation de l'architecture
 C. Une préoccupation importante d'un stakeholder
-D. Une décision d'architecture prise par le Board et enregistrée dans le Governance Log
+D. Une décision d'architecture prise par le Board et enregistrée dans le Governance Repository
 **Réponse : C.** Le concern exprime ce qui importe au stakeholder. A/B/D sont d'autres objets.
 **Mapping : Concepts — Concerns.**
 
 ## Q012 — Viewpoint
 Un viewpoint est le mieux décrit comme :
 A. Une architecture view concrète construite pour présenter un domaine ou une relation
-B. Un content metamodel spécifiant les types, propriétés et relations des éléments
+B. Un Enterprise Metamodel spécifiant les types, propriétés et relations des éléments
 C. Un architecture artifact formel représentant les interactions entre composants
 D. La convention permettant de construire une view répondant à des concerns
 **Réponse : D.** Le viewpoint définit comment produire la view. A décrit la view ; B/C sont différents.
@@ -318,8 +318,8 @@ D. Classifier les assets du générique vers les architectures spécifiques à l
 **Réponse : B.** L'Architecture Landscape conserve la vue des architectures à différents niveaux. A renvoie aux contrats et à la gouvernance, C à la base de standards, D à la fonction de classification de l'Enterprise Continuum.
 **Mapping : Concepts — Architecture Repository.**
 
-## Q035 — Standards Information Base
-La Standards Information Base contient principalement :
+## Q035 — Standards Library
+La Standards Library contient principalement :
 A. La description Baseline et Target validée de chaque application
 B. Les incidents
 C. Des standards et technologies approuvés/pertinents
@@ -328,15 +328,15 @@ D. Les stakeholders uniquement
 **Distracteur A :** Ces descriptions appartiennent au paysage et aux documents d'architecture, pas au catalogue des standards.
 **Mapping : Concepts — Architecture Repository.**
 
-## Q036 — Governance Log
-Le Governance Log sert surtout à conserver :
+## Q036 — Governance Repository
+Le Governance Repository sert surtout à conserver :
 A. Le code source métier
 B. Les versions successives de l'Architecture Definition Document
 C. Les états de migration et leurs dépendances détaillées
 D. Des décisions, compliance reviews, exceptions et éléments de gouvernance
 **Réponse : D.** Il trace la gouvernance. A/B/C sont hors périmètre.
-**Distracteur B :** Le Governance Log documente décisions et conformité, pas simplement le contenu des architectures.
-**Distracteur C :** La planification de migration peut être tracée dans une roadmap/plan, sans être le rôle du Governance Log.
+**Distracteur B :** Le Governance Repository documente décisions et conformité, pas simplement le contenu des architectures.
+**Distracteur C :** La planification de migration peut être tracée dans une roadmap/plan, sans être le rôle du Governance Repository.
 **Mapping : Concepts — Architecture Repository.**
 
 ## Q037 — Reference Library

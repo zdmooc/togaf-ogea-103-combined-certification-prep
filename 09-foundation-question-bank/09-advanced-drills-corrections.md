@@ -22,7 +22,7 @@ Le bon choix est unique. Les exemples sont originaux ; vérifier les notions dan
 
 ## F04 — Architecture Repository
 
-**Réponse : D.** Solutions Landscape concerne les réalisations de solutions ; Standards Information Base, Requirements Repository et Governance Log ont d'autres rôles.
+**Réponse : D.** Solutions Landscape concerne les réalisations de solutions ; Standards Library, Requirements Repository et Governance Repository ont d'autres rôles.
 
 **Mapping X2202 :** L1 1.8. **Source :** [X2202](https://www.opengroup.org/library/x2202), section 3.1.
 
@@ -64,7 +64,7 @@ Le bon choix est unique. Les exemples sont originaux ; vérifier les notions dan
 
 ## F11 — ADD versus ARS
 
-**Réponse : B.** ADD décrit l'architecture et ses vues ; ARS formalise les exigences ; SIB recense les standards ; Impact Assessment analyse un changement.
+**Réponse : B.** ADD décrit l'architecture et ses vues ; ARS formalise les exigences ; la Standards Library recense les standards ; Impact Assessment analyse un changement.
 
 **Mapping X2202 :** L1 7.3. **Source :** [X2202](https://www.opengroup.org/library/x2202), section 3.1.
 

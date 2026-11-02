@@ -125,7 +125,7 @@ D. Une matrix spécifie la convention du viewpoint ; le diagram ne peut représe
 ## Q276 — Viewpoint
 Un viewpoint définit :
 A. Les composants représentés dans une architecture view approuvée à un jalon du projet
-B. Les décisions et exceptions de l'Architecture Board enregistrées dans le Governance Log
+B. Les décisions et exceptions de l'Architecture Board enregistrées dans le Governance Repository
 C. Les instances de capabilities et services métiers définies dans un Architecture Metamodel
 D. Les conventions pour construire une view répondant à certains concerns
 **Réponse : D.** Viewpoint = manière/convention ; View = représentation produite.
@@ -204,15 +204,15 @@ D. Pour montrer comment la solution concrète satisfait l'intention architectura
 **Réponse : D.** La traçabilité ABB→SBB soutient justification et conformité.
 **Mapping : Architecture Content — ABB/SBB.**
 
-## Q285 — Content Metamodel
-Le Content Metamodel définit :
+## Q285 — Enterprise Metamodel
+L'Enterprise Metamodel définit :
 A. Les types d'entités architecturales et relations autorisées/pertinentes
 B. Une liste de standards de technologies servant à définir les versions autorisées en production
 C. Un document de migration décrivant l'ordre des solutions et les transitions vers la cible
 D. Un produit de travail formel composé de plusieurs artifacts soumis aux stakeholders
 **Réponse : A.** Le metamodel donne une structure sémantique au contenu.
 **Distracteur C :** Une stratégie de migration ne définit pas les types et relations du métamodèle.
-**Mapping : Architecture Content — Content Metamodel.**
+**Mapping : Architecture Content — Enterprise Metamodel.**
 
 ## Q286 — Metamodel purpose
 Pourquoi un metamodel est-il utile ?
@@ -221,7 +221,7 @@ B. Pour assurer cohérence de vocabulaire et relations entre artifacts
 C. Pour éviter toute adaptation du Content Framework au contexte de l'entreprise
 D. Pour remplacer l'Architecture Requirements Repository par des diagrams uniquement
 **Réponse : B.** Il aide à produire des modèles cohérents et comparables.
-**Mapping : Architecture Content — Content Metamodel.**
+**Mapping : Architecture Content — Enterprise Metamodel.**
 
 ## Q287 — Metamodel extension
 Peut-on adapter/étendre un metamodel ?
@@ -230,7 +230,7 @@ B. Oui, sans documentation
 C. Oui, si le contexte l'exige et que l'extension reste gouvernée
 D. L'extension du métamodèle est autorisée exclusivement après la mise en production
 **Réponse : C.** Le framework est tailorable, y compris le contenu, mais les extensions doivent rester cohérentes.
-**Mapping : Architecture Content — Content Metamodel.**
+**Mapping : Architecture Content — Enterprise Metamodel.**
 
 ## Q288 — Artifact choice
 Comment choisir entre catalog, matrix et diagram ?

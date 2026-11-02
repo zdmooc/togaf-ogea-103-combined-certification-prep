@@ -19,7 +19,7 @@ A. Elle guide des changements cohérents et relie les décisions techniques à l
 A. Requirement — condition vérifiable propre au périmètre d'une solution  B. SBB — composant retenu pour réaliser une capacité architecturale  C. Viewpoint — convention choisie pour exposer les concerns  D. Une règle directrice durable pour les décisions
 
 **Q5.** Une mutuelle doit modéliser le fonctionnement actuel de son système de sinistres avant de comparer les gaps avec la nouvelle cible. Quel état architectural convient ?
-A. Target Architecture — architecture future envisagée après les changements  B. Baseline Architecture — état actuel pertinent de l'entreprise  C. Transition Architecture — état intermédiaire cohérent avant la cible  D. Architecture Roadmap — trajectoire des lots et états successifs
+A. Target Architecture — architecture future envisagée après les changements  B. Architecture Roadmap — trajectoire des lots et états successifs  C. Transition Architecture — état intermédiaire cohérent avant la cible  D. Baseline Architecture — état actuel pertinent de l'entreprise
 
 **Q6.** Le Repository possède des décisions de conformité, des requirements et des patterns réutilisables. Où chercher les exigences d'architecture gouvernées et leurs relations de traçabilité ?
 A. Dans le Standards Library, car toutes les exigences approuvées deviennent automatiquement des normes.  B. Dans le Solutions Landscape, qui remplace les exigences par les systèmes livrés.  C. Dans l'Architecture Requirements Repository, plutôt que dans le seul Governance Repository ou la Reference Library.  D. Dans l'Architecture Metamodel, qui est un catalogue des instances de requirements.
@@ -52,7 +52,7 @@ A. Phase C Data — gouverner les entités et les flux d'information  B. Phase C
 A. Phase F — confirmer l'ordre et le plan détaillé de la migration  B. Phase G — vérifier la conformité des éléments déjà implémentés  C. Phase C Application — définir les interactions applicatives de cible  D. Phase E — options, work packages et Transition Architectures
 
 **Q16.** Les lots de migration sont identifiés ; le Board doit maintenant décider leur ordre, leur valeur et leurs interdépendances avant de financer la trajectoire. Quelle phase réalise principalement ce travail ?
-A. Phase E — élaborer les options de solution et premiers lots  B. Phase F — séquencement et plan détaillé de migration  C. Phase G — suivre les écarts de conformité pendant le delivery  D. Phase H — évaluer les changements de l'architecture en service
+A. Phase E — élaborer les options de solution et premiers lots  B. Phase G — suivre les écarts de conformité pendant le delivery  C. Phase F — séquencement et plan détaillé de migration  D. Phase H — évaluer les changements de l'architecture en service
 
 **Q17.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Où contrôle-t-on principalement l'implémentation par rapport à l'architecture approuvée ?
 A. Phase G — conformité et gouvernance de la réalisation  B. Phase F — prioriser les vagues de l'Implementation and Migration Plan  C. Phase H — évaluer l'impact des demandes après mise en service  D. Preliminary — définir principes et capacité de gouvernance
@@ -64,7 +64,7 @@ A. Traiter le sujet exclusivement en Phase G car tout changement réglementaire 
 A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Phase G uniquement — vérifier seulement les exigences à la réception  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Soutenir et tracer les requirements pendant tout l'ADM
 
 **Q20.** Les domaines Data et Application doivent être ajustés après une nouvelle exigence. Quelle affirmation sur l'itération ADM est correcte ?
-A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. L'ADM permet tailoring, itérations et travail concurrent sous gouvernance appropriée.  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
+A. L'ADM permet tailoring, itérations et travail concurrent sous gouvernance appropriée.  B. L'ADM est linéaire et ne permet pas de revenir sur les domaines  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
 **Q21.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quel concept exprime ce qui manque entre Baseline et Target ?
 A. Gap Analysis — analyse des écarts entre Baseline et Target  B. Compliance Review — évaluer une implémentation vis-à-vis de la cible  C. Architecture Contract — contractualiser obligations et critères de conformité  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
@@ -79,7 +79,7 @@ A. Technical interoperability uniquement, puisque la connexion IP est établie. 
 A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B. Compliance Review — vérification des solutions construites  C. Business Scenarios — besoin métier contextualisé et requirements  D. Migration Planning — hiérarchisation de lots et de dépendances
 
 **Q25.** Dans un opérateur de transport, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Pour évaluer si l'organisation peut réellement absorber une transformation :
-A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation de la préparation organisationnelle
+A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Enterprise Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation de la préparation organisationnelle
 
 **Q26.** Une filiale dispose des plateformes cibles mais ne possède ni équipe d'astreinte ni formation d'exploitation. Quelle évaluation identifie ce manque organisationnel avant la migration ?
 A. Business Transformation Readiness Assessment — évaluation des compétences, responsabilités et capacités organisationnelles  B. Gap Analysis — différences entre les états existant et cible  C. Risk Management — identification, analyse et traitement des risques  D. Compliance Review — vérification des exigences d'une solution réalisée
@@ -97,7 +97,7 @@ A. Partitioning — délimiter des espaces d'architecture et interfaces  B. Scop
 A. Breadth, depth, architecture domains et time period, avec justification par les décisions attendues.  B. La seule Technology Architecture, puis des détails supplémentaires lorsque la solution est choisie.  C. L'ensemble des phases ADM considéré comme scope identique pour chaque projet.  D. L'Architecture Contract final, qui détermine rétroactivement les secteurs de l'entreprise inclus.
 
 **Q31.** Dans un opérateur de transport, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Délimiter des domaines d'architecture et leurs interfaces dans une grande organisation correspond à :
-A. Scoping — limiter le périmètre et la profondeur d'un seul travail  B. Tailoring — adapter les activités ADM sans définir les espaces de responsabilité  C. Partitioning — organisation des espaces et interfaces d'architecture  D. Architecture Roadmap — ordonner les changements sans créer les partitions
+A. Scoping — limiter le périmètre et la profondeur d'un seul travail  B. Partitioning — organisation des espaces et interfaces d'architecture  C. Tailoring — adapter les activités ADM sans définir les espaces de responsabilité  D. Architecture Roadmap — ordonner les changements sans créer les partitions
 
 **Q32.** Dans un opérateur de transport, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Quelle affirmation Agile/TOGAF est la meilleure ?
 A. Terminer définitivement B, C et D avant toute livraison produit  B. On peut itérer et tailorer l'ADM tout en conservant cohérence et gouvernance  C. Supprimer les requirements et la gouvernance à partir du premier sprint  D. Limiter l'ADM à Phase G en considérant le backlog comme unique architecture
@@ -115,7 +115,7 @@ A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Archit
 A. Artifact — représentation telle que Catalog, Matrix ou Diagram  B. Deliverable — produit de travail formel agrégant des représentations  C. SBB — composant concret réalisant des fonctionnalités d'architecture  D. Architecture Contract — obligations de mise en œuvre entre parties
 
 **Q37.** Dans un opérateur de transport, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Un Building Block :
-A. Artifact — représentation, et non composant architectural représenté  B. Viewpoint — convention pour construire une View répondant aux concerns  C. Deliverable — produit de travail formel remis à l'instance compétente  D. Représente un élément architectural ou de solution réutilisable
+A. Artifact — représentation, et non composant architectural représenté  B. Représente un élément architectural ou de solution réutilisable  C. Deliverable — produit de travail formel remis à l'instance compétente  D. Viewpoint — convention pour construire une View répondant aux concerns
 
 **Q38.** Le comité demande le périmètre des applications supportant une capability et leurs relations avec des données sensibles. Quel ensemble distingue correctement les formes d'artifacts ?
 A. Catalog pour décisions contractuelles, Matrix pour documents approuvés, Diagram pour solution livrée.  B. Catalog pour inventaire, Matrix pour relations, Diagram pour représentation graphique.  C. Catalog et Matrix sont des SBB ; seul Diagram constitue un artifact du Content Framework.  D. Matrix correspond uniquement au planning de migration et Diagram à l'Architecture Contract.
@@ -123,7 +123,7 @@ A. Catalog pour décisions contractuelles, Matrix pour documents approuvés, Dia
 **Q39.** Deux stakeholders exigent des représentations différentes d'une même cible. Quelle affirmation sur View et Viewpoint est correcte ?
 A. La Viewpoint est l'instance représentée et la View en spécifie la notation  B. Une View peut ignorer les concerns si elle est conforme au métamodèle  C. Une View répond à des concerns en suivant la convention spécifiée par une Viewpoint.  D. La View est un building block physique et la Viewpoint une transition
 
-**Q40.** Dans un opérateur de transport, le dossier d'architecture doit distinguer représentations, livrables et building blocks. À quoi sert principalement le Content Metamodel ?
+**Q40.** Dans un opérateur de transport, le dossier d'architecture doit distinguer représentations, livrables et building blocks. À quoi sert principalement l'Enterprise Metamodel ?
 A. Définir les types d'entités architecturales et leurs relations  B. Architecture Roadmap — jalons et transformations de la cible  C. Enterprise Continuum — classification du générique vers le spécifique  D. Architecture Contract — obligations entre les parties de réalisation
 
 # Part 2 — huit scénarios de décision en architecture d'entreprise

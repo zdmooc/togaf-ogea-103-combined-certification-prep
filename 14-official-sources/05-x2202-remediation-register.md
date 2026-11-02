@@ -80,6 +80,8 @@ La PR #3 a corrigé les explications erronées et coquilles Foundation, précis�
 - [x] Biais de longueur Foundation ramené à **34 %** de bonnes réponses les plus longues, ratio moyen 1,12, aucun cas >2× ; seuils automatisés en CI.
 - [x] Biais inverse des mocks Foundation réduit : bonne réponse la plus courte de 48 % à 38 % et ratio de 0,95 à 1,03 ; **24 réponses trop courtes et 37 énoncés trop génériques** révisés. Seuils de non-régression ajoutés en CI.
 - [x] GitHub Actions : contrôles structurels des banques, six mocks, 131 objectifs et liens vers les cours.
+- [x] Terminologie TOGAF 10 harmonisée dans les cours, questions, exercices et examens blancs (2 nov. 2026) : *Standards Library*, *Governance Repository*, *Enterprise Metamodel*. Les termes TOGAF 9 restent uniquement dans les mises en garde terminologiques, l'option volontairement incorrecte de XP02, le relevé de suivi et les rapports d'audit archivés.
+- [x] Clés des 6 examens blancs (Part 1) sans motif répété : 28 questions réordonnées par échange de deux options (texte des options et bonne réponse inchangés), 9 à 11 bonnes réponses par lettre, 11 questions figées par les tests de non-régression conservées.
 - [x] Renseigner les **131 niveaux Bloom** tels qu'indiqués dans X2202, y compris l'étiquette atypique `2_Remembering` de L1 7.3.
 - [ ] Examiner la pertinence **cognitive** des 130 associations candidates pour le niveau Bloom indiqué ; les références ne sont pas certifiées.
 - [ ] Validation sémantique indépendante et approfondie de l'ensemble du corpus par relecteur qualifié.

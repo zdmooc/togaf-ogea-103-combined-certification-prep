@@ -15,22 +15,22 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40 avec gradient 5/3/1/0, passage
 8. **D** — Continuum classe/contextualise les assets.
 9. **B** — Preliminary installe capability et gouvernance.
 10. **A** — Architecture Vision = Phase A.
-11. **C** — La Phase B décrit les besoins métier et prépare la cohérence des domaines qui suivent.
+11. **A** — La Phase B décrit les besoins métier et prépare la cohérence des domaines qui suivent.
 12. **D** — data ownership = C Data.
 13. **B** — interactions/services applicatifs = C Application.
-14. **C** — plateforme cible = Phase D.
+14. **D** — plateforme cible = Phase D.
 15. **A** — work packages/transitions = E.
 16. **D** — séquencement de migration = F.
 17. **B** — Contract/Compliance soutiennent G.
 18. **C** — La Phase H ne présuppose pas qu'une exigence réglementaire impose un type unique de changement.
 19. **A** — Requirements Management est continu.
-20. **B** — ADM tailorable et itératif.
+20. **C** — ADM tailorable et itératif.
 21. **D** — Gap = différence Baseline/Target.
 22. **C** — Roadmap montre la trajectoire.
 23. **C** — La readiness mesure la capacité de l'entreprise à transformer et exploiter, pas seulement la faisabilité technique.
 24. **A** — Business Scenarios.
 25. **B** — Interoperability Analysis.
-26. **D** — Transformation Readiness.
+26. **B** — Transformation Readiness.
 27. **C** — Risk Management.
 28. **A** — Capability-Based Planning.
 29. **B** — Tailoring.

@@ -96,9 +96,9 @@ Sections proposées :
 - Architecture Metamodel ;
 - Architecture Capability ;
 - Architecture Landscape ;
-- Standards Information Base ;
+- Standards Library ;
 - Reference Library ;
-- Governance Log.
+- Governance Repository.
 
 MayaBank y stocke notamment :
 

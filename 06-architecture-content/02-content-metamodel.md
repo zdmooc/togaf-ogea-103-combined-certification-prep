@@ -1,8 +1,10 @@
-# Content Metamodel
+# Enterprise Metamodel
+
+> **Terminologie.** Le TOGAF Standard, 10e édition, parle d'**Enterprise Metamodel** (*TOGAF Content Framework and Enterprise Metamodel*). Dans TOGAF 9, la même notion s'appelait **Content Metamodel**.
 
 ## 1. Définition
 
-Le **Content Metamodel** définit les types d’éléments que l’organisation souhaite gérer dans son architecture et les relations autorisées ou utiles entre ces éléments.
+L'**Enterprise Metamodel** définit les types d’éléments que l’organisation souhaite gérer dans son architecture et les relations autorisées ou utiles entre ces éléments.
 
 Il apporte une grammaire au contenu architectural.
 
@@ -67,7 +69,7 @@ TOGAF et ArchiMate sont complémentaires, mais il ne faut pas les confondre.
 
 ## 6. Metamodel vs Repository
 
-- Content Metamodel = structure logique des types de contenu.
+- Enterprise Metamodel = structure logique des types de contenu.
 - Architecture Repository = lieu / dispositif de gestion des contenus et autres assets.
 
 ## 7. Exemple MayaBank
@@ -104,7 +106,7 @@ Cette puissance vient des relations structurées, pas du nombre de diagrammes.
 
 Quel concept définit les types d’entités architecturales et leurs relations ?
 
-A. Content Metamodel
+A. Enterprise Metamodel
 B. Architecture Contract
 C. Migration Plan
 D. Architecture Board
@@ -113,11 +115,11 @@ D. Architecture Board
 
 ## 11. Practitioner scenario
 
-Trois équipes utilisent le terme « service » pour trois choses différentes. Les analyses d’impact deviennent impossibles. Une réponse robuste consiste à normaliser le content metamodel et les définitions avant d’augmenter la quantité de documentation.
+Trois équipes utilisent le terme « service » pour trois choses différentes. Les analyses d’impact deviennent impossibles. Une réponse robuste consiste à normaliser l'Enterprise Metamodel et les définitions avant d’augmenter la quantité de documentation.
 
 ## 12. English for Architects
 
-> The content metamodel defines the architecture concepts we manage and the relationships between them.
+> The Enterprise Metamodel defines the architecture concepts we manage and the relationships between them.
 
 ## 13. Key points
 

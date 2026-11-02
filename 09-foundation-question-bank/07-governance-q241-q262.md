@@ -138,14 +138,14 @@ D. Parce que toute déviation doit obligatoirement devenir un nouveau standard p
 **Réponse : C.** Le waiver permet de gérer un cas particulier sans généraliser trop vite.
 **Mapping : Architecture Governance — Exceptions.**
 
-## Q256 — Governance log
-Pourquoi tenir un Governance Log ?
+## Q256 — Governance Repository
+Pourquoi tenir un Governance Repository ?
 A. Pour transformer automatiquement les écarts de réalisation en nouvelles normes obligatoires
 B. Pour remplacer toutes les spécifications de requirements et les diagrams de la Target
 C. Pour centraliser les tâches de support quotidien des équipes d'exploitation
 D. Pour tracer décisions, reviews, exceptions et responsabilités
-**Réponse : D.** Le log fournit une mémoire de gouvernance.
-**Mapping : Architecture Governance — Governance Log.**
+**Réponse : D.** Le Governance Repository fournit une mémoire de gouvernance.
+**Mapping : Architecture Governance — Governance Repository.**
 
 ## Q257 — Escalation
 Une équipe ne peut résoudre un conflit architectural local. Que faire ?
