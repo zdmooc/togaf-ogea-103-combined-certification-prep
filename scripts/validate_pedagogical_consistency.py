@@ -329,7 +329,9 @@ reviewed_grade_pairs = {
     "S013": {"B": 1, "C": 3},
     "S019": {"A": 3, "D": 1},
     "S020": {"A": 1, "B": 3},
+    "S023": {"A": 3, "D": 1},
     "S024": {"A": 1, "B": 3},
+    "S028": {"A": 1, "B": 3},
     "S056": {"A": 1, "B": 3},
 }
 for ident, expected in reviewed_grade_pairs.items():
@@ -367,6 +369,7 @@ for n in range(1, 7):
     check("Standards Information Base" not in mock_quest and "Governance Log" not in mock_quest,
           f"Mock 0{n}: legacy repository labels have returned")
 interop = read("03-adm-techniques/04-interoperability.md")
+check("BPCE" not in interop, "Interoperability: a real client name was added to a public teaching example")
 for term in ("Operational or Business Interoperability", "Information Interoperability",
              "Technical Interoperability", "Unstructured Data Exchange", "Seamless Sharing of Information"):
     check(term in interop, f"Interoperability: missing teaching point {term}")
