@@ -297,6 +297,80 @@ for n, targeted in mock_foundation_checks.items():
           "[X2202, objectifs du domaine concerné]" not in correction_text,
           f"Mock 0{n}: unverifiable generic X2202 placeholder citation")
 
+# Non-régression des incohérences option/justification identifiées par la revue indépendante (2026-11-02).
+# Ces assertions ciblent des anomalies démontrées ; elles ne remplacent pas une relecture de fond.
+alignment_regressions = {
+    "S007": ("Le fournisseur ne peut définir seul la Target métier",),
+    "S008": ("Reporter l'étude à la livraison fige le risque d'exploitation",),
+    "S015": ("Un backlog sans drivers ne justifie pas le travail d'architecture",),
+    "S017": ("Un diagramme technique ne démontre pas la proposition de valeur",),
+    "S024": ("Un schéma SQL clarifie le stockage",),
+    "S048": ("Un identifiant de ticket ne prouve pas",),
+    "S053": ("Un seul diagramme technique n'explique pas",),
+    "S056": ("Un score de risque initial seul ne prouve pas",),
+    "S059": ("Un composant de solution n'est pas un document",),
+}
+all_scenarios = {}
+for scenario_file in sorted((ROOT / "10-practitioner-scenarios").glob("0[1-8]-*s*.md")):
+    for scenario in blocks(scenario_file.read_text(encoding="utf-8"), r"## S\d+ — "):
+        match = re.match(r"## (S\d+)", scenario)
+        if match:
+            all_scenarios[match[1]] = scenario
+check(len(all_scenarios) == 60, "S-bank: expected exactly 60 scenarios")
+for ident, obsolete_phrases in alignment_regressions.items():
+    section = all_scenarios.get(ident, "")
+    check(bool(section), f"{ident}: missing from S-bank")
+    for obsolete in obsolete_phrases:
+        check(obsolete not in section, f"{ident}: obsolete unrelated rationale has returned")
+
+# On vérifie les deux notes intermédiaires, sans contraindre la lettre de la meilleure réponse.
+reviewed_grade_pairs = {
+    "S009": {"B": 1, "C": 3},
+    "S013": {"B": 1, "C": 3},
+    "S019": {"A": 3, "D": 1},
+    "S020": {"A": 1, "B": 3},
+    "S024": {"A": 1, "B": 3},
+    "S056": {"A": 1, "B": 3},
+}
+for ident, expected in reviewed_grade_pairs.items():
+    section = all_scenarios.get(ident, "")
+    match = re.search(r"\*\*Scoring : ([^\n]+)", section)
+    actual = grades(match[1]) if match else {}
+    for letter, value in expected.items():
+        check(actual.get(letter) == value,
+              f"{ident}: expected {letter}={value}, got {actual.get(letter)}")
+
+# Les trois paires jusque-là quasi identiques disposent de caractéristiques distinctives.
+for ident, fragments in {
+    "S029": ("catalogue", "viewpoint"),
+    "S057": ("inventaire des produits", "carte de capabilities"),
+    "S059": ("catalogue technique", "Requalifier le diagramme"),
+}.items():
+    scenario = all_scenarios.get(ident, "")
+    check(all(fragment in scenario for fragment in fragments),
+          f"{ident}: 1/3 point options have become indistinguishable again")
+
+best_letters = []
+for scenario in all_scenarios.values():
+    match = re.search(r"\*\*Scoring : ([^\n]+)", scenario)
+    score = grades(match[1]) if match else {}
+    best_letters.append(next((k for k, v in score.items() if v == 5), None))
+check(len(best_letters) == 60 and
+      all(best_letters.count(letter) == 15 for letter in "ABCD"),
+      "S-bank: 15 best answers per A/B/C/D must be preserved")
+
+repo_section = read("01-togaf-foundations/08-architecture-repository.md").split("## 12. MayaBank example", 1)[-1]
+check("think **Standards Library**" in repo_section and "think **Governance Repository**" in repo_section,
+      "Architecture Repository: outdated exam trap nomenclature")
+for n in range(1, 7):
+    mock_quest = read(f"11-mock-exams/mock-0{n}-exam.md")
+    check("Standards Information Base" not in mock_quest and "Governance Log" not in mock_quest,
+          f"Mock 0{n}: legacy repository labels have returned")
+interop = read("03-adm-techniques/04-interoperability.md")
+for term in ("Operational or Business Interoperability", "Information Interoperability",
+             "Technical Interoperability", "Unstructured Data Exchange", "Seamless Sharing of Information"):
+    check(term in interop, f"Interoperability: missing teaching point {term}")
+
 print(f"Reviewed structurally: {count} S-cases, 48 mock cases, 32 XP targeted, 2 XF, 16 deliverable questions")
 if failures:
     for failure in failures:
