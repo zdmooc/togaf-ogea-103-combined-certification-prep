@@ -10,7 +10,7 @@
 A. Requirement — une condition formelle mesurable que la cible doit respecter  B. Concern — préoccupation exprimée par un stakeholder  C. Viewpoint — une convention permettant de construire et interpréter une vue  D. Business Driver — une force qui motive une transformation de l'entreprise
 
 **Q2.** Dans une banque de détail, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quelle proposition décrit correctement la relation entre une View et sa Viewpoint ?
-A. La Viewpoint est l'instance représentée et la View en spécifie la notation  B. Une View peut ignorer les concerns si elle est conforme au métamodèle  C. Une View concrète représente l'architecture conformément aux conventions d'une Viewpoint  D. La View est un building block physique et la Viewpoint une transition
+A. Une View concrète représente l'architecture conformément aux conventions d'une Viewpoint  B. Une View peut ignorer les concerns si elle est conforme au métamodèle  C. La Viewpoint est l'instance représentée et la View en spécifie la notation  D. La View est un building block physique et la Viewpoint une transition
 
 **Q3.** Une banque choisit des investissements pour atteindre un nouveau modèle de règlement. Quelle manifestation de l'Enterprise Architecture apporte le plus directement de la valeur à la décision ?
 A. Relier drivers métier, capabilities, contraintes et alternatives d'évolution pour appuyer un arbitrage de transformation.  B. Construire uniquement l'Architecture Roadmap de projets déjà approuvés sans réexaminer les résultats attendus.  C. Vérifier que les composants de la Technology Architecture appartiennent au catalogue des standards, sans analyser les impacts métier.  D. Documenter des vues détaillées de chaque application avant d'identifier les parties prenantes et leurs préoccupations.
@@ -19,7 +19,7 @@ A. Relier drivers métier, capabilities, contraintes et alternatives d'évolutio
 A. Le Continuum stocke les artifacts, tandis que le Repository les classe seulement  B. Le Repository n'héberge que des solutions déployées et jamais les requirements  C. Repository et Continuum sont deux noms d'un unique stockage de solutions  D. Le Repository organise des assets, le Continuum aide à les classifier/contextualiser
 
 **Q5.** Dans une banque de détail, le comité examine les acteurs, états et référentiels pour orienter la transformation. Architecture Capability désigne principalement :
-A. Architecture Vision — direction approuvée d'un programme spécifique  B. La capacité organisationnelle à pratiquer et gouverner l'architecture  C. Technology Standards — liste des plateformes et produits autorisés  D. Architecture Requirements Specification — exigences d'une seule cible
+A. Architecture Vision — direction approuvée d'un programme spécifique  B. Architecture Requirements Specification — exigences d'une seule cible  C. Technology Standards — liste des plateformes et produits autorisés  D. La capacité organisationnelle à pratiquer et gouverner l'architecture
 
 **Q6.** Un modèle décrit le besoin d'un service d'identité fédérée sans imposer de fournisseur ; une solution précise d'IAM est étudiée pour le réaliser. Quelle qualification distingue les deux éléments ?
 A. Le premier est un SBB car il ne contient pas de détail de technologie, et le second un ABB car il est implémentable.  B. Les deux sont des artifacts car un besoin et un produit sont toujours des représentations graphiques.  C. Le besoin générique est décrit par un ABB ; le composant de solution choisi peut être un SBB  D. Le premier est une Transition Architecture et le second un Architecture Contract.
@@ -37,7 +37,7 @@ A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Pré
 A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase B — définir capabilities et processus métier de la Target  C. Cadrer l'engagement et établir l'Architecture Vision  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** En Phase B, la direction veut remplacer une application historique, mais souhaite conserver la capacité métier de validation des paiements. Quel livrable ou résultat faut-il privilégier pour guider les architectures suivantes ?
-A. Une Target Business Architecture distinguant capacités, processus et services métier de l'application actuelle.  B. Un Technology Platform Diagram précisant les versions des serveurs de la Baseline.  C. Un Implementation and Migration Plan définitif détaillant déjà les vagues de remplacement.  D. Une liste de SBB retenus sans lien aux concerns du métier.
+A. Une liste de SBB retenus sans lien aux concerns du métier.  B. Un Technology Platform Diagram précisant les versions des serveurs de la Baseline.  C. Un Implementation and Migration Plan définitif détaillant déjà les vagues de remplacement.  D. Une Target Business Architecture distinguant capacités, processus et services métier de l'application actuelle.
 
 **Q12.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Ownership, lifecycle et qualité des données relèvent principalement de :
 A. Phase B — structurer capabilities et processus métiers de la cible  B. Phase C Application — décrire services applicatifs et leurs interactions  C. Phase D — définir plateformes et services technologiques nécessaires  D. Phase C Data — modèles, propriété et gouvernance des données
@@ -49,7 +49,7 @@ A. Phase B — définir services et processus métier indépendants des applicat
 A. Phase C Data — gouverner les entités et les flux d'information  B. Phase C Application — modéliser services et contrats applicatifs  C. Phase D — plateformes, services technologiques et infrastructure  D. Phase E — agréger les gaps en work packages et transitions
 
 **Q15.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Identifier et regrouper les principaux work packages et Transition Architectures relève surtout de :
-A. Phase E — options, work packages et Transition Architectures  B. Phase F — confirmer l'ordre et le plan détaillé de la migration  C. Phase G — vérifier la conformité des éléments déjà implémentés  D. Phase C Application — définir les interactions applicatives de cible
+A. Phase F — confirmer l'ordre et le plan détaillé de la migration  B. Phase E — options, work packages et Transition Architectures  C. Phase G — vérifier la conformité des éléments déjà implémentés  D. Phase C Application — définir les interactions applicatives de cible
 
 **Q16.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Prioriser et séquencer la mise en œuvre dans un Implementation and Migration Plan relève principalement de :
 A. Phase E — élaborer les options de solution et premiers lots  B. Phase G — suivre les écarts de conformité pendant le delivery  C. Phase H — évaluer les changements de l'architecture en service  D. Phase F — séquencement et plan détaillé de migration
@@ -67,7 +67,7 @@ A. Requirements Management — processus transversal aux phases ADM pour gérer 
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Gap Analysis — analyse des écarts entre Baseline et Target  C. Architecture Contract — contractualiser obligations et critères de conformité  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q21.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle caractéristique de l'ADM permet de réexaminer une décision après une nouvelle exigence ?
-A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  C. ADM itératif — révision des phases et domaines selon les impacts  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
+A. ADM itératif — révision des phases et domaines selon les impacts  B. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  C. L'ADM est linéaire et ne permet pas de revenir sur les domaines  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
 **Q22.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle distinction convient entre l'Architecture Roadmap et l'Implementation and Migration Plan ?
 A. Architecture Requirements Specification — conditions vérifiables de cible  B. Architecture Contract — engagements entre acteurs de réalisation  C. Implementation and Migration Plan — tâches et dates détaillées des waves  D. Roadmap montre la trajectoire ; Migration Plan détaille priorisation et séquencement
@@ -82,7 +82,7 @@ A. Business Scenarios — besoin métier contextualisé et requirements  B. Gap 
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Migration Planning — prioriser les lots sans comparer Baseline et Target  D. Gap Analysis — analyse des écarts entre Baseline et Target
 
 **Q26.** Dans une banque de détail, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique évalue la capacité de l'organisation à absorber une transformation ?
-A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Business Transformation Readiness Assessment  D. Content Metamodel — types d'entités et relations du référentiel
+A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Business Transformation Readiness Assessment  D. Enterprise Metamodel — types d'entités et relations du référentiel
 
 **Q27.** Dans une banque de détail, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Identifier, évaluer et traiter des incertitudes pouvant compromettre la cible relève surtout de :
 A. Gap Analysis — différences entre les états existant et cible  B. Risk Management — identification, analyse et traitement des risques  C. Readiness Assessment — facteurs de compétences et capacité d'adoption  D. Compliance Review — vérification des exigences d'une solution réalisée
@@ -112,7 +112,7 @@ A. Architecture Definition Document, utilisé comme substitut automatique de tou
 A. Architecture Compliance Review — évaluer la conformité d'une implémentation à l'architecture approuvée  B. Gap Analysis — comparaison Baseline et Target non implémentées  C. Architecture Roadmap — preuve indirecte via le seul suivi du planning  D. Standards Library — validation automatique des solutions utilisant un produit autorisé
 
 **Q36.** Une Architecture Definition Document regroupe des représentations et spécifications soumises à validation formelle. Quelle catégorie de contenu représente-t-elle ?
-A. Artifact — représentation individuelle de type catalogue ou diagramme  B. SBB — composant de solution réalisant une capacité définie  C. Viewpoint — convention de représentation d'une view  D. Un produit de travail formel pouvant contenir plusieurs artifacts
+A. Artifact — représentation individuelle de type catalogue ou diagramme  B. SBB — composant de solution réalisant une capacité définie  C. Un produit de travail formel pouvant contenir plusieurs artifacts  D. Viewpoint — convention de représentation d'une view
 
 **Q37.** Dans une banque de détail, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Un Artifact est :
 A. Deliverable — produit de travail formel agrégant des représentations  B. Une représentation architecturale telle qu'un catalog, matrix ou diagram  C. SBB — composant concret réalisant des fonctionnalités d'architecture  D. Architecture Contract — obligations de mise en œuvre entre parties

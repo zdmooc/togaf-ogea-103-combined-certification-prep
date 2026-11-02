@@ -42,7 +42,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 - **D, 5 points :** Consulter le Leader's Guide et le Practitioners' Approach pertinents dans la TOGAF Library, puis adapter leur guidance à l'Architecture Capability et au Repository interne. D utilise correctement les sources de guidance TOGAF et leur adaptation. L'option C prépare une sélection collégiale des guides, mais ne formalise pas encore l'adaptation au Repository et à la gouvernance interne.
 - **C, 3 points :** Identifier dans la TOGAF Library les guides traitant de gouvernance et d'itération, puis organiser leur sélection avec les architectes de domaine ; la mise en correspondance avec la capacité d'architecture interne restera à formaliser. Choisir les guides collectivement est pertinent, mais leur adaptation à la Capability interne reste à faire.
 - **A, 1 point :** Considérer la TOGAF Library comme la base des solutions installées de l'entreprise ; les Series Guides sont des standards de matériel. La TOGAF Library n'est pas le catalogue des produits installés.
-- **B, 0 points :** Utiliser exclusivement le Governance Log interne, car aucun guide externe ne peut contribuer au tailoring ADM. Le Governance Log interne ne remplace pas les guides externes.
+- **B, 0 points :** Utiliser exclusivement le Governance Repository interne, car aucun guide externe ne peut contribuer au tailoring ADM. Le Governance Repository interne ne remplace pas les guides externes.
 
 **Source de référence :** X2202, objectif L2.8.1 ; TOGAF Standard 10th Edition et Series Guides pertinents.
 

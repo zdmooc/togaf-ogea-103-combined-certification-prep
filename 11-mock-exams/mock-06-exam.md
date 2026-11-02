@@ -43,7 +43,7 @@ A. Phase D, Technology Architecture, parce que la Vision identifie déjà les dr
 A. Phase B — structurer capabilities et processus métiers de la cible  B. Phase C Application — décrire services applicatifs et leurs interactions  C. Phase D — définir plateformes et services technologiques nécessaires  D. Phase C Data — modèles, propriété et gouvernance des données
 
 **Q13.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle phase traite principalement les services applicatifs et leur coopération ?
-A. Phase C Application — services et interactions applicatifs  B. Phase B — définir services et processus métier indépendants des applications  C. Phase C Data — préciser propriété et cycle de vie de l'information  D. Phase D — détailler le socle et les services technologiques
+A. Phase B — définir services et processus métier indépendants des applications  B. Phase C Application — services et interactions applicatifs  C. Phase C Data — préciser propriété et cycle de vie de l'information  D. Phase D — détailler le socle et les services technologiques
 
 **Q14.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quelle phase développe principalement les plateformes et services technologiques cibles ?
 A. Phase C Data — gouverner les entités et les flux d'information  B. Phase D — plateformes, services technologiques et infrastructure  C. Phase C Application — modéliser services et contrats applicatifs  D. Phase E — agréger les gaps en work packages et transitions
@@ -61,7 +61,7 @@ A. Phase G — conformité et gouvernance de la réalisation  B. Phase F — pri
 A. Architecture Compliance en Phase G uniquement, pour vérifier les produits utilisés et maintenir la Target.  B. Requirements Management exclusivement, sans analyse de nouveaux business drivers.  C. Architecture Change Management en Phase H, pour réévaluer drivers, impacts et magnitude du changement.  D. Architecture Contract, qui interdit toute modification après signature par les parties prenantes.
 
 **Q19.** Une requirement modifiée affecte Data Architecture et les waves de migration. Quelle affirmation sur Requirements Management est correcte ?
-A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Phase G uniquement — vérifier seulement les exigences à la réception  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Requirements Management — fonction transverse qui interagit avec toutes les phases ADM
+A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Requirements Management — fonction transverse qui interagit avec toutes les phases ADM  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Phase G uniquement — vérifier seulement les exigences à la réception
 
 **Q20.** Dans une fédération bancaire, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quand peut-on revenir sur une phase ADM après de nouveaux résultats ?
 A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. Elle permet de revisiter phases/domaines lorsque l'apprentissage ou le changement l'exige  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
@@ -82,7 +82,7 @@ A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Gap Analysis — analyse des écarts entre Baseline et Target  C. Architecture Contract — contractualiser obligations et critères de conformité  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q26.** Une transformation internationale introduit un nouveau modèle opérationnel alors que les équipes locales ne disposent pas des compétences requises. Quelle technique évalue ce risque d'adoption ?
-A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation des capacités de transformation
+A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Enterprise Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation des capacités de transformation
 
 **Q27.** Dans une fédération bancaire, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer menaces et opportunités incertaines pouvant affecter les objectifs relève de :
 A. Risk Management — identification, analyse et traitement des risques  B. Gap Analysis — différences entre les états existant et cible  C. Readiness Assessment — facteurs de compétences et capacité d'adoption  D. Compliance Review — vérification des exigences d'une solution réalisée
@@ -106,7 +106,7 @@ A. Terminer définitivement B, C et D avant toute livraison produit  B. Supprime
 A. Project Steering Committee — pilotage coûts et délais uniquement  B. Requirements Manager — traçabilité mais pas acceptation des exceptions  C. Architecture Board — instance de gouvernance et d'arbitrage des décisions d'architecture  D. Fournisseur — approbation autonome de ses propres non-conformités
 
 **Q34.** Un Architecture Board doit suivre la conformité de plusieurs équipes et gérer les exceptions. Quel mécanisme fournit un lien formel avec les équipes de réalisation ?
-A. Architecture Contract précisant engagements, responsabilités et critères de conformité convenus.  B. Architecture Roadmap, qui tient lieu d'accord détaillé de conformité avec chaque fournisseur.  C. Architecture Vision, dont l'approbation remplace toute revue de l'implémentation.  D. Architecture Metamodel, qui accepte automatiquement les demandes de dérogation.
+A. Architecture Metamodel, qui accepte automatiquement les demandes de dérogation.  B. Architecture Roadmap, qui tient lieu d'accord détaillé de conformité avec chaque fournisseur.  C. Architecture Vision, dont l'approbation remplace toute revue de l'implémentation.  D. Architecture Contract précisant engagements, responsabilités et critères de conformité convenus.
 
 **Q35.** Dans une fédération bancaire, le Board doit différencier arbitrage, conformité et exceptions. Quand une implémentation s'écarte d'un standard, la meilleure pratique est :
 A. Accepter implicitement l'écart dès que le sponsor confirme la date  B. Le documenter, analyser son impact et le soumettre au processus de gouvernance approprié  C. Modifier automatiquement la Target pour correspondre au déploiement  D. Supprimer la requirement non satisfaite de l'Architecture Requirements Specification
@@ -118,13 +118,13 @@ A. Artifact — représentation individuelle de type catalogue ou diagramme  B. 
 A. Artifact — représentation telle que Catalog, Matrix ou Diagram  B. Deliverable — produit de travail formel agrégant des représentations  C. SBB — composant concret réalisant des fonctionnalités d'architecture  D. Architecture Contract — obligations de mise en œuvre entre parties
 
 **Q38.** Une équipe doit soumettre un dossier formel exposant les capacités métier et leurs building blocks au moyen de plusieurs représentations. Comment qualifier ce dossier ?
-A. Chaque building block devient un deliverable distinct dès que son diagramme est approuvé.  B. Un deliverable formel peut contenir plusieurs artifacts représentant des building blocks et leurs liens.  C. Un viewpoint représente l'application physique tandis qu'un SBB décrit toujours un process métier.  D. Un Architecture Contract est un type de diagramme et remplace les artifacts de la Target.
+A. Un deliverable formel peut contenir plusieurs artifacts représentant des building blocks et leurs liens.  B. Chaque building block devient un deliverable distinct dès que son diagramme est approuvé.  C. Un viewpoint représente l'application physique tandis qu'un SBB décrit toujours un process métier.  D. Un Architecture Contract est un type de diagramme et remplace les artifacts de la Target.
 
 **Q39.** Dans une fédération bancaire, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Un SBB :
 A. L'ABB est le produit précis et le SBB le besoin indépendant de toute solution  B. ABB et SBB sont synonymes dès qu'une solution est approuvée  C. Correspond généralement à une réalisation plus spécifique d'un besoin architectural  D. Le SBB est toujours une capability métier, tandis que l'ABB est une technologie
 
 **Q40.** Dans une fédération bancaire, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Quel élément décrit les types d'objets architecturaux, attributs et relations pouvant être utilisés dans le contenu ?
-A. Architecture Roadmap — jalons et transformations de la cible  B. Enterprise Continuum — classification du générique vers le spécifique  C. Architecture Contract — obligations entre les parties de réalisation  D. Content Metamodel — types d'entités et leurs relations
+A. Architecture Roadmap — jalons et transformations de la cible  B. Enterprise Continuum — classification du générique vers le spécifique  C. Architecture Contract — obligations entre les parties de réalisation  D. Enterprise Metamodel — types d'entités et leurs relations
 
 # Part 2 — Practitioner : huit cas multi-contraintes
 

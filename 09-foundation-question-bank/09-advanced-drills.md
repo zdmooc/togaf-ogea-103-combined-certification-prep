@@ -43,9 +43,9 @@ D. Décrire les solutions réalisées et leurs relations avec les architectures
 Quel composant du Repository permet d'exprimer les classes 'Application', 'Data Entity' et leurs relations autorisées ?
 
 A. Architecture Metamodel
-B. Standards Information Base
+B. Standards Library
 C. Solutions Landscape
-D. Governance Log
+D. Governance Repository
 
 ## F06 — Principle versus requirement
 
@@ -80,7 +80,7 @@ Une mission définit le périmètre métier, le niveau de détail, les domaines 
 
 A. Les dimensions du scoping de l'architecture
 B. La seule Phase D
-C. Le Governance Log
+C. Le Governance Repository
 D. Le gradient scoring de l'examen
 
 ## F10 — Phase A communications
@@ -98,7 +98,7 @@ Un dossier doit décrire les vues de l'architecture cible et ses éléments de d
 
 A. Architecture Requirements Specification
 B. Architecture Definition Document
-C. Standards Information Base
+C. Standards Library
 D. Requirements Impact Assessment
 
 ## F12 — Requirement impact
@@ -153,7 +153,7 @@ La Target est approuvée mais le financement du support et la capacité d'exploi
 A. Business Transformation Readiness Assessment
 B. Application Architecture uniquement
 C. Architecture Contract uniquement
-D. Content Metamodel
+D. Enterprise Metamodel
 
 ## F18 — Governance characteristics
 
@@ -213,7 +213,7 @@ D. Le Technology Platform Diagram
 
 Un comité veut voir les états architecturaux successifs et les principaux work packages menant à la Target. Quel artefact/livrable est prioritairement adapté ?
 
-A. Standards Information Base
+A. Standards Library
 B. Architecture Requirements Specification
 C. Architecture Contract
 D. Architecture Roadmap

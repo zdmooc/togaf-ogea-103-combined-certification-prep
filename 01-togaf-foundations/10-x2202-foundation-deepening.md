@@ -147,7 +147,7 @@ Cette table est une **aide de mémorisation** ; consulter la liste exacte de L1 
 
 ## 11. Contrôles de compréhension
 
-1. Si une décision doit différencier ADD et Standards Information Base, lequel expose la cible et les vues ? **ADD** : SIB répertorie les standards.
+1. Si une décision doit différencier ADD et Standards Library, lequel expose la cible et les vues ? **ADD** : la Standards Library répertorie les standards.
 2. Une cible requiert une capacité que les collaborateurs ne savent pas exploiter. Quelle technique en premier ? **Business Transformation Readiness** pour rendre visible et traiter l'écart organisationnel.
 3. Des services échangent des messages JSON mais ne donnent pas le même sens au champ « statut ». De quel problème s'agit-il ? **Interopérabilité informationnelle/sémantique**, pas seulement connectivité.
 4. Un modèle contient le portefeuille de capacités métier et une application qui supporte deux de ces capacités. Quelle est la représentation correcte ? **Capabilities indépendantes des applications**, liens de support explicites.

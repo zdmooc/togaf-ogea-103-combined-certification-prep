@@ -37,7 +37,7 @@ A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Phas
 A. Preliminary — définir la gouvernance et l'Architecture Capability  B. Phase A — cadrage du scope, des stakeholders et des drivers ; création de l'Architecture Vision  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** Une équipe produit veut fixer l'ensemble des choix applicatifs de la Target sans connaître encore les capabilities et processus métier visés. Quel résultat ADM manque en premier ?
-A. L'Implementation Governance Model destiné à contrôler les fournisseurs déjà en delivery.  B. Le Governance Repository de la Phase H, pour enregistrer les changements futurs.  C. La sélection anticipée des SBB d'infrastructure à partir du Repository.  D. La Target Business Architecture de Phase B, alimentant ensuite Data/Application/Technology.
+A. L'Implementation Governance Model destiné à contrôler les fournisseurs déjà en delivery.  B. Le Governance Repository de la Phase H, pour enregistrer les changements futurs.  C. La Target Business Architecture de Phase B, alimentant ensuite Data/Application/Technology.  D. La sélection anticipée des SBB d'infrastructure à partir du Repository.
 
 **Q12.** Dans une mutuelle d'assurance, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Définir ownership, structure, qualité et lifecycle de l'information relève principalement de :
 A. Phase C Data — modèles, propriété et gouvernance des données  B. Phase B — structurer capabilities et processus métiers de la cible  C. Phase C Application — décrire services applicatifs et leurs interactions  D. Phase D — définir plateformes et services technologiques nécessaires
@@ -67,7 +67,7 @@ A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. 
 A. Les phases peuvent être revisitées pour réconcilier les modèles et exigences avec la nouvelle contrainte.  B. L'ADM est linéaire et ne permet pas de revenir sur les domaines  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
 **Q21.** Une banque cible un service de paiements résilient, mais son SI actuel ne dispose pas de la capacité de reprise requise. Quelle analyse formalise cette différence avant de retenir une solution ?
-A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Gap Analysis — identification des écarts pertinents entre architectures Baseline et Target  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
+A. Gap Analysis — identification des écarts pertinents entre architectures Baseline et Target  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Compliance Review — évaluer une implémentation vis-à-vis de la cible  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q22.** Le comité veut connaître les grands états intermédiaires et les work packages menant à la cible à trois ans, sans entrer encore dans le planning quotidien des équipes. Quel livrable convient ?
 A. Architecture Requirements Specification — conditions vérifiables de cible  B. Architecture Roadmap — présente la trajectoire de transformation à haut niveau  C. Architecture Contract — engagements entre acteurs de réalisation  D. Implementation and Migration Plan — tâches et dates détaillées des waves
@@ -79,10 +79,10 @@ A. Gap Analysis, en choisissant immédiatement la solution technique cible.  B. 
 A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B. Business Scenarios — besoin métier contextualisé et requirements  C. Compliance Review — vérification des solutions construites  D. Migration Planning — hiérarchisation de lots et de dépendances
 
 **Q25.** Dans une mutuelle d'assurance, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer la capacité de systèmes ou organisations à travailler ensemble relève de :
-A. Technology Architecture — mêmes produits, sans vérifier la sémantique  B. Standards Library — liste de standards techniques approuvés  C. Interoperability — capacité de collaboration métier, information et technique  D. Compliance Review — contrôle d'un composant isolé après réalisation
+A. Interoperability — capacité de collaboration métier, information et technique  B. Standards Library — liste de standards techniques approuvés  C. Technology Architecture — mêmes produits, sans vérifier la sémantique  D. Compliance Review — contrôle d'un composant isolé après réalisation
 
 **Q26.** Dans une mutuelle d'assurance, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Identifier les barrières humaines, organisationnelles et opérationnelles à la transformation relève de :
-A. Business Transformation Readiness Assessment  B. Compliance Review — preuve de conformité des composants déployés  C. Gap Analysis — seules différences entre plateformes existantes et cibles  D. Content Metamodel — types d'entités et relations du référentiel
+A. Business Transformation Readiness Assessment  B. Compliance Review — preuve de conformité des composants déployés  C. Gap Analysis — seules différences entre plateformes existantes et cibles  D. Enterprise Metamodel — types d'entités et relations du référentiel
 
 **Q27.** Dans une mutuelle d'assurance, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique s'intéresse explicitement aux menaces, probabilités, impacts et traitements ?
 A. Gap Analysis — différences entre les états existant et cible  B. Readiness Assessment — facteurs de compétences et capacité d'adoption  C. Compliance Review — vérification des exigences d'une solution réalisée  D. Risk Management — identification, analyse et traitement des risques
@@ -91,7 +91,7 @@ A. Gap Analysis — différences entre les états existant et cible  B. Readines
 A. Business Scenarios — formulation des besoins et outcomes métier  B. Migration Planning Techniques — priorisation et dépendances  C. Gap Analysis — identification des différences entre existant et cible  D. Architecture Principles — règles de décision durables, non séquencement
 
 **Q29.** Dans une mutuelle d'assurance, la gouvernance doit permettre plusieurs équipes et horizons de livraison. Tailoring signifie :
-A. Adapter méthode, profondeur, gouvernance et artifacts au contexte  B. Partitioning — délimiter des espaces d'architecture et interfaces  C. Scoping — choisir breadth, depth, domains et horizon d'un travail  D. Compliance Assessment — vérifier le respect de la Target livrée
+A. Compliance Assessment — vérifier le respect de la Target livrée  B. Partitioning — délimiter des espaces d'architecture et interfaces  C. Scoping — choisir breadth, depth, domains et horizon d'un travail  D. Adapter méthode, profondeur, gouvernance et artifacts au contexte
 
 **Q30.** Plusieurs filiales ont un socle commun, mais leurs architectures de segment portent des besoins locaux. Quel mécanisme permet de conserver la cohérence sans supposer un niveau unique de détail ?
 A. Architecture Contract, qui exige que toutes les filiales partagent exactement les mêmes diagrams.  B. Architecture Compliance, qui remplace la modélisation de segments par une liste de normes.  C. Architecture Landscape à différents niveaux et périodes, articulant visions stratégiques et architectures de segments/capacités.  D. Enterprise Continuum, utilisé uniquement comme planning de releases d'un projet.
@@ -106,7 +106,7 @@ A. Scoping — limiter le périmètre et la profondeur d'un seul travail  B. Arc
 A. Project Steering Committee — pilotage coûts et délais uniquement  B. Requirements Manager — traçabilité mais pas acceptation des exceptions  C. Architecture Board — autorité de gouvernance et d'arbitrage  D. Fournisseur — approbation autonome de ses propres non-conformités
 
 **Q34.** La réalisation d'une cible de paiements doit être acceptée sous réserve de mesures compensatoires pour une dérogation. Quelle fonction du Board soutient le mieux la gouvernance ?
-A. Arbitrer et tracer conformité, exceptions et responsabilités selon un cadre approuvé.  B. Sélectionner directement tous les building blocks au lieu des équipes de conception.  C. Se limiter à valider le budget des lots sans examiner les exigences d'architecture.  D. Transformer toute dérogation en nouvelle norme permanente sans analyse des risques.
+A. Transformer toute dérogation en nouvelle norme permanente sans analyse des risques.  B. Sélectionner directement tous les building blocks au lieu des équipes de conception.  C. Se limiter à valider le budget des lots sans examiner les exigences d'architecture.  D. Arbitrer et tracer conformité, exceptions et responsabilités selon un cadre approuvé.
 
 **Q35.** Dans une mutuelle d'assurance, le Board doit différencier arbitrage, conformité et exceptions. Une déviation par rapport à l'architecture approuvée doit idéalement être :
 A. Accepter implicitement l'écart dès que le sponsor confirme la date  B. Modifier automatiquement la Target pour correspondre au déploiement  C. Supprimer la requirement non satisfaite de l'Architecture Requirements Specification  D. Analysée, documentée et gouvernée via un processus d'exception approprié

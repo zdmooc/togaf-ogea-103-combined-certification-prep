@@ -61,9 +61,9 @@ Ces artifacts représentent ou décrivent des building blocks :
 
 Ils fonctionnent ensemble.
 
-## 5. Content Metamodel
+## 5. Enterprise Metamodel
 
-Le **Content Metamodel** décrit les types d’entités architecturales et leurs relations. Il peut être adapté au contexte de l’organisation.
+L'**Enterprise Metamodel** (appelé *Content Metamodel* dans TOGAF 9) décrit les types d’entités architecturales et leurs relations. Il peut être adapté au contexte de l’organisation.
 
 Exemple :
 
@@ -140,7 +140,7 @@ D. Architecture Contract
 
 ## 12. Practitioner scenario
 
-Une organisation produit des dizaines de diagrammes sans relation avec les décisions ni avec les éléments réels d’architecture. La meilleure amélioration n’est pas de produire encore plus de vues mais de structurer les artifacts, leurs éléments et leurs relations dans un content metamodel adapté.
+Une organisation produit des dizaines de diagrammes sans relation avec les décisions ni avec les éléments réels d’architecture. La meilleure amélioration n’est pas de produire encore plus de vues mais de structurer les artifacts, leurs éléments et leurs relations dans un Enterprise Metamodel adapté.
 
 ## 13. English for Architects
 

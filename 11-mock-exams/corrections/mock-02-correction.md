@@ -15,7 +15,7 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 8. **A** — Architecture Capability couvre rôles, gouvernance, pratiques et moyens.
 9. **C** — Preliminary prépare la capacité ; A cadre l'engagement.
 10. **B** — Phase A = stakeholders + Vision.
-11. **D** — Les besoins métier guident la dérivation des architectures des domaines techniques.
+11. **C** — Les besoins métier guident la dérivation des architectures des domaines techniques.
 12. **A** — C Data = ownership, structure, qualité, lifecycle.
 13. **C** — C Application = services applicatifs.
 14. **B** — D = Technology Architecture.
@@ -25,20 +25,20 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40 avec 5/3/1/0, réussite sim
 18. **B** — La réponse est décidée par Architecture Change Management en tenant compte de l'ampleur.
 19. **D** — Requirements Management est transversal.
 20. **A** — L'ADM est itératif ; les impacts sur les domaines peuvent provoquer des retours contrôlés.
-21. **C** — Gap = différence Baseline/Target.
+21. **A** — Gap = différence Baseline/Target.
 22. **B** — Roadmap = trajectoire de transformation.
 23. **D** — Le Business Scenario traduit un besoin ou opportunité en contexte exploitable pour les exigences.
 24. **B** — Business Scenarios.
-25. **C** — Interoperability Analysis.
+25. **A** — Interoperability Analysis.
 26. **A** — Transformation Readiness.
 27. **D** — Risk Management.
 28. **B** — Migration Planning Techniques.
-29. **A** — Tailoring adapte l'ADM.
+29. **D** — Tailoring adapte l'ADM.
 30. **C** — Un paysage d'architecture articule des niveaux cohérents de scope et d'horizon.
 31. **D** — l'ADM peut soutenir la Digital Enterprise.
 32. **B** — Partitioning/federation aident les grandes organisations.
 33. **C** — Architecture Board.
-34. **A** — Le Board prend ou fait prendre des décisions d'architecture explicites ; les exceptions doivent rester gouvernées.
+34. **D** — Le Board prend ou fait prendre des décisions d'architecture explicites ; les exceptions doivent rester gouvernées.
 35. **D** — exception = analyse, documentation, décision gouvernée.
 36. **B** — Deliverable = produit de travail formel.
 37. **C** — Artifact = représentation architecturale.

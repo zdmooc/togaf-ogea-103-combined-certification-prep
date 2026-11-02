@@ -9,7 +9,7 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, scoring 5/3/1/0, réussite
 2. **C** — Concern = préoccupation stakeholder.
 3. **A** — L'EA apporte une cohérence de changement entre métier, organisation et technologie.
 4. **D** — Principle guide durablement les décisions.
-5. **B** — Baseline = état actuel.
+5. **D** — Baseline = état actuel.
 6. **C** — Les composants logiques du Repository distinguent requirements, standards, solutions, modèles et décisions.
 7. **A** — Continuum classe du générique au spécifique.
 8. **D** — Un deliverable peut agréger plusieurs artifacts et être soumis à validation formelle.
@@ -20,11 +20,11 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, scoring 5/3/1/0, réussite
 13. **A** — C Application = services/interactions applicatives.
 14. **C** — D = Technology Architecture.
 15. **D** — E = solution options, work packages, Transition Architectures.
-16. **B** — F = priorités, dépendances, séquencement.
+16. **C** — F = priorités, dépendances, séquencement.
 17. **A** — G = implementation governance.
 18. **C** — Phase H traite l'évolution de l'architecture de manière proportionnée et gouvernée.
 19. **D** — Requirements Management est transversal.
-20. **B** — TOGAF permet de revenir sur les domaines dont les contraintes évoluent.
+20. **A** — TOGAF permet de revenir sur les domaines dont les contraintes évoluent.
 21. **A** — Gap = différence Baseline/Target.
 22. **C** — Transition Architecture = état intermédiaire.
 23. **B** — Un protocole commun n'assure pas une interprétation partagée des informations.
@@ -35,16 +35,16 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, scoring 5/3/1/0, réussite
 28. **B** — Migration Planning Techniques.
 29. **D** — Tailoring.
 30. **A** — La portée du travail se définit selon quatre dimensions et pas uniquement selon le nombre d'applications.
-31. **C** — Partitioning.
+31. **B** — Partitioning.
 32. **B** — Agile et TOGAF peuvent coexister via tailoring/iteration.
 33. **D** — Architecture Board.
 34. **B** — Le modèle de gouvernance d'implémentation définit mécanismes, rôles et responsabilités de contrôle.
 35. **C** — Architecture Compliance Review.
 36. **A** — Catalog/Matrix/Diagram sont des Artifacts.
-37. **D** — Building Block = élément réutilisable d'architecture/solution.
+37. **B** — Building Block = élément réutilisable d'architecture/solution.
 38. **B** — Le Content Framework distingue trois formes d'artifacts : catalogues, matrices et diagrammes.
 39. **C** — Un viewpoint règle la construction d'une view, adaptée à des concerns.
-40. **A** — Content Metamodel définit types d'entités et relations.
+40. **A** — L'Enterprise Metamodel définit types d'entités et relations.
 
 # Part 2 — correction approfondie
 

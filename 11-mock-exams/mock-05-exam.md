@@ -37,7 +37,7 @@ A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Prel
 A. Phase A — définition du périmètre, des concerns métier et de l'Architecture Vision  B. Preliminary — définir la gouvernance et l'Architecture Capability  C. Phase B — définir capabilities et processus métier de la Target  D. Phase F — planifier les vagues et priorités de migration
 
 **Q11.** Un programme doit définir les services métier et processus d'assurance futurs ; les applications legacy sont connues. Quel travail ADM doit structurer ce besoin ?
-A. Finaliser la Target Technology Architecture à partir des serveurs supportant les applications actuelles.  B. Décider d'abord des work packages de migration puis adapter les services métier à leur séquencement.  C. Développer la Target Business Architecture avant de dériver Data/Application/Technology et leurs gaps.  D. Réaliser la Compliance Review des applications existantes comme substitut de l'analyse de Target Business.
+A. Développer la Target Business Architecture avant de dériver Data/Application/Technology et leurs gaps.  B. Décider d'abord des work packages de migration puis adapter les services métier à leur séquencement.  C. Finaliser la Target Technology Architecture à partir des serveurs supportant les applications actuelles.  D. Réaliser la Compliance Review des applications existantes comme substitut de l'analyse de Target Business.
 
 **Q12.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Une stratégie de data ownership appartient principalement à :
 A. Phase B — structurer capabilities et processus métiers de la cible  B. Phase C Application — décrire services applicatifs et leurs interactions  C. Phase D — définir plateformes et services technologiques nécessaires  D. Phase C Data — modèles, propriété et gouvernance des données
@@ -46,7 +46,7 @@ A. Phase B — structurer capabilities et processus métiers de la cible  B. Pha
 A. Phase B — définir services et processus métier indépendants des applications  B. Phase C Application — services et interactions applicatifs  C. Phase C Data — préciser propriété et cycle de vie de l'information  D. Phase D — détailler le socle et les services technologiques
 
 **Q14.** Une fois les services applicatifs identifiés, la banque doit définir les services de plateforme, l'hébergement et la résilience technique de la cible. Quelle phase est principalement sollicitée ?
-A. Phase C Data — gouverner les entités et les flux d'information  B. Phase C Application — modéliser services et contrats applicatifs  C. Phase D — plateformes, services technologiques et infrastructure  D. Phase E — agréger les gaps en work packages et transitions
+A. Phase C Data — gouverner les entités et les flux d'information  B. Phase C Application — modéliser services et contrats applicatifs  C. Phase E — agréger les gaps en work packages et transitions  D. Phase D — plateformes, services technologiques et infrastructure
 
 **Q15.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Les work packages et Transition Architectures commencent à être consolidés surtout en :
 A. Phase E — options, work packages et Transition Architectures  B. Phase F — confirmer l'ordre et le plan détaillé de la migration  C. Phase G — vérifier la conformité des éléments déjà implémentés  D. Phase C Application — définir les interactions applicatives de cible
@@ -64,7 +64,7 @@ A. Réaliser uniquement une Compliance Assessment après la mise en production d
 A. Il intervient de manière transversale, avec analyse et traçabilité des impacts sur les phases pertinentes.  B. Phase A uniquement — figer les exigences à l'approbation de la Vision  C. Phase G uniquement — vérifier seulement les exigences à la réception  D. Phase H exclusivement — traiter toute requirement après la mise en service
 
 **Q20.** Les équipes agiles découvrent un besoin métier supplémentaire pendant la conception de la cible, après le cadrage initial. Quel comportement ADM permet de tenir compte de ce besoin ?
-A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.  C. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
+A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. Un retour n'est autorisé qu'après un cycle complet Preliminary à H  C. Il peut être adapté et itéré afin de réconcilier les domaines et leurs exigences.  D. Une Vision approuvée rend toutes les requirements ultérieures immuables
 
 **Q21.** Le programme identifie l'absence d'un service de vérification dans la Baseline, alors que la Target l'exige. Quelle technique décrit cette différence ?
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Architecture Contract — contractualiser obligations et critères de conformité  C. Migration Planning — prioriser les lots sans comparer Baseline et Target  D. Gap Analysis — différences entre Baseline et Target
@@ -82,7 +82,7 @@ A. Business Scenarios — besoin métier contextualisé et requirements  B. Gap 
 A. Technology Architecture — mêmes produits, sans vérifier la sémantique  B. Interoperability — capacité de collaboration métier, information et technique  C. Standards Library — liste de standards techniques approuvés  D. Compliance Review — contrôle d'un composant isolé après réalisation
 
 **Q26.** Une plateforme cloud-native semble techniquement réalisable, mais les managers ne financent pas les capacités d'exploitation en continu. Quelle méthode évalue la préparation de l'organisation ?
-A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation des capacités de mise en œuvre
+A. Compliance Review — preuve de conformité des composants déployés  B. Business Transformation Readiness Assessment — évaluation des capacités de mise en œuvre  C. Enterprise Metamodel — types d'entités et relations du référentiel  D. Gap Analysis — seules différences entre plateformes existantes et cibles
 
 **Q27.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique structure l'analyse des événements incertains susceptibles d'affecter les objectifs ?
 A. Gap Analysis — différences entre les états existant et cible  B. Readiness Assessment — facteurs de compétences et capacité d'adoption  C. Risk Management — identification, analyse et traitement des risques  D. Compliance Review — vérification des exigences d'une solution réalisée

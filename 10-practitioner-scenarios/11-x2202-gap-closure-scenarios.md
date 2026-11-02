@@ -52,7 +52,7 @@ Une direction d'architecture cherche une démarche réutilisable pour établir s
 
 A. Considérer la TOGAF Library comme la base des solutions installées de l'entreprise ; les Series Guides sont des standards de matériel.
 
-B. Utiliser exclusivement le Governance Log interne, car aucun guide externe ne peut contribuer au tailoring ADM.
+B. Utiliser exclusivement le Governance Repository interne, car aucun guide externe ne peut contribuer au tailoring ADM.
 
 C. Identifier dans la TOGAF Library les guides traitant de gouvernance et d'itération, puis organiser leur sélection avec les architectes de domaine ; la mise en correspondance avec la capacité d'architecture interne restera à formaliser.
 

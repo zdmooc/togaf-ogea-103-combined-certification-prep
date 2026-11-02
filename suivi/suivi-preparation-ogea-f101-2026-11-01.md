@@ -30,6 +30,8 @@ Mini-examen chapitre 6 : **10/10**.
 
 ### Correction à retenir
 
+> **Terminologie TOGAF 10 :** la *Standards Information Base* (SIB) s'appelle **Standards Library** dans le TOGAF Standard, 10e édition. Ce relevé conserve le libellé de l'examen blanc de l'époque.
+
 - **Architecture Definition Document (ADD)** : décrit les architectures de référence et cible, leurs vues et les écarts identifiés.
 - **Standards Information Base (SIB)** : référence les standards applicables à l'architecture.
 - Ne pas confondre un livrable décrivant l'architecture avec le référentiel de standards.
@@ -40,4 +42,4 @@ Mini-examen chapitre 6 : **10/10**.
 2. Passer un **nouvel** examen blanc de 40 questions, inédites, chronométré sur 60 minutes, avec couverture équilibrée du syllabus officiel.
 3. Vérifier les modalités et disponibilités de l'examen officiel OGEA-F101 auprès de The Open Group / Pearson VUE avant inscription.
 
-> Note : ce résultat reflète un examen blanc pédagogique réalisé dans ChatGPT, non une certification officielle ni une garantie de réussite. Les exemples BPCE et MAIF utilisés pendant la préparation sont des illustrations pédagogiques.
+> Note : ce résultat reflète un examen blanc pédagogique réalisé dans ChatGPT, non une certification officielle ni une garantie de réussite. Les exemples d'entreprises réelles cités pendant la préparation sont des illustrations pédagogiques.

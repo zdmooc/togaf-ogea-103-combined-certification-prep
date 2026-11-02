@@ -46,9 +46,9 @@ Chaîne : **Stakeholder → Concern → Viewpoint → View**.
 - Matrix : relations entre deux ensembles.
 - Diagram : structure ou interactions visuelles.
 
-## 6. Content Metamodel vs Repository
+## 6. Enterprise Metamodel vs Repository
 
-- Content Metamodel = types d’éléments + relations.
+- Enterprise Metamodel = types d’éléments + relations.
 - Repository = stockage et gestion des assets d’architecture.
 
 Le metamodel structure ce qui peut être enregistré dans le repository.

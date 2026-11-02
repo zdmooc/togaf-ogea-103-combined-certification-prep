@@ -16,7 +16,7 @@ A. Stakeholder → Concern → Viewpoint → View — chaîne reliant préoccupa
 A. Un SBB, dont le nom peut être identique à celui du produit historique.  B. Une business capability, définie indépendamment d'un produit ou d'une implémentation.  C. Une Transition Architecture correspondant au déploiement de la prochaine version.  D. Un Technology Standard définissant la version du runtime applicatif.
 
 **Q4.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. La Baseline Architecture est :
-A. Target Architecture — architecture future envisagée après les changements  B. Transition Architecture — état intermédiaire cohérent avant la cible  C. Baseline Architecture — état actuel pertinent de l'entreprise  D. Architecture Roadmap — trajectoire des lots et états successifs
+A. Target Architecture — architecture future envisagée après les changements  B. Baseline Architecture — état actuel pertinent de l'entreprise  C. Transition Architecture — état intermédiaire cohérent avant la cible  D. Architecture Roadmap — trajectoire des lots et états successifs
 
 **Q5.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Lequel décrit le mieux un Architecture Principle ?
 A. Requirement — condition vérifiable propre au périmètre d'une solution  B. SBB — composant retenu pour réaliser une capacité architecturale  C. Viewpoint — convention choisie pour exposer les concerns  D. Une règle directrice durable guidant les décisions
@@ -58,7 +58,7 @@ A. Phase F — séquencement et plan détaillé de migration  B. Phase E — él
 A. Phase F — prioriser les vagues de l'Implementation and Migration Plan  B. Phase H — évaluer l'impact des demandes après mise en service  C. Phase G — conformité et gouvernance de la réalisation  D. Preliminary — définir principes et capacité de gouvernance
 
 **Q18.** Les services livrés ne produisent plus la valeur attendue après un changement de marché. Quelle activité de l'ADM doit être mobilisée ?
-A. Phase G uniquement, puisqu'il s'agit nécessairement d'une non-conformité technique.  B. Phase H, pour évaluer les nouveaux drivers et déterminer le besoin de changement architectural.  C. Phase E uniquement, afin d'ajouter immédiatement de nouveaux work packages sans revue des drivers.  D. Preliminary automatiquement, car toute modification de valeur oblige à reconstruire la capacité EA.
+A. Phase G uniquement, puisqu'il s'agit nécessairement d'une non-conformité technique.  B. Phase E uniquement, afin d'ajouter immédiatement de nouveaux work packages sans revue des drivers.  C. Phase H, pour évaluer les nouveaux drivers et déterminer le besoin de changement architectural.  D. Preliminary automatiquement, car toute modification de valeur oblige à reconstruire la capacité EA.
 
 **Q19.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Les requirements découvertes en Phase C doivent :
 A. Phase A uniquement — figer les exigences à l'approbation de la Vision  B. Phase G uniquement — vérifier seulement les exigences à la réception  C. Phase H exclusivement — traiter toute requirement après la mise en service  D. Être intégrées au processus transversal Requirements Management
@@ -82,7 +82,7 @@ A. Gap Analysis — différences entre Baseline et Target déjà identifiées  B
 A. Compliance Review — évaluer une implémentation vis-à-vis de la cible  B. Gap Analysis — analyse des écarts entre Baseline et Target  C. Architecture Contract — contractualiser obligations et critères de conformité  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q26.** Dans une plateforme de paiements instantanés, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Évaluer culture, compétences, leadership et capacité d'adoption relève de :
-A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Business Transformation Readiness — capacité d'adoption et d'exécution  D. Content Metamodel — types d'entités et relations du référentiel
+A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Enterprise Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness — capacité d'adoption et d'exécution
 
 **Q27.** Dans une plateforme de paiements instantanés, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique aide à planifier autour de capacités nécessaires plutôt que de solutions isolées ?
 A. Capability-Based Planning — planification par capacités métier  B. Migration Planning — ordre de lots déjà définis sans lien explicite aux capacités  C. Gap Analysis Technology — écarts de plateformes au lieu d'aptitudes métier  D. Compliance Review — contrôle des réalisations, pas des investissements
@@ -112,7 +112,7 @@ A. Validation d'un seul Technology Standard comme preuve suffisante.  B. Nouvell
 A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Architecture Roadmap — preuve indirecte via le seul suivi du planning  C. Architecture Compliance Review — évalue la conformité aux exigences et décisions d'architecture approuvées  D. Standards Library — validation automatique des solutions utilisant un produit autorisé
 
 **Q36.** Dans une plateforme de paiements instantanés, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Lequel décrit un Deliverable ?
-A. Artifact — représentation individuelle de type catalogue ou diagramme  B. Un produit de travail formel assemblant éventuellement plusieurs artifacts  C. SBB — composant de solution réalisant une capacité définie  D. Viewpoint — convention de représentation d'une view
+A. Artifact — représentation individuelle de type catalogue ou diagramme  B. SBB — composant de solution réalisant une capacité définie  C. Un produit de travail formel assemblant éventuellement plusieurs artifacts  D. Viewpoint — convention de représentation d'une view
 
 **Q37.** Dans une plateforme de paiements instantanés, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Une Application Communication Diagram est un exemple de :
 A. Artifact — représentation telle que Catalog, Matrix ou Diagram  B. Deliverable — produit de travail formel agrégant des représentations  C. SBB — composant concret réalisant des fonctionnalités d'architecture  D. Architecture Contract — obligations de mise en œuvre entre parties

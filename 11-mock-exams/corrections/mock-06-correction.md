@@ -17,13 +17,13 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, gradient 5/3/1/0, réussit
 10. **B** — Phase A établit Vision et alignement initial.
 11. **C** — La Phase B traduit la Vision dans un modèle de capacités et processus métier cible.
 12. **D** — data ownership/flux = Phase C Data.
-13. **A** — services applicatifs = C Application.
+13. **B** — services applicatifs = C Application.
 14. **B** — plateformes/services technologiques = D.
 15. **C** — options/work packages candidats = E.
 16. **D** — priorisation/séquencement = F.
 17. **A** — conformité de l'implémentation = G.
 18. **C** — La Phase H surveille la pertinence de l'architecture et gouverne son adaptation.
-19. **D** — Requirements Management interagit avec toutes les phases.
+19. **B** — Requirements Management interagit avec toutes les phases.
 20. **B** — l'itération permet de revisiter le travail lorsque nécessaire.
 21. **C** — les gaps peuvent exister dans les quatre domaines.
 22. **A** — Roadmap montre la trajectoire vers la cible.
@@ -38,13 +38,13 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, gradient 5/3/1/0, réussit
 31. **B** — Partitioning = espaces, responsabilités, interfaces.
 32. **D** — ADM peut être itératif/tailorable avec Agile.
 33. **C** — Architecture Board = autorité de gouvernance.
-34. **A** — Le Contract définit des engagements entre les parties et peut guider les Compliance Reviews.
+34. **D** — Le Contract définit des engagements entre les parties et peut guider les Compliance Reviews.
 35. **B** — un écart doit être analysé et gouverné.
 36. **D** — Deliverable = produit formel contenant potentiellement plusieurs artifacts.
 37. **A** — Artifact = Catalog/Matrix/Diagram, etc.
-38. **B** — Le Content Framework articule livrables, représentations et éléments d'architecture.
+38. **A** — Le Content Framework articule livrables, représentations et éléments d'architecture.
 39. **C** — SBB correspond à une réalisation plus spécifique.
-40. **D** — Content Metamodel définit types d'objets et relations.
+40. **D** — L'Enterprise Metamodel définit types d'objets et relations.
 
 # Part 2 — correction des scénarios
 
