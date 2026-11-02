@@ -28,7 +28,7 @@ A. Le diagramme est nécessairement un SBB dès qu'il représente une solution c
 A. Le Continuum stocke les artifacts, tandis que le Repository les classe seulement  B. Architecture Repository — référentiel des assets et travaux d'architecture  C. Le Repository n'héberge que des solutions déployées et jamais les requirements  D. Repository et Continuum sont deux noms d'un unique stockage de solutions
 
 **Q8.** Dans une banque corporate, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quel concept aide à classer les assets du générique vers l'organisation-spécifique ?
-A. Architecture Repository — stockage et organisation des éléments produits  B. Architecture Roadmap — trajectoire des architectures et work packages  C. Governance Log — décisions de conformité et exceptions d'architecture  D. Enterprise Continuum — classification des assets génériques à spécifiques
+A. Architecture Repository — stockage et organisation des éléments produits  B. Architecture Roadmap — trajectoire des architectures et work packages  C. Governance Repository — décisions de conformité et exceptions d'architecture  D. Enterprise Continuum — classification des assets génériques à spécifiques
 
 **Q9.** Dans une banque corporate, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. La mise en place de l'Architecture Board et du processus d'exception relève d'abord de :
 A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Preliminary — mise en place de l'Architecture Capability  C. Phase E — définir options, work packages et transitions candidates  D. Phase G — contrôler la mise en œuvre et ses dérogations
@@ -79,7 +79,7 @@ A. Gap Analysis exclusivement technique sur les versions de conteneurs.  B. Comp
 A. Business Scenarios — besoin métier contextualisé et requirements  B. Gap Analysis — différences entre Baseline et Target déjà identifiées  C. Compliance Review — vérification des solutions construites  D. Migration Planning — hiérarchisation de lots et de dépendances
 
 **Q25.** Dans une banque corporate, les architectes hésitent entre plusieurs techniques de diagnostic et de planification. Quelle technique aide à déterminer si deux environnements peuvent fonctionner ensemble ?
-A. Technology Architecture — mêmes produits, sans vérifier la sémantique  B. Interoperability — capacité de collaboration métier, information et technique  C. Standards Information Base — liste de standards techniques approuvés  D. Compliance Review — contrôle d'un composant isolé après réalisation
+A. Technology Architecture — mêmes produits, sans vérifier la sémantique  B. Interoperability — capacité de collaboration métier, information et technique  C. Standards Library — liste de standards techniques approuvés  D. Compliance Review — contrôle d'un composant isolé après réalisation
 
 **Q26.** Une plateforme cloud-native semble techniquement réalisable, mais les managers ne financent pas les capacités d'exploitation en continu. Quelle méthode évalue la préparation de l'organisation ?
 A. Compliance Review — preuve de conformité des composants déployés  B. Gap Analysis — seules différences entre plateformes existantes et cibles  C. Content Metamodel — types d'entités et relations du référentiel  D. Business Transformation Readiness Assessment — évaluation des capacités de mise en œuvre
