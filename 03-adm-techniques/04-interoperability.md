@@ -35,7 +35,19 @@ L’interopérabilité force l’architecte à analyser ces frontières explicit
 
 Deux systèmes reliés par API peuvent être intégrés mais non réellement interopérables si les données ou comportements sont interprétés différemment.
 
-## 4. Dimensions — grille pratique, pas taxonomie officielle à mémoriser
+## 4. Catégories TOGAF et grille d'analyse pratique
+
+Le TOGAF Standard, 10th Edition (Introduction and Core Concepts, rubrique *Interoperability*) propose trois **catégories usuelles** d'interopérabilité :
+
+| Catégorie | Question d'architecture | Exemple MayaBank |
+|---|---|---|
+| **Operational or Business Interoperability** | Comment les entités travaillent-elles ensemble au niveau des processus et responsabilités ? | Une banque émettrice et un service de compensation coordonnent le traitement d'une exception. |
+| **Information Interoperability** | Comment les informations sont-elles partagées et comprises ? | Les deux parties interprètent correctement les données d'un message ISO 20022. |
+| **Technical Interoperability** | Comment les ressources et services techniques échangent-ils et se connectent-ils ? | Des API, files de messages et contrôles de transport compatibles permettent l'échange. |
+
+Ces catégories structurent la discussion, **sans affirmer que X2202 exige de mémoriser leur liste mot pour mot**. La grille plus détaillée ci-dessous est une déclinaison pédagogique de mise en œuvre et non une nouvelle liste normative TOGAF.
+
+### Dimensions de travail supplémentaires (grille pédagogique)
 
 **Attention certification :** la décomposition Business / Information / Application / Technology / Security ci-dessous est une **grille d'analyse pédagogique** pour les scénarios d'intégration, **pas** une liste normative de « cinq dimensions TOGAF » imposée par X2202. Le syllabus Foundation L1 4.7 demande de savoir **expliquer l'interopérabilité et son utilisation**. Il ne prescrit pas de réciter cinq catégories. Une différence de sémantique, d'organisation ou de confiance peut croiser plusieurs dimensions.
 
@@ -58,6 +70,21 @@ Compatibilité des plateformes, protocoles, réseaux, middleware, runtimes et st
 ### Security interoperability
 
 Compatibilité IAM, authentification, autorisation, certificats, chiffrement, trust boundaries et audit.
+
+### Définir le degré d'interopérabilité
+
+Il ne suffit pas de déclarer qu'un système est « interopérable ». L'architecte définit **la nature, la portée, la direction et le niveau d'automatisation** de chaque échange, de façon testable. Dans les lignes directrices TOGAF historiques, un **exemple** de modèle de degrés d'échange est :
+
+| Degré illustratif | Nature de l'échange |
+|---|---|
+| 1 — *Unstructured Data Exchange* | Information non structurée, interprétée par une personne |
+| 2 — *Structured Data Exchange* | Données structurées, avec étapes manuelles de réception ou de traitement |
+| 3 — *Seamless Sharing of Data* | Partage automatisé selon un modèle d'échange commun |
+| 4 — *Seamless Sharing of Information* | Exploitation cohérente de l'information par des applications coopérantes |
+
+**Important :** ces degrés proviennent d'un exemple de classification cité dans des guides TOGAF antérieurs ; ce ne sont **pas quatre niveaux universels obligatoires** ni un learning outcome indépendant du syllabus X2202. Une entreprise doit spécifier et mesurer les degrés adaptés à son contexte.
+
+**Exemple MayaBank :** échanger automatiquement un message ISO 20022 pain.001 ne prouve pas à lui seul l'interopérabilité métier. Il faut aligner les définitions et statuts, les rôles, les mécanismes de reprise et les contrôles de conformité. Documenter les couples émetteur/destinataire et les exigences par échange dans une matrice d'interopérabilité.
 
 ## 5. Position dans l’ADM
 

@@ -28,7 +28,7 @@ A. Le premier est un SBB car il ne contient pas de détail de technologie, et le
 A. Réutilisation = Architecture Principle ; niveau de disponibilité vérifiable = Requirement.  B. Requirement — condition vérifiable propre au périmètre d'une solution  C. SBB — composant retenu pour réaliser une capacité architecturale  D. Viewpoint — convention choisie pour exposer les concerns
 
 **Q8.** Dans une banque de détail, le comité examine les acteurs, états et référentiels pour orienter la transformation. Une Transition Architecture est :
-A. Implementation and Migration Plan — travaux, dépendances et échéances  B. Baseline Architecture — état actuel observé dans le périmètre  C. Standards Information Base — standards techniques autorisés  D. Un état architectural intermédiaire cohérent vers la Target
+A. Implementation and Migration Plan — travaux, dépendances et échéances  B. Baseline Architecture — état actuel observé dans le périmètre  C. Standards Library — standards techniques autorisés  D. Un état architectural intermédiaire cohérent vers la Target
 
 **Q9.** Dans une banque de détail, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Le Preliminary Phase sert d'abord à :
 A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Préparer Architecture Capability, gouvernance, principes et tailoring  C. Phase E — définir options, work packages et transitions candidates  D. Phase G — contrôler la mise en œuvre et ses dérogations
@@ -106,10 +106,10 @@ A. L'ADM peut être adapté et itéré pour soutenir un delivery incrémental  B
 A. Project Steering Committee — pilotage coûts et délais uniquement  B. Architecture Board — instance compétente pour arbitrer les exceptions d'architecture  C. Requirements Manager — traçabilité mais pas acceptation des exceptions  D. Fournisseur — approbation autonome de ses propres non-conformités
 
 **Q34.** Une plateforme est mise en œuvre par trois fournisseurs, avec des critères de conformité et d'acceptation déjà définis. Quel mécanisme décrit au mieux les engagements réciproques utiles à la gouvernance de réalisation ?
-A. Architecture Definition Document, utilisé comme substitut automatique de tout engagement contractuel.  B. Architecture Requirements Specification, suffisante à elle seule pour nommer l'autorité des dérogations.  C. Architecture Contract, convenant responsabilités, obligations et conformité entre acteurs.  D. Standards Information Base, qui remplace le contrôle de la mise en œuvre lorsque les produits sont standards.
+A. Architecture Definition Document, utilisé comme substitut automatique de tout engagement contractuel.  B. Architecture Requirements Specification, suffisante à elle seule pour nommer l'autorité des dérogations.  C. Architecture Contract, convenant responsabilités, obligations et conformité entre acteurs.  D. Standards Library, qui remplace le contrôle de la mise en œuvre lorsque les produits sont standards.
 
 **Q35.** Les services en production utilisent une technologie autorisée, mais leur journalisation viole la Target approuvée. Quelle activité permet d'évaluer cet écart ?
-A. Architecture Compliance Review — évaluer la conformité d'une implémentation à l'architecture approuvée  B. Gap Analysis — comparaison Baseline et Target non implémentées  C. Architecture Roadmap — preuve indirecte via le seul suivi du planning  D. Standards Information Base — validation automatique des solutions utilisant un produit autorisé
+A. Architecture Compliance Review — évaluer la conformité d'une implémentation à l'architecture approuvée  B. Gap Analysis — comparaison Baseline et Target non implémentées  C. Architecture Roadmap — preuve indirecte via le seul suivi du planning  D. Standards Library — validation automatique des solutions utilisant un produit autorisé
 
 **Q36.** Une Architecture Definition Document regroupe des représentations et spécifications soumises à validation formelle. Quelle catégorie de contenu représente-t-elle ?
 A. Artifact — représentation individuelle de type catalogue ou diagramme  B. SBB — composant de solution réalisant une capacité définie  C. Viewpoint — convention de représentation d'une view  D. Un produit de travail formel pouvant contenir plusieurs artifacts

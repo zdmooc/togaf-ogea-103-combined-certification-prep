@@ -15,10 +15,10 @@ D. Reconnaître Operations comme stakeholder critique, comprendre ses concerns, 
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Reconnaître Operations comme stakeholder critique, comprendre ses concerns, produire les vues nécessaires et intégrer les requirements opérationnels dans l’architecture. Operations doit contribuer aux requirements de reprise et au modèle d'exploitation.
-- **A — 3 points :** Consulter Operations et consigner ses principales contraintes d'exploitation pour la prochaine revue d'architecture, sans réviser immédiatement toutes les décisions. La consultation seule ne change pas les décisions de Target.
-- **B — 1 point :** Exiger au minimum un runbook et un test de bascule pour le pilote, puis formaliser ultérieurement les autres requirements d'exploitation. La note technique ne documente pas les responsabilités de run.
-- **C — 0 point :** Faire confirmer au sponsor l'acceptation du risque opérationnel, sans modifier les représentations ou responsabilités déjà approuvées. Reporter l'étude à la livraison fige le risque d'exploitation.
+- **D — 5 points :** Reconnaître Operations comme stakeholder critique, comprendre ses concerns, produire les vues nécessaires et intégrer les requirements opérationnels dans l’architecture. Identifier Operations comme stakeholder, capturer ses concerns et mettre à jour requirements et views relie l'architecture cible à son exploitation réelle.
+- **A — 3 points :** Consulter Operations et consigner ses principales contraintes d'exploitation pour la prochaine revue d'architecture, sans réviser immédiatement toutes les décisions. Consulter Operations identifie ses contraintes, mais reporter la modification de l'architecture laisse les décisions de Target déjà approuvées potentiellement invalides.
+- **B — 1 points :** Exiger au minimum un runbook et un test de bascule pour le pilote, puis formaliser ultérieurement les autres requirements d'exploitation. Le runbook et le test de bascule traitent le pilote, mais ne couvrent ni les responsabilités d'exploitation ni les autres requirements de reprise de la Target.
+- **C — 0 points :** Faire confirmer au sponsor l'acceptation du risque opérationnel, sans modifier les représentations ou responsabilités déjà approuvées. L'acceptation par le sponsor ne remplace pas l'analyse des concerns d'Operations ni la révision des vues et responsabilités impactées.
 
 **Mapping : Stakeholder Management — Concerns, Views, Requirements.**
 
@@ -33,17 +33,17 @@ La date avancée dépend d'un lancement commercial ; les exigences de sécurité
 
 Quelle approche est la plus appropriée ?
 A. Clarifier les concerns, contraintes et requirements, rendre visibles les impacts et arbitrages, puis utiliser la gouvernance appropriée pour obtenir une décision traçable.
-B. Appliquer provisoirement les contrôles de sécurité prioritaires du CISO et faire arbitrer les impacts métier restants.
+B. Appliquer provisoirement un contrôle standard proposé par le CISO sans analyser les impacts métiers ni organiser l'arbitrage du conflit.
 C. Documenter les exigences minimales non négociables du CISO et étudier les impacts calendaires avant l'arbitrage formel du sponsor.
 D. Réduire le périmètre du produit au pilote commercial et traiter les contrôles de sécurité durant une seconde release, sans décision d'exception.
-**Scoring : A=5, B=3, C=1, D=0.**
+**Scoring : A=5, B=1, C=3, D=0.**
 
 **Justification des quatre niveaux :**
 
-- **A — 5 points :** Clarifier les concerns, contraintes et requirements, rendre visibles les impacts et arbitrages, puis utiliser la gouvernance appropriée pour obtenir une décision traçable. Un arbitrage documenté concilie sponsor et CISO.
-- **B — 3 points :** Appliquer provisoirement les contrôles de sécurité prioritaires du CISO et faire arbitrer les impacts métier restants. Une mitigation partielle ne règle pas l'autorité d'acceptation.
-- **C — 1 point :** Documenter les exigences minimales non négociables du CISO et étudier les impacts calendaires avant l'arbitrage formel du sponsor. L'aval du sponsor ne remplace pas l'acceptation sécurité.
-- **D — 0 point :** Réduire le périmètre du produit au pilote commercial et traiter les contrôles de sécurité durant une seconde release, sans décision d'exception. Ignorer le CISO crée une dérogation implicite.
+- **A — 5 points :** Clarifier les concerns, contraintes et requirements, rendre visibles les impacts et arbitrages, puis utiliser la gouvernance appropriée pour obtenir une décision traçable. La gouvernance documente les arbitrages de scope, exigences métier et sécurité en impliquant les autorités appropriées ; elle rend la décision traçable.
+- **B — 1 points :** Appliquer provisoirement un contrôle standard proposé par le CISO sans analyser les impacts métiers ni organiser l'arbitrage du conflit. Appliquer un contrôle standard sans analyser les impacts ni traiter le conflit d'autorité réduit le problème à une action technique et diffère l'arbitrage.
+- **C — 3 points :** Documenter les exigences minimales non négociables du CISO et étudier les impacts calendaires avant l'arbitrage formel du sponsor. Documenter les contraintes CISO et les impacts avant arbitrage est pertinent, mais l'option ne résout pas encore l'autorité d'acceptation ni tous les concerns métier.
+- **D — 0 points :** Réduire le périmètre du produit au pilote commercial et traiter les contrôles de sécurité durant une seconde release, sans décision d'exception. Livrer sans décision d'exception sur les contrôles CISO crée une non-conformité implicite contraire à l'Architecture Governance.
 
 **Mapping : Stakeholder Management — Conflicting Concerns / Governance.**
 
@@ -65,10 +65,10 @@ D. Mettre à jour les rôles de décision et le registre des risques, puis repor
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Mettre à jour la stakeholder map, les concerns et les plans d’engagement, puis vérifier l’impact sur requirements et vues. La carte actualisée révèle les actors et concerns réellement touchés.
-- **C — 3 points :** Mettre à jour les stakeholders les plus influents et leurs préoccupations, sans refaire encore la cartographie complète des dépendances. Les acteurs puissants ne couvrent pas toutes les dépendances.
-- **D — 1 point :** Mettre à jour les rôles de décision et le registre des risques, puis reporter la révision des views et concerns après la validation de la Data Architecture. Une liste de sponsors omet les acteurs opérationnels.
-- **A — 0 point :** Conserver les anciennes validations tout en ajoutant les nouveaux responsables comme simples destinataires du rapport d'architecture. Une carte périmée fausse les consultations.
+- **B — 5 points :** Mettre à jour la stakeholder map, les concerns et les plans d’engagement, puis vérifier l’impact sur requirements et vues. Mettre à jour stakeholders, concerns, engagement et impacts sur views/requirements rétablit la traçabilité des parties concernées.
+- **C — 3 points :** Mettre à jour les stakeholders les plus influents et leurs préoccupations, sans refaire encore la cartographie complète des dépendances. Réexaminer les acteurs influents est utile, mais les acteurs moins visibles peuvent porter des contraintes et dépendances non évaluées.
+- **D — 1 points :** Mettre à jour les rôles de décision et le registre des risques, puis reporter la révision des views et concerns après la validation de la Data Architecture. Réviser les rôles et risques aide la gouvernance ; reporter les vues et concerns laisse provisoirement des représentations architecturales périmées.
+- **A — 0 points :** Conserver les anciennes validations tout en ajoutant les nouveaux responsables comme simples destinataires du rapport d'architecture. Les destinataires ajoutés ne participent pas aux décisions ni à l'analyse des concerns : les validations anciennes ne suffisent pas pour le nouveau périmètre.
 
 **Mapping : Stakeholder Management — Continuous Engagement.**
 
@@ -90,10 +90,10 @@ D. Conserver un modèle d'architecture partagé, mais préparer des explications
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Produire des views adaptées aux concerns des stakeholders, construites à partir d’une base architecturale cohérente. Les viewpoints doivent traduire les concerns de chaque public.
-- **D — 3 points :** Conserver un modèle d'architecture partagé, mais préparer des explications distinctes pour les principaux groupes de stakeholders. Une synthèse unique est trop vague pour les décisions spécialisées.
-- **A — 1 point :** Produire une synthèse métier et réserver le schéma exhaustif aux revues techniques, sans encore formaliser explicitement les viewpoints. Un diagramme technique n'éclaire pas les capacités métier.
-- **B — 0 point :** Ajouter des légendes et des annotations de risques au diagramme unique, puis demander aux différents acteurs de formuler leurs questions. La même vue exhaustive ne sert pas tous les décideurs.
+- **C — 5 points :** Produire des views adaptées aux concerns des stakeholders, construites à partir d’une base architecturale cohérente. Des views adaptées à chaque concern, issues d'une base cohérente, appliquent la distinction TOGAF entre stakeholder, concern, viewpoint et view.
+- **D — 3 points :** Conserver un modèle d'architecture partagé, mais préparer des explications distinctes pour les principaux groupes de stakeholders. Des explications différenciées facilitent la communication, mais un modèle unique sans vues distinctes reste moins exploitable pour les décisions.
+- **A — 1 points :** Produire une synthèse métier et réserver le schéma exhaustif aux revues techniques, sans encore formaliser explicitement les viewpoints. La synthèse métier répond partiellement à un public, mais les viewpoints ne sont pas définis pour assurer la couverture de tous les concerns.
+- **B — 0 points :** Ajouter des légendes et des annotations de risques au diagramme unique, puis demander aux différents acteurs de formuler leurs questions. Annoter un diagramme unique ne change pas le viewpoint : la même représentation demeure inadaptée à des préoccupations divergentes.
 
 **Mapping : Stakeholder Management — Viewpoints and Views.**
 
@@ -115,10 +115,10 @@ D. Maintenir le stakeholder satisfait avec une communication ciblée sur décisi
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Maintenir le stakeholder satisfait avec une communication ciblée sur décisions, risques et impacts, sans le surcharger. Une communication ciblée préserve la satisfaction d'un stakeholder influent.
-- **A — 3 points :** Prévoir une synthèse décisionnelle périodique pour cet acteur et garder les détails accessibles à la demande, sans cartographier tous ses concerns. Un rapport périodique manque l'analyse de ses concerns.
-- **B — 1 point :** Limiter ses interactions aux points d'arbitrage formels, avec un résumé en amont mais sans prévoir de suivi lors d'une évolution majeure. L'accès passif à un dossier ne suffit pas à le tenir informé.
-- **C — 0 point :** Maintenir la communication quotidienne sous forme de compte rendu condensé, puis réduire la fréquence après le prochain jalon. Le solliciter en permanence surcharge sa faible disponibilité.
+- **D — 5 points :** Maintenir le stakeholder satisfait avec une communication ciblée sur décisions, risques et impacts, sans le surcharger. Tenir cet acteur satisfait grâce à des messages ciblés sur décisions, risques et impacts applique la stratégie d'engagement adaptée à forte influence/faible intérêt.
+- **A — 3 points :** Prévoir une synthèse décisionnelle périodique pour cet acteur et garder les détails accessibles à la demande, sans cartographier tous ses concerns. La synthèse périodique limite les sollicitations et facilite les décisions ; l'absence de cartographie des concerns ne garantit pas qu'elle couvre les risques importants.
+- **B — 1 points :** Limiter ses interactions aux points d'arbitrage formels, avec un résumé en amont mais sans prévoir de suivi lors d'une évolution majeure. Limiter l'échange aux arbitrages sans suivi des changements majeurs risque de surprendre un acteur doté d'un fort pouvoir.
+- **C — 0 points :** Maintenir la communication quotidienne sous forme de compte rendu condensé, puis réduire la fréquence après le prochain jalon. Une communication quotidienne surcharge inutilement un stakeholder à faible intérêt et peut dégrader son engagement.
 
 **Mapping : Stakeholder Management — Influence / Interest.**
 
@@ -133,17 +133,17 @@ Le service concerne des paiements critiques et un objectif de bascule automatiqu
 
 Quelle action est la meilleure ?
 A. Transformer le concern en requirements vérifiables sur failover, automatisation, RTO/RPO, observabilité et tests, tout en gardant la traçabilité vers le stakeholder.
-B. Traduire l'inquiétude en une cible indicative de disponibilité puis confirmer ultérieurement ses seuils, ses conditions de mesure et son propriétaire.
+B. Inscrire seulement « haute disponibilité » comme cible indicative, sans fixer encore ni seuil, ni mesure, ni propriétaire.
 C. Enregistrer une exigence de disponibilité chiffrée et préparer un atelier de clarification ultérieur avec le métier et les SRE.
 D. Définir provisoirement le critère à partir des capacités du produit actuel, puis demander au sponsor une approbation sans tests de faisabilité.
-**Scoring : A=5, B=3, C=1, D=0.**
+**Scoring : A=5, B=1, C=3, D=0.**
 
 **Justification des quatre niveaux :**
 
-- **A — 5 points :** Transformer le concern en requirements vérifiables sur failover, automatisation, RTO/RPO, observabilité et tests, tout en gardant la traçabilité vers le stakeholder. Une requirement traçable traduit une préoccupation en critère vérifiable.
-- **B — 3 points :** Traduire l'inquiétude en une cible indicative de disponibilité puis confirmer ultérieurement ses seuils, ses conditions de mesure et son propriétaire. Un besoin formulé sans critères est difficile à tester.
-- **C — 1 point :** Enregistrer une exigence de disponibilité chiffrée et préparer un atelier de clarification ultérieur avec le métier et les SRE. Une note de réunion ne garantit pas la traçabilité.
-- **D — 0 point :** Définir provisoirement le critère à partir des capacités du produit actuel, puis demander au sponsor une approbation sans tests de faisabilité. Choisir directement un produit court-circuite le besoin.
+- **A — 5 points :** Transformer le concern en requirements vérifiables sur failover, automatisation, RTO/RPO, observabilité et tests, tout en gardant la traçabilité vers le stakeholder. RTO/RPO, reprise, observabilité, critères de test et traçabilité transforment le concern en requirements vérifiables et gouvernables.
+- **B — 1 points :** Inscrire seulement « haute disponibilité » comme cible indicative, sans fixer encore ni seuil, ni mesure, ni propriétaire. Une simple cible indicative sans seuil ni mesure ne permet pas de tester le résultat ni de relier le concern à une décision d'architecture.
+- **C — 3 points :** Enregistrer une exigence de disponibilité chiffrée et préparer un atelier de clarification ultérieur avec le métier et les SRE. Une disponibilité chiffrée et un atelier permettent de démarrer la spécification ; manquent encore RTO/RPO, conditions de mesure, ownership et traçabilité complète.
+- **D — 0 points :** Définir provisoirement le critère à partir des capacités du produit actuel, puis demander au sponsor une approbation sans tests de faisabilité. Déduire le critère des limites du produit existant plutôt que du concern et éviter la faisabilité produit une requirement non justifiée.
 
 **Mapping : Stakeholder Management — Concern → Requirement.**
 
@@ -165,10 +165,10 @@ D. Demander au Business Owner d'établir une liste d'impacts précis et prépare
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Le Board est un mécanisme de gouvernance, mais il faut revoir les concerns métier non satisfaits, vérifier requirements et vues, puis soumettre les ajustements à la gouvernance appropriée. Conformité Board et acceptation métier portent sur des responsabilités distinctes.
-- **C — 3 points :** Obtenir la validation de conformité du Board et organiser ensuite l'acceptation métier formelle, sans l'intégrer au même cycle de décision. Les validations séparées manquent de réconciliation des concerns.
-- **D — 1 point :** Demander au Business Owner d'établir une liste d'impacts précis et préparer leur présentation au Board lors de la prochaine revue. Le Board ne peut accepter à lui seul la valeur métier.
-- **A — 0 point :** Laisser le sponsor approuver provisoirement le parcours cible et traiter les concerns métier au comité de conformité de la Phase G. L'accord d'architecture n'efface pas les requirements métier.
+- **B — 5 points :** Le Board est un mécanisme de gouvernance, mais il faut revoir les concerns métier non satisfaits, vérifier requirements et vues, puis soumettre les ajustements à la gouvernance appropriée. Distinguer autorité du Board et acceptation métier, puis réviser views/requirements et soumettre les arbitrages traite les deux décisions.
+- **C — 3 points :** Obtenir la validation de conformité du Board et organiser ensuite l'acceptation métier formelle, sans l'intégrer au même cycle de décision. Faire suivre la conformité par l'acceptation métier est utile, mais des validations séquentielles sans réconciliation préalable peuvent entraîner de nouveaux écarts.
+- **D — 1 points :** Demander au Business Owner d'établir une liste d'impacts précis et préparer leur présentation au Board lors de la prochaine revue. La liste d'impacts du Business Owner informe le Board, mais ne remplace ni la mise à jour des requirements ni l'acceptation par les parties métier.
+- **A — 0 points :** Laisser le sponsor approuver provisoirement le parcours cible et traiter les concerns métier au comité de conformité de la Phase G. Le sponsor ne peut remplacer l'analyse des concerns métier par une approbation provisoire suivie d'une revue en Phase G ; l'acceptation métier reste ouverte.
 
 **Mapping : Stakeholder Management — Governance and Stakeholder Acceptance.**
 

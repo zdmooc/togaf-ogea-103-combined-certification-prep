@@ -22,10 +22,10 @@ A. Requirement — condition vérifiable propre au périmètre d'une solution  B
 A. Target Architecture — architecture future envisagée après les changements  B. Baseline Architecture — état actuel pertinent de l'entreprise  C. Transition Architecture — état intermédiaire cohérent avant la cible  D. Architecture Roadmap — trajectoire des lots et états successifs
 
 **Q6.** Le Repository possède des décisions de conformité, des requirements et des patterns réutilisables. Où chercher les exigences d'architecture gouvernées et leurs relations de traçabilité ?
-A. Dans le Standards Information Base, car toutes les exigences approuvées deviennent automatiquement des normes.  B. Dans le Solutions Landscape, qui remplace les exigences par les systèmes livrés.  C. Dans l'Architecture Requirements Repository, plutôt que dans le seul Governance Log ou la Reference Library.  D. Dans l'Architecture Metamodel, qui est un catalogue des instances de requirements.
+A. Dans le Standards Library, car toutes les exigences approuvées deviennent automatiquement des normes.  B. Dans le Solutions Landscape, qui remplace les exigences par les systèmes livrés.  C. Dans l'Architecture Requirements Repository, plutôt que dans le seul Governance Repository ou la Reference Library.  D. Dans l'Architecture Metamodel, qui est un catalogue des instances de requirements.
 
 **Q7.** Dans un opérateur de transport, le comité examine les acteurs, états et référentiels pour orienter la transformation. Le Continuum aide principalement à :
-A. Positionner et classifier les assets du générique vers le spécifique  B. Architecture Repository — stockage et organisation des éléments produits  C. Architecture Roadmap — trajectoire des architectures et work packages  D. Governance Log — décisions de conformité et exceptions d'architecture
+A. Positionner et classifier les assets du générique vers le spécifique  B. Architecture Repository — stockage et organisation des éléments produits  C. Architecture Roadmap — trajectoire des architectures et work packages  D. Governance Repository — décisions de conformité et exceptions d'architecture
 
 **Q8.** Le comité doit approuver un Architecture Definition Document contenant plusieurs matrices et diagrammes. Quelle définition de Deliverable convient ?
 A. Artifact — représentation individuelle de type catalogue ou diagramme  B. SBB — composant de solution réalisant une capacité définie  C. Viewpoint — convention de représentation d'une view  D. Un Deliverable est un produit de travail formel pouvant comprendre plusieurs artifacts.
@@ -70,7 +70,7 @@ A. L'ADM est linéaire et ne permet pas de revenir sur les domaines  B. L'ADM pe
 A. Gap Analysis — analyse des écarts entre Baseline et Target  B. Compliance Review — évaluer une implémentation vis-à-vis de la cible  C. Architecture Contract — contractualiser obligations et critères de conformité  D. Migration Planning — prioriser les lots sans comparer Baseline et Target
 
 **Q22.** Dans un opérateur de transport, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Quel élément décrit un état intermédiaire de l'architecture ?
-A. Implementation and Migration Plan — travaux, dépendances et échéances  B. Baseline Architecture — état actuel observé dans le périmètre  C. Transition Architecture — état intermédiaire cohérent vers la Target  D. Standards Information Base — standards techniques autorisés
+A. Implementation and Migration Plan — travaux, dépendances et échéances  B. Baseline Architecture — état actuel observé dans le périmètre  C. Transition Architecture — état intermédiaire cohérent vers la Target  D. Standards Library — standards techniques autorisés
 
 **Q23.** Deux systèmes échangent des messages corrects techniquement mais codent différemment le statut d'un virement. Quel domaine d'interopérabilité est le plus directement concerné ?
 A. Technical interoperability uniquement, puisque la connexion IP est établie.  B. Information interoperability, car la signification et les modèles des données échangées divergent.  C. Operational/Business interoperability uniquement, car aucune sémantique de donnée n'est impliquée.  D. Architecture Risk Management exclusivement, car une incompatibilité n'est pas un problème d'interopérabilité.
@@ -109,7 +109,7 @@ A. Project Steering Committee — pilotage coûts et délais uniquement  B. Requ
 A. Architecture Definition Document, qui remplace à lui seul tous les processus de gouvernance.  B. Implementation Governance Model, qui formalise l'organisation des contrôles pendant la mise en œuvre.  C. Architecture Vision, qui décrit chaque critère détaillé de conformité et les sanctions en cas d'exception.  D. Architecture Roadmap, qui tient lieu de circuit d'approbation des écarts.
 
 **Q35.** Dans un opérateur de transport, le Board doit différencier arbitrage, conformité et exceptions. Quel mécanisme vérifie l'alignement d'une mise en œuvre avec l'architecture approuvée ?
-A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Architecture Roadmap — preuve indirecte via le seul suivi du planning  C. Architecture Compliance Review — vérification des solutions livrées contre l'architecture approuvée  D. Standards Information Base — validation automatique des solutions utilisant un produit autorisé
+A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Architecture Roadmap — preuve indirecte via le seul suivi du planning  C. Architecture Compliance Review — vérification des solutions livrées contre l'architecture approuvée  D. Standards Library — validation automatique des solutions utilisant un produit autorisé
 
 **Q36.** Dans un opérateur de transport, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Un Catalog, une Matrix ou un Diagram sont des exemples de :
 A. Artifact — représentation telle que Catalog, Matrix ou Diagram  B. Deliverable — produit de travail formel agrégant des représentations  C. SBB — composant concret réalisant des fonctionnalités d'architecture  D. Architecture Contract — obligations de mise en œuvre entre parties

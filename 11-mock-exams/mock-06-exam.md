@@ -22,7 +22,7 @@ A. Requirement — une condition formelle mesurable que la cible doit respecter 
 A. Requirement — condition vérifiable propre au périmètre d'une solution  B. SBB — composant retenu pour réaliser une capacité architecturale  C. Architecture Principle — règle durable, justifiée et accompagnée d'implications pour les décisions  D. Viewpoint — convention choisie pour exposer les concerns
 
 **Q6.** Un référentiel contient standards, exigences, landscape et décisions d'exception. Quel composant sert principalement à enregistrer des décisions de gouvernance et dérogations ?
-A. Governance Log, au sein des éléments logiques de l'Architecture Repository.  B. Reference Library, qui remplace les décisions locales par des patterns externes.  C. Architecture Metamodel, contenant les instances historiques de chaque dérogation approuvée.  D. Solutions Landscape, où toute exception se transforme automatiquement en solution déployée.
+A. Governance Repository, au sein des éléments logiques de l'Architecture Repository.  B. Reference Library, qui remplace les décisions locales par des patterns externes.  C. Architecture Metamodel, contenant les instances historiques de chaque dérogation approuvée.  D. Solutions Landscape, où toute exception se transforme automatiquement en solution déployée.
 
 **Q7.** Dans une fédération bancaire, le comité examine les acteurs, états et référentiels pour orienter la transformation. Architecture Capability inclut notamment :
 A. Architecture Vision — direction approuvée d'un programme spécifique  B. Technology Standards — liste des plateformes et produits autorisés  C. Architecture Requirements Specification — exigences d'une seule cible  D. Rôles, compétences, gouvernance, processus, repository et pratiques

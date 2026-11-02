@@ -10,7 +10,7 @@ Part 1 : /40, réussite simulée ≥24. Part 2 : /40, gradient 5/3/1/0, réussit
 3. **D** — Le Continuum est un mécanisme de classification ; le Repository organise et conserve les ressources.
 4. **B** — Concern = préoccupation stakeholder.
 5. **C** — Principle guide durablement les décisions.
-6. **A** — Le Governance Log permet de tracer décisions de conformité et exceptions.
+6. **A** — Le Governance Repository permet de tracer décisions de conformité et exceptions.
 7. **D** — Architecture Capability = rôles, compétences, gouvernance, processus et moyens.
 8. **C** — Baseline → Target → Gap.
 9. **A** — Preliminary prépare la capacité et le cadre.
