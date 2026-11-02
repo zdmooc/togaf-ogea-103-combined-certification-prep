@@ -39,7 +39,7 @@ Deux systèmes reliés par API peuvent être intégrés mais non réellement int
 
 Le TOGAF Standard, 10th Edition (Introduction and Core Concepts, rubrique *Interoperability*) propose trois **catégories usuelles** d'interopérabilité :
 
-| Catégorie | Question d'architecture | Exemple BPCE |
+| Catégorie | Question d'architecture | Exemple MayaBank |
 |---|---|---|
 | **Operational or Business Interoperability** | Comment les entités travaillent-elles ensemble au niveau des processus et responsabilités ? | Une banque émettrice et un service de compensation coordonnent le traitement d'une exception. |
 | **Information Interoperability** | Comment les informations sont-elles partagées et comprises ? | Les deux parties interprètent correctement les données d'un message ISO 20022. |
@@ -84,7 +84,7 @@ Il ne suffit pas de déclarer qu'un système est « interopérable ». L'archite
 
 **Important :** ces degrés proviennent d'un exemple de classification cité dans des guides TOGAF antérieurs ; ce ne sont **pas quatre niveaux universels obligatoires** ni un learning outcome indépendant du syllabus X2202. Une entreprise doit spécifier et mesurer les degrés adaptés à son contexte.
 
-**Exemple BPCE :** échanger automatiquement un message ISO 20022 pain.001 ne prouve pas à lui seul l'interopérabilité métier. Il faut aligner les définitions et statuts, les rôles, les mécanismes de reprise et les contrôles de conformité. Documenter les couples émetteur/destinataire et les exigences par échange dans une matrice d'interopérabilité.
+**Exemple MayaBank :** échanger automatiquement un message ISO 20022 pain.001 ne prouve pas à lui seul l'interopérabilité métier. Il faut aligner les définitions et statuts, les rôles, les mécanismes de reprise et les contrôles de conformité. Documenter les couples émetteur/destinataire et les exigences par échange dans une matrice d'interopérabilité.
 
 ## 5. Position dans l’ADM
 
