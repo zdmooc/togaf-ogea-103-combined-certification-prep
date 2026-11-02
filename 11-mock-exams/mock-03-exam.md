@@ -22,13 +22,13 @@ A. Target Architecture — architecture future envisagée après les changements
 A. Requirement — condition vérifiable propre au périmètre d'une solution  B. SBB — composant retenu pour réaliser une capacité architecturale  C. Viewpoint — convention choisie pour exposer les concerns  D. Une règle directrice durable guidant les décisions
 
 **Q6.** Les modèles de Target Architecture utilisent différents éléments et relations entre processus, services et composants. Quelle ressource définit ces types et liens de manière cohérente ?
-A. L'Enterprise Metamodel, qui encadre les entités d'architecture et leurs relations.  B. L'Architecture Roadmap, décrivant uniquement l'ordre des lots de migration.  C. Le Governance Log, qui modélise automatiquement tous les types d'artefacts.  D. L'Architecture Contract, qui définit les classes du métamodèle via les obligations des acteurs.
+A. L'Enterprise Metamodel, qui encadre les entités d'architecture et leurs relations.  B. L'Architecture Roadmap, décrivant uniquement l'ordre des lots de migration.  C. Le Governance Repository, qui modélise automatiquement tous les types d'artefacts.  D. L'Architecture Contract, qui définit les classes du métamodèle via les obligations des acteurs.
 
 **Q7.** Dans une plateforme de paiements instantanés, le comité examine les acteurs, états et référentiels pour orienter la transformation. Quel élément appartient typiquement à l'Architecture Repository ?
 A. Le Continuum stocke les artifacts, tandis que le Repository les classe seulement  B. Standards, reference architectures, decisions et assets  C. Le Repository n'héberge que des solutions déployées et jamais les requirements  D. Repository et Continuum sont deux noms d'un unique stockage de solutions
 
 **Q8.** Une plateforme de virements doit conserver l'ancien système pendant six mois, puis faire converger ses services vers la cible. Quelle représentation décrit cet état intermédiaire cohérent ?
-A. Implementation and Migration Plan — travaux, dépendances et échéances  B. Baseline Architecture — état actuel observé dans le périmètre  C. Transition Architecture — état architectural intermédiaire cohérent avant la Target  D. Standards Information Base — standards techniques autorisés
+A. Implementation and Migration Plan — travaux, dépendances et échéances  B. Baseline Architecture — état actuel observé dans le périmètre  C. Transition Architecture — état architectural intermédiaire cohérent avant la Target  D. Standards Library — standards techniques autorisés
 
 **Q9.** Dans une plateforme de paiements instantanés, l'équipe doit choisir les responsabilités et résultats des phases ADM selon le travail déjà effectué. Définir ou ajuster le modèle de gouvernance de l'architecture relève surtout de :
 A. Phase A — établir Vision, scope et Statement of Architecture Work  B. Phase E — définir options, work packages et transitions candidates  C. Preliminary — mise en place de l'Architecture Capability  D. Phase G — contrôler la mise en œuvre et ses dérogations
@@ -109,7 +109,7 @@ A. Architecture Board — autorité de gouvernance et d'arbitrage  B. Project St
 A. Validation d'un seul Technology Standard comme preuve suffisante.  B. Nouvelle Architecture Vision produite automatiquement à la place d'une analyse d'implémentation.  C. Registre de projet recensant le budget sans vérification des exigences techniques.  D. Compliance Review fondée sur les exigences, décisions et preuves de mise en œuvre.
 
 **Q35.** Le fournisseur a déployé les composants prévus, mais les tests de résilience ne prouvent pas le respect des requirements approuvées. Quelle revue faut-il conduire ?
-A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Architecture Roadmap — preuve indirecte via le seul suivi du planning  C. Architecture Compliance Review — évalue la conformité aux exigences et décisions d'architecture approuvées  D. Standards Information Base — validation automatique des solutions utilisant un produit autorisé
+A. Gap Analysis — comparaison Baseline et Target non implémentées  B. Architecture Roadmap — preuve indirecte via le seul suivi du planning  C. Architecture Compliance Review — évalue la conformité aux exigences et décisions d'architecture approuvées  D. Standards Library — validation automatique des solutions utilisant un produit autorisé
 
 **Q36.** Dans une plateforme de paiements instantanés, le dossier d'architecture doit distinguer représentations, livrables et building blocks. Lequel décrit un Deliverable ?
 A. Artifact — représentation individuelle de type catalogue ou diagramme  B. Un produit de travail formel assemblant éventuellement plusieurs artifacts  C. SBB — composant de solution réalisant une capacité définie  D. Viewpoint — convention de représentation d'une view
