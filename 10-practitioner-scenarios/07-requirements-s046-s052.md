@@ -8,14 +8,14 @@ Le service doit être déployé sur deux sites et supporte les paiements urgents
 
 Quelle action est la meilleure ?
 A. Sélectionner le design haute disponibilité recommandé par l'intégrateur, puis déduire la requirement du niveau de service qu'il garantit.
-B. Décomposer et clarifier la requirement en critères vérifiables — disponibilité, RTO/RPO, modes de défaillance, failover, tests — tout en conservant la traçabilité vers le concern initial.
+B. Décomposer la requirement en critères vérifiables (disponibilité, RTO/RPO, failover, tests) en conservant la traçabilité vers le concern initial.
 C. Définir un premier seuil quantifié de disponibilité puis compléter les conditions de mesure et la validation par Operations.
 D. Déduire des seuils de reprise provisoires du seul SLA du fournisseur, puis les appliquer sans valider leur adéquation avec les besoins des SRE et du Business Owner.
 **Scoring : A=0, B=5, C=3, D=1.**
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Décomposer et clarifier la requirement en critères vérifiables — disponibilité, RTO/RPO, modes de défaillance, failover, tests — tout en conservant la traçabilité vers le concern initial. Disponibilité, RTO/RPO, modes de panne et critères de test clarifiés rendent l'exigence vérifiable.
+- **B — 5 points :** Décomposer la requirement en critères vérifiables (disponibilité, RTO/RPO, failover, tests) en conservant la traçabilité vers le concern initial. Disponibilité, RTO/RPO, modes de panne et critères de test clarifiés rendent l'exigence vérifiable.
 - **C — 3 points :** Définir un premier seuil quantifié de disponibilité puis compléter les conditions de mesure et la validation par Operations. Un premier seuil quantifié est utile, mais mesures et validation Operations restent à formaliser.
 - **D — 1 points :** Déduire des seuils de reprise provisoires du seul SLA du fournisseur, puis les appliquer sans valider leur adéquation avec les besoins des SRE et du Business Owner. Un SLA fournisseur ne définit pas les exigences réelles de continuité, notamment les scénarios métier.
 - **A — 0 points :** Sélectionner le design haute disponibilité recommandé par l'intégrateur, puis déduire la requirement du niveau de service qu'il garantit. Un design choisi avant clarification du concern produit une exigence dictée par la solution.
@@ -82,7 +82,7 @@ Pendant Migration Planning, un régulateur impose un nouveau contrôle sur les d
 Cette contrainte modifie le cycle de vie d'informations de paiement et les dépendances entre deux releases. Le plan de migration est presque approuvé ; les équipes Data veulent recalculer les volumes et les délais de reprise. Finance demande le chiffrage des impacts tandis que le sponsor souhaite préserver au maximum la valeur prévue. L'architecte doit intégrer la nouvelle requirement sans masquer les conséquences de la modification.
 
 Quelle action est la meilleure ?
-A. Enregistrer et analyser la nouvelle requirement, itérer sur les architectures impactées si nécessaire, puis mettre à jour gaps, work packages et Migration Plan.
+A. Enregistrer et analyser la nouvelle requirement, itérer sur les architectures impactées, puis mettre à jour gaps et Migration Plan.
 B. Ouvrir une évaluation d'impact de la nouvelle requirement sur le planning de migration avant de décider des ajustements du plan approuvé.
 C. Évaluer prioritairement le gap Data et ses conséquences sur le lot immédiat, puis inscrire les impacts des autres work packages à une revue suivante.
 D. Conserver le plan approuvé et demander à l'équipe technique de satisfaire la règle réglementaire par configuration locale, sans revoir les dépendances.
@@ -90,7 +90,7 @@ D. Conserver le plan approuvé et demander à l'équipe technique de satisfaire 
 
 **Justification des quatre niveaux :**
 
-- **A — 5 points :** Enregistrer et analyser la nouvelle requirement, itérer sur les architectures impactées si nécessaire, puis mettre à jour gaps, work packages et Migration Plan. Le changement réglementaire se propage aux domaines, gaps et lots avant de réviser le plan de migration.
+- **A — 5 points :** Enregistrer et analyser la nouvelle requirement, itérer sur les architectures impactées, puis mettre à jour gaps et Migration Plan. Le changement réglementaire se propage aux domaines, gaps et lots avant de réviser le plan de migration.
 - **B — 3 points :** Ouvrir une évaluation d'impact de la nouvelle requirement sur le planning de migration avant de décider des ajustements du plan approuvé. La première analyse de planning est utile, mais ne couvre pas encore les modèles et exigences de tous les domaines.
 - **C — 1 points :** Évaluer prioritairement le gap Data et ses conséquences sur le lot immédiat, puis inscrire les impacts des autres work packages à une revue suivante. Se concentrer sur Data et le lot immédiat reporte les autres dépendances potentiellement bloquantes.
 - **D — 0 points :** Conserver le plan approuvé et demander à l'équipe technique de satisfaire la règle réglementaire par configuration locale, sans revoir les dépendances. Une correction de configuration locale ne garantit ni conformité ni cohérence du plan approuvé.
@@ -134,13 +134,13 @@ La plateforme manipule des certificats, jetons et secrets qui transitent entre t
 Quelle distinction est la meilleure ?
 A. Rédiger une requirement mesurable pour le renouvellement des secrets tout en réservant la formalisation des implications du principe à la revue suivante.
 B. Créer un nouveau principe d'architecture reprenant mot pour mot le choix du service de secrets et le traiter comme standard permanent de l'entreprise.
-C. Le principe guide durablement les décisions ; la règle précise de gestion des secrets est une requirement/standard applicable au contexte et doit être tracée comme telle.
+C. Le principe guide durablement les décisions ; la règle précise sur les secrets est une requirement ou un standard, à tracer comme tel.
 D. Conserver le principe comme règle de décision et rédiger une exigence mesurable dérivée, sans encore expliciter toutes les implications.
 **Scoring : A=1, B=0, C=5, D=3.**
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Le principe guide durablement les décisions ; la règle précise de gestion des secrets est une requirement/standard applicable au contexte et doit être tracée comme telle. Le principe oriente les décisions durables, tandis qu'une requirement ou un standard défini pour le contexte doit être vérifiable et tracé.
+- **C — 5 points :** Le principe guide durablement les décisions ; la règle précise sur les secrets est une requirement ou un standard, à tracer comme tel. Le principe oriente les décisions durables, tandis qu'une requirement ou un standard défini pour le contexte doit être vérifiable et tracé.
 - **D — 3 points :** Conserver le principe comme règle de décision et rédiger une exigence mesurable dérivée, sans encore expliciter toutes les implications. Conserver le principe et en dériver une exigence mesurable respecte les niveaux d'abstraction, mais les implications du principe restent à formaliser.
 - **A — 1 points :** Rédiger une requirement mesurable pour le renouvellement des secrets tout en réservant la formalisation des implications du principe à la revue suivante. Une requirement mesurable sur les secrets est utile, mais reporter les implications du principe sans expliciter sa portée fragilise la traçabilité de la décision.
 - **B — 0 points :** Créer un nouveau principe d'architecture reprenant mot pour mot le choix du service de secrets et le traiter comme standard permanent de l'entreprise. Transformer le choix d'un produit de secrets en principe d'entreprise permanent confond un standard contingent avec une règle directrice stable.

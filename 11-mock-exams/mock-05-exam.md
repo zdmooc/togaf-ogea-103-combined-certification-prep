@@ -138,11 +138,11 @@ Une banque utilise le même Architecture Board pour de simples changements d'API
 
 A. Réduire le nombre de documents d'architecture exigés pour les produits agiles, sans encore réviser le circuit de validation.
 
-B. Tailorer le processus selon risque, scope et maturité tout en conservant contrôles essentiels, en distinguant changements locaux et structurants et en définissant des contrôles adaptés au risque.
+B. Tailorer le processus selon risque, scope et maturité, en conservant les contrôles essentiels.
 
 C. Établir une voie rapide de revue pour les changements à faible impact et préciser progressivement les conditions d'escalade.
 
-D. Maintenir le Board central pour toutes les décisions et instaurer seulement un délai de réponse maximal aux demandes.
+D. Maintenir le Board central pour toutes les décisions et instaurer seulement un délai de réponse maximal aux demandes des équipes produit.
 
 ## P2 — Stakeholder Management
 
@@ -158,7 +158,7 @@ B. Documenter les limites des sources et ajuster les tests de recette, sans ren�
 
 C. Conserver la Target et transférer la responsabilité de qualité aux équipes d'exploitation après le déploiement.
 
-D. Réengager Data comme stakeholder, clarifier concerns/requirements et analyser les impacts sur architecture et roadmap, en remettant les concerns Data au centre et en révisant les vues, exigences, gaps et options de migration.
+D. Réengager Data comme stakeholder, clarifier ses concerns et requirements, puis réviser vues, gaps et options de migration de l'architecture et de la roadmap.
 
 ## P3 — Phase A
 
@@ -168,7 +168,7 @@ Une réglementation impose un contrôle des transferts interbancaires avant la f
 
 **Quelle réponse est la plus adaptée au problème actuel ?**
 
-A. Cadrer formellement scope, approche, responsabilités, risques et engagement en Phase A, en définissant les livrables, ressources, risques, rôles, périmètre et conditions d'approbation.
+A. Cadrer formellement en Phase A le scope, l'approche, les rôles, les risques, les livrables et les conditions d'approbation.
 
 B. Formaliser un mandat provisoire pour les éléments indispensables au contrôle réglementaire, puis faire valider le reste du scope.
 
@@ -188,7 +188,7 @@ A. Ajouter un adaptateur autour de l'application existante pour couvrir rapideme
 
 B. Conserver l'architecture applicative approuvée et demander au métier d'adapter les processus au produit disponible.
 
-C. Itérer entre Business et Application Architecture pour réaligner cible et requirements avant Phase E, en réconciliant capabilities, services, données et plateformes et en documentant les gaps.
+C. Itérer entre Business et Application Architecture pour réaligner la cible et les requirements, en documentant les gaps avant Phase E.
 
 D. Réviser les services exposés à partir des parcours métier critiques, puis compléter l'analyse des composants moins impactés.
 
@@ -200,7 +200,7 @@ Une équipe produit implémente un service d'autorisation en production, mais so
 
 **Quelle réponse est la plus adaptée au problème actuel ?**
 
-A. Utiliser les mécanismes de Phase G pour Compliance Review, analyse de l'écart et décision gouvernée, en réalisant une Compliance Assessment, en évaluant le risque et en faisant décider l'exception ou la correction.
+A. Appliquer la Phase G : Compliance Assessment de l'écart, évaluation du risque, puis décision gouvernée.
 
 B. Documenter le problème et appliquer des mesures compensatoires provisoires, puis soumettre l'exception au Board avant la release.
 
@@ -218,7 +218,7 @@ Une technologie de chiffrement utilisée par la plateforme cible ne recevra plus
 
 A. Attendre l'arrêt effectif du support et demander ensuite une dérogation générale pour conserver la Target.
 
-B. Évaluer l'impact sur architecture, roadmap, risks et décider de l'ampleur du nouveau travail, avec analyse d'impact, classification Phase H et conséquences sur les transitions et standards.
+B. Analyser l'impact sur l'architecture, la roadmap, les transitions et les standards, classer le changement en Phase H, puis décider de l'ampleur du travail.
 
 C. Préparer une migration pilote du composant concerné en supposant que les interfaces existantes resteront compatibles.
 
@@ -234,9 +234,9 @@ Une application analytique souhaite réutiliser les événements de paiement, al
 
 A. Définir un modèle de données pseudonymisé comme candidat et en mesurer les conséquences métier, puis formaliser les critères de conformité.
 
-B. Demander à la plateforme d'analytics de décider automatiquement de la minimisation nécessaire selon les capacités du fournisseur.
+B. Demander à la plateforme d'analytics de décider automatiquement de la minimisation nécessaire selon les capacités techniques du fournisseur retenu.
 
-C. Identifier le conflit, engager les stakeholders, analyser options et maintenir la trace de la décision, en distinguant le besoin de valeur analytique des méthodes possibles pour préserver la confidentialité.
+C. Expliciter le conflit avec les stakeholders, analyser les options préservant la confidentialité et tracer la décision retenue.
 
 D. Réduire la portée du besoin analytique aux données non sensibles, sans avoir évalué les résultats métier attendus.
 
@@ -254,7 +254,7 @@ B. Établir une matrice provisoire des gaps liés à l'identité et proposer un 
 
 C. Financer d'abord la capability dont le business case est le plus favorable et demander aux autres équipes de s'y raccorder.
 
-D. Capability-Based Planning peut aider à regrouper et prioriser le changement autour des capacités nécessaires, en consolidant gaps, solutions potentielles et dépendances pour construire les work packages.
+D. Utiliser Capability-Based Planning pour regrouper gaps, solutions et dépendances autour des capacités, puis construire les work packages.
 ---
 
 Fin de l'examen blanc.

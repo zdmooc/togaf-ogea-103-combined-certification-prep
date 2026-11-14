@@ -138,11 +138,11 @@ Les filiales exercent des métiers proches mais sont soumises à des règles de 
 
 A. Définir une charte de gouvernance commune et un registre des exceptions, puis préciser les variations locales après une revue des obligations réglementaires.
 
-B. Introduire une liste de standards techniques communes et vérifier leur usage lors des prochains projets, sans clarifier les responsabilités de décision.
+B. Introduire une liste de standards techniques communes et vérifier leur usage lors des prochains projets, sans clarifier les responsabilités de décision entre groupe et filiales.
 
 C. Autoriser chaque filiale à choisir ses pratiques puis préparer une étude de cohérence groupe une fois la migration terminée.
 
-D. Tailorer et fédérer la gouvernance tout en maintenant principes et contrôles communs nécessaires, avec un noyau de principes obligatoires et une délégation de décisions selon les risques.
+D. Tailorer et fédérer la gouvernance : un noyau de principes et contrôles communs obligatoires, et une délégation des décisions selon les risques.
 
 ## P2 — Stakeholder Management
 
@@ -154,7 +154,7 @@ La banque prépare l'automatisation d'un parcours crédit qui coûte actuellemen
 
 A. Présenter une Architecture Roadmap technique pour donner une visibilité sur les phases de déploiement sans quantifier tous les bénéfices.
 
-B. Produire les vues adaptées aux concerns, expliciter valeur/coût/risque et organiser l'arbitrage, incluant un modèle de valeur, les alternatives et les conséquences opérationnelles pour chaque stakeholder.
+B. Produire les vues adaptées aux concerns, expliciter valeur, coût et risque de chaque alternative pour chaque stakeholder, puis organiser un arbitrage formel.
 
 C. Produire une première comparaison des coûts et bénéfices par option, puis compléter les views de conformité et d'exploitation avant le comité suivant.
 
@@ -174,7 +174,7 @@ B. Établir une liste de work packages par direction avant d'avoir distingué le
 
 C. Obtenir l'accord des DSI locales sur les applications concernées, puis élaborer une Vision commune sans encore définir les outcomes.
 
-D. Clarifier scope, stakeholders, responsabilités et Vision avant l'architecture détaillée, en documentant scope, domaines, profondeur de travail, horizon et responsabilités de validation.
+D. Clarifier scope, stakeholders, responsabilités de validation et Vision avant l'architecture détaillée.
 
 ## P4 — B/C/D
 
@@ -184,13 +184,13 @@ La direction Business a validé le parcours cible de gestion des réclamations, 
 
 **Quelle décision recommander ?**
 
-A. Développer Application Architecture puis Technology Architecture en maintenant la traçabilité aux besoins métier/data, en dérivant les contrats de services, building blocks et contraintes de plateforme de la cible métier et data.
+A. Développer Application puis Technology Architecture en dérivant services, building blocks et contraintes de plateforme de la cible métier et data.
 
 B. Identifier les services applicatifs clés et les flux de données nécessaires, puis vérifier la cible technologique et les alternatives dans une seconde revue.
 
 C. Examiner en premier la plateforme approuvée du groupe et construire un prototype, sans comparer encore les impacts sur les capacités métier.
 
-D. Lancer la migration de l'application existante vers le cloud puis adapter les services métier lorsque la plateforme sera stabilisée.
+D. Lancer la migration de l'application existante vers le cloud puis adapter les services métier lorsque la plateforme sera stabilisée et que ses coûts d'exploitation seront connus.
 
 ## P5 — E/F/G
 
@@ -204,7 +204,7 @@ A. Programmer un lot IAM limité et démarrer en parallèle une validation fonct
 
 B. Favoriser l'initiative de plus forte valeur mais lui associer une condition formelle de disponibilité IAM avant le go-live.
 
-C. Analyser valeur, risque, dépendances et Transition Architectures en Phase F avant de séquencer, en modélisant la dépendance critique, les options de transition et les risques résiduels dans le plan.
+C. En Phase F, analyser valeur, risques résiduels, dépendance critique et Transition Architectures possibles avant de séquencer le plan.
 
 D. Accepter la priorité du sponsor et transférer les risques d'intégration au prestataire de delivery sans modifier la roadmap.
 
@@ -216,7 +216,7 @@ La fonctionnalité demandée consiste à ajouter un filtre local dans une applic
 
 **Quelle décision recommander ?**
 
-A. Évaluer l'impact et appliquer un changement proportionné si l'architecture reste valide, avec évaluation d'impact et preuve de conformité au niveau approprié.
+A. Évaluer l'impact et, si l'architecture reste valide, appliquer un changement proportionné avec preuve de conformité adaptée.
 
 B. Vérifier les requirements et la vue impactée, puis autoriser un changement local en conservant une trace d'analyse.
 
@@ -234,7 +234,7 @@ Une requirement de disponibilité a été validée pour un moteur de paiement, m
 
 A. Organiser la validation du niveau de service avec un Business Owner désigné, puis réconcilier les modèles d'architecture après l'accord.
 
-B. Clarifier ownership, version de référence, traceability et impacts, avec identification du propriétaire, historique des versions, clarification du seuil et propagation vers les modèles.
+B. Clarifier le propriétaire, la version de référence et le seuil attendu, puis propager la décision vers les modèles en conservant la traceability et l'historique.
 
 C. Demander aux équipes de delivery de sélectionner la solution la plus résiliente et d'obtenir ensuite la signature métier.
 
@@ -252,7 +252,7 @@ A. Réaliser d'abord une évaluation des compétences et responsabilités locale
 
 B. Rédiger des procédures d'exploitation standard pour les équipes actuelles, sans résoudre leur capacité de support 24/7.
 
-C. Utiliser Transformation Readiness et Stakeholder Management pour traiter les barrières et actions d'adoption, avec facteurs de readiness, plan d'adoption, priorisation des prérequis et budget associé.
+C. Combiner Transformation Readiness et Stakeholder Management pour traiter les barrières, avec plan d'adoption et prérequis priorisés.
 
 D. Conserver le plan de migration initial et ajouter une clause de formation générale au contrat de livraison.
 ---

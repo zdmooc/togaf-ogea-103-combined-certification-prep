@@ -10,12 +10,12 @@ Quelle action est la meilleure ?
 A. Consulter Operations et consigner ses principales contraintes d'exploitation pour la prochaine revue d'architecture, sans réviser immédiatement toutes les décisions.
 B. Exiger au minimum un runbook et un test de bascule pour le pilote, puis formaliser ultérieurement les autres requirements d'exploitation.
 C. Faire confirmer au sponsor l'acceptation du risque opérationnel, sans modifier les représentations ou responsabilités déjà approuvées.
-D. Reconnaître Operations comme stakeholder critique, comprendre ses concerns, produire les vues nécessaires et intégrer les requirements opérationnels dans l’architecture.
+D. Reconnaître Operations comme stakeholder critique, comprendre ses concerns et intégrer ses requirements opérationnels dans les vues et l’architecture.
 **Scoring : A=3, B=1, C=0, D=5.**
 
 **Justification des quatre niveaux :**
 
-- **D — 5 points :** Reconnaître Operations comme stakeholder critique, comprendre ses concerns, produire les vues nécessaires et intégrer les requirements opérationnels dans l’architecture. Identifier Operations comme stakeholder, capturer ses concerns et mettre à jour requirements et views relie l'architecture cible à son exploitation réelle.
+- **D — 5 points :** Reconnaître Operations comme stakeholder critique, comprendre ses concerns et intégrer ses requirements opérationnels dans les vues et l’architecture. Identifier Operations comme stakeholder, capturer ses concerns et mettre à jour requirements et views relie l'architecture cible à son exploitation réelle.
 - **A — 3 points :** Consulter Operations et consigner ses principales contraintes d'exploitation pour la prochaine revue d'architecture, sans réviser immédiatement toutes les décisions. Consulter Operations identifie ses contraintes, mais reporter la modification de l'architecture laisse les décisions de Target déjà approuvées potentiellement invalides.
 - **B — 1 points :** Exiger au minimum un runbook et un test de bascule pour le pilote, puis formaliser ultérieurement les autres requirements d'exploitation. Le runbook et le test de bascule traitent le pilote, mais ne couvrent ni les responsabilités d'exploitation ni les autres requirements de reprise de la Target.
 - **C — 0 points :** Faire confirmer au sponsor l'acceptation du risque opérationnel, sans modifier les représentations ou responsabilités déjà approuvées. L'acceptation par le sponsor ne remplace pas l'analyse des concerns d'Operations ni la révision des vues et responsabilités impactées.

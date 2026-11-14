@@ -9,7 +9,7 @@ Une banque a obtenu l'approbation d'une Target Architecture pour ses virements i
 **Quelle action doit être recommandée en premier ?**
 
 A. Classer les deux filiales comme Non-conformant et ordonner le gel du programme ; toute différence avec la Target suffit pour invalider une implémentation.
-B. Évaluer les implémentations contre les features de la spécification, distinguer les niveaux de conformité appropriés, établir les preuves et faire arbitrer les exceptions sous un cadre de gouvernance clarifié.
+B. Évaluer les implémentations au regard de la spécification, qualifier leur niveau de conformité avec preuves, puis faire arbitrer les exceptions par la gouvernance.
 C. Faire accepter par le sponsor les écarts déjà identifiés, puis mettre à jour les diagrammes pour qu'ils décrivent les solutions en production.
 D. Engager une revue d'architecture limitée aux exigences d'audit à risque élevé et autoriser provisoirement la filiale B sous réserve d'une analyse ultérieure de l'interface ajoutée.
 
@@ -55,7 +55,7 @@ Le programme de modernisation d'une banque prévoit la migration de l'orchestrat
 A. Faire évaluer une bascule révolutionnaire avec un plan de retour arrière et une étape pilote, mais sans réconcilier l'ensemble des dépendances entre les événements et la fraude.
 B. Définir le modèle d'Architecture Contract de Phase G pour régler ensuite la question des dépendances entre les projets.
 C. Ajouter une nouvelle technologie d'événementiel dans la Target sans rouvrir les work packages, car le défaut est surtout technique.
-D. Consolider gaps, solutions et dépendances, comparer les stratégies de migration et les Transition Architectures, puis faire arbitrer en Phase F le séquencement selon valeur, readiness et risque avant de gouverner l'exécution en G.
+D. Consolider gaps, solutions et dépendances, comparer stratégies de migration et Transition Architectures, puis faire arbitrer le séquencement en Phase F.
 
 ## A06 — Phase H : quelle forme de changement ?
 
@@ -85,7 +85,7 @@ Une banque lance une architecture de données partagées. Son Architecture Repos
 
 **Quelle action est préférable ?**
 
-A. Réutiliser le pattern comme candidat après analyse de son applicabilité, compléter ownership, scénarios métier, readiness et risques, puis proposer une trajectoire avec work packages préparatoires si nécessaires.
+A. Réutiliser le pattern comme candidat après analyse d'applicabilité, compléter ownership, readiness et risques, puis proposer une trajectoire adaptée.
 B. Appliquer directement le pattern approuvé : la réutilisation et le financement démontrent suffisamment la faisabilité.
 C. Développer un nouveau pattern interne après un benchmark technologique détaillé, puis traiter la responsabilité des données pendant le déploiement.
 D. Lancer un atelier limité d'Information Mapping et d'Organization Mapping pour clarifier les flux et rôles, et remettre à plus tard l'évaluation des capacités d'exploitation.

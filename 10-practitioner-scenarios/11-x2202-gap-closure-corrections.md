@@ -94,7 +94,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 
 **Barème pédagogique :** A=1, B=3, C=5, D=0.
 
-- **C, 5 points :** Définir concepts, propriétés et relations dans un Enterprise Metamodel cohérent avec le Content Framework, puis l'utiliser pour structurer artifacts, deliverables et traçabilité. C clarifie le rôle du Metamodel et du Content Framework .
+- **C, 5 points :** Définir concepts, propriétés et relations dans un Enterprise Metamodel cohérent avec le Content Framework, pour structurer artifacts et traçabilité. C clarifie le rôle du Metamodel et du Content Framework .
 - **B, 3 points :** Définir des types d'éléments et quelques relations partagées dans un métamodèle minimal, mais reporter la gouvernance de ses extensions et de ses versions. Un vocabulaire avec relations est proposé, mais la cohérence durable des extensions et versions n'est pas gouvernée.
 - **A, 1 point :** Le Content Framework définit les relations de données en production, tandis que le Metamodel définit uniquement les méthodes de migration. Il confond Content Framework et schémas physiques de données.
 - **D, 0 points :** Remplacer toutes les matrices par des diagrams, qui garantissent automatiquement la conformité des relations. Les diagrammes ne garantissent pas la cohérence des modèles.
@@ -150,7 +150,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 
 **Barème :** A=1, B=5, C=3, D=0.
 
-- **B, 5 points :** Mesurer les incertitudes sur les capacités et dépendances, analyser scénarios/risques/bénéfices, prévoir des mesures et décisions jalonnées, puis ajuster la trajectoire selon des preuves. B combine risque, outcomes et gouvernance de l'incertitude. C apporte une mesure initiale et un pilote, mais reporte trop de vérifications structurantes.
+- **B, 5 points :** Mesurer les incertitudes sur capacités et dépendances, analyser scénarios, risques et bénéfices, puis ajuster la trajectoire par décisions jalonnées. B combine risque, outcomes et gouvernance de l'incertitude. C apporte une mesure initiale et un pilote, mais reporte trop de vérifications structurantes.
 - **C, 3 points :** Documenter les risques les plus élevés dans un registre et prévoir une première Transition Architecture, puis confirmer les bénéfices et les dépendances après un pilote contrôlé. Un pilote et un registre réduisent le risque, mais les bénéfices critiques restent à valider.
 - **A, 1 point :** Choisir le scénario de coût minimal, puis réexaminer les risques si les tests montrent un incident. Le coût nominal ne suffit pas à estimer une perte opérationnelle.
 - **D, 0 points :** Confier la décision au fournisseur ayant livré la solution et considérer son SLA comme preuve suffisante. Le SLA fournisseur ne couvre pas l'ensemble de la chaîne métier.
@@ -174,7 +174,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 
 **Barème :** A=5, B=1, C=3, D=0.
 
-- **A, 5 points :** Évaluer les threats, vulnerabilities, requirements, contrôles et risques résiduels dans B/C/D ; intégrer les contraintes aux vues Data/Application/Technology, aux gaps et à la gouvernance. A traite les risques de sécurité à chaque domaine ; C recueille des exigences clés mais reporte la réconciliation et la mitigation.
+- **A, 5 points :** Évaluer threats, vulnerabilities, contrôles et risques résiduels dans B/C/D, puis intégrer les contraintes aux vues, aux gaps et à la gouvernance. A traite les risques de sécurité à chaque domaine ; C recueille des exigences clés mais reporte la réconciliation et la mitigation.
 - **C, 3 points :** Identifier les obligations de confidentialité et la résilience critique, puis détailler les controls et mitigations des domaines touchés dans une revue transverse suivante. Identifier les obligations en amont est utile, mais les mitigations sont différées.
 - **B, 1 point :** Obtenir une validation sécurité uniquement après la Phase D pour ne pas ralentir l'analyse métier et des données. Une revue seulement en D découvre trop tard des besoins Data/Application.
 - **D, 0 points :** Se fier à la certification du fournisseur : les risques sont couverts par sa plateforme standard. La certification fournisseur ne garantit pas les risques end-to-end.
@@ -210,7 +210,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 
 **Barème :** A=0, B=1, C=3, D=5.
 
-- **D, 5 points :** Confirmer la Roadmap et l'Implementation and Migration Plan après analyse valeur/risque/dépendances, préciser Transition Architectures, engagements et informations à transmettre à Phase G. D confirme les sorties de F pour l'exécution ; C donne un séquencement initial mais ne garantit pas la readiness.
+- **D, 5 points :** Confirmer Roadmap et Implementation and Migration Plan après analyse valeur/risque/dépendances, et préciser les éléments à transmettre à Phase G. D confirme les sorties de F pour l'exécution ; C donne un séquencement initial mais ne garantit pas la readiness.
 - **C, 3 points :** Prioriser les dépendances techniques dans un tableau de jalons et soumettre le plan au sponsor, puis compléter la readiness et les risques résiduels après le pilote. Un tableau de dépendances aide, mais readiness et risques résiduels restent ouverts.
 - **B, 1 point :** Préparer directement les Compliance Reviews de Phase G pour découvrir les dépendances restantes durant le delivery. La Compliance Review ne confirme pas la faisabilité de la migration.
 - **A, 0 points :** Conserver la Roadmap provisoire de Phase E puisque les projets possèdent déjà un budget suffisant. Le financement ne remplace pas la consolidation de la Roadmap.
@@ -258,7 +258,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 
 **Barème pédagogique :** A=0, B=5, C=1, D=3.
 
-- **B — 5 points :** Utiliser l'Implementation Factor Catalog, consolider gaps/solutions/dépendances, analyser readiness et work packages, puis comparer les transitions et priorités de migration. B articule les techniques de planification et relie E/F à la réalisation ; D reconnaît les dépendances et des prérequis mais ne couvre pas tous les facteurs.
+- **B — 5 points :** Utiliser l'Implementation Factor Catalog, consolider gaps, solutions et dépendances, puis comparer transitions et priorités de migration. B articule les techniques de planification et relie E/F à la réalisation ; D reconnaît les dépendances et des prérequis mais ne couvre pas tous les facteurs.
 - **D, 3 points :** Répertorier les principales dépendances MQ et un lot de support pour la première wave, puis compléter l'évaluation des facteurs d'implémentation après le pilote. Les dépendances MQ sont identifiées, mais les autres facteurs d'implémentation restent ouverts.
 - **C, 1 point :** Établir d'abord un Architecture Contract avec le fournisseur pour l'ensemble de la migration, puis déterminer les gaps au moment de Phase G. Signer le contrat avant les gaps est prématuré.
 - **A, 0 points :** Produire uniquement un diagramme de la Target Technology Architecture ; les dépendances de migration seront déduites des composants. Un diagramme de cible ne constitue pas un Migration Plan.
@@ -269,7 +269,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 
 **Barème pédagogique :** A=5, B=1, C=3, D=0.
 
-- **A — 5 points :** Définir les ABB logiques à partir des capacités et exigences, clarifier leurs interfaces et relations, puis évaluer les SBB candidats qui peuvent les réaliser. A place les ABB au bon niveau d'abstraction ; C en définit un premier mais anticipe une sélection avant la traçabilité complète.
+- **A — 5 points :** Définir les ABB logiques à partir des capacités et exigences, clarifier leurs interfaces, puis évaluer les SBB candidats pour les réaliser. A place les ABB au bon niveau d'abstraction ; C en définit un premier mais anticipe une sélection avant la traçabilité complète.
 - **C, 3 points :** Inventorier les capacités et décrire un premier ABB de décision, puis sélectionner la solution et compléter la traçabilité inter-domaines à la revue suivante. Un ABB préliminaire aide, mais la traçabilité vers les SBB reste incomplète.
 - **B, 1 point :** Traiter le moteur déjà en place comme ABB officiel et obliger tous les projets à adopter son produit avant de vérifier les requirements. Le produit en place n'est pas une abstraction d'architecture.
 - **D, 0 points :** Éliminer les ABB car seules les applications livrées doivent figurer dans une architecture cible moderne. Sans ABB, les solutions ne sont pas comparables aux besoins logiques.
@@ -302,7 +302,7 @@ Le barème est un entraînement de jugement, jamais une reproduction des questio
 
 **Barème pédagogique :** A=0, B=1, C=5, D=3.
 
-- **C — 5 points :** Distinguer greenfield pour le service neuf, revolutionary pour la bascule radicale, evolutionary pour la migration progressive ; justifier chaque choix par valeur, dépendances, risque et readiness. C distingue les trois approches et leurs conditions ; D réalise la classification mais manque l'évaluation de viabilité.
+- **C — 5 points :** Distinguer greenfield (service neuf), revolutionary (bascule radicale) et evolutionary (migration progressive), en justifiant chaque choix par valeur, risque et readiness. C distingue les trois approches et leurs conditions ; D réalise la classification mais manque l'évaluation de viabilité.
 - **D, 3 points :** Classifier les trois transformations et comparer les coûts de migration et la durée de coexistence, puis différer l'analyse de readiness des équipes et des impacts opérationnels. Le coût et la coexistence sont comparés, mais pas la readiness opérationnelle.
 - **B, 1 point :** Évolutive pour les trois, car toute entreprise existante doit conserver indéfiniment des solutions en parallèle. Une approche évolutive n'est pas universellement adaptée.
 - **A, 0 points :** Révolutionnaire pour les trois, car elle minimise toujours les risques de dépendance. Une bascule radicale systématique n'est pas forcément moins risquée.
