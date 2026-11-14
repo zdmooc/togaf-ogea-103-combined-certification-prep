@@ -41,6 +41,12 @@ La répartition est proportionnelle au plan officiel OGEA-101 de 40 questions :
 
 La répartition des réponses a été corrigée (75 A, 75 B, 75 C, 75 D). Cent trente-trois distracteurs très faibles ont été remplacés (53 + 80) par des concepts TOGAF plus proches. Ce correctif ne suffit pas à établir une difficulté réaliste : une revue humaine demeure requise. Deux exercices ciblés supplémentaires `XF01–XF02` couvrent la définition d'une Enterprise et le modèle de rédaction des Architecture Principles. Les 24 exercices avancés et leurs corrections séparées figurent dans `09-advanced-drills.md`.
 
+## Série « formats de l'examen officiel » (14 novembre 2026)
+
+`12-official-format-drills.md` ajoute **30 QCM `O01–O30`** avec corrections séparées. La comparaison avec le test d'entraînement officiel de The Open Group (Part 1, octobre 2022) a montré que la banque sous-représentait certains formats : associations objectifs ↔ phases et livrables ↔ descriptions, lecture d'un tableau « résultat attendu / connaissances essentielles » par phase, réponses très courtes. La série couvre aussi des notions absentes ou rares dans la banque : structure du standard (Fundamental Content, Series Guides), hiérarchie de gouvernance, niveaux de risque, critères de qualité des principes, versions des livrables.
+
+Les questions sont originales et rédigées à partir du standard ; le test officiel n'est ni copié ni stocké dans ce dépôt. Les questions sur image (schéma du cycle ADM, par exemple) ne sont pas encore couvertes.
+
 ## Méthode d'utilisation
 
 1. Répondre sans regarder la correction.

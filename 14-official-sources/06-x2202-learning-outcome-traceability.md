@@ -11,14 +11,14 @@
 | L1.1.1 | Définition d'une entreprise | [Cours](../01-togaf-foundations/01-enterprise-architecture.md) | XF01 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L1.1.2 | Finalité de l'architecture d'entreprise | [Cours](../01-togaf-foundations/01-enterprise-architecture.md) | Q001, Q002 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.1.3 | Bénéfices de l'architecture | [Cours](../01-togaf-foundations/01-enterprise-architecture.md) | Q002, Q059 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L1.1.4 | TOGAF comme cadre d'EA | [Cours](../01-togaf-foundations/02-what-is-togaf.md) | Q003 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.1.4 | TOGAF comme cadre d'EA | [Cours](../01-togaf-foundations/02-what-is-togaf.md) | Q003, O13, O14 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.1.5 | Quatre domaines Business/Data/Application/Technology | [Cours](../01-togaf-foundations/04-four-architecture-domains.md) | Q005–Q008 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L1.1.6 | Niveaux d'abstraction | [Cours](../01-togaf-foundations/10-x2202-foundation-deepening.md) | F03 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L1.1.7 | Enterprise Continuum | [Cours](../01-togaf-foundations/07-enterprise-continuum.md) | Q021, Q023 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L1.1.8 | Architecture Repository | [Cours](../01-togaf-foundations/08-architecture-repository.md) | Q022, Q034–Q037 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.1.8 | Architecture Repository | [Cours](../01-togaf-foundations/08-architecture-repository.md) | Q022, Q034–Q037, O17 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.1.9 | Content Framework et Enterprise Metamodel | [Cours](../06-architecture-content/01-content-framework.md) | Q263, Q285 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.1.10 | Architecture Capability | [Cours](../01-togaf-foundations/09-architecture-capability.md) | Q024 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.1.11 | Risk Management : rôle | [Cours](../03-adm-techniques/06-risk-management.md) | Q187, Q188 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.1.11 | Risk Management : rôle | [Cours](../03-adm-techniques/06-risk-management.md) | Q187, Q188, O21 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.1.12 | Gap Analysis : rôle | [Cours](../03-adm-techniques/03-gap-analysis.md) | Q020, Q174 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 
 ## L1 U2 — Definitions (1 objectifs)
@@ -31,12 +31,12 @@
 
 | Objectif | Notion à démontrer | Cours candidat | Références d'exercices précises | Statut de revue |
 |---|---|---|---|---|
-| L1.3.1 | Panorama de l'ADM et phases | [Cours](../02-adm/00-adm-big-picture.md) | Q004, Q155, Q164 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L1.3.2 | Statut Draft et Approved des livrables | [Cours](../01-togaf-foundations/10-x2202-foundation-deepening.md) | F08 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
+| L1.3.1 | Panorama de l'ADM et phases | [Cours](../02-adm/00-adm-big-picture.md) | Q004, Q155, Q164, O01–O03 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
+| L1.3.2 | Statut Draft et Approved des livrables | [Cours](../01-togaf-foundations/10-x2202-foundation-deepening.md) | F08, O18, O19 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L1.3.3 | Itération ADM | [Cours](../02-adm/12-adm-iteration.md) | Q043, Q141 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.3.4 | Pourquoi gouverner la création et maintenance EA | [Cours](../05-architecture-governance/01-governance-fundamentals.md) | Q241, Q245 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.3.5 | Scoping : largeur, profondeur, domaines, horizon | [Cours](../01-togaf-foundations/10-x2202-foundation-deepening.md) | Q040, F09 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L1.3.6 | Alternatives architecturales et trade-offs | [Cours](../02-adm/02-phase-a-architecture-vision.md) | XP17 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.3.5 | Scoping : largeur, profondeur, domaines, horizon | [Cours](../01-togaf-foundations/10-x2202-foundation-deepening.md) | Q040, F09, O23 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
+| L1.3.6 | Alternatives architecturales et trade-offs | [Cours](../02-adm/02-phase-a-architecture-vision.md) | XP17, O22 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.3.7 | Preliminary : finalité | [Cours](../02-adm/01-preliminary-phase.md) | Q061, Q062 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L1.3.8 | Preliminary : objectifs | [Cours](../02-adm/01-preliminary-phase.md) | Q062–Q064 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L1.3.9 | Phase A : finalité | [Cours](../02-adm/02-phase-a-architecture-vision.md) | Q066, Q069 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
@@ -53,10 +53,10 @@
 | L1.3.20 | Phase G : objectifs | [Cours](../02-adm/09-phase-g-implementation-governance.md) | Q118–Q123 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L1.3.21 | Phase H : finalité | [Cours](../02-adm/10-phase-h-architecture-change-management.md) | Q125, Q126 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.3.22 | Phase H : objectifs | [Cours](../02-adm/10-phase-h-architecture-change-management.md) | Q127–Q130, F15 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L1.3.23 | Requirements Management : objectifs | [Cours](../02-adm/11-requirements-management.md) | Q131–Q136 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
+| L1.3.23 | Requirements Management : objectifs | [Cours](../02-adm/11-requirements-management.md) | Q131–Q136, O04 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L1.3.24 | Requirements Management : finalité | [Cours](../02-adm/11-requirements-management.md) | Q131, Q134 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
-| L1.3.25 | Flux d'information entre phases | [Cours](../02-adm/13-adm-complete-flow.md) | Q060, Q165 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.3.26 | ADM pour le delivery Agile | [Cours](../04-applying-the-adm/07-agile-and-togaf.md) | Q233–Q235 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.3.25 | Flux d'information entre phases | [Cours](../02-adm/13-adm-complete-flow.md) | Q060, Q165, O09–O12 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.3.26 | ADM pour le delivery Agile | [Cours](../04-applying-the-adm/07-agile-and-togaf.md) | Q233–Q235, O29 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 
 ## L1 U4 — Introduction to ADM Techniques (9 objectifs)
 
@@ -64,13 +64,13 @@
 |---|---|---|---|---|
 | L1.4.1 | Relations ADM et techniques | [Cours](../03-adm-techniques/09-technique-selection-guide.md) | Q201–Q210 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L1.4.2 | Finalité des Architecture Principles | [Cours](../01-togaf-foundations/06-architecture-principles.md) | Q015, Q258 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.4.3 | Structure Name/Statement/Rationale/Implications | [Cours](../01-togaf-foundations/06-architecture-principles.md) | XF02 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.4.4 | Qualités de principes robustes | [Cours](../01-togaf-foundations/10-x2202-foundation-deepening.md) | F07 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.4.3 | Structure Name/Statement/Rationale/Implications | [Cours](../01-togaf-foundations/06-architecture-principles.md) | XF02, O07 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.4.4 | Qualités de principes robustes | [Cours](../01-togaf-foundations/10-x2202-foundation-deepening.md) | F07, O26, O27 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.4.5 | Business Scenarios | [Cours](../03-adm-techniques/02-business-scenarios.md) | Q170–Q173 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.4.6 | Gap Analysis | [Cours](../03-adm-techniques/03-gap-analysis.md) | Q174–Q178 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.4.7 | Interoperability | [Cours](../03-adm-techniques/04-interoperability.md) | Q179–Q182 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.4.8 | Business Transformation Readiness | [Cours](../03-adm-techniques/05-business-transformation-readiness.md) | Q183–Q186 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.4.9 | Architecture Risk Management | [Cours](../03-adm-techniques/06-risk-management.md) | Q187–Q191 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.4.9 | Architecture Risk Management | [Cours](../03-adm-techniques/06-risk-management.md) | Q187–Q191, O20 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 
 ## L1 U5 — Introduction to Applying the ADM (6 objectifs)
 
@@ -78,8 +78,8 @@
 |---|---|---|---|---|
 | L1.5.1 | Sources de guidance ADM | [Cours](../04-applying-the-adm/01-tailoring.md) | Q211, Q239 | Candidat précis — non relu ; Bloom officiel : 1_Remembering |
 | L1.5.2 | Itération et phases concurrentes | [Cours](../04-applying-the-adm/02-iteration.md) | Q215–Q217 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.5.3 | Trois niveaux Architecture Landscape | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | Q218–Q221 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.5.4 | Partitioning | [Cours](../04-applying-the-adm/04-partitioning.md) | Q222–Q225 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.5.3 | Trois niveaux Architecture Landscape | [Cours](../04-applying-the-adm/03-levels-of-architecture.md) | Q218–Q221, O08 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.5.4 | Partitioning | [Cours](../04-applying-the-adm/04-partitioning.md) | Q222–Q225, O24 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.5.5 | Quatre finalités de projets EA | [Cours](../01-togaf-foundations/10-x2202-foundation-deepening.md) | F01, F02 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.5.6 | Application au Digital Enterprise | [Cours](../04-applying-the-adm/06-digital-enterprise.md) | Q230–Q232 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 
@@ -87,10 +87,10 @@
 
 | Objectif | Notion à démontrer | Cours candidat | Références d'exercices précises | Statut de revue |
 |---|---|---|---|---|
-| L1.6.1 | Architecture Governance : principe | [Cours](../05-architecture-governance/01-governance-fundamentals.md) | Q241, Q242, F18 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.6.1 | Architecture Governance : principe | [Cours](../05-architecture-governance/01-governance-fundamentals.md) | Q241, Q242, F18, O15, O16 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.6.2 | Bénéfices de la gouvernance | [Cours](../05-architecture-governance/01-governance-fundamentals.md) | Q241, Q245, Q258 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.6.3 | Architecture Board : rôle | [Cours](../05-architecture-governance/02-architecture-board.md) | Q243–Q245 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.6.4 | Architecture Contract : rôle | [Cours](../05-architecture-governance/03-architecture-contract.md) | Q246–Q248 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.6.3 | Architecture Board : rôle | [Cours](../05-architecture-governance/02-architecture-board.md) | Q243–Q245, O28 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
+| L1.6.4 | Architecture Contract : rôle | [Cours](../05-architecture-governance/03-architecture-contract.md) | Q246–Q248, O30 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.6.5 | Architecture Compliance : nécessité | [Cours](../05-architecture-governance/04-architecture-compliance.md) | Q249–Q251 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 
 ## L1 U7 — Architecture Content (3 objectifs)
@@ -99,7 +99,7 @@
 |---|---|---|---|---|
 | L1.7.1 | Stakeholder, concern, viewpoint, view | [Cours](../06-architecture-content/07-views-and-viewpoints.md) | Q012–Q014, Q276–Q279 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
 | L1.7.2 | Building Blocks dans l'ADM | [Cours](../06-architecture-content/05-building-blocks.md) | Q030–Q033, Q280–Q284 | Candidat précis — non relu ; Bloom officiel : 2_Understanding |
-| L1.7.3 | Livrables standard des phases ADM | [Cours](../06-architecture-content/03-deliverables.md) | D01–D16, Q290–Q292, F10–F13 | Candidat précis — non relu ; Bloom officiel : 2_Remembering (libellé atypique du X2202) |
+| L1.7.3 | Livrables standard des phases ADM | [Cours](../06-architecture-content/03-deliverables.md) | D01–D16, Q290–Q292, F10–F13, O05, O06, O25 | Candidat précis — non relu ; Bloom officiel : 2_Remembering (libellé atypique du X2202) |
 
 ## L1 U8 — Certification Program (1 objectifs)
 
@@ -229,6 +229,7 @@ Cette matrice permet de **détecter les manques**, et non de prétendre que le d
 
 - `Q001` à `Q300` : banque Foundation principale (`09-foundation-question-bank/01` à `08`).
 - `D01` à `D16` : les 16 livrables Foundation 7.3 (`09-foundation-question-bank/11-x2202-deliverables-drills.md`) avec corrigés séparés.
+- `O01` à `O30` : trente QCM aux formats de l'examen officiel — associations, lecture de tableau, réponses courtes (`09-foundation-question-bank/12-official-format-drills.md`) avec corrigés séparés.
 - `XF01` et `XF02` : exercices ciblés Foundation (`09-foundation-question-bank/10-x2202-targeted-drills.md`).
 - `XP33` à `XP36` : quatre scénarios additionnels sur les niveaux de conformance et stratégies Greenfield/Evolutionary/Revolutionary (`10-practitioner-scenarios/12-conformance-and-migration-xp033-xp036.md`).
 - `XP05` à `XP32` : vingt-huit cas additionnels de clarification (`10-practitioner-scenarios/11-x2202-gap-closure-scenarios.md`).
