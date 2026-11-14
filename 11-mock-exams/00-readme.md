@@ -38,6 +38,12 @@ Pour simuler correctement OGEA-103, traite les deux parties séparément et exig
 - `mock-01-exam.md` à `mock-06-exam.md` : sujets sans réponses
 - `corrections/mock-01-correction.md` à `corrections/mock-06-correction.md` : corrections et scoring
 
+## Examen Foundation autonome ajouté le 14 novembre 2026
+
+- [**40 QCM reformulés d'après les notions révisées sur Udemy**](foundation-udemy-revision-2026-11-14-exam.md) : sujet d'entraînement autonome **Foundation uniquement**, sans réponses dans le sujet et sans illustrations propriétaires.
+- [**Corrigé détaillé**](corrections/foundation-udemy-revision-2026-11-14-correction.md) : clé des 40 réponses, explications et révision des erreurs aux questions 3, 10 et 35 du test Udemy (37/40).
+- Ce complément **n'est pas un septième examen Combined OGEA-103** : il s'ajoute aux six simulations Combined existantes sans en modifier les contenus.
+
 ## Méthode recommandée
 
 1. Chronométrer 60 minutes pour Part 1.
