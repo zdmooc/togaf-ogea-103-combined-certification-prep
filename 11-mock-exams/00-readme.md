@@ -44,6 +44,13 @@ Pour simuler correctement OGEA-103, traite les deux parties séparément et exig
 - [**Corrigé détaillé**](corrections/foundation-udemy-revision-2026-11-14-correction.md) : clé des 40 réponses, explications et révision des erreurs aux questions 3, 10 et 35 du test Udemy (37/40).
 - Ce complément **n'est pas un septième examen Combined OGEA-103** : il s'ajoute aux six simulations Combined existantes sans en modifier les contenus.
 
+## Examen Foundation autonome — Practice Test 2 (15 novembre 2026)
+
+- [**40 QCM pédagogiques reformulés**](foundation-udemy-revision-2026-11-15-test-02-exam.md) : révision autonome des 40 notions du deuxième examen blanc Udemy, sans reprise des illustrations.
+- [**Corrigé des 40 questions avec explications**](corrections/foundation-udemy-revision-2026-11-15-test-02-correction.md) : réponses, justifications par notion et analyse de l'unique erreur au **Core Enterprise Metamodel** (Q18).
+- Score de référence **Practice Test 2 : 39/40 (97,5 %)** le 15/11/2026 ; cumul des deux tests : **76/80 (95 %)**.
+- Comme le Test 1, ce sujet est **Foundation uniquement** et **n'ajoute ni ne modifie** les six simulations Combined.
+
 ## Méthode recommandée
 
 1. Chronométrer 60 minutes pour Part 1.
