@@ -10,7 +10,7 @@ Une plateforme bancaire d'IA est née d'une expérimentation menée par une seul
 
 A. Employer les quatre domaines d'architecture comme contextes DPBoK et attribuer un domaine à chaque étape de croissance.
 B. Classer les livraisons selon Preliminary, Phase A, Phase C et Phase G : les quatre contextes DPBoK correspondent à ces phases.
-C. Distinguer Individual/Founder, Team, Team of Teams et Enterprise ; augmenter progressivement la coordination, les standards et la gouvernance selon les interdépendances réelles.
+C. Distinguer Individual/Founder, Team, Team of Teams et Enterprise ; renforcer coordination, standards et gouvernance selon les interdépendances réelles.
 D. Distinguer Individual/Founder, Team et Enterprise, et traiter la coordination multiéquipes comme une extension de Team sans identifier le contexte spécifique Team of Teams.
 
 ## XP02 — L2.8.5 : les sept rubriques du Repository

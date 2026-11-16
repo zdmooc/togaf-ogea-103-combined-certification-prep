@@ -136,7 +136,7 @@ MayaBank prépare la mutualisation de ses services de paiement entre deux filial
 
 **Quelle réponse choisir ?**
 
-A. Évaluer les capacités d'architecture existantes, harmoniser principes, responsabilités et processus d'exception avec le Board, puis ajuster le tailoring et relier ce cadre au travail de transformation.
+A. Évaluer les capacités existantes, harmoniser principes et processus d'exception avec le Board, puis ajuster le tailoring.
 
 B. Démarrer une Phase E limitée aux work packages techniques et différer la définition de la gouvernance commune jusqu'à la première livraison.
 
@@ -152,7 +152,7 @@ La nouvelle plateforme de paiement instantané doit réduire les délais de trai
 
 A. Conserver l'approbation du sponsor comme unique validation de la Vision, puis prévoir les adaptations du run model après la vague pilote.
 
-B. Mettre à jour l'analyse des stakeholders et concerns, intégrer les exigences de continuité, de support et de sécurité dans des vues appropriées, puis faire arbitrer les impacts avant de confirmer la vague pilote.
+B. Mettre à jour stakeholders et concerns, intégrer continuité, support et sécurité dans des vues adaptées, puis faire arbitrer les impacts avant la vague pilote.
 
 C. Confier l'ensemble du run model à Operations et garder l'architecture cible inchangée, en lui laissant le choix des moyens.
 
@@ -184,7 +184,7 @@ B. Lancer une Gap Analysis Technology isolée pour prouver que la plateforme cib
 
 C. Réexaminer la Data Architecture et les contraintes de résidence en priorité, puis compléter les vues applicatives et techniques après une première validation du métier.
 
-D. Confirmer les capabilities et parcours métier, développer et itérer les architectures Data/Application/Technology avec leurs gaps et requirements, comparer les modèles de traitement fédéré et centralisé, puis soumettre les arbitrages.
+D. Confirmer capabilities et parcours métier, itérer les architectures Data/Application/Technology, puis soumettre les arbitrages.
 
 ## P5 — Implementing E/F/G — dépendances, valeur et transition
 
@@ -194,7 +194,7 @@ La Target Architecture d'une banque prévoit trois work packages : standardisati
 
 A. Faire vérifier les risques et les exceptions dans une Compliance Review anticipée, puis conserver l'ordre des lots déjà souhaité par le sponsor.
 
-B. En Phase F, évaluer valeur, dépendances, readiness et coûts des transitions, puis confirmer les priorités, séquencement, critères de bascule et Implementation and Migration Plan avant la Phase G.
+B. En Phase F, évaluer valeur, dépendances, readiness et coûts des transitions, puis confirmer le séquencement et l'Implementation and Migration Plan avant la Phase G.
 
 C. Réexaminer la Vision et relancer la totalité des domaines B/C/D pour éviter tout risque d'erreur de priorisation.
 

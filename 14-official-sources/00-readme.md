@@ -27,6 +27,7 @@ This repository is a self-study aid. It is not an Accredited Training Course and
 - `02-exam-format-and-policies.md` — exam structure, open book, retake and ESL notes
 - `03-x2202-repository-mapping.md` — syllabus areas mapped to repository learning/practice files
 - `04-study-boundaries.md` — copyright, originality and limits of the repository
+- `12-reservation-et-jour-j-f101-f102.md` — réserver et passer OGEA-F101 puis OGEA-F102 (fiche pratique en français, vérifiée le 14 nov. 2026)
 
 ## Re-check rule
 

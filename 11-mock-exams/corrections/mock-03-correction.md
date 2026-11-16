@@ -52,7 +52,7 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40, scoring 5/3/1/0, passage simu
 
 **Barème :** A=3, B=1, C=5, D=0.
 
-- **C — 5 points :** Tailorer l'ADM et la gouvernance selon le contexte tout en préservant les objectifs essentiels, en fixant des seuils d'escalade et une gouvernance proportionnée au risque des initiatives. L'ADM est adaptable ; la gouvernance doit être explicite et proportionnée à la maturité et aux risques.
+- **C — 5 points :** Tailorer l'ADM et la gouvernance selon le contexte en préservant les objectifs essentiels, avec des seuils d'escalade proportionnés au risque. L'ADM est adaptable ; la gouvernance doit être explicite et proportionnée à la maturité et aux risques.
 - **A — 3 points :** Conserver le cycle ADM comme référence et supprimer plusieurs validations manuelles dans les produits à faible risque, puis clarifier plus tard la matrice des responsabilités. Réduire les validations manuelles à faible risque est utile mais la matrice d'autorité et d'escalade reste à formaliser.
 - **B — 1 point :** Appliquer les mêmes livrables de gouvernance à toutes les équipes, mais réduire leur format et leur fréquence pour limiter l'effort. Uniformiser les mêmes livrables réduit seulement leur volume et ignore les différences de risque et de maturité.
 - **D — 0 point :** Exempter les produits agiles de toute revue de conformité et faire auditer uniquement la Target Technology Architecture globale. Exempter entièrement les équipes agiles supprime un contrôle architectural pourtant nécessaire.
@@ -63,7 +63,7 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40, scoring 5/3/1/0, passage simu
 
 **Barème :** A=1, B=3, C=0, D=5.
 
-- **D — 5 points :** Mettre à jour stakeholder analysis, requirements et views pertinentes, puis analyser les impacts, en explicitant l'obligation, les nouveaux requirements et les impacts de modification avant la validation suivante. Un nouveau stakeholder critique modifie les concerns, exigences et décisions possibles à travers plusieurs domaines.
+- **D — 5 points :** Mettre à jour stakeholder analysis, requirements et views pertinentes, en explicitant l'obligation, puis analyser les impacts avant la validation suivante. Un nouveau stakeholder critique modifie les concerns, exigences et décisions possibles à travers plusieurs domaines.
 - **B — 3 points :** Faire analyser en urgence le périmètre de conservation par le DPO et préparer des vues de données ajustées pour les responsables concernés. Le DPO clarifie la conservation, mais les autres concerns et décisions d'architecture restent à mettre à jour.
 - **A — 1 point :** Conserver les vues existantes et ajouter une annexe de conformité pour la direction, sans réviser la traçabilité des services. Une annexe réglementaire sans traçabilité laisse les services et requirements potentiellement non conformes.
 - **C — 0 point :** Prévoir un changement post-go-live pour la conservation en supposant que l'instance réglementaire acceptera une dérogation. Parier sur une dérogation après livraison sans décision préalable expose le programme au risque réglementaire.
@@ -74,9 +74,9 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40, scoring 5/3/1/0, passage simu
 
 **Barème :** A=3, B=5, C=0, D=1.
 
-- **B — 5 points :** Clarifier drivers, value proposition, scope et critères de succès dans Phase A, avec des indicateurs de bénéfices, hypothèses d'investissement et limites de portée explicites. La Vision est un outil de décision et de valeur ; elle doit rendre les attentes de succès comparables.
+- **B — 5 points :** Clarifier en Phase A drivers, value proposition, scope et critères de succès, avec des bénéfices mesurables. La Vision est un outil de décision et de valeur ; elle doit rendre les attentes de succès comparables.
 - **A — 3 points :** Établir un business case exploratoire avec deux outcomes possibles et solliciter l'accord des principaux métiers avant de rédiger la Vision complète. Le business case exploratoire donne des outcomes candidats, mais la Vision, les limites de scope et critères de succès restent incomplets.
-- **D — 1 point :** Présenter une première Architecture Roadmap de solutions candidates pour faciliter la discussion, même si les bénéfices ne sont pas encore validés. Une Roadmap produite avant les bénéfices approuvés préjuge des solutions au lieu d'expliquer leur valeur.
+- **D — 1 point :** Présenter une première Architecture Roadmap de solutions candidates pour faciliter la discussion, même si les bénéfices ne sont pas encore validés par les métiers. Une Roadmap produite avant les bénéfices approuvés préjuge des solutions au lieu d'expliquer leur valeur.
 - **C — 0 point :** Demander aux équipes de delivery de commencer l'implémentation du composant principal afin de produire rapidement des coûts observés. Commencer le delivery pour découvrir les coûts ne remplace pas le cadrage de l'investissement.
 
 **Référence de contrôle :** X2202, Practitioner, unité 3.
@@ -85,7 +85,7 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40, scoring 5/3/1/0, passage simu
 
 **Barème :** A=1, B=3, C=0, D=5.
 
-- **D — 5 points :** Commencer par Business Architecture pour définir la cible métier avant de figer Application et Technology Architectures, en définissant la capacité, les processus et ownership métier avant de dériver les domaines Data/Application/Technology. La Target Business Architecture dirige les autres domaines ; l'existant applicatif n'est pas une définition des capacités futures.
+- **D — 5 points :** Définir d'abord la cible métier (capacités, processus, ownership) avant de dériver Data, Application et Technology. La Target Business Architecture dirige les autres domaines ; l'existant applicatif n'est pas une définition des capacités futures.
 - **B — 3 points :** Lister les règles métier critiques et les exceptions puis établir un premier modèle de capacités, avec une revue cible complète à suivre. Une première analyse des règles et exceptions métier est utile, mais la Target Business Architecture complète reste à construire.
 - **A — 1 point :** Examiner les API des applications actuelles pour repérer les possibilités de réutilisation avant de décider du découpage métier. Explorer d'abord les APIs actuelles fait dépendre le découpage métier de l'existant applicatif.
 - **C — 0 point :** Définir une plateforme technique commune qui hébergera les workflows existants, puis adapter les responsabilités métier aux contraintes du produit. Choisir l'hébergement avant les capacités métier inverse les dépendances de conception.
@@ -96,9 +96,9 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40, scoring 5/3/1/0, passage simu
 
 **Barème :** A=5, B=3, C=1, D=0.
 
-- **A — 5 points :** Phase G avec Architecture Contract/Compliance mechanisms, avec Architecture Contract, Compliance Reviews, preuves et décisions tracées pendant l'implémentation. Après le planning F, la Phase G gouverne la réalisation par preuves, responsabilités et mécanismes d'exception.
+- **A — 5 points :** Phase G : s'appuyer sur l'Architecture Contract et les Compliance Reviews, avec preuves et décisions tracées à l'implémentation. Après le planning F, la Phase G gouverne la réalisation par preuves, responsabilités et mécanismes d'exception.
 - **B — 3 points :** Organiser une première revue de conformité sur l'interface commune et enregistrer l'exception candidate, puis compléter le contrat d'architecture. La première Compliance Review éclaire l'écart, mais Architecture Contract et mécanismes d'exception restent incomplets.
-- **C — 1 point :** Réviser le classement des work packages à la lumière du choix de protocole, sans traiter encore l'implémentation du contrôle d'accès. Reprioriser les lots ne traite pas les preuves de conformité des composants en cours de réalisation.
+- **C — 1 point :** Réviser le classement des work packages à la lumière du choix de protocole, sans traiter encore l'implémentation du contrôle d'accès ni les exceptions déjà signalées. Reprioriser les lots ne traite pas les preuves de conformité des composants en cours de réalisation.
 - **D — 0 point :** Modifier la Target pour refléter les protocoles choisis par les développeurs et considérer que la conformité est acquise. Modifier la Target pour suivre les décisions locales ne constitue pas un contrôle de conformité.
 
 **Référence de contrôle :** X2202, Practitioner, unité 5.
@@ -107,7 +107,7 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40, scoring 5/3/1/0, passage simu
 
 **Barème :** A=3, B=0, C=5, D=1.
 
-- **C — 5 points :** Évaluer le changement et appliquer une réponse proportionnée si l'impact est mineur, et enregistrer l'analyse de non-impact ainsi que le traitement opérationnel correspondant. La classification dépend de l'impact réel ; un patch peut relever d'une gestion de changement technique normale.
+- **C — 5 points :** Évaluer le changement, puis, si l'impact est mineur, appliquer une réponse proportionnée et enregistrer l'analyse de non-impact et le traitement opérationnel. La classification dépend de l'impact réel ; un patch peut relever d'une gestion de changement technique normale.
 - **A — 3 points :** Vérifier les impacts sur standards et requirements, puis autoriser le change technique avec un contrôle de non-régression documenté. Le contrôle des standards et requirements est approprié, mais il faut aussi qualifier la magnitude du changement.
 - **D — 1 point :** Regrouper le patch avec les autres changements d'architecture mineurs pour décider d'une prochaine architecture cible commune. Regrouper les patches diffère une correction qui n'a pas d'impact architectural majeur.
 - **B — 0 point :** Conserver la version actuelle jusqu'au prochain cycle de stratégie parce qu'une modification après go-live est toujours disruptive. Bloquer un patch sans analyse jusqu'au prochain cycle stratégique confond maintenance et réarchitecture.
@@ -118,10 +118,10 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40, scoring 5/3/1/0, passage simu
 
 **Barème :** A=5, B=0, C=1, D=3.
 
-- **A — 5 points :** Tracer la requirement, comparer les options et conserver la décision et sa justification, jusqu'aux building blocks, aux critères de validation, aux risques et à la décision d'architecture. La gestion des exigences soutient des alternatives, pas simplement la reconnaissance d'une option techniquement valide.
+- **A — 5 points :** Tracer la requirement jusqu'aux building blocks, comparer les options et conserver la décision justifiée. La gestion des exigences soutient des alternatives, pas simplement la reconnaissance d'une option techniquement valide.
 - **D — 3 points :** Comparer coûts et risques des deux solutions au moyen d'un tableau d'arbitrage, puis relier les décisions à la requirement approuvée. Le tableau d'arbitrage coûts/risques est utile mais la traçabilité complète vers building blocks et critères de validation manque.
 - **C — 1 point :** Choisir la solution qui satisfait le mieux le SLA opérationnel, puis mesurer les autres contraintes après la première vague. Le meilleur SLA ne suffit pas à choisir sans arbitrer les contraintes, coûts et risques des deux solutions.
-- **B — 0 point :** Utiliser la technologie déjà en place comme solution de référence et accepter les risques restants sans les présenter au comité. Choisir la technologie en place sans présenter le risque au comité ignore l'arbitrage gouverné.
+- **B — 0 point :** Utiliser la technologie déjà en place comme solution de référence et accepter les risques restants sans les présenter au comité d'architecture. Choisir la technologie en place sans présenter le risque au comité ignore l'arbitrage gouverné.
 
 **Référence de contrôle :** X2202, Practitioner, unité 7.
 
@@ -129,7 +129,7 @@ Part 1 : /40, passage simulé ≥24. Part 2 : /40, scoring 5/3/1/0, passage simu
 
 **Barème :** A=3, B=5, C=1, D=0.
 
-- **B — 5 points :** Effectuer une analyse d'interoperability couvrant dimensions pertinentes avant de choisir les adaptations, avec analyse des dimensions métier, information et technologie et gouvernance des contrats d'échange. L'interopérabilité exige un accord sémantique et organisationnel, non la seule connexion des systèmes.
+- **B — 5 points :** Analyser l'interoperability dans ses dimensions métier, information et technologie, ainsi que la gouvernance des échanges, avant de choisir les adaptations. L'interopérabilité exige un accord sémantique et organisationnel, non la seule connexion des systèmes.
 - **A — 3 points :** Documenter les modèles de données et les correspondances de statut, puis valider la sémantique avec les propriétaires de processus. Aligner les statuts et le sens des messages constitue une première base, mais les processus et responsabilités restent à analyser.
 - **C — 1 point :** Installer une passerelle de conversion pour harmoniser les schémas de message sans revoir l'interprétation métier des événements. Un convertisseur de schéma ne garantit pas l'identité de sens des événements entre organisations.
 - **D — 0 point :** Changer de protocole de transport pour un format commun, puis vérifier les écarts comptables à l'occasion des tests de production. Un protocole commun sans vérification sémantique peut véhiculer des informations erronées.

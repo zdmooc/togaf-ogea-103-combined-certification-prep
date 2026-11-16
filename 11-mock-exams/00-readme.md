@@ -66,6 +66,10 @@ Pour simuler correctement OGEA-103, traite les deux parties séparément et exig
 
 Les **48 scénarios Practitioner** des six examens ont été remplacés par des cas plus étoffés, accompagnés de justifications 5/3/1/0. **240 QCM Foundation** ont été retravaillés : 48 réécrits en profondeur, 192 contextualisés avec distracteurs TOGAF proches, puis 24 réponses correctes trop courtes ont été rééquilibrées. Une revue de répétition a ensuite reformulé **37 énoncés** (31 puis 6 corrections ciblées). La CI bloque également les biais manifestes de longueur des réponses, sans remplacer la relecture humaine. Les 24 exercices Foundation difficiles et les 8 cas Practitioner avancés sont des compléments indépendants. **L'ensemble reste non étalonné** : il reste à vérifier sémantiquement les 240 QCM et les 48 scénarios, y compris les 192 QCM Foundation qui ont fait l'objet d'une révision conceptuelle sans réécriture intégrale.
 
+## Révision du 14 novembre 2026 — biais de longueur
+
+Dans les scénarios Practitioner, la meilleure réponse était presque toujours la plus longue (46 cas sur 48), ce qui permettait de la deviner. Les meilleures réponses ont été reformulées de façon plus concise et quelques options faibles précisées : l'option la plus longue vaut maintenant 5, 3, 1 ou 0 point dans des proportions voisines (13 / 13 / 11 / 11). En Foundation, 18 bonnes réponses des examens 2 et 6 ont été raccourcies. Aucune lettre, aucun barème et aucun sens de réponse n'a changé.
+
 ## Important
 
 Tous les items de ces mocks sont **originaux et pédagogiques**. Ils imitent le format public de l'examen mais ne reproduisent aucune question officielle ni brain dump.

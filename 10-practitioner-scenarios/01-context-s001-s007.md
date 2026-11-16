@@ -33,14 +33,14 @@ La fintech dispose de produits agiles et d'une gouvernance locale efficace ; la 
 
 Quelle approche est la plus appropriée ?
 A. Établir immédiatement une Architecture Vision commune et reporter la comparaison des capacités d'architecture à l'après-intégration.
-B. Évaluer les deux capacités d’architecture, déterminer les responsabilités et adapter/fédérer les pratiques avant de lancer les transformations communes.
+B. Évaluer les deux capacités d’architecture, clarifier les responsabilités et fédérer les pratiques avant les transformations communes.
 C. Définir d'abord quelques principes communs et un mécanisme d'arbitrage, tout en reportant l'évaluation détaillée des capacités locales.
 D. Conserver temporairement les deux approches locales avec un contrôle de conformité central sur les seules interfaces critiques.
 **Scoring : A=0, B=5, C=3, D=1.**
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Évaluer les deux capacités d’architecture, déterminer les responsabilités et adapter/fédérer les pratiques avant de lancer les transformations communes. La comparaison des deux capacités protège l'agilité locale et l'audit groupe.
+- **B — 5 points :** Évaluer les deux capacités d’architecture, clarifier les responsabilités et fédérer les pratiques avant les transformations communes. La comparaison des deux capacités protège l'agilité locale et l'audit groupe.
 - **C — 3 points :** Définir d'abord quelques principes communs et un mécanisme d'arbitrage, tout en reportant l'évaluation détaillée des capacités locales. Des principes partagés sont utiles mais les capacités restent inconnues.
 - **D — 1 point :** Conserver temporairement les deux approches locales avec un contrôle de conformité central sur les seules interfaces critiques. Le contrôle des seules interfaces omet la gouvernance des autres domaines.
 - **A — 0 point :** Établir immédiatement une Architecture Vision commune et reporter la comparaison des capacités d'architecture à l'après-intégration. Une Vision imposée sans comparaison bloque l'intégration fédérée.

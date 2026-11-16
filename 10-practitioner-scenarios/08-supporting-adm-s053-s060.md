@@ -107,7 +107,7 @@ La direction veut financer « Kafka », « Kubernetes » et « API Gateway » co
 La direction voit ces produits comme des programmes autonomes, mais leur valeur dépend d'un parcours métier unique de gestion des exceptions. Le budget est limité et plusieurs solutions sont déjà présentes dans le groupe. Finance demande de relier les dépenses aux bénéfices métier et de justifier les dépendances. Le Board attend une trajectoire alignée sur les capabilities plutôt qu'une liste de composants techniques.
 
 Quelle action est la meilleure ?
-A. Utiliser Capability-Based Planning pour relier les investissements aux capabilities/outcomes nécessaires, puis déterminer les building blocks et work packages qui les réalisent.
+A. Utiliser Capability-Based Planning pour relier les investissements aux capabilities nécessaires, puis en déduire building blocks et work packages.
 B. Commencer par une carte de capabilities métier et la relier aux principaux produits, sans prioriser encore les work packages sur les gaps.
 C. Dresser l'inventaire des produits Kafka, Kubernetes et API Gateway et associer à chacun une fonction technique, sans analyser les capabilities et outcomes métier.
 D. Financer d'abord la plateforme la moins coûteuse en supposant qu'elle créera automatiquement la capacité métier recherchée.
@@ -115,7 +115,7 @@ D. Financer d'abord la plateforme la moins coûteuse en supposant qu'elle créer
 
 **Justification des quatre niveaux :**
 
-- **A — 5 points :** Utiliser Capability-Based Planning pour relier les investissements aux capabilities/outcomes nécessaires, puis déterminer les building blocks et work packages qui les réalisent. Le Capability-Based Planning rattache outcomes et capacités aux investissements, building blocks, work packages et dépendances, ce que demande Finance.
+- **A — 5 points :** Utiliser Capability-Based Planning pour relier les investissements aux capabilities nécessaires, puis en déduire building blocks et work packages. Le Capability-Based Planning rattache outcomes et capacités aux investissements, building blocks, work packages et dépendances, ce que demande Finance.
 - **B — 3 points :** Commencer par une carte de capabilities métier et la relier aux principaux produits, sans prioriser encore les work packages sur les gaps. La carte des capabilities reliée aux produits amorce la justification métier ; sans gaps ni priorisation des work packages, l'arbitrage budgétaire reste incomplet.
 - **C — 1 points :** Dresser l'inventaire des produits Kafka, Kubernetes et API Gateway et associer à chacun une fonction technique, sans analyser les capabilities et outcomes métier. L'inventaire Kafka/Kubernetes/API Gateway fournit des informations de fonctions techniques, mais ne caractérise ni les capabilities manquantes ni les résultats métier visés.
 - **D — 0 points :** Financer d'abord la plateforme la moins coûteuse en supposant qu'elle créera automatiquement la capacité métier recherchée. Financer le produit le moins cher sans évaluer les capabilities et outcomes transforme une contrainte budgétaire en décision d'architecture non justifiée.
@@ -133,14 +133,14 @@ La plateforme retail et la plateforme corporate produisent des données client p
 
 Quelle action est la meilleure ?
 A. Remplacer un des deux frameworks API pour uniformiser les protocoles, sans vérifier la compatibilité sémantique des échanges.
-B. Évaluer l’interopérabilité sur plusieurs dimensions — sémantique, information, processus, technique et gouvernance — et traiter les incompatibilités.
+B. Évaluer l’interopérabilité sur plusieurs dimensions — sémantique, information, processus, technique, gouvernance — puis traiter les écarts.
 C. Revoir les contrats d'échange et la sémantique de l'information avant toute refonte, sans établir encore un modèle complet d'interopérabilité.
 D. Comparer les modèles d'information et définir une table de correspondance pour les champs les plus critiques, puis élargir les contrats de service.
 **Scoring : A=0, B=5, C=3, D=1.**
 
 **Justification des quatre niveaux :**
 
-- **B — 5 points :** Évaluer l’interopérabilité sur plusieurs dimensions — sémantique, information, processus, technique et gouvernance — et traiter les incompatibilités. L'analyse interopérabilité couvre sens des données, contrats, processus et gouvernance des deux partenaires.
+- **B — 5 points :** Évaluer l’interopérabilité sur plusieurs dimensions — sémantique, information, processus, technique, gouvernance — puis traiter les écarts. L'analyse interopérabilité couvre sens des données, contrats, processus et gouvernance des deux partenaires.
 - **C — 3 points :** Revoir les contrats d'échange et la sémantique de l'information avant toute refonte, sans établir encore un modèle complet d'interopérabilité. La sémantique et les contrats constituent une première analyse solide, mais pas tous les impacts.
 - **D — 1 points :** Comparer les modèles d'information et définir une table de correspondance pour les champs les plus critiques, puis élargir les contrats de service. Une table de correspondance améliore certains champs sans traiter l'ensemble des processus et contrats.
 - **A — 0 points :** Remplacer un des deux frameworks API pour uniformiser les protocoles, sans vérifier la compatibilité sémantique des échanges. Uniformiser le protocole ne résout pas la divergence de sens des statuts métier.
@@ -159,13 +159,13 @@ Le comité attend un livrable formel permettant la validation de plusieurs domai
 Quelle correction est la meilleure ?
 A. Classer les services du diagramme dans un catalogue technique de composants, puis présenter ce catalogue comme principal complément sans clarifier les catégories TOGAF.
 B. Conserver le diagramme comme preuve d'architecture approuvable et ajouter la liste des standards technologiques comme annexe au dossier.
-C. Expliquer que le deliverable est le produit de travail formel, qu’il peut contenir plusieurs artifacts, et que les services/capacités représentés peuvent être des building blocks.
+C. Expliquer que le deliverable est un produit de travail formel pouvant contenir plusieurs artifacts, qui peuvent décrire des building blocks.
 D. Requalifier le diagramme comme artifact du livrable et lister les building blocks représentés, tout en laissant à compléter les autres vues requises.
 **Scoring : A=1, B=0, C=5, D=3.**
 
 **Justification des quatre niveaux :**
 
-- **C — 5 points :** Expliquer que le deliverable est le produit de travail formel, qu’il peut contenir plusieurs artifacts, et que les services/capacités représentés peuvent être des building blocks. La distinction explicite entre deliverable formel, artifacts constitutifs et building blocks représentés répond au besoin du comité de validation.
+- **C — 5 points :** Expliquer que le deliverable est un produit de travail formel pouvant contenir plusieurs artifacts, qui peuvent décrire des building blocks. La distinction explicite entre deliverable formel, artifacts constitutifs et building blocks représentés répond au besoin du comité de validation.
 - **D — 3 points :** Requalifier le diagramme comme artifact du livrable et lister les building blocks représentés, tout en laissant à compléter les autres vues requises. Requalifier l'artifact et identifier les building blocks constitue une remise en ordre correcte, mais la composition complète du deliverable doit encore être définie.
 - **A — 1 points :** Classer les services du diagramme dans un catalogue technique de composants, puis présenter ce catalogue comme principal complément sans clarifier les catégories TOGAF. Un catalogue technique identifie des composants potentiels, mais ne corrige pas la confusion entre deliverable formel, artifact de représentation et building block.
 - **B — 0 points :** Conserver le diagramme comme preuve d'architecture approuvable et ajouter la liste des standards technologiques comme annexe au dossier. Considérer un diagramme et une annexe de standards comme livrable complet confond une représentation partielle avec un produit de travail gouverné.

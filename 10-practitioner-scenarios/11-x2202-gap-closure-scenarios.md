@@ -124,7 +124,7 @@ A. Le Content Framework définit les relations de données en production, tandis
 
 B. Définir des types d'éléments et quelques relations partagées dans un métamodèle minimal, mais reporter la gouvernance de ses extensions et de ses versions.
 
-C. Définir concepts, propriétés et relations dans un Enterprise Metamodel cohérent avec le Content Framework, puis l'utiliser pour structurer artifacts, deliverables et traçabilité.
+C. Définir concepts, propriétés et relations dans un Enterprise Metamodel cohérent avec le Content Framework, pour structurer artifacts et traçabilité.
 
 D. Remplacer toutes les matrices par des diagrams, qui garantissent automatiquement la conformité des relations.
 
@@ -193,7 +193,7 @@ Une banque prévoit de remplacer un orchestrateur de paiement utilisé pour les 
 
 A. Choisir le scénario de coût minimal, puis réexaminer les risques si les tests montrent un incident.
 
-B. Mesurer les incertitudes sur les capacités et dépendances, analyser scénarios/risques/bénéfices, prévoir des mesures et décisions jalonnées, puis ajuster la trajectoire selon des preuves.
+B. Mesurer les incertitudes sur capacités et dépendances, analyser scénarios, risques et bénéfices, puis ajuster la trajectoire par décisions jalonnées.
 
 C. Documenter les risques les plus élevés dans un registre et prévoir une première Transition Architecture, puis confirmer les bénéfices et les dépendances après un pilote contrôlé.
 
@@ -221,7 +221,7 @@ Un service interbancaire traite des identités client et des données de règlem
 
 **Quelle action est la plus appropriée ?**
 
-A. Évaluer les threats, vulnerabilities, requirements, contrôles et risques résiduels dans B/C/D ; intégrer les contraintes aux vues Data/Application/Technology, aux gaps et à la gouvernance.
+A. Évaluer threats, vulnerabilities, contrôles et risques résiduels dans B/C/D, puis intégrer les contraintes aux vues, aux gaps et à la gouvernance.
 
 B. Obtenir une validation sécurité uniquement après la Phase D pour ne pas ralentir l'analyse métier et des données.
 
@@ -272,7 +272,7 @@ B. Préparer directement les Compliance Reviews de Phase G pour découvrir les d
 
 C. Prioriser les dépendances techniques dans un tableau de jalons et soumettre le plan au sponsor, puis compléter la readiness et les risques résiduels après le pilote.
 
-D. Confirmer la Roadmap et l'Implementation and Migration Plan après analyse valeur/risque/dépendances, préciser Transition Architectures, engagements et informations à transmettre à Phase G.
+D. Confirmer Roadmap et Implementation and Migration Plan après analyse valeur/risque/dépendances, et préciser les éléments à transmettre à Phase G.
 
 
 ## XP24 — L2.5.11,L2.5.13 : Entrées G et sorties de gouvernance
@@ -328,7 +328,7 @@ Une banque prévoit une migration WAS vers OpenShift avec trois applications uti
 
 A. Produire uniquement un diagramme de la Target Technology Architecture ; les dépendances de migration seront déduites des composants.
 
-B. Utiliser l'Implementation Factor Catalog, consolider gaps/solutions/dépendances, analyser readiness et work packages, puis comparer les transitions et priorités de migration.
+B. Utiliser l'Implementation Factor Catalog, consolider gaps, solutions et dépendances, puis comparer transitions et priorités de migration.
 
 C. Établir d'abord un Architecture Contract avec le fournisseur pour l'ensemble de la migration, puis déterminer les gaps au moment de Phase G.
 
@@ -341,7 +341,7 @@ Une compagnie d'assurance veut mettre en place une capacité de tarification com
 
 **Quelle décision est la plus adaptée ?**
 
-A. Définir les ABB logiques à partir des capacités et exigences, clarifier leurs interfaces et relations, puis évaluer les SBB candidats qui peuvent les réaliser.
+A. Définir les ABB logiques à partir des capacités et exigences, clarifier leurs interfaces, puis évaluer les SBB candidats pour les réaliser.
 
 B. Traiter le moteur déjà en place comme ABB officiel et obliger tous les projets à adopter son produit avant de vérifier les requirements.
 
@@ -390,7 +390,7 @@ A. Révolutionnaire pour les trois, car elle minimise toujours les risques de d�
 
 B. Évolutive pour les trois, car toute entreprise existante doit conserver indéfiniment des solutions en parallèle.
 
-C. Distinguer greenfield pour le service neuf, revolutionary pour la bascule radicale, evolutionary pour la migration progressive ; justifier chaque choix par valeur, dépendances, risque et readiness.
+C. Distinguer greenfield (service neuf), revolutionary (bascule radicale) et evolutionary (migration progressive), en justifiant chaque choix par valeur, risque et readiness.
 
 D. Classifier les trois transformations et comparer les coûts de migration et la durée de coexistence, puis différer l'analyse de readiness des équipes et des impacts opérationnels.
 

@@ -140,7 +140,7 @@ A. Conserver le cycle ADM comme référence et supprimer plusieurs validations m
 
 B. Appliquer les mêmes livrables de gouvernance à toutes les équipes, mais réduire leur format et leur fréquence pour limiter l'effort.
 
-C. Tailorer l'ADM et la gouvernance selon le contexte tout en préservant les objectifs essentiels, en fixant des seuils d'escalade et une gouvernance proportionnée au risque des initiatives.
+C. Tailorer l'ADM et la gouvernance selon le contexte en préservant les objectifs essentiels, avec des seuils d'escalade proportionnés au risque.
 
 D. Exempter les produits agiles de toute revue de conformité et faire auditer uniquement la Target Technology Architecture globale.
 
@@ -158,7 +158,7 @@ B. Faire analyser en urgence le périmètre de conservation par le DPO et prépa
 
 C. Prévoir un changement post-go-live pour la conservation en supposant que l'instance réglementaire acceptera une dérogation.
 
-D. Mettre à jour stakeholder analysis, requirements et views pertinentes, puis analyser les impacts, en explicitant l'obligation, les nouveaux requirements et les impacts de modification avant la validation suivante.
+D. Mettre à jour stakeholder analysis, requirements et views pertinentes, en explicitant l'obligation, puis analyser les impacts avant la validation suivante.
 
 ## P3 — Phase A
 
@@ -170,11 +170,11 @@ Une plateforme de paiement est demandée pour soutenir une stratégie de croissa
 
 A. Établir un business case exploratoire avec deux outcomes possibles et solliciter l'accord des principaux métiers avant de rédiger la Vision complète.
 
-B. Clarifier drivers, value proposition, scope et critères de succès dans Phase A, avec des indicateurs de bénéfices, hypothèses d'investissement et limites de portée explicites.
+B. Clarifier en Phase A drivers, value proposition, scope et critères de succès, avec des bénéfices mesurables.
 
 C. Demander aux équipes de delivery de commencer l'implémentation du composant principal afin de produire rapidement des coûts observés.
 
-D. Présenter une première Architecture Roadmap de solutions candidates pour faciliter la discussion, même si les bénéfices ne sont pas encore validés.
+D. Présenter une première Architecture Roadmap de solutions candidates pour faciliter la discussion, même si les bénéfices ne sont pas encore validés par les métiers.
 
 ## P4 — B/C/D
 
@@ -190,7 +190,7 @@ B. Lister les règles métier critiques et les exceptions puis établir un premi
 
 C. Définir une plateforme technique commune qui hébergera les workflows existants, puis adapter les responsabilités métier aux contraintes du produit.
 
-D. Commencer par Business Architecture pour définir la cible métier avant de figer Application et Technology Architectures, en définissant la capacité, les processus et ownership métier avant de dériver les domaines Data/Application/Technology.
+D. Définir d'abord la cible métier (capacités, processus, ownership) avant de dériver Data, Application et Technology.
 
 ## P5 — E/F/G
 
@@ -200,11 +200,11 @@ Les work packages ont été approuvés et les équipes commencent à développer
 
 **Quelle action est la plus adaptée ?**
 
-A. Phase G avec Architecture Contract/Compliance mechanisms, avec Architecture Contract, Compliance Reviews, preuves et décisions tracées pendant l'implémentation.
+A. Phase G : s'appuyer sur l'Architecture Contract et les Compliance Reviews, avec preuves et décisions tracées à l'implémentation.
 
 B. Organiser une première revue de conformité sur l'interface commune et enregistrer l'exception candidate, puis compléter le contrat d'architecture.
 
-C. Réviser le classement des work packages à la lumière du choix de protocole, sans traiter encore l'implémentation du contrôle d'accès.
+C. Réviser le classement des work packages à la lumière du choix de protocole, sans traiter encore l'implémentation du contrôle d'accès ni les exceptions déjà signalées.
 
 D. Modifier la Target pour refléter les protocoles choisis par les développeurs et considérer que la conformité est acquise.
 
@@ -220,7 +220,7 @@ A. Vérifier les impacts sur standards et requirements, puis autoriser le change
 
 B. Conserver la version actuelle jusqu'au prochain cycle de stratégie parce qu'une modification après go-live est toujours disruptive.
 
-C. Évaluer le changement et appliquer une réponse proportionnée si l'impact est mineur, et enregistrer l'analyse de non-impact ainsi que le traitement opérationnel correspondant.
+C. Évaluer le changement, puis, si l'impact est mineur, appliquer une réponse proportionnée et enregistrer l'analyse de non-impact et le traitement opérationnel.
 
 D. Regrouper le patch avec les autres changements d'architecture mineurs pour décider d'une prochaine architecture cible commune.
 
@@ -232,9 +232,9 @@ Deux options d'implémentation satisfont la même exigence d'audit : l'une conse
 
 **Quelle action est la plus adaptée ?**
 
-A. Tracer la requirement, comparer les options et conserver la décision et sa justification, jusqu'aux building blocks, aux critères de validation, aux risques et à la décision d'architecture.
+A. Tracer la requirement jusqu'aux building blocks, comparer les options et conserver la décision justifiée.
 
-B. Utiliser la technologie déjà en place comme solution de référence et accepter les risques restants sans les présenter au comité.
+B. Utiliser la technologie déjà en place comme solution de référence et accepter les risques restants sans les présenter au comité d'architecture.
 
 C. Choisir la solution qui satisfait le mieux le SLA opérationnel, puis mesurer les autres contraintes après la première vague.
 
@@ -250,7 +250,7 @@ Une banque relie un système de règlement et une application de rapprochement q
 
 A. Documenter les modèles de données et les correspondances de statut, puis valider la sémantique avec les propriétaires de processus.
 
-B. Effectuer une analyse d'interoperability couvrant dimensions pertinentes avant de choisir les adaptations, avec analyse des dimensions métier, information et technologie et gouvernance des contrats d'échange.
+B. Analyser l'interoperability dans ses dimensions métier, information et technologie, ainsi que la gouvernance des échanges, avant de choisir les adaptations.
 
 C. Installer une passerelle de conversion pour harmoniser les schémas de message sans revoir l'interprétation métier des événements.
 
