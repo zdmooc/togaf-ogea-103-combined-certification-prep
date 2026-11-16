@@ -51,6 +51,13 @@ Pour simuler correctement OGEA-103, traite les deux parties séparément et exig
 - Score de référence **Practice Test 2 : 39/40 (97,5 %)** le 15/11/2026 ; cumul des deux tests : **76/80 (95 %)**.
 - Comme le Test 1, ce sujet est **Foundation uniquement** et **n'ajoute ni ne modifie** les six simulations Combined.
 
+## Examen Foundation autonome — Practice Test 3 (ajout du 16 novembre 2026)
+
+- [**40 QCM pédagogiques reformulés**](foundation-udemy-revision-2026-11-16-test-03-exam.md) : révision autonome des 40 notions du troisième examen blanc Udemy, schémas transformés en descriptions textuelles.
+- [**Corrigé détaillé des 40 questions**](corrections/foundation-udemy-revision-2026-11-16-test-03-correction.md) : bonnes réponses, explications, différences entre les concepts, et corrections des erreurs à **Q18 (Viewpoint vs Concern)** et **Q37 (Architecture Requirements Specification vs Architecture Contract)**.
+- Score Udemy du **Practice Test 3 : 38/40 (95 %)**. Cumul Tests 1–3 : **114/120 (95 %)**.
+- Ce complément porte uniquement sur **Foundation** ; les six examens **Combined OGEA-103** existants sont conservés.
+
 ## Méthode recommandée
 
 1. Chronométrer 60 minutes pour Part 1.
