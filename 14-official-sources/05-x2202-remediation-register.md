@@ -48,6 +48,7 @@ La sélection des distracteurs reste une revue **qualitative** : une longueur co
 ## Résultats supplémentaires du contrôle final de contenu
 
 - [x] Foundation 7.3 : **16 livrables** vérifiés dans le syllabus et décrits dans le cours ; 16 QCM `D01–D16` avec corrigés dédiés.
+- [x] Série `O01–O30` aux formats de l'examen officiel (associations, lecture de tableau, réponses courtes), ajoutée le 14 nov. 2026 après comparaison de forme avec le test d'entraînement officiel Part 1 ; questions originales, rattachées à 19 objectifs L1 dans la matrice.
 - [x] Glossaire Foundation 2.1 : terme `Digital Architecture` rétabli.
 - [x] Contrôle CI complémentaire sur **140 scénarios Practitioner** et **16 exercices de livrables** (présence des options, quatre notes, justifications et clés).
 - [x] Écran lexical contre les formulations inter-examens presque identiques, après retrait des introductions génériques ; ce contrôle ne garantit pas l'unicité sémantique.
